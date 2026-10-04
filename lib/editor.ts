@@ -1,6 +1,15 @@
 import type { TeletextEdition, TeletextStory } from "./types";
 import type { XSignalBundle } from "./x";
 
+type EditedStory = {
+  category: string;
+  headline: string;
+  paragraphs: string[];
+  highlightParagraph: number | null;
+  trend: string;
+  sources: Array<{ label: string; url: string }>;
+};
+
 const schema = {
   type: "object",
   additionalProperties: false,
@@ -128,23 +137,26 @@ ${JSON.stringify(compactPosts)}
   }
 
   const parsedResponse = await response.json();
-  const parsed = JSON.parse(outputText(parsedResponse)) as {
-    stories: Array<Omit<TeletextStory, "page" | "sourcePosts">>;
-  };
+  const parsed = JSON.parse(outputText(parsedResponse)) as { stories: EditedStory[] };
 
-  const stories: TeletextStory[] = parsed.stories.map((story, index) => ({
-    ...story,
-    page: 101 + index,
-    sourcePosts: signals.posts
-      .filter((post) => post.text.toLowerCase().includes(story.trend.toLowerCase().replace(/^#/, "")))
-      .slice(0, 3)
-      .map((post) => ({
-        id: post.id,
-        username: post.username,
-        text: post.text,
-        url: post.url
-      }))
-  }));
+  const stories: TeletextStory[] = parsed.stories.map((story, index) => {
+    const trendNeedle = story.trend.toLowerCase().replace(/^#/, "").trim();
+    return {
+      ...story,
+      page: 101 + index,
+      sourcePosts: trendNeedle
+        ? signals.posts
+            .filter((post) => post.text.toLowerCase().includes(trendNeedle))
+            .slice(0, 3)
+            .map((post) => ({
+              id: post.id,
+              username: post.username,
+              text: post.text,
+              url: post.url
+            }))
+        : []
+    };
+  });
 
   return {
     updatedAt: new Date().toISOString(),
