@@ -43,11 +43,6 @@ function SectionIndex({
 }) {
   return (
     <div className="teletext-page" aria-label={title}>
-      <div className="tt-meta">
-        <span>{page}</span>
-        <span>{compactDate(updatedAt)}</span>
-        <span>{compactTime(updatedAt)}</span>
-      </div>
       <div className="tt-blue-title">{title}</div>
       <div className="tt-index">
         {stories.length ? (
@@ -82,11 +77,6 @@ function StoryPage({
 }) {
   return (
     <div className="teletext-page" aria-label={story.headline}>
-      <div className="tt-meta">
-        <span>{story.page}</span>
-        <span>{compactDate(updatedAt)}</span>
-        <span>{compactTime(updatedAt)}</span>
-      </div>
       <h1 className="tt-headline">{story.headline}</h1>
       <div className="tt-copy">
         {story.paragraphs.map((paragraph, index) => (
@@ -162,6 +152,12 @@ export default function TeletextApp({
   const [pageInput, setPageInput] = useState(String(initialPage));
   const touchStart = useRef<number | null>(null);
   const story = edition.stories.find((item) => item.page === initialPage);
+  const activeSection =
+    initialPage >= 100 && initialPage < 200 ? 100 :
+    initialPage >= 200 && initialPage < 300 ? 200 :
+    initialPage >= 300 && initialPage < 400 ? 300 :
+    initialPage >= 400 && initialPage < 500 ? 400 :
+    initialPage === 700 ? 700 : 100;
 
   const pageContent = useMemo(() => {
     if (initialPage === 100) return { kind: "index" as const, title: "NEWS", stories: edition.stories };
@@ -208,7 +204,7 @@ export default function TeletextApp({
         <button className="brand" onClick={() => navigate(100)} aria-label="Teletext home">txt</button>
         <nav className="top-tabs" aria-label="Teletext sections">
           {sectionTabs.map((tab) => (
-            <button key={tab.page} onClick={() => navigate(tab.page)} className={initialPage === tab.page ? "top-tab active" : "top-tab"}>
+            <button key={tab.page} onClick={() => navigate(tab.page)} className={activeSection === tab.page ? "top-tab active" : "top-tab"}>
               <span>{tab.page}</span> <strong>{tab.label}</strong>
             </button>
           ))}
@@ -238,13 +234,8 @@ export default function TeletextApp({
       </div>
 
       <div className="mode-toggle" role="group" aria-label="Display mode">
-        <button className={mode === "txt" ? "selected" : ""} onClick={() => setMode("txt")}>TXT</button>
+        <button className={mode === "txt" ? "selected" : ""} onClick={() => setMode("txt")}>TV</button>
         <button className={mode === "web" ? "selected" : ""} onClick={() => setMode("web")}>Web</button>
-      </div>
-
-      <div className="edition-note">
-        <span className={edition.mode === "live" ? "live-dot" : "demo-dot"} />
-        {edition.mode === "live" ? "Live · based on current X trends" : "Demo · add API credentials to go live"}
       </div>
 
       <footer className="site-footer">
