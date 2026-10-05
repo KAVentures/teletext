@@ -517,3 +517,125 @@ Return only the requested structured output.
     query
   };
 }
+
+export async function buildTopicEditionWithXWebSearch({
+  query,
+  language
+}: {
+  query: string;
+  language: string;
+}): Promise<TeletextEdition> {
+  const apiKey = process.env.XAI_API_KEY;
+  if (!apiKey) throw new Error("XAI_API_KEY is not configured");
+
+  const model = process.env.XAI_MODEL || "grok-4.7";
+  const outputLanguage = languageNames[language] || "English";
+
+  const prompt = `
+Create a fast Teletext briefing about this exact topic: "${query}".
+
+Use Web Search restricted to x.com to find the freshest relevant public X posts. Keep the search shallow and cheap: make one focused search pass if possible and stop once you have enough evidence for 1-3 concise updates.
+
+Write in ${outputLanguage}. Treat posts as claims/evidence, not automatic truth. Attribute uncertain claims clearly.
+
+For every story, "sources" must contain ONLY actual x.com post/status URLs that you used. Do not cite profile pages, search pages, or invented URLs.
+
+Headline: about 55 characters maximum.
+Each story: 1-2 compact paragraphs.
+Return only the requested structured output.
+`;
+
+  const response = await fetch("https://api.x.ai/v1/responses", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      model,
+      reasoning: { effort: "low" },
+      prompt_cache_key: "teletext-topic-xweb-v1",
+      input: prompt,
+      tools: [{
+        type: "web_search",
+        allowed_domains: ["x.com"]
+      }],
+      store: false,
+      text: {
+        format: {
+          type: "json_schema",
+          name: "teletext_topic_xweb",
+          strict: true,
+          schema: topicToolSchema
+        }
+      }
+    }),
+    cache: "no-store"
+  });
+
+  if (!response.ok) {
+    const error = await response.text();
+    throw new Error(`xAI X-web topic editor failed (${response.status}): ${error.slice(0, 600)}`);
+  }
+
+  const raw = await response.json();
+  logUsage("topic_x_web_search", raw);
+  const parsed = JSON.parse(outputText(raw)) as {
+    stories: Array<{
+      category: string;
+      headline: string;
+      paragraphs: string[];
+      highlightParagraph: number | null;
+      sources: Array<{ label: string; url: string }>;
+    }>;
+  };
+
+  const allCitations = Array.isArray(raw?.citations)
+    ? raw.citations.filter((url: unknown): url is string =>
+        typeof url === "string" &&
+        /https:\/\/(?:www\.)?x\.com\/[^/]+\/status\/\d+/i.test(url)
+      )
+    : [];
+
+  const stories: TeletextStory[] = parsed.stories.map((story, index) => {
+    let sources = safeSources(story.sources).filter((source) =>
+      /https:\/\/(?:www\.)?x\.com\/[^/]+\/status\/\d+/i.test(source.url)
+    );
+
+    if (!sources.length) {
+      sources = allCitations.slice(0, 4).map((url: string, sourceIndex: number) => ({
+        label: `X source ${sourceIndex + 1}`,
+        url
+      }));
+    }
+
+    if (!sources.length) {
+      throw new Error("X-restricted web search returned no usable X post URLs");
+    }
+
+    return {
+      page: 901 + index,
+      category: story.category,
+      headline: story.headline,
+      paragraphs: story.paragraphs,
+      highlightParagraph: story.highlightParagraph,
+      trend: query,
+      sources,
+      sourcePosts: sources.map((source, sourceIndex) => ({
+        id: `${901 + index}-${sourceIndex}`,
+        text: source.label,
+        url: source.url
+      }))
+    };
+  });
+
+  return {
+    updatedAt: new Date().toISOString(),
+    mode: "live",
+    basis: `Latest public X posts about "${query}", found through a low-cost X-restricted web search and summarized by Grok 4.7.`,
+    trends: [query],
+    stories,
+    language,
+    query
+  };
+}
