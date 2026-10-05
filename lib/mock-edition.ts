@@ -71,8 +71,8 @@ export const mockEdition: TeletextEdition = {
       category: "NEXT",
       headline: "Add credentials to switch on live mode",
       paragraphs: [
-        "Set X_BEARER_TOKEN and XAI_API_KEY in the Vercel project settings.",
-        "The worldwide X trend feed is the default. X_WOEID can later switch the geographic trend source.",
+        "Set XAI_API_KEY in the Vercel project settings. Grok then searches X directly.",
+        "The default edition asks Grok 4.6 to identify the current worldwide X conversation in real time.",
         "No secrets are exposed to the browser."
       ],
       highlightParagraph: 0,
