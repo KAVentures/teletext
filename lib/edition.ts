@@ -2,43 +2,52 @@ import { unstable_cache } from "next/cache";
 import { mockEdition } from "./mock-edition";
 import {
   buildGlobalBaseEdition,
-  buildTopicBaseWithGrokSearch,
-  buildTopicBaseWithXWebSearch,
-  buildTopicEditionFromPosts,
+  fetchProfileEdition,
   translateEdition
 } from "./editor";
-import { assertGlobalGenerationBudget, assertTopicGenerationBudget } from "./budget";
-import { searchXTopic } from "./x";
-import type { TeletextEdition } from "./types";
+import type { TeletextEdition, TeletextStory } from "./types";
 
 export const supportedLanguages = ["en", "sv", "de", "es", "fr"] as const;
 
-const GLOBAL_REVALIDATE_SECONDS = 4 * 60 * 60;
-const TOPIC_REVALIDATE_SECONDS = 24 * 60 * 60;
+const GLOBAL_REVALIDATE_SECONDS = 24 * 60 * 60;
+const PROFILE_REVALIDATE_SECONDS = 7 * 24 * 60 * 60;
 const TRANSLATION_REVALIDATE_SECONDS = 24 * 60 * 60;
+const MAX_HANDLES = 5;
 
 export function normalizeLanguage(value?: string) {
   const lang = (value || "en").toLowerCase();
   return supportedLanguages.includes(lang as (typeof supportedLanguages)[number]) ? lang : "en";
 }
 
-export function normalizeQuery(value?: string) {
-  return (value || "").trim().replace(/\s+/g, " ").slice(0, 120);
+export function normalizeHandle(value?: string) {
+  const cleaned = (value || "").trim().replace(/^@+/, "");
+  if (!/^[A-Za-z0-9_]{1,15}$/.test(cleaned)) return "";
+  return cleaned.toLowerCase();
 }
 
-function canonicalQuery(value?: string) {
-  return normalizeQuery(value).toLocaleLowerCase("en-US");
+export function normalizeHandles(value?: string | string[]) {
+  const raw = Array.isArray(value) ? value : (value || "").split(",");
+  const handles: string[] = [];
+
+  for (const item of raw) {
+    const handle = normalizeHandle(item);
+    if (!handle || handles.includes(handle)) continue;
+    handles.push(handle);
+    if (handles.length >= MAX_HANDLES) break;
+  }
+
+  return handles;
 }
 
-function errorEdition(query: string, language: string, message: string): TeletextEdition {
+function errorEdition(language: string, message: string, handles?: string[]): TeletextEdition {
   return {
     updatedAt: new Date().toISOString(),
     mode: "error",
     basis: message,
-    trends: query ? [query] : [],
+    trends: [],
     stories: [],
     language,
-    ...(query ? { query } : {})
+    ...(handles?.length ? { handles } : {})
   };
 }
 
@@ -50,57 +59,15 @@ async function buildGlobalBase(): Promise<TeletextEdition> {
     throw new Error("XAI_API_KEY is not configured");
   }
 
-  await assertGlobalGenerationBudget();
   return buildGlobalBaseEdition();
 }
 
-async function fetchTopicEvidence(queryKey: string) {
-  if (!process.env.X_BEARER_TOKEN) {
-    throw new Error("X_BEARER_TOKEN is required for direct topic search");
-  }
-  return searchXTopic(queryKey);
-}
-
-const cachedTopicEvidence = unstable_cache(
-  fetchTopicEvidence,
-  ["teletext-topic-evidence-v3"],
-  { revalidate: TOPIC_REVALIDATE_SECONDS, tags: ["teletext-topic-evidence"] }
-);
-
-async function buildTopicBase(queryKey: string): Promise<TeletextEdition> {
+async function buildProfile(handle: string): Promise<TeletextEdition> {
   if (!process.env.XAI_API_KEY) {
-    if (process.env.NODE_ENV !== "production") {
-      return {
-        ...mockEdition,
-        updatedAt: new Date().toISOString(),
-        language: "en",
-        query: queryKey,
-        stories: mockEdition.stories.map((story, index) => ({ ...story, page: 901 + index }))
-      };
-    }
     throw new Error("XAI_API_KEY is not configured");
   }
 
-  await assertTopicGenerationBudget();
-
-  if ((process.env.X_DIRECT_TOPIC_SEARCH || "false").toLowerCase() === "true") {
-    try {
-      const posts = await cachedTopicEvidence(queryKey);
-      return await buildTopicEditionFromPosts({
-        query: queryKey,
-        posts
-      });
-    } catch (directError) {
-      console.warn("Direct X topic search unavailable; using xAI search path", directError);
-    }
-  }
-
-  try {
-    return await buildTopicBaseWithXWebSearch(queryKey);
-  } catch (webFallbackError) {
-    console.warn("X-restricted web search unavailable; falling back to native xAI X Search", webFallbackError);
-    return buildTopicBaseWithGrokSearch(queryKey);
-  }
+  return fetchProfileEdition(handle);
 }
 
 async function translateSerializedEdition(
@@ -113,23 +80,23 @@ async function translateSerializedEdition(
 
 const cachedGlobalBase = unstable_cache(
   buildGlobalBase,
-  ["teletext-global-base-v8"],
+  ["teletext-global-base-v9"],
   { revalidate: GLOBAL_REVALIDATE_SECONDS, tags: ["teletext-global-base"] }
 );
 
-const cachedTopicBase = unstable_cache(
-  buildTopicBase,
-  ["teletext-topic-base-v8"],
-  { revalidate: TOPIC_REVALIDATE_SECONDS, tags: ["teletext-topic-base"] }
+const cachedProfile = unstable_cache(
+  buildProfile,
+  ["teletext-profile-v1"],
+  { revalidate: PROFILE_REVALIDATE_SECONDS, tags: ["teletext-profile"] }
 );
 
 const cachedTranslation = unstable_cache(
   translateSerializedEdition,
-  ["teletext-edition-translation-v2"],
+  ["teletext-edition-translation-v3"],
   { revalidate: TRANSLATION_REVALIDATE_SECONDS, tags: ["teletext-translation"] }
 );
 
-async function localizeEdition(
+async function localizeGlobal(
   edition: TeletextEdition,
   language: string
 ): Promise<TeletextEdition> {
@@ -140,56 +107,101 @@ async function localizeEdition(
   return cachedTranslation(JSON.stringify(edition), language);
 }
 
-export async function getEdition({
-  query,
-  language
-}: {
-  query?: string;
-  language?: string;
-}) {
+export async function getGlobalEdition(language?: string) {
   const lang = normalizeLanguage(language);
-  const displayQuery = normalizeQuery(query);
 
   try {
-    if (!displayQuery) {
-      const base = await cachedGlobalBase();
-      return await localizeEdition(base, lang);
-    }
-
-    const queryKey = canonicalQuery(displayQuery);
-    const base = await cachedTopicBase(queryKey);
-    const localized = await localizeEdition(base, lang);
-
-    return {
-      ...localized,
-      query: displayQuery,
-      trends: [displayQuery]
-    };
+    const base = await cachedGlobalBase();
+    return await localizeGlobal(base, lang);
   } catch (error) {
-    console.error("Edition generation failed without caching fallback", error);
-    const message = error instanceof Error ? error.message : "Unknown error";
-    const budgetLimited = /budget|rate limit|try again later/i.test(message);
-
+    console.error("Global edition generation failed", error);
     return errorEdition(
-      displayQuery,
       lang,
-      budgetLimited
-        ? "Search capacity is paused to keep daily API costs under control. Please try again later."
-        : displayQuery
-          ? `Could not refresh "${displayQuery}" right now. Please retry in a moment.`
-          : "Could not refresh the live edition right now. Please retry in a moment."
+      "Could not refresh the live edition right now. Please retry later."
     );
   }
 }
 
-export function makeSearchShellEdition(language?: string): TeletextEdition {
+export async function getMyXEdition({
+  handles,
+  language
+}: {
+  handles?: string | string[];
+  language?: string;
+}) {
+  const lang = normalizeLanguage(language);
+  const selected = normalizeHandles(handles);
+
+  if (!selected.length) {
+    return makeMyXShellEdition(lang);
+  }
+
+  const results = await Promise.allSettled(
+    selected.map((handle) => cachedProfile(handle))
+  );
+
+  const stories: TeletextStory[] = [];
+  const failed: string[] = [];
+
+  results.forEach((result, profileIndex) => {
+    const handle = selected[profileIndex];
+
+    if (result.status === "rejected") {
+      failed.push(handle);
+      console.error(`Profile fetch failed for @${handle}`, result.reason);
+      return;
+    }
+
+    for (const story of result.value.stories) {
+      stories.push({
+        ...story,
+        category: `@${handle}`,
+        trend: `@${handle}`
+      });
+    }
+  });
+
+  if (!stories.length) {
+    return errorEdition(
+      lang,
+      "Could not load these X profiles right now. Please try again later.",
+      selected
+    );
+  }
+
+  stories.sort((a, b) => {
+    const aTime = a.publishedAt ? Date.parse(a.publishedAt) : 0;
+    const bTime = b.publishedAt ? Date.parse(b.publishedAt) : 0;
+    return bTime - aTime;
+  });
+
+  const numbered = stories.slice(0, 10).map((story, index) => ({
+    ...story,
+    page: 501 + index
+  }));
+
+  return {
+    updatedAt: new Date().toISOString(),
+    mode: "live" as const,
+    basis: failed.length
+      ? `Recent posts from your selected X profiles. Could not refresh: ${failed.map((h) => `@${h}`).join(", ")}.`
+      : "Recent posts from your selected X profiles. Post text stays in its original language to keep My X extremely cheap.",
+    trends: selected.map((handle) => `@${handle}`),
+    stories: numbered,
+    language: lang,
+    handles: selected
+  };
+}
+
+export function makeMyXShellEdition(language?: string): TeletextEdition {
   const lang = normalizeLanguage(language);
   return {
     updatedAt: new Date().toISOString(),
     mode: "live",
-    basis: "Search X for any topic and turn the latest conversation into a Teletext briefing.",
+    basis: "Add up to five X profiles. Their recent posts become your personal Teletext pages.",
     trends: [],
     stories: [],
-    language: lang
+    language: lang,
+    handles: []
   };
 }
