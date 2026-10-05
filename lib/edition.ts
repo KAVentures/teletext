@@ -1,6 +1,6 @@
 import { unstable_cache } from "next/cache";
 import { mockEdition } from "./mock-edition";
-import { buildGlobalEditionWithGrok, buildTopicEditionFromPosts } from "./editor";
+import { buildGlobalEditionWithGrok, buildTopicEditionFromPosts, buildTopicEditionWithGrokSearch } from "./editor";
 import { searchXTopic } from "./x";
 import type { TeletextEdition } from "./types";
 
@@ -67,9 +67,18 @@ async function buildTopic(queryKey: string, language: string): Promise<TeletextE
       language,
       posts
     });
-  } catch (error) {
-    console.error("Topic edition generation failed", error);
-    return fallbackEdition(queryKey, language);
+  } catch (directError) {
+    console.warn("Direct X topic search unavailable; falling back to xAI X Search", directError);
+
+    try {
+      return await buildTopicEditionWithGrokSearch({
+        query: queryKey,
+        language
+      });
+    } catch (fallbackError) {
+      console.error("Topic edition generation failed", fallbackError);
+      return fallbackEdition(queryKey, language);
+    }
   }
 }
 
