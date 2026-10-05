@@ -1,5 +1,10 @@
 import { notFound, redirect } from "next/navigation";
-import { getEdition, makeSearchShellEdition, normalizeLanguage, normalizeQuery } from "@/lib/edition";
+import {
+  getGlobalEdition,
+  getMyXEdition,
+  normalizeHandles,
+  normalizeLanguage
+} from "@/lib/edition";
 import TeletextApp from "@/components/TeletextApp";
 
 export const revalidate = 60;
@@ -9,34 +14,44 @@ export default async function Page({
   searchParams
 }: {
   params: Promise<{ page: string }>;
-  searchParams: Promise<{ q?: string | string[]; lang?: string | string[] }>;
+  searchParams: Promise<{
+    lang?: string | string[];
+    u?: string | string[];
+    q?: string | string[];
+  }>;
 }) {
   const { page } = await params;
   if (!/^\d{3}$/.test(page)) notFound();
 
   const numericPage = Number(page);
   const queryParams = await searchParams;
-  const rawQuery = Array.isArray(queryParams.q) ? queryParams.q[0] : queryParams.q;
   const rawLanguage = Array.isArray(queryParams.lang) ? queryParams.lang[0] : queryParams.lang;
+  const rawHandles = Array.isArray(queryParams.u) ? queryParams.u[0] : queryParams.u;
   const language = normalizeLanguage(rawLanguage);
-  const isSearchPage = numericPage >= 900 && numericPage < 1000;
-  const query = isSearchPage ? normalizeQuery(rawQuery) : "";
+  const handles = normalizeHandles(rawHandles);
 
-  if (numericPage > 900 && numericPage < 1000 && !query) {
-    redirect("/900?lang=" + encodeURIComponent(language));
+  // Old free-text search links now land on My X rather than triggering paid search.
+  if (numericPage >= 900 && numericPage < 1000) {
+    const suffix = handles.length ? `&u=${encodeURIComponent(handles.join(","))}` : "";
+    redirect(`/500?lang=${encodeURIComponent(language)}${suffix}`);
   }
 
-  const edition =
-    numericPage === 900 && !query
-      ? makeSearchShellEdition(language)
-      : await getEdition({ query: query || undefined, language });
+  const isMyXPage = numericPage >= 500 && numericPage < 600;
+
+  if (numericPage > 500 && numericPage < 600 && !handles.length) {
+    redirect("/500?lang=" + encodeURIComponent(language));
+  }
+
+  const edition = isMyXPage
+    ? await getMyXEdition({ handles, language })
+    : await getGlobalEdition(language);
 
   return (
     <TeletextApp
       initialPage={numericPage}
       edition={edition}
-      initialQuery={query}
       initialLanguage={language}
+      initialHandles={handles}
     />
   );
 }
