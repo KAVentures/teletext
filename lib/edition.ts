@@ -177,7 +177,7 @@ export async function getMyXEdition({
 
   const numbered = stories.slice(0, 10).map((story, index) => ({
     ...story,
-    page: 501 + index
+    page: 801 + index
   }));
 
   return {
