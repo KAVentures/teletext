@@ -60,33 +60,38 @@ const cachedTopicEvidence = unstable_cache(
 async function buildTopic(queryKey: string, language: string): Promise<TeletextEdition> {
   if (!process.env.XAI_API_KEY) return fallbackEdition(queryKey, language);
 
+  // Default to the cheaper x.com-restricted web-search path. Direct X API topic
+  // reads are optional because they require separate X credits and currently cost
+  // more predictably per post. Set X_DIRECT_TOPIC_SEARCH=true to prefer them.
+  if ((process.env.X_DIRECT_TOPIC_SEARCH || "false").toLowerCase() === "true") {
+    try {
+      const posts = await cachedTopicEvidence(queryKey);
+      return await buildTopicEditionFromPosts({
+        query: queryKey,
+        language,
+        posts
+      });
+    } catch (directError) {
+      console.warn("Direct X topic search unavailable; using xAI search path", directError);
+    }
+  }
+
   try {
-    const posts = await cachedTopicEvidence(queryKey);
-    return await buildTopicEditionFromPosts({
+    return await buildTopicEditionWithXWebSearch({
       query: queryKey,
-      language,
-      posts
+      language
     });
-  } catch (directError) {
-    console.warn("Direct X topic search unavailable; trying X-restricted web search", directError);
+  } catch (webFallbackError) {
+    console.warn("X-restricted web search unavailable; falling back to native xAI X Search", webFallbackError);
 
     try {
-      return await buildTopicEditionWithXWebSearch({
+      return await buildTopicEditionWithGrokSearch({
         query: queryKey,
         language
       });
-    } catch (webFallbackError) {
-      console.warn("X-restricted web search unavailable; falling back to native xAI X Search", webFallbackError);
-
-      try {
-        return await buildTopicEditionWithGrokSearch({
-          query: queryKey,
-          language
-        });
-      } catch (fallbackError) {
-        console.error("Topic edition generation failed", fallbackError);
-        return fallbackEdition(queryKey, language);
-      }
+    } catch (fallbackError) {
+      console.error("Topic edition generation failed", fallbackError);
+      return fallbackEdition(queryKey, language);
     }
   }
 }
