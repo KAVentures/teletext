@@ -1,5 +1,4 @@
 import type { TeletextEdition, TeletextStory } from "./types";
-import type { XSignalBundle } from "./x";
 
 type EditedStory = {
   category: string;
@@ -59,55 +58,68 @@ function outputText(response: any): string {
   const parts = Array.isArray(response?.output) ? response.output : [];
   for (const item of parts) {
     if (item?.type !== "message" || !Array.isArray(item.content)) continue;
-    for (const content of item.content) {
-      if (content?.type === "output_text" && typeof content.text === "string") return content.text;
+    for (const part of item.content) {
+      if (part?.type === "output_text" && typeof part.text === "string") return part.text;
     }
   }
   throw new Error("xAI response did not contain output text");
 }
 
-export async function editSignalsIntoEdition(signals: XSignalBundle): Promise<TeletextEdition> {
+function isoDate(date: Date) {
+  return date.toISOString().slice(0, 10);
+}
+
+export async function buildTrendingEditionWithGrok(): Promise<TeletextEdition> {
   const apiKey = process.env.XAI_API_KEY;
   if (!apiKey) throw new Error("XAI_API_KEY is not configured");
 
   const model = process.env.XAI_MODEL || "grok-4.6";
   const useWebSearch = (process.env.XAI_WEB_SEARCH || "true").toLowerCase() !== "false";
-  const compactPosts = signals.posts.slice(0, 30).map((post) => ({
-    text: post.text.slice(0, 500),
-    username: post.username || "",
-    engagement: post.engagement,
-    url: post.url || ""
-  }));
+  const now = new Date();
+  const yesterday = new Date(now.getTime() - 24 * 60 * 60 * 1000);
 
   const prompt = `
-You are the editor of a minimalist live Teletext news service.
+You are the editor of a live, worldwide Teletext news service.
 
-The discovery signal is whatever is currently trending on X. Use the supplied X trends and sampled posts to work out WHY people are discussing each trend. Select only the 6-10 items that are genuinely useful as news right now. Do not mechanically include every trend: spam, fandom chatter, memes, duplicate topics and engagement bait can be excluded.
+Use X Search to determine what is genuinely trending and being discussed on X right now, worldwide. Treat X as the live signal layer, not as a truth source. Look for conversations with broad or rapidly rising attention across distinct accounts, not merely one viral post.
+
+Create 6-10 stories that best explain what matters in the current X conversation. The edition should feel like a human editor condensed the chaos of X into a finite news bulletin.
 
 Editorial rules:
-- Popularity is not truth.
-- Never convert an unsupported allegation from X into a factual claim.
-- If web search is available, verify consequential factual claims against primary sources or reputable reporting before writing them.
-- If a claim remains uncertain, attribute it explicitly ("Posts on X are discussing...", "Unconfirmed reports...").
-- Prefer concrete developments over generic discourse.
+- Discover stories from current X activity. Do not rely on stale model knowledge.
+- Popularity is not truth. Never turn an unsupported X allegation into a factual claim.
+- Merge duplicate trends that refer to the same underlying event.
+- Exclude spam, engagement bait, fandom-only noise and context-free memes unless they correspond to genuinely important news.
+- Prefer concrete new developments over generic discourse.
+- When a consequential factual claim is involved, use Web Search to verify it against primary sources or reputable reporting before stating it as fact.
+- If a claim remains uncertain, explicitly attribute it to X discussion or call it unconfirmed.
+- Rank the output from most important to least important.
 - Keep each headline under about 55 characters.
-- Each paragraph should be compact enough for a roughly 40-column Teletext display; normally 1-3 short sentences.
+- Each story should have 2-4 compact paragraphs suitable for a roughly 40-column Teletext display.
+- Use highlightParagraph for the single paragraph that most deserves yellow emphasis, or null.
+- "trend" should be the short X topic/phrase that led to the story.
+- "sources" must contain real URLs you actually relied on, including X URLs when useful.
 - Avoid hype, clickbait and editorializing.
-- Sources must be real URLs you actually relied on. Include original X post URLs when they materially support the story.
-- Output is for a continuously updating worldwide edition.
+- Do not write an introduction. Return only the requested structured edition.
 
-Current X trends:
-${JSON.stringify(signals.trends)}
-
-Sampled recent X posts:
-${JSON.stringify(compactPosts)}
+Current UTC time: ${now.toISOString()}
 `;
 
-  const body: any = {
+  const tools: any[] = [
+    {
+      type: "x_search",
+      from_date: isoDate(yesterday),
+      to_date: isoDate(now)
+    }
+  ];
+  if (useWebSearch) tools.push({ type: "web_search" });
+
+  const body = {
     model,
     input: prompt,
+    tools,
+    store: false,
     text: {
-      verbosity: "low",
       format: {
         type: "json_schema",
         name: "teletext_edition",
@@ -116,10 +128,6 @@ ${JSON.stringify(compactPosts)}
       }
     }
   };
-
-  if (useWebSearch) {
-    body.tools = [{ type: "web_search", search_context_size: "low" }];
-  }
 
   const response = await fetch("https://api.x.ai/v1/responses", {
     method: "POST",
@@ -133,36 +141,30 @@ ${JSON.stringify(compactPosts)}
 
   if (!response.ok) {
     const error = await response.text();
-    throw new Error(`xAI Grok editor failed (${response.status}): ${error.slice(0, 400)}`);
+    throw new Error(`xAI Grok editor failed (${response.status}): ${error.slice(0, 600)}`);
   }
 
-  const parsedResponse = await response.json();
-  const parsed = JSON.parse(outputText(parsedResponse)) as { stories: EditedStory[] };
+  const raw = await response.json();
+  const parsed = JSON.parse(outputText(raw)) as { stories: EditedStory[] };
 
-  const stories: TeletextStory[] = parsed.stories.map((story, index) => {
-    const trendNeedle = story.trend.toLowerCase().replace(/^#/, "").trim();
-    return {
-      ...story,
-      page: 101 + index,
-      sourcePosts: trendNeedle
-        ? signals.posts
-            .filter((post) => post.text.toLowerCase().includes(trendNeedle))
-            .slice(0, 3)
-            .map((post) => ({
-              id: post.id,
-              username: post.username,
-              text: post.text,
-              url: post.url
-            }))
-        : []
-    };
-  });
+  const stories: TeletextStory[] = parsed.stories.map((story, index) => ({
+    ...story,
+    page: 101 + index,
+    sourcePosts: story.sources
+      .filter((source) => source.url.includes("x.com/"))
+      .slice(0, 3)
+      .map((source, sourceIndex) => ({
+        id: `${101 + index}-${sourceIndex}`,
+        text: source.label,
+        url: source.url
+      }))
+  }));
 
   return {
     updatedAt: new Date().toISOString(),
     mode: "live",
-    basis: "Trending on X, edited by AI and web-checked where available.",
-    trends: signals.trends,
+    basis: "Current worldwide X conversation, discovered with Grok 4.6 X Search and web-checked where needed.",
+    trends: parsed.stories.map((story) => story.trend),
     stories
   };
 }
