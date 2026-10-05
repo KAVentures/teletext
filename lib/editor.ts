@@ -63,15 +63,15 @@ function outputText(response: any): string {
       if (content?.type === "output_text" && typeof content.text === "string") return content.text;
     }
   }
-  throw new Error("OpenAI response did not contain output text");
+  throw new Error("xAI response did not contain output text");
 }
 
 export async function editSignalsIntoEdition(signals: XSignalBundle): Promise<TeletextEdition> {
-  const apiKey = process.env.OPENAI_API_KEY;
-  if (!apiKey) throw new Error("OPENAI_API_KEY is not configured");
+  const apiKey = process.env.XAI_API_KEY;
+  if (!apiKey) throw new Error("XAI_API_KEY is not configured");
 
-  const model = process.env.OPENAI_MODEL || "gpt-5";
-  const useWebSearch = (process.env.OPENAI_WEB_SEARCH || "true").toLowerCase() !== "false";
+  const model = process.env.XAI_MODEL || "grok-4.6";
+  const useWebSearch = (process.env.XAI_WEB_SEARCH || "true").toLowerCase() !== "false";
   const compactPosts = signals.posts.slice(0, 30).map((post) => ({
     text: post.text.slice(0, 500),
     username: post.username || "",
@@ -121,7 +121,7 @@ ${JSON.stringify(compactPosts)}
     body.tools = [{ type: "web_search", search_context_size: "low" }];
   }
 
-  const response = await fetch("https://api.openai.com/v1/responses", {
+  const response = await fetch("https://api.x.ai/v1/responses", {
     method: "POST",
     headers: {
       Authorization: `Bearer ${apiKey}`,
@@ -133,7 +133,7 @@ ${JSON.stringify(compactPosts)}
 
   if (!response.ok) {
     const error = await response.text();
-    throw new Error(`OpenAI editor failed (${response.status}): ${error.slice(0, 400)}`);
+    throw new Error(`xAI Grok editor failed (${response.status}): ${error.slice(0, 400)}`);
   }
 
   const parsedResponse = await response.json();
