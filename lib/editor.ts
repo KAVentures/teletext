@@ -820,6 +820,7 @@ Return only the structured output.
     paragraphs: postParagraphs(post.text),
     highlightParagraph: null,
     trend: `@${handle}`,
+    publishedAt: post.createdAt,
     sources: [{ label: `@${handle} on X`, url: post.url }],
     sourcePosts: [{
       id: post.url,
