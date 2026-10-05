@@ -724,3 +724,118 @@ ${JSON.stringify(translationInput)}
     })
   };
 }
+
+const profilePostsSchema = {
+  type: "object",
+  additionalProperties: false,
+  properties: {
+    posts: {
+      type: "array",
+      minItems: 0,
+      maxItems: 2,
+      items: {
+        type: "object",
+        additionalProperties: false,
+        properties: {
+          text: { type: "string" },
+          url: { type: "string" },
+          createdAt: { type: "string" }
+        },
+        required: ["text", "url", "createdAt"]
+      }
+    }
+  },
+  required: ["posts"]
+};
+
+function postHeadline(text: string) {
+  const clean = cleanModelText(text.replace(/https?:\/\/\S+/g, ""));
+  const sentence = clean.split(/(?<=[.!?])\s+/)[0] || clean;
+  return sentence.length <= 55 ? sentence : sentence.slice(0, 52).trimEnd() + "...";
+}
+
+function postParagraphs(text: string) {
+  const clean = cleanModelText(text);
+  if (clean.length <= 360) return [clean];
+  return [clean.slice(0, 357).trimEnd() + "..."];
+}
+
+export async function fetchProfileEdition(handle: string): Promise<TeletextEdition> {
+  const model = process.env.XAI_MODEL || "grok-4.7";
+  const now = new Date();
+  const from = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
+
+  const prompt = `
+Fetch up to TWO of the most recent substantive original posts from @${handle}.
+
+Return the post text, exact x.com status URL, and created timestamp. Prefer original posts over replies/reposts. Do not summarize, analyze, browse the web, fetch profiles, or call any additional tools. If fewer than two suitable posts exist in the period, return fewer.
+
+Return only the structured output.
+`;
+
+  const response = await fetchXaiResponses({
+    model,
+    reasoning: { effort: "low" },
+    max_turns: 1,
+    parallel_tool_calls: false,
+    max_output_tokens: 380,
+    prompt_cache_key: "teletext-profile-posts-v1",
+    input: prompt,
+    tools: [{
+      type: "x_search",
+      allowed_x_handles: [handle],
+      from_date: isoDate(from),
+      to_date: isoDate(now)
+    }],
+    store: false,
+    text: {
+      format: {
+        type: "json_schema",
+        name: "teletext_profile_posts",
+        strict: true,
+        schema: profilePostsSchema
+      }
+    }
+  });
+
+  if (!response.ok) {
+    const error = await response.text();
+    throw new Error(`xAI profile fetch failed (${response.status}): ${error.slice(0, 500)}`);
+  }
+
+  const raw = await response.json();
+  logUsage("profile_posts", raw);
+  const parsed = JSON.parse(outputText(raw)) as {
+    posts: Array<{ text: string; url: string; createdAt: string }>;
+  };
+
+  const posts = parsed.posts
+    .filter((post) => /https:\/\/(?:www\.)?x\.com\/[^/]+\/status\/\d+/i.test(post.url))
+    .slice(0, 2);
+
+  const stories: TeletextStory[] = posts.map((post, index) => ({
+    page: 501 + index,
+    category: `@${handle}`,
+    headline: postHeadline(post.text),
+    paragraphs: postParagraphs(post.text),
+    highlightParagraph: null,
+    trend: `@${handle}`,
+    sources: [{ label: `@${handle} on X`, url: post.url }],
+    sourcePosts: [{
+      id: post.url,
+      username: handle,
+      text: post.text,
+      url: post.url
+    }]
+  }));
+
+  return {
+    updatedAt: new Date().toISOString(),
+    mode: "live",
+    basis: `Recent posts from @${handle} on X.`,
+    trends: [`@${handle}`],
+    stories,
+    language: "original",
+    handles: [handle]
+  };
+}
