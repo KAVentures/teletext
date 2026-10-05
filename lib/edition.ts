@@ -1,6 +1,7 @@
 import { unstable_cache } from "next/cache";
 import { mockEdition } from "./mock-edition";
-import { buildTrendingEditionWithGrok } from "./editor";
+import { buildGlobalEditionWithGrok, buildTopicEditionFromPosts } from "./editor";
+import { searchXTopic } from "./x";
 import type { TeletextEdition } from "./types";
 
 export const supportedLanguages = ["en", "sv", "de", "es", "fr"] as const;
@@ -14,6 +15,10 @@ export function normalizeQuery(value?: string) {
   return (value || "").trim().replace(/\s+/g, " ").slice(0, 120);
 }
 
+function canonicalQuery(value?: string) {
+  return normalizeQuery(value).toLocaleLowerCase("en-US");
+}
+
 function fallbackEdition(query: string, language: string): TeletextEdition {
   const firstPage = query ? 901 : 101;
   return {
@@ -21,33 +26,63 @@ function fallbackEdition(query: string, language: string): TeletextEdition {
     updatedAt: new Date().toISOString(),
     basis: query
       ? `Live topic search failed for "${query}"; showing a safe demo edition instead.`
-      : "Live update failed; showing the safe demo edition. Check server logs and xAI API access.",
+      : "Live update failed; showing a safe demo edition. Check server logs and API access.",
     stories: mockEdition.stories.map((story, index) => ({ ...story, page: firstPage + index })),
     language,
     ...(query ? { query } : {})
   };
 }
 
-async function buildEdition(query: string, language: string): Promise<TeletextEdition> {
-  if (!process.env.XAI_API_KEY) {
-    return fallbackEdition(query, language);
-  }
+async function buildGlobal(language: string): Promise<TeletextEdition> {
+  if (!process.env.XAI_API_KEY) return fallbackEdition("", language);
 
   try {
-    return await buildTrendingEditionWithGrok({
-      query: query || undefined,
-      language
-    });
+    return await buildGlobalEditionWithGrok(language);
   } catch (error) {
-    console.error("Live edition generation failed", error);
-    return fallbackEdition(query, language);
+    console.error("Global edition generation failed", error);
+    return fallbackEdition("", language);
   }
 }
 
-const cachedEdition = unstable_cache(
-  buildEdition,
-  ["teletext-live-edition-v4"],
-  { revalidate: 600, tags: ["teletext-edition"] }
+async function fetchTopicEvidence(queryKey: string) {
+  if (!process.env.X_BEARER_TOKEN) {
+    throw new Error("X_BEARER_TOKEN is required for low-cost topic search");
+  }
+  return searchXTopic(queryKey);
+}
+
+const cachedTopicEvidence = unstable_cache(
+  fetchTopicEvidence,
+  ["teletext-topic-evidence-v1"],
+  { revalidate: 1800, tags: ["teletext-topic-evidence"] }
+);
+
+async function buildTopic(queryKey: string, language: string): Promise<TeletextEdition> {
+  if (!process.env.XAI_API_KEY) return fallbackEdition(queryKey, language);
+
+  try {
+    const posts = await cachedTopicEvidence(queryKey);
+    return await buildTopicEditionFromPosts({
+      query: queryKey,
+      language,
+      posts
+    });
+  } catch (error) {
+    console.error("Topic edition generation failed", error);
+    return fallbackEdition(queryKey, language);
+  }
+}
+
+const cachedGlobalEdition = unstable_cache(
+  buildGlobal,
+  ["teletext-global-edition-v5"],
+  { revalidate: 600, tags: ["teletext-global-edition"] }
+);
+
+const cachedTopicEdition = unstable_cache(
+  buildTopic,
+  ["teletext-topic-edition-v5"],
+  { revalidate: 1800, tags: ["teletext-topic-edition"] }
 );
 
 export async function getEdition({
@@ -57,7 +92,16 @@ export async function getEdition({
   query?: string;
   language?: string;
 }) {
-  return cachedEdition(normalizeQuery(query), normalizeLanguage(language));
+  const lang = normalizeLanguage(language);
+  const displayQuery = normalizeQuery(query);
+
+  if (!displayQuery) {
+    return cachedGlobalEdition(lang);
+  }
+
+  // Cache searches case-insensitively so OpenAI/openai/OPENAI share the same
+  // X fetch and Grok summary. This is a major cost control for popular topics.
+  return cachedTopicEdition(canonicalQuery(displayQuery), lang);
 }
 
 export function makeSearchShellEdition(language?: string): TeletextEdition {
