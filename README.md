@@ -52,7 +52,7 @@ XAI_WEB_SEARCH=true
 
 Because the cache is demand-driven, an idle site does not continually spend API calls. The first request after expiry refreshes the edition.
 
-Topic searches use the X recent-search API directly with a bounded 10-post sample, then ask Grok 4.7 at low reasoning to summarize only those posts. The X evidence and generated topic edition are cached for 30 minutes, and query keys are case-insensitive so repeated searches such as `OpenAI` and `openai` reuse the same work.
+Topic searches default to a low-cost x.com-restricted web search, then Grok 4.7 summarizes the returned X posts at low reasoning. If you explicitly enable `X_DIRECT_TOPIC_SEARCH=true`, the app instead tries the X recent-search API with a bounded 10-post sample. Topic editions are cached for 30 minutes, and query keys are case-insensitive so repeated searches such as `OpenAI` and `openai` reuse the same work.
 
 ## Pages
 
@@ -92,7 +92,8 @@ This project is open source under the **MIT License**. See [LICENSE](./LICENSE) 
 ## Cost and latency controls
 
 - Grok defaults to `grok-4.7` with `reasoning.effort = low`.
-- Topic search fetches at most 10 recent X posts per uncached query before summarization.
+- Topic search defaults to x.com-restricted Web Search; native X Search is only a fallback.
+- Optional direct X API mode fetches at most 10 recent X posts per uncached query before summarization.
 - Topic evidence is cached independently of language for 30 minutes.
 - Topic editions are cached by normalized query + language for 30 minutes.
 - Worldwide editions are cached for 10 minutes.
