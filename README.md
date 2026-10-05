@@ -72,3 +72,11 @@ X activity determines attention, not truth. The prompt explicitly tells the edit
 ## Branding
 
 The product takes inspiration from classic Teletext UI/UX, but uses original branding and should not imply affiliation with SVT or another broadcaster.
+
+## Search, languages and sharing
+
+- Page `900` is a topic search. A query such as `/900?q=OpenAI&lang=sv` asks Grok to search the current X conversation about that exact topic, verify consequential claims on the web, and return topic pages starting at `901`.
+- The current language is encoded in the URL. Supported languages are English, Swedish, German, Spanish and French. Discovery remains global; the selected language controls the generated edition and interface.
+- Live links remain live: sharing `/900?q=OpenAI&lang=sv` gives the recipient the latest version of that search.
+- The Share button creates an immutable snapshot of the exact edition being read. Snapshots are Brotli-compressed into a self-contained `/s?d=...` URL, so v1 still needs no database or user account.
+- Shared snapshots include a Latest link back to the corresponding live topic or front page.
