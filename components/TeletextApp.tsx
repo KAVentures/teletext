@@ -79,11 +79,13 @@ function SectionIndex({
   title,
   stories,
   onNavigate,
+  strings,
   searchMode = false
 }: {
   title: string;
   stories: TeletextStory[];
   onNavigate: (page: number) => void;
+  strings: (typeof ui)["en"];
   searchMode?: boolean;
 }) {
   return (
@@ -105,15 +107,15 @@ function SectionIndex({
       <div className="tt-bottom-strip">
         {searchMode ? (
           <>
-            <button onClick={() => onNavigate(900)}>Search 900</button>
-            <button onClick={() => onNavigate(100)}>News 100</button>
-            <button onClick={() => onNavigate(700)}>Index 700</button>
+            <button onClick={() => onNavigate(900)}>{strings.search} 900</button>
+            <button onClick={() => onNavigate(100)}>{strings.news} 100</button>
+            <button onClick={() => onNavigate(700)}>{strings.index} 700</button>
           </>
         ) : (
           <>
-            <button onClick={() => onNavigate(200)}>World 200</button>
-            <button onClick={() => onNavigate(300)}>Tech 300</button>
-            <button onClick={() => onNavigate(700)}>Index 700</button>
+            <button onClick={() => onNavigate(200)}>{strings.world} 200</button>
+            <button onClick={() => onNavigate(300)}>{strings.tech} 300</button>
+            <button onClick={() => onNavigate(700)}>{strings.index} 700</button>
           </>
         )}
       </div>
@@ -157,9 +159,9 @@ function SearchPage({
       <p className="search-hint">{strings.searchHint}</p>
       <div className="tt-search-spacer" />
       <div className="tt-bottom-strip">
-        <span>News 100</span>
-        <span>Search 900</span>
-        <span>Index 700</span>
+        <span>{strings.news} 100</span>
+        <span>{strings.search} 900</span>
+        <span>{strings.index} 700</span>
       </div>
     </div>
   );
@@ -168,11 +170,13 @@ function SearchPage({
 function StoryPage({
   story,
   onNavigate,
-  searchMode
+  searchMode,
+  strings
 }: {
   story: TeletextStory;
   onNavigate: (page: number) => void;
   searchMode: boolean;
+  strings: (typeof ui)["en"];
 }) {
   return (
     <div className="teletext-page" aria-label={story.headline}>
@@ -187,15 +191,15 @@ function StoryPage({
       <div className="tt-bottom-strip">
         {searchMode ? (
           <>
-            <button onClick={() => onNavigate(900)}>Search 900</button>
-            <button onClick={() => onNavigate(100)}>News 100</button>
-            <button onClick={() => onNavigate(700)}>Index 700</button>
+            <button onClick={() => onNavigate(900)}>{strings.search} 900</button>
+            <button onClick={() => onNavigate(100)}>{strings.news} 100</button>
+            <button onClick={() => onNavigate(700)}>{strings.index} 700</button>
           </>
         ) : (
           <>
-            <button onClick={() => onNavigate(100)}>News 100</button>
-            <button onClick={() => onNavigate(200)}>World 200</button>
-            <button onClick={() => onNavigate(700)}>Index 700</button>
+            <button onClick={() => onNavigate(100)}>{strings.news} 100</button>
+            <button onClick={() => onNavigate(200)}>{strings.world} 200</button>
+            <button onClick={() => onNavigate(700)}>{strings.index} 700</button>
           </>
         )}
       </div>
@@ -453,9 +457,9 @@ export default function TeletextApp({
           pageContent.kind === "search" ? (
             <SearchPage strings={strings} value={searchInput} onChange={setSearchInput} onSubmit={runSearch} />
           ) : pageContent.kind === "story" ? (
-            <StoryPage story={pageContent.story} onNavigate={navigate} searchMode={searchMode} />
+            <StoryPage story={pageContent.story} onNavigate={navigate} searchMode={searchMode} strings={strings} />
           ) : (
-            <SectionIndex title={pageContent.title} stories={pageContent.stories} onNavigate={navigate} searchMode={pageContent.searchMode} />
+            <SectionIndex title={pageContent.title} stories={pageContent.stories} onNavigate={navigate} strings={strings} searchMode={pageContent.searchMode} />
           )
         ) : (
           <WebArticle story={story} edition={edition} language={language} query={query} strings={strings} />
