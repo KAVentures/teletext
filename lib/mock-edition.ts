@@ -3,7 +3,7 @@ import type { TeletextEdition } from "./types";
 export const mockEdition: TeletextEdition = {
   updatedAt: new Date().toISOString(),
   mode: "demo",
-  basis: "Demo edition — add X_BEARER_TOKEN and OPENAI_API_KEY in Vercel to go live.",
+  basis: "Demo edition — add X_BEARER_TOKEN and XAI_API_KEY in Vercel to go live.",
   trends: ["World", "Technology", "Markets", "Science", "Culture", "Sport"],
   stories: [
     {
@@ -13,7 +13,7 @@ export const mockEdition: TeletextEdition = {
       paragraphs: [
         "The interface is deliberately constrained: one story, one page, short paragraphs and no infinite feed.",
         "When live credentials are added, the editor will use what is trending on X as the discovery signal and compress the important stories into this format.",
-        "Major claims can be checked against the open web before publication."
+        "Grok 4.6 can check major claims against the open web before publication."
       ],
       highlightParagraph: 1,
       sources: [{ label: "Demo page" }]
@@ -71,7 +71,7 @@ export const mockEdition: TeletextEdition = {
       category: "NEXT",
       headline: "Add credentials to switch on live mode",
       paragraphs: [
-        "Set X_BEARER_TOKEN and OPENAI_API_KEY in the Vercel project settings.",
+        "Set X_BEARER_TOKEN and XAI_API_KEY in the Vercel project settings.",
         "The worldwide X trend feed is the default. X_WOEID can later switch the geographic trend source.",
         "No secrets are exposed to the browser."
       ],
