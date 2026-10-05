@@ -36,9 +36,9 @@ export default async function Page({
     redirect(`/800?lang=${encodeURIComponent(language)}${suffix}`);
   }
 
-  const isMyXPage = numericPage >= 800 && numericPage < 600;
+  const isMyXPage = numericPage >= 800 && numericPage < 900;
 
-  if (numericPage > 800 && numericPage < 600 && !handles.length) {
+  if (numericPage > 800 && numericPage < 900 && !handles.length) {
     redirect("/800?lang=" + encodeURIComponent(language));
   }
 
