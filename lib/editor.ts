@@ -485,7 +485,7 @@ Return only the requested structured output.
     // If structured source mapping is unexpectedly empty, retain traceability by
     // exposing the X URLs the tool actually returned rather than inventing any.
     if (!sources.length) {
-      sources = allCitations.slice(0, 4).map((url, sourceIndex) => ({
+      sources = allCitations.slice(0, 4).map((url: string, sourceIndex: number) => ({
         label: `X source ${sourceIndex + 1}`,
         url
       }));
