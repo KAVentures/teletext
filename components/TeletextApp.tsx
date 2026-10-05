@@ -407,6 +407,10 @@ export default function TeletextApp({
   }, [initialPage, initialLanguage, initialQuery, pathname]);
 
   useEffect(() => {
+    document.documentElement.lang = language;
+  }, [language]);
+
+  useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
       const tag = (event.target as HTMLElement)?.tagName;
       if (tag === "INPUT" || tag === "SELECT") return;
