@@ -159,6 +159,32 @@ function cleanParagraphs(values: string[]) {
   return values.map(cleanModelText).filter(Boolean);
 }
 
+async function fetchXaiResponses(body: unknown) {
+  const apiKey = process.env.XAI_API_KEY;
+  if (!apiKey) throw new Error("XAI_API_KEY is not configured");
+
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    try {
+      return await fetch("https://api.x.ai/v1/responses", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${apiKey}`,
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(body),
+        cache: "no-store"
+      });
+    } catch (error) {
+      if (attempt === 1) throw error;
+      // Retry only transport-level failures. HTTP errors are returned normally and
+      // are never auto-retried, avoiding accidental duplicate paid tool work.
+      await new Promise((resolve) => setTimeout(resolve, 250));
+    }
+  }
+
+  throw new Error("xAI request failed");
+}
+
 function outputText(response: any): string {
   if (typeof response?.output_text === "string") return response.output_text;
   const parts = Array.isArray(response?.output) ? response.output : [];
@@ -237,29 +263,21 @@ Current UTC time: ${now.toISOString()}
   }];
   if (useWebSearch) tools.push({ type: "web_search" });
 
-  const response = await fetch("https://api.x.ai/v1/responses", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      model,
-      reasoning: { effort: "low" },
-      prompt_cache_key: "teletext-global-editor-v2",
-      input: prompt,
-      tools,
-      store: false,
-      text: {
-        format: {
-          type: "json_schema",
-          name: "teletext_global_edition",
-          strict: true,
-          schema: globalSchema
-        }
+  const response = await fetchXaiResponses({
+    model,
+    reasoning: { effort: "low" },
+    prompt_cache_key: "teletext-global-editor-v2",
+    input: prompt,
+    tools,
+    store: false,
+    text: {
+      format: {
+        type: "json_schema",
+        name: "teletext_global_edition",
+        strict: true,
+        schema: globalSchema
       }
-    }),
-    cache: "no-store"
+    }
   });
 
   if (!response.ok) {
@@ -341,28 +359,20 @@ X evidence:
 ${JSON.stringify(evidence)}
 `;
 
-  const response = await fetch("https://api.x.ai/v1/responses", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      model,
-      reasoning: { effort: "low" },
-      prompt_cache_key: "teletext-topic-editor-v2",
-      input: prompt,
-      store: false,
-      text: {
-        format: {
-          type: "json_schema",
-          name: "teletext_topic_edition",
-          strict: true,
-          schema: topicSchema
-        }
+  const response = await fetchXaiResponses({
+    model,
+    reasoning: { effort: "low" },
+    prompt_cache_key: "teletext-topic-editor-v2",
+    input: prompt,
+    store: false,
+    text: {
+      format: {
+        type: "json_schema",
+        name: "teletext_topic_edition",
+        strict: true,
+        schema: topicSchema
       }
-    }),
-    cache: "no-store"
+    }
   });
 
   if (!response.ok) {
@@ -444,33 +454,25 @@ Each story: 1-2 compact paragraphs.
 Return only the requested structured output.
 `;
 
-  const response = await fetch("https://api.x.ai/v1/responses", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      model,
-      reasoning: { effort: "low" },
-      prompt_cache_key: "teletext-topic-xsearch-v1",
-      input: prompt,
-      tools: [{
-        type: "x_search",
-        from_date: isoDate(yesterday),
-        to_date: isoDate(now)
-      }],
-      store: false,
-      text: {
-        format: {
-          type: "json_schema",
-          name: "teletext_topic_xsearch",
-          strict: true,
-          schema: topicToolSchema
-        }
+  const response = await fetchXaiResponses({
+    model,
+    reasoning: { effort: "low" },
+    prompt_cache_key: "teletext-topic-xsearch-v1",
+    input: prompt,
+    tools: [{
+      type: "x_search",
+      from_date: isoDate(yesterday),
+      to_date: isoDate(now)
+    }],
+    store: false,
+    text: {
+      format: {
+        type: "json_schema",
+        name: "teletext_topic_xsearch",
+        strict: true,
+        schema: topicToolSchema
       }
-    }),
-    cache: "no-store"
+    }
   });
 
   if (!response.ok) {
@@ -560,32 +562,24 @@ Each story: 1-2 compact paragraphs.
 Return only the requested structured output.
 `;
 
-  const response = await fetch("https://api.x.ai/v1/responses", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      model,
-      reasoning: { effort: "low" },
-      prompt_cache_key: "teletext-topic-xweb-v1",
-      input: prompt,
-      tools: [{
-        type: "web_search",
-        allowed_domains: ["x.com"]
-      }],
-      store: false,
-      text: {
-        format: {
-          type: "json_schema",
-          name: "teletext_topic_xweb",
-          strict: true,
-          schema: topicToolSchema
-        }
+  const response = await fetchXaiResponses({
+    model,
+    reasoning: { effort: "low" },
+    prompt_cache_key: "teletext-topic-xweb-v1",
+    input: prompt,
+    tools: [{
+      type: "web_search",
+      allowed_domains: ["x.com"]
+    }],
+    store: false,
+    text: {
+      format: {
+        type: "json_schema",
+        name: "teletext_topic_xweb",
+        strict: true,
+        schema: topicToolSchema
       }
-    }),
-    cache: "no-store"
+    }
   });
 
   if (!response.ok) {
