@@ -1,20 +1,29 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getEdition } from "@/lib/edition";
+import { getGlobalEdition, getMyXEdition } from "@/lib/edition";
 
 export const runtime = "nodejs";
 
 export async function GET(request: NextRequest) {
-  const query = request.nextUrl.searchParams.get("q") || undefined;
   const language = request.nextUrl.searchParams.get("lang") || undefined;
-  const edition = await getEdition({ query, language });
+  const handles = request.nextUrl.searchParams.get("u") || undefined;
+  const legacyQuery = request.nextUrl.searchParams.get("q");
 
-  const cacheControl = query
-    ? "public, s-maxage=86400, stale-while-revalidate=3600"
-    : "public, s-maxage=14400, stale-while-revalidate=900";
+  if (legacyQuery) {
+    return NextResponse.json(
+      { error: "Free-text search has been retired. Use My X profiles instead." },
+      { status: 410, headers: { "Cache-Control": "public, s-maxage=86400" } }
+    );
+  }
+
+  const edition = handles
+    ? await getMyXEdition({ handles, language })
+    : await getGlobalEdition(language);
 
   return NextResponse.json(edition, {
     headers: {
-      "Cache-Control": cacheControl
+      "Cache-Control": handles
+        ? "public, s-maxage=604800, stale-while-revalidate=86400"
+        : "public, s-maxage=86400, stale-while-revalidate=3600"
     }
   });
 }
