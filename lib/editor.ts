@@ -9,13 +9,21 @@ type EditedStory = {
   sources: Array<{ label: string; url: string }>;
 };
 
+const languageNames: Record<string, string> = {
+  en: "English",
+  sv: "Swedish",
+  de: "German",
+  es: "Spanish",
+  fr: "French"
+};
+
 const schema = {
   type: "object",
   additionalProperties: false,
   properties: {
     stories: {
       type: "array",
-      minItems: 6,
+      minItems: 3,
       maxItems: 10,
       items: {
         type: "object",
@@ -69,7 +77,13 @@ function isoDate(date: Date) {
   return date.toISOString().slice(0, 10);
 }
 
-export async function buildTrendingEditionWithGrok(): Promise<TeletextEdition> {
+export async function buildTrendingEditionWithGrok({
+  query,
+  language
+}: {
+  query?: string;
+  language: string;
+}): Promise<TeletextEdition> {
   const apiKey = process.env.XAI_API_KEY;
   if (!apiKey) throw new Error("XAI_API_KEY is not configured");
 
@@ -77,13 +91,24 @@ export async function buildTrendingEditionWithGrok(): Promise<TeletextEdition> {
   const useWebSearch = (process.env.XAI_WEB_SEARCH || "true").toLowerCase() !== "false";
   const now = new Date();
   const yesterday = new Date(now.getTime() - 24 * 60 * 60 * 1000);
+  const outputLanguage = languageNames[language] || "English";
+  const topic = query?.trim();
+
+  const mission = topic
+    ? `Use X Search to find the latest meaningful conversation and developments about this exact topic: "${topic}". Search across languages and communities where useful. Create 3-8 distinct stories or angles that together explain the current state of that topic. Do not drift into unrelated trending news.`
+    : "Use X Search to determine what is genuinely trending and being discussed on X right now, worldwide. Look for conversations with broad or rapidly rising attention across distinct accounts, not merely one viral post. Create 6-10 stories that best explain what matters in the current X conversation.";
 
   const prompt = `
-You are the editor of a live, worldwide Teletext news service.
+You are the editor of a live Teletext news service.
 
-Use X Search to determine what is genuinely trending and being discussed on X right now, worldwide. Treat X as the live signal layer, not as a truth source. Look for conversations with broad or rapidly rising attention across distinct accounts, not merely one viral post.
+${mission}
 
-Create 6-10 stories that best explain what matters in the current X conversation. The edition should feel like a human editor condensed the chaos of X into a finite news bulletin.
+Treat X as the live signal layer, not as a truth source. The edition should feel like a human editor condensed the chaos of X into a finite news bulletin.
+
+Language:
+- Write ALL headlines, categories and paragraphs in ${outputLanguage}.
+- Discover evidence globally regardless of source language.
+- Keep source names and URLs in their original form.
 
 Editorial rules:
 - Discover stories from current X activity. Do not rely on stale model knowledge.
@@ -105,29 +130,12 @@ Editorial rules:
 Current UTC time: ${now.toISOString()}
 `;
 
-  const tools: any[] = [
-    {
-      type: "x_search",
-      from_date: isoDate(yesterday),
-      to_date: isoDate(now)
-    }
-  ];
-  if (useWebSearch) tools.push({ type: "web_search" });
-
-  const body = {
-    model,
-    input: prompt,
-    tools,
-    store: false,
-    text: {
-      format: {
-        type: "json_schema",
-        name: "teletext_edition",
-        strict: true,
-        schema
-      }
-    }
-  };
+  const toolList: any[] = [{
+    type: "x_search",
+    from_date: isoDate(yesterday),
+    to_date: isoDate(now)
+  }];
+  if (useWebSearch) toolList.push({ type: "web_search" });
 
   const response = await fetch("https://api.x.ai/v1/responses", {
     method: "POST",
@@ -135,7 +143,20 @@ Current UTC time: ${now.toISOString()}
       Authorization: `Bearer ${apiKey}`,
       "Content-Type": "application/json"
     },
-    body: JSON.stringify(body),
+    body: JSON.stringify({
+      model,
+      input: prompt,
+      tools: toolList,
+      store: false,
+      text: {
+        format: {
+          type: "json_schema",
+          name: "teletext_edition",
+          strict: true,
+          schema
+        }
+      }
+    }),
     cache: "no-store"
   });
 
@@ -146,15 +167,16 @@ Current UTC time: ${now.toISOString()}
 
   const raw = await response.json();
   const parsed = JSON.parse(outputText(raw)) as { stories: EditedStory[] };
+  const firstPage = topic ? 901 : 101;
 
   const stories: TeletextStory[] = parsed.stories.map((story, index) => ({
     ...story,
-    page: 101 + index,
+    page: firstPage + index,
     sourcePosts: story.sources
       .filter((source) => source.url.includes("x.com/"))
       .slice(0, 3)
       .map((source, sourceIndex) => ({
-        id: `${101 + index}-${sourceIndex}`,
+        id: `${firstPage + index}-${sourceIndex}`,
         text: source.label,
         url: source.url
       }))
@@ -163,8 +185,12 @@ Current UTC time: ${now.toISOString()}
   return {
     updatedAt: new Date().toISOString(),
     mode: "live",
-    basis: "Current worldwide X conversation, discovered with Grok 4.6 X Search and web-checked where needed.",
+    basis: topic
+      ? `Latest X conversation about "${topic}", discovered with Grok 4.6 and web-checked where needed.`
+      : "Current worldwide X conversation, discovered with Grok 4.6 X Search and web-checked where needed.",
     trends: parsed.stories.map((story) => story.trend),
-    stories
+    stories,
+    language,
+    ...(topic ? { query: topic } : {})
   };
 }
