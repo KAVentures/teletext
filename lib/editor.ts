@@ -105,6 +105,49 @@ const topicSchema = {
   required: ["stories"]
 };
 
+const topicToolSchema = {
+  type: "object",
+  additionalProperties: false,
+  properties: {
+    stories: {
+      type: "array",
+      minItems: 1,
+      maxItems: 4,
+      items: {
+        type: "object",
+        additionalProperties: false,
+        properties: {
+          category: { type: "string" },
+          headline: { type: "string" },
+          paragraphs: {
+            type: "array",
+            minItems: 1,
+            maxItems: 2,
+            items: { type: "string" }
+          },
+          highlightParagraph: { anyOf: [{ type: "integer" }, { type: "null" }] },
+          sources: {
+            type: "array",
+            minItems: 1,
+            maxItems: 4,
+            items: {
+              type: "object",
+              additionalProperties: false,
+              properties: {
+                label: { type: "string" },
+                url: { type: "string" }
+              },
+              required: ["label", "url"]
+            }
+          }
+        },
+        required: ["category", "headline", "paragraphs", "highlightParagraph", "sources"]
+      }
+    }
+  },
+  required: ["stories"]
+};
+
 function outputText(response: any): string {
   if (typeof response?.output_text === "string") return response.output_text;
   const parts = Array.isArray(response?.output) ? response.output : [];
@@ -350,6 +393,124 @@ ${JSON.stringify(evidence)}
     updatedAt: new Date().toISOString(),
     mode: "live",
     basis: `Latest X posts about "${query}", fetched directly and summarized by Grok 4.7 at low reasoning.`,
+    trends: [query],
+    stories,
+    language,
+    query
+  };
+}
+
+export async function buildTopicEditionWithGrokSearch({
+  query,
+  language
+}: {
+  query: string;
+  language: string;
+}): Promise<TeletextEdition> {
+  const apiKey = process.env.XAI_API_KEY;
+  if (!apiKey) throw new Error("XAI_API_KEY is not configured");
+
+  const model = process.env.XAI_MODEL || "grok-4.7";
+  const outputLanguage = languageNames[language] || "English";
+  const now = new Date();
+  const yesterday = new Date(now.getTime() - 24 * 60 * 60 * 1000);
+
+  const prompt = `
+Create a FAST, LOW-COST Teletext briefing about this exact topic: "${query}".
+
+Use X Search only. Search the last 24 hours. Use as little tool work as possible: make one X search pass if you can, do not fetch user profiles or whole threads unless absolutely necessary, and stop once you have enough evidence for 1-4 concise updates.
+
+Write in ${outputLanguage}. Treat X as evidence, not automatic truth. If a claim is uncertain or comes from one account, attribute it explicitly.
+
+For every story, "sources" must contain ONLY real X post URLs that you actually used to write that story. Do not invent URLs and do not cite generic X profile pages.
+
+Headline: about 55 characters maximum.
+Each story: 1-2 compact paragraphs.
+Return only the requested structured output.
+`;
+
+  const response = await fetch("https://api.x.ai/v1/responses", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      model,
+      reasoning: { effort: "low" },
+      prompt_cache_key: "teletext-topic-xsearch-v1",
+      input: prompt,
+      tools: [{
+        type: "x_search",
+        from_date: isoDate(yesterday),
+        to_date: isoDate(now)
+      }],
+      store: false,
+      text: {
+        format: {
+          type: "json_schema",
+          name: "teletext_topic_xsearch",
+          strict: true,
+          schema: topicToolSchema
+        }
+      }
+    }),
+    cache: "no-store"
+  });
+
+  if (!response.ok) {
+    const error = await response.text();
+    throw new Error(`xAI Grok X Search topic editor failed (${response.status}): ${error.slice(0, 600)}`);
+  }
+
+  const raw = await response.json();
+  logUsage("topic_x_search_fallback", raw);
+  const parsed = JSON.parse(outputText(raw)) as {
+    stories: Array<{
+      category: string;
+      headline: string;
+      paragraphs: string[];
+      highlightParagraph: number | null;
+      sources: Array<{ label: string; url: string }>;
+    }>;
+  };
+
+  const allCitations = Array.isArray(raw?.citations)
+    ? raw.citations.filter((url: unknown): url is string => typeof url === "string" && /https:\/\/(?:www\.)?x\.com\//i.test(url))
+    : [];
+
+  const stories: TeletextStory[] = parsed.stories.map((story, index) => {
+    let sources = safeSources(story.sources).filter((source) => /https:\/\/(?:www\.)?x\.com\//i.test(source.url));
+
+    // If structured source mapping is unexpectedly empty, retain traceability by
+    // exposing the X URLs the tool actually returned rather than inventing any.
+    if (!sources.length) {
+      sources = allCitations.slice(0, 4).map((url, sourceIndex) => ({
+        label: `X source ${sourceIndex + 1}`,
+        url
+      }));
+    }
+
+    return {
+      page: 901 + index,
+      category: story.category,
+      headline: story.headline,
+      paragraphs: story.paragraphs,
+      highlightParagraph: story.highlightParagraph,
+      trend: query,
+      sources,
+      sourcePosts: sources.map((source, sourceIndex) => ({
+        id: `${901 + index}-${sourceIndex}`,
+        text: source.label,
+        url: source.url
+      }))
+    };
+  });
+
+  return {
+    updatedAt: new Date().toISOString(),
+    mode: "live",
+    basis: `Latest X conversation about "${query}", searched by Grok 4.7 at low reasoning.`,
     trends: [query],
     stories,
     language,
