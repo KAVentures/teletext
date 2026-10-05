@@ -112,7 +112,7 @@ const topicToolSchema = {
     stories: {
       type: "array",
       minItems: 1,
-      maxItems: 4,
+      maxItems: 3,
       items: {
         type: "object",
         additionalProperties: false,
