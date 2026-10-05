@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { usePathname, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import type { TeletextEdition, TeletextStory } from "@/lib/types";
 
 const languageOptions = [
@@ -80,13 +80,15 @@ function SectionIndex({
   stories,
   onNavigate,
   strings,
-  searchMode = false
+  searchMode = false,
+  emptyMessage = "—"
 }: {
   title: string;
   stories: TeletextStory[];
   onNavigate: (page: number) => void;
   strings: (typeof ui)["en"];
   searchMode?: boolean;
+  emptyMessage?: string;
 }) {
   return (
     <div className="teletext-page" aria-label={title}>
@@ -101,7 +103,7 @@ function SectionIndex({
             </button>
           ))
         ) : (
-          <p className="tt-empty">—</p>
+          <p className="tt-empty">{emptyMessage}</p>
         )}
       </div>
       <div className="tt-bottom-strip">
@@ -324,7 +326,6 @@ export default function TeletextApp({
   isSnapshot?: boolean;
 }) {
   const router = useRouter();
-  const pathname = usePathname();
   const [mode, setMode] = useState<"txt" | "web">("txt");
   const [currentPage, setCurrentPage] = useState(initialPage);
   const [pageInput, setPageInput] = useState(String(initialPage));
@@ -377,10 +378,24 @@ export default function TeletextApp({
 
   const navigate = (page: number) => {
     setPageInput(String(page));
-    if (isSnapshot) {
+
+    const storyIsLoaded = edition.stories.some((item) => item.page === page);
+    const globalUtilityPage = !query && [100, 200, 300, 400, 700, 900].includes(page);
+    const topicUtilityPage = Boolean(query) && page === 900;
+    const canUseLoadedEdition = isSnapshot || storyIsLoaded || globalUtilityPage || topicUtilityPage;
+
+    if (canUseLoadedEdition) {
       setCurrentPage(page);
+
+      if (!isSnapshot) {
+        // Keep article clicks instant and pinned to the exact edition already on
+        // screen. A server round-trip here used to risk replacing a good edition
+        // with a transient fallback if an upstream API hiccupped.
+        window.history.pushState({ teletextPage: page }, "", liveHref(page, language, query));
+      }
       return;
     }
+
     router.push(liveHref(page, language, query));
   };
 
@@ -446,11 +461,32 @@ export default function TeletextApp({
     setLanguage(initialLanguage);
     setSearchInput(initialQuery);
     setBusy(false);
-  }, [initialPage, initialLanguage, initialQuery, pathname]);
+  }, [initialPage, initialLanguage, initialQuery]);
 
   useEffect(() => {
     document.documentElement.lang = language;
   }, [language]);
+
+  useEffect(() => {
+    const onPopState = () => {
+      const match = window.location.pathname.match(/^\/(\d{3})$/);
+      if (!match) return;
+
+      const page = Number(match[1]);
+      const storyIsLoaded = edition.stories.some((item) => item.page === page);
+      const utilityPage = query
+        ? page === 900
+        : [100, 200, 300, 400, 700, 900].includes(page);
+
+      if (isSnapshot || storyIsLoaded || utilityPage) {
+        setCurrentPage(page);
+        setPageInput(String(page));
+      }
+    };
+
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, [edition.stories, isSnapshot, query]);
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -541,7 +577,14 @@ export default function TeletextApp({
           ) : pageContent.kind === "story" ? (
             <StoryPage story={pageContent.story} onNavigate={navigate} searchMode={searchMode} strings={strings} />
           ) : (
-            <SectionIndex title={pageContent.title} stories={pageContent.stories} onNavigate={navigate} strings={strings} searchMode={pageContent.searchMode} />
+            <SectionIndex
+              title={pageContent.title}
+              stories={pageContent.stories}
+              onNavigate={navigate}
+              strings={strings}
+              searchMode={pageContent.searchMode}
+              emptyMessage={edition.mode === "error" ? edition.basis : "—"}
+            />
           )
         ) : (
           <WebArticle story={story} edition={edition} language={language} query={query} strings={strings} />
