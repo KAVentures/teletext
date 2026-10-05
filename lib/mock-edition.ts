@@ -3,6 +3,7 @@ import type { TeletextEdition } from "./types";
 export const mockEdition: TeletextEdition = {
   updatedAt: new Date().toISOString(),
   mode: "demo",
+  language: "en",
   basis: "Demo edition — add X_BEARER_TOKEN and XAI_API_KEY in Vercel to go live.",
   trends: ["World", "Technology", "Markets", "Science", "Culture", "Sport"],
   stories: [
