@@ -9,8 +9,8 @@ export async function GET(request: NextRequest) {
   const edition = await getEdition({ query, language });
 
   const cacheControl = query
-    ? "public, s-maxage=1800, stale-while-revalidate=300"
-    : "public, s-maxage=600, stale-while-revalidate=120";
+    ? "public, s-maxage=86400, stale-while-revalidate=3600"
+    : "public, s-maxage=14400, stale-while-revalidate=900";
 
   return NextResponse.json(edition, {
     headers: {
