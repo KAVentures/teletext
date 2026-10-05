@@ -19,8 +19,8 @@ export default async function SharedEditionPage({
       <TeletextApp
         initialPage={snapshot.page}
         edition={snapshot.edition}
-        initialQuery={snapshot.query || ""}
         initialLanguage={snapshot.language}
+        initialHandles={snapshot.handles || snapshot.edition.handles || []}
         isSnapshot
       />
     );
