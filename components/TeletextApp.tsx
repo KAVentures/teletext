@@ -34,31 +34,31 @@ const ui: Record<string, {
   en: {
     news: "News", world: "World", tech: "Tech", business: "Business", search: "Search", index: "Index",
     searchTitle: "SEARCH", searchPrompt: "What do you want the latest on?", searchPlaceholder: "OpenAI",
-    searchButton: "SEARCH", searchHint: "Searches X + verifies important claims",
+    searchButton: "SEARCH", searchHint: "Latest from X · cached for speed",
     share: "Share", copied: "Copied", latest: "Latest", sources: "Sources", updated: "Updated", liveEdition: "LIVE EDITION"
   },
   sv: {
     news: "Nyheter", world: "Världen", tech: "Teknik", business: "Ekonomi", search: "Sök", index: "Innehåll",
     searchTitle: "SÖK", searchPrompt: "Vad vill du ha det senaste om?", searchPlaceholder: "OpenAI",
-    searchButton: "SÖK", searchHint: "Söker på X + verifierar viktiga uppgifter",
+    searchButton: "SÖK", searchHint: "Senaste från X · cachas för snabbhet",
     share: "Dela", copied: "Kopierad", latest: "Senaste", sources: "Källor", updated: "Uppdaterad", liveEdition: "LIVE"
   },
   de: {
     news: "News", world: "Welt", tech: "Tech", business: "Wirtschaft", search: "Suche", index: "Inhalt",
     searchTitle: "SUCHE", searchPrompt: "Worüber willst du das Neueste?", searchPlaceholder: "OpenAI",
-    searchButton: "SUCHEN", searchHint: "Durchsucht X + prüft wichtige Behauptungen",
+    searchButton: "SUCHEN", searchHint: "Aktuelles von X · für Tempo gecacht",
     share: "Teilen", copied: "Kopiert", latest: "Aktuell", sources: "Quellen", updated: "Aktualisiert", liveEdition: "LIVE-AUSGABE"
   },
   es: {
     news: "Noticias", world: "Mundo", tech: "Tecno", business: "Economía", search: "Buscar", index: "Índice",
     searchTitle: "BUSCAR", searchPrompt: "¿Sobre qué quieres lo último?", searchPlaceholder: "OpenAI",
-    searchButton: "BUSCAR", searchHint: "Busca en X + verifica afirmaciones importantes",
+    searchButton: "BUSCAR", searchHint: "Lo último de X · en caché para velocidad",
     share: "Compartir", copied: "Copiado", latest: "Último", sources: "Fuentes", updated: "Actualizado", liveEdition: "EDICIÓN EN VIVO"
   },
   fr: {
     news: "Actu", world: "Monde", tech: "Tech", business: "Économie", search: "Recherche", index: "Index",
     searchTitle: "RECHERCHE", searchPrompt: "Sur quoi voulez-vous les dernières infos ?", searchPlaceholder: "OpenAI",
-    searchButton: "CHERCHER", searchHint: "Recherche X + vérifie les affirmations importantes",
+    searchButton: "CHERCHER", searchHint: "Le plus récent sur X · mis en cache",
     share: "Partager", copied: "Copié", latest: "Dernier", sources: "Sources", updated: "Mis à jour", liveEdition: "ÉDITION EN DIRECT"
   }
 };
@@ -178,6 +178,21 @@ function StoryPage({
   searchMode: boolean;
   strings: (typeof ui)["en"];
 }) {
+  const exactXPosts = story.sourcePosts || [];
+  const sourceItems = exactXPosts.length
+    ? exactXPosts.map((post) => ({
+        key: post.id,
+        label: post.username ? `@${post.username}` : "X",
+        detail: post.text,
+        url: post.url
+      }))
+    : story.sources.map((source, index) => ({
+        key: String(index),
+        label: source.label,
+        detail: source.label,
+        url: source.url
+      }));
+
   return (
     <div className="teletext-page" aria-label={story.headline}>
       <h1 className="tt-headline">{story.headline}</h1>
@@ -188,6 +203,28 @@ function StoryPage({
           </p>
         ))}
       </div>
+
+      {sourceItems.length ? (
+        <details className="tt-source-details">
+          <summary>{strings.sources.toUpperCase()} ({sourceItems.length})</summary>
+          <div className="tt-source-list">
+            {sourceItems.map((source, index) => (
+              <a
+                key={source.key}
+                href={source.url || "#"}
+                target={source.url ? "_blank" : undefined}
+                rel={source.url ? "noreferrer" : undefined}
+                className={!source.url ? "disabled" : ""}
+              >
+                <span className="tt-source-number">{index + 1}</span>
+                <span className="tt-source-label">{source.label}</span>
+                <span className="tt-source-text">{source.detail}</span>
+              </a>
+            ))}
+          </div>
+        </details>
+      ) : null}
+
       <div className="tt-bottom-strip">
         {searchMode ? (
           <>
