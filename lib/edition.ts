@@ -104,13 +104,13 @@ async function buildTopic(queryKey: string, language: string): Promise<TeletextE
 
 const cachedGlobalEdition = unstable_cache(
   buildGlobal,
-  ["teletext-global-edition-v6"],
+  ["teletext-global-edition-v7"],
   { revalidate: 600, tags: ["teletext-global-edition"] }
 );
 
 const cachedTopicEdition = unstable_cache(
   buildTopic,
-  ["teletext-topic-edition-v6"],
+  ["teletext-topic-edition-v7"],
   { revalidate: 1800, tags: ["teletext-topic-edition"] }
 );
 
