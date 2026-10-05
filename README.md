@@ -1,5 +1,7 @@
 # Teletext
 
+**License: MIT** — free to use, modify, distribute, and build on under the terms in [`LICENSE`](./LICENSE).
+
 A deliberately simple, live Teletext-style news reader. The default edition is driven by what is currently trending on X, then edited into a finite set of short pages.
 
 ## Product idea
@@ -80,3 +82,7 @@ The product takes inspiration from classic Teletext UI/UX, but uses original bra
 - Live links remain live: sharing `/900?q=OpenAI&lang=sv` gives the recipient the latest version of that search.
 - The Share button creates an immutable snapshot of the exact edition being read. Snapshots are Brotli-compressed into a self-contained `/s?d=...` URL, so v1 still needs no database or user account.
 - Shared snapshots include a Latest link back to the corresponding live topic or front page.
+
+## License
+
+This project is open source under the **MIT License**. See [LICENSE](./LICENSE) for the full license text.
