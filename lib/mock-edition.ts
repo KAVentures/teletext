@@ -14,7 +14,7 @@ export const mockEdition: TeletextEdition = {
       paragraphs: [
         "The interface is deliberately constrained: one story, one page, short paragraphs and no infinite feed.",
         "When live credentials are added, the editor will use what is trending on X as the discovery signal and compress the important stories into this format.",
-        "Grok 4.6 can check major claims against the open web before publication."
+        "Grok 4.7 can check major claims against the open web before publication."
       ],
       highlightParagraph: 1,
       sources: [{ label: "Demo page" }]
@@ -73,7 +73,7 @@ export const mockEdition: TeletextEdition = {
       headline: "Add credentials to switch on live mode",
       paragraphs: [
         "Set XAI_API_KEY in the Vercel project settings. Grok then searches X directly.",
-        "The default edition asks Grok 4.6 to identify the current worldwide X conversation in real time.",
+        "The default edition asks Grok 4.7 to identify the current worldwide X conversation in real time.",
         "No secrets are exposed to the browser."
       ],
       highlightParagraph: 0,
