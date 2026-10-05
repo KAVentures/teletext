@@ -814,7 +814,7 @@ Return only the structured output.
     .slice(0, 2);
 
   const stories: TeletextStory[] = posts.map((post, index) => ({
-    page: 501 + index,
+    page: 801 + index,
     category: `@${handle}`,
     headline: postHeadline(post.text),
     paragraphs: postParagraphs(post.text),
