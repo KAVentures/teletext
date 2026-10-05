@@ -751,3 +751,73 @@ button {
 .loading-copy.dim {
   color: #fff;
 }
+
+.tt-source-details {
+  margin: 0.9em 0 0.45em;
+  border-top: 0.08em solid #fff;
+  border-bottom: 0.08em solid #fff;
+  padding: 0.18em 0;
+}
+
+.tt-source-details summary {
+  color: var(--cyan, #00ffff);
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  text-transform: uppercase;
+}
+
+.tt-source-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.tt-source-details summary::before {
+  content: "▸ ";
+  color: var(--yellow);
+}
+
+.tt-source-details[open] summary::before {
+  content: "▾ ";
+}
+
+.tt-source-list {
+  display: grid;
+  gap: 0.2em;
+  margin-top: 0.35em;
+}
+
+.tt-source-list a {
+  display: grid;
+  grid-template-columns: 1.5ch minmax(7ch, auto) 1fr;
+  gap: 0.45em;
+  color: #fff;
+  text-decoration: none;
+  line-height: 0.98;
+}
+
+.tt-source-list a:hover .tt-source-label,
+.tt-source-list a:focus-visible .tt-source-label {
+  color: var(--yellow);
+}
+
+.tt-source-list a.disabled {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.tt-source-number {
+  color: var(--yellow);
+}
+
+.tt-source-label {
+  color: var(--cyan, #00ffff);
+  white-space: nowrap;
+}
+
+.tt-source-text {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #d7d7d7;
+}
