@@ -707,3 +707,47 @@ button {
     scroll-behavior: auto !important;
   }
 }
+
+.loading-controls {
+  opacity: 0.85;
+}
+
+.loading-label {
+  color: var(--yellow);
+  font-family: var(--font-teletext), "Courier New", monospace;
+  font-size: 25px;
+}
+
+.loading-input {
+  min-width: 120px;
+  height: 38px;
+  border-bottom: 2px solid #fff;
+}
+
+.loading-button,
+.loading-lang {
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border: 2px solid #fff;
+  padding: 0 12px;
+  font-family: var(--font-teletext), "Courier New", monospace;
+  font-size: 22px;
+}
+
+.loading-button {
+  border: 0;
+  background: var(--yellow);
+  color: #000;
+}
+
+.loading-copy {
+  color: var(--yellow);
+  font-family: var(--font-teletext), "Courier New", monospace;
+  font-size: clamp(22px, 4.2vw, 34px);
+  line-height: 1;
+}
+
+.loading-copy.dim {
+  color: #fff;
+}
