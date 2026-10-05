@@ -294,6 +294,7 @@ export default function TeletextApp({
   const [language, setLanguage] = useState(initialLanguage);
   const [searchInput, setSearchInput] = useState(initialQuery);
   const [shareStatus, setShareStatus] = useState("");
+  const [busy, setBusy] = useState(false);
   const touchStart = useRef<number | null>(null);
   const query = initialQuery;
   const strings = ui[language] || ui.en;
@@ -355,11 +356,14 @@ export default function TeletextApp({
 
   const runSearch = () => {
     const cleaned = searchInput.trim().replace(/\s+/g, " ").slice(0, 120);
-    if (!cleaned) return;
+    if (!cleaned || busy) return;
+    setBusy(true);
     router.push(liveHref(900, language, cleaned));
   };
 
   const changeLanguage = (nextLanguage: string) => {
+    if (nextLanguage === language || busy) return;
+    setBusy(true);
     setLanguage(nextLanguage);
     router.push(liveHref(currentPage, nextLanguage, query));
   };
@@ -404,6 +408,7 @@ export default function TeletextApp({
     setPageInput(String(initialPage));
     setLanguage(initialLanguage);
     setSearchInput(initialQuery);
+    setBusy(false);
   }, [initialPage, initialLanguage, initialQuery, pathname]);
 
   useEffect(() => {
@@ -433,18 +438,54 @@ export default function TeletextApp({
               <span>{tab.page}</span> <strong>{tab.label}</strong>
             </button>
           ))}
+        </nav>
+      </header>
+
+      <section className="quick-controls" aria-label="Search and language">
+        <form
+          className="quick-search"
+          onSubmit={(event) => {
+            event.preventDefault();
+            runSearch();
+          }}
+        >
+          <label htmlFor="global-search">{strings.search}</label>
+          <span className="quick-prompt" aria-hidden="true">&gt;</span>
+          <input
+            id="global-search"
+            value={searchInput}
+            onChange={(event) => setSearchInput(event.target.value.slice(0, 120))}
+            placeholder={strings.searchPlaceholder}
+            maxLength={120}
+            autoComplete="off"
+          />
+          <button type="submit" disabled={busy || !searchInput.trim()}>
+            {busy ? "…" : strings.searchButton}
+          </button>
+        </form>
+
+        <label className="quick-language">
+          <span>LANG</span>
           <select
             className="language-select"
             value={language}
             onChange={(event) => changeLanguage(event.target.value)}
             aria-label="Language"
+            disabled={busy}
           >
             {languageOptions.map((option) => (
               <option key={option.value} value={option.value}>{option.label}</option>
             ))}
           </select>
-        </nav>
-      </header>
+        </label>
+      </section>
+
+      {busy ? (
+        <div className="search-progress" role="status" aria-live="polite">
+          <span className="search-progress-dot" aria-hidden="true">■</span>
+          {query && searchInput.trim() === query ? "LOADING…" : "SEARCHING X…"}
+        </div>
+      ) : null}
 
       <div
         className="screen-wrap"
