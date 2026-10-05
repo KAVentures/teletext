@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { encodeSnapshot, type ShareSnapshot } from "@/lib/share";
+import { normalizeHandles } from "@/lib/edition";
 import type { TeletextEdition } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -9,7 +10,7 @@ export async function POST(request: NextRequest) {
     const body = await request.json() as {
       page?: number;
       language?: string;
-      query?: string;
+      handles?: string[];
       edition?: TeletextEdition;
     };
 
@@ -22,12 +23,12 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Invalid snapshot" }, { status: 400 });
     }
 
-    const query = (body.query || "").trim().slice(0, 120);
+    const handles = normalizeHandles(body.handles || []);
     const snapshot: ShareSnapshot = {
       v: 1,
       page: body.page as number,
       language: body.language,
-      ...(query ? { query } : {}),
+      ...(handles.length ? { handles } : {}),
       edition: body.edition
     };
 
