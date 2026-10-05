@@ -25,4 +25,6 @@ export type TeletextEdition = {
   basis: string;
   trends: string[];
   stories: TeletextStory[];
+  language: string;
+  query?: string;
 };
