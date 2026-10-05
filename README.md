@@ -36,23 +36,21 @@ Optional:
 
 ```text
 XAI_MODEL=grok-4.7
-XAI_WEB_SEARCH=true
+X_DIRECT_TOPIC_SEARCH=false
 ```
 
-`X_WOEID=1` means worldwide trends.
 
 ## How the live edition works
 
-1. Ask Grok 4.7 to inspect the current worldwide conversation using xAI's real-time X Search tool.
-2. Have Grok identify the dominant fast-moving conversations rather than blindly trusting a single viral post.
-3. Use xAI Web Search to verify consequential factual claims.
-4. Merge duplicates, drop noise and produce 6–10 compact Teletext stories.
-5. Assign pages 101 onward.
-6. Cache the worldwide edition for 10 minutes using the Next/Vercel data cache.
+1. Build one canonical English worldwide edition from X with Grok 4.7.
+2. The live search call uses low reasoning, a single agent turn, and parallel tool calls are disabled, so one refresh can execute at most one search-tool call.
+3. Produce only 4–6 compact Teletext stories.
+4. Cache that canonical worldwide edition for **4 hours**.
+5. Swedish, German, Spanish and French reuse the same evidence and run a no-tool translation only; changing language does not search X again.
+6. Topic searches use one x.com-restricted search-tool call, produce only 1–3 stories, and are cached for **24 hours** by normalized query.
+7. Exact x.com post/status URLs are retained per story and shown in the expandable Sources section.
 
-Because the cache is demand-driven, an idle site does not continually spend API calls. The first request after expiry refreshes the edition.
-
-Topic searches default to a low-cost x.com-restricted web search, then Grok 4.7 summarizes the returned X posts at low reasoning. If you explicitly enable `X_DIRECT_TOPIC_SEARCH=true`, the app instead tries the X recent-search API with a bounded 10-post sample. Topic editions are cached for 30 minutes, and query keys are case-insensitive so repeated searches such as `OpenAI` and `openai` reuse the same work.
+The cache is demand-driven: no visitors means no model calls. Article navigation stays on the already-loaded edition rather than regenerating it.
 
 ## Pages
 
@@ -91,12 +89,15 @@ This project is open source under the **MIT License**. See [LICENSE](./LICENSE) 
 
 ## Cost and latency controls
 
-- Grok defaults to `grok-4.7` with `reasoning.effort = low`.
-- Topic search defaults to x.com-restricted Web Search; native X Search is only a fallback.
-- Optional direct X API mode fetches at most 10 recent X posts per uncached query before summarization.
-- Topic evidence is cached independently of language for 30 minutes.
-- Topic editions are cached by normalized query + language for 30 minutes.
-- Worldwide editions are cached for 10 minutes.
-- xAI `prompt_cache_key` is set for the global and topic editor prompts.
-- xAI per-request usage/cost information is written to server logs for monitoring.
-- Topic stories retain the exact X post IDs used to produce them, which power the clickable Sources dropdown on every story page.
+- Model: `grok-4.7`, always with `reasoning.effort = low`.
+- Tool-backed requests use `max_turns = 1` and `parallel_tool_calls = false`, mechanically limiting a refresh to one search-tool call.
+- Global source discovery is shared across all languages and cached for **4 hours**.
+- Topic source discovery is shared across languages and cached for **24 hours**.
+- Non-English rendering is a no-tool translation of cached evidence.
+- Topic output is limited to 1–3 stories; global output is limited to 4–6.
+- Query keys are normalized case-insensitively, so `OpenAI`, `openai`, and ` OPENAI ` reuse the same edition.
+- xAI exact per-request cost and tool-usage fields are logged server-side.
+- The code includes optional Vercel Firewall generation-budget hooks (`teletext-global-generation` and `teletext-topic-generation`). The project Firewall must be initialized in Vercel before those hard counters can be enforced.
+- Topic stories retain the exact X post URLs used to produce them, powering the clickable Sources dropdown.
+
+The intended operating target is **under $2/day**, but an absolute dollar guarantee requires either the Vercel Firewall budget rules to be enabled or an xAI account spending cap. Caching and tool-call caps alone make spend bounded per refresh, not globally bounded against unlimited unique searches.
