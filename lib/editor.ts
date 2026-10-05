@@ -148,6 +148,17 @@ const topicToolSchema = {
   required: ["stories"]
 };
 
+function cleanModelText(value: string) {
+  return value
+    .replace(/<grok\b[^>]*\/?\s*>/gi, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
+function cleanParagraphs(values: string[]) {
+  return values.map(cleanModelText).filter(Boolean);
+}
+
 function outputText(response: any): string {
   if (typeof response?.output_text === "string") return response.output_text;
   const parts = Array.isArray(response?.output) ? response.output : [];
@@ -263,7 +274,11 @@ Current UTC time: ${now.toISOString()}
   const stories: TeletextStory[] = parsed.stories.map((story, index) => {
     const sources = safeSources(story.sources);
     return {
-      ...story,
+      category: cleanModelText(story.category),
+      headline: cleanModelText(story.headline),
+      paragraphs: cleanParagraphs(story.paragraphs),
+      highlightParagraph: story.highlightParagraph,
+      trend: cleanModelText(story.trend),
       sources,
       page: 101 + index,
       sourcePosts: sources
@@ -379,9 +394,9 @@ ${JSON.stringify(evidence)}
 
     return {
       page: 901 + index,
-      category: story.category,
-      headline: story.headline,
-      paragraphs: story.paragraphs,
+      category: cleanModelText(story.category),
+      headline: cleanModelText(story.headline),
+      paragraphs: cleanParagraphs(story.paragraphs),
       highlightParagraph: story.highlightParagraph,
       trend: query,
       sourcePosts,
@@ -493,9 +508,9 @@ Return only the requested structured output.
 
     return {
       page: 901 + index,
-      category: story.category,
-      headline: story.headline,
-      paragraphs: story.paragraphs,
+      category: cleanModelText(story.category),
+      headline: cleanModelText(story.headline),
+      paragraphs: cleanParagraphs(story.paragraphs),
       highlightParagraph: story.highlightParagraph,
       trend: query,
       sources,
@@ -615,9 +630,9 @@ Return only the requested structured output.
 
     return {
       page: 901 + index,
-      category: story.category,
-      headline: story.headline,
-      paragraphs: story.paragraphs,
+      category: cleanModelText(story.category),
+      headline: cleanModelText(story.headline),
+      paragraphs: cleanParagraphs(story.paragraphs),
       highlightParagraph: story.highlightParagraph,
       trend: query,
       sources,
