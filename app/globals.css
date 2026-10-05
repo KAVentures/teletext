@@ -821,3 +821,33 @@ button {
   text-overflow: ellipsis;
   color: #d7d7d7;
 }
+
+.myx-handles {
+  display: grid;
+  gap: 0.25em;
+  margin: 1em 0 0;
+}
+
+.myx-handle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  border-bottom: 0.06em solid #fff;
+  padding: 0.12em 0;
+  color: var(--yellow);
+}
+
+.myx-handle button {
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.myx-handle button:hover,
+.myx-handle button:focus-visible {
+  color: var(--yellow);
+}
