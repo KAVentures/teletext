@@ -75,7 +75,7 @@ function matchesSection(story: TeletextStory, section: number) {
 function liveHref(page: number, language: string, handles: string[]) {
   const params = new URLSearchParams();
   params.set("lang", language);
-  if (page >= 800 && page < 600 && handles.length) params.set("u", handles.join(","));
+  if (page >= 800 && page < 900 && handles.length) params.set("u", handles.join(","));
   return `/${page}?${params.toString()}`;
 }
 
@@ -100,7 +100,7 @@ function SectionIndex({
       <div className="tt-bottom-strip">
         {myXMode ? (
           <>
-            <button onClick={() => onNavigate(500)}>{strings.myX} 800</button>
+            <button onClick={() => onNavigate(800)}>{strings.myX} 800</button>
             <button onClick={() => onNavigate(100)}>{strings.news} 100</button>
             <button onClick={() => onNavigate(700)}>{strings.index} 700</button>
           </>
@@ -108,7 +108,7 @@ function SectionIndex({
           <>
             <button onClick={() => onNavigate(200)}>{strings.world} 200</button>
             <button onClick={() => onNavigate(300)}>{strings.tech} 300</button>
-            <button onClick={() => onNavigate(500)}>{strings.myX} 800</button>
+            <button onClick={() => onNavigate(800)}>{strings.myX} 800</button>
           </>
         )}
       </div>
@@ -123,7 +123,7 @@ function MyXSetup({
 }) {
   return (
     <div className="teletext-page myx-page">
-      <div className="tt-blue-title">{strings.myX.toUpperCase()} 500</div>
+      <div className="tt-blue-title">{strings.myX.toUpperCase()} 800</div>
       <p className="search-prompt">{strings.myXPrompt}</p>
       <p className="search-hint">{strings.maxProfiles}</p>
       <p className="search-hint">{strings.originalLanguage}</p>
@@ -194,7 +194,7 @@ function StoryPage({
       <div className="tt-bottom-strip">
         {myXMode ? (
           <>
-            <button onClick={() => onNavigate(500)}>{strings.myX} 800</button>
+            <button onClick={() => onNavigate(800)}>{strings.myX} 800</button>
             <button onClick={() => onNavigate(100)}>{strings.news} 100</button>
             <button onClick={() => onNavigate(700)}>{strings.index} 700</button>
           </>
@@ -202,7 +202,7 @@ function StoryPage({
           <>
             <button onClick={() => onNavigate(100)}>{strings.news} 100</button>
             <button onClick={() => onNavigate(200)}>{strings.world} 200</button>
-            <button onClick={() => onNavigate(500)}>{strings.myX} 800</button>
+            <button onClick={() => onNavigate(800)}>{strings.myX} 800</button>
           </>
         )}
       </div>
@@ -276,8 +276,8 @@ export default function TeletextApp({
   const touchStart = useRef<number | null>(null);
   const strings = ui[language] || ui.en;
   const story = edition.stories.find((item) => item.page === currentPage);
-  const myXMode = currentPage >= 800 && currentPage < 600;
-  const loadedEditionIsMyX = Boolean(edition.handles?.length || initialPage >= 800 && initialPage < 600);
+  const myXMode = currentPage >= 800 && currentPage < 900;
+  const loadedEditionIsMyX = Boolean(edition.handles?.length || initialPage >= 800 && initialPage < 900);
 
   const sectionTabs = [
     { page: 100, label: strings.news },
@@ -293,7 +293,7 @@ export default function TeletextApp({
     currentPage >= 200 && currentPage < 300 ? 200 :
     currentPage >= 300 && currentPage < 400 ? 300 :
     currentPage >= 400 && currentPage < 500 ? 400 :
-    currentPage >= 800 && currentPage < 600 ? 500 :
+    currentPage >= 800 && currentPage < 900 ? 800 :
     currentPage === 700 ? 700 : 100;
 
   const pageContent = useMemo(() => {
@@ -310,12 +310,12 @@ export default function TeletextApp({
 
   const navigablePages = useMemo(() => {
     if (loadedEditionIsMyX) return [800, ...edition.stories.map((s) => s.page)];
-    return Array.from(new Set([100, ...edition.stories.map((s) => s.page), 200, 300, 400, 500, 700])).sort((a, b) => a - b);
+    return Array.from(new Set([100, ...edition.stories.map((s) => s.page), 200, 300, 400, 700, 800])).sort((a, b) => a - b);
   }, [edition.stories, loadedEditionIsMyX]);
 
   const navigate = (page: number) => {
     setPageInput(String(page));
-    const destinationMyX = page >= 800 && page < 600;
+    const destinationMyX = page >= 800 && page < 900;
     const storyIsLoaded = edition.stories.some((item) => item.page === page);
     const sameEditionUtility =
       loadedEditionIsMyX ? page === 800 : [100, 200, 300, 400, 700].includes(page);
@@ -417,7 +417,7 @@ export default function TeletextApp({
       const match = window.location.pathname.match(/^\/(\d{3})$/);
       if (!match) return;
       const page = Number(match[1]);
-      const destinationMyX = page >= 800 && page < 600;
+      const destinationMyX = page >= 800 && page < 900;
       const storyIsLoaded = edition.stories.some((item) => item.page === page);
       const utility = loadedEditionIsMyX ? page === 800 : [100, 200, 300, 400, 700].includes(page);
       if (isSnapshot || (destinationMyX === loadedEditionIsMyX && (storyIsLoaded || utility))) {
