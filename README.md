@@ -28,7 +28,7 @@ Add these server-side environment variables in Vercel:
 
 ```text
 X_BEARER_TOKEN=...
-OPENAI_API_KEY=...
+XAI_API_KEY=...
 ```
 
 Optional:
@@ -38,8 +38,8 @@ X_WOEID=1
 X_MAX_TRENDS=6
 X_POST_SAMPLE_SIZE=20
 X_LANGUAGE=en
-OPENAI_MODEL=gpt-5
-OPENAI_WEB_SEARCH=true
+XAI_MODEL=grok-4.6
+XAI_WEB_SEARCH=true
 ```
 
 `X_WOEID=1` means worldwide trends.
@@ -48,8 +48,8 @@ OPENAI_WEB_SEARCH=true
 
 1. Read the current X trends for the configured WOEID.
 2. Make one combined recent-search request across the leading trends. This deliberately avoids one X search per trend and keeps API consumption bounded.
-3. Feed the trends and a small representative post sample to the AI editor.
-4. Optionally let the editor verify important claims with web search.
+3. Feed the trends and a small representative post sample to Grok 4.6.
+4. Optionally let Grok verify important claims with xAI web search.
 5. Produce 6–10 short stories and assign pages 101 onward.
 6. Cache the edition for 15 minutes using the Next/Vercel data cache.
 
