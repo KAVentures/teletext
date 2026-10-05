@@ -27,17 +27,12 @@ Without credentials the app runs in a safe demo mode.
 Add these server-side environment variables in Vercel:
 
 ```text
-X_BEARER_TOKEN=...
 XAI_API_KEY=...
 ```
 
 Optional:
 
 ```text
-X_WOEID=1
-X_MAX_TRENDS=6
-X_POST_SAMPLE_SIZE=20
-X_LANGUAGE=en
 XAI_MODEL=grok-4.6
 XAI_WEB_SEARCH=true
 ```
@@ -46,11 +41,11 @@ XAI_WEB_SEARCH=true
 
 ## How the live edition works
 
-1. Read the current X trends for the configured WOEID.
-2. Make one combined recent-search request across the leading trends. This deliberately avoids one X search per trend and keeps API consumption bounded.
-3. Feed the trends and a small representative post sample to Grok 4.6.
-4. Optionally let Grok verify important claims with xAI web search.
-5. Produce 6–10 short stories and assign pages 101 onward.
+1. Ask Grok 4.6 to inspect the current worldwide conversation using xAI's real-time X Search tool.
+2. Have Grok identify the dominant fast-moving conversations rather than blindly trusting a single viral post.
+3. Use xAI Web Search to verify consequential factual claims.
+4. Merge duplicates, drop noise and produce 6–10 compact Teletext stories.
+5. Assign pages 101 onward.
 6. Cache the edition for 15 minutes using the Next/Vercel data cache.
 
 Because the cache is demand-driven, an idle site does not continually spend API calls. The first request after expiry refreshes the edition.
@@ -72,7 +67,7 @@ The initial product only needs the current edition. Vercel's data cache is enoug
 
 ## Editorial safety
 
-X determines attention, not truth. The prompt explicitly tells the editor to avoid converting unsupported X claims into facts and, when web verification is enabled, to verify consequential claims against primary or reputable sources.
+X activity determines attention, not truth. The prompt explicitly tells the editor to avoid converting unsupported X claims into facts and, when web verification is enabled, to verify consequential claims against primary or reputable sources.
 
 ## Branding
 
