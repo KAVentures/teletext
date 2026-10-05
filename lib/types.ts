@@ -16,6 +16,7 @@ export type TeletextStory = {
     text: string;
     url?: string;
   }>;
+  publishedAt?: string;
   sources: TeletextSource[];
 };
 
@@ -27,4 +28,5 @@ export type TeletextEdition = {
   stories: TeletextStory[];
   language: string;
   query?: string;
+  handles?: string[];
 };
