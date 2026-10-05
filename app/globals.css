@@ -94,17 +94,116 @@ button {
   font-weight: 750;
 }
 
-.language-select {
-  flex: 0 0 auto;
-  border: 0;
-  border-radius: 8px;
-  background: #f7f7f7;
-  color: #111;
-  padding: 9px 38px 9px 13px;
+
+.quick-controls {
+  width: min(100%, 820px);
+  margin: 18px auto 0;
+  padding: 0 38px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: end;
+}
+
+.quick-search {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: auto auto minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  font-family: var(--font-teletext), "Courier New", monospace;
+}
+
+.quick-search label,
+.quick-language > span {
+  color: var(--yellow);
+  font-family: var(--font-teletext), "Courier New", monospace;
   font-size: 25px;
   line-height: 1;
-  font-weight: 750;
-  appearance: auto;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.quick-prompt {
+  color: var(--white);
+  font-family: var(--font-teletext), "Courier New", monospace;
+  font-size: 27px;
+}
+
+.quick-search input {
+  min-width: 0;
+  height: 42px;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  border-radius: 0;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  padding: 0 4px;
+  font-family: var(--font-teletext), "Courier New", monospace;
+  font-size: 25px;
+  letter-spacing: 0.04em;
+}
+
+.quick-search input::placeholder {
+  color: #747474;
+  opacity: 1;
+}
+
+.quick-search button {
+  min-width: 86px;
+  height: 42px;
+  border: 0;
+  background: var(--yellow);
+  color: #000;
+  padding: 4px 12px 2px;
+  font-family: var(--font-teletext), "Courier New", monospace;
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.quick-search button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.quick-language {
+  display: grid;
+  gap: 5px;
+}
+
+.language-select {
+  min-width: 82px;
+  height: 42px;
+  border: 2px solid #fff;
+  border-radius: 0;
+  background: #000;
+  color: #fff;
+  padding: 2px 8px;
+  font-family: var(--font-teletext), "Courier New", monospace;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.search-progress {
+  width: min(100%, 820px);
+  margin: 10px auto 0;
+  padding: 0 38px;
+  color: var(--yellow);
+  font-family: var(--font-teletext), "Courier New", monospace;
+  font-size: 22px;
+  letter-spacing: 0.06em;
+}
+
+.search-progress-dot {
+  display: inline-block;
+  margin-right: 8px;
+  animation: blink 0.9s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
 }
 
 .screen-wrap {
@@ -471,10 +570,40 @@ button {
     font-size: 23px;
   }
 
-  .language-select {
-    border-radius: 7px;
-    padding: 8px 34px 8px 11px;
+  .quick-controls {
+    margin-top: 16px;
+    padding: 0 26px;
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .quick-search {
+    gap: 8px;
+  }
+
+  .quick-search label,
+  .quick-language > span {
     font-size: 21px;
+  }
+
+  .quick-search input {
+    font-size: 22px;
+  }
+
+  .quick-search button {
+    min-width: 72px;
+    font-size: 21px;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+
+  .language-select {
+    min-width: 72px;
+    font-size: 21px;
+  }
+
+  .search-progress {
+    padding: 0 26px;
+    font-size: 20px;
   }
 
   .screen-wrap {
@@ -515,6 +644,40 @@ button {
   .site-header {
     padding-left: 18px;
     padding-right: 18px;
+  }
+
+  .quick-controls {
+    padding: 0 18px;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+  }
+
+  .quick-search {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 7px;
+  }
+
+  .quick-search label {
+    grid-column: 1 / -1;
+    margin-bottom: 1px;
+  }
+
+  .quick-search button {
+    min-width: 64px;
+  }
+
+  .quick-language > span {
+    font-size: 18px;
+  }
+
+  .language-select {
+    min-width: 66px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .search-progress {
+    padding: 0 18px;
   }
 
   .screen-wrap {
