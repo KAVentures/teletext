@@ -34,31 +34,31 @@ const ui: Record<string, {
   en: {
     news: "News", world: "World", tech: "Tech", business: "Business", search: "Search", index: "Index",
     searchTitle: "SEARCH", searchPrompt: "What do you want the latest on?", searchPlaceholder: "OpenAI",
-    searchButton: "SEARCH", searchHint: "Latest from X · cached for speed",
+    searchButton: "SEARCH", searchHint: "Latest X brief · reused for up to 24h",
     share: "Share", copied: "Copied", latest: "Latest", sources: "Sources", updated: "Updated", liveEdition: "LIVE EDITION"
   },
   sv: {
     news: "Nyheter", world: "Världen", tech: "Teknik", business: "Ekonomi", search: "Sök", index: "Innehåll",
     searchTitle: "SÖK", searchPrompt: "Vad vill du ha det senaste om?", searchPlaceholder: "OpenAI",
-    searchButton: "SÖK", searchHint: "Senaste från X · cachas för snabbhet",
+    searchButton: "SÖK", searchHint: "Senaste X-brief · återanvänds i upp till 24 h",
     share: "Dela", copied: "Kopierad", latest: "Senaste", sources: "Källor", updated: "Uppdaterad", liveEdition: "LIVE"
   },
   de: {
     news: "News", world: "Welt", tech: "Tech", business: "Wirtschaft", search: "Suche", index: "Inhalt",
     searchTitle: "SUCHE", searchPrompt: "Worüber willst du das Neueste?", searchPlaceholder: "OpenAI",
-    searchButton: "SUCHEN", searchHint: "Aktuelles von X · für Tempo gecacht",
+    searchButton: "SUCHEN", searchHint: "Aktueller X-Überblick · bis zu 24 h wiederverwendet",
     share: "Teilen", copied: "Kopiert", latest: "Aktuell", sources: "Quellen", updated: "Aktualisiert", liveEdition: "LIVE-AUSGABE"
   },
   es: {
     news: "Noticias", world: "Mundo", tech: "Tecno", business: "Economía", search: "Buscar", index: "Índice",
     searchTitle: "BUSCAR", searchPrompt: "¿Sobre qué quieres lo último?", searchPlaceholder: "OpenAI",
-    searchButton: "BUSCAR", searchHint: "Lo último de X · en caché para velocidad",
+    searchButton: "BUSCAR", searchHint: "Resumen de X · reutilizado hasta 24 h",
     share: "Compartir", copied: "Copiado", latest: "Último", sources: "Fuentes", updated: "Actualizado", liveEdition: "EDICIÓN EN VIVO"
   },
   fr: {
     news: "Actu", world: "Monde", tech: "Tech", business: "Économie", search: "Recherche", index: "Index",
     searchTitle: "RECHERCHE", searchPrompt: "Sur quoi voulez-vous les dernières infos ?", searchPlaceholder: "OpenAI",
-    searchButton: "CHERCHER", searchHint: "Le plus récent sur X · mis en cache",
+    searchButton: "CHERCHER", searchHint: "Résumé X · réutilisé jusqu’à 24 h",
     share: "Partager", copied: "Copié", latest: "Dernier", sources: "Sources", updated: "Mis à jour", liveEdition: "ÉDITION EN DIRECT"
   }
 };
