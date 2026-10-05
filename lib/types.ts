@@ -21,7 +21,7 @@ export type TeletextStory = {
 
 export type TeletextEdition = {
   updatedAt: string;
-  mode: "live" | "demo";
+  mode: "live" | "demo" | "error";
   basis: string;
   trends: string[];
   stories: TeletextStory[];
