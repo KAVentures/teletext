@@ -116,7 +116,8 @@ Editorial rules:
 - Merge duplicate trends that refer to the same underlying event.
 - Exclude spam, engagement bait, fandom-only noise and context-free memes unless they correspond to genuinely important news.
 - Prefer concrete new developments over generic discourse.
-- When a consequential factual claim is involved, use Web Search to verify it against primary sources or reputable reporting before stating it as fact.
+- For the worldwide front page, when a consequential factual claim is involved, use Web Search to verify it against primary sources or reputable reporting before stating it as fact.
+- For a user topic search, optimize for speed: use the freshest X evidence available, prefer official accounts and reputable reporters on X, and corroborate across multiple independent X sources when possible. If a claim is not independently established, explicitly attribute it to X discussion or call it unconfirmed.
 - If a claim remains uncertain, explicitly attribute it to X discussion or call it unconfirmed.
 - Rank the output from most important to least important.
 - Keep each headline under about 55 characters.
@@ -135,7 +136,10 @@ Current UTC time: ${now.toISOString()}
     from_date: isoDate(yesterday),
     to_date: isoDate(now)
   }];
-  if (useWebSearch) toolList.push({ type: "web_search" });
+  // Topic search is deliberately X-first and fast. The worldwide front page keeps
+  // broader web verification; topic searches label uncertainty instead of waiting
+  // on a second live search surface.
+  if (useWebSearch && !topic) toolList.push({ type: "web_search" });
 
   const response = await fetch("https://api.x.ai/v1/responses", {
     method: "POST",
@@ -186,7 +190,7 @@ Current UTC time: ${now.toISOString()}
     updatedAt: new Date().toISOString(),
     mode: "live",
     basis: topic
-      ? `Latest X conversation about "${topic}", discovered with Grok 4.6 and web-checked where needed.`
+      ? `Latest X conversation about "${topic}", discovered with Grok 4.6. Unverified claims are explicitly attributed.`
       : "Current worldwide X conversation, discovered with Grok 4.6 X Search and web-checked where needed.",
     trends: parsed.stories.map((story) => story.trend),
     stories,
