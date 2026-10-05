@@ -33,13 +33,13 @@ export default async function Page({
   // Old free-text search links now land on My X rather than triggering paid search.
   if (numericPage >= 900 && numericPage < 1000) {
     const suffix = handles.length ? `&u=${encodeURIComponent(handles.join(","))}` : "";
-    redirect(`/500?lang=${encodeURIComponent(language)}${suffix}`);
+    redirect(`/800?lang=${encodeURIComponent(language)}${suffix}`);
   }
 
-  const isMyXPage = numericPage >= 500 && numericPage < 600;
+  const isMyXPage = numericPage >= 800 && numericPage < 600;
 
-  if (numericPage > 500 && numericPage < 600 && !handles.length) {
-    redirect("/500?lang=" + encodeURIComponent(language));
+  if (numericPage > 800 && numericPage < 600 && !handles.length) {
+    redirect("/800?lang=" + encodeURIComponent(language));
   }
 
   const edition = isMyXPage
