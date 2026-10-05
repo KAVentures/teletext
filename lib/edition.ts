@@ -5,7 +5,7 @@ import { editSignalsIntoEdition } from "./editor";
 import type { TeletextEdition } from "./types";
 
 async function buildEdition(): Promise<TeletextEdition> {
-  if (!process.env.X_BEARER_TOKEN || !process.env.OPENAI_API_KEY) {
+  if (!process.env.X_BEARER_TOKEN || !process.env.XAI_API_KEY) {
     return { ...mockEdition, updatedAt: new Date().toISOString() };
   }
 
@@ -22,7 +22,7 @@ async function buildEdition(): Promise<TeletextEdition> {
   }
 }
 
-export const getEdition = unstable_cache(buildEdition, ["teletext-live-edition-v1"], {
+export const getEdition = unstable_cache(buildEdition, ["teletext-live-edition-v2"], {
   revalidate: 900,
   tags: ["teletext-edition"]
 });
