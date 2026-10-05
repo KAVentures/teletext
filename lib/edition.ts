@@ -1,6 +1,11 @@
 import { unstable_cache } from "next/cache";
 import { mockEdition } from "./mock-edition";
-import { buildGlobalEditionWithGrok, buildTopicEditionFromPosts, buildTopicEditionWithGrokSearch, buildTopicEditionWithXWebSearch } from "./editor";
+import {
+  buildGlobalEditionWithGrok,
+  buildTopicEditionFromPosts,
+  buildTopicEditionWithGrokSearch,
+  buildTopicEditionWithXWebSearch
+} from "./editor";
 import { searchXTopic } from "./x";
 import type { TeletextEdition } from "./types";
 
@@ -19,50 +24,56 @@ function canonicalQuery(value?: string) {
   return normalizeQuery(value).toLocaleLowerCase("en-US");
 }
 
-function fallbackEdition(query: string, language: string): TeletextEdition {
-  const firstPage = query ? 901 : 101;
+function errorEdition(query: string, language: string, message: string): TeletextEdition {
   return {
-    ...mockEdition,
     updatedAt: new Date().toISOString(),
-    basis: query
-      ? `Live topic search failed for "${query}"; showing a safe demo edition instead.`
-      : "Live update failed; showing a safe demo edition. Check server logs and API access.",
-    stories: mockEdition.stories.map((story, index) => ({ ...story, page: firstPage + index })),
+    mode: "error",
+    basis: message,
+    trends: query ? [query] : [],
+    stories: [],
     language,
     ...(query ? { query } : {})
   };
 }
 
 async function buildGlobal(language: string): Promise<TeletextEdition> {
-  if (!process.env.XAI_API_KEY) return fallbackEdition("", language);
-
-  try {
-    return await buildGlobalEditionWithGrok(language);
-  } catch (error) {
-    console.error("Global edition generation failed", error);
-    return fallbackEdition("", language);
+  if (!process.env.XAI_API_KEY) {
+    if (process.env.NODE_ENV !== "production") {
+      return { ...mockEdition, language, updatedAt: new Date().toISOString() };
+    }
+    throw new Error("XAI_API_KEY is not configured");
   }
+
+  return buildGlobalEditionWithGrok(language);
 }
 
 async function fetchTopicEvidence(queryKey: string) {
   if (!process.env.X_BEARER_TOKEN) {
-    throw new Error("X_BEARER_TOKEN is required for low-cost topic search");
+    throw new Error("X_BEARER_TOKEN is required for direct topic search");
   }
   return searchXTopic(queryKey);
 }
 
 const cachedTopicEvidence = unstable_cache(
   fetchTopicEvidence,
-  ["teletext-topic-evidence-v1"],
+  ["teletext-topic-evidence-v2"],
   { revalidate: 1800, tags: ["teletext-topic-evidence"] }
 );
 
 async function buildTopic(queryKey: string, language: string): Promise<TeletextEdition> {
-  if (!process.env.XAI_API_KEY) return fallbackEdition(queryKey, language);
+  if (!process.env.XAI_API_KEY) {
+    if (process.env.NODE_ENV !== "production") {
+      return {
+        ...mockEdition,
+        updatedAt: new Date().toISOString(),
+        language,
+        query: queryKey,
+        stories: mockEdition.stories.map((story, index) => ({ ...story, page: 901 + index }))
+      };
+    }
+    throw new Error("XAI_API_KEY is not configured");
+  }
 
-  // Default to the cheaper x.com-restricted web-search path. Direct X API topic
-  // reads are optional because they require separate X credits and currently cost
-  // more predictably per post. Set X_DIRECT_TOPIC_SEARCH=true to prefer them.
   if ((process.env.X_DIRECT_TOPIC_SEARCH || "false").toLowerCase() === "true") {
     try {
       const posts = await cachedTopicEvidence(queryKey);
@@ -84,27 +95,22 @@ async function buildTopic(queryKey: string, language: string): Promise<TeletextE
   } catch (webFallbackError) {
     console.warn("X-restricted web search unavailable; falling back to native xAI X Search", webFallbackError);
 
-    try {
-      return await buildTopicEditionWithGrokSearch({
-        query: queryKey,
-        language
-      });
-    } catch (fallbackError) {
-      console.error("Topic edition generation failed", fallbackError);
-      return fallbackEdition(queryKey, language);
-    }
+    return buildTopicEditionWithGrokSearch({
+      query: queryKey,
+      language
+    });
   }
 }
 
 const cachedGlobalEdition = unstable_cache(
   buildGlobal,
-  ["teletext-global-edition-v5"],
+  ["teletext-global-edition-v6"],
   { revalidate: 600, tags: ["teletext-global-edition"] }
 );
 
 const cachedTopicEdition = unstable_cache(
   buildTopic,
-  ["teletext-topic-edition-v5"],
+  ["teletext-topic-edition-v6"],
   { revalidate: 1800, tags: ["teletext-topic-edition"] }
 );
 
@@ -118,13 +124,22 @@ export async function getEdition({
   const lang = normalizeLanguage(language);
   const displayQuery = normalizeQuery(query);
 
-  if (!displayQuery) {
-    return cachedGlobalEdition(lang);
-  }
+  try {
+    if (!displayQuery) {
+      return await cachedGlobalEdition(lang);
+    }
 
-  // Cache searches case-insensitively so OpenAI/openai/OPENAI share the same
-  // X fetch and Grok summary. This is a major cost control for popular topics.
-  return cachedTopicEdition(canonicalQuery(displayQuery), lang);
+    return await cachedTopicEdition(canonicalQuery(displayQuery), lang);
+  } catch (error) {
+    console.error("Edition generation failed without caching fallback", error);
+    return errorEdition(
+      displayQuery,
+      lang,
+      displayQuery
+        ? `Could not refresh "${displayQuery}" right now. Please retry in a moment.`
+        : "Could not refresh the live edition right now. Please retry in a moment."
+    );
+  }
 }
 
 export function makeSearchShellEdition(language?: string): TeletextEdition {
