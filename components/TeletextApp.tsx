@@ -258,13 +258,15 @@ function WebArticle({
   edition,
   language,
   query,
-  strings
+  strings,
+  onNavigate
 }: {
   story?: TeletextStory;
   edition: TeletextEdition;
   language: string;
   query: string;
   strings: (typeof ui)["en"];
+  onNavigate: (page: number) => void;
 }) {
   if (!story) {
     return (
@@ -275,7 +277,15 @@ function WebArticle({
         <ol>
           {edition.stories.map((item) => (
             <li key={item.page}>
-              <a href={liveHref(item.page, language, query)}>{item.headline}</a>
+              <a
+                href={liveHref(item.page, language, query)}
+                onClick={(event) => {
+                  event.preventDefault();
+                  onNavigate(item.page);
+                }}
+              >
+                {item.headline}
+              </a>
             </li>
           ))}
         </ol>
@@ -587,7 +597,7 @@ export default function TeletextApp({
             />
           )
         ) : (
-          <WebArticle story={story} edition={edition} language={language} query={query} strings={strings} />
+          <WebArticle story={story} edition={edition} language={language} query={query} strings={strings} onNavigate={navigate} />
         )}
       </div>
 
