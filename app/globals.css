@@ -94,6 +94,19 @@ button {
   font-weight: 750;
 }
 
+.language-select {
+  flex: 0 0 auto;
+  border: 0;
+  border-radius: 8px;
+  background: #f7f7f7;
+  color: #111;
+  padding: 9px 38px 9px 13px;
+  font-size: 25px;
+  line-height: 1;
+  font-weight: 750;
+  appearance: auto;
+}
+
 .screen-wrap {
   width: min(100%, 820px);
   margin: 24px auto 0;
@@ -194,6 +207,70 @@ button {
 .tt-empty {
   color: var(--yellow);
   margin: 0.4em 0;
+}
+
+.search-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-prompt {
+  color: var(--yellow);
+  margin: 0.35em 0 0.75em;
+}
+
+.tt-search-form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.35em;
+  align-items: center;
+}
+
+.tt-search-form > span {
+  color: var(--white);
+}
+
+.tt-search-form input {
+  min-width: 0;
+  width: 100%;
+  border: 0;
+  border-bottom: 0.12em solid var(--white);
+  border-radius: 0;
+  outline: none;
+  background: transparent;
+  color: var(--white);
+  font: inherit;
+  letter-spacing: inherit;
+  padding: 0 0 0.08em;
+}
+
+.tt-search-form input::placeholder {
+  color: #777;
+  opacity: 1;
+}
+
+.tt-search-form button {
+  grid-column: 2;
+  justify-self: start;
+  margin-top: 0.65em;
+  border: 0;
+  background: var(--yellow);
+  color: #000;
+  font: inherit;
+  letter-spacing: inherit;
+  padding: 0.08em 0.5em 0.02em;
+}
+
+.search-hint {
+  color: var(--white);
+  font-size: 0.82em;
+  line-height: 1.05;
+  margin: 1em 0 0;
+}
+
+.tt-search-spacer {
+  flex: 1;
+  min-height: 8em;
 }
 
 .tt-bottom-strip {
@@ -392,6 +469,12 @@ button {
     border-radius: 7px;
     padding: 9px 12px 8px;
     font-size: 23px;
+  }
+
+  .language-select {
+    border-radius: 7px;
+    padding: 8px 34px 8px 11px;
+    font-size: 21px;
   }
 
   .screen-wrap {
