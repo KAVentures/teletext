@@ -6,6 +6,7 @@ export type ShareSnapshot = {
   page: number;
   language: string;
   query?: string;
+  handles?: string[];
   edition: TeletextEdition;
 };
 
