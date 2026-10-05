@@ -7,7 +7,7 @@ export default function Loading() {
 
       <section className="quick-controls loading-controls" aria-hidden="true">
         <div className="quick-search">
-          <span className="loading-label">SEARCH</span>
+          <span className="loading-label">MY X</span>
           <span className="quick-prompt">&gt;</span>
           <div className="loading-input" />
           <div className="loading-button">...</div>
@@ -20,14 +20,14 @@ export default function Loading() {
 
       <div className="search-progress" role="status" aria-live="polite">
         <span className="search-progress-dot" aria-hidden="true">■</span>
-        SEARCHING X…
+        LOADING…
       </div>
 
       <div className="screen-wrap">
         <div className="teletext-page">
           <div className="tt-blue-title">PLEASE WAIT</div>
-          <p className="loading-copy">Reading the latest conversation on X…</p>
-          <p className="loading-copy dim">Verifying important claims and building your Teletext pages.</p>
+          <p className="loading-copy">Loading your Teletext pages…</p>
+          <p className="loading-copy dim">Cached X profiles are reused whenever possible.</p>
         </div>
       </div>
     </main>
