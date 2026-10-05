@@ -8,9 +8,13 @@ export async function GET(request: NextRequest) {
   const language = request.nextUrl.searchParams.get("lang") || undefined;
   const edition = await getEdition({ query, language });
 
+  const cacheControl = query
+    ? "public, s-maxage=1800, stale-while-revalidate=300"
+    : "public, s-maxage=600, stale-while-revalidate=120";
+
   return NextResponse.json(edition, {
     headers: {
-      "Cache-Control": "public, s-maxage=60, stale-while-revalidate=540"
+      "Cache-Control": cacheControl
     }
   });
 }
