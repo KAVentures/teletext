@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { VT323 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const teletextFont = VT323({
@@ -22,7 +23,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={teletextFont.variable}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
