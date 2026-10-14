@@ -13,55 +13,19 @@ const languageOptions = [
 ];
 
 const ui: Record<string, {
-  news: string; world: string; tech: string; business: string; myX: string; index: string;
-  addProfile: string; add: string; profilePlaceholder: string; maxProfiles: string;
-  myXPrompt: string; share: string; copied: string; latest: string; sources: string;
-  updated: string; liveEdition: string; originalLanguage: string; remove: string;
+  news: string; world: string; tech: string; business: string; index: string;
+  share: string; copied: string; latest: string; sources: string;
+  updated: string; liveEdition: string;
 }> = {
-  en: {
-    news: "News", world: "World", tech: "Tech", business: "Business", myX: "My X", index: "Index",
-    addProfile: "Add X profile", add: "ADD", profilePlaceholder: "@sama", maxProfiles: "Up to 5 profiles · reused for 7 days",
-    myXPrompt: "Choose X profiles and turn their recent posts into your own Teletext.",
-    share: "Share", copied: "Copied", latest: "Latest", sources: "Sources", updated: "Updated",
-    liveEdition: "LIVE EDITION", originalLanguage: "Posts stay in their original language.", remove: "Remove"
-  },
-  sv: {
-    news: "Nyheter", world: "Världen", tech: "Teknik", business: "Ekonomi", myX: "Mitt X", index: "Innehåll",
-    addProfile: "Lägg till X-profil", add: "LÄGG TILL", profilePlaceholder: "@sama", maxProfiles: "Upp till 5 profiler · återanvänds i 7 dagar",
-    myXPrompt: "Välj X-profiler och gör deras senaste inlägg till din egen Text-TV.",
-    share: "Dela", copied: "Kopierad", latest: "Senaste", sources: "Källor", updated: "Uppdaterad",
-    liveEdition: "LIVE", originalLanguage: "Inläggen visas på originalspråket.", remove: "Ta bort"
-  },
-  de: {
-    news: "News", world: "Welt", tech: "Tech", business: "Wirtschaft", myX: "Mein X", index: "Inhalt",
-    addProfile: "X-Profil hinzufügen", add: "HINZU", profilePlaceholder: "@sama", maxProfiles: "Bis zu 5 Profile · 7 Tage wiederverwendet",
-    myXPrompt: "Wähle X-Profile und mache aus ihren letzten Posts dein eigenes Teletext.",
-    share: "Teilen", copied: "Kopiert", latest: "Aktuell", sources: "Quellen", updated: "Aktualisiert",
-    liveEdition: "LIVE-AUSGABE", originalLanguage: "Posts bleiben in ihrer Originalsprache.", remove: "Entfernen"
-  },
-  es: {
-    news: "Noticias", world: "Mundo", tech: "Tecno", business: "Economía", myX: "Mi X", index: "Índice",
-    addProfile: "Añadir perfil X", add: "AÑADIR", profilePlaceholder: "@sama", maxProfiles: "Hasta 5 perfiles · reutilizados 7 días",
-    myXPrompt: "Elige perfiles de X y convierte sus publicaciones recientes en tu Teletext.",
-    share: "Compartir", copied: "Copiado", latest: "Último", sources: "Fuentes", updated: "Actualizado",
-    liveEdition: "EDICIÓN EN VIVO", originalLanguage: "Las publicaciones conservan su idioma original.", remove: "Quitar"
-  },
-  fr: {
-    news: "Actu", world: "Monde", tech: "Tech", business: "Économie", myX: "Mon X", index: "Index",
-    addProfile: "Ajouter un profil X", add: "AJOUTER", profilePlaceholder: "@sama", maxProfiles: "Jusqu’à 5 profils · réutilisés 7 jours",
-    myXPrompt: "Choisissez des profils X et transformez leurs posts récents en votre Teletext.",
-    share: "Partager", copied: "Copié", latest: "Dernier", sources: "Sources", updated: "Mis à jour",
-    liveEdition: "ÉDITION EN DIRECT", originalLanguage: "Les posts restent dans leur langue d’origine.", remove: "Retirer"
-  }
+  en: { news: "News", world: "World", tech: "Tech", business: "Business", index: "Index", share: "Share", copied: "Copied", latest: "Latest", sources: "Sources", updated: "Updated", liveEdition: "DAILY EDITION" },
+  sv: { news: "Nyheter", world: "Världen", tech: "Teknik", business: "Ekonomi", index: "Innehåll", share: "Dela", copied: "Kopierad", latest: "Senaste", sources: "Källor", updated: "Uppdaterad", liveEdition: "DAGLIG UPPLAGA" },
+  de: { news: "News", world: "Welt", tech: "Tech", business: "Wirtschaft", index: "Inhalt", share: "Teilen", copied: "Kopiert", latest: "Aktuell", sources: "Quellen", updated: "Aktualisiert", liveEdition: "TAGESAUSGABE" },
+  es: { news: "Noticias", world: "Mundo", tech: "Tecno", business: "Economía", index: "Índice", share: "Compartir", copied: "Copiado", latest: "Último", sources: "Fuentes", updated: "Actualizado", liveEdition: "EDICIÓN DIARIA" },
+  fr: { news: "Actu", world: "Monde", tech: "Tech", business: "Économie", index: "Index", share: "Partager", copied: "Copié", latest: "Dernier", sources: "Sources", updated: "Mis à jour", liveEdition: "ÉDITION QUOTIDIENNE" }
 };
 
 function compactTime(iso: string) {
   return new Intl.DateTimeFormat("en-GB", { hour: "2-digit", minute: "2-digit", hour12: false }).format(new Date(iso));
-}
-
-function normalizeHandle(value: string) {
-  const handle = value.trim().replace(/^@+/, "");
-  return /^[A-Za-z0-9_]{1,15}$/.test(handle) ? handle.toLowerCase() : "";
 }
 
 function matchesSection(story: TeletextStory, section: number) {
@@ -72,18 +36,16 @@ function matchesSection(story: TeletextStory, section: number) {
   return true;
 }
 
-function liveHref(page: number, language: string, handles: string[]) {
-  const params = new URLSearchParams();
-  params.set("lang", language);
-  if (page >= 800 && page < 900 && handles.length) params.set("u", handles.join(","));
+function liveHref(page: number, language: string) {
+  const params = new URLSearchParams({ lang: language });
   return `/${page}?${params.toString()}`;
 }
 
 function SectionIndex({
-  title, stories, onNavigate, strings, myXMode = false, emptyMessage = "—"
+  title, stories, onNavigate, strings, emptyMessage = "—"
 }: {
   title: string; stories: TeletextStory[]; onNavigate: (page: number) => void;
-  strings: (typeof ui)["en"]; myXMode?: boolean; emptyMessage?: string;
+  strings: (typeof ui)["en"]; emptyMessage?: string;
 }) {
   return (
     <div className="teletext-page" aria-label={title}>
@@ -98,61 +60,18 @@ function SectionIndex({
         )) : <p className="tt-empty">{emptyMessage}</p>}
       </div>
       <div className="tt-bottom-strip">
-        {myXMode ? (
-          <>
-            <button onClick={() => onNavigate(800)}>{strings.myX} 800</button>
-            <button onClick={() => onNavigate(100)}>{strings.news} 100</button>
-            <button onClick={() => onNavigate(700)}>{strings.index} 700</button>
-          </>
-        ) : (
-          <>
-            <button onClick={() => onNavigate(200)}>{strings.world} 200</button>
-            <button onClick={() => onNavigate(300)}>{strings.tech} 300</button>
-            <button onClick={() => onNavigate(800)}>{strings.myX} 800</button>
-          </>
-        )}
-      </div>
-    </div>
-  );
-}
-
-function MyXSetup({
-  strings, handles, onRemove
-}: {
-  strings: (typeof ui)["en"]; handles: string[]; onRemove: (handle: string) => void;
-}) {
-  return (
-    <div className="teletext-page myx-page">
-      <div className="tt-blue-title">{strings.myX.toUpperCase()} 800</div>
-      <p className="search-prompt">{strings.myXPrompt}</p>
-      <p className="search-hint">{strings.maxProfiles}</p>
-      <p className="search-hint">{strings.originalLanguage}</p>
-      {handles.length ? (
-        <div className="myx-handles">
-          {handles.map((handle) => (
-            <div className="myx-handle" key={handle}>
-              <span>@{handle}</span>
-              <button onClick={() => onRemove(handle)}>{strings.remove}</button>
-            </div>
-          ))}
-        </div>
-      ) : (
-        <p className="tt-empty">+ @username</p>
-      )}
-      <div className="tt-search-spacer" />
-      <div className="tt-bottom-strip">
-        <span>{strings.news} 100</span>
-        <span>{strings.myX} 800</span>
-        <span>{strings.index} 700</span>
+        <button onClick={() => onNavigate(200)}>{strings.world} 200</button>
+        <button onClick={() => onNavigate(300)}>{strings.tech} 300</button>
+        <button onClick={() => onNavigate(700)}>{strings.index} 700</button>
       </div>
     </div>
   );
 }
 
 function StoryPage({
-  story, onNavigate, myXMode, strings
+  story, onNavigate, strings
 }: {
-  story: TeletextStory; onNavigate: (page: number) => void; myXMode: boolean; strings: (typeof ui)["en"];
+  story: TeletextStory; onNavigate: (page: number) => void; strings: (typeof ui)["en"];
 }) {
   const exactXPosts = story.sourcePosts || [];
   const sourceItems = exactXPosts.length
@@ -192,40 +111,30 @@ function StoryPage({
       ) : null}
 
       <div className="tt-bottom-strip">
-        {myXMode ? (
-          <>
-            <button onClick={() => onNavigate(800)}>{strings.myX} 800</button>
-            <button onClick={() => onNavigate(100)}>{strings.news} 100</button>
-            <button onClick={() => onNavigate(700)}>{strings.index} 700</button>
-          </>
-        ) : (
-          <>
-            <button onClick={() => onNavigate(100)}>{strings.news} 100</button>
-            <button onClick={() => onNavigate(200)}>{strings.world} 200</button>
-            <button onClick={() => onNavigate(800)}>{strings.myX} 800</button>
-          </>
-        )}
+        <button onClick={() => onNavigate(100)}>{strings.news} 100</button>
+        <button onClick={() => onNavigate(200)}>{strings.world} 200</button>
+        <button onClick={() => onNavigate(700)}>{strings.index} 700</button>
       </div>
     </div>
   );
 }
 
 function WebArticle({
-  story, edition, language, handles, strings, onNavigate
+  story, edition, language, strings, onNavigate
 }: {
-  story?: TeletextStory; edition: TeletextEdition; language: string; handles: string[];
+  story?: TeletextStory; edition: TeletextEdition; language: string;
   strings: (typeof ui)["en"]; onNavigate: (page: number) => void;
 }) {
   if (!story) {
     return (
       <article className="web-article">
         <p className="web-kicker">{strings.liveEdition}</p>
-        <h1>{handles.length ? strings.myX : "What matters now"}</h1>
+        <h1>What matters today</h1>
         <p>{edition.basis}</p>
         <ol>
           {edition.stories.map((item) => (
             <li key={item.page}>
-              <a href={liveHref(item.page, language, handles)} onClick={(event) => {
+              <a href={liveHref(item.page, language)} onClick={(event) => {
                 event.preventDefault();
                 onNavigate(item.page);
               }}>{item.headline}</a>
@@ -255,13 +164,11 @@ export default function TeletextApp({
   initialPage,
   edition,
   initialLanguage = "en",
-  initialHandles = [],
   isSnapshot = false
 }: {
   initialPage: number;
   edition: TeletextEdition;
   initialLanguage?: string;
-  initialHandles?: string[];
   isSnapshot?: boolean;
 }) {
   const router = useRouter();
@@ -269,22 +176,17 @@ export default function TeletextApp({
   const [currentPage, setCurrentPage] = useState(initialPage);
   const [pageInput, setPageInput] = useState(String(initialPage));
   const [language, setLanguage] = useState(initialLanguage);
-  const [handles, setHandles] = useState(initialHandles);
-  const [handleInput, setHandleInput] = useState("");
   const [shareStatus, setShareStatus] = useState("");
   const [busy, setBusy] = useState(false);
   const touchStart = useRef<number | null>(null);
   const strings = ui[language] || ui.en;
   const story = edition.stories.find((item) => item.page === currentPage);
-  const myXMode = currentPage >= 800 && currentPage < 900;
-  const loadedEditionIsMyX = Boolean(edition.handles?.length || initialPage >= 800 && initialPage < 900);
 
   const sectionTabs = [
     { page: 100, label: strings.news },
     { page: 200, label: strings.world },
     { page: 300, label: strings.tech },
     { page: 400, label: strings.business },
-    { page: 800, label: strings.myX },
     { page: 700, label: strings.index }
   ];
 
@@ -293,74 +195,50 @@ export default function TeletextApp({
     currentPage >= 200 && currentPage < 300 ? 200 :
     currentPage >= 300 && currentPage < 400 ? 300 :
     currentPage >= 400 && currentPage < 500 ? 400 :
-    currentPage >= 800 && currentPage < 900 ? 800 :
     currentPage === 700 ? 700 : 100;
 
   const pageContent = useMemo(() => {
-    if (currentPage === 800 && !handles.length) return { kind: "myx-setup" as const };
-    if (currentPage === 800) return { kind: "index" as const, title: strings.myX.toUpperCase(), stories: edition.stories, myXMode: true };
-    if (currentPage === 100) return { kind: "index" as const, title: strings.news.toUpperCase(), stories: edition.stories, myXMode: false };
-    if (currentPage === 200) return { kind: "index" as const, title: strings.world.toUpperCase(), stories: edition.stories.filter((s) => matchesSection(s, 200)), myXMode: false };
-    if (currentPage === 300) return { kind: "index" as const, title: strings.tech.toUpperCase(), stories: edition.stories.filter((s) => matchesSection(s, 300)), myXMode: false };
-    if (currentPage === 400) return { kind: "index" as const, title: strings.business.toUpperCase(), stories: edition.stories.filter((s) => matchesSection(s, 400)), myXMode: false };
-    if (currentPage === 700) return { kind: "index" as const, title: strings.index.toUpperCase(), stories: edition.stories, myXMode: false };
+    if (currentPage === 100) return { kind: "index" as const, title: strings.news.toUpperCase(), stories: edition.stories };
+    if (currentPage === 200) return { kind: "index" as const, title: strings.world.toUpperCase(), stories: edition.stories.filter((s) => matchesSection(s, 200)) };
+    if (currentPage === 300) return { kind: "index" as const, title: strings.tech.toUpperCase(), stories: edition.stories.filter((s) => matchesSection(s, 300)) };
+    if (currentPage === 400) return { kind: "index" as const, title: strings.business.toUpperCase(), stories: edition.stories.filter((s) => matchesSection(s, 400)) };
+    if (currentPage === 700) return { kind: "index" as const, title: strings.index.toUpperCase(), stories: edition.stories };
     if (story) return { kind: "story" as const, story };
-    return { kind: "index" as const, title: "PAGE NOT FOUND", stories: [], myXMode };
-  }, [currentPage, edition.stories, handles.length, myXMode, story, strings]);
+    return { kind: "index" as const, title: "PAGE NOT FOUND", stories: [] };
+  }, [currentPage, edition.stories, story, strings]);
 
-  const navigablePages = useMemo(() => {
-    if (loadedEditionIsMyX) return [800, ...edition.stories.map((s) => s.page)];
-    return Array.from(new Set([100, ...edition.stories.map((s) => s.page), 200, 300, 400, 700, 800])).sort((a, b) => a - b);
-  }, [edition.stories, loadedEditionIsMyX]);
+  const navigablePages = useMemo(
+    () => Array.from(new Set([100, ...edition.stories.map((s) => s.page), 200, 300, 400, 700])).sort((a, b) => a - b),
+    [edition.stories]
+  );
 
   const navigate = (page: number) => {
-    setPageInput(String(page));
-    const destinationMyX = page >= 800 && page < 900;
-    const storyIsLoaded = edition.stories.some((item) => item.page === page);
-    const sameEditionUtility =
-      loadedEditionIsMyX ? page === 800 : [100, 200, 300, 400, 700].includes(page);
-    const canUseLoadedEdition = isSnapshot || (destinationMyX === loadedEditionIsMyX && (storyIsLoaded || sameEditionUtility));
-
-    if (canUseLoadedEdition) {
-      setCurrentPage(page);
-      if (!isSnapshot) window.history.pushState({ teletextPage: page }, "", liveHref(page, language, handles));
+    // Reserved My X/profile and retired search pages remain unavailable.
+    if (page >= 800) {
+      router.push("/100?lang=" + encodeURIComponent(language));
       return;
     }
-
-    router.push(liveHref(page, language, handles));
+    setPageInput(String(page));
+    const knownPage = edition.stories.some((item) => item.page === page) || [100, 200, 300, 400, 700].includes(page);
+    if (knownPage || isSnapshot) {
+      setCurrentPage(page);
+      if (!isSnapshot) window.history.pushState({ teletextPage: page }, "", liveHref(page, language));
+    } else {
+      router.push(liveHref(page, language));
+    }
   };
 
   const step = (direction: -1 | 1) => {
     const index = navigablePages.indexOf(currentPage);
-    if (index === -1) return navigate(loadedEditionIsMyX ? 800 : 100);
+    if (index === -1) return navigate(100);
     navigate(navigablePages[(index + direction + navigablePages.length) % navigablePages.length]);
-  };
-
-  const addHandle = () => {
-    const handle = normalizeHandle(handleInput);
-    if (!handle || handles.includes(handle) || handles.length >= 5 || busy) return;
-    const next = [...handles, handle];
-    setHandles(next);
-    setHandleInput("");
-    setBusy(true);
-    localStorage.setItem("teletext-my-x-handles", JSON.stringify(next));
-    router.push(liveHref(800, language, next));
-  };
-
-  const removeHandle = (handle: string) => {
-    if (busy) return;
-    const next = handles.filter((item) => item !== handle);
-    setHandles(next);
-    setBusy(true);
-    localStorage.setItem("teletext-my-x-handles", JSON.stringify(next));
-    router.push(liveHref(800, language, next));
   };
 
   const changeLanguage = (nextLanguage: string) => {
     if (nextLanguage === language || busy) return;
     setBusy(true);
     setLanguage(nextLanguage);
-    router.push(liveHref(currentPage, nextLanguage, handles));
+    router.push(liveHref(currentPage, nextLanguage));
   };
 
   const shareEdition = async () => {
@@ -370,7 +248,7 @@ export default function TeletextApp({
         const response = await fetch("/api/share", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ page: currentPage, language, handles, edition })
+          body: JSON.stringify({ page: currentPage, language, edition })
         });
         if (!response.ok) throw new Error("Share failed");
         const data = await response.json() as { path: string };
@@ -378,7 +256,7 @@ export default function TeletextApp({
       }
 
       if (navigator.share) {
-        await navigator.share({ title: handles.length ? "My X · Teletext" : "Teletext", url });
+        await navigator.share({ title: "Teletext", url });
         setShareStatus("");
       } else {
         await navigator.clipboard.writeText(url);
@@ -394,19 +272,8 @@ export default function TeletextApp({
     setCurrentPage(initialPage);
     setPageInput(String(initialPage));
     setLanguage(initialLanguage);
-    setHandles(initialHandles);
     setBusy(false);
-    if (initialHandles.length) localStorage.setItem("teletext-my-x-handles", JSON.stringify(initialHandles));
-  }, [initialPage, initialLanguage, initialHandles.join(",")]);
-
-  useEffect(() => {
-    if (isSnapshot || initialHandles.length || initialPage !== 800) return;
-    try {
-      const saved = JSON.parse(localStorage.getItem("teletext-my-x-handles") || "[]");
-      const restored = Array.isArray(saved) ? saved.map(String).map(normalizeHandle).filter(Boolean).slice(0, 5) : [];
-      if (restored.length) router.replace(liveHref(800, initialLanguage, restored));
-    } catch {}
-  }, [initialHandles.length, initialLanguage, initialPage, isSnapshot, router]);
+  }, [initialPage, initialLanguage]);
 
   useEffect(() => {
     document.documentElement.lang = language;
@@ -417,17 +284,15 @@ export default function TeletextApp({
       const match = window.location.pathname.match(/^\/(\d{3})$/);
       if (!match) return;
       const page = Number(match[1]);
-      const destinationMyX = page >= 800 && page < 900;
-      const storyIsLoaded = edition.stories.some((item) => item.page === page);
-      const utility = loadedEditionIsMyX ? page === 800 : [100, 200, 300, 400, 700].includes(page);
-      if (isSnapshot || (destinationMyX === loadedEditionIsMyX && (storyIsLoaded || utility))) {
+      const known = page < 800 && (edition.stories.some((item) => item.page === page) || [100, 200, 300, 400, 700].includes(page));
+      if (known || (isSnapshot && page < 800)) {
         setCurrentPage(page);
         setPageInput(String(page));
       }
     };
     window.addEventListener("popstate", onPopState);
     return () => window.removeEventListener("popstate", onPopState);
-  }, [edition.stories, isSnapshot, loadedEditionIsMyX]);
+  }, [edition.stories, isSnapshot]);
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -440,7 +305,7 @@ export default function TeletextApp({
     return () => window.removeEventListener("keydown", onKeyDown);
   });
 
-  const latestUrl = liveHref(currentPage, language, handles);
+  const latestUrl = liveHref(currentPage, language);
 
   return (
     <main className="site-shell">
@@ -455,18 +320,7 @@ export default function TeletextApp({
         </nav>
       </header>
 
-      <section className="quick-controls" aria-label="My X and language">
-        <form className="quick-search" onSubmit={(event) => { event.preventDefault(); addHandle(); }}>
-          <label htmlFor="profile-add">{strings.addProfile}</label>
-          <span className="quick-prompt" aria-hidden="true">&gt;</span>
-          <input id="profile-add" value={handleInput}
-            onChange={(event) => setHandleInput(event.target.value.slice(0, 16))}
-            placeholder={strings.profilePlaceholder} maxLength={16} autoComplete="off" />
-          <button type="submit" disabled={busy || !normalizeHandle(handleInput) || handles.length >= 5}>
-            {busy ? "…" : strings.add}
-          </button>
-        </form>
-
+      <section className="quick-controls" aria-label="Language">
         <label className="quick-language">
           <span>LANG</span>
           <select className="language-select" value={language}
@@ -493,17 +347,14 @@ export default function TeletextApp({
           if (Math.abs(delta) > 60) step(delta > 0 ? -1 : 1);
         }}>
         {mode === "txt" ? (
-          pageContent.kind === "myx-setup" ? (
-            <MyXSetup strings={strings} handles={handles} onRemove={removeHandle} />
-          ) : pageContent.kind === "story" ? (
-            <StoryPage story={pageContent.story} onNavigate={navigate} myXMode={loadedEditionIsMyX} strings={strings} />
+          pageContent.kind === "story" ? (
+            <StoryPage story={pageContent.story} onNavigate={navigate} strings={strings} />
           ) : (
             <SectionIndex title={pageContent.title} stories={pageContent.stories} onNavigate={navigate}
-              strings={strings} myXMode={pageContent.myXMode}
-              emptyMessage={edition.mode === "error" ? edition.basis : "—"} />
+              strings={strings} emptyMessage={edition.mode === "error" ? edition.basis : "—"} />
           )
         ) : (
-          <WebArticle story={story} edition={edition} language={language} handles={handles} strings={strings} onNavigate={navigate} />
+          <WebArticle story={story} edition={edition} language={language} strings={strings} onNavigate={navigate} />
         )}
       </div>
 
