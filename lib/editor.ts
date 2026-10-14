@@ -358,7 +358,7 @@ Current UTC time: ${now.toISOString()}
   return {
     updatedAt: new Date().toISOString(),
     mode: "live",
-    basis: "Current worldwide X conversation, refreshed at most every four hours.",
+    basis: "Daily worldwide X bulletin. Refreshed once per day (UTC).",
     trends: stories.map((story) => story.trend || story.headline),
     stories,
     language: "en"
