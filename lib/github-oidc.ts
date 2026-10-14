@@ -22,7 +22,7 @@ export function validPublisherClaims(payload: Record<string, any>, nowSeconds = 
     String(payload.repository_id) === REPO_ID &&
     String(payload.repository_owner_id) === OWNER_ID &&
     payload.ref === "refs/heads/main" &&
-    payload.sub === "repo:KAVentures/teletext:ref:refs/heads/main" &&
+    payload.sub === "repo:KAVentures@134240819/teletext@1404794352:ref:refs/heads/main" &&
     payload.workflow_ref === WORKFLOW_REF &&
     ["schedule", "workflow_dispatch"].includes(payload.event_name) &&
     typeof payload.exp === "number" &&
