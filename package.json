@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:daily": "node --test scripts/daily-utils.test.mjs",
+    "daily:generate": "node scripts/generate-daily.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
