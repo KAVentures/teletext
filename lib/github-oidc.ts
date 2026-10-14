@@ -24,7 +24,7 @@ export function validPublisherClaims(payload: Record<string, any>, nowSeconds = 
     payload.ref === "refs/heads/main" &&
     payload.sub === "repo:KAVentures@134240819/teletext@1404794352:ref:refs/heads/main" &&
     payload.workflow_ref === WORKFLOW_REF &&
-    ["schedule", "workflow_dispatch"].includes(payload.event_name) &&
+    ["push", "schedule", "workflow_dispatch"].includes(payload.event_name) &&
     typeof payload.exp === "number" &&
     typeof payload.iat === "number" &&
     payload.exp > nowSeconds &&
