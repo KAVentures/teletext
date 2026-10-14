@@ -1,6 +1,12 @@
 name: Publish one daily Teletext edition
 
 on:
+  # Automatic one-time initialization after this workflow is merged.
+  # Subsequent content commits from this workflow do not match this path.
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/daily-edition.yml"
   schedule:
     - cron: "17 6 * * *" # UTC; about 08:17 Sweden summer / 07:17 winter
   workflow_dispatch:
@@ -26,6 +32,20 @@ jobs:
         with:
           node-version: "24"
       - run: node --test scripts/daily-utils.test.mjs
+
+      - name: Wait until Vercel production has the protected publisher
+        run: |
+          for attempt in $(seq 1 30); do
+            status="$(curl --silent --show-error --max-time 10 --output /dev/null --write-out '%{http_code}' https://x.kinvectum.com/api/internal/daily-edition || true)"
+            if [ "$status" = "405" ]; then
+              echo "Production publisher is deployed."
+              exit 0
+            fi
+            echo "Waiting for production publisher (HTTP $status)..."
+            sleep 10
+          done
+          echo "Production publisher did not become ready; no API request made."
+          exit 1
 
       - name: Reserve exactly one daily attempt (no paid API call)
         id: claim
