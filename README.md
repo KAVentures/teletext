@@ -61,18 +61,23 @@ allow its GitHub Actions bot through branch protection.
 
 ## Initial activation
 
-1. Merge the PR after CI is green. Wait until the production deployment
-   on Vercel includes the new private publisher endpoint.
-2. In GitHub select **Actions → Publish one daily Teletext edition →
-   Run workflow**. This activates the first real bulletin. It runs without
-   a GitHub API key secret.
-3. Verify the new `data/daily-edition.json` commit and deployed news
-   pages. Further updates are automatic at 06:17 UTC.
+1. Merge PR #2 after CI is green. The workflow automatically starts
+   when its file lands on `main`.
+2. It waits for the new Vercel **production** publisher endpoint to return
+   HTTP 405 for its unauthenticated GET probe before reserving the paid
+   attempt. This avoids spending an attempt against the old deployment.
+3. After the first successful run, the new `data/daily-edition.json`
+   commit deploys the news pages. Future updates run at 06:17 UTC.
 
-If the initial publish fails, the attempt is already recorded; by design
-no second paid attempt will happen until the next UTC day. Check the
-workflow and Vercel logs. Do not remove the marker just to force a retry
-without accepting that doing so can create an additional billable request.
+**No GitHub API key secret or manual action is normally necessary.**
+If Vercel deployment takes more than five minutes, the initialization
+job exits without making any paid requests; the next scheduled job
+tries again. A manual **Actions → Publish one daily Teletext edition →
+Run workflow** is also available.
+
+If generation fails **after** the daily attempt was recorded, no second
+paid attempt occurs until the next UTC day. Do not remove the marker
+without accepting that doing so may incur another charge.
 
 ## Development
 
