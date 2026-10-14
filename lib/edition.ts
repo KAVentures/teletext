@@ -1,17 +1,12 @@
 import { unstable_cache } from "next/cache";
 import { mockEdition } from "./mock-edition";
-import {
-  buildGlobalBaseEdition,
-  fetchProfileEdition,
-  translateEdition
-} from "./editor";
+import dailySnapshot from "../data/daily-edition.json";
+import { fetchProfileEdition } from "./editor";
 import type { TeletextEdition, TeletextStory } from "./types";
 
 export const supportedLanguages = ["en", "sv", "de", "es", "fr"] as const;
 
-const GLOBAL_REVALIDATE_SECONDS = 24 * 60 * 60;
 const PROFILE_REVALIDATE_SECONDS = 7 * 24 * 60 * 60;
-const TRANSLATION_REVALIDATE_SECONDS = 24 * 60 * 60;
 const MAX_HANDLES = 5;
 
 export function normalizeLanguage(value?: string) {
@@ -51,17 +46,6 @@ function errorEdition(language: string, message: string, handles?: string[]): Te
   };
 }
 
-async function buildGlobalBase(): Promise<TeletextEdition> {
-  if (!process.env.XAI_API_KEY) {
-    if (process.env.NODE_ENV !== "production") {
-      return { ...mockEdition, language: "en", updatedAt: new Date().toISOString() };
-    }
-    throw new Error("XAI_API_KEY is not configured");
-  }
-
-  return buildGlobalBaseEdition();
-}
-
 async function buildProfile(handle: string): Promise<TeletextEdition> {
   if (!process.env.XAI_API_KEY) {
     throw new Error("XAI_API_KEY is not configured");
@@ -70,56 +54,37 @@ async function buildProfile(handle: string): Promise<TeletextEdition> {
   return fetchProfileEdition(handle);
 }
 
-async function translateSerializedEdition(
-  serializedEdition: string,
-  language: string
-): Promise<TeletextEdition> {
-  const edition = JSON.parse(serializedEdition) as TeletextEdition;
-  return translateEdition(edition, language);
-}
-
-const cachedGlobalBase = unstable_cache(
-  buildGlobalBase,
-  ["teletext-global-base-v9"],
-  { revalidate: GLOBAL_REVALIDATE_SECONDS, tags: ["teletext-global-base"] }
-);
-
 const cachedProfile = unstable_cache(
   buildProfile,
   ["teletext-profile-v1"],
   { revalidate: PROFILE_REVALIDATE_SECONDS, tags: ["teletext-profile"] }
 );
 
-const cachedTranslation = unstable_cache(
-  translateSerializedEdition,
-  ["teletext-edition-translation-v3"],
-  { revalidate: TRANSLATION_REVALIDATE_SECONDS, tags: ["teletext-translation"] }
-);
+// The public global edition is a checked-in snapshot produced by the daily
+// GitHub Actions workflow. No visitor request can trigger a paid xAI call.
+type DailySnapshot = {
+  date: string;
+  editions: Partial<Record<(typeof supportedLanguages)[number], TeletextEdition>>;
+};
+const published = dailySnapshot as DailySnapshot;
 
-async function localizeGlobal(
-  edition: TeletextEdition,
-  language: string
-): Promise<TeletextEdition> {
-  if (language === "en" || edition.stories.length === 0) {
-    return { ...edition, language };
-  }
-
-  return cachedTranslation(JSON.stringify(edition), language);
-}
-
-export async function getGlobalEdition(language?: string) {
+export async function getGlobalEdition(language?: string): Promise<TeletextEdition> {
   const lang = normalizeLanguage(language);
+  const edition = published.editions[lang] || published.editions.en;
 
-  try {
-    const base = await cachedGlobalBase();
-    return await localizeGlobal(base, lang);
-  } catch (error) {
-    console.error("Global edition generation failed", error);
-    return errorEdition(
-      lang,
-      "Could not refresh the live edition right now. Please retry later."
-    );
+  if (edition?.mode === "live" && edition.stories.length > 0) {
+    // An unavailable translation falls back to English, never to paid on-demand translation.
+    return edition;
   }
+
+  if (process.env.NODE_ENV !== "production") {
+    return { ...mockEdition, language: "en" };
+  }
+
+  return errorEdition(
+    lang,
+    "The daily Teletext bulletin has not been published yet. Please check back after the scheduled update."
+  );
 }
 
 export async function getMyXEdition({
