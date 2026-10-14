@@ -12,7 +12,7 @@ export default async function Page({
   searchParams: Promise<{ lang?: string | string[]; u?: string | string[]; q?: string | string[] }>;
 }) {
   const { page } = await params;
-  if (!/^\\d{3}$/.test(page)) notFound();
+  if (!/^\d{3}$/.test(page)) notFound();
   const numericPage = Number(page);
   // Retired My X and arbitrary lookup URLs must never reach the AI provider.
   if (numericPage >= 800 || numericPage < 100) notFound();
