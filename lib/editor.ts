@@ -64,7 +64,7 @@ const globalSchema = {
 };
 
 function clean(value: string) {
-  return value.replace(/<grok\\b[^>]*\\/?\\s*>/gi, "").replace(/\\s{2,}/g, " ").trim();
+  return value.replace(/<grok\b[^>]*\/?\s*>/gi, "").replace(/\s{2,}/g, " ").trim();
 }
 
 function isoDate(date: Date) {
