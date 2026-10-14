@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "test:daily": "node --test scripts/daily-utils.test.mjs",
+    "test:daily": "node --test scripts/*.test.mjs",
     "daily:generate": "node scripts/generate-daily.mjs"
   },
   "dependencies": {
