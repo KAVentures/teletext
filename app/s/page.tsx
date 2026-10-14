@@ -15,12 +15,14 @@ export default async function SharedEditionPage({
 
   try {
     const snapshot = decodeSnapshot(payload);
+    if (snapshot.page >= 800 || snapshot.edition.handles?.length || snapshot.handles?.length) {
+      notFound();
+    }
     return (
       <TeletextApp
         initialPage={snapshot.page}
         edition={snapshot.edition}
         initialLanguage={snapshot.language}
-        initialHandles={snapshot.handles || snapshot.edition.handles || []}
         isSnapshot
       />
     );
