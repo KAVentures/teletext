@@ -40,21 +40,34 @@ XAI_MODEL=grok-4.7
 
 Secrets must remain server-side. Do not expose them through `NEXT_PUBLIC_*`.
 
-## Cost model
+## Daily news publication and API costs
 
-The app is deliberately biased toward low spend.
+**The shared news pages are static and make zero paid xAI calls on visitor requests.**
+A GitHub Actions workflow at `.github/workflows/daily-edition.yml` generates one
+worldwide bulletin and all four translations at **06:17 UTC each day**.
+The workflow commits `data/daily-edition.json`, and Vercel's Git integration
+deploys the new static snapshot. All visitors read the same edition, irrespective
+of traffic spikes, deployment regions or Next.js cache misses.
 
-- Grok uses `grok-4.7` with `reasoning.effort = low`.
-- Tool-backed calls use one agent turn and `parallel_tool_calls = false`.
-- The global edition is shared across everyone and refreshed at most once every **24 hours**.
-- Non-English global editions reuse the same evidence and only run a no-tool translation.
-- Each X profile is fetched independently and shared across all users for **7 days**.
-- My X fetches at most **two posts per profile** and supports at most **five profiles** per edition.
-- A personal edition is assembled locally from already-cached profile results; there is **no extra Grok summarization call for the combination**.
-- Profile post text stays in its original language to avoid paid translation per custom combination.
-- xAI request cost fields are logged server-side for monitoring.
+### One-time setup (required before merging)
 
-This structure targets an average operating cost below roughly **$0.50/day at modest usage**, but it is not a mathematically hard spend ceiling against unlimited users adding unlimited new unique profiles. A provider-level xAI spend cap is the appropriate absolute backstop.
+1. In the **KAVentures/teletext GitHub repository**, go to **Settings → Secrets and variables → Actions**. Add a repository secret named **XAI_API_KEY** (the same xAI API key currently used by the Vercel app). Do not put the secret in a commit or chat.
+2. Ensure GitHub Actions is allowed to create commits: **Settings → Actions → General → Workflow permissions → Read and write permissions**, if this setting is available.
+3. Merge the PR, open **Actions → Publish one daily Teletext edition**, then run **Run workflow** once to publish the first edition immediately. Confirm the resulting commit and Vercel production deployment. Further updates are automatic, daily.
+
+Until the first successful workflow, live news pages show a clearly labelled unavailable state rather than silently generating paid content. A failed daily job keeps the last successfully published snapshot; traffic can never force a paid retry.
+
+### Limits and remaining costs
+
+- The shared daily bulletin uses **one X-search-backed Grok call** plus **four no-tool translation calls** per successful day. Additional paid calls can occur if a run fails after some calls; check the Actions run and xAI dashboard rather than assuming a hard financial limit.
+- A complete already-published UTC-day snapshot skips generation, including manually rerun workflows.
+- **My X (page 800) is separate**: adding a previously uncached X account still triggers an on-demand paid xAI profile request, cached for seven days. Up to five X accounts can be selected. My X remains supported; it is **not** covered by the strict once-per-day global-news guarantee.
+- Free-text search remains disabled, and API usage is logged server-side for My X.
+- For a hard total-spend limit, set a budget cap in the xAI account. A GitHub scheduled workflow is not a financial quota.
+
+`npm run test:daily` tests date-based deduplication and snapshot validation.
+Generation uses Node 24's native TypeScript type stripping and requires an
+`XAI_API_KEY` **only** in the scheduled GitHub Actions job, not for ordinary news readers.
 
 ## My X and sharing
 
