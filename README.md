@@ -1,105 +1,99 @@
 # Teletext
 
-**License: MIT** — free to use, modify, distribute, and build on under the terms in [`LICENSE`](./LICENSE).
+**License: MIT**. A classic finite-page news reader at
+[x.kinvectum.com](https://x.kinvectum.com), with no infinite feed.
 
-A deliberately simple, live Teletext-style news reader built around a finite page model rather than an infinite feed.
+## Pages
 
-## Product
+- **100 — News:** one globally shared daily bulletin.
+- **200 — World**, **300 — Tech**, **400 — Business**, **700 — Index**.
+- **101+ — Stories**, each linked to its source X posts.
+- Text-TV, accessible Web mode, five languages (EN/SV/DE/ES/FR), mobile
+  swipes, keyboard navigation and shareable immutable snapshots.
 
-- **100 — News:** one shared worldwide X-derived edition.
-- **800 — My X:** add up to five X profiles and turn their recent posts into a personal Teletext.
-- Individual My X stories start at page **801**.
-- No arbitrary free-text search. It was removed because open-ended queries created unpredictable API cost.
-- Sources remain clickable and point back to the X posts used.
+**X profile lookups, custom My X pages (800–899) and free-text searches
+are disabled.** Old URLs and API requests are rejected without calling
+any paid provider. They cannot be re-enabled by changing client URL
+parameters.
 
-## Local setup
+## Cost-locked architecture
+
+A single GitHub Actions scheduled workflow runs once each UTC day, at
+**06:17 UTC**. One xAI Responses API call with one X-search-backed
+generation produces the whole bulletin, including all four translated
+versions. It commits `data/daily-edition.json` to `main`, and Vercel
+automatically deploys the static data with the website.
+
+- **Zero xAI calls from public page views, source links, /api/edition, share,
+  or retired profile URLs.**
+- **One attempted provider request per UTC day** from the scheduled
+  publication workflow. A durable `data/daily-attempt.json` marker is
+  committed **before** the billable call; reruns on that date skip
+  generation even if the first attempt fails.
+- An unsuccessful generation leaves the last complete bulletin on the site.
+  Until the first successful update, the site displays an unavailable
+  state rather than spending on a visitor-triggered generation.
+- All five languages are created in the **same** paid request, not four
+  extra paid translation requests.
+- Vercel preview deployments are disabled in project settings; only the
+  main branch is deployed to production.
+- A Git push to the repository (including the attempted-date marker)
+  can still result in a Vercel *production* deployment. This is not
+  a paid AI call.
+
+## Credentials: no GitHub xAI secret required
+
+The xAI key already in the **Vercel production project** is used only
+by `POST /api/internal/daily-edition`. That route requires a short-lived
+**cryptographically verified GitHub Actions OIDC token** with the exact
+repository ID, main-branch workflow path, issuer and audience. There is
+no public manual refresh or profile lookup endpoint.
+
+**No `XAI_API_KEY` GitHub Actions secret needs to be configured.**
+Never add the key to GitHub commits or `NEXT_PUBLIC_*`.
+
+The daily workflow uses its built-in `GITHUB_TOKEN` and requests
+`contents: write` (to commit the edition and attempt marker) and
+`id-token: write` (for identity verification by Vercel). If your
+repository policy overrides these permissions, permit the workflow to
+write to `main` in GitHub repository Settings → Actions → General, or
+allow its GitHub Actions bot through branch protection.
+
+## Initial activation
+
+1. Merge the PR after CI is green. Wait until the production deployment
+   on Vercel includes the new private publisher endpoint.
+2. In GitHub select **Actions → Publish one daily Teletext edition →
+   Run workflow**. This activates the first real bulletin. It runs without
+   a GitHub API key secret.
+3. Verify the new `data/daily-edition.json` commit and deployed news
+   pages. Further updates are automatic at 06:17 UTC.
+
+If the initial publish fails, the attempt is already recorded; by design
+no second paid attempt will happen until the next UTC day. Check the
+workflow and Vercel logs. Do not remove the marker just to force a retry
+without accepting that doing so can create an additional billable request.
+
+## Development
 
 ```bash
-npm install
-cp .env.example .env.local
+npm ci
 npm run dev
+npm run test:daily
+npm run typecheck
+npm run build
 ```
 
-Open `http://localhost:3000/100`.
+The initial unpopulated snapshot returns a clear unavailable state. To
+inspect an actual bulletin locally, use a successfully published daily
+snapshot. No local API key is needed for reading.
 
-Without credentials, local development can use the safe demo data.
+## Editorial policy
 
-## Live credentials
-
-The **daily worldwide news** publisher reads `XAI_API_KEY` from a **GitHub Actions
-repository secret**, not from a page request. Vercel does not need this key to
-serve pages 100–799. The **My X** feature still needs the server-side
-`XAI_API_KEY` variable in Vercel to fetch newly requested profiles.
-
-The publisher defaults to `grok-4.7`. Never expose API keys through
-`NEXT_PUBLIC_*`, commits or browser code.
-
-## Daily news publication and API costs
-
-**The shared news pages are static and make zero paid xAI calls on visitor requests.**
-A GitHub Actions workflow at `.github/workflows/daily-edition.yml` generates one
-worldwide bulletin and all four translations at **06:17 UTC each day**.
-The workflow commits `data/daily-edition.json`, and Vercel's Git integration
-deploys the new static snapshot. All visitors read the same edition, irrespective
-of traffic spikes, deployment regions or Next.js cache misses.
-
-### One-time setup (required before merging)
-
-1. In the **KAVentures/teletext GitHub repository**, go to **Settings → Secrets and variables → Actions**. Add a repository secret named **XAI_API_KEY** (the same xAI API key currently used by the Vercel app). Do not put the secret in a commit or chat.
-2. Ensure GitHub Actions is allowed to create commits: **Settings → Actions → General → Workflow permissions → Read and write permissions**, if this setting is available.
-3. Merge the PR, open **Actions → Publish one daily Teletext edition**, then run **Run workflow** once to publish the first edition immediately. Confirm the resulting commit and Vercel production deployment. Further updates are automatic, daily.
-
-Until the first successful workflow, live news pages show a clearly labelled unavailable state rather than silently generating paid content. A failed daily job keeps the last successfully published snapshot; traffic can never force a paid retry.
-
-### Limits and remaining costs
-
-- The shared daily bulletin uses **one X-search-backed Grok call** plus **four no-tool translation calls** per successful day. Additional paid calls can occur if a run fails after some calls; check the Actions run and xAI dashboard rather than assuming a hard financial limit.
-- A complete already-published UTC-day snapshot skips generation, including manually rerun workflows.
-- **My X (page 800) is separate**: adding a previously uncached X account still triggers an on-demand paid xAI profile request, cached for seven days. Up to five X accounts can be selected. My X remains supported; it is **not** covered by the strict once-per-day global-news guarantee.
-- Free-text search remains disabled, and API usage is logged server-side for My X.
-- For a hard total-spend limit, set a budget cap in the xAI account. A GitHub scheduled workflow is not a financial quota.
-
-`npm run test:daily` tests date-based deduplication and snapshot validation.
-Generation uses Node 24's native TypeScript type stripping and requires an
-`XAI_API_KEY` **only** in the scheduled GitHub Actions job, not for ordinary news readers.
-
-## My X and sharing
-
-My X is represented directly in the URL:
-
-```text
-/800?u=sama,karpathy,OpenAI&lang=sv
-```
-
-That means **a database is not required for sharing**. Copying the live URL shares the same profile selection and language.
-
-The Share button also supports an **exact immutable snapshot**. The edition is Brotli-compressed into a self-contained `/s?d=...` URL, so the recipient sees exactly the same pages and sources even if the live edition later changes.
-
-The browser remembers the user's selected profiles locally using `localStorage`; no account or server-side user profile is required.
-
-A database could be useful later for accounts, cloud-synced profile lists, archives, analytics, or stricter global budget accounting, but it is not needed for the current sharing model.
-
-## Navigation
-
-- `100` — News
-- `200` — World
-- `300` — Tech
-- `400` — Business
-- `700` — Index
-- `800` — My X
-- `101+` — shared news stories
-- `801+` — My X stories
-
-Navigation supports links, arrow buttons, a numeric page box, keyboard arrows and mobile swipes.
-
-## Editorial model
-
-X is a discovery/source layer, not automatic truth. The global edition keeps attribution and uncertainty explicit. My X is even simpler: it primarily turns selected accounts' own recent posts into a finite Teletext reading experience rather than asking an agent to infer an open-ended news answer.
-
-## Branding
-
-The product takes inspiration from classic Teletext UI/UX, but uses original branding and does not imply affiliation with SVT or another broadcaster.
+X posts are signals and attributed sources, not proof. The daily prompt
+requires an explicit distinction between what is verified and what is
+claimed, and attempts to exclude spam and low-value trends.
 
 ## License
 
-This project is open source under the **MIT License**. See [LICENSE](./LICENSE).
+MIT. See [LICENSE](./LICENSE).
