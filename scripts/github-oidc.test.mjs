@@ -10,7 +10,7 @@ const good = {
   repository_id: "1404794352",
   repository_owner_id: "134240819",
   ref: "refs/heads/main",
-  sub: "repo:KAVentures/teletext:ref:refs/heads/main",
+  sub: "repo:KAVentures@134240819/teletext@1404794352:ref:refs/heads/main",
   workflow_ref: "KAVentures/teletext/.github/workflows/daily-edition.yml@refs/heads/main",
   event_name: "schedule",
   exp: now + 300,
