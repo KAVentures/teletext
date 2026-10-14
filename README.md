@@ -26,19 +26,13 @@ Without credentials, local development can use the safe demo data.
 
 ## Live credentials
 
-Add this server-side environment variable in Vercel:
+The **daily worldwide news** publisher reads `XAI_API_KEY` from a **GitHub Actions
+repository secret**, not from a page request. Vercel does not need this key to
+serve pages 100–799. The **My X** feature still needs the server-side
+`XAI_API_KEY` variable in Vercel to fetch newly requested profiles.
 
-```text
-XAI_API_KEY=...
-```
-
-Optional:
-
-```text
-XAI_MODEL=grok-4.7
-```
-
-Secrets must remain server-side. Do not expose them through `NEXT_PUBLIC_*`.
+The publisher defaults to `grok-4.7`. Never expose API keys through
+`NEXT_PUBLIC_*`, commits or browser code.
 
 ## Daily news publication and API costs
 
