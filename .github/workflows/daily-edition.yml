@@ -2,11 +2,12 @@ name: Publish one daily Teletext edition
 
 on:
   schedule:
-    - cron: "17 6 * * *" # UTC; roughly 08:17 Swedish summer time
+    - cron: "17 6 * * *" # UTC; about 08:17 Sweden summer / 07:17 winter
   workflow_dispatch:
 
 permissions:
   contents: write
+  id-token: write
 
 concurrency:
   group: teletext-daily-publication
@@ -24,21 +25,28 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020c # v4.4.0
         with:
           node-version: "24"
-      - name: Test snapshot safeguards
-        run: node --test scripts/daily-utils.test.mjs
-      - name: Generate bulletin and translations
-        env:
-          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-          XAI_MODEL: grok-4.7
-        run: node scripts/generate-daily.mjs
-      - name: Commit only when edition changes
+      - run: node --test scripts/daily-utils.test.mjs
+
+      - name: Reserve exactly one daily attempt (no paid API call)
+        id: claim
+        run: node scripts/claim-daily.mjs
+
+      - name: Commit attempt marker before provider request
+        if: steps.claim.outputs.run == 'true'
         run: |
-          if git diff --quiet -- data/daily-edition.json; then
-            echo "No new edition to commit."
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/daily-attempt.json
+          git commit -m "data: mark daily bulletin attempt"
+          git push origin HEAD:main
+
+      - name: Generate through authenticated production publisher
+        if: steps.claim.outputs.run == 'true'
+        run: node scripts/generate-daily.mjs
+
+      - name: Publish snapshot and trigger production deployment
+        if: steps.claim.outputs.run == 'true'
+        run: |
           git add data/daily-edition.json
-          git commit -m "data: publish UTC daily Teletext bulletin"
+          git commit -m "data: publish daily Teletext bulletin"
           git push origin HEAD:main
