@@ -9,9 +9,9 @@ export const supportedLanguages = ["en", "sv", "de", "es", "fr"] as const;
 const PROFILE_REVALIDATE_SECONDS = 7 * 24 * 60 * 60;
 const MAX_HANDLES = 5;
 
-export function normalizeLanguage(value?: string) {
-  const lang = (value || "en").toLowerCase();
-  return supportedLanguages.includes(lang as (typeof supportedLanguages)[number]) ? lang : "en";
+export function normalizeLanguage(value?: string): (typeof supportedLanguages)[number] {
+  const lang = (value || "en").toLowerCase() as (typeof supportedLanguages)[number];
+  return supportedLanguages.includes(lang) ? lang : "en";
 }
 
 export function normalizeHandle(value?: string) {
