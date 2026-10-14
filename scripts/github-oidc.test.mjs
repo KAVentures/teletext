@@ -24,7 +24,7 @@ test("only the exact scheduled main-branch workflow is permitted", () => {
   for (const [key,value] of [
     ["ref", "refs/heads/dev"], ["repository_id", "123"],
     ["workflow_ref", "KAVentures/teletext/.github/workflows/other.yml@refs/heads/main"],
-    ["aud", "wrong"], ["event_name", "push"], ["exp", now - 1]
+    ["aud", "wrong"], ["event_name", "pull_request"], ["exp", now - 1]
   ]) {
     assert.equal(validPublisherClaims({ ...good, [key]: value }, now), false, key);
   }
