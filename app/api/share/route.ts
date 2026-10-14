@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
 import { encodeSnapshot, type ShareSnapshot } from "@/lib/share";
-import { normalizeHandles } from "@/lib/edition";
 import type { TeletextEdition } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -13,28 +12,21 @@ export async function POST(request: NextRequest) {
       handles?: string[];
       edition?: TeletextEdition;
     };
-
-    if (
-      !Number.isInteger(body.page) ||
-      !body.edition ||
+    if (!Number.isInteger(body.page) || (body.page as number) >= 800 ||
+      (body.page as number) < 100 || !body.edition ||
       !Array.isArray(body.edition.stories) ||
-      typeof body.language !== "string"
-    ) {
-      return NextResponse.json({ error: "Invalid snapshot" }, { status: 400 });
+      typeof body.language !== "string" ||
+      body.handles?.length || body.edition.handles?.length) {
+      return NextResponse.json({ error: "Invalid or retired edition" }, { status: 400 });
     }
-
-    const handles = normalizeHandles(body.handles || []);
     const snapshot: ShareSnapshot = {
       v: 1,
       page: body.page as number,
       language: body.language,
-      ...(handles.length ? { handles } : {}),
       edition: body.edition
     };
-
-    const payload = encodeSnapshot(snapshot);
     return NextResponse.json(
-      { path: "/s?d=" + encodeURIComponent(payload) },
+      { path: "/s?d=" + encodeURIComponent(encodeSnapshot(snapshot)) },
       { headers: { "Cache-Control": "no-store" } }
     );
   } catch {
