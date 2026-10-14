@@ -1,49 +1,55 @@
-// Runs only in the daily GitHub Actions job, never in an HTTP request.
-// Node 24 supports stripping types from lib/editor.ts without a build step.
+// The GitHub Actions publisher holds no xAI secret.
+// A short-lived, signed GitHub OIDC token authorizes its one daily API call
+// through the production Vercel endpoint, where XAI_API_KEY already lives.
 import { readFile, writeFile, rename } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildGlobalBaseEdition, translateEdition } from "../lib/editor.ts";
 import { LANGUAGES, utcDate, alreadyPublished, isCompleteEdition } from "./daily-utils.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const target = join(root, "data", "daily-edition.json");
 const today = utcDate();
-
-let previous = {};
-try {
-  previous = JSON.parse(await readFile(target, "utf8"));
-} catch (error) {
-  if (error.code !== "ENOENT") throw error;
-}
+const previous = JSON.parse(await readFile(target, "utf8"));
 
 if (alreadyPublished(previous, today)) {
-  console.info("Daily edition already published for " + today + " UTC; skipping paid API requests.");
+  console.info("A complete daily edition already exists; no API calls.");
   process.exit(0);
 }
 
-if (!process.env.XAI_API_KEY) {
-  throw new Error("Missing XAI_API_KEY GitHub Actions repository secret; no API requests made.");
+const oidcEndpoint = process.env.ACTIONS_ID_TOKEN_REQUEST_URL;
+const oidcBearer = process.env.ACTIONS_ID_TOKEN_REQUEST_TOKEN;
+if (!oidcEndpoint || !oidcBearer) {
+  throw new Error("GitHub OIDC unavailable: workflow must grant id-token: write.");
+}
+const audience = "https://x.kinvectum.com/api/internal/daily-edition";
+const url = new URL(oidcEndpoint);
+url.searchParams.set("audience", audience);
+const tokenResponse = await fetch(url, {
+  headers: { Authorization: `Bearer ${oidcBearer}` },
+  signal: AbortSignal.timeout(10000),
+  cache: "no-store"
+});
+if (!tokenResponse.ok) throw new Error("Could not obtain the signed GitHub Actions OIDC token");
+const data = await tokenResponse.json();
+if (typeof data.value !== "string") throw new Error("Missing GitHub OIDC token");
+
+const publishResponse = await fetch(audience, {
+  method: "POST",
+  headers: { Authorization: `Bearer ${data.value}` },
+  cache: "no-store",
+  signal: AbortSignal.timeout(240000)
+});
+if (!publishResponse.ok) {
+  throw new Error("Vercel daily publication failed (HTTP " + publishResponse.status + ")");
+}
+const result = await publishResponse.json();
+if (result.date !== today || !result.editions ||
+    !LANGUAGES.every((lang) => isCompleteEdition(result.editions[lang], lang))) {
+  throw new Error("Daily publisher returned incomplete data or the wrong UTC date");
 }
 
-const english = await buildGlobalBaseEdition();
-if (!isCompleteEdition(english, "en")) {
-  throw new Error("English daily edition failed validation; leaving previous edition intact.");
-}
-
-// Generate every supported translation once, in the scheduled job rather than
-// when each new language is first viewed by a visitor.
-const editions = { en: english };
-for (const language of LANGUAGES.filter((lang) => lang !== "en")) {
-  const translated = await translateEdition(english, language);
-  if (!isCompleteEdition(translated, language)) {
-    throw new Error("Daily " + language + " translation failed validation; previous snapshot unchanged.");
-  }
-  editions[language] = translated;
-}
-
-const snapshot = { date: today, editions };
-const temporary = target + ".tmp";
-await writeFile(temporary, JSON.stringify(snapshot, null, 2) + "\n", "utf8");
-await rename(temporary, target);
-console.info("Published a complete global Teletext snapshot for " + today + " UTC.");
+const next = { date: today, editions: result.editions };
+const tmp = target + ".tmp";
+await writeFile(tmp, JSON.stringify(next, null, 2) + "\n", "utf8");
+await rename(tmp, target);
+console.info("Prepared complete, validated five-language daily snapshot for " + today);
