@@ -1,29 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getGlobalEdition, getMyXEdition } from "@/lib/edition";
+import { getGlobalEdition } from "@/lib/edition";
 
 export const runtime = "nodejs";
 
 export async function GET(request: NextRequest) {
-  const language = request.nextUrl.searchParams.get("lang") || undefined;
-  const handles = request.nextUrl.searchParams.get("u") || undefined;
-  const legacyQuery = request.nextUrl.searchParams.get("q");
-
-  if (legacyQuery) {
+  // Reject all legacy parameters, even if users bypass the UI.
+  if (request.nextUrl.searchParams.has("u") || request.nextUrl.searchParams.has("q")) {
     return NextResponse.json(
-      { error: "Free-text search has been retired. Use My X profiles instead." },
-      { status: 410, headers: { "Cache-Control": "public, s-maxage=86400" } }
+      { error: "X profile lookups and searches are permanently disabled." },
+      { status: 410, headers: { "Cache-Control": "public, max-age=86400" } }
     );
   }
-
-  const edition = handles
-    ? await getMyXEdition({ handles, language })
-    : await getGlobalEdition(language);
-
+  const edition = await getGlobalEdition(request.nextUrl.searchParams.get("lang") || undefined);
   return NextResponse.json(edition, {
-    headers: {
-      "Cache-Control": handles
-        ? "public, s-maxage=604800, stale-while-revalidate=86400"
-        : "public, s-maxage=86400, stale-while-revalidate=3600"
-    }
+    headers: { "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=3600" }
   });
 }
