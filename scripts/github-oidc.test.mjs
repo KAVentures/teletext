@@ -1,5 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { generateKeyPairSync, sign } from "node:crypto";
 import { validPublisherClaims, verifyDailyPublisherToken, DAILY_AUDIENCE } from "../lib/github-oidc.ts";
 
 const now = 1791950000;
@@ -34,4 +35,25 @@ test("unsigned and random caller tokens are always rejected", async () => {
   const encoded = (value) => Buffer.from(JSON.stringify(value)).toString("base64url");
   const forged = [encoded({ alg: "none", kid: "any" }), encoded(good), "fake"].join(".");
   assert.equal(await verifyDailyPublisherToken(forged), false);
+});
+
+test("a signed GitHub JWT passes, but a tampered JWT is rejected", async () => {
+  const originalFetch = globalThis.fetch;
+  const { privateKey, publicKey } = generateKeyPairSync("rsa", { modulusLength: 2048 });
+  const jwk = { ...publicKey.export({ format: "jwk" }), alg: "RS256", kid: "daily-test-key", use: "sig" };
+  const current = Math.floor(Date.now() / 1000);
+  const payload = { ...good, exp: current + 300, iat: current, nbf: current };
+  const encoded = (obj) => Buffer.from(JSON.stringify(obj)).toString("base64url");
+  const signingInput = encoded({ alg: "RS256", kid: jwk.kid }) + "." + encoded(payload);
+  const signature = sign("RSA-SHA256", Buffer.from(signingInput, "ascii"), privateKey).toString("base64url");
+  const token = signingInput + "." + signature;
+  try {
+    globalThis.fetch = async () => ({ ok: true, json: async () => ({ keys: [jwk] }) });
+    assert.equal(await verifyDailyPublisherToken(token), true);
+    const parts = token.split(".");
+    const tamperedPayload = encoded({ ...payload, event_name: "workflow_dispatch" });
+    assert.equal(await verifyDailyPublisherToken(parts[0] + "." + tamperedPayload + "." + signature), false);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
 });
