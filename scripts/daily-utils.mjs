@@ -7,14 +7,17 @@ export function utcDate(date = new Date()) {
 export function isCompleteEdition(edition, language) {
   return edition?.mode === "live" &&
     edition.language === language &&
-    typeof edition.updatedAt === "string" &&
+    !Number.isNaN(Date.parse(edition.updatedAt)) &&
     Array.isArray(edition.stories) &&
-    edition.stories.length >= 4 &&
+    edition.stories.length >= 4 && edition.stories.length <= 6 &&
     edition.stories.every((story) =>
       typeof story.headline === "string" &&
-      story.headline.length > 0 &&
+      story.headline.trim().length > 0 &&
       Array.isArray(story.paragraphs) &&
-      story.paragraphs.length > 0
+      story.paragraphs.length >= 1 &&
+      Array.isArray(story.sources) &&
+      story.sources.some((s) => typeof s.url === "string" &&
+        /^https:\/\/(?:www\.)?x\.com\/[^/]+\/status\/\d+/i.test(s.url))
     );
 }
 
