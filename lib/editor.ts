@@ -119,7 +119,7 @@ Current UTC time: ${now.toISOString()}`;
       reasoning: { effort: "low" },
       max_turns: 1,
       parallel_tool_calls: false,
-      max_output_tokens: 6200,
+      max_output_tokens: 11000,
       prompt_cache_key: "teletext-daily-five-languages-v1",
       input: prompt,
       tools: [{ type: "x_search", from_date: isoDate(yesterday), to_date: isoDate(now) }],
