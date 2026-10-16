@@ -1,110 +1,135 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "editions": {
     "en": {
-      "updatedAt": "2026-10-15T11:37:22.986Z",
+      "updatedAt": "2026-10-16T11:31:35.903Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Security claim",
-        "Viral claim",
-        "Policy message",
-        "Interview share"
+        "Discussed",
+        "Contested",
+        "Emerging",
+        "Noted",
+        "Reported"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Security",
-          "headline": "Temple shooting plot reportedly foiled",
+          "category": "Conflict",
+          "headline": "Iran war cost near $2k per US home",
           "paragraphs": [
-            "CoHNA claims authorities stopped a planned mass shooting at a Hindu temple near Chicago.",
-            "A teen allegedly had a rifle and 300 rounds. Posts urge vigilance; details unconfirmed by officials here."
+            "X posts claim the Iran war has cost nearly $2,000 per US household.",
+            "Kalshi Finance shared the figure; it is a reported claim, not confirmed fact."
           ],
           "highlightParagraph": 0,
-          "trend": "Security claim",
+          "trend": "Discussed",
           "sources": [
             {
-              "label": "CoHNA post",
-              "url": "https://x.com/CoHNAOfficial/status/2110520314983534698"
+              "label": "@Kalshi_Finance",
+              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "CoHNA post",
-              "url": "https://x.com/CoHNAOfficial/status/2110520314983534698"
+              "text": "@Kalshi_Finance",
+              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Conflict",
-          "headline": "New footage of hall attack claimed",
+          "category": "Geopolitics",
+          "headline": "Account claims Trump exits NATO",
           "paragraphs": [
-            "A widely viewed post says Russia released fresh video of the concert hall attack killing 149.",
-            "The footage is called disturbing. Treat as unverified claim; original event was years prior."
+            "A pro-Russia X account claims Trump announced US withdrawal from NATO over Europe's refusal to join the Iran war.",
+            "The claim is unverified and presented without independent sources."
           ],
           "highlightParagraph": 1,
-          "trend": "Viral claim",
+          "trend": "Contested",
           "sources": [
             {
-              "label": "Crazy Clips post",
-              "url": "https://x.com/crazedclip/status/2110520170364207612"
+              "label": "@Rusia_HD",
+              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Crazy Clips post",
-              "url": "https://x.com/crazedclip/status/2110520170364207612"
+              "text": "@Rusia_HD",
+              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Economy",
-          "headline": "Newsom highlights California investments",
+          "category": "Ukraine",
+          "headline": "Claim: WH limits Ukraine Starshield",
           "paragraphs": [
-            "Governor Newsom says California leads innovation by funding research and education.",
-            "He claims this draws global talent for the future economy. Video posted on X."
+            "War Monitor says sources report a White House order limiting Ukraine access to Starshield.",
+            "It is described as a Reuters exclusive; treat as an attributed claim."
           ],
           "highlightParagraph": 0,
-          "trend": "Policy message",
+          "trend": "Emerging",
           "sources": [
             {
-              "label": "Gavin Newsom post",
-              "url": "https://x.com/GavinNewsom/status/2110520458475155805"
+              "label": "@WarMonltor",
+              "url": "https://x.com/WarMonltor/status/2110869786770960545"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Gavin Newsom post",
-              "url": "https://x.com/GavinNewsom/status/2110520458475155805"
+              "text": "@WarMonltor",
+              "url": "https://x.com/WarMonltor/status/2110869786770960545"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Diplomacy",
-          "headline": "Asselineau on Franco-Russian talks",
+          "category": "US Politics",
+          "headline": "Judge extends pause on Trump ads",
           "paragraphs": [
-            "French UPR head Asselineau shared a meeting on dialogue with Russia and France's election.",
-            "Interview with Irina Dubois held 14 Oct. Video promised soon, according to his post."
+            "A judge extended a pause on taxpayer-funded Trump campaign ads past Election Day.",
+            "Citizens for Ethics called the ruling good news, citing a Politico report."
           ],
           "highlightParagraph": 0,
-          "trend": "Interview share",
+          "trend": "Noted",
           "sources": [
             {
-              "label": "Asselineau post",
-              "url": "https://x.com/f_asselineau/status/2110520674985103461"
+              "label": "@CREWcrew",
+              "url": "https://x.com/CREWcrew/status/2110868326410772800"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Asselineau post",
-              "url": "https://x.com/f_asselineau/status/2110520674985103461"
+              "text": "@CREWcrew",
+              "url": "https://x.com/CREWcrew/status/2110868326410772800"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Diplomacy",
+          "headline": "Colombia quits Hague Group on Israel",
+          "paragraphs": [
+            "Colombia’s foreign minister said the country requested withdrawal from The Hague Group.",
+            "Israel War Room reports the move rejects efforts to isolate Israel."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Reported",
+          "sources": [
+            {
+              "label": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
             }
           ]
         }
@@ -112,109 +137,134 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-10-15T11:37:22.986Z",
+      "updatedAt": "2026-10-16T11:31:35.903Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Security claim",
-        "Viral claim",
-        "Policy message",
-        "Interview share"
+        "Discussed",
+        "Contested",
+        "Emerging",
+        "Noted",
+        "Reported"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Säkerhet",
-          "headline": "Tempelattackplan uppges stoppad",
+          "category": "Konflikt",
+          "headline": "Iran-krig: nära 2 000 USD per hushåll",
           "paragraphs": [
-            "CoHNA hävdar att myndigheter stoppade en planerad masskjutning vid ett hinduiskt tempel nära Chicago.",
-            "En tonåring ska ha haft gevär och 300 skott. Inlägg uppmanar till vaksamhet; detaljer obekräftade här."
+            "X-inlägg hävdar att Iran-kriget kostat nästan 2 000 dollar per amerikanskt hushåll.",
+            "Kalshi Finance delade siffran; det är ett påstående, inte bekräftat faktum."
           ],
           "highlightParagraph": 0,
-          "trend": "Security claim",
+          "trend": "Discussed",
           "sources": [
             {
-              "label": "CoHNA post",
-              "url": "https://x.com/CoHNAOfficial/status/2110520314983534698"
+              "label": "@Kalshi_Finance",
+              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "CoHNA post",
-              "url": "https://x.com/CoHNAOfficial/status/2110520314983534698"
+              "text": "@Kalshi_Finance",
+              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Konflikt",
-          "headline": "Ny film från hallattack påstås",
+          "category": "Geopolitik",
+          "headline": "Konto: Trump lämnar Nato",
           "paragraphs": [
-            "Ett välsett inlägg säger att Ryssland släppt ny video från konsertattacken som dödade 149.",
-            "Filmen kallas störande. Behandla som overifierat påstående; ursprungshändelsen var år tidigare."
+            "Ett Rysslandskopplat X-konto hävdar att Trump meddelat USA:s utträde ur Nato efter Europas vägran att delta i Iran-kriget.",
+            "Påståendet är overifierat och saknar oberoende källor."
           ],
           "highlightParagraph": 1,
-          "trend": "Viral claim",
+          "trend": "Contested",
           "sources": [
             {
-              "label": "Crazy Clips post",
-              "url": "https://x.com/crazedclip/status/2110520170364207612"
+              "label": "@Rusia_HD",
+              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Crazy Clips post",
-              "url": "https://x.com/crazedclip/status/2110520170364207612"
+              "text": "@Rusia_HD",
+              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Ekonomi",
-          "headline": "Newsom lyfter Kaliforniens investeringar",
+          "category": "Ukraina",
+          "headline": "Påstående: WH begränsar Starshield",
           "paragraphs": [
-            "Guvernör Newsom säger att Kalifornien leder innovation genom att finansiera forskning och utbildning.",
-            "Han hävdar att detta lockar global talang för framtidens ekonomi. Video postad på X."
+            "War Monitor säger att källor rapporterar en order från Vita huset som begränsar Ukrainas tillgång till Starshield.",
+            "Det beskrivs som en Reuters-exklusiv; behandla som ett tillskrivet påstående."
           ],
           "highlightParagraph": 0,
-          "trend": "Policy message",
+          "trend": "Emerging",
           "sources": [
             {
-              "label": "Gavin Newsom post",
-              "url": "https://x.com/GavinNewsom/status/2110520458475155805"
+              "label": "@WarMonltor",
+              "url": "https://x.com/WarMonltor/status/2110869786770960545"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Gavin Newsom post",
-              "url": "https://x.com/GavinNewsom/status/2110520458475155805"
+              "text": "@WarMonltor",
+              "url": "https://x.com/WarMonltor/status/2110869786770960545"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Diplomati",
-          "headline": "Asselineau om fransk-ryska samtal",
+          "category": "USA-politik",
+          "headline": "Domare förlänger paus på Trump-annonser",
           "paragraphs": [
-            "Franska UPR-ledaren Asselineau delade ett möte om dialog med Ryssland och Frankrikes val.",
-            "Intervju med Irina Dubois hölls 14 okt. Video utlovad snart, enligt hans inlägg."
+            "En domare förlängde pausen för skattefinansierade Trump-annonser förbi valdagen.",
+            "Citizens for Ethics kallade beslutet goda nyheter och hänvisade till en Politico-rapport."
           ],
           "highlightParagraph": 0,
-          "trend": "Interview share",
+          "trend": "Noted",
           "sources": [
             {
-              "label": "Asselineau post",
-              "url": "https://x.com/f_asselineau/status/2110520674985103461"
+              "label": "@CREWcrew",
+              "url": "https://x.com/CREWcrew/status/2110868326410772800"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Asselineau post",
-              "url": "https://x.com/f_asselineau/status/2110520674985103461"
+              "text": "@CREWcrew",
+              "url": "https://x.com/CREWcrew/status/2110868326410772800"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Diplomati",
+          "headline": "Colombia lämnar Haaggruppen om Israel",
+          "paragraphs": [
+            "Colombias utrikesminister sa att landet begärt utträde ur Haaggruppen.",
+            "Israel War Room rapporterar att steget avvisar försök att isolera Israel."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Reported",
+          "sources": [
+            {
+              "label": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
             }
           ]
         }
@@ -222,109 +272,134 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-10-15T11:37:22.986Z",
+      "updatedAt": "2026-10-16T11:31:35.903Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Security claim",
-        "Viral claim",
-        "Policy message",
-        "Interview share"
+        "Discussed",
+        "Contested",
+        "Emerging",
+        "Noted",
+        "Reported"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Sicherheit",
-          "headline": "Tempel-Anschlagsplan angeblich vereitelt",
+          "category": "Konflikt",
+          "headline": "Iran-Krieg: fast 2000 $ pro Haushalt",
           "paragraphs": [
-            "CoHNA behauptet, Behörden hätten einen geplanten Amoklauf an einem Hindu-Tempel bei Chicago verhindert.",
-            "Ein Teenager soll Gewehr und 300 Schuss gehabt haben. Beiträge raten zur Wachsamkeit; Details hier unbestätigt."
+            "X-Beiträge behaupten, der Iran-Krieg habe fast 2.000 Dollar pro US-Haushalt gekostet.",
+            "Kalshi Finance nannte die Zahl; es handelt sich um eine Behauptung, kein bestätigtes Faktum."
           ],
           "highlightParagraph": 0,
-          "trend": "Security claim",
+          "trend": "Discussed",
           "sources": [
             {
-              "label": "CoHNA post",
-              "url": "https://x.com/CoHNAOfficial/status/2110520314983534698"
+              "label": "@Kalshi_Finance",
+              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "CoHNA post",
-              "url": "https://x.com/CoHNAOfficial/status/2110520314983534698"
+              "text": "@Kalshi_Finance",
+              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Konflikt",
-          "headline": "Neue Aufnahmen vom Hallenangriff behauptet",
+          "category": "Geopolitik",
+          "headline": "Konto: Trump verlässt die Nato",
           "paragraphs": [
-            "Ein vielgesehenes Post sagt, Russland habe neues Video vom Konzerthallenangriff veröffentlicht, der 149 tötete.",
-            "Das Material wird als verstörend bezeichnet. Als unbestätigte Behauptung behandeln; Originalereignis Jahre zuvor."
+            "Ein russlandnahes X-Konto behauptet, Trump habe den US-Austritt aus der Nato angekündigt, weil Europa den Iran-Krieg ablehnte.",
+            "Die Behauptung ist unbestätigt und ohne unabhängige Quellen."
           ],
           "highlightParagraph": 1,
-          "trend": "Viral claim",
+          "trend": "Contested",
           "sources": [
             {
-              "label": "Crazy Clips post",
-              "url": "https://x.com/crazedclip/status/2110520170364207612"
+              "label": "@Rusia_HD",
+              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Crazy Clips post",
-              "url": "https://x.com/crazedclip/status/2110520170364207612"
+              "text": "@Rusia_HD",
+              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Wirtschaft",
-          "headline": "Newsom hebt Kaliforniens Investitionen hervor",
+          "category": "Ukraine",
+          "headline": "Behauptung: WH begrenzt Starshield",
           "paragraphs": [
-            "Gouverneur Newsom sagt, Kalifornien führe Innovation durch Finanzierung von Forschung und Bildung an.",
-            "Er behauptet, dies ziehe globale Talente für die Zukunftswirtschaft an. Video auf X gepostet."
+            "War Monitor sagt, Quellen berichteten von einer Anordnung des Weißen Hauses, die den Starshield-Zugang der Ukraine begrenzt.",
+            "Es wird als Reuters-Exklusiv bezeichnet; als zugeschriebene Behauptung behandeln."
           ],
           "highlightParagraph": 0,
-          "trend": "Policy message",
+          "trend": "Emerging",
           "sources": [
             {
-              "label": "Gavin Newsom post",
-              "url": "https://x.com/GavinNewsom/status/2110520458475155805"
+              "label": "@WarMonltor",
+              "url": "https://x.com/WarMonltor/status/2110869786770960545"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Gavin Newsom post",
-              "url": "https://x.com/GavinNewsom/status/2110520458475155805"
+              "text": "@WarMonltor",
+              "url": "https://x.com/WarMonltor/status/2110869786770960545"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Diplomatie",
-          "headline": "Asselineau zu französisch-russischen Gesprächen",
+          "category": "US-Politik",
+          "headline": "Richter verlängert Pause für Trump-Anzeigen",
           "paragraphs": [
-            "Französischer UPR-Chef Asselineau teilte ein Treffen zum Dialog mit Russland und Frankreichs Wahl.",
-            "Interview mit Irina Dubois am 14. Okt. Video bald versprochen, laut seinem Post."
+            "Ein Richter verlängerte die Pause für steuerfinanzierte Trump-Anzeigen über den Wahltag hinaus.",
+            "Citizens for Ethics nannte das Urteil gute Nachrichten und verwies auf einen Politico-Bericht."
           ],
           "highlightParagraph": 0,
-          "trend": "Interview share",
+          "trend": "Noted",
           "sources": [
             {
-              "label": "Asselineau post",
-              "url": "https://x.com/f_asselineau/status/2110520674985103461"
+              "label": "@CREWcrew",
+              "url": "https://x.com/CREWcrew/status/2110868326410772800"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Asselineau post",
-              "url": "https://x.com/f_asselineau/status/2110520674985103461"
+              "text": "@CREWcrew",
+              "url": "https://x.com/CREWcrew/status/2110868326410772800"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Diplomatie",
+          "headline": "Kolumbien verlässt Haager Gruppe zu Israel",
+          "paragraphs": [
+            "Kolumbiens Außenminister sagte, das Land habe den Austritt aus der Haager Gruppe beantragt.",
+            "Israel War Room berichtet, der Schritt lehne Versuche ab, Israel zu isolieren."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Reported",
+          "sources": [
+            {
+              "label": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
             }
           ]
         }
@@ -332,109 +407,134 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-10-15T11:37:22.986Z",
+      "updatedAt": "2026-10-16T11:31:35.903Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Security claim",
-        "Viral claim",
-        "Policy message",
-        "Interview share"
+        "Discussed",
+        "Contested",
+        "Emerging",
+        "Noted",
+        "Reported"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Seguridad",
-          "headline": "Complot de tiroteo en templo frustrado",
+          "category": "Conflicto",
+          "headline": "Guerra Irán: casi 2.000 $ por hogar",
           "paragraphs": [
-            "CoHNA afirma que autoridades frustraron un tiroteo masivo planeado en un templo hindú cerca de Chicago.",
-            "Un adolescente habría tenido un rifle y 300 balas. Publicaciones piden vigilancia; detalles no confirmados aquí."
+            "Publicaciones en X afirman que la guerra de Irán ha costado casi 2.000 dólares por hogar estadounidense.",
+            "Kalshi Finance compartió la cifra; es una afirmación, no un hecho confirmado."
           ],
           "highlightParagraph": 0,
-          "trend": "Security claim",
+          "trend": "Discussed",
           "sources": [
             {
-              "label": "CoHNA post",
-              "url": "https://x.com/CoHNAOfficial/status/2110520314983534698"
+              "label": "@Kalshi_Finance",
+              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "CoHNA post",
-              "url": "https://x.com/CoHNAOfficial/status/2110520314983534698"
+              "text": "@Kalshi_Finance",
+              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Conflicto",
-          "headline": "Nuevas imágenes de ataque en sala reclamadas",
+          "category": "Geopolítica",
+          "headline": "Cuenta: Trump sale de la OTAN",
           "paragraphs": [
-            "Una publicación muy vista dice que Rusia publicó video nuevo del ataque en sala de conciertos que mató a 149.",
-            "Las imágenes se llaman perturbadoras. Tratar como afirmación no verificada; evento original fue años antes."
+            "Una cuenta pro-Rusia en X afirma que Trump anunció la salida de EE.UU. de la OTAN tras la negativa europea a unirse a la guerra de Irán.",
+            "La afirmación no está verificada y carece de fuentes independientes."
           ],
           "highlightParagraph": 1,
-          "trend": "Viral claim",
+          "trend": "Contested",
           "sources": [
             {
-              "label": "Crazy Clips post",
-              "url": "https://x.com/crazedclip/status/2110520170364207612"
+              "label": "@Rusia_HD",
+              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Crazy Clips post",
-              "url": "https://x.com/crazedclip/status/2110520170364207612"
+              "text": "@Rusia_HD",
+              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Economía",
-          "headline": "Newsom destaca inversiones de California",
+          "category": "Ucrania",
+          "headline": "Afirman: Casa Blanca limita Starshield",
           "paragraphs": [
-            "El gobernador Newsom dice que California lidera la innovación financiando investigación y educación.",
-            "Afirma que esto atrae talento global para la economía futura. Video publicado en X."
+            "War Monitor dice que fuentes informan de una orden de la Casa Blanca que limita el acceso de Ucrania a Starshield.",
+            "Se describe como exclusiva de Reuters; tratar como afirmación atribuida."
           ],
           "highlightParagraph": 0,
-          "trend": "Policy message",
+          "trend": "Emerging",
           "sources": [
             {
-              "label": "Gavin Newsom post",
-              "url": "https://x.com/GavinNewsom/status/2110520458475155805"
+              "label": "@WarMonltor",
+              "url": "https://x.com/WarMonltor/status/2110869786770960545"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Gavin Newsom post",
-              "url": "https://x.com/GavinNewsom/status/2110520458475155805"
+              "text": "@WarMonltor",
+              "url": "https://x.com/WarMonltor/status/2110869786770960545"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Diplomacia",
-          "headline": "Asselineau sobre charlas franco-rusas",
+          "category": "Política de EE.UU.",
+          "headline": "Juez prolonga pausa de anuncios de Trump",
           "paragraphs": [
-            "El líder francés de UPR Asselineau compartió una reunión sobre diálogo con Rusia y la elección de Francia.",
-            "Entrevista con Irina Dubois el 14 oct. Video prometido pronto, según su publicación."
+            "Un juez extendió la pausa de anuncios de Trump financiados con impuestos más allá del día de las elecciones.",
+            "Citizens for Ethics calificó el fallo de buena noticia y citó un informe de Politico."
           ],
           "highlightParagraph": 0,
-          "trend": "Interview share",
+          "trend": "Noted",
           "sources": [
             {
-              "label": "Asselineau post",
-              "url": "https://x.com/f_asselineau/status/2110520674985103461"
+              "label": "@CREWcrew",
+              "url": "https://x.com/CREWcrew/status/2110868326410772800"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Asselineau post",
-              "url": "https://x.com/f_asselineau/status/2110520674985103461"
+              "text": "@CREWcrew",
+              "url": "https://x.com/CREWcrew/status/2110868326410772800"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Diplomacia",
+          "headline": "Colombia sale del Grupo de La Haya",
+          "paragraphs": [
+            "El canciller de Colombia dijo que el país solicitó retirarse del Grupo de La Haya.",
+            "Israel War Room informa que el paso rechaza los esfuerzos por aislar a Israel."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Reported",
+          "sources": [
+            {
+              "label": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
             }
           ]
         }
@@ -442,109 +542,134 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-10-15T11:37:22.986Z",
+      "updatedAt": "2026-10-16T11:31:35.903Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Security claim",
-        "Viral claim",
-        "Policy message",
-        "Interview share"
+        "Discussed",
+        "Contested",
+        "Emerging",
+        "Noted",
+        "Reported"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Sécurité",
-          "headline": "Complot de fusillade au temple déjoué",
+          "category": "Conflit",
+          "headline": "Guerre Iran : près de 2 000 $ / foyer",
           "paragraphs": [
-            "CoHNA affirme que les autorités ont déjoué une fusillade de masse prévue dans un temple hindou près de Chicago.",
-            "Un adolescent aurait eu un fusil et 300 balles. Les posts appellent à la vigilance ; détails non confirmés ici."
+            "Des posts X affirment que la guerre d’Iran a coûté près de 2 000 dollars par foyer américain.",
+            "Kalshi Finance a partagé le chiffre ; c’est une allégation, pas un fait confirmé."
           ],
           "highlightParagraph": 0,
-          "trend": "Security claim",
+          "trend": "Discussed",
           "sources": [
             {
-              "label": "CoHNA post",
-              "url": "https://x.com/CoHNAOfficial/status/2110520314983534698"
+              "label": "@Kalshi_Finance",
+              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "CoHNA post",
-              "url": "https://x.com/CoHNAOfficial/status/2110520314983534698"
+              "text": "@Kalshi_Finance",
+              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Conflit",
-          "headline": "Nouvelles images d'attaque de salle revendiquées",
+          "category": "Géopolitique",
+          "headline": "Compte : Trump quitte l’OTAN",
           "paragraphs": [
-            "Un post très vu dit que la Russie a publié une nouvelle vidéo de l'attaque de la salle de concert tuant 149.",
-            "Les images sont dites dérangeantes. Traiter comme affirmation non vérifiée ; événement original il y a des années."
+            "Un compte pro-russe sur X affirme que Trump a annoncé le retrait des États-Unis de l’OTAN après le refus européen de rejoindre la guerre d’Iran.",
+            "L’allégation n’est pas vérifiée et sans sources indépendantes."
           ],
           "highlightParagraph": 1,
-          "trend": "Viral claim",
+          "trend": "Contested",
           "sources": [
             {
-              "label": "Crazy Clips post",
-              "url": "https://x.com/crazedclip/status/2110520170364207612"
+              "label": "@Rusia_HD",
+              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Crazy Clips post",
-              "url": "https://x.com/crazedclip/status/2110520170364207612"
+              "text": "@Rusia_HD",
+              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Économie",
-          "headline": "Newsom souligne les investissements californiens",
+          "category": "Ukraine",
+          "headline": "Allégation : WH limite Starshield",
           "paragraphs": [
-            "Le gouverneur Newsom dit que la Californie mène l'innovation en finançant recherche et éducation.",
-            "Il affirme que cela attire les talents mondiaux pour l'économie future. Vidéo postée sur X."
+            "War Monitor dit que des sources rapportent un ordre de la Maison-Blanche limitant l’accès de l’Ukraine à Starshield.",
+            "Décrit comme exclusivité Reuters ; à traiter comme allégation attribuée."
           ],
           "highlightParagraph": 0,
-          "trend": "Policy message",
+          "trend": "Emerging",
           "sources": [
             {
-              "label": "Gavin Newsom post",
-              "url": "https://x.com/GavinNewsom/status/2110520458475155805"
+              "label": "@WarMonltor",
+              "url": "https://x.com/WarMonltor/status/2110869786770960545"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Gavin Newsom post",
-              "url": "https://x.com/GavinNewsom/status/2110520458475155805"
+              "text": "@WarMonltor",
+              "url": "https://x.com/WarMonltor/status/2110869786770960545"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Diplomatie",
-          "headline": "Asselineau sur les pourparlers franco-russes",
+          "category": "Politique US",
+          "headline": "Juge prolonge la pause des pubs Trump",
           "paragraphs": [
-            "Le chef français de l'UPR Asselineau a partagé une rencontre sur le dialogue avec la Russie et l'élection française.",
-            "Entretien avec Irina Dubois le 14 oct. Vidéo promise bientôt, selon son post."
+            "Un juge a prolongé la pause des publicités Trump financées par les contribuables au-delà du jour des élections.",
+            "Citizens for Ethics a qualifié la décision de bonne nouvelle en citant un article de Politico."
           ],
           "highlightParagraph": 0,
-          "trend": "Interview share",
+          "trend": "Noted",
           "sources": [
             {
-              "label": "Asselineau post",
-              "url": "https://x.com/f_asselineau/status/2110520674985103461"
+              "label": "@CREWcrew",
+              "url": "https://x.com/CREWcrew/status/2110868326410772800"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Asselineau post",
-              "url": "https://x.com/f_asselineau/status/2110520674985103461"
+              "text": "@CREWcrew",
+              "url": "https://x.com/CREWcrew/status/2110868326410772800"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Diplomatie",
+          "headline": "La Colombie quitte le Groupe de La Haye",
+          "paragraphs": [
+            "Le ministre des Affaires étrangères de Colombie a dit que le pays avait demandé à quitter le Groupe de La Haye.",
+            "Israel War Room rapporte que la démarche rejette les efforts pour isoler Israël."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Reported",
+          "sources": [
+            {
+              "label": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
             }
           ]
         }
