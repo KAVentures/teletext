@@ -1,135 +1,119 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "editions": {
     "en": {
-      "updatedAt": "2026-10-16T11:31:35.903Z",
+      "updatedAt": "2026-10-17T10:52:01.357Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Discussed",
-        "Contested",
-        "Emerging",
-        "Noted",
-        "Reported"
+        "High engagement",
+        "Circulating report",
+        "Unverified claim",
+        "Allegation"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Conflict",
-          "headline": "Iran war cost near $2k per US home",
+          "category": "US Politics",
+          "headline": "DOJ warns LA over noncitizen ballots",
           "paragraphs": [
-            "X posts claim the Iran war has cost nearly $2,000 per US household.",
-            "Kalshi Finance shared the figure; it is a reported claim, not confirmed fact."
+            "X accounts say the DOJ told LA County that tallying ballots of flagged noncitizens may aid a federal crime.",
+            "County allegedly refused to set ballots aside. Posters call it written notice. Claims from social posts only."
           ],
           "highlightParagraph": 0,
-          "trend": "Discussed",
+          "trend": "High engagement",
           "sources": [
             {
-              "label": "@Kalshi_Finance",
-              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
+              "label": "@EricLDaugh",
+              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
+            },
+            {
+              "label": "@drawandstrike",
+              "url": "https://x.com/drawandstrike/status/2111245367144554618"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@Kalshi_Finance",
-              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
+              "text": "@EricLDaugh",
+              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
+            },
+            {
+              "id": "101-1",
+              "text": "@drawandstrike",
+              "url": "https://x.com/drawandstrike/status/2111245367144554618"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Geopolitics",
-          "headline": "Account claims Trump exits NATO",
+          "category": "UK Defence",
+          "headline": "UK army chief calls for war sacrifices",
           "paragraphs": [
-            "A pro-Russia X account claims Trump announced US withdrawal from NATO over Europe's refusal to join the Iran war.",
-            "The claim is unverified and presented without independent sources."
+            "Insider Paper on X: Gen Sir Roly Walker warns Britons must make sacrifices to prepare for war.",
+            "The line is spreading in defence talks. The post gives no full speech text."
           ],
-          "highlightParagraph": 1,
-          "trend": "Contested",
+          "highlightParagraph": 0,
+          "trend": "Circulating report",
           "sources": [
             {
-              "label": "@Rusia_HD",
-              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
+              "label": "@TheInsiderPaper",
+              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@Rusia_HD",
-              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
+              "text": "@TheInsiderPaper",
+              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Ukraine",
-          "headline": "Claim: WH limits Ukraine Starshield",
+          "category": "US Immigration",
+          "headline": "Post claims Somali deportations in MN",
           "paragraphs": [
-            "War Monitor says sources report a White House order limiting Ukraine access to Starshield.",
-            "It is described as a Reuters exclusive; treat as an attributed claim."
+            "An X account says deportations of Somalis in Minnesota have begun, labeling it breaking news.",
+            "No corroborating official source is in the post. Readers should treat it as an unverified claim."
           ],
-          "highlightParagraph": 0,
-          "trend": "Emerging",
+          "highlightParagraph": 1,
+          "trend": "Unverified claim",
           "sources": [
             {
-              "label": "@WarMonltor",
-              "url": "https://x.com/WarMonltor/status/2110869786770960545"
+              "label": "@ForbiddenLeaksQ",
+              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@WarMonltor",
-              "url": "https://x.com/WarMonltor/status/2110869786770960545"
+              "text": "@ForbiddenLeaksQ",
+              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
             }
           ]
         },
         {
           "page": 104,
-          "category": "US Politics",
-          "headline": "Judge extends pause on Trump ads",
+          "category": "Charity",
+          "headline": "Activist alleges Malala sacked staff",
           "paragraphs": [
-            "A judge extended a pause on taxpayer-funded Trump campaign ads past Election Day.",
-            "Citizens for Ethics called the ruling good news, citing a Politico report."
+            "Watanmal says Malala fired three staff from an Afghanistan fund team after spending claims.",
+            "She alleges large sums raised with little aid paid out. The other side is not quoted. Open dispute."
           ],
-          "highlightParagraph": 0,
-          "trend": "Noted",
+          "highlightParagraph": 1,
+          "trend": "Allegation",
           "sources": [
             {
-              "label": "@CREWcrew",
-              "url": "https://x.com/CREWcrew/status/2110868326410772800"
+              "label": "@ZarlashtaW",
+              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@CREWcrew",
-              "url": "https://x.com/CREWcrew/status/2110868326410772800"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Diplomacy",
-          "headline": "Colombia quits Hague Group on Israel",
-          "paragraphs": [
-            "Colombia’s foreign minister said the country requested withdrawal from The Hague Group.",
-            "Israel War Room reports the move rejects efforts to isolate Israel."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Reported",
-          "sources": [
-            {
-              "label": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
+              "text": "@ZarlashtaW",
+              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
             }
           ]
         }
@@ -137,134 +121,118 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-10-16T11:31:35.903Z",
+      "updatedAt": "2026-10-17T10:52:01.357Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Discussed",
-        "Contested",
-        "Emerging",
-        "Noted",
-        "Reported"
+        "High engagement",
+        "Circulating report",
+        "Unverified claim",
+        "Allegation"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Konflikt",
-          "headline": "Iran-krig: nära 2 000 USD per hushåll",
+          "category": "USA-politik",
+          "headline": "DOJ varnar LA om icke-medborgarröster",
           "paragraphs": [
-            "X-inlägg hävdar att Iran-kriget kostat nästan 2 000 dollar per amerikanskt hushåll.",
-            "Kalshi Finance delade siffran; det är ett påstående, inte bekräftat faktum."
+            "X-konton säger att DOJ varnade LA County: att räkna röster från flaggade icke-medborgare kan vara federalt brott.",
+            "Countyt ska ha vägrat lägga undan sedlar. Användare kallar det skriftlig varning. Endast sociala påståenden."
           ],
           "highlightParagraph": 0,
-          "trend": "Discussed",
+          "trend": "High engagement",
           "sources": [
             {
-              "label": "@Kalshi_Finance",
-              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
+              "label": "@EricLDaugh",
+              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
+            },
+            {
+              "label": "@drawandstrike",
+              "url": "https://x.com/drawandstrike/status/2111245367144554618"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@Kalshi_Finance",
-              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
+              "text": "@EricLDaugh",
+              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
+            },
+            {
+              "id": "101-1",
+              "text": "@drawandstrike",
+              "url": "https://x.com/drawandstrike/status/2111245367144554618"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Geopolitik",
-          "headline": "Konto: Trump lämnar Nato",
+          "category": "Storbritannien",
+          "headline": "Arméchef: britter måste offra för krig",
           "paragraphs": [
-            "Ett Rysslandskopplat X-konto hävdar att Trump meddelat USA:s utträde ur Nato efter Europas vägran att delta i Iran-kriget.",
-            "Påståendet är overifierat och saknar oberoende källor."
+            "Insider Paper på X: general Sir Roly Walker varnar att britter måste göra uppoffringar inför krig.",
+            "Raden sprids i försvarsdebatter. Inlägget ger ingen full taltext."
           ],
-          "highlightParagraph": 1,
-          "trend": "Contested",
+          "highlightParagraph": 0,
+          "trend": "Circulating report",
           "sources": [
             {
-              "label": "@Rusia_HD",
-              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
+              "label": "@TheInsiderPaper",
+              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@Rusia_HD",
-              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
+              "text": "@TheInsiderPaper",
+              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Ukraina",
-          "headline": "Påstående: WH begränsar Starshield",
+          "category": "USA-invandring",
+          "headline": "Inlägg påstår somaliska utvisningar",
           "paragraphs": [
-            "War Monitor säger att källor rapporterar en order från Vita huset som begränsar Ukrainas tillgång till Starshield.",
-            "Det beskrivs som en Reuters-exklusiv; behandla som ett tillskrivet påstående."
+            "Ett X-konto säger att utvisningar av somalier i Minnesota har börjat och kallar det nyhet.",
+            "Ingen officiell källa finns i inlägget. Läsare bör se det som overifierat påstående."
           ],
-          "highlightParagraph": 0,
-          "trend": "Emerging",
+          "highlightParagraph": 1,
+          "trend": "Unverified claim",
           "sources": [
             {
-              "label": "@WarMonltor",
-              "url": "https://x.com/WarMonltor/status/2110869786770960545"
+              "label": "@ForbiddenLeaksQ",
+              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@WarMonltor",
-              "url": "https://x.com/WarMonltor/status/2110869786770960545"
+              "text": "@ForbiddenLeaksQ",
+              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
             }
           ]
         },
         {
           "page": 104,
-          "category": "USA-politik",
-          "headline": "Domare förlänger paus på Trump-annonser",
+          "category": "Välgörenhet",
+          "headline": "Aktivist: Malala avskedade personal",
           "paragraphs": [
-            "En domare förlängde pausen för skattefinansierade Trump-annonser förbi valdagen.",
-            "Citizens for Ethics kallade beslutet goda nyheter och hänvisade till en Politico-rapport."
+            "Watanmal säger att Malala sparkade tre från ett Afghanistan-team efter påståenden om utgifter.",
+            "Hon hävdar stora summor insamlade med lite bistånd. Motparten citeras inte. Öppen tvist."
           ],
-          "highlightParagraph": 0,
-          "trend": "Noted",
+          "highlightParagraph": 1,
+          "trend": "Allegation",
           "sources": [
             {
-              "label": "@CREWcrew",
-              "url": "https://x.com/CREWcrew/status/2110868326410772800"
+              "label": "@ZarlashtaW",
+              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@CREWcrew",
-              "url": "https://x.com/CREWcrew/status/2110868326410772800"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Diplomati",
-          "headline": "Colombia lämnar Haaggruppen om Israel",
-          "paragraphs": [
-            "Colombias utrikesminister sa att landet begärt utträde ur Haaggruppen.",
-            "Israel War Room rapporterar att steget avvisar försök att isolera Israel."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Reported",
-          "sources": [
-            {
-              "label": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
+              "text": "@ZarlashtaW",
+              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
             }
           ]
         }
@@ -272,134 +240,118 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-10-16T11:31:35.903Z",
+      "updatedAt": "2026-10-17T10:52:01.357Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Discussed",
-        "Contested",
-        "Emerging",
-        "Noted",
-        "Reported"
+        "High engagement",
+        "Circulating report",
+        "Unverified claim",
+        "Allegation"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Konflikt",
-          "headline": "Iran-Krieg: fast 2000 $ pro Haushalt",
+          "category": "US-Politik",
+          "headline": "DOJ warnt LA vor Nichtbürger-Stimmen",
           "paragraphs": [
-            "X-Beiträge behaupten, der Iran-Krieg habe fast 2.000 Dollar pro US-Haushalt gekostet.",
-            "Kalshi Finance nannte die Zahl; es handelt sich um eine Behauptung, kein bestätigtes Faktum."
+            "X-Konten sagen, das DOJ warnte LA County: Auszählen von Stimmen markierter Nichtbürger kann Bundesverbrechen sein.",
+            "Das County soll abgelehnt haben, Zettel zurückzuhalten. Nutzer nennen es schriftliche Warnung. Nur Social-Claims."
           ],
           "highlightParagraph": 0,
-          "trend": "Discussed",
+          "trend": "High engagement",
           "sources": [
             {
-              "label": "@Kalshi_Finance",
-              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
+              "label": "@EricLDaugh",
+              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
+            },
+            {
+              "label": "@drawandstrike",
+              "url": "https://x.com/drawandstrike/status/2111245367144554618"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@Kalshi_Finance",
-              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
+              "text": "@EricLDaugh",
+              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
+            },
+            {
+              "id": "101-1",
+              "text": "@drawandstrike",
+              "url": "https://x.com/drawandstrike/status/2111245367144554618"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Geopolitik",
-          "headline": "Konto: Trump verlässt die Nato",
+          "category": "UK-Verteidigung",
+          "headline": "Armeechef: Briten sollen für Krieg opfern",
           "paragraphs": [
-            "Ein russlandnahes X-Konto behauptet, Trump habe den US-Austritt aus der Nato angekündigt, weil Europa den Iran-Krieg ablehnte.",
-            "Die Behauptung ist unbestätigt und ohne unabhängige Quellen."
+            "Insider Paper auf X: Gen. Sir Roly Walker warnt, Briten müssten Opfer bringen, um sich auf Krieg vorzubereiten.",
+            "Der Satz kursiert in Verteidigungsdebatten. Der Post enthält keinen vollen Redetext."
           ],
-          "highlightParagraph": 1,
-          "trend": "Contested",
+          "highlightParagraph": 0,
+          "trend": "Circulating report",
           "sources": [
             {
-              "label": "@Rusia_HD",
-              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
+              "label": "@TheInsiderPaper",
+              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@Rusia_HD",
-              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
+              "text": "@TheInsiderPaper",
+              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Ukraine",
-          "headline": "Behauptung: WH begrenzt Starshield",
+          "category": "US-Migration",
+          "headline": "Post behauptet Somalia-Abschiebungen",
           "paragraphs": [
-            "War Monitor sagt, Quellen berichteten von einer Anordnung des Weißen Hauses, die den Starshield-Zugang der Ukraine begrenzt.",
-            "Es wird als Reuters-Exklusiv bezeichnet; als zugeschriebene Behauptung behandeln."
+            "Ein X-Konto sagt, Abschiebungen von Somaliern in Minnesota hätten begonnen, und nennt es Eilmeldung.",
+            "Keine offizielle Quelle im Post. Leser sollten es als unbestätigte Behauptung sehen."
           ],
-          "highlightParagraph": 0,
-          "trend": "Emerging",
+          "highlightParagraph": 1,
+          "trend": "Unverified claim",
           "sources": [
             {
-              "label": "@WarMonltor",
-              "url": "https://x.com/WarMonltor/status/2110869786770960545"
+              "label": "@ForbiddenLeaksQ",
+              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@WarMonltor",
-              "url": "https://x.com/WarMonltor/status/2110869786770960545"
+              "text": "@ForbiddenLeaksQ",
+              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
             }
           ]
         },
         {
           "page": 104,
-          "category": "US-Politik",
-          "headline": "Richter verlängert Pause für Trump-Anzeigen",
+          "category": "Wohltätigkeit",
+          "headline": "Aktivistin: Malala entließ Personal",
           "paragraphs": [
-            "Ein Richter verlängerte die Pause für steuerfinanzierte Trump-Anzeigen über den Wahltag hinaus.",
-            "Citizens for Ethics nannte das Urteil gute Nachrichten und verwies auf einen Politico-Bericht."
+            "Watanmal sagt, Malala habe drei Mitarbeiter eines Afghanistan-Teams nach Ausgaben-Vorwürfen entlassen.",
+            "Sie behauptet hohe Summen bei wenig Hilfe. Gegenseite nicht zitiert. Offener Streit."
           ],
-          "highlightParagraph": 0,
-          "trend": "Noted",
+          "highlightParagraph": 1,
+          "trend": "Allegation",
           "sources": [
             {
-              "label": "@CREWcrew",
-              "url": "https://x.com/CREWcrew/status/2110868326410772800"
+              "label": "@ZarlashtaW",
+              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@CREWcrew",
-              "url": "https://x.com/CREWcrew/status/2110868326410772800"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Diplomatie",
-          "headline": "Kolumbien verlässt Haager Gruppe zu Israel",
-          "paragraphs": [
-            "Kolumbiens Außenminister sagte, das Land habe den Austritt aus der Haager Gruppe beantragt.",
-            "Israel War Room berichtet, der Schritt lehne Versuche ab, Israel zu isolieren."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Reported",
-          "sources": [
-            {
-              "label": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
+              "text": "@ZarlashtaW",
+              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
             }
           ]
         }
@@ -407,134 +359,118 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-10-16T11:31:35.903Z",
+      "updatedAt": "2026-10-17T10:52:01.357Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Discussed",
-        "Contested",
-        "Emerging",
-        "Noted",
-        "Reported"
+        "High engagement",
+        "Circulating report",
+        "Unverified claim",
+        "Allegation"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Conflicto",
-          "headline": "Guerra Irán: casi 2.000 $ por hogar",
+          "category": "Política de EE.UU.",
+          "headline": "DOJ avisa a LA por votos de no ciudadanos",
           "paragraphs": [
-            "Publicaciones en X afirman que la guerra de Irán ha costado casi 2.000 dólares por hogar estadounidense.",
-            "Kalshi Finance compartió la cifra; es una afirmación, no un hecho confirmado."
+            "Cuentas en X dicen que el DOJ avisó al condado de LA: contar votos de no ciudadanos marcados puede ser delito federal.",
+            "El condado habría rechazado apartar papeletas. Usuarios lo llaman aviso escrito. Solo afirmaciones sociales."
           ],
           "highlightParagraph": 0,
-          "trend": "Discussed",
+          "trend": "High engagement",
           "sources": [
             {
-              "label": "@Kalshi_Finance",
-              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
+              "label": "@EricLDaugh",
+              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
+            },
+            {
+              "label": "@drawandstrike",
+              "url": "https://x.com/drawandstrike/status/2111245367144554618"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@Kalshi_Finance",
-              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
+              "text": "@EricLDaugh",
+              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
+            },
+            {
+              "id": "101-1",
+              "text": "@drawandstrike",
+              "url": "https://x.com/drawandstrike/status/2111245367144554618"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Geopolítica",
-          "headline": "Cuenta: Trump sale de la OTAN",
+          "category": "Defensa del Reino Unido",
+          "headline": "Jefe militar: británicos deben sacrificarse",
           "paragraphs": [
-            "Una cuenta pro-Rusia en X afirma que Trump anunció la salida de EE.UU. de la OTAN tras la negativa europea a unirse a la guerra de Irán.",
-            "La afirmación no está verificada y carece de fuentes independientes."
+            "Insider Paper en X: el gral. Sir Roly Walker advierte que los británicos deben hacer sacrificios para la guerra.",
+            "La frase circula en debates de defensa. El post no incluye el texto completo del discurso."
           ],
-          "highlightParagraph": 1,
-          "trend": "Contested",
+          "highlightParagraph": 0,
+          "trend": "Circulating report",
           "sources": [
             {
-              "label": "@Rusia_HD",
-              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
+              "label": "@TheInsiderPaper",
+              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@Rusia_HD",
-              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
+              "text": "@TheInsiderPaper",
+              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Ucrania",
-          "headline": "Afirman: Casa Blanca limita Starshield",
+          "category": "Inmigración EE.UU.",
+          "headline": "Post afirma deportaciones somalíes",
           "paragraphs": [
-            "War Monitor dice que fuentes informan de una orden de la Casa Blanca que limita el acceso de Ucrania a Starshield.",
-            "Se describe como exclusiva de Reuters; tratar como afirmación atribuida."
+            "Una cuenta de X dice que empezaron deportaciones de somalíes en Minnesota y lo llama noticia de última hora.",
+            "No hay fuente oficial en el post. Los lectores deben tratarlo como afirmación no verificada."
           ],
-          "highlightParagraph": 0,
-          "trend": "Emerging",
+          "highlightParagraph": 1,
+          "trend": "Unverified claim",
           "sources": [
             {
-              "label": "@WarMonltor",
-              "url": "https://x.com/WarMonltor/status/2110869786770960545"
+              "label": "@ForbiddenLeaksQ",
+              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@WarMonltor",
-              "url": "https://x.com/WarMonltor/status/2110869786770960545"
+              "text": "@ForbiddenLeaksQ",
+              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Política de EE.UU.",
-          "headline": "Juez prolonga pausa de anuncios de Trump",
+          "category": "Caridad",
+          "headline": "Activista: Malala despidió personal",
           "paragraphs": [
-            "Un juez extendió la pausa de anuncios de Trump financiados con impuestos más allá del día de las elecciones.",
-            "Citizens for Ethics calificó el fallo de buena noticia y citó un informe de Politico."
+            "Watanmal dice que Malala despidió a tres de un equipo de Afganistán tras denuncias de gastos.",
+            "Alega grandes sumas recaudadas con poca ayuda. La otra parte no se cita. Disputa abierta."
           ],
-          "highlightParagraph": 0,
-          "trend": "Noted",
+          "highlightParagraph": 1,
+          "trend": "Allegation",
           "sources": [
             {
-              "label": "@CREWcrew",
-              "url": "https://x.com/CREWcrew/status/2110868326410772800"
+              "label": "@ZarlashtaW",
+              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@CREWcrew",
-              "url": "https://x.com/CREWcrew/status/2110868326410772800"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Diplomacia",
-          "headline": "Colombia sale del Grupo de La Haya",
-          "paragraphs": [
-            "El canciller de Colombia dijo que el país solicitó retirarse del Grupo de La Haya.",
-            "Israel War Room informa que el paso rechaza los esfuerzos por aislar a Israel."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Reported",
-          "sources": [
-            {
-              "label": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
+              "text": "@ZarlashtaW",
+              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
             }
           ]
         }
@@ -542,134 +478,118 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-10-16T11:31:35.903Z",
+      "updatedAt": "2026-10-17T10:52:01.357Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Discussed",
-        "Contested",
-        "Emerging",
-        "Noted",
-        "Reported"
+        "High engagement",
+        "Circulating report",
+        "Unverified claim",
+        "Allegation"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Conflit",
-          "headline": "Guerre Iran : près de 2 000 $ / foyer",
+          "category": "Politique américaine",
+          "headline": "Le DOJ avertit LA sur les non-citoyens",
           "paragraphs": [
-            "Des posts X affirment que la guerre d’Iran a coûté près de 2 000 dollars par foyer américain.",
-            "Kalshi Finance a partagé le chiffre ; c’est une allégation, pas un fait confirmé."
+            "Des comptes X disent que le DOJ a averti le comté de LA : compter des votes de non-citoyens signalés peut être un crime fédéral.",
+            "Le comté aurait refusé de mettre les bulletins de côté. Des utilisateurs parlent d'avis écrit. Seulement des allégations."
           ],
           "highlightParagraph": 0,
-          "trend": "Discussed",
+          "trend": "High engagement",
           "sources": [
             {
-              "label": "@Kalshi_Finance",
-              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
+              "label": "@EricLDaugh",
+              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
+            },
+            {
+              "label": "@drawandstrike",
+              "url": "https://x.com/drawandstrike/status/2111245367144554618"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@Kalshi_Finance",
-              "url": "https://x.com/Kalshi_Finance/status/2110881074788044874"
+              "text": "@EricLDaugh",
+              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
+            },
+            {
+              "id": "101-1",
+              "text": "@drawandstrike",
+              "url": "https://x.com/drawandstrike/status/2111245367144554618"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Géopolitique",
-          "headline": "Compte : Trump quitte l’OTAN",
+          "category": "Défense britannique",
+          "headline": "Chef d'armée : sacrifices pour la guerre",
           "paragraphs": [
-            "Un compte pro-russe sur X affirme que Trump a annoncé le retrait des États-Unis de l’OTAN après le refus européen de rejoindre la guerre d’Iran.",
-            "L’allégation n’est pas vérifiée et sans sources indépendantes."
+            "Insider Paper sur X : le gén. Sir Roly Walker avertit que les Britanniques devront faire des sacrifices pour la guerre.",
+            "La phrase circule dans les débats de défense. Le post ne donne pas le texte complet."
           ],
-          "highlightParagraph": 1,
-          "trend": "Contested",
+          "highlightParagraph": 0,
+          "trend": "Circulating report",
           "sources": [
             {
-              "label": "@Rusia_HD",
-              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
+              "label": "@TheInsiderPaper",
+              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@Rusia_HD",
-              "url": "https://x.com/Rusia_HD/status/2110871370813116693"
+              "text": "@TheInsiderPaper",
+              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Ukraine",
-          "headline": "Allégation : WH limite Starshield",
+          "category": "Immigration US",
+          "headline": "Post : expulsions de Somaliens au MN",
           "paragraphs": [
-            "War Monitor dit que des sources rapportent un ordre de la Maison-Blanche limitant l’accès de l’Ukraine à Starshield.",
-            "Décrit comme exclusivité Reuters ; à traiter comme allégation attribuée."
+            "Un compte X affirme que des expulsions de Somaliens au Minnesota ont commencé, qualifiant cela de breaking.",
+            "Aucune source officielle dans le post. Les lecteurs doivent y voir une allégation non vérifiée."
           ],
-          "highlightParagraph": 0,
-          "trend": "Emerging",
+          "highlightParagraph": 1,
+          "trend": "Unverified claim",
           "sources": [
             {
-              "label": "@WarMonltor",
-              "url": "https://x.com/WarMonltor/status/2110869786770960545"
+              "label": "@ForbiddenLeaksQ",
+              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@WarMonltor",
-              "url": "https://x.com/WarMonltor/status/2110869786770960545"
+              "text": "@ForbiddenLeaksQ",
+              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politique US",
-          "headline": "Juge prolonge la pause des pubs Trump",
+          "category": "Caritatif",
+          "headline": "Activiste : Malala a renvoyé du personnel",
           "paragraphs": [
-            "Un juge a prolongé la pause des publicités Trump financées par les contribuables au-delà du jour des élections.",
-            "Citizens for Ethics a qualifié la décision de bonne nouvelle en citant un article de Politico."
+            "Watanmal dit que Malala a renvoyé trois employés d'une équipe Afghanistan après des allégations de dépenses.",
+            "Elle allègue de grosses sommes levées avec peu d'aide. L'autre partie n'est pas citée. Différend ouvert."
           ],
-          "highlightParagraph": 0,
-          "trend": "Noted",
+          "highlightParagraph": 1,
+          "trend": "Allegation",
           "sources": [
             {
-              "label": "@CREWcrew",
-              "url": "https://x.com/CREWcrew/status/2110868326410772800"
+              "label": "@ZarlashtaW",
+              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@CREWcrew",
-              "url": "https://x.com/CREWcrew/status/2110868326410772800"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Diplomatie",
-          "headline": "La Colombie quitte le Groupe de La Haye",
-          "paragraphs": [
-            "Le ministre des Affaires étrangères de Colombie a dit que le pays avait demandé à quitter le Groupe de La Haye.",
-            "Israel War Room rapporte que la démarche rejette les efforts pour isoler Israël."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Reported",
-          "sources": [
-            {
-              "label": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2110866810102800389"
+              "text": "@ZarlashtaW",
+              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
             }
           ]
         }
