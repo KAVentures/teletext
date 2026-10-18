@@ -1,119 +1,135 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "editions": {
     "en": {
-      "updatedAt": "2026-10-17T10:52:01.357Z",
+      "updatedAt": "2026-10-18T11:15:33.767Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "High engagement",
-        "Circulating report",
-        "Unverified claim",
-        "Allegation"
+        "Policy dispute claims",
+        "Global risk warnings",
+        "Energy-tech divergence",
+        "Compound crises",
+        "Cost assessment"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "US Politics",
-          "headline": "DOJ warns LA over noncitizen ballots",
+          "category": "Geopolitics",
+          "headline": "Claims of US-Ukraine clash grow",
           "paragraphs": [
-            "X accounts say the DOJ told LA County that tallying ballots of flagged noncitizens may aid a federal crime.",
-            "County allegedly refused to set ballots aside. Posters call it written notice. Claims from social posts only."
+            "X users claim a public Trump-Zelensky clash and a US pause on new Russia sanctions.",
+            "They link this to higher energy risk and Ukraine strikes. These are unverified claims."
           ],
           "highlightParagraph": 0,
-          "trend": "High engagement",
+          "trend": "Policy dispute claims",
           "sources": [
             {
-              "label": "@EricLDaugh",
-              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
-            },
-            {
-              "label": "@drawandstrike",
-              "url": "https://x.com/drawandstrike/status/2111245367144554618"
+              "label": "@Linbaden119",
+              "url": "https://x.com/Linbaden119/status/2111416052878078077"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@EricLDaugh",
-              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
-            },
-            {
-              "id": "101-1",
-              "text": "@drawandstrike",
-              "url": "https://x.com/drawandstrike/status/2111245367144554618"
+              "text": "@Linbaden119",
+              "url": "https://x.com/Linbaden119/status/2111416052878078077"
             }
           ]
         },
         {
           "page": 102,
-          "category": "UK Defence",
-          "headline": "UK army chief calls for war sacrifices",
+          "category": "Economy",
+          "headline": "Calls grow for aid to weak economies",
           "paragraphs": [
-            "Insider Paper on X: Gen Sir Roly Walker warns Britons must make sacrifices to prepare for war.",
-            "The line is spreading in defence talks. The post gives no full speech text."
+            "Posts say financial leaders want more support for vulnerable economies amid conflicts and high energy costs.",
+            "Trade tensions and supply shocks may hit food and households. Claims on X lack official detail."
           ],
           "highlightParagraph": 0,
-          "trend": "Circulating report",
+          "trend": "Global risk warnings",
           "sources": [
             {
-              "label": "@TheInsiderPaper",
-              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
+              "label": "@eyeworldnews444",
+              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@TheInsiderPaper",
-              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
+              "text": "@eyeworldnews444",
+              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
             }
           ]
         },
         {
           "page": 103,
-          "category": "US Immigration",
-          "headline": "Post claims Somali deportations in MN",
+          "category": "Markets",
+          "headline": "Oil rises as tech and chips fall",
           "paragraphs": [
-            "An X account says deportations of Somalis in Minnesota have begun, labeling it breaking news.",
-            "No corroborating official source is in the post. Readers should treat it as an unverified claim."
+            "WION links rising oil to Russian supply, India energy costs and pressure on US households.",
+            "Chip and tech shares are said to be falling together. Commentary, not confirmed market close."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "highlightParagraph": 0,
+          "trend": "Energy-tech divergence",
           "sources": [
             {
-              "label": "@ForbiddenLeaksQ",
-              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
+              "label": "@WIONews",
+              "url": "https://x.com/WIONews/status/2111394616289165393"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@ForbiddenLeaksQ",
-              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
+              "text": "@WIONews",
+              "url": "https://x.com/WIONews/status/2111394616289165393"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Charity",
-          "headline": "Activist alleges Malala sacked staff",
+          "category": "World",
+          "headline": "Sudan, floods and US deficit noted",
           "paragraphs": [
-            "Watanmal says Malala fired three staff from an Afghanistan fund team after spending claims.",
-            "She alleges large sums raised with little aid paid out. The other side is not quoted. Open dispute."
+            "An X brief cites Sudan war deaths, Nepal floods killing five and flood risk for nearly a million in Gaza.",
+            "It also flags a tech sell-off, higher oil and a $2tn US deficit with 5% yields. Figures as posted."
           ],
-          "highlightParagraph": 1,
-          "trend": "Allegation",
+          "highlightParagraph": 0,
+          "trend": "Compound crises",
           "sources": [
             {
-              "label": "@ZarlashtaW",
-              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
+              "label": "@weadvertizers",
+              "url": "https://x.com/weadvertizers/status/2111321486749503705"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@ZarlashtaW",
-              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
+              "text": "@weadvertizers",
+              "url": "https://x.com/weadvertizers/status/2111321486749503705"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Conflict",
+          "headline": "Iran war costs cited on X",
+          "paragraphs": [
+            "A post says the Iran war since February has raised oil prices, inflation and military spending.",
+            "It claims closer ties with Putin strain alliances. Assessment only, not verified proof."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Cost assessment",
+          "sources": [
+            {
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2111575191935418413"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2111575191935418413"
             }
           ]
         }
@@ -121,118 +137,134 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-10-17T10:52:01.357Z",
+      "updatedAt": "2026-10-18T11:15:33.767Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "High engagement",
-        "Circulating report",
-        "Unverified claim",
-        "Allegation"
+        "Policy dispute claims",
+        "Global risk warnings",
+        "Energy-tech divergence",
+        "Compound crises",
+        "Cost assessment"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "USA-politik",
-          "headline": "DOJ varnar LA om icke-medborgarröster",
+          "category": "Geopolitik",
+          "headline": "Påståenden om USA-Ukraina-bråk",
           "paragraphs": [
-            "X-konton säger att DOJ varnade LA County: att räkna röster från flaggade icke-medborgare kan vara federalt brott.",
-            "Countyt ska ha vägrat lägga undan sedlar. Användare kallar det skriftlig varning. Endast sociala påståenden."
+            "X-användare hävdar en offentlig Trump-Zelensky-konflikt och paus i nya USA-sanktioner mot Ryssland.",
+            "De kopplar det till energirisk och ukrainska anfall. Påståendena är obekräftade."
           ],
           "highlightParagraph": 0,
-          "trend": "High engagement",
+          "trend": "Policy dispute claims",
           "sources": [
             {
-              "label": "@EricLDaugh",
-              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
-            },
-            {
-              "label": "@drawandstrike",
-              "url": "https://x.com/drawandstrike/status/2111245367144554618"
+              "label": "@Linbaden119",
+              "url": "https://x.com/Linbaden119/status/2111416052878078077"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@EricLDaugh",
-              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
-            },
-            {
-              "id": "101-1",
-              "text": "@drawandstrike",
-              "url": "https://x.com/drawandstrike/status/2111245367144554618"
+              "text": "@Linbaden119",
+              "url": "https://x.com/Linbaden119/status/2111416052878078077"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Storbritannien",
-          "headline": "Arméchef: britter måste offra för krig",
+          "category": "Ekonomi",
+          "headline": "Krav på stöd till svaga ekonomier",
           "paragraphs": [
-            "Insider Paper på X: general Sir Roly Walker varnar att britter måste göra uppoffringar inför krig.",
-            "Raden sprids i försvarsdebatter. Inlägget ger ingen full taltext."
+            "Inlägg säger att finansledare vill ha mer stöd till sårbara ekonomier mitt i konflikter och höga energikostnader.",
+            "Handelsspänningar och utbudschocker kan slå mot mat och hushåll. Påståenden på X saknar officiell detalj."
           ],
           "highlightParagraph": 0,
-          "trend": "Circulating report",
+          "trend": "Global risk warnings",
           "sources": [
             {
-              "label": "@TheInsiderPaper",
-              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
+              "label": "@eyeworldnews444",
+              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@TheInsiderPaper",
-              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
+              "text": "@eyeworldnews444",
+              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
             }
           ]
         },
         {
           "page": 103,
-          "category": "USA-invandring",
-          "headline": "Inlägg påstår somaliska utvisningar",
+          "category": "Marknader",
+          "headline": "Olja stiger när teknik faller",
           "paragraphs": [
-            "Ett X-konto säger att utvisningar av somalier i Minnesota har börjat och kallar det nyhet.",
-            "Ingen officiell källa finns i inlägget. Läsare bör se det som overifierat påstående."
+            "WION kopplar stigande olja till rysk tillgång, Indiens energikostnader och press på amerikanska hushåll.",
+            "Chip- och teknikaktier sägs falla tillsammans. Kommentar, inte bekräftad stängning."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "highlightParagraph": 0,
+          "trend": "Energy-tech divergence",
           "sources": [
             {
-              "label": "@ForbiddenLeaksQ",
-              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
+              "label": "@WIONews",
+              "url": "https://x.com/WIONews/status/2111394616289165393"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@ForbiddenLeaksQ",
-              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
+              "text": "@WIONews",
+              "url": "https://x.com/WIONews/status/2111394616289165393"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Välgörenhet",
-          "headline": "Aktivist: Malala avskedade personal",
+          "category": "Världen",
+          "headline": "Sudan, översvämningar och underskott",
           "paragraphs": [
-            "Watanmal säger att Malala sparkade tre från ett Afghanistan-team efter påståenden om utgifter.",
-            "Hon hävdar stora summor insamlade med lite bistånd. Motparten citeras inte. Öppen tvist."
+            "En X-brief nämner dödsfall i Sudans krig, översvämningar i Nepal som dödat fem och översvämningsrisk för nära en miljon i Gaza.",
+            "Den noterar också teknikförsäljning, högre olja och ett underskott på 2 biljoner dollar med 5% ränta. Siffror som publicerade."
           ],
-          "highlightParagraph": 1,
-          "trend": "Allegation",
+          "highlightParagraph": 0,
+          "trend": "Compound crises",
           "sources": [
             {
-              "label": "@ZarlashtaW",
-              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
+              "label": "@weadvertizers",
+              "url": "https://x.com/weadvertizers/status/2111321486749503705"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@ZarlashtaW",
-              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
+              "text": "@weadvertizers",
+              "url": "https://x.com/weadvertizers/status/2111321486749503705"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Konflikt",
+          "headline": "Kostnader för Iran-kriget på X",
+          "paragraphs": [
+            "Ett inlägg säger att Iran-kriget sedan februari höjt oljepriser, inflation och militärutgifter.",
+            "Det hävdar att närmare band till Putin anstränger allianser. Endast bedömning, inte verifierat."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Cost assessment",
+          "sources": [
+            {
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2111575191935418413"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2111575191935418413"
             }
           ]
         }
@@ -240,118 +272,134 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-10-17T10:52:01.357Z",
+      "updatedAt": "2026-10-18T11:15:33.767Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "High engagement",
-        "Circulating report",
-        "Unverified claim",
-        "Allegation"
+        "Policy dispute claims",
+        "Global risk warnings",
+        "Energy-tech divergence",
+        "Compound crises",
+        "Cost assessment"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "US-Politik",
-          "headline": "DOJ warnt LA vor Nichtbürger-Stimmen",
+          "category": "Geopolitik",
+          "headline": "Behauptungen zu USA-Ukraine-Streit",
           "paragraphs": [
-            "X-Konten sagen, das DOJ warnte LA County: Auszählen von Stimmen markierter Nichtbürger kann Bundesverbrechen sein.",
-            "Das County soll abgelehnt haben, Zettel zurückzuhalten. Nutzer nennen es schriftliche Warnung. Nur Social-Claims."
+            "X-Nutzer behaupten einen öffentlichen Trump-Selenskyj-Konflikt und eine Pause neuer US-Sanktionen gegen Russland.",
+            "Sie verknüpfen das mit Energierisiko und ukrainischen Angriffen. Die Angaben sind unbestätigt."
           ],
           "highlightParagraph": 0,
-          "trend": "High engagement",
+          "trend": "Policy dispute claims",
           "sources": [
             {
-              "label": "@EricLDaugh",
-              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
-            },
-            {
-              "label": "@drawandstrike",
-              "url": "https://x.com/drawandstrike/status/2111245367144554618"
+              "label": "@Linbaden119",
+              "url": "https://x.com/Linbaden119/status/2111416052878078077"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@EricLDaugh",
-              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
-            },
-            {
-              "id": "101-1",
-              "text": "@drawandstrike",
-              "url": "https://x.com/drawandstrike/status/2111245367144554618"
+              "text": "@Linbaden119",
+              "url": "https://x.com/Linbaden119/status/2111416052878078077"
             }
           ]
         },
         {
           "page": 102,
-          "category": "UK-Verteidigung",
-          "headline": "Armeechef: Briten sollen für Krieg opfern",
+          "category": "Wirtschaft",
+          "headline": "Rufe nach Hilfe für schwache Staaten",
           "paragraphs": [
-            "Insider Paper auf X: Gen. Sir Roly Walker warnt, Briten müssten Opfer bringen, um sich auf Krieg vorzubereiten.",
-            "Der Satz kursiert in Verteidigungsdebatten. Der Post enthält keinen vollen Redetext."
+            "Beiträge sagen, Finanzführer wollen mehr Unterstützung für anfällige Volkswirtschaften angesichts von Konflikten und hohen Energiekosten.",
+            "Handelsspannungen und Angebotsschocks könnten Nahrung und Haushalte treffen. X-Angaben ohne offizielle Details."
           ],
           "highlightParagraph": 0,
-          "trend": "Circulating report",
+          "trend": "Global risk warnings",
           "sources": [
             {
-              "label": "@TheInsiderPaper",
-              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
+              "label": "@eyeworldnews444",
+              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@TheInsiderPaper",
-              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
+              "text": "@eyeworldnews444",
+              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
             }
           ]
         },
         {
           "page": 103,
-          "category": "US-Migration",
-          "headline": "Post behauptet Somalia-Abschiebungen",
+          "category": "Märkte",
+          "headline": "Öl steigt, Tech und Chips fallen",
           "paragraphs": [
-            "Ein X-Konto sagt, Abschiebungen von Somaliern in Minnesota hätten begonnen, und nennt es Eilmeldung.",
-            "Keine offizielle Quelle im Post. Leser sollten es als unbestätigte Behauptung sehen."
+            "WION verknüpft steigendes Öl mit russischem Angebot, Indiens Energiekosten und Druck auf US-Haushalte.",
+            "Chip- und Tech-Aktien sollen gemeinsam fallen. Kommentar, kein bestätigter Schlusskurs."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "highlightParagraph": 0,
+          "trend": "Energy-tech divergence",
           "sources": [
             {
-              "label": "@ForbiddenLeaksQ",
-              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
+              "label": "@WIONews",
+              "url": "https://x.com/WIONews/status/2111394616289165393"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@ForbiddenLeaksQ",
-              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
+              "text": "@WIONews",
+              "url": "https://x.com/WIONews/status/2111394616289165393"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Wohltätigkeit",
-          "headline": "Aktivistin: Malala entließ Personal",
+          "category": "Welt",
+          "headline": "Sudan, Fluten und US-Defizit",
           "paragraphs": [
-            "Watanmal sagt, Malala habe drei Mitarbeiter eines Afghanistan-Teams nach Ausgaben-Vorwürfen entlassen.",
-            "Sie behauptet hohe Summen bei wenig Hilfe. Gegenseite nicht zitiert. Offener Streit."
+            "Ein X-Brief nennt Kriegstote im Sudan, Überschwemmungen in Nepal mit fünf Toten und Flutrisiko für fast eine Million in Gaza.",
+            "Er nennt auch Tech-Verkauf, höheres Öl und ein 2-Billionen-Dollar-Defizit bei 5% Rendite. Zahlen wie gepostet."
           ],
-          "highlightParagraph": 1,
-          "trend": "Allegation",
+          "highlightParagraph": 0,
+          "trend": "Compound crises",
           "sources": [
             {
-              "label": "@ZarlashtaW",
-              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
+              "label": "@weadvertizers",
+              "url": "https://x.com/weadvertizers/status/2111321486749503705"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@ZarlashtaW",
-              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
+              "text": "@weadvertizers",
+              "url": "https://x.com/weadvertizers/status/2111321486749503705"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Konflikt",
+          "headline": "Kosten des Iran-Kriegs auf X",
+          "paragraphs": [
+            "Ein Beitrag sagt, der Iran-Krieg seit Februar habe Ölpreise, Inflation und Militärausgaben erhöht.",
+            "Er behauptet, engere Putin-Beziehungen belasten Bündnisse. Nur Einschätzung, nicht belegt."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Cost assessment",
+          "sources": [
+            {
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2111575191935418413"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2111575191935418413"
             }
           ]
         }
@@ -359,118 +407,134 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-10-17T10:52:01.357Z",
+      "updatedAt": "2026-10-18T11:15:33.767Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "High engagement",
-        "Circulating report",
-        "Unverified claim",
-        "Allegation"
+        "Policy dispute claims",
+        "Global risk warnings",
+        "Energy-tech divergence",
+        "Compound crises",
+        "Cost assessment"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Política de EE.UU.",
-          "headline": "DOJ avisa a LA por votos de no ciudadanos",
+          "category": "Geopolítica",
+          "headline": "Crece el choque EE.UU.-Ucrania",
           "paragraphs": [
-            "Cuentas en X dicen que el DOJ avisó al condado de LA: contar votos de no ciudadanos marcados puede ser delito federal.",
-            "El condado habría rechazado apartar papeletas. Usuarios lo llaman aviso escrito. Solo afirmaciones sociales."
+            "Usuarios de X afirman un choque público Trump-Zelenski y una pausa de nuevas sanciones de EE.UU. a Rusia.",
+            "Lo vinculan a riesgo energético y ataques ucranianos. Son afirmaciones no verificadas."
           ],
           "highlightParagraph": 0,
-          "trend": "High engagement",
+          "trend": "Policy dispute claims",
           "sources": [
             {
-              "label": "@EricLDaugh",
-              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
-            },
-            {
-              "label": "@drawandstrike",
-              "url": "https://x.com/drawandstrike/status/2111245367144554618"
+              "label": "@Linbaden119",
+              "url": "https://x.com/Linbaden119/status/2111416052878078077"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@EricLDaugh",
-              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
-            },
-            {
-              "id": "101-1",
-              "text": "@drawandstrike",
-              "url": "https://x.com/drawandstrike/status/2111245367144554618"
+              "text": "@Linbaden119",
+              "url": "https://x.com/Linbaden119/status/2111416052878078077"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Defensa del Reino Unido",
-          "headline": "Jefe militar: británicos deben sacrificarse",
+          "category": "Economía",
+          "headline": "Piden más ayuda a economías frágiles",
           "paragraphs": [
-            "Insider Paper en X: el gral. Sir Roly Walker advierte que los británicos deben hacer sacrificios para la guerra.",
-            "La frase circula en debates de defensa. El post no incluye el texto completo del discurso."
+            "Publicaciones dicen que líderes financieros quieren más apoyo a economías vulnerables ante conflictos y altos costes energéticos.",
+            "Tensiones comerciales y shocks de oferta pueden afectar alimentos y hogares. Afirmaciones en X sin detalle oficial."
           ],
           "highlightParagraph": 0,
-          "trend": "Circulating report",
+          "trend": "Global risk warnings",
           "sources": [
             {
-              "label": "@TheInsiderPaper",
-              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
+              "label": "@eyeworldnews444",
+              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@TheInsiderPaper",
-              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
+              "text": "@eyeworldnews444",
+              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Inmigración EE.UU.",
-          "headline": "Post afirma deportaciones somalíes",
+          "category": "Mercados",
+          "headline": "Sube el petróleo, caen chips y tech",
           "paragraphs": [
-            "Una cuenta de X dice que empezaron deportaciones de somalíes en Minnesota y lo llama noticia de última hora.",
-            "No hay fuente oficial en el post. Los lectores deben tratarlo como afirmación no verificada."
+            "WION vincula el alza del petróleo al suministro ruso, costes energéticos de India y presión en hogares de EE.UU.",
+            "Acciones de chips y tecnología caerían juntas. Comentario, no cierre confirmado."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "highlightParagraph": 0,
+          "trend": "Energy-tech divergence",
           "sources": [
             {
-              "label": "@ForbiddenLeaksQ",
-              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
+              "label": "@WIONews",
+              "url": "https://x.com/WIONews/status/2111394616289165393"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@ForbiddenLeaksQ",
-              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
+              "text": "@WIONews",
+              "url": "https://x.com/WIONews/status/2111394616289165393"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Caridad",
-          "headline": "Activista: Malala despidió personal",
+          "category": "Mundo",
+          "headline": "Sudán, inundaciones y déficit de EE.UU.",
           "paragraphs": [
-            "Watanmal dice que Malala despidió a tres de un equipo de Afganistán tras denuncias de gastos.",
-            "Alega grandes sumas recaudadas con poca ayuda. La otra parte no se cita. Disputa abierta."
+            "Un resumen en X cita muertes en la guerra de Sudán, inundaciones en Nepal que mataron a cinco y riesgo de inundación para casi un millón en Gaza.",
+            "También señala venta de tecnología, petróleo más alto y un déficit de 2 billones de dólares con rendimientos del 5%. Cifras según el post."
           ],
-          "highlightParagraph": 1,
-          "trend": "Allegation",
+          "highlightParagraph": 0,
+          "trend": "Compound crises",
           "sources": [
             {
-              "label": "@ZarlashtaW",
-              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
+              "label": "@weadvertizers",
+              "url": "https://x.com/weadvertizers/status/2111321486749503705"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@ZarlashtaW",
-              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
+              "text": "@weadvertizers",
+              "url": "https://x.com/weadvertizers/status/2111321486749503705"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Conflicto",
+          "headline": "Costes de la guerra de Irán en X",
+          "paragraphs": [
+            "Un post dice que la guerra de Irán desde febrero ha subido el petróleo, la inflación y el gasto militar.",
+            "Afirma que lazos más cercanos con Putin tensan alianzas. Solo una evaluación, no prueba verificada."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Cost assessment",
+          "sources": [
+            {
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2111575191935418413"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2111575191935418413"
             }
           ]
         }
@@ -478,118 +542,134 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-10-17T10:52:01.357Z",
+      "updatedAt": "2026-10-18T11:15:33.767Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "High engagement",
-        "Circulating report",
-        "Unverified claim",
-        "Allegation"
+        "Policy dispute claims",
+        "Global risk warnings",
+        "Energy-tech divergence",
+        "Compound crises",
+        "Cost assessment"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Politique américaine",
-          "headline": "Le DOJ avertit LA sur les non-citoyens",
+          "category": "Géopolitique",
+          "headline": "Affirmations de clash USA-Ukraine",
           "paragraphs": [
-            "Des comptes X disent que le DOJ a averti le comté de LA : compter des votes de non-citoyens signalés peut être un crime fédéral.",
-            "Le comté aurait refusé de mettre les bulletins de côté. Des utilisateurs parlent d'avis écrit. Seulement des allégations."
+            "Des utilisateurs X affirment un clash public Trump-Zelensky et une pause des nouvelles sanctions US contre la Russie.",
+            "Ils lient cela au risque énergétique et aux frappes ukrainiennes. Affirmations non vérifiées."
           ],
           "highlightParagraph": 0,
-          "trend": "High engagement",
+          "trend": "Policy dispute claims",
           "sources": [
             {
-              "label": "@EricLDaugh",
-              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
-            },
-            {
-              "label": "@drawandstrike",
-              "url": "https://x.com/drawandstrike/status/2111245367144554618"
+              "label": "@Linbaden119",
+              "url": "https://x.com/Linbaden119/status/2111416052878078077"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@EricLDaugh",
-              "url": "https://x.com/EricLDaugh/status/2111245291198276014"
-            },
-            {
-              "id": "101-1",
-              "text": "@drawandstrike",
-              "url": "https://x.com/drawandstrike/status/2111245367144554618"
+              "text": "@Linbaden119",
+              "url": "https://x.com/Linbaden119/status/2111416052878078077"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Défense britannique",
-          "headline": "Chef d'armée : sacrifices pour la guerre",
+          "category": "Économie",
+          "headline": "Appels à l'aide aux économies fragiles",
           "paragraphs": [
-            "Insider Paper sur X : le gén. Sir Roly Walker avertit que les Britanniques devront faire des sacrifices pour la guerre.",
-            "La phrase circule dans les débats de défense. Le post ne donne pas le texte complet."
+            "Des posts disent que des dirigeants financiers veulent plus de soutien aux économies vulnérables face aux conflits et aux coûts énergétiques.",
+            "Tensions commerciales et chocs d'offre pourraient toucher alimentation et ménages. Affirmations X sans détail officiel."
           ],
           "highlightParagraph": 0,
-          "trend": "Circulating report",
+          "trend": "Global risk warnings",
           "sources": [
             {
-              "label": "@TheInsiderPaper",
-              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
+              "label": "@eyeworldnews444",
+              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@TheInsiderPaper",
-              "url": "https://x.com/TheInsiderPaper/status/2111245266544455758"
+              "text": "@eyeworldnews444",
+              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Immigration US",
-          "headline": "Post : expulsions de Somaliens au MN",
+          "category": "Marchés",
+          "headline": "Le pétrole monte, la tech baisse",
           "paragraphs": [
-            "Un compte X affirme que des expulsions de Somaliens au Minnesota ont commencé, qualifiant cela de breaking.",
-            "Aucune source officielle dans le post. Les lecteurs doivent y voir une allégation non vérifiée."
+            "WION relie la hausse du pétrole à l'offre russe, aux coûts énergétiques de l'Inde et à la pression sur les ménages US.",
+            "Les actions puces et tech baisseraient ensemble. Commentaire, pas de clôture confirmée."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "highlightParagraph": 0,
+          "trend": "Energy-tech divergence",
           "sources": [
             {
-              "label": "@ForbiddenLeaksQ",
-              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
+              "label": "@WIONews",
+              "url": "https://x.com/WIONews/status/2111394616289165393"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@ForbiddenLeaksQ",
-              "url": "https://x.com/ForbiddenLeaksQ/status/2111244761416024572"
+              "text": "@WIONews",
+              "url": "https://x.com/WIONews/status/2111394616289165393"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Caritatif",
-          "headline": "Activiste : Malala a renvoyé du personnel",
+          "category": "Monde",
+          "headline": "Soudan, inondations et déficit US",
           "paragraphs": [
-            "Watanmal dit que Malala a renvoyé trois employés d'une équipe Afghanistan après des allégations de dépenses.",
-            "Elle allègue de grosses sommes levées avec peu d'aide. L'autre partie n'est pas citée. Différend ouvert."
+            "Un brief X cite des morts dans la guerre au Soudan, des inondations au Népal tuant cinq personnes et un risque d'inondation pour près d'un million à Gaza.",
+            "Il note aussi une vente tech, un pétrole plus haut et un déficit de 2 000 milliards de dollars à 5%. Chiffres tels que publiés."
           ],
-          "highlightParagraph": 1,
-          "trend": "Allegation",
+          "highlightParagraph": 0,
+          "trend": "Compound crises",
           "sources": [
             {
-              "label": "@ZarlashtaW",
-              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
+              "label": "@weadvertizers",
+              "url": "https://x.com/weadvertizers/status/2111321486749503705"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@ZarlashtaW",
-              "url": "https://x.com/ZarlashtaW/status/2111244759758967270"
+              "text": "@weadvertizers",
+              "url": "https://x.com/weadvertizers/status/2111321486749503705"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Conflit",
+          "headline": "Coûts de la guerre d'Iran sur X",
+          "paragraphs": [
+            "Un post dit que la guerre d'Iran depuis février a augmenté le pétrole, l'inflation et les dépenses militaires.",
+            "Il affirme que des liens plus étroits avec Poutine tendent les alliances. Évaluation seulement, non vérifiée."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Cost assessment",
+          "sources": [
+            {
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2111575191935418413"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2111575191935418413"
             }
           ]
         }
