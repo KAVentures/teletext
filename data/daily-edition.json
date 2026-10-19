@@ -1,135 +1,110 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "editions": {
     "en": {
-      "updatedAt": "2026-10-18T11:15:33.767Z",
+      "updatedAt": "2026-10-19T13:27:12.608Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Policy dispute claims",
-        "Global risk warnings",
-        "Energy-tech divergence",
-        "Compound crises",
-        "Cost assessment"
+        "Local unrest",
+        "Political debate",
+        "Disputed history",
+        "Market anxiety"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Geopolitics",
-          "headline": "Claims of US-Ukraine clash grow",
+          "category": "Latin America",
+          "headline": "Jalisco water protests draw crowds",
           "paragraphs": [
-            "X users claim a public Trump-Zelensky clash and a US pause on new Russia sanctions.",
-            "They link this to higher energy risk and Ukraine strikes. These are unverified claims."
+            "Residents from several states joined a Zocalo protest over Jalisco water crisis and Lemus privatization plans.",
+            "The account says it may escalate nationally. This is an unverified claim from the post."
           ],
           "highlightParagraph": 0,
-          "trend": "Policy dispute claims",
+          "trend": "Local unrest",
           "sources": [
             {
-              "label": "@Linbaden119",
-              "url": "https://x.com/Linbaden119/status/2111416052878078077"
+              "label": "@IzqNoticiasMx",
+              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@Linbaden119",
-              "url": "https://x.com/Linbaden119/status/2111416052878078077"
+              "text": "@IzqNoticiasMx",
+              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Economy",
-          "headline": "Calls grow for aid to weak economies",
+          "category": "US Politics",
+          "headline": "Schatz calls Netanyahu message rude",
           "paragraphs": [
-            "Posts say financial leaders want more support for vulnerable economies amid conflicts and high energy costs.",
-            "Trade tensions and supply shocks may hit food and households. Claims on X lack official detail."
+            "Senator Brian Schatz says Netanyahu's direct address justifying the war and scolding on gas prices is disrespectful.",
+            "He calls it an aggravating closing message. This is posted opinion with wide engagement."
           ],
           "highlightParagraph": 0,
-          "trend": "Global risk warnings",
+          "trend": "Political debate",
           "sources": [
             {
-              "label": "@eyeworldnews444",
-              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
+              "label": "@brianschatz",
+              "url": "https://x.com/brianschatz/status/2111970199247450239"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@eyeworldnews444",
-              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
+              "text": "@brianschatz",
+              "url": "https://x.com/brianschatz/status/2111970199247450239"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Markets",
-          "headline": "Oil rises as tech and chips fall",
+          "category": "Middle East",
+          "headline": "Account defends Al-Ahli rocket claim",
           "paragraphs": [
-            "WION links rising oil to Russian supply, India energy costs and pressure on US households.",
-            "Chip and tech shares are said to be falling together. Commentary, not confirmed market close."
+            "Israel War Room repeats that Al-Ahli hospital was hit by a failed PIJ rocket, not Israeli fire.",
+            "It calls media blame a blood libel. The 2023 incident remains disputed by other accounts."
           ],
-          "highlightParagraph": 0,
-          "trend": "Energy-tech divergence",
+          "highlightParagraph": 1,
+          "trend": "Disputed history",
           "sources": [
             {
-              "label": "@WIONews",
-              "url": "https://x.com/WIONews/status/2111394616289165393"
+              "label": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@WIONews",
-              "url": "https://x.com/WIONews/status/2111394616289165393"
+              "text": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
             }
           ]
         },
         {
           "page": 104,
-          "category": "World",
-          "headline": "Sudan, floods and US deficit noted",
+          "category": "Markets",
+          "headline": "User reports no Black Monday collapse",
           "paragraphs": [
-            "An X brief cites Sudan war deaths, Nepal floods killing five and flood risk for nearly a million in Gaza.",
-            "It also flags a tech sell-off, higher oil and a $2tn US deficit with 5% yields. Figures as posted."
+            "From Asia a user says Monday morning has not brought world collapse from feared Black Monday.",
+            "The post mocks crash predictions. No market data given; it is commentary only."
           ],
           "highlightParagraph": 0,
-          "trend": "Compound crises",
+          "trend": "Market anxiety",
           "sources": [
             {
-              "label": "@weadvertizers",
-              "url": "https://x.com/weadvertizers/status/2111321486749503705"
+              "label": "@Xeer",
+              "url": "https://x.com/Xeer/status/2111970348627534018"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@weadvertizers",
-              "url": "https://x.com/weadvertizers/status/2111321486749503705"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Conflict",
-          "headline": "Iran war costs cited on X",
-          "paragraphs": [
-            "A post says the Iran war since February has raised oil prices, inflation and military spending.",
-            "It claims closer ties with Putin strain alliances. Assessment only, not verified proof."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Cost assessment",
-          "sources": [
-            {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2111575191935418413"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2111575191935418413"
+              "text": "@Xeer",
+              "url": "https://x.com/Xeer/status/2111970348627534018"
             }
           ]
         }
@@ -137,134 +112,109 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-10-18T11:15:33.767Z",
+      "updatedAt": "2026-10-19T13:27:12.608Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Policy dispute claims",
-        "Global risk warnings",
-        "Energy-tech divergence",
-        "Compound crises",
-        "Cost assessment"
+        "Local unrest",
+        "Political debate",
+        "Disputed history",
+        "Market anxiety"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Geopolitik",
-          "headline": "Påståenden om USA-Ukraina-bråk",
+          "category": "Latinamerika",
+          "headline": "Jalisco-vattenprotester samlar folk",
           "paragraphs": [
-            "X-användare hävdar en offentlig Trump-Zelensky-konflikt och paus i nya USA-sanktioner mot Ryssland.",
-            "De kopplar det till energirisk och ukrainska anfall. Påståendena är obekräftade."
+            "Invånare från flera delstater anslöt till Zocalo-protest mot vattenkris i Jalisco och Lemus privatiseringsplaner.",
+            "Kontot säger att det kan eskalera nationellt. Detta är ett overifierat påstående från inlägget."
           ],
           "highlightParagraph": 0,
-          "trend": "Policy dispute claims",
+          "trend": "Local unrest",
           "sources": [
             {
-              "label": "@Linbaden119",
-              "url": "https://x.com/Linbaden119/status/2111416052878078077"
+              "label": "@IzqNoticiasMx",
+              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@Linbaden119",
-              "url": "https://x.com/Linbaden119/status/2111416052878078077"
+              "text": "@IzqNoticiasMx",
+              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Ekonomi",
-          "headline": "Krav på stöd till svaga ekonomier",
+          "category": "USA-politik",
+          "headline": "Schatz kallar Netanyahu-budskap oförskämt",
           "paragraphs": [
-            "Inlägg säger att finansledare vill ha mer stöd till sårbara ekonomier mitt i konflikter och höga energikostnader.",
-            "Handelsspänningar och utbudschocker kan slå mot mat och hushåll. Påståenden på X saknar officiell detalj."
+            "Senator Brian Schatz säger att Netanyahus direkta tal som rättfärdigar kriget och skäller om bensinpriser är respektlöst.",
+            "Han kallar det ett irriterande avslut. Detta är publicerad åsikt med brett engagemang."
           ],
           "highlightParagraph": 0,
-          "trend": "Global risk warnings",
+          "trend": "Political debate",
           "sources": [
             {
-              "label": "@eyeworldnews444",
-              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
+              "label": "@brianschatz",
+              "url": "https://x.com/brianschatz/status/2111970199247450239"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@eyeworldnews444",
-              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
+              "text": "@brianschatz",
+              "url": "https://x.com/brianschatz/status/2111970199247450239"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Marknader",
-          "headline": "Olja stiger när teknik faller",
+          "category": "Mellanöstern",
+          "headline": "Konto försvarar Al-Ahli-raketpåstående",
           "paragraphs": [
-            "WION kopplar stigande olja till rysk tillgång, Indiens energikostnader och press på amerikanska hushåll.",
-            "Chip- och teknikaktier sägs falla tillsammans. Kommentar, inte bekräftad stängning."
+            "Israel War Room upprepar att Al-Ahli-sjukhuset träffades av en misslyckad PIJ-raket, inte israelisk eld.",
+            "Det kallar medieanklagelsen en blodförtal. Incidenten 2023 är fortfarande omtvistad."
           ],
-          "highlightParagraph": 0,
-          "trend": "Energy-tech divergence",
+          "highlightParagraph": 1,
+          "trend": "Disputed history",
           "sources": [
             {
-              "label": "@WIONews",
-              "url": "https://x.com/WIONews/status/2111394616289165393"
+              "label": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@WIONews",
-              "url": "https://x.com/WIONews/status/2111394616289165393"
+              "text": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Världen",
-          "headline": "Sudan, översvämningar och underskott",
+          "category": "Marknader",
+          "headline": "Användare: ingen Black Monday-kollaps",
           "paragraphs": [
-            "En X-brief nämner dödsfall i Sudans krig, översvämningar i Nepal som dödat fem och översvämningsrisk för nära en miljon i Gaza.",
-            "Den noterar också teknikförsäljning, högre olja och ett underskott på 2 biljoner dollar med 5% ränta. Siffror som publicerade."
+            "Från Asien säger en användare att måndag morgon inte medfört världskollaps från fruktad Black Monday.",
+            "Inlägget hånar kraschprognoser. Ingen marknadsdata; endast kommentar."
           ],
           "highlightParagraph": 0,
-          "trend": "Compound crises",
+          "trend": "Market anxiety",
           "sources": [
             {
-              "label": "@weadvertizers",
-              "url": "https://x.com/weadvertizers/status/2111321486749503705"
+              "label": "@Xeer",
+              "url": "https://x.com/Xeer/status/2111970348627534018"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@weadvertizers",
-              "url": "https://x.com/weadvertizers/status/2111321486749503705"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Konflikt",
-          "headline": "Kostnader för Iran-kriget på X",
-          "paragraphs": [
-            "Ett inlägg säger att Iran-kriget sedan februari höjt oljepriser, inflation och militärutgifter.",
-            "Det hävdar att närmare band till Putin anstränger allianser. Endast bedömning, inte verifierat."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Cost assessment",
-          "sources": [
-            {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2111575191935418413"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2111575191935418413"
+              "text": "@Xeer",
+              "url": "https://x.com/Xeer/status/2111970348627534018"
             }
           ]
         }
@@ -272,134 +222,109 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-10-18T11:15:33.767Z",
+      "updatedAt": "2026-10-19T13:27:12.608Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Policy dispute claims",
-        "Global risk warnings",
-        "Energy-tech divergence",
-        "Compound crises",
-        "Cost assessment"
+        "Local unrest",
+        "Political debate",
+        "Disputed history",
+        "Market anxiety"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Geopolitik",
-          "headline": "Behauptungen zu USA-Ukraine-Streit",
+          "category": "Lateinamerika",
+          "headline": "Jalisco-Wasserproteste ziehen Massen",
           "paragraphs": [
-            "X-Nutzer behaupten einen öffentlichen Trump-Selenskyj-Konflikt und eine Pause neuer US-Sanktionen gegen Russland.",
-            "Sie verknüpfen das mit Energierisiko und ukrainischen Angriffen. Die Angaben sind unbestätigt."
+            "Bewohner mehrerer Staaten schlossen sich Zocalo-Protest gegen Wasserkrise in Jalisco und Lemus-Pläne an.",
+            "Das Konto sagt, es könnte national eskalieren. Dies ist eine unverifizierte Behauptung aus dem Post."
           ],
           "highlightParagraph": 0,
-          "trend": "Policy dispute claims",
+          "trend": "Local unrest",
           "sources": [
             {
-              "label": "@Linbaden119",
-              "url": "https://x.com/Linbaden119/status/2111416052878078077"
+              "label": "@IzqNoticiasMx",
+              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@Linbaden119",
-              "url": "https://x.com/Linbaden119/status/2111416052878078077"
+              "text": "@IzqNoticiasMx",
+              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Wirtschaft",
-          "headline": "Rufe nach Hilfe für schwache Staaten",
+          "category": "US-Politik",
+          "headline": "Schatz nennt Netanyahu-Botschaft unhöflich",
           "paragraphs": [
-            "Beiträge sagen, Finanzführer wollen mehr Unterstützung für anfällige Volkswirtschaften angesichts von Konflikten und hohen Energiekosten.",
-            "Handelsspannungen und Angebotsschocks könnten Nahrung und Haushalte treffen. X-Angaben ohne offizielle Details."
+            "Senator Brian Schatz sagt, Netanyahus direkte Ansprache zur Kriegsrechtfertigung und Schelte über Benzinpreise sei respektlos.",
+            "Er nennt es eine ärgerliche Abschlussbotschaft. Veröffentlichte Meinung mit breitem Engagement."
           ],
           "highlightParagraph": 0,
-          "trend": "Global risk warnings",
+          "trend": "Political debate",
           "sources": [
             {
-              "label": "@eyeworldnews444",
-              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
+              "label": "@brianschatz",
+              "url": "https://x.com/brianschatz/status/2111970199247450239"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@eyeworldnews444",
-              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
+              "text": "@brianschatz",
+              "url": "https://x.com/brianschatz/status/2111970199247450239"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Märkte",
-          "headline": "Öl steigt, Tech und Chips fallen",
+          "category": "Naher Osten",
+          "headline": "Konto verteidigt Al-Ahli-Raketenclaim",
           "paragraphs": [
-            "WION verknüpft steigendes Öl mit russischem Angebot, Indiens Energiekosten und Druck auf US-Haushalte.",
-            "Chip- und Tech-Aktien sollen gemeinsam fallen. Kommentar, kein bestätigter Schlusskurs."
+            "Israel War Room wiederholt, Al-Ahli wurde von fehlgeschlagener PIJ-Rakete getroffen, nicht israelischem Feuer.",
+            "Es nennt Medienbeschuldigung Blutverleumdung. Der Vorfall 2023 bleibt umstritten."
           ],
-          "highlightParagraph": 0,
-          "trend": "Energy-tech divergence",
+          "highlightParagraph": 1,
+          "trend": "Disputed history",
           "sources": [
             {
-              "label": "@WIONews",
-              "url": "https://x.com/WIONews/status/2111394616289165393"
+              "label": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@WIONews",
-              "url": "https://x.com/WIONews/status/2111394616289165393"
+              "text": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Welt",
-          "headline": "Sudan, Fluten und US-Defizit",
+          "category": "Märkte",
+          "headline": "Nutzer: kein Black-Monday-Zusammenbruch",
           "paragraphs": [
-            "Ein X-Brief nennt Kriegstote im Sudan, Überschwemmungen in Nepal mit fünf Toten und Flutrisiko für fast eine Million in Gaza.",
-            "Er nennt auch Tech-Verkauf, höheres Öl und ein 2-Billionen-Dollar-Defizit bei 5% Rendite. Zahlen wie gepostet."
+            "Aus Asien sagt ein Nutzer, Montagmorgen brachte keinen Weltzusammenbruch vom gefürchteten Black Monday.",
+            "Der Post verspottet Crash-Vorhersagen. Keine Marktdaten; nur Kommentar."
           ],
           "highlightParagraph": 0,
-          "trend": "Compound crises",
+          "trend": "Market anxiety",
           "sources": [
             {
-              "label": "@weadvertizers",
-              "url": "https://x.com/weadvertizers/status/2111321486749503705"
+              "label": "@Xeer",
+              "url": "https://x.com/Xeer/status/2111970348627534018"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@weadvertizers",
-              "url": "https://x.com/weadvertizers/status/2111321486749503705"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Konflikt",
-          "headline": "Kosten des Iran-Kriegs auf X",
-          "paragraphs": [
-            "Ein Beitrag sagt, der Iran-Krieg seit Februar habe Ölpreise, Inflation und Militärausgaben erhöht.",
-            "Er behauptet, engere Putin-Beziehungen belasten Bündnisse. Nur Einschätzung, nicht belegt."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Cost assessment",
-          "sources": [
-            {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2111575191935418413"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2111575191935418413"
+              "text": "@Xeer",
+              "url": "https://x.com/Xeer/status/2111970348627534018"
             }
           ]
         }
@@ -407,134 +332,109 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-10-18T11:15:33.767Z",
+      "updatedAt": "2026-10-19T13:27:12.608Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Policy dispute claims",
-        "Global risk warnings",
-        "Energy-tech divergence",
-        "Compound crises",
-        "Cost assessment"
+        "Local unrest",
+        "Political debate",
+        "Disputed history",
+        "Market anxiety"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Geopolítica",
-          "headline": "Crece el choque EE.UU.-Ucrania",
+          "category": "América Latina",
+          "headline": "Protestas de agua en Jalisco crecen",
           "paragraphs": [
-            "Usuarios de X afirman un choque público Trump-Zelenski y una pausa de nuevas sanciones de EE.UU. a Rusia.",
-            "Lo vinculan a riesgo energético y ataques ucranianos. Son afirmaciones no verificadas."
+            "Habitantes de varios estados se unieron a protesta en el Zócalo por crisis de agua en Jalisco y planes de privatización de Lemus.",
+            "La cuenta dice que podría escalar nacionalmente. Es una afirmación no verificada del post."
           ],
           "highlightParagraph": 0,
-          "trend": "Policy dispute claims",
+          "trend": "Local unrest",
           "sources": [
             {
-              "label": "@Linbaden119",
-              "url": "https://x.com/Linbaden119/status/2111416052878078077"
+              "label": "@IzqNoticiasMx",
+              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@Linbaden119",
-              "url": "https://x.com/Linbaden119/status/2111416052878078077"
+              "text": "@IzqNoticiasMx",
+              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Economía",
-          "headline": "Piden más ayuda a economías frágiles",
+          "category": "Política de EE.UU.",
+          "headline": "Schatz llama grosero mensaje de Netanyahu",
           "paragraphs": [
-            "Publicaciones dicen que líderes financieros quieren más apoyo a economías vulnerables ante conflictos y altos costes energéticos.",
-            "Tensiones comerciales y shocks de oferta pueden afectar alimentos y hogares. Afirmaciones en X sin detalle oficial."
+            "El senador Brian Schatz dice que el discurso directo de Netanyahu justificando la guerra y regañando por gasolina es irrespetuoso.",
+            "Lo llama un mensaje de cierre agravante. Opinión publicada con amplio compromiso."
           ],
           "highlightParagraph": 0,
-          "trend": "Global risk warnings",
+          "trend": "Political debate",
           "sources": [
             {
-              "label": "@eyeworldnews444",
-              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
+              "label": "@brianschatz",
+              "url": "https://x.com/brianschatz/status/2111970199247450239"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@eyeworldnews444",
-              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
+              "text": "@brianschatz",
+              "url": "https://x.com/brianschatz/status/2111970199247450239"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Mercados",
-          "headline": "Sube el petróleo, caen chips y tech",
+          "category": "Oriente Medio",
+          "headline": "Cuenta defiende claim de cohete Al-Ahli",
           "paragraphs": [
-            "WION vincula el alza del petróleo al suministro ruso, costes energéticos de India y presión en hogares de EE.UU.",
-            "Acciones de chips y tecnología caerían juntas. Comentario, no cierre confirmado."
+            "Israel War Room repite que Al-Ahli fue alcanzado por cohete fallido de PIJ, no fuego israelí.",
+            "Lo llama calumnia de sangre de medios. El incidente 2023 sigue disputado."
           ],
-          "highlightParagraph": 0,
-          "trend": "Energy-tech divergence",
+          "highlightParagraph": 1,
+          "trend": "Disputed history",
           "sources": [
             {
-              "label": "@WIONews",
-              "url": "https://x.com/WIONews/status/2111394616289165393"
+              "label": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@WIONews",
-              "url": "https://x.com/WIONews/status/2111394616289165393"
+              "text": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Mundo",
-          "headline": "Sudán, inundaciones y déficit de EE.UU.",
+          "category": "Mercados",
+          "headline": "Usuario: no hay colapso Black Monday",
           "paragraphs": [
-            "Un resumen en X cita muertes en la guerra de Sudán, inundaciones en Nepal que mataron a cinco y riesgo de inundación para casi un millón en Gaza.",
-            "También señala venta de tecnología, petróleo más alto y un déficit de 2 billones de dólares con rendimientos del 5%. Cifras según el post."
+            "Desde Asia un usuario dice que el lunes mañana no trajo colapso mundial del temido Black Monday.",
+            "El post se burla de predicciones de crash. Sin datos de mercado; solo comentario."
           ],
           "highlightParagraph": 0,
-          "trend": "Compound crises",
+          "trend": "Market anxiety",
           "sources": [
             {
-              "label": "@weadvertizers",
-              "url": "https://x.com/weadvertizers/status/2111321486749503705"
+              "label": "@Xeer",
+              "url": "https://x.com/Xeer/status/2111970348627534018"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@weadvertizers",
-              "url": "https://x.com/weadvertizers/status/2111321486749503705"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Conflicto",
-          "headline": "Costes de la guerra de Irán en X",
-          "paragraphs": [
-            "Un post dice que la guerra de Irán desde febrero ha subido el petróleo, la inflación y el gasto militar.",
-            "Afirma que lazos más cercanos con Putin tensan alianzas. Solo una evaluación, no prueba verificada."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Cost assessment",
-          "sources": [
-            {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2111575191935418413"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2111575191935418413"
+              "text": "@Xeer",
+              "url": "https://x.com/Xeer/status/2111970348627534018"
             }
           ]
         }
@@ -542,134 +442,109 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-10-18T11:15:33.767Z",
+      "updatedAt": "2026-10-19T13:27:12.608Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Policy dispute claims",
-        "Global risk warnings",
-        "Energy-tech divergence",
-        "Compound crises",
-        "Cost assessment"
+        "Local unrest",
+        "Political debate",
+        "Disputed history",
+        "Market anxiety"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Géopolitique",
-          "headline": "Affirmations de clash USA-Ukraine",
+          "category": "Amérique latine",
+          "headline": "Protestations d'eau au Jalisco grandissent",
           "paragraphs": [
-            "Des utilisateurs X affirment un clash public Trump-Zelensky et une pause des nouvelles sanctions US contre la Russie.",
-            "Ils lient cela au risque énergétique et aux frappes ukrainiennes. Affirmations non vérifiées."
+            "Des habitants de plusieurs États ont rejoint la protestation au Zocalo contre la crise de l'eau à Jalisco et les plans de Lemus.",
+            "Le compte dit que cela pourrait s'étendre nationalement. C'est une affirmation non vérifiée du post."
           ],
           "highlightParagraph": 0,
-          "trend": "Policy dispute claims",
+          "trend": "Local unrest",
           "sources": [
             {
-              "label": "@Linbaden119",
-              "url": "https://x.com/Linbaden119/status/2111416052878078077"
+              "label": "@IzqNoticiasMx",
+              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@Linbaden119",
-              "url": "https://x.com/Linbaden119/status/2111416052878078077"
+              "text": "@IzqNoticiasMx",
+              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Économie",
-          "headline": "Appels à l'aide aux économies fragiles",
+          "category": "Politique US",
+          "headline": "Schatz qualifie message de Netanyahu d'impoli",
           "paragraphs": [
-            "Des posts disent que des dirigeants financiers veulent plus de soutien aux économies vulnérables face aux conflits et aux coûts énergétiques.",
-            "Tensions commerciales et chocs d'offre pourraient toucher alimentation et ménages. Affirmations X sans détail officiel."
+            "Le sénateur Brian Schatz dit que l'adresse directe de Netanyahu justifiant la guerre et grondant sur l'essence est irrespectueuse.",
+            "Il l'appelle un message de clôture aggravant. Opinion publiée avec large engagement."
           ],
           "highlightParagraph": 0,
-          "trend": "Global risk warnings",
+          "trend": "Political debate",
           "sources": [
             {
-              "label": "@eyeworldnews444",
-              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
+              "label": "@brianschatz",
+              "url": "https://x.com/brianschatz/status/2111970199247450239"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@eyeworldnews444",
-              "url": "https://x.com/eyeworldnews444/status/2111359090945380472"
+              "text": "@brianschatz",
+              "url": "https://x.com/brianschatz/status/2111970199247450239"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Marchés",
-          "headline": "Le pétrole monte, la tech baisse",
+          "category": "Moyen-Orient",
+          "headline": "Compte défend claim roquette Al-Ahli",
           "paragraphs": [
-            "WION relie la hausse du pétrole à l'offre russe, aux coûts énergétiques de l'Inde et à la pression sur les ménages US.",
-            "Les actions puces et tech baisseraient ensemble. Commentaire, pas de clôture confirmée."
+            "Israel War Room répète qu'Al-Ahli a été touché par roquette PIJ ratée, pas tir israélien.",
+            "Il appelle le blâme des médias un libelle de sang. L'incident 2023 reste contesté."
           ],
-          "highlightParagraph": 0,
-          "trend": "Energy-tech divergence",
+          "highlightParagraph": 1,
+          "trend": "Disputed history",
           "sources": [
             {
-              "label": "@WIONews",
-              "url": "https://x.com/WIONews/status/2111394616289165393"
+              "label": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@WIONews",
-              "url": "https://x.com/WIONews/status/2111394616289165393"
+              "text": "@IsraelWarRoom",
+              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Monde",
-          "headline": "Soudan, inondations et déficit US",
+          "category": "Marchés",
+          "headline": "Utilisateur: pas d'effondrement Black Monday",
           "paragraphs": [
-            "Un brief X cite des morts dans la guerre au Soudan, des inondations au Népal tuant cinq personnes et un risque d'inondation pour près d'un million à Gaza.",
-            "Il note aussi une vente tech, un pétrole plus haut et un déficit de 2 000 milliards de dollars à 5%. Chiffres tels que publiés."
+            "Depuis l'Asie un utilisateur dit que lundi matin n'a pas apporté d'effondrement mondial du Black Monday redouté.",
+            "Le post se moque des prédictions de crash. Pas de données; seulement commentaire."
           ],
           "highlightParagraph": 0,
-          "trend": "Compound crises",
+          "trend": "Market anxiety",
           "sources": [
             {
-              "label": "@weadvertizers",
-              "url": "https://x.com/weadvertizers/status/2111321486749503705"
+              "label": "@Xeer",
+              "url": "https://x.com/Xeer/status/2111970348627534018"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@weadvertizers",
-              "url": "https://x.com/weadvertizers/status/2111321486749503705"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Conflit",
-          "headline": "Coûts de la guerre d'Iran sur X",
-          "paragraphs": [
-            "Un post dit que la guerre d'Iran depuis février a augmenté le pétrole, l'inflation et les dépenses militaires.",
-            "Il affirme que des liens plus étroits avec Poutine tendent les alliances. Évaluation seulement, non vérifiée."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Cost assessment",
-          "sources": [
-            {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2111575191935418413"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2111575191935418413"
+              "text": "@Xeer",
+              "url": "https://x.com/Xeer/status/2111970348627534018"
             }
           ]
         }
