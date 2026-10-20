@@ -1,110 +1,110 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "editions": {
     "en": {
-      "updatedAt": "2026-10-19T13:27:12.608Z",
+      "updatedAt": "2026-10-20T11:46:09.741Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Local unrest",
-        "Political debate",
-        "Disputed history",
-        "Market anxiety"
+        "Ukraine talks",
+        "Brazil politics",
+        "Strike claims",
+        "US policy debate"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Latin America",
-          "headline": "Jalisco water protests draw crowds",
+          "category": "Politics",
+          "headline": "Trump calls for Zelensky to step aside",
           "paragraphs": [
-            "Residents from several states joined a Zocalo protest over Jalisco water crisis and Lemus privatization plans.",
-            "The account says it may escalate nationally. This is an unverified claim from the post."
+            "Trump said it is time for somebody else to negotiate for Ukraine and urged Zelensky to step aside from peace talks.",
+            "A circulating post claims he said Russia has been fine on the war. The claim cites a NY Post link and needs independent checks."
           ],
           "highlightParagraph": 0,
-          "trend": "Local unrest",
+          "trend": "Ukraine talks",
           "sources": [
             {
-              "label": "@IzqNoticiasMx",
-              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
+              "label": "@not_now56",
+              "url": "https://x.com/not_now56/status/2112332901820022886"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@IzqNoticiasMx",
-              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
+              "text": "@not_now56",
+              "url": "https://x.com/not_now56/status/2112332901820022886"
             }
           ]
         },
         {
           "page": 102,
-          "category": "US Politics",
-          "headline": "Schatz calls Netanyahu message rude",
+          "category": "Politics",
+          "headline": "Young lawmaker aids Lula media plan",
           "paragraphs": [
-            "Senator Brian Schatz says Netanyahu's direct address justifying the war and scolding on gas prices is disrespectful.",
-            "He calls it an aggravating closing message. This is posted opinion with wide engagement."
+            "AFP reports newly elected Brazilian lawmaker Ana Elisa Santos is helping Lula draft a social media master plan.",
+            "Born in his first term, she is tied to efforts for a fourth mandate. The account links further reporting."
           ],
           "highlightParagraph": 0,
-          "trend": "Political debate",
+          "trend": "Brazil politics",
           "sources": [
             {
-              "label": "@brianschatz",
-              "url": "https://x.com/brianschatz/status/2111970199247450239"
+              "label": "@AFP",
+              "url": "https://x.com/AFP/status/2112332728691458532"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@brianschatz",
-              "url": "https://x.com/brianschatz/status/2111970199247450239"
+              "text": "@AFP",
+              "url": "https://x.com/AFP/status/2112332728691458532"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Middle East",
-          "headline": "Account defends Al-Ahli rocket claim",
+          "category": "Conflict",
+          "headline": "Posts claim drone hit on St Petersburg",
           "paragraphs": [
-            "Israel War Room repeats that Al-Ahli hospital was hit by a failed PIJ rocket, not Israeli fire.",
-            "It calls media blame a blood libel. The 2023 incident remains disputed by other accounts."
+            "Posts claim a Ukrainian drone attack on St. Petersburg killed one person and hit energy sites.",
+            "One account links an Al Jazeera report. These are circulating claims and are not independently confirmed here."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed history",
+          "trend": "Strike claims",
           "sources": [
             {
-              "label": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
+              "label": "@Bradurs33616382",
+              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
+              "text": "@Bradurs33616382",
+              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Markets",
-          "headline": "User reports no Black Monday collapse",
+          "category": "Politics",
+          "headline": "X users debate Trump on Ukraine war",
           "paragraphs": [
-            "From Asia a user says Monday morning has not brought world collapse from feared Black Monday.",
-            "The post mocks crash predictions. No market data given; it is commentary only."
+            "Users dispute Trump's stance on the Ukraine war. One post calls him a weak leader over comments seen as rewarding a dictator.",
+            "The post links a BBC article. Opinions clash sharply and should not be read as settled fact."
           ],
           "highlightParagraph": 0,
-          "trend": "Market anxiety",
+          "trend": "US policy debate",
           "sources": [
             {
-              "label": "@Xeer",
-              "url": "https://x.com/Xeer/status/2111970348627534018"
+              "label": "@PeterBrosnan111",
+              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@Xeer",
-              "url": "https://x.com/Xeer/status/2111970348627534018"
+              "text": "@PeterBrosnan111",
+              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
             }
           ]
         }
@@ -112,109 +112,109 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-10-19T13:27:12.608Z",
+      "updatedAt": "2026-10-20T11:46:09.741Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Local unrest",
-        "Political debate",
-        "Disputed history",
-        "Market anxiety"
+        "Ukraine talks",
+        "Brazil politics",
+        "Strike claims",
+        "US policy debate"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Latinamerika",
-          "headline": "Jalisco-vattenprotester samlar folk",
+          "category": "Politik",
+          "headline": "Trump: Zelenskyj bör kliva åt sidan",
           "paragraphs": [
-            "Invånare från flera delstater anslöt till Zocalo-protest mot vattenkris i Jalisco och Lemus privatiseringsplaner.",
-            "Kontot säger att det kan eskalera nationellt. Detta är ett overifierat påstående från inlägget."
+            "Trump sade att någon annan bör förhandla för Ukraina och uppmanade Zelenskyj att kliva åt sidan från fredssamtal.",
+            "Ett inlägg hävdar att han kallade Ryssland bra i kriget. Påståendet citerar NY Post och behöver kontrolleras."
           ],
           "highlightParagraph": 0,
-          "trend": "Local unrest",
+          "trend": "Ukraine talks",
           "sources": [
             {
-              "label": "@IzqNoticiasMx",
-              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
+              "label": "@not_now56",
+              "url": "https://x.com/not_now56/status/2112332901820022886"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@IzqNoticiasMx",
-              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
+              "text": "@not_now56",
+              "url": "https://x.com/not_now56/status/2112332901820022886"
             }
           ]
         },
         {
           "page": 102,
-          "category": "USA-politik",
-          "headline": "Schatz kallar Netanyahu-budskap oförskämt",
+          "category": "Politik",
+          "headline": "Ung lagstiftare hjälper Lula",
           "paragraphs": [
-            "Senator Brian Schatz säger att Netanyahus direkta tal som rättfärdigar kriget och skäller om bensinpriser är respektlöst.",
-            "Han kallar det ett irriterande avslut. Detta är publicerad åsikt med brett engagemang."
+            "AFP rapporterar att nyvalda brasilianska lagstiftaren Ana Elisa Santos hjälper Lula med en plan för sociala medier.",
+            "Född under hans första mandat kopplas hon till försök till ett fjärde mandat. Kontot länkar mer rapportering."
           ],
           "highlightParagraph": 0,
-          "trend": "Political debate",
+          "trend": "Brazil politics",
           "sources": [
             {
-              "label": "@brianschatz",
-              "url": "https://x.com/brianschatz/status/2111970199247450239"
+              "label": "@AFP",
+              "url": "https://x.com/AFP/status/2112332728691458532"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@brianschatz",
-              "url": "https://x.com/brianschatz/status/2111970199247450239"
+              "text": "@AFP",
+              "url": "https://x.com/AFP/status/2112332728691458532"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Mellanöstern",
-          "headline": "Konto försvarar Al-Ahli-raketpåstående",
+          "category": "Konflikt",
+          "headline": "Påstådd drönarträff i Petersburg",
           "paragraphs": [
-            "Israel War Room upprepar att Al-Ahli-sjukhuset träffades av en misslyckad PIJ-raket, inte israelisk eld.",
-            "Det kallar medieanklagelsen en blodförtal. Incidenten 2023 är fortfarande omtvistad."
+            "Inlägg påstår att en ukrainsk drönarattack mot S:t Petersburg dödade en person och träffade energianläggningar.",
+            "Ett konto länkar en Al Jazeera-rapport. Det är cirkulerande påståenden och inte bekräftade här."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed history",
+          "trend": "Strike claims",
           "sources": [
             {
-              "label": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
+              "label": "@Bradurs33616382",
+              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
+              "text": "@Bradurs33616382",
+              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Marknader",
-          "headline": "Användare: ingen Black Monday-kollaps",
+          "category": "Politik",
+          "headline": "Debatt om Trump och Ukrainakriget",
           "paragraphs": [
-            "Från Asien säger en användare att måndag morgon inte medfört världskollaps från fruktad Black Monday.",
-            "Inlägget hånar kraschprognoser. Ingen marknadsdata; endast kommentar."
+            "Användare tvistar om Trumps hållning till Ukrainakriget. Ett inlägg kallar honom svag ledare för kommentarer som ses belöna en diktator.",
+            "Inlägget länkar en BBC-artikel. Åsikterna går isär och ska inte ses som fastställda fakta."
           ],
           "highlightParagraph": 0,
-          "trend": "Market anxiety",
+          "trend": "US policy debate",
           "sources": [
             {
-              "label": "@Xeer",
-              "url": "https://x.com/Xeer/status/2111970348627534018"
+              "label": "@PeterBrosnan111",
+              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@Xeer",
-              "url": "https://x.com/Xeer/status/2111970348627534018"
+              "text": "@PeterBrosnan111",
+              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
             }
           ]
         }
@@ -222,109 +222,109 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-10-19T13:27:12.608Z",
+      "updatedAt": "2026-10-20T11:46:09.741Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Local unrest",
-        "Political debate",
-        "Disputed history",
-        "Market anxiety"
+        "Ukraine talks",
+        "Brazil politics",
+        "Strike claims",
+        "US policy debate"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Lateinamerika",
-          "headline": "Jalisco-Wasserproteste ziehen Massen",
+          "category": "Politik",
+          "headline": "Trump: Selenskyj soll zurücktreten",
           "paragraphs": [
-            "Bewohner mehrerer Staaten schlossen sich Zocalo-Protest gegen Wasserkrise in Jalisco und Lemus-Pläne an.",
-            "Das Konto sagt, es könnte national eskalieren. Dies ist eine unverifizierte Behauptung aus dem Post."
+            "Trump sagte, jemand anderes solle für die Ukraine verhandeln, und forderte Selenskyj auf, bei Friedensgesprächen zurückzutreten.",
+            "Ein Beitrag behauptet, er habe Russland im Krieg als in Ordnung bezeichnet. Die Angabe zitiert die NY Post und braucht Prüfung."
           ],
           "highlightParagraph": 0,
-          "trend": "Local unrest",
+          "trend": "Ukraine talks",
           "sources": [
             {
-              "label": "@IzqNoticiasMx",
-              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
+              "label": "@not_now56",
+              "url": "https://x.com/not_now56/status/2112332901820022886"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@IzqNoticiasMx",
-              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
+              "text": "@not_now56",
+              "url": "https://x.com/not_now56/status/2112332901820022886"
             }
           ]
         },
         {
           "page": 102,
-          "category": "US-Politik",
-          "headline": "Schatz nennt Netanyahu-Botschaft unhöflich",
+          "category": "Politik",
+          "headline": "Junge Abgeordnete hilft Lula",
           "paragraphs": [
-            "Senator Brian Schatz sagt, Netanyahus direkte Ansprache zur Kriegsrechtfertigung und Schelte über Benzinpreise sei respektlos.",
-            "Er nennt es eine ärgerliche Abschlussbotschaft. Veröffentlichte Meinung mit breitem Engagement."
+            "AFP berichtet, die neu gewählte brasilianische Abgeordnete Ana Elisa Santos helfe Lula bei einem Social-Media-Plan.",
+            "Geboren in seiner ersten Amtszeit, steht sie mit Bemühungen um ein viertes Mandat in Verbindung. Der Account verlinkt mehr."
           ],
           "highlightParagraph": 0,
-          "trend": "Political debate",
+          "trend": "Brazil politics",
           "sources": [
             {
-              "label": "@brianschatz",
-              "url": "https://x.com/brianschatz/status/2111970199247450239"
+              "label": "@AFP",
+              "url": "https://x.com/AFP/status/2112332728691458532"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@brianschatz",
-              "url": "https://x.com/brianschatz/status/2111970199247450239"
+              "text": "@AFP",
+              "url": "https://x.com/AFP/status/2112332728691458532"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Naher Osten",
-          "headline": "Konto verteidigt Al-Ahli-Raketenclaim",
+          "category": "Konflikt",
+          "headline": "Drohnentreffer in Petersburg behauptet",
           "paragraphs": [
-            "Israel War Room wiederholt, Al-Ahli wurde von fehlgeschlagener PIJ-Rakete getroffen, nicht israelischem Feuer.",
-            "Es nennt Medienbeschuldigung Blutverleumdung. Der Vorfall 2023 bleibt umstritten."
+            "Beiträge behaupten, ein ukrainischer Drohnenangriff auf St. Petersburg habe einen getötet und Energieanlagen getroffen.",
+            "Ein Konto verlinkt einen Al-Jazeera-Bericht. Es sind zirkulierende Behauptungen, hier nicht bestätigt."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed history",
+          "trend": "Strike claims",
           "sources": [
             {
-              "label": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
+              "label": "@Bradurs33616382",
+              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
+              "text": "@Bradurs33616382",
+              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Märkte",
-          "headline": "Nutzer: kein Black-Monday-Zusammenbruch",
+          "category": "Politik",
+          "headline": "Debatte über Trump und Ukrainekrieg",
           "paragraphs": [
-            "Aus Asien sagt ein Nutzer, Montagmorgen brachte keinen Weltzusammenbruch vom gefürchteten Black Monday.",
-            "Der Post verspottet Crash-Vorhersagen. Keine Marktdaten; nur Kommentar."
+            "Nutzer streiten über Trumps Haltung zum Ukrainekrieg. Ein Beitrag nennt ihn einen schwachen Führer wegen Kommentaren, die einen Diktator belohnen.",
+            "Der Beitrag verlinkt einen BBC-Artikel. Die Meinungen klaffen auseinander und sind keine feststehenden Fakten."
           ],
           "highlightParagraph": 0,
-          "trend": "Market anxiety",
+          "trend": "US policy debate",
           "sources": [
             {
-              "label": "@Xeer",
-              "url": "https://x.com/Xeer/status/2111970348627534018"
+              "label": "@PeterBrosnan111",
+              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@Xeer",
-              "url": "https://x.com/Xeer/status/2111970348627534018"
+              "text": "@PeterBrosnan111",
+              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
             }
           ]
         }
@@ -332,109 +332,109 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-10-19T13:27:12.608Z",
+      "updatedAt": "2026-10-20T11:46:09.741Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Local unrest",
-        "Political debate",
-        "Disputed history",
-        "Market anxiety"
+        "Ukraine talks",
+        "Brazil politics",
+        "Strike claims",
+        "US policy debate"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "América Latina",
-          "headline": "Protestas de agua en Jalisco crecen",
+          "category": "Política",
+          "headline": "Trump pide que Zelenski se aparte",
           "paragraphs": [
-            "Habitantes de varios estados se unieron a protesta en el Zócalo por crisis de agua en Jalisco y planes de privatización de Lemus.",
-            "La cuenta dice que podría escalar nacionalmente. Es una afirmación no verificada del post."
+            "Trump dijo que otro debe negociar por Ucrania e instó a Zelenski a apartarse de las conversaciones de paz.",
+            "Un post afirma que dijo que Rusia ha estado bien en la guerra. Cita NY Post y requiere verificación."
           ],
           "highlightParagraph": 0,
-          "trend": "Local unrest",
+          "trend": "Ukraine talks",
           "sources": [
             {
-              "label": "@IzqNoticiasMx",
-              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
+              "label": "@not_now56",
+              "url": "https://x.com/not_now56/status/2112332901820022886"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@IzqNoticiasMx",
-              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
+              "text": "@not_now56",
+              "url": "https://x.com/not_now56/status/2112332901820022886"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Política de EE.UU.",
-          "headline": "Schatz llama grosero mensaje de Netanyahu",
+          "category": "Política",
+          "headline": "Joven legisladora ayuda a Lula",
           "paragraphs": [
-            "El senador Brian Schatz dice que el discurso directo de Netanyahu justificando la guerra y regañando por gasolina es irrespetuoso.",
-            "Lo llama un mensaje de cierre agravante. Opinión publicada con amplio compromiso."
+            "AFP informa que la nueva legisladora brasileña Ana Elisa Santos ayuda a Lula a elaborar un plan de redes sociales.",
+            "Nacida en su primer mandato, se vincula a esfuerzos por un cuarto mandato. La cuenta enlaza más información."
           ],
           "highlightParagraph": 0,
-          "trend": "Political debate",
+          "trend": "Brazil politics",
           "sources": [
             {
-              "label": "@brianschatz",
-              "url": "https://x.com/brianschatz/status/2111970199247450239"
+              "label": "@AFP",
+              "url": "https://x.com/AFP/status/2112332728691458532"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@brianschatz",
-              "url": "https://x.com/brianschatz/status/2111970199247450239"
+              "text": "@AFP",
+              "url": "https://x.com/AFP/status/2112332728691458532"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Oriente Medio",
-          "headline": "Cuenta defiende claim de cohete Al-Ahli",
+          "category": "Conflicto",
+          "headline": "Afirman ataque con drones en Petersburgo",
           "paragraphs": [
-            "Israel War Room repite que Al-Ahli fue alcanzado por cohete fallido de PIJ, no fuego israelí.",
-            "Lo llama calumnia de sangre de medios. El incidente 2023 sigue disputado."
+            "Publicaciones afirman que un ataque ucraniano con drones en San Petersburgo mató a uno y golpeó sitios energéticos.",
+            "Una cuenta enlaza un informe de Al Jazeera. Son afirmaciones en circulación, no confirmadas aquí."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed history",
+          "trend": "Strike claims",
           "sources": [
             {
-              "label": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
+              "label": "@Bradurs33616382",
+              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
+              "text": "@Bradurs33616382",
+              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Mercados",
-          "headline": "Usuario: no hay colapso Black Monday",
+          "category": "Política",
+          "headline": "Debate sobre Trump y la guerra",
           "paragraphs": [
-            "Desde Asia un usuario dice que el lunes mañana no trajo colapso mundial del temido Black Monday.",
-            "El post se burla de predicciones de crash. Sin datos de mercado; solo comentario."
+            "Usuarios disputan la postura de Trump sobre la guerra de Ucrania. Un post lo llama líder débil por comentarios vistos como premio a un dictador.",
+            "El post enlaza un artículo de la BBC. Las opiniones chocan y no son hechos establecidos."
           ],
           "highlightParagraph": 0,
-          "trend": "Market anxiety",
+          "trend": "US policy debate",
           "sources": [
             {
-              "label": "@Xeer",
-              "url": "https://x.com/Xeer/status/2111970348627534018"
+              "label": "@PeterBrosnan111",
+              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@Xeer",
-              "url": "https://x.com/Xeer/status/2111970348627534018"
+              "text": "@PeterBrosnan111",
+              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
             }
           ]
         }
@@ -442,109 +442,109 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-10-19T13:27:12.608Z",
+      "updatedAt": "2026-10-20T11:46:09.741Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Local unrest",
-        "Political debate",
-        "Disputed history",
-        "Market anxiety"
+        "Ukraine talks",
+        "Brazil politics",
+        "Strike claims",
+        "US policy debate"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Amérique latine",
-          "headline": "Protestations d'eau au Jalisco grandissent",
+          "category": "Politique",
+          "headline": "Trump : Zelensky doit se retirer",
           "paragraphs": [
-            "Des habitants de plusieurs États ont rejoint la protestation au Zocalo contre la crise de l'eau à Jalisco et les plans de Lemus.",
-            "Le compte dit que cela pourrait s'étendre nationalement. C'est une affirmation non vérifiée du post."
+            "Trump a dit que quelqu'un d'autre doit négocier pour l'Ukraine et a appelé Zelensky à se retirer des pourparlers.",
+            "Un post affirme qu'il a dit que la Russie allait bien dans la guerre. Cela cite le NY Post et doit être vérifié."
           ],
           "highlightParagraph": 0,
-          "trend": "Local unrest",
+          "trend": "Ukraine talks",
           "sources": [
             {
-              "label": "@IzqNoticiasMx",
-              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
+              "label": "@not_now56",
+              "url": "https://x.com/not_now56/status/2112332901820022886"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@IzqNoticiasMx",
-              "url": "https://x.com/IzqNoticiasMx/status/2111970527275278783"
+              "text": "@not_now56",
+              "url": "https://x.com/not_now56/status/2112332901820022886"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Politique US",
-          "headline": "Schatz qualifie message de Netanyahu d'impoli",
+          "category": "Politique",
+          "headline": "Jeune élue aide Lula sur les médias",
           "paragraphs": [
-            "Le sénateur Brian Schatz dit que l'adresse directe de Netanyahu justifiant la guerre et grondant sur l'essence est irrespectueuse.",
-            "Il l'appelle un message de clôture aggravant. Opinion publiée avec large engagement."
+            "L'AFP rapporte que la nouvelle élue brésilienne Ana Elisa Santos aide Lula à élaborer un plan de médias sociaux.",
+            "Née pendant son premier mandat, elle est liée à une quête de quatrième mandat. Le compte donne plus de détails."
           ],
           "highlightParagraph": 0,
-          "trend": "Political debate",
+          "trend": "Brazil politics",
           "sources": [
             {
-              "label": "@brianschatz",
-              "url": "https://x.com/brianschatz/status/2111970199247450239"
+              "label": "@AFP",
+              "url": "https://x.com/AFP/status/2112332728691458532"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@brianschatz",
-              "url": "https://x.com/brianschatz/status/2111970199247450239"
+              "text": "@AFP",
+              "url": "https://x.com/AFP/status/2112332728691458532"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Moyen-Orient",
-          "headline": "Compte défend claim roquette Al-Ahli",
+          "category": "Conflit",
+          "headline": "Frappe de drones à Pétersbourg alléguée",
           "paragraphs": [
-            "Israel War Room répète qu'Al-Ahli a été touché par roquette PIJ ratée, pas tir israélien.",
-            "Il appelle le blâme des médias un libelle de sang. L'incident 2023 reste contesté."
+            "Des posts affirment qu'une attaque de drones ukrainienne sur Saint-Pétersbourg a tué une personne et frappé des sites énergétiques.",
+            "Un compte lie un rapport d'Al Jazeera. Ce sont des allégations en circulation, non confirmées ici."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed history",
+          "trend": "Strike claims",
           "sources": [
             {
-              "label": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
+              "label": "@Bradurs33616382",
+              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@IsraelWarRoom",
-              "url": "https://x.com/IsraelWarRoom/status/2111969576506314907"
+              "text": "@Bradurs33616382",
+              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Marchés",
-          "headline": "Utilisateur: pas d'effondrement Black Monday",
+          "category": "Politique",
+          "headline": "Débat sur Trump et la guerre",
           "paragraphs": [
-            "Depuis l'Asie un utilisateur dit que lundi matin n'a pas apporté d'effondrement mondial du Black Monday redouté.",
-            "Le post se moque des prédictions de crash. Pas de données; seulement commentaire."
+            "Des utilisateurs contestent la position de Trump sur la guerre en Ukraine. Un post le dit leader faible pour des propos vus comme récompense à un dictateur.",
+            "Le post lie un article de la BBC. Les avis s'opposent et ne sont pas des faits établis."
           ],
           "highlightParagraph": 0,
-          "trend": "Market anxiety",
+          "trend": "US policy debate",
           "sources": [
             {
-              "label": "@Xeer",
-              "url": "https://x.com/Xeer/status/2111970348627534018"
+              "label": "@PeterBrosnan111",
+              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@Xeer",
-              "url": "https://x.com/Xeer/status/2111970348627534018"
+              "text": "@PeterBrosnan111",
+              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
             }
           ]
         }
