@@ -1,110 +1,162 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "editions": {
     "en": {
-      "updatedAt": "2026-10-20T11:46:09.741Z",
+      "updatedAt": "2026-10-21T11:57:54.924Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Ukraine talks",
-        "Brazil politics",
-        "Strike claims",
-        "US policy debate"
+        "Oil-risk claims",
+        "Talks strain",
+        "Unrest reports",
+        "Gulf claims",
+        "Visit claims"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Politics",
-          "headline": "Trump calls for Zelensky to step aside",
+          "category": "Geopolitics",
+          "headline": "Hormuz claims lift oil-price worries",
           "paragraphs": [
-            "Trump said it is time for somebody else to negotiate for Ukraine and urged Zelensky to step aside from peace talks.",
-            "A circulating post claims he said Russia has been fine on the war. The claim cites a NY Post link and needs independent checks."
+            "X posts claim Iran controls the Strait of Hormuz and may widen blockades. Brent is said near or above $110.",
+            "Users link Gulf strain to higher living costs. These are unverified X claims, not confirmed facts."
           ],
-          "highlightParagraph": 0,
-          "trend": "Ukraine talks",
+          "highlightParagraph": 1,
+          "trend": "Oil-risk claims",
           "sources": [
             {
-              "label": "@not_now56",
-              "url": "https://x.com/not_now56/status/2112332901820022886"
+              "label": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@not_now56",
-              "url": "https://x.com/not_now56/status/2112332901820022886"
+              "text": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "id": "101-1",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Politics",
-          "headline": "Young lawmaker aids Lula media plan",
+          "category": "Conflict",
+          "headline": "US-Ukraine friction claimed in posts",
           "paragraphs": [
-            "AFP reports newly elected Brazilian lawmaker Ana Elisa Santos is helping Lula draft a social media master plan.",
-            "Born in his first term, she is tied to efforts for a fourth mandate. The account links further reporting."
+            "Accounts say Zelensky accused the US of holding back Patriot interceptors paid for by allies. Trump is quoted suggesting another negotiator.",
+            "Strikes on Ukraine are also cited. Treat every point as an unverified social-media claim."
           ],
-          "highlightParagraph": 0,
-          "trend": "Brazil politics",
+          "highlightParagraph": 1,
+          "trend": "Talks strain",
           "sources": [
             {
-              "label": "@AFP",
-              "url": "https://x.com/AFP/status/2112332728691458532"
+              "label": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@AFP",
-              "url": "https://x.com/AFP/status/2112332728691458532"
+              "text": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "id": "102-1",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Conflict",
-          "headline": "Posts claim drone hit on St Petersburg",
+          "category": "Europe",
+          "headline": "France curfews follow unrest reports",
           "paragraphs": [
-            "Posts claim a Ukrainian drone attack on St. Petersburg killed one person and hit energy sites.",
-            "One account links an Al Jazeera report. These are circulating claims and are not independently confirmed here."
+            "Users report overnight curfews in Paris, Nice, Lyon and Gironde after riots and looting.",
+            "Posts link unrest to prices and housing, and note yields and a weaker euro. Details are unconfirmed beyond X."
           ],
           "highlightParagraph": 1,
-          "trend": "Strike claims",
+          "trend": "Unrest reports",
           "sources": [
             {
-              "label": "@Bradurs33616382",
-              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
+              "label": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@Bradurs33616382",
-              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
+              "text": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "id": "103-1",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politics",
-          "headline": "X users debate Trump on Ukraine war",
+          "category": "Middle East",
+          "headline": "Saudi forum delay tied to attack claims",
           "paragraphs": [
-            "Users dispute Trump's stance on the Ukraine war. One post calls him a weak leader over comments seen as rewarding a dictator.",
-            "The post links a BBC article. Opinions clash sharply and should not be read as settled fact."
+            "An X roundup says Saudi Arabia postponed its Future Investment Initiative to 2027 after Houthi attacks.",
+            "The delay is framed as a sign of Gulf instability. This is a circulating claim, not verified here."
           ],
-          "highlightParagraph": 0,
-          "trend": "US policy debate",
+          "highlightParagraph": 1,
+          "trend": "Gulf claims",
           "sources": [
             {
-              "label": "@PeterBrosnan111",
-              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@PeterBrosnan111",
-              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Diplomacy",
+          "headline": "Hegseth Israel visit claimed before vote",
+          "paragraphs": [
+            "Posts state Defence Secretary Pete Hegseth made an unannounced visit to meet Netanyahu before a 27 Oct election.",
+            "Users also say Germany summoned Iran's envoy over alleged plots. Both points are X claims only."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Visit claims",
+          "sources": [
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         }
@@ -112,109 +164,161 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-10-20T11:46:09.741Z",
+      "updatedAt": "2026-10-21T11:57:54.924Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Ukraine talks",
-        "Brazil politics",
-        "Strike claims",
-        "US policy debate"
+        "Oil-risk claims",
+        "Talks strain",
+        "Unrest reports",
+        "Gulf claims",
+        "Visit claims"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Politik",
-          "headline": "Trump: Zelenskyj bör kliva åt sidan",
+          "category": "Geopolitik",
+          "headline": "Hormuz-påståenden höjer oljeoro",
           "paragraphs": [
-            "Trump sade att någon annan bör förhandla för Ukraina och uppmanade Zelenskyj att kliva åt sidan från fredssamtal.",
-            "Ett inlägg hävdar att han kallade Ryssland bra i kriget. Påståendet citerar NY Post och behöver kontrolleras."
+            "X-inlägg hävdar att Iran kontrollerar Hormuzsundet och kan utvidga blockader. Brent sägs nära eller över 110 dollar.",
+            "Användare kopplar Gulfspänning till högre levnadskostnader. Obekräftade X-påståenden, inte fastställda fakta."
           ],
-          "highlightParagraph": 0,
-          "trend": "Ukraine talks",
+          "highlightParagraph": 1,
+          "trend": "Oil-risk claims",
           "sources": [
             {
-              "label": "@not_now56",
-              "url": "https://x.com/not_now56/status/2112332901820022886"
+              "label": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@not_now56",
-              "url": "https://x.com/not_now56/status/2112332901820022886"
+              "text": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "id": "101-1",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Politik",
-          "headline": "Ung lagstiftare hjälper Lula",
+          "category": "Konflikt",
+          "headline": "USA-Ukraina-friktion hävdas i inlägg",
           "paragraphs": [
-            "AFP rapporterar att nyvalda brasilianska lagstiftaren Ana Elisa Santos hjälper Lula med en plan för sociala medier.",
-            "Född under hans första mandat kopplas hon till försök till ett fjärde mandat. Kontot länkar mer rapportering."
+            "Konton säger att Zelenskyj anklagade USA för att hålla inne Patriot-robotar betalda av allierade. Trump citeras föreslå en annan förhandlare.",
+            "Anfall mot Ukraina nämns också. Behandla varje punkt som ett obekräftat påstående i sociala medier."
           ],
-          "highlightParagraph": 0,
-          "trend": "Brazil politics",
+          "highlightParagraph": 1,
+          "trend": "Talks strain",
           "sources": [
             {
-              "label": "@AFP",
-              "url": "https://x.com/AFP/status/2112332728691458532"
+              "label": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@AFP",
-              "url": "https://x.com/AFP/status/2112332728691458532"
+              "text": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "id": "102-1",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Konflikt",
-          "headline": "Påstådd drönarträff i Petersburg",
+          "category": "Europa",
+          "headline": "Frankrike utegångsförbud efter oroligheter",
           "paragraphs": [
-            "Inlägg påstår att en ukrainsk drönarattack mot S:t Petersburg dödade en person och träffade energianläggningar.",
-            "Ett konto länkar en Al Jazeera-rapport. Det är cirkulerande påståenden och inte bekräftade här."
+            "Användare rapporterar nattliga utegångsförbud i Paris, Nice, Lyon och Gironde efter upplopp och plundring.",
+            "Inlägg kopplar oron till priser och bostäder och noterar räntor och en svagare euro. Detaljer obekräftade utanför X."
           ],
           "highlightParagraph": 1,
-          "trend": "Strike claims",
+          "trend": "Unrest reports",
           "sources": [
             {
-              "label": "@Bradurs33616382",
-              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
+              "label": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@Bradurs33616382",
-              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
+              "text": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "id": "103-1",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politik",
-          "headline": "Debatt om Trump och Ukrainakriget",
+          "category": "Mellanöstern",
+          "headline": "Saudiskt forum uppskjutet enligt attackpåståenden",
           "paragraphs": [
-            "Användare tvistar om Trumps hållning till Ukrainakriget. Ett inlägg kallar honom svag ledare för kommentarer som ses belöna en diktator.",
-            "Inlägget länkar en BBC-artikel. Åsikterna går isär och ska inte ses som fastställda fakta."
+            "En X-sammanfattning säger att Saudiarabien sköt upp Future Investment Initiative till 2027 efter houthiangrepp.",
+            "Uppskjutningen framställs som tecken på instabilitet i Gulfen. Ett cirkulerande påstående, inte verifierat här."
           ],
-          "highlightParagraph": 0,
-          "trend": "US policy debate",
+          "highlightParagraph": 1,
+          "trend": "Gulf claims",
           "sources": [
             {
-              "label": "@PeterBrosnan111",
-              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@PeterBrosnan111",
-              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Diplomati",
+          "headline": "Hegseth-besök i Israel hävdas före val",
+          "paragraphs": [
+            "Inlägg säger att försvarsminister Pete Hegseth gjorde ett oanmält besök för att träffa Netanyahu före ett val 27 okt.",
+            "Användare säger också att Tyskland kallade Irans sändebud om påstådda planer. Båda punkterna är endast X-påståenden."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Visit claims",
+          "sources": [
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         }
@@ -222,109 +326,161 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-10-20T11:46:09.741Z",
+      "updatedAt": "2026-10-21T11:57:54.924Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Ukraine talks",
-        "Brazil politics",
-        "Strike claims",
-        "US policy debate"
+        "Oil-risk claims",
+        "Talks strain",
+        "Unrest reports",
+        "Gulf claims",
+        "Visit claims"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Politik",
-          "headline": "Trump: Selenskyj soll zurücktreten",
+          "category": "Geopolitik",
+          "headline": "Hormus-Behauptungen treiben Ölpreis-Sorgen",
           "paragraphs": [
-            "Trump sagte, jemand anderes solle für die Ukraine verhandeln, und forderte Selenskyj auf, bei Friedensgesprächen zurückzutreten.",
-            "Ein Beitrag behauptet, er habe Russland im Krieg als in Ordnung bezeichnet. Die Angabe zitiert die NY Post und braucht Prüfung."
+            "X-Beiträge behaupten, Iran kontrolliere die Straße von Hormus und könne Blockaden ausweiten. Brent nahe oder über 110 Dollar.",
+            "Nutzer verknüpfen Golfspannung mit höheren Lebenshaltungskosten. Ungeprüfte X-Behauptungen, keine bestätigten Fakten."
           ],
-          "highlightParagraph": 0,
-          "trend": "Ukraine talks",
+          "highlightParagraph": 1,
+          "trend": "Oil-risk claims",
           "sources": [
             {
-              "label": "@not_now56",
-              "url": "https://x.com/not_now56/status/2112332901820022886"
+              "label": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@not_now56",
-              "url": "https://x.com/not_now56/status/2112332901820022886"
+              "text": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "id": "101-1",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Politik",
-          "headline": "Junge Abgeordnete hilft Lula",
+          "category": "Konflikt",
+          "headline": "USA-Ukraine-Reibung in Posts behauptet",
           "paragraphs": [
-            "AFP berichtet, die neu gewählte brasilianische Abgeordnete Ana Elisa Santos helfe Lula bei einem Social-Media-Plan.",
-            "Geboren in seiner ersten Amtszeit, steht sie mit Bemühungen um ein viertes Mandat in Verbindung. Der Account verlinkt mehr."
+            "Konten sagen, Selenskyj werfe den USA vor, von Verbündeten bezahlte Patriot-Abfangraketen zurückzuhalten. Trump wird mit einem anderen Verhandler zitiert.",
+            "Angriffe auf die Ukraine werden ebenfalls genannt. Jeden Punkt als ungeprüfte Social-Media-Behauptung behandeln."
           ],
-          "highlightParagraph": 0,
-          "trend": "Brazil politics",
+          "highlightParagraph": 1,
+          "trend": "Talks strain",
           "sources": [
             {
-              "label": "@AFP",
-              "url": "https://x.com/AFP/status/2112332728691458532"
+              "label": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@AFP",
-              "url": "https://x.com/AFP/status/2112332728691458532"
+              "text": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "id": "102-1",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Konflikt",
-          "headline": "Drohnentreffer in Petersburg behauptet",
+          "category": "Europa",
+          "headline": "Frankreich-Sperren nach Unruheberichten",
           "paragraphs": [
-            "Beiträge behaupten, ein ukrainischer Drohnenangriff auf St. Petersburg habe einen getötet und Energieanlagen getroffen.",
-            "Ein Konto verlinkt einen Al-Jazeera-Bericht. Es sind zirkulierende Behauptungen, hier nicht bestätigt."
+            "Nutzer berichten von nächtlichen Ausgangssperren in Paris, Nizza, Lyon und Gironde nach Krawallen und Plünderungen.",
+            "Posts verknüpfen Unruhe mit Preisen und Wohnen und nennen Renditen und einen schwächeren Euro. Details jenseits von X unbestätigt."
           ],
           "highlightParagraph": 1,
-          "trend": "Strike claims",
+          "trend": "Unrest reports",
           "sources": [
             {
-              "label": "@Bradurs33616382",
-              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
+              "label": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@Bradurs33616382",
-              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
+              "text": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "id": "103-1",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politik",
-          "headline": "Debatte über Trump und Ukrainekrieg",
+          "category": "Naher Osten",
+          "headline": "Saudi-Forum-Verschiebung an Angriffsbehauptungen geknüpft",
           "paragraphs": [
-            "Nutzer streiten über Trumps Haltung zum Ukrainekrieg. Ein Beitrag nennt ihn einen schwachen Führer wegen Kommentaren, die einen Diktator belohnen.",
-            "Der Beitrag verlinkt einen BBC-Artikel. Die Meinungen klaffen auseinander und sind keine feststehenden Fakten."
+            "Eine X-Zusammenfassung sagt, Saudi-Arabien habe die Future Investment Initiative nach Huthi-Angriffen auf 2027 verschoben.",
+            "Die Verschiebung wird als Zeichen von Golf-Instabilität dargestellt. Eine umlaufende Behauptung, hier nicht geprüft."
           ],
-          "highlightParagraph": 0,
-          "trend": "US policy debate",
+          "highlightParagraph": 1,
+          "trend": "Gulf claims",
           "sources": [
             {
-              "label": "@PeterBrosnan111",
-              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@PeterBrosnan111",
-              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Diplomatie",
+          "headline": "Hegseth-Israel-Besuch vor Wahl behauptet",
+          "paragraphs": [
+            "Posts sagen, Verteidigungsminister Pete Hegseth habe Netanyahu vor einer Wahl am 27. Okt. unangekündigt besucht.",
+            "Nutzer sagen auch, Deutschland habe Irans Gesandten wegen angeblicher Pläne einbestellt. Beides nur X-Behauptungen."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Visit claims",
+          "sources": [
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         }
@@ -332,109 +488,161 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-10-20T11:46:09.741Z",
+      "updatedAt": "2026-10-21T11:57:54.924Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Ukraine talks",
-        "Brazil politics",
-        "Strike claims",
-        "US policy debate"
+        "Oil-risk claims",
+        "Talks strain",
+        "Unrest reports",
+        "Gulf claims",
+        "Visit claims"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Política",
-          "headline": "Trump pide que Zelenski se aparte",
+          "category": "Geopolítica",
+          "headline": "Afirmaciones de Ormuz elevan temores del petróleo",
           "paragraphs": [
-            "Trump dijo que otro debe negociar por Ucrania e instó a Zelenski a apartarse de las conversaciones de paz.",
-            "Un post afirma que dijo que Rusia ha estado bien en la guerra. Cita NY Post y requiere verificación."
+            "Publicaciones en X afirman que Irán controla el estrecho de Ormuz y podría ampliar bloqueos. Brent cerca o por encima de 110 dólares.",
+            "Usuarios vinculan la tensión del Golfo a mayores costos de vida. Afirmaciones no verificadas en X, no hechos confirmados."
           ],
-          "highlightParagraph": 0,
-          "trend": "Ukraine talks",
+          "highlightParagraph": 1,
+          "trend": "Oil-risk claims",
           "sources": [
             {
-              "label": "@not_now56",
-              "url": "https://x.com/not_now56/status/2112332901820022886"
+              "label": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@not_now56",
-              "url": "https://x.com/not_now56/status/2112332901820022886"
+              "text": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "id": "101-1",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Política",
-          "headline": "Joven legisladora ayuda a Lula",
+          "category": "Conflicto",
+          "headline": "Fricción EE.UU.-Ucrania alegada en posts",
           "paragraphs": [
-            "AFP informa que la nueva legisladora brasileña Ana Elisa Santos ayuda a Lula a elaborar un plan de redes sociales.",
-            "Nacida en su primer mandato, se vincula a esfuerzos por un cuarto mandato. La cuenta enlaza más información."
+            "Cuentas dicen que Zelenski acusó a EE.UU. de retener interceptores Patriot pagados por aliados. Se cita a Trump sugiriendo otro negociador.",
+            "También se mencionan ataques a Ucrania. Trate cada punto como una afirmación no verificada en redes."
           ],
-          "highlightParagraph": 0,
-          "trend": "Brazil politics",
+          "highlightParagraph": 1,
+          "trend": "Talks strain",
           "sources": [
             {
-              "label": "@AFP",
-              "url": "https://x.com/AFP/status/2112332728691458532"
+              "label": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@AFP",
-              "url": "https://x.com/AFP/status/2112332728691458532"
+              "text": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "id": "102-1",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Conflicto",
-          "headline": "Afirman ataque con drones en Petersburgo",
+          "category": "Europa",
+          "headline": "Toques de queda en Francia tras disturbios",
           "paragraphs": [
-            "Publicaciones afirman que un ataque ucraniano con drones en San Petersburgo mató a uno y golpeó sitios energéticos.",
-            "Una cuenta enlaza un informe de Al Jazeera. Son afirmaciones en circulación, no confirmadas aquí."
+            "Usuarios informan de toques de queda nocturnos en París, Niza, Lyon y Gironda tras disturbios y saqueos.",
+            "Los posts vinculan el malestar a precios y vivienda y citan rendimientos y un euro más débil. Detalles no confirmados fuera de X."
           ],
           "highlightParagraph": 1,
-          "trend": "Strike claims",
+          "trend": "Unrest reports",
           "sources": [
             {
-              "label": "@Bradurs33616382",
-              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
+              "label": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@Bradurs33616382",
-              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
+              "text": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "id": "103-1",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Política",
-          "headline": "Debate sobre Trump y la guerra",
+          "category": "Oriente Medio",
+          "headline": "Aplazamiento saudí ligado a alegaciones de ataques",
           "paragraphs": [
-            "Usuarios disputan la postura de Trump sobre la guerra de Ucrania. Un post lo llama líder débil por comentarios vistos como premio a un dictador.",
-            "El post enlaza un artículo de la BBC. Las opiniones chocan y no son hechos establecidos."
+            "Un resumen en X dice que Arabia Saudí aplazó su Future Investment Initiative a 2027 tras ataques hutíes.",
+            "El aplazamiento se presenta como señal de inestabilidad en el Golfo. Afirmación circulante, no verificada aquí."
           ],
-          "highlightParagraph": 0,
-          "trend": "US policy debate",
+          "highlightParagraph": 1,
+          "trend": "Gulf claims",
           "sources": [
             {
-              "label": "@PeterBrosnan111",
-              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@PeterBrosnan111",
-              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Diplomacia",
+          "headline": "Visita de Hegseth a Israel alegada antes del voto",
+          "paragraphs": [
+            "Posts afirman que el secretario de Defensa Pete Hegseth visitó sin anuncio a Netanyahu antes de unas elecciones del 27 oct.",
+            "Usuarios dicen también que Alemania convocó al enviado de Irán por presuntos complots. Ambos puntos son solo afirmaciones en X."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Visit claims",
+          "sources": [
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         }
@@ -442,109 +650,161 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-10-20T11:46:09.741Z",
+      "updatedAt": "2026-10-21T11:57:54.924Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Ukraine talks",
-        "Brazil politics",
-        "Strike claims",
-        "US policy debate"
+        "Oil-risk claims",
+        "Talks strain",
+        "Unrest reports",
+        "Gulf claims",
+        "Visit claims"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Politique",
-          "headline": "Trump : Zelensky doit se retirer",
+          "category": "Géopolitique",
+          "headline": "Allégations sur Ormuz font monter les craintes pétrolières",
           "paragraphs": [
-            "Trump a dit que quelqu'un d'autre doit négocier pour l'Ukraine et a appelé Zelensky à se retirer des pourparlers.",
-            "Un post affirme qu'il a dit que la Russie allait bien dans la guerre. Cela cite le NY Post et doit être vérifié."
+            "Des posts X affirment que l'Iran contrôle le détroit d'Ormuz et pourrait élargir les blocus. Brent proche ou au-dessus de 110 dollars.",
+            "Des utilisateurs lient la tension du Golfe à des coûts de vie plus élevés. Allégations X non vérifiées, pas des faits confirmés."
           ],
-          "highlightParagraph": 0,
-          "trend": "Ukraine talks",
+          "highlightParagraph": 1,
+          "trend": "Oil-risk claims",
           "sources": [
             {
-              "label": "@not_now56",
-              "url": "https://x.com/not_now56/status/2112332901820022886"
+              "label": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@not_now56",
-              "url": "https://x.com/not_now56/status/2112332901820022886"
+              "text": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "id": "101-1",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Politique",
-          "headline": "Jeune élue aide Lula sur les médias",
+          "category": "Conflit",
+          "headline": "Frictions USA-Ukraine alléguées dans des posts",
           "paragraphs": [
-            "L'AFP rapporte que la nouvelle élue brésilienne Ana Elisa Santos aide Lula à élaborer un plan de médias sociaux.",
-            "Née pendant son premier mandat, elle est liée à une quête de quatrième mandat. Le compte donne plus de détails."
+            "Des comptes disent que Zelensky a accusé les USA de retenir des intercepteurs Patriot payés par des alliés. Trump est cité suggérant un autre négociateur.",
+            "Des frappes sur l'Ukraine sont aussi citées. Traiter chaque point comme une allégation non vérifiée sur les réseaux."
           ],
-          "highlightParagraph": 0,
-          "trend": "Brazil politics",
+          "highlightParagraph": 1,
+          "trend": "Talks strain",
           "sources": [
             {
-              "label": "@AFP",
-              "url": "https://x.com/AFP/status/2112332728691458532"
+              "label": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@AFP",
-              "url": "https://x.com/AFP/status/2112332728691458532"
+              "text": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "id": "102-1",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Conflit",
-          "headline": "Frappe de drones à Pétersbourg alléguée",
+          "category": "Europe",
+          "headline": "Couvre-feux en France après des troubles",
           "paragraphs": [
-            "Des posts affirment qu'une attaque de drones ukrainienne sur Saint-Pétersbourg a tué une personne et frappé des sites énergétiques.",
-            "Un compte lie un rapport d'Al Jazeera. Ce sont des allégations en circulation, non confirmées ici."
+            "Des utilisateurs signalent des couvre-feux nocturnes à Paris, Nice, Lyon et en Gironde après émeutes et pillages.",
+            "Des posts lient les troubles aux prix et au logement et notent les rendements et un euro plus faible. Détails non confirmés hors X."
           ],
           "highlightParagraph": 1,
-          "trend": "Strike claims",
+          "trend": "Unrest reports",
           "sources": [
             {
-              "label": "@Bradurs33616382",
-              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
+              "label": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@Bradurs33616382",
-              "url": "https://x.com/Bradurs33616382/status/2112332720982380870"
+              "text": "@GloverRae",
+              "url": "https://x.com/GloverRae/status/2112508840419668085"
+            },
+            {
+              "id": "103-1",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politique",
-          "headline": "Débat sur Trump et la guerre",
+          "category": "Moyen-Orient",
+          "headline": "Report du forum saoudien lié à des allégations d'attaques",
           "paragraphs": [
-            "Des utilisateurs contestent la position de Trump sur la guerre en Ukraine. Un post le dit leader faible pour des propos vus comme récompense à un dictateur.",
-            "Le post lie un article de la BBC. Les avis s'opposent et ne sont pas des faits établis."
+            "Un résumé X dit que l'Arabie saoudite a reporté sa Future Investment Initiative à 2027 après des attaques houthies.",
+            "Le report est présenté comme un signe d'instabilité du Golfe. Allégation circulante, non vérifiée ici."
           ],
-          "highlightParagraph": 0,
-          "trend": "US policy debate",
+          "highlightParagraph": 1,
+          "trend": "Gulf claims",
           "sources": [
             {
-              "label": "@PeterBrosnan111",
-              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@PeterBrosnan111",
-              "url": "https://x.com/PeterBrosnan111/status/2112332545324904713"
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Diplomatie",
+          "headline": "Visite d'Hegseth en Israël alléguée avant le vote",
+          "paragraphs": [
+            "Des posts affirment que le secrétaire à la Défense Pete Hegseth a rendu une visite non annoncée à Netanyahou avant un scrutin du 27 oct.",
+            "Des utilisateurs disent aussi que l'Allemagne a convoqué l'envoyé d'Iran pour des complots allégués. Les deux points ne sont que des allégations X."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Visit claims",
+          "sources": [
+            {
+              "label": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@NetramDefence",
+              "url": "https://x.com/NetramDefence/status/2112544869046448331"
             }
           ]
         }
