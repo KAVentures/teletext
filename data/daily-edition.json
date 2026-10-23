@@ -1,160 +1,135 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "editions": {
     "en": {
-      "updatedAt": "2026-10-22T12:00:09.142Z",
+      "updatedAt": "2026-10-23T11:46:02.012Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Breaking",
-        "Alert",
-        "Update",
-        "Dispute",
-        "Politics",
-        "Watch"
+        "Closely watched",
+        "Election flashpoint",
+        "Political split",
+        "Market stress",
+        "Disputed claims"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "World",
-          "headline": "US, Israel eye Iran strikes after midterms",
+          "category": "Middle East",
+          "headline": "Iran shadow tankers reported out of oil",
           "paragraphs": [
-            "The New York Times says officials briefed on talks claim the US and Israel plan new strikes on Iran after the midterms.",
-            "Neither government has confirmed a decision. Treat this as a reported claim, not proof."
+            "The Wall Street Journal reports Iran's Asia-based shadow tankers have run out of crude after a months-long US blockade.",
+            "Tehran had sold that oil to China as a wartime cash cushion. The X post cites the paper; it is not independent proof."
           ],
-          "highlightParagraph": 1,
-          "trend": "Breaking",
+          "highlightParagraph": 0,
+          "trend": "Closely watched",
           "sources": [
             {
-              "label": "The New York Times on X",
-              "url": "https://x.com/nytimes/status/2113053998013882683"
+              "label": "WSJ",
+              "url": "https://x.com/WSJ/status/2113411928085217523"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "The New York Times on X",
-              "url": "https://x.com/nytimes/status/2113053998013882683"
+              "text": "WSJ",
+              "url": "https://x.com/WSJ/status/2113411928085217523"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Technology",
-          "headline": "PHP team urges urgent patch for critical flaws",
+          "category": "US Politics",
+          "headline": "Court lets NH limit student ID voting",
           "paragraphs": [
-            "ABC News says the PHP team urges an immediate update after fixing two critical flaws rated 9.2 out of 10.",
-            "If exploited, the bugs could let attackers take over internet servers, the report says."
+            "CNN reports the Supreme Court ruled New Hampshire may limit student IDs for voting.",
+            "The court sided with Republicans who said a lower-court block came too close to Election Day."
           ],
           "highlightParagraph": 0,
-          "trend": "Alert",
+          "trend": "Election flashpoint",
           "sources": [
             {
-              "label": "ABC News on X",
-              "url": "https://x.com/ABC/status/2113055079364186606"
+              "label": "CNN",
+              "url": "https://x.com/CNN/status/2113397729883730402"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "ABC News on X",
-              "url": "https://x.com/ABC/status/2113055079364186606"
+              "text": "CNN",
+              "url": "https://x.com/CNN/status/2113397729883730402"
             }
           ]
         },
         {
           "page": 103,
-          "category": "World",
-          "headline": "Vatican: Pope needs no more cancer care",
+          "category": "Politics",
+          "headline": "Thiel reported against the Iran war",
           "paragraphs": [
-            "PBS News says the Vatican reports Pope Leo XIV needs no further lung cancer treatment.",
-            "Follow-up tests confirmed the disease was localized, according to the statement."
+            "The New York Post reports Peter Thiel disapproves of the Iran war and said it should not have been done.",
+            "The post presents this as Thiel's break with Trump. It is a reported claim, not verified here."
           ],
-          "highlightParagraph": 0,
-          "trend": "Update",
+          "highlightParagraph": 1,
+          "trend": "Political split",
           "sources": [
             {
-              "label": "PBS News on X",
-              "url": "https://x.com/NewsHour/status/2113050703488819542"
+              "label": "New York Post",
+              "url": "https://x.com/nypost/status/2113371141079261387"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "PBS News on X",
-              "url": "https://x.com/NewsHour/status/2113050703488819542"
+              "text": "New York Post",
+              "url": "https://x.com/nypost/status/2113371141079261387"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politics",
-          "headline": "US envoy calls Putin a humanitarian",
+          "category": "Markets",
+          "headline": "Norway fund hit by Turkey crisis",
           "paragraphs": [
-            "AFP reports a US special envoy called Putin a humanitarian even as the war continues.",
-            "The label is disputed. Posts on X relay the claim; they do not prove the envoy's intent."
+            "Bloomberg reports Norway's sovereign wealth fund was hurt by Turkey's fund crisis.",
+            "The fund says it is among affected investors and is reviewing its Turkish stock holdings."
           ],
-          "highlightParagraph": 1,
-          "trend": "Dispute",
+          "highlightParagraph": 0,
+          "trend": "Market stress",
           "sources": [
             {
-              "label": "AFPBB News on X",
-              "url": "https://x.com/afpbbcom/status/2113056154100142272"
+              "label": "Bloomberg",
+              "url": "https://x.com/business/status/2113386187339538757"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "AFPBB News on X",
-              "url": "https://x.com/afpbbcom/status/2113056154100142272"
+              "text": "Bloomberg",
+              "url": "https://x.com/business/status/2113386187339538757"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Politics",
-          "headline": "Japan PM skips G7 video meeting",
+          "category": "West Bank",
+          "headline": "Report links settler to diplomat case",
           "paragraphs": [
-            "Yahoo News says Japan's prime minister missed a G7 television conference.",
-            "The absence is stirring debate in both ruling and opposition parties, the report says."
+            "Haaretz reports a settler suspected in an attack on diplomats was filmed last year running over a Palestinian.",
+            "The outlet presents that link in its reporting. The post does not state official findings."
           ],
-          "highlightParagraph": 0,
-          "trend": "Politics",
+          "highlightParagraph": 1,
+          "trend": "Disputed claims",
           "sources": [
             {
-              "label": "Yahoo News Topics on X",
-              "url": "https://x.com/YahooNewsTopics/status/2113056992432718134"
+              "label": "Haaretz",
+              "url": "https://x.com/haaretzcom/status/2113393735786430687"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Yahoo News Topics on X",
-              "url": "https://x.com/YahooNewsTopics/status/2113056992432718134"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Politics",
-          "headline": "US states brace for midterm vote fights",
-          "paragraphs": [
-            "Norm Eisen says state officials are preparing for seized ballots, ICE at polls and election lies.",
-            "He cites a Guardian report on readiness. That is preparation talk, not confirmed incidents."
-          ],
-          "highlightParagraph": 1,
-          "trend": "Watch",
-          "sources": [
-            {
-              "label": "Norm Eisen on X",
-              "url": "https://x.com/NormEisen/status/2113055416649138451"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "Norm Eisen on X",
-              "url": "https://x.com/NormEisen/status/2113055416649138451"
+              "text": "Haaretz",
+              "url": "https://x.com/haaretzcom/status/2113393735786430687"
             }
           ]
         }
@@ -162,159 +137,134 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-10-22T12:00:09.142Z",
+      "updatedAt": "2026-10-23T11:46:02.012Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Breaking",
-        "Alert",
-        "Update",
-        "Dispute",
-        "Politics",
-        "Watch"
+        "Closely watched",
+        "Election flashpoint",
+        "Political split",
+        "Market stress",
+        "Disputed claims"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Världen",
-          "headline": "USA och Israel kan slå till mot Iran",
+          "category": "Mellanöstern",
+          "headline": "Irans skuggtankers uppges utan olja",
           "paragraphs": [
-            "New York Times uppger att briefade tjänstemän säger att USA och Israel planerar nya anfall mot Iran efter mellanvalet.",
-            "Inget av länderna har bekräftat ett beslut. Se det som en rapporterad uppgift, inte bevis."
+            "Wall Street Journal rapporterar att Irans skuggtankers i Asien fått slut på råolja efter en månadslång amerikansk blockad.",
+            "Teheran hade sålt oljan till Kina som krigskassa. Inlägget citerar tidningen och är inget självständigt bevis."
           ],
-          "highlightParagraph": 1,
-          "trend": "Breaking",
+          "highlightParagraph": 0,
+          "trend": "Closely watched",
           "sources": [
             {
-              "label": "The New York Times on X",
-              "url": "https://x.com/nytimes/status/2113053998013882683"
+              "label": "WSJ",
+              "url": "https://x.com/WSJ/status/2113411928085217523"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "The New York Times on X",
-              "url": "https://x.com/nytimes/status/2113053998013882683"
+              "text": "WSJ",
+              "url": "https://x.com/WSJ/status/2113411928085217523"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Teknik",
-          "headline": "PHP manar till akut patch av kritiska fel",
+          "category": "USA-politik",
+          "headline": "Domstol tillåter ID-gräns i NH",
           "paragraphs": [
-            "ABC News skriver att PHP-teamet uppmanar till omedelbar uppdatering efter två kritiska fel, betygsatta 9,2 av 10.",
-            "Om de utnyttjas kan felen låta angripare ta över internetservrar, enligt rapporten."
+            "CNN rapporterar att Högsta domstolen slog fast att New Hampshire får begränsa studentlegitimation vid röstning.",
+            "Domstolen ställde sig på republikanernas sida som menade att ett lägre beslut kom för nära valdagen."
           ],
           "highlightParagraph": 0,
-          "trend": "Alert",
+          "trend": "Election flashpoint",
           "sources": [
             {
-              "label": "ABC News on X",
-              "url": "https://x.com/ABC/status/2113055079364186606"
+              "label": "CNN",
+              "url": "https://x.com/CNN/status/2113397729883730402"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "ABC News on X",
-              "url": "https://x.com/ABC/status/2113055079364186606"
+              "text": "CNN",
+              "url": "https://x.com/CNN/status/2113397729883730402"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Världen",
-          "headline": "Vatikanen: Påven behöver ingen mer vård",
+          "category": "Politik",
+          "headline": "Thiel uppges emot Iran-kriget",
           "paragraphs": [
-            "PBS News skriver att Vatikanen uppger att påven Leo XIV inte behöver mer behandling för lungcancer.",
-            "Uppföljningstester bekräftade att sjukdomen var lokaliserad, enligt uttalandet."
+            "New York Post rapporterar att Peter Thiel ogillar Iran-kriget och sagt att det inte borde ha skett.",
+            "Inlägget framställer det som en brytning med Trump. Det är ett rapporterat påstående, inte verifierat här."
           ],
-          "highlightParagraph": 0,
-          "trend": "Update",
+          "highlightParagraph": 1,
+          "trend": "Political split",
           "sources": [
             {
-              "label": "PBS News on X",
-              "url": "https://x.com/NewsHour/status/2113050703488819542"
+              "label": "New York Post",
+              "url": "https://x.com/nypost/status/2113371141079261387"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "PBS News on X",
-              "url": "https://x.com/NewsHour/status/2113050703488819542"
+              "text": "New York Post",
+              "url": "https://x.com/nypost/status/2113371141079261387"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politik",
-          "headline": "USA-sändebud kallar Putin humanitär",
+          "category": "Marknader",
+          "headline": "Norgesfond drabbad av Turkietkris",
           "paragraphs": [
-            "AFP rapporterar att ett amerikanskt specialsändebud kallade Putin humanitär trots att kriget fortsätter.",
-            "Etiketten är omstridd. Inlägg på X återger påståendet; de bevisar inte avsikten."
+            "Bloomberg rapporterar att Norges statliga förmögenhetsfond drabbats av Turkiets fondkris.",
+            "Fonden säger att den är bland de drabbade och granskar sina turkiska aktieinnehav."
           ],
-          "highlightParagraph": 1,
-          "trend": "Dispute",
+          "highlightParagraph": 0,
+          "trend": "Market stress",
           "sources": [
             {
-              "label": "AFPBB News on X",
-              "url": "https://x.com/afpbbcom/status/2113056154100142272"
+              "label": "Bloomberg",
+              "url": "https://x.com/business/status/2113386187339538757"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "AFPBB News on X",
-              "url": "https://x.com/afpbbcom/status/2113056154100142272"
+              "text": "Bloomberg",
+              "url": "https://x.com/business/status/2113386187339538757"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Politik",
-          "headline": "Japans premiärminister missar G7-möte",
+          "category": "Västbanken",
+          "headline": "Rapport kopplar bosättare till fall",
           "paragraphs": [
-            "Yahoo News uppger att Japans premiärminister uteblev från en G7-tv-konferens.",
-            "Frånvaron väcker debatt i både regerings- och oppositionspartier, enligt rapporten."
+            "Haaretz rapporterar att en bosättare misstänkt för attack mot diplomater filmades i fjol när han körde över en palestinier.",
+            "Tidningen presenterar kopplingen i sin rapportering. Inlägget anger inga officiella slutsatser."
           ],
-          "highlightParagraph": 0,
-          "trend": "Politics",
+          "highlightParagraph": 1,
+          "trend": "Disputed claims",
           "sources": [
             {
-              "label": "Yahoo News Topics on X",
-              "url": "https://x.com/YahooNewsTopics/status/2113056992432718134"
+              "label": "Haaretz",
+              "url": "https://x.com/haaretzcom/status/2113393735786430687"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Yahoo News Topics on X",
-              "url": "https://x.com/YahooNewsTopics/status/2113056992432718134"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Politik",
-          "headline": "Delstater rustar inför mellanvalsstrider",
-          "paragraphs": [
-            "Norm Eisen säger att delstatstjänstemän förbereder sig för beslagtagna valsedlar, ICE vid vallokaler och vallögner.",
-            "Han citerar en Guardian-text om beredskap. Det är förberedelser, inte bekräftade händelser."
-          ],
-          "highlightParagraph": 1,
-          "trend": "Watch",
-          "sources": [
-            {
-              "label": "Norm Eisen on X",
-              "url": "https://x.com/NormEisen/status/2113055416649138451"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "Norm Eisen on X",
-              "url": "https://x.com/NormEisen/status/2113055416649138451"
+              "text": "Haaretz",
+              "url": "https://x.com/haaretzcom/status/2113393735786430687"
             }
           ]
         }
@@ -322,159 +272,134 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-10-22T12:00:09.142Z",
+      "updatedAt": "2026-10-23T11:46:02.012Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Breaking",
-        "Alert",
-        "Update",
-        "Dispute",
-        "Politics",
-        "Watch"
+        "Closely watched",
+        "Election flashpoint",
+        "Political split",
+        "Market stress",
+        "Disputed claims"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Welt",
-          "headline": "USA und Israel erwägen Iran-Schläge",
+          "category": "Naher Osten",
+          "headline": "Irans Schattentanker ohne Öl gemeldet",
           "paragraphs": [
-            "Die New York Times schreibt, informierte Beamte sagten, USA und Israel planten neue Schläge gegen Iran nach den Zwischenwahlen.",
-            "Keine Regierung hat einen Beschluss bestätigt. Das ist eine Meldung, kein Beweis."
+            "Das Wall Street Journal berichtet, Irans Schattentanker in Asien seien nach monatelanger US-Blockade ohne Rohöl.",
+            "Teheran habe das Öl an China als Kriegskasse verkauft. Der Beitrag zitiert die Zeitung und ist kein unabhängiger Beweis."
           ],
-          "highlightParagraph": 1,
-          "trend": "Breaking",
+          "highlightParagraph": 0,
+          "trend": "Closely watched",
           "sources": [
             {
-              "label": "The New York Times on X",
-              "url": "https://x.com/nytimes/status/2113053998013882683"
+              "label": "WSJ",
+              "url": "https://x.com/WSJ/status/2113411928085217523"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "The New York Times on X",
-              "url": "https://x.com/nytimes/status/2113053998013882683"
+              "text": "WSJ",
+              "url": "https://x.com/WSJ/status/2113411928085217523"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Technik",
-          "headline": "PHP: Kritische Lücken sofort patchen",
+          "category": "US-Politik",
+          "headline": "Gericht lässt NH-Studentenausweis-Limit zu",
           "paragraphs": [
-            "ABC News schreibt, das PHP-Team fordere ein sofortiges Update nach zwei kritischen Lücken mit der Note 9,2 von 10.",
-            "Bei Ausnutzung könnten Angreifer Internetserver übernehmen, heißt es in dem Bericht."
+            "CNN berichtet, der Supreme Court habe entschieden, dass New Hampshire Studentenausweise bei der Wahl beschränken darf.",
+            "Das Gericht folgte den Republikanern, die sagten, ein unteres Gericht habe zu nah am Wahltag blockiert."
           ],
           "highlightParagraph": 0,
-          "trend": "Alert",
+          "trend": "Election flashpoint",
           "sources": [
             {
-              "label": "ABC News on X",
-              "url": "https://x.com/ABC/status/2113055079364186606"
+              "label": "CNN",
+              "url": "https://x.com/CNN/status/2113397729883730402"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "ABC News on X",
-              "url": "https://x.com/ABC/status/2113055079364186606"
+              "text": "CNN",
+              "url": "https://x.com/CNN/status/2113397729883730402"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Welt",
-          "headline": "Vatikan: Papst braucht keine weitere Therapie",
+          "category": "Politik",
+          "headline": "Thiel soll den Iran-Krieg ablehnen",
           "paragraphs": [
-            "PBS News schreibt, der Vatikan melde, Papst Leo XIV. brauche keine weitere Lungenkrebstherapie.",
-            "Nachtests bestätigten, dass die Erkrankung lokal begrenzt war, heißt es in der Erklärung."
+            "Die New York Post berichtet, Peter Thiel missbillige den Iran-Krieg und habe gesagt, man hätte ihn nicht führen sollen.",
+            "Der Beitrag stellt dies als Bruch mit Trump dar. Es ist eine berichtete Behauptung, hier nicht geprüft."
           ],
-          "highlightParagraph": 0,
-          "trend": "Update",
+          "highlightParagraph": 1,
+          "trend": "Political split",
           "sources": [
             {
-              "label": "PBS News on X",
-              "url": "https://x.com/NewsHour/status/2113050703488819542"
+              "label": "New York Post",
+              "url": "https://x.com/nypost/status/2113371141079261387"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "PBS News on X",
-              "url": "https://x.com/NewsHour/status/2113050703488819542"
+              "text": "New York Post",
+              "url": "https://x.com/nypost/status/2113371141079261387"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politik",
-          "headline": "US-Gesandter nennt Putin Humanisten",
+          "category": "Märkte",
+          "headline": "Norwegen-Fonds von Türkei-Krise getroffen",
           "paragraphs": [
-            "AFP berichtet, ein US-Sondergesandter habe Putin einen Humanisten genannt, während der Krieg weitergeht.",
-            "Die Bezeichnung ist umstritten. Beiträge auf X geben die Behauptung wieder, beweisen aber nicht die Absicht."
+            "Bloomberg berichtet, Norwegens Staatsfonds sei von der Fondskrise der Türkei getroffen worden.",
+            "Der Fonds sagt, er gehöre zu den Betroffenen und prüfe seine türkischen Aktien."
           ],
-          "highlightParagraph": 1,
-          "trend": "Dispute",
+          "highlightParagraph": 0,
+          "trend": "Market stress",
           "sources": [
             {
-              "label": "AFPBB News on X",
-              "url": "https://x.com/afpbbcom/status/2113056154100142272"
+              "label": "Bloomberg",
+              "url": "https://x.com/business/status/2113386187339538757"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "AFPBB News on X",
-              "url": "https://x.com/afpbbcom/status/2113056154100142272"
+              "text": "Bloomberg",
+              "url": "https://x.com/business/status/2113386187339538757"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Politik",
-          "headline": "Japans Premier fehlt bei G7-Videotreffen",
+          "category": "Westjordanland",
+          "headline": "Bericht verknüpft Siedler mit dem Fall",
           "paragraphs": [
-            "Yahoo News schreibt, Japans Ministerpräsident habe eine G7-Fernsehkonferenz verpasst.",
-            "Das Fernbleiben löse Debatten in Regierung und Opposition aus, heißt es."
+            "Haaretz berichtet, ein Siedler, der eines Angriffs auf Diplomaten verdächtigt wird, sei im Vorjahr gefilmt worden, wie er einen Palästinenser überfuhr.",
+            "Das Blatt stellt die Verbindung in seiner Recherche dar. Amtliche Befunde nennt der Beitrag nicht."
           ],
-          "highlightParagraph": 0,
-          "trend": "Politics",
+          "highlightParagraph": 1,
+          "trend": "Disputed claims",
           "sources": [
             {
-              "label": "Yahoo News Topics on X",
-              "url": "https://x.com/YahooNewsTopics/status/2113056992432718134"
+              "label": "Haaretz",
+              "url": "https://x.com/haaretzcom/status/2113393735786430687"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Yahoo News Topics on X",
-              "url": "https://x.com/YahooNewsTopics/status/2113056992432718134"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Politik",
-          "headline": "US-Staaten rüsten sich für Wahlkämpfe",
-          "paragraphs": [
-            "Norm Eisen sagt, Amtsträger bereiteten sich auf beschlagnahmte Stimmzettel, ICE an Wahllokalen und Wahllügen vor.",
-            "Er zitiert einen Guardian-Text zur Vorsorge. Das sind Vorbereitungen, keine bestätigten Vorfälle."
-          ],
-          "highlightParagraph": 1,
-          "trend": "Watch",
-          "sources": [
-            {
-              "label": "Norm Eisen on X",
-              "url": "https://x.com/NormEisen/status/2113055416649138451"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "Norm Eisen on X",
-              "url": "https://x.com/NormEisen/status/2113055416649138451"
+              "text": "Haaretz",
+              "url": "https://x.com/haaretzcom/status/2113393735786430687"
             }
           ]
         }
@@ -482,159 +407,134 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-10-22T12:00:09.142Z",
+      "updatedAt": "2026-10-23T11:46:02.012Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Breaking",
-        "Alert",
-        "Update",
-        "Dispute",
-        "Politics",
-        "Watch"
+        "Closely watched",
+        "Election flashpoint",
+        "Political split",
+        "Market stress",
+        "Disputed claims"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Mundo",
-          "headline": "EE.UU. e Israel sopesan ataques a Irán",
+          "category": "Oriente Medio",
+          "headline": "Petroleros sombra de Irán sin crudo",
           "paragraphs": [
-            "The New York Times dice que funcionarios informados afirman que EE.UU. e Israel planean nuevos ataques a Irán tras las midterms.",
-            "Ningún gobierno ha confirmado una decisión. Es un dato reportado, no una prueba."
+            "The Wall Street Journal informa que los petroleros sombra de Irán en Asia se quedaron sin crudo tras un bloqueo de EE.UU. de meses.",
+            "Teherán había vendido ese petróleo a China como colchón de guerra. El tuit cita al diario; no es prueba independiente."
           ],
-          "highlightParagraph": 1,
-          "trend": "Breaking",
+          "highlightParagraph": 0,
+          "trend": "Closely watched",
           "sources": [
             {
-              "label": "The New York Times on X",
-              "url": "https://x.com/nytimes/status/2113053998013882683"
+              "label": "WSJ",
+              "url": "https://x.com/WSJ/status/2113411928085217523"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "The New York Times on X",
-              "url": "https://x.com/nytimes/status/2113053998013882683"
+              "text": "WSJ",
+              "url": "https://x.com/WSJ/status/2113411928085217523"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Tecnología",
-          "headline": "PHP pide parche urgente por fallos graves",
+          "category": "Política de EE.UU.",
+          "headline": "Corte permite límite de ID estudiantil",
           "paragraphs": [
-            "ABC News dice que el equipo de PHP urge una actualización inmediata tras corregir dos fallos críticos, nota 9,2 de 10.",
-            "Si se explotan, los fallos podrían permitir tomar servidores de internet, según el reporte."
+            "CNN informa que la Corte Suprema dictaminó que Nuevo Hampshire puede limitar identificaciones estudiantiles para votar.",
+            "El tribunal se alineó con los republicanos, que dijeron que un fallo inferior llegó demasiado cerca de las elecciones."
           ],
           "highlightParagraph": 0,
-          "trend": "Alert",
+          "trend": "Election flashpoint",
           "sources": [
             {
-              "label": "ABC News on X",
-              "url": "https://x.com/ABC/status/2113055079364186606"
+              "label": "CNN",
+              "url": "https://x.com/CNN/status/2113397729883730402"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "ABC News on X",
-              "url": "https://x.com/ABC/status/2113055079364186606"
+              "text": "CNN",
+              "url": "https://x.com/CNN/status/2113397729883730402"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Mundo",
-          "headline": "El papa no necesita más tratamiento",
+          "category": "Política",
+          "headline": "Thiel habría rechazado la guerra de Irán",
           "paragraphs": [
-            "PBS News dice que el Vaticano informa que el papa León XIV no necesita más tratamiento por cáncer de pulmón.",
-            "Pruebas de seguimiento confirmaron que la enfermedad estaba localizada, según el comunicado."
+            "El New York Post informa que Peter Thiel desaprueba la guerra de Irán y dijo que no se debió hacer.",
+            "El tuit lo presenta como ruptura con Trump. Es una afirmación reportada, no verificada aquí."
           ],
-          "highlightParagraph": 0,
-          "trend": "Update",
+          "highlightParagraph": 1,
+          "trend": "Political split",
           "sources": [
             {
-              "label": "PBS News on X",
-              "url": "https://x.com/NewsHour/status/2113050703488819542"
+              "label": "New York Post",
+              "url": "https://x.com/nypost/status/2113371141079261387"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "PBS News on X",
-              "url": "https://x.com/NewsHour/status/2113050703488819542"
+              "text": "New York Post",
+              "url": "https://x.com/nypost/status/2113371141079261387"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Política",
-          "headline": "Enviado de EE.UU. llama humanitario a Putin",
+          "category": "Mercados",
+          "headline": "Fondo de Noruega, golpeado por Turquía",
           "paragraphs": [
-            "AFP informa que un enviado especial de EE.UU. llamó humanitario a Putin mientras continúa la guerra.",
-            "La etiqueta se disputa. Los posts en X transmiten el dato; no prueban la intención."
+            "Bloomberg informa que el fondo soberano de Noruega resultó afectado por la crisis de fondos de Turquía.",
+            "El fondo dice que está entre los inversores perjudicados y revisa sus acciones turcas."
           ],
-          "highlightParagraph": 1,
-          "trend": "Dispute",
+          "highlightParagraph": 0,
+          "trend": "Market stress",
           "sources": [
             {
-              "label": "AFPBB News on X",
-              "url": "https://x.com/afpbbcom/status/2113056154100142272"
+              "label": "Bloomberg",
+              "url": "https://x.com/business/status/2113386187339538757"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "AFPBB News on X",
-              "url": "https://x.com/afpbbcom/status/2113056154100142272"
+              "text": "Bloomberg",
+              "url": "https://x.com/business/status/2113386187339538757"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Política",
-          "headline": "El premier de Japón falta a reunión del G7",
+          "category": "Cisjordania",
+          "headline": "Informe vincula a un colono con el caso",
           "paragraphs": [
-            "Yahoo News informa que el primer ministro de Japón faltó a una videoconferencia del G7.",
-            "La ausencia genera debate en el gobierno y la oposición, según el reporte."
+            "Haaretz informa que un colono sospechoso de un ataque a diplomáticos fue filmado el año pasado atropellando a un palestino.",
+            "El medio presenta ese vínculo en su reportaje. El tuit no indica conclusiones oficiales."
           ],
-          "highlightParagraph": 0,
-          "trend": "Politics",
+          "highlightParagraph": 1,
+          "trend": "Disputed claims",
           "sources": [
             {
-              "label": "Yahoo News Topics on X",
-              "url": "https://x.com/YahooNewsTopics/status/2113056992432718134"
+              "label": "Haaretz",
+              "url": "https://x.com/haaretzcom/status/2113393735786430687"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Yahoo News Topics on X",
-              "url": "https://x.com/YahooNewsTopics/status/2113056992432718134"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Política",
-          "headline": "Estados se preparan para peleas electorales",
-          "paragraphs": [
-            "Norm Eisen dice que funcionarios estatales se preparan ante boletas incautadas, ICE en urnas y mentiras electorales.",
-            "Cita un texto del Guardian sobre preparación. No son incidentes confirmados."
-          ],
-          "highlightParagraph": 1,
-          "trend": "Watch",
-          "sources": [
-            {
-              "label": "Norm Eisen on X",
-              "url": "https://x.com/NormEisen/status/2113055416649138451"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "Norm Eisen on X",
-              "url": "https://x.com/NormEisen/status/2113055416649138451"
+              "text": "Haaretz",
+              "url": "https://x.com/haaretzcom/status/2113393735786430687"
             }
           ]
         }
@@ -642,159 +542,134 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-10-22T12:00:09.142Z",
+      "updatedAt": "2026-10-23T11:46:02.012Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Breaking",
-        "Alert",
-        "Update",
-        "Dispute",
-        "Politics",
-        "Watch"
+        "Closely watched",
+        "Election flashpoint",
+        "Political split",
+        "Market stress",
+        "Disputed claims"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Monde",
-          "headline": "USA et Israël envisagent des frappes en Iran",
+          "category": "Moyen-Orient",
+          "headline": "Pétroliers fantômes iraniens à sec",
           "paragraphs": [
-            "Le New York Times écrit que des responsables briefés affirment que les États-Unis et Israël prévoient de nouvelles frappes sur l'Iran après les midterms.",
-            "Aucun gouvernement n'a confirmé de décision. C'est une information rapportée, pas une preuve."
+            "Le Wall Street Journal rapporte que les pétroliers fantômes de l'Iran en Asie n'ont plus de brut après un blocus américain de plusieurs mois.",
+            "Téhéran avait vendu ce pétrole à la Chine comme réserve de guerre. Le message cite le journal; ce n'est pas une preuve indépendante."
           ],
-          "highlightParagraph": 1,
-          "trend": "Breaking",
+          "highlightParagraph": 0,
+          "trend": "Closely watched",
           "sources": [
             {
-              "label": "The New York Times on X",
-              "url": "https://x.com/nytimes/status/2113053998013882683"
+              "label": "WSJ",
+              "url": "https://x.com/WSJ/status/2113411928085217523"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "The New York Times on X",
-              "url": "https://x.com/nytimes/status/2113053998013882683"
+              "text": "WSJ",
+              "url": "https://x.com/WSJ/status/2113411928085217523"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Technologie",
-          "headline": "PHP: failles critiques, corrigez vite",
+          "category": "Politique américaine",
+          "headline": "La Cour autorise une limite d'ID au NH",
           "paragraphs": [
-            "ABC News indique que l'équipe PHP demande une mise à jour immédiate après deux failles critiques notées 9,2 sur 10.",
-            "Si elles sont exploitées, ces failles pourraient permettre de prendre des serveurs, selon le reportage."
+            "CNN rapporte que la Cour suprême a jugé que le New Hampshire peut limiter les cartes d'étudiant pour voter.",
+            "La Cour a suivi les républicains, qui disaient qu'un tribunal inférieur avait bloqué la règle trop près du scrutin."
           ],
           "highlightParagraph": 0,
-          "trend": "Alert",
+          "trend": "Election flashpoint",
           "sources": [
             {
-              "label": "ABC News on X",
-              "url": "https://x.com/ABC/status/2113055079364186606"
+              "label": "CNN",
+              "url": "https://x.com/CNN/status/2113397729883730402"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "ABC News on X",
-              "url": "https://x.com/ABC/status/2113055079364186606"
+              "text": "CNN",
+              "url": "https://x.com/CNN/status/2113397729883730402"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Monde",
-          "headline": "Le pape n'a plus besoin de traitement",
+          "category": "Politique",
+          "headline": "Thiel aurait désapprouvé la guerre",
           "paragraphs": [
-            "PBS News écrit que le Vatican indique que le pape Léon XIV n'a plus besoin de traitement pour un cancer du poumon.",
-            "Des examens de suivi ont confirmé que la maladie était localisée, selon le communiqué."
+            "Le New York Post rapporte que Peter Thiel désapprouve la guerre en Iran et a dit qu'il ne fallait pas la mener.",
+            "Le message présente cela comme une rupture avec Trump. C'est une affirmation rapportée, non vérifiée ici."
           ],
-          "highlightParagraph": 0,
-          "trend": "Update",
+          "highlightParagraph": 1,
+          "trend": "Political split",
           "sources": [
             {
-              "label": "PBS News on X",
-              "url": "https://x.com/NewsHour/status/2113050703488819542"
+              "label": "New York Post",
+              "url": "https://x.com/nypost/status/2113371141079261387"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "PBS News on X",
-              "url": "https://x.com/NewsHour/status/2113050703488819542"
+              "text": "New York Post",
+              "url": "https://x.com/nypost/status/2113371141079261387"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politique",
-          "headline": "Un émissaire US traite Poutine d'humaniste",
+          "category": "Marchés",
+          "headline": "Le fonds norvégien touché par la Turquie",
           "paragraphs": [
-            "L'AFP rapporte qu'un émissaire spécial américain a qualifié Poutine d'humaniste alors que la guerre continue.",
-            "Le qualificatif est contesté. Les posts sur X relaient l'affirmation; ils ne prouvent pas l'intention."
+            "Bloomberg rapporte que le fonds souverain de Norvège a été touché par la crise des fonds en Turquie.",
+            "Le fonds dit figurer parmi les investisseurs lésés et revoit ses actions turques."
           ],
-          "highlightParagraph": 1,
-          "trend": "Dispute",
+          "highlightParagraph": 0,
+          "trend": "Market stress",
           "sources": [
             {
-              "label": "AFPBB News on X",
-              "url": "https://x.com/afpbbcom/status/2113056154100142272"
+              "label": "Bloomberg",
+              "url": "https://x.com/business/status/2113386187339538757"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "AFPBB News on X",
-              "url": "https://x.com/afpbbcom/status/2113056154100142272"
+              "text": "Bloomberg",
+              "url": "https://x.com/business/status/2113386187339538757"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Politique",
-          "headline": "Le Premier ministre japonais rate un G7",
+          "category": "Cisjordanie",
+          "headline": "Un rapport lie un colon à l'affaire",
           "paragraphs": [
-            "Yahoo News indique que le Premier ministre japonais a manqué une visioconférence du G7.",
-            "Cette absence alimente le débat dans la majorité et l'opposition, selon le reportage."
+            "Haaretz rapporte qu'un colon soupçonné d'une attaque contre des diplomates a été filmé l'an dernier en renversant un Palestinien.",
+            "Le journal présente ce lien dans son enquête. Le message n'indique pas de conclusions officielles."
           ],
-          "highlightParagraph": 0,
-          "trend": "Politics",
+          "highlightParagraph": 1,
+          "trend": "Disputed claims",
           "sources": [
             {
-              "label": "Yahoo News Topics on X",
-              "url": "https://x.com/YahooNewsTopics/status/2113056992432718134"
+              "label": "Haaretz",
+              "url": "https://x.com/haaretzcom/status/2113393735786430687"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Yahoo News Topics on X",
-              "url": "https://x.com/YahooNewsTopics/status/2113056992432718134"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Politique",
-          "headline": "Les États se préparent aux combats électoraux",
-          "paragraphs": [
-            "Norm Eisen dit que des responsables d'État se préparent à des bulletins saisis, à l'ICE aux bureaux de vote et à des mensonges électoraux.",
-            "Il cite un texte du Guardian sur la préparation. Ce ne sont pas des faits confirmés."
-          ],
-          "highlightParagraph": 1,
-          "trend": "Watch",
-          "sources": [
-            {
-              "label": "Norm Eisen on X",
-              "url": "https://x.com/NormEisen/status/2113055416649138451"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "Norm Eisen on X",
-              "url": "https://x.com/NormEisen/status/2113055416649138451"
+              "text": "Haaretz",
+              "url": "https://x.com/haaretzcom/status/2113393735786430687"
             }
           ]
         }
