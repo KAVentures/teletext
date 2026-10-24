@@ -1,135 +1,190 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "editions": {
     "en": {
-      "updatedAt": "2026-10-23T11:46:02.012Z",
+      "updatedAt": "2026-10-24T11:09:30.097Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Closely watched",
-        "Election flashpoint",
-        "Political split",
-        "Market stress",
-        "Disputed claims"
+        "Breaking",
+        "Developing",
+        "Geopolitics",
+        "Tensions",
+        "War",
+        "Cyber"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Middle East",
-          "headline": "Iran shadow tankers reported out of oil",
+          "category": "Disaster",
+          "headline": "Tibet quake kills at least 16, reports say",
           "paragraphs": [
-            "The Wall Street Journal reports Iran's Asia-based shadow tankers have run out of crude after a months-long US blockade.",
-            "Tehran had sold that oil to China as a wartime cash cushion. The X post cites the paper; it is not independent proof."
+            "X news accounts say a strong quake in Tibet killed at least 16. Tolls in these posts are cited as reports, not confirmed here."
           ],
           "highlightParagraph": 0,
-          "trend": "Closely watched",
+          "trend": "Breaking",
           "sources": [
             {
-              "label": "WSJ",
-              "url": "https://x.com/WSJ/status/2113411928085217523"
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "label": "Channels Television",
+              "url": "https://x.com/channelstv/status/2113742398668845458"
+            },
+            {
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "WSJ",
-              "url": "https://x.com/WSJ/status/2113411928085217523"
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "id": "101-1",
+              "text": "Channels Television",
+              "url": "https://x.com/channelstv/status/2113742398668845458"
+            },
+            {
+              "id": "101-2",
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ]
         },
         {
           "page": 102,
-          "category": "US Politics",
-          "headline": "Court lets NH limit student ID voting",
+          "category": "Weather",
+          "headline": "Typhoon Champi heads for Taiwan",
           "paragraphs": [
-            "CNN reports the Supreme Court ruled New Hampshire may limit student IDs for voting.",
-            "The court sided with Republicans who said a lower-court block came too close to Election Day."
+            "X roundups say Typhoon Champi is nearing Taiwan with heavy rain and wind, disrupting flights. Treat this as circulating reports until local alerts confirm."
           ],
           "highlightParagraph": 0,
-          "trend": "Election flashpoint",
+          "trend": "Developing",
           "sources": [
             {
-              "label": "CNN",
-              "url": "https://x.com/CNN/status/2113397729883730402"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+            },
+            {
+              "label": "91.2 Crooze FM",
+              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "CNN",
-              "url": "https://x.com/CNN/status/2113397729883730402"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+            },
+            {
+              "id": "102-1",
+              "text": "91.2 Crooze FM",
+              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politics",
-          "headline": "Thiel reported against the Iran war",
+          "category": "Conflict",
+          "headline": "Trump says Musk restored Starlink",
           "paragraphs": [
-            "The New York Post reports Peter Thiel disapproves of the Iran war and said it should not have been done.",
-            "The post presents this as Thiel's break with Trump. It is a reported claim, not verified here."
+            "News posts quote Donald Trump saying Elon Musk restored Ukraine's Starlink access. These posts do not include independent verification of the network."
           ],
-          "highlightParagraph": 1,
-          "trend": "Political split",
+          "highlightParagraph": 0,
+          "trend": "Geopolitics",
           "sources": [
             {
-              "label": "New York Post",
-              "url": "https://x.com/nypost/status/2113371141079261387"
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "New York Post",
-              "url": "https://x.com/nypost/status/2113371141079261387"
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "id": "103-1",
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Markets",
-          "headline": "Norway fund hit by Turkey crisis",
+          "category": "Energy",
+          "headline": "Iran reports tanker damage in Hormuz",
           "paragraphs": [
-            "Bloomberg reports Norway's sovereign wealth fund was hurt by Turkey's fund crisis.",
-            "The fund says it is among affected investors and is reviewing its Turkish stock holdings."
+            "SAfm Radio says Iran reported seven oil tankers caught fire or were damaged in the Strait of Hormuz. The post presents this as a report, not verified fact."
           ],
           "highlightParagraph": 0,
-          "trend": "Market stress",
+          "trend": "Tensions",
           "sources": [
             {
-              "label": "Bloomberg",
-              "url": "https://x.com/business/status/2113386187339538757"
+              "label": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Bloomberg",
-              "url": "https://x.com/business/status/2113386187339538757"
+              "text": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
             }
           ]
         },
         {
           "page": 105,
-          "category": "West Bank",
-          "headline": "Report links settler to diplomat case",
+          "category": "Conflict",
+          "headline": "Report: Sudan RSF targeted hospitals",
           "paragraphs": [
-            "Haaretz reports a settler suspected in an attack on diplomats was filmed last year running over a Palestinian.",
-            "The outlet presents that link in its reporting. The post does not state official findings."
+            "A World News roundup says an investigation finds Sudan's RSF deliberately targeted hospitals. The post gives no further details of the probe."
           ],
-          "highlightParagraph": 1,
-          "trend": "Disputed claims",
+          "highlightParagraph": 0,
+          "trend": "War",
           "sources": [
             {
-              "label": "Haaretz",
-              "url": "https://x.com/haaretzcom/status/2113393735786430687"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Haaretz",
-              "url": "https://x.com/haaretzcom/status/2113393735786430687"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Security",
+          "headline": "Sites disrupted over AI software fears",
+          "paragraphs": [
+            "SAfm says government sites in Europe and parts of Asia were taken offline or disrupted amid concerns about AI-linked software flaws. The post frames this as reported, not confirmed here."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Cyber",
+          "sources": [
+            {
+              "label": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
             }
           ]
         }
@@ -137,134 +192,189 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-10-23T11:46:02.012Z",
+      "updatedAt": "2026-10-24T11:09:30.097Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Closely watched",
-        "Election flashpoint",
-        "Political split",
-        "Market stress",
-        "Disputed claims"
+        "Breaking",
+        "Developing",
+        "Geopolitics",
+        "Tensions",
+        "War",
+        "Cyber"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Mellanöstern",
-          "headline": "Irans skuggtankers uppges utan olja",
+          "category": "Katastrof",
+          "headline": "Tibetskalv: minst 16 döda, enligt rapporter",
           "paragraphs": [
-            "Wall Street Journal rapporterar att Irans skuggtankers i Asien fått slut på råolja efter en månadslång amerikansk blockad.",
-            "Teheran hade sålt oljan till Kina som krigskassa. Inlägget citerar tidningen och är inget självständigt bevis."
+            "X-nyhetskonton säger att en kraftig jordbävning i Tibet dödat minst 16. Siffrorna anges som rapporter, inte som bekräftade här."
           ],
           "highlightParagraph": 0,
-          "trend": "Closely watched",
+          "trend": "Breaking",
           "sources": [
             {
-              "label": "WSJ",
-              "url": "https://x.com/WSJ/status/2113411928085217523"
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "label": "Channels Television",
+              "url": "https://x.com/channelstv/status/2113742398668845458"
+            },
+            {
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "WSJ",
-              "url": "https://x.com/WSJ/status/2113411928085217523"
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "id": "101-1",
+              "text": "Channels Television",
+              "url": "https://x.com/channelstv/status/2113742398668845458"
+            },
+            {
+              "id": "101-2",
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ]
         },
         {
           "page": 102,
-          "category": "USA-politik",
-          "headline": "Domstol tillåter ID-gräns i NH",
+          "category": "Väder",
+          "headline": "Tyfonen Champi närmar sig Taiwan",
           "paragraphs": [
-            "CNN rapporterar att Högsta domstolen slog fast att New Hampshire får begränsa studentlegitimation vid röstning.",
-            "Domstolen ställde sig på republikanernas sida som menade att ett lägre beslut kom för nära valdagen."
+            "X-sammanfattningar säger att tyfonen Champi närmar sig Taiwan med kraftigt regn och vind och stör flyg. Se det som cirkulerande rapporter tills lokala varningar bekräftar."
           ],
           "highlightParagraph": 0,
-          "trend": "Election flashpoint",
+          "trend": "Developing",
           "sources": [
             {
-              "label": "CNN",
-              "url": "https://x.com/CNN/status/2113397729883730402"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+            },
+            {
+              "label": "91.2 Crooze FM",
+              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "CNN",
-              "url": "https://x.com/CNN/status/2113397729883730402"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+            },
+            {
+              "id": "102-1",
+              "text": "91.2 Crooze FM",
+              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politik",
-          "headline": "Thiel uppges emot Iran-kriget",
+          "category": "Konflikt",
+          "headline": "Trump: Musk återställde Starlink",
           "paragraphs": [
-            "New York Post rapporterar att Peter Thiel ogillar Iran-kriget och sagt att det inte borde ha skett.",
-            "Inlägget framställer det som en brytning med Trump. Det är ett rapporterat påstående, inte verifierat här."
+            "Nyhetsinlägg citerar Donald Trump som säger att Elon Musk återställt Ukrainas Starlink. Inläggen saknar oberoende verifiering av nätet."
           ],
-          "highlightParagraph": 1,
-          "trend": "Political split",
+          "highlightParagraph": 0,
+          "trend": "Geopolitics",
           "sources": [
             {
-              "label": "New York Post",
-              "url": "https://x.com/nypost/status/2113371141079261387"
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "New York Post",
-              "url": "https://x.com/nypost/status/2113371141079261387"
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "id": "103-1",
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Marknader",
-          "headline": "Norgesfond drabbad av Turkietkris",
+          "category": "Energi",
+          "headline": "Iran rapporterar tankskador i Hormuz",
           "paragraphs": [
-            "Bloomberg rapporterar att Norges statliga förmögenhetsfond drabbats av Turkiets fondkris.",
-            "Fonden säger att den är bland de drabbade och granskar sina turkiska aktieinnehav."
+            "SAfm Radio säger att Iran rapporterat att sju oljetankfartyg fattat eld eller skadats i Hormuzsundet. Inlägget presenterar det som en rapport, inte som verifierat faktum."
           ],
           "highlightParagraph": 0,
-          "trend": "Market stress",
+          "trend": "Tensions",
           "sources": [
             {
-              "label": "Bloomberg",
-              "url": "https://x.com/business/status/2113386187339538757"
+              "label": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Bloomberg",
-              "url": "https://x.com/business/status/2113386187339538757"
+              "text": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Västbanken",
-          "headline": "Rapport kopplar bosättare till fall",
+          "category": "Konflikt",
+          "headline": "Rapport: Sudans RSF angrep sjukhus",
           "paragraphs": [
-            "Haaretz rapporterar att en bosättare misstänkt för attack mot diplomater filmades i fjol när han körde över en palestinier.",
-            "Tidningen presenterar kopplingen i sin rapportering. Inlägget anger inga officiella slutsatser."
+            "En World News-sammanfattning säger att en utredning finner att Sudans RSF medvetet angrep sjukhus. Inlägget ger inga fler detaljer om utredningen."
           ],
-          "highlightParagraph": 1,
-          "trend": "Disputed claims",
+          "highlightParagraph": 0,
+          "trend": "War",
           "sources": [
             {
-              "label": "Haaretz",
-              "url": "https://x.com/haaretzcom/status/2113393735786430687"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Haaretz",
-              "url": "https://x.com/haaretzcom/status/2113393735786430687"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Säkerhet",
+          "headline": "Sajter nere efter oro för AI-program",
+          "paragraphs": [
+            "SAfm säger att myndighetssajter i Europa och delar av Asien tagits offline eller störts mitt i oro för brister i AI-kopplad mjukvara. Det beskrivs som rapporterat, inte bekräftat här."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Cyber",
+          "sources": [
+            {
+              "label": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
             }
           ]
         }
@@ -272,134 +382,189 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-10-23T11:46:02.012Z",
+      "updatedAt": "2026-10-24T11:09:30.097Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Closely watched",
-        "Election flashpoint",
-        "Political split",
-        "Market stress",
-        "Disputed claims"
+        "Breaking",
+        "Developing",
+        "Geopolitics",
+        "Tensions",
+        "War",
+        "Cyber"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Naher Osten",
-          "headline": "Irans Schattentanker ohne Öl gemeldet",
+          "category": "Katastrophe",
+          "headline": "Tibet-Beben: mind. 16 Tote, laut Berichten",
           "paragraphs": [
-            "Das Wall Street Journal berichtet, Irans Schattentanker in Asien seien nach monatelanger US-Blockade ohne Rohöl.",
-            "Teheran habe das Öl an China als Kriegskasse verkauft. Der Beitrag zitiert die Zeitung und ist kein unabhängiger Beweis."
+            "X-Nachrichtenkonten melden, ein starkes Beben in Tibet habe mindestens 16 getötet. Die Zahlen gelten als Berichte, nicht als hier bestätigt."
           ],
           "highlightParagraph": 0,
-          "trend": "Closely watched",
+          "trend": "Breaking",
           "sources": [
             {
-              "label": "WSJ",
-              "url": "https://x.com/WSJ/status/2113411928085217523"
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "label": "Channels Television",
+              "url": "https://x.com/channelstv/status/2113742398668845458"
+            },
+            {
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "WSJ",
-              "url": "https://x.com/WSJ/status/2113411928085217523"
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "id": "101-1",
+              "text": "Channels Television",
+              "url": "https://x.com/channelstv/status/2113742398668845458"
+            },
+            {
+              "id": "101-2",
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ]
         },
         {
           "page": 102,
-          "category": "US-Politik",
-          "headline": "Gericht lässt NH-Studentenausweis-Limit zu",
+          "category": "Wetter",
+          "headline": "Taifun Champi steuert auf Taiwan zu",
           "paragraphs": [
-            "CNN berichtet, der Supreme Court habe entschieden, dass New Hampshire Studentenausweise bei der Wahl beschränken darf.",
-            "Das Gericht folgte den Republikanern, die sagten, ein unteres Gericht habe zu nah am Wahltag blockiert."
+            "X-Rundschauen sagen, Taifun Champi nähere sich Taiwan mit Starkregen und Wind und störe Flüge. Das sind umlaufende Meldungen, bis lokale Warnungen es bestätigen."
           ],
           "highlightParagraph": 0,
-          "trend": "Election flashpoint",
+          "trend": "Developing",
           "sources": [
             {
-              "label": "CNN",
-              "url": "https://x.com/CNN/status/2113397729883730402"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+            },
+            {
+              "label": "91.2 Crooze FM",
+              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "CNN",
-              "url": "https://x.com/CNN/status/2113397729883730402"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+            },
+            {
+              "id": "102-1",
+              "text": "91.2 Crooze FM",
+              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politik",
-          "headline": "Thiel soll den Iran-Krieg ablehnen",
+          "category": "Konflikt",
+          "headline": "Trump: Musk stellte Starlink wieder her",
           "paragraphs": [
-            "Die New York Post berichtet, Peter Thiel missbillige den Iran-Krieg und habe gesagt, man hätte ihn nicht führen sollen.",
-            "Der Beitrag stellt dies als Bruch mit Trump dar. Es ist eine berichtete Behauptung, hier nicht geprüft."
+            "Nachrichtenposts zitieren Donald Trump: Elon Musk habe Ukraines Starlink wiederhergestellt. Eine unabhängige Prüfung des Netzes fehlt in den Posts."
           ],
-          "highlightParagraph": 1,
-          "trend": "Political split",
+          "highlightParagraph": 0,
+          "trend": "Geopolitics",
           "sources": [
             {
-              "label": "New York Post",
-              "url": "https://x.com/nypost/status/2113371141079261387"
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "New York Post",
-              "url": "https://x.com/nypost/status/2113371141079261387"
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "id": "103-1",
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Märkte",
-          "headline": "Norwegen-Fonds von Türkei-Krise getroffen",
+          "category": "Energie",
+          "headline": "Iran meldet Tankerschäden in Hormus",
           "paragraphs": [
-            "Bloomberg berichtet, Norwegens Staatsfonds sei von der Fondskrise der Türkei getroffen worden.",
-            "Der Fonds sagt, er gehöre zu den Betroffenen und prüfe seine türkischen Aktien."
+            "SAfm Radio sagt, Iran habe gemeldet, sieben Öltanker seien in der Straße von Hormus in Brand geraten oder beschädigt worden. Der Post nennt das als Bericht, nicht als geprüften Fakt."
           ],
           "highlightParagraph": 0,
-          "trend": "Market stress",
+          "trend": "Tensions",
           "sources": [
             {
-              "label": "Bloomberg",
-              "url": "https://x.com/business/status/2113386187339538757"
+              "label": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Bloomberg",
-              "url": "https://x.com/business/status/2113386187339538757"
+              "text": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Westjordanland",
-          "headline": "Bericht verknüpft Siedler mit dem Fall",
+          "category": "Konflikt",
+          "headline": "Bericht: Sudans RSF zielte auf Kliniken",
           "paragraphs": [
-            "Haaretz berichtet, ein Siedler, der eines Angriffs auf Diplomaten verdächtigt wird, sei im Vorjahr gefilmt worden, wie er einen Palästinenser überfuhr.",
-            "Das Blatt stellt die Verbindung in seiner Recherche dar. Amtliche Befunde nennt der Beitrag nicht."
+            "Ein World-News-Rundblick sagt, eine Untersuchung finde, Sudans RSF habe Krankenhäuser gezielt angegriffen. Der Post nennt keine weiteren Details."
           ],
-          "highlightParagraph": 1,
-          "trend": "Disputed claims",
+          "highlightParagraph": 0,
+          "trend": "War",
           "sources": [
             {
-              "label": "Haaretz",
-              "url": "https://x.com/haaretzcom/status/2113393735786430687"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Haaretz",
-              "url": "https://x.com/haaretzcom/status/2113393735786430687"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Sicherheit",
+          "headline": "Seiten gestört wegen KI-Software-Sorgen",
+          "paragraphs": [
+            "SAfm sagt, Regierungswebsites in Europa und Teilen Asiens seien offline oder gestört wegen Sorgen um KI-Softwarefehler. Der Post nennt das als berichtet, nicht als hier bestätigt."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Cyber",
+          "sources": [
+            {
+              "label": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
             }
           ]
         }
@@ -407,134 +572,189 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-10-23T11:46:02.012Z",
+      "updatedAt": "2026-10-24T11:09:30.097Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Closely watched",
-        "Election flashpoint",
-        "Political split",
-        "Market stress",
-        "Disputed claims"
+        "Breaking",
+        "Developing",
+        "Geopolitics",
+        "Tensions",
+        "War",
+        "Cyber"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Oriente Medio",
-          "headline": "Petroleros sombra de Irán sin crudo",
+          "category": "Desastre",
+          "headline": "Sismo en Tíbet: al menos 16 muertos, según informes",
           "paragraphs": [
-            "The Wall Street Journal informa que los petroleros sombra de Irán en Asia se quedaron sin crudo tras un bloqueo de EE.UU. de meses.",
-            "Teherán había vendido ese petróleo a China como colchón de guerra. El tuit cita al diario; no es prueba independiente."
+            "Cuentas de noticias en X dicen que un fuerte sismo en el Tíbet mató al menos a 16. Las cifras se citan como informes, no como confirmadas aquí."
           ],
           "highlightParagraph": 0,
-          "trend": "Closely watched",
+          "trend": "Breaking",
           "sources": [
             {
-              "label": "WSJ",
-              "url": "https://x.com/WSJ/status/2113411928085217523"
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "label": "Channels Television",
+              "url": "https://x.com/channelstv/status/2113742398668845458"
+            },
+            {
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "WSJ",
-              "url": "https://x.com/WSJ/status/2113411928085217523"
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "id": "101-1",
+              "text": "Channels Television",
+              "url": "https://x.com/channelstv/status/2113742398668845458"
+            },
+            {
+              "id": "101-2",
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Política de EE.UU.",
-          "headline": "Corte permite límite de ID estudiantil",
+          "category": "Clima",
+          "headline": "El tifón Champi se dirige a Taiwán",
           "paragraphs": [
-            "CNN informa que la Corte Suprema dictaminó que Nuevo Hampshire puede limitar identificaciones estudiantiles para votar.",
-            "El tribunal se alineó con los republicanos, que dijeron que un fallo inferior llegó demasiado cerca de las elecciones."
+            "Resúmenes en X dicen que el tifón Champi se acerca a Taiwán con lluvia y viento fuertes y altera vuelos. Son informes en circulación hasta que alertas locales lo confirmen."
           ],
           "highlightParagraph": 0,
-          "trend": "Election flashpoint",
+          "trend": "Developing",
           "sources": [
             {
-              "label": "CNN",
-              "url": "https://x.com/CNN/status/2113397729883730402"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+            },
+            {
+              "label": "91.2 Crooze FM",
+              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "CNN",
-              "url": "https://x.com/CNN/status/2113397729883730402"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+            },
+            {
+              "id": "102-1",
+              "text": "91.2 Crooze FM",
+              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Política",
-          "headline": "Thiel habría rechazado la guerra de Irán",
+          "category": "Conflicto",
+          "headline": "Trump: Musk restauró Starlink",
           "paragraphs": [
-            "El New York Post informa que Peter Thiel desaprueba la guerra de Irán y dijo que no se debió hacer.",
-            "El tuit lo presenta como ruptura con Trump. Es una afirmación reportada, no verificada aquí."
+            "Publicaciones citan a Donald Trump diciendo que Elon Musk restauró el Starlink de Ucrania. Los posts no incluyen verificación independiente de la red."
           ],
-          "highlightParagraph": 1,
-          "trend": "Political split",
+          "highlightParagraph": 0,
+          "trend": "Geopolitics",
           "sources": [
             {
-              "label": "New York Post",
-              "url": "https://x.com/nypost/status/2113371141079261387"
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "New York Post",
-              "url": "https://x.com/nypost/status/2113371141079261387"
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "id": "103-1",
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Mercados",
-          "headline": "Fondo de Noruega, golpeado por Turquía",
+          "category": "Energía",
+          "headline": "Irán informa daños a petroleros en Ormuz",
           "paragraphs": [
-            "Bloomberg informa que el fondo soberano de Noruega resultó afectado por la crisis de fondos de Turquía.",
-            "El fondo dice que está entre los inversores perjudicados y revisa sus acciones turcas."
+            "SAfm Radio dice que Irán informó que siete petroleros se incendiaron o resultaron dañados en el estrecho de Ormuz. El post lo presenta como informe, no como hecho verificado."
           ],
           "highlightParagraph": 0,
-          "trend": "Market stress",
+          "trend": "Tensions",
           "sources": [
             {
-              "label": "Bloomberg",
-              "url": "https://x.com/business/status/2113386187339538757"
+              "label": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Bloomberg",
-              "url": "https://x.com/business/status/2113386187339538757"
+              "text": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Cisjordania",
-          "headline": "Informe vincula a un colono con el caso",
+          "category": "Conflicto",
+          "headline": "Informe: las RSF de Sudán atacaron hospitales",
           "paragraphs": [
-            "Haaretz informa que un colono sospechoso de un ataque a diplomáticos fue filmado el año pasado atropellando a un palestino.",
-            "El medio presenta ese vínculo en su reportaje. El tuit no indica conclusiones oficiales."
+            "Un resumen de World News dice que una investigación halla que las RSF de Sudán atacaron hospitales a propósito. El post no da más detalles de la investigación."
           ],
-          "highlightParagraph": 1,
-          "trend": "Disputed claims",
+          "highlightParagraph": 0,
+          "trend": "War",
           "sources": [
             {
-              "label": "Haaretz",
-              "url": "https://x.com/haaretzcom/status/2113393735786430687"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Haaretz",
-              "url": "https://x.com/haaretzcom/status/2113393735786430687"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Seguridad",
+          "headline": "Sitios caídos por temor a fallos de IA",
+          "paragraphs": [
+            "SAfm dice que sitios de gobierno en Europa y partes de Asia quedaron offline o con fallos ante temores por fallos de software ligado a la IA. Se presenta como informado, no confirmado aquí."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Cyber",
+          "sources": [
+            {
+              "label": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
             }
           ]
         }
@@ -542,134 +762,189 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-10-23T11:46:02.012Z",
+      "updatedAt": "2026-10-24T11:09:30.097Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Closely watched",
-        "Election flashpoint",
-        "Political split",
-        "Market stress",
-        "Disputed claims"
+        "Breaking",
+        "Developing",
+        "Geopolitics",
+        "Tensions",
+        "War",
+        "Cyber"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Moyen-Orient",
-          "headline": "Pétroliers fantômes iraniens à sec",
+          "category": "Catastrophe",
+          "headline": "Séisme au Tibet: au moins 16 morts, selon des sources",
           "paragraphs": [
-            "Le Wall Street Journal rapporte que les pétroliers fantômes de l'Iran en Asie n'ont plus de brut après un blocus américain de plusieurs mois.",
-            "Téhéran avait vendu ce pétrole à la Chine comme réserve de guerre. Le message cite le journal; ce n'est pas une preuve indépendante."
+            "Des comptes d'actu sur X disent qu'un fort séisme au Tibet a tué au moins 16 personnes. Les bilans sont des rapports, non confirmés ici."
           ],
           "highlightParagraph": 0,
-          "trend": "Closely watched",
+          "trend": "Breaking",
           "sources": [
             {
-              "label": "WSJ",
-              "url": "https://x.com/WSJ/status/2113411928085217523"
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "label": "Channels Television",
+              "url": "https://x.com/channelstv/status/2113742398668845458"
+            },
+            {
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "WSJ",
-              "url": "https://x.com/WSJ/status/2113411928085217523"
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "id": "101-1",
+              "text": "Channels Television",
+              "url": "https://x.com/channelstv/status/2113742398668845458"
+            },
+            {
+              "id": "101-2",
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Politique américaine",
-          "headline": "La Cour autorise une limite d'ID au NH",
+          "category": "Météo",
+          "headline": "Le typhon Champi se dirige vers Taïwan",
           "paragraphs": [
-            "CNN rapporte que la Cour suprême a jugé que le New Hampshire peut limiter les cartes d'étudiant pour voter.",
-            "La Cour a suivi les républicains, qui disaient qu'un tribunal inférieur avait bloqué la règle trop près du scrutin."
+            "Des synthèses sur X disent que le typhon Champi approche Taïwan avec pluie et vent forts, perturbant les vols. Infos en circulation, en attente d'alertes locales."
           ],
           "highlightParagraph": 0,
-          "trend": "Election flashpoint",
+          "trend": "Developing",
           "sources": [
             {
-              "label": "CNN",
-              "url": "https://x.com/CNN/status/2113397729883730402"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+            },
+            {
+              "label": "91.2 Crooze FM",
+              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "CNN",
-              "url": "https://x.com/CNN/status/2113397729883730402"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+            },
+            {
+              "id": "102-1",
+              "text": "91.2 Crooze FM",
+              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politique",
-          "headline": "Thiel aurait désapprouvé la guerre",
+          "category": "Conflit",
+          "headline": "Trump: Musk a rétabli Starlink",
           "paragraphs": [
-            "Le New York Post rapporte que Peter Thiel désapprouve la guerre en Iran et a dit qu'il ne fallait pas la mener.",
-            "Le message présente cela comme une rupture avec Trump. C'est une affirmation rapportée, non vérifiée ici."
+            "Des posts citent Donald Trump disant qu'Elon Musk a rétabli le Starlink de l'Ukraine. Ils n'apportent pas de vérification indépendante du réseau."
           ],
-          "highlightParagraph": 1,
-          "trend": "Political split",
+          "highlightParagraph": 0,
+          "trend": "Geopolitics",
           "sources": [
             {
-              "label": "New York Post",
-              "url": "https://x.com/nypost/status/2113371141079261387"
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "New York Post",
-              "url": "https://x.com/nypost/status/2113371141079261387"
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2113444772346274198"
+            },
+            {
+              "id": "103-1",
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Marchés",
-          "headline": "Le fonds norvégien touché par la Turquie",
+          "category": "Énergie",
+          "headline": "L'Iran signale des pétroliers endommagés à Ormuz",
           "paragraphs": [
-            "Bloomberg rapporte que le fonds souverain de Norvège a été touché par la crise des fonds en Turquie.",
-            "Le fonds dit figurer parmi les investisseurs lésés et revoit ses actions turques."
+            "SAfm Radio indique que l'Iran a signalé sept pétroliers en feu ou endommagés dans le détroit d'Ormuz. Le post le présente comme un rapport, non comme un fait vérifié."
           ],
           "highlightParagraph": 0,
-          "trend": "Market stress",
+          "trend": "Tensions",
           "sources": [
             {
-              "label": "Bloomberg",
-              "url": "https://x.com/business/status/2113386187339538757"
+              "label": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Bloomberg",
-              "url": "https://x.com/business/status/2113386187339538757"
+              "text": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Cisjordanie",
-          "headline": "Un rapport lie un colon à l'affaire",
+          "category": "Conflit",
+          "headline": "Rapport: les RSF du Soudan ont visé des hôpitaux",
           "paragraphs": [
-            "Haaretz rapporte qu'un colon soupçonné d'une attaque contre des diplomates a été filmé l'an dernier en renversant un Palestinien.",
-            "Le journal présente ce lien dans son enquête. Le message n'indique pas de conclusions officielles."
+            "Une synthèse World News dit qu'une enquête conclut que les RSF du Soudan ont délibérément visé des hôpitaux. Le post ne donne pas d'autres détails."
           ],
-          "highlightParagraph": 1,
-          "trend": "Disputed claims",
+          "highlightParagraph": 0,
+          "trend": "War",
           "sources": [
             {
-              "label": "Haaretz",
-              "url": "https://x.com/haaretzcom/status/2113393735786430687"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Haaretz",
-              "url": "https://x.com/haaretzcom/status/2113393735786430687"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Sécurité",
+          "headline": "Sites perturbés par des craintes sur l'IA",
+          "paragraphs": [
+            "SAfm indique que des sites publics en Europe et dans une partie de l'Asie ont été coupés ou perturbés face à de possibles failles de logiciels liés à l'IA. Signalé, non confirmé ici."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Cyber",
+          "sources": [
+            {
+              "label": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "SAfm Radio",
+              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
             }
           ]
         }
