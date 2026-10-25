@@ -1,190 +1,119 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "editions": {
     "en": {
-      "updatedAt": "2026-10-24T11:09:30.097Z",
+      "updatedAt": "2026-10-25T11:38:58.973Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Breaking",
-        "Developing",
-        "Geopolitics",
-        "Tensions",
-        "War",
-        "Cyber"
+        "Rising",
+        "Watch",
+        "New",
+        "Steady"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Disaster",
-          "headline": "Tibet quake kills at least 16, reports say",
+          "category": "World",
+          "headline": "France protests: nearly 1,000 arrests",
           "paragraphs": [
-            "X news accounts say a strong quake in Tibet killed at least 16. Tolls in these posts are cited as reports, not confirmed here."
+            "Users on X shared a BBC item saying almost 1,000 people were arrested after clashes that followed mass protests in France.",
+            "A separate opinion link calls France \"on the brink of civil war\". That is commentary, not a confirmed fact."
           ],
-          "highlightParagraph": 0,
-          "trend": "Breaking",
+          "highlightParagraph": 1,
+          "trend": "Rising",
           "sources": [
             {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
+              "label": "BBC arrests item on X",
+              "url": "https://x.com/M_ark_And/status/2114144757383344521"
             },
             {
-              "label": "Channels Television",
-              "url": "https://x.com/channelstv/status/2113742398668845458"
-            },
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "label": "WSJ opinion share on X",
+              "url": "https://x.com/JSoliz/status/2114144795665055899"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
+              "text": "BBC arrests item on X",
+              "url": "https://x.com/M_ark_And/status/2114144757383344521"
             },
             {
               "id": "101-1",
-              "text": "Channels Television",
-              "url": "https://x.com/channelstv/status/2113742398668845458"
-            },
-            {
-              "id": "101-2",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "text": "WSJ opinion share on X",
+              "url": "https://x.com/JSoliz/status/2114144795665055899"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Weather",
-          "headline": "Typhoon Champi heads for Taiwan",
+          "category": "Politics",
+          "headline": "Brazil runoff reported as a close race",
           "paragraphs": [
-            "X roundups say Typhoon Champi is nearing Taiwan with heavy rain and wind, disrupting flights. Treat this as circulating reports until local alerts confirm."
+            "Yahoo News Japan, shared on X, says Brazil's presidential runoff is expected to be close.",
+            "This bulletin only records the claim as posted. It does not confirm the race."
           ],
           "highlightParagraph": 0,
-          "trend": "Developing",
+          "trend": "Watch",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            },
-            {
-              "label": "91.2 Crooze FM",
-              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
+              "label": "Yahoo News Brazil item",
+              "url": "https://x.com/YahooNewsTopics/status/2114144659136294949"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            },
-            {
-              "id": "102-1",
-              "text": "91.2 Crooze FM",
-              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
+              "text": "Yahoo News Brazil item",
+              "url": "https://x.com/YahooNewsTopics/status/2114144659136294949"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Conflict",
-          "headline": "Trump says Musk restored Starlink",
+          "category": "Business",
+          "headline": "Post flags Google-SpaceX $1.1bn item",
           "paragraphs": [
-            "News posts quote Donald Trump saying Elon Musk restored Ukraine's Starlink access. These posts do not include independent verification of the network."
+            "A user shared a finance link claiming Google is paying SpaceX $1.1 billion, and questioned the timing after earnings.",
+            "The sum is an unverified claim on X, not a figure confirmed in this bulletin."
           ],
-          "highlightParagraph": 0,
-          "trend": "Geopolitics",
+          "highlightParagraph": 1,
+          "trend": "New",
           "sources": [
             {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
-            },
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "label": "Finance link shared on X",
+              "url": "https://x.com/SteveSmithyrui/status/2114144448217313323"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
-            },
-            {
-              "id": "103-1",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "text": "Finance link shared on X",
+              "url": "https://x.com/SteveSmithyrui/status/2114144448217313323"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Energy",
-          "headline": "Iran reports tanker damage in Hormuz",
+          "category": "Politics",
+          "headline": "Japan leaders split on 31-seat cut plan",
           "paragraphs": [
-            "SAfm Radio says Iran reported seven oil tankers caught fire or were damaged in the Strait of Hormuz. The post presents this as a report, not verified fact."
+            "A Sankei report shared on X says party leaders differ on a plan to cut 31 lower-house seats.",
+            "Komeito is quoted opposing a cut limited to proportional seats. This is a domestic claim, not verified here."
           ],
           "highlightParagraph": 0,
-          "trend": "Tensions",
+          "trend": "Steady",
           "sources": [
             {
-              "label": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
+              "label": "Sankei item shared on X",
+              "url": "https://x.com/otonanokensiki/status/2114144631512592783"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Conflict",
-          "headline": "Report: Sudan RSF targeted hospitals",
-          "paragraphs": [
-            "A World News roundup says an investigation finds Sudan's RSF deliberately targeted hospitals. The post gives no further details of the probe."
-          ],
-          "highlightParagraph": 0,
-          "trend": "War",
-          "sources": [
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Security",
-          "headline": "Sites disrupted over AI software fears",
-          "paragraphs": [
-            "SAfm says government sites in Europe and parts of Asia were taken offline or disrupted amid concerns about AI-linked software flaws. The post frames this as reported, not confirmed here."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Cyber",
-          "sources": [
-            {
-              "label": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
+              "text": "Sankei item shared on X",
+              "url": "https://x.com/otonanokensiki/status/2114144631512592783"
             }
           ]
         }
@@ -192,189 +121,118 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-10-24T11:09:30.097Z",
+      "updatedAt": "2026-10-25T11:38:58.973Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Breaking",
-        "Developing",
-        "Geopolitics",
-        "Tensions",
-        "War",
-        "Cyber"
+        "Rising",
+        "Watch",
+        "New",
+        "Steady"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Katastrof",
-          "headline": "Tibetskalv: minst 16 döda, enligt rapporter",
+          "category": "Världen",
+          "headline": "Frankrike: nästan 1 000 gripna",
           "paragraphs": [
-            "X-nyhetskonton säger att en kraftig jordbävning i Tibet dödat minst 16. Siffrorna anges som rapporter, inte som bekräftade här."
+            "Användare på X delade en BBC-notis om att nästan 1 000 greps efter sammandrabbningar vid massprotester i Frankrike.",
+            "En separat opinionslänk kallar Frankrike \"på randen till inbördeskrig\". Det är kommentar, inte fastställt faktum."
           ],
-          "highlightParagraph": 0,
-          "trend": "Breaking",
+          "highlightParagraph": 1,
+          "trend": "Rising",
           "sources": [
             {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
+              "label": "BBC arrests item on X",
+              "url": "https://x.com/M_ark_And/status/2114144757383344521"
             },
             {
-              "label": "Channels Television",
-              "url": "https://x.com/channelstv/status/2113742398668845458"
-            },
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "label": "WSJ opinion share on X",
+              "url": "https://x.com/JSoliz/status/2114144795665055899"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
+              "text": "BBC arrests item on X",
+              "url": "https://x.com/M_ark_And/status/2114144757383344521"
             },
             {
               "id": "101-1",
-              "text": "Channels Television",
-              "url": "https://x.com/channelstv/status/2113742398668845458"
-            },
-            {
-              "id": "101-2",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "text": "WSJ opinion share on X",
+              "url": "https://x.com/JSoliz/status/2114144795665055899"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Väder",
-          "headline": "Tyfonen Champi närmar sig Taiwan",
+          "category": "Politik",
+          "headline": "Brasilien: jämn andra omgång väntas",
           "paragraphs": [
-            "X-sammanfattningar säger att tyfonen Champi närmar sig Taiwan med kraftigt regn och vind och stör flyg. Se det som cirkulerande rapporter tills lokala varningar bekräftar."
+            "Yahoo News Japan, delat på X, uppger att Brasiliens presidentval i andra omgången väntas bli jämnt.",
+            "Bulletinen återger bara påståendet. Den bekräftar inte valet."
           ],
           "highlightParagraph": 0,
-          "trend": "Developing",
+          "trend": "Watch",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            },
-            {
-              "label": "91.2 Crooze FM",
-              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
+              "label": "Yahoo News Brazil item",
+              "url": "https://x.com/YahooNewsTopics/status/2114144659136294949"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            },
-            {
-              "id": "102-1",
-              "text": "91.2 Crooze FM",
-              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
+              "text": "Yahoo News Brazil item",
+              "url": "https://x.com/YahooNewsTopics/status/2114144659136294949"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Konflikt",
-          "headline": "Trump: Musk återställde Starlink",
+          "category": "Näringsliv",
+          "headline": "Inlägg: Google betalar SpaceX 1,1 mdr",
           "paragraphs": [
-            "Nyhetsinlägg citerar Donald Trump som säger att Elon Musk återställt Ukrainas Starlink. Inläggen saknar oberoende verifiering av nätet."
+            "En användare delade en finanslänk som uppger att Google betalar SpaceX 1,1 miljarder dollar och ifrågasatte tidpunkten efter rapporten.",
+            "Summan är ett obekräftat påstående på X, inte en siffra som slås fast här."
           ],
-          "highlightParagraph": 0,
-          "trend": "Geopolitics",
+          "highlightParagraph": 1,
+          "trend": "New",
           "sources": [
             {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
-            },
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "label": "Finance link shared on X",
+              "url": "https://x.com/SteveSmithyrui/status/2114144448217313323"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
-            },
-            {
-              "id": "103-1",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "text": "Finance link shared on X",
+              "url": "https://x.com/SteveSmithyrui/status/2114144448217313323"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Energi",
-          "headline": "Iran rapporterar tankskador i Hormuz",
+          "category": "Politik",
+          "headline": "Japan oense om att skära 31 mandat",
           "paragraphs": [
-            "SAfm Radio säger att Iran rapporterat att sju oljetankfartyg fattat eld eller skadats i Hormuzsundet. Inlägget presenterar det som en rapport, inte som verifierat faktum."
+            "En Sankei-artikel delad på X uppger att partiledare är oense om ett förslag att skära 31 mandat i underhuset.",
+            "Komeito citeras som motståndare till en nedskärning enbart av proportionella mandat. Inhemskt påstående, inte verifierat här."
           ],
           "highlightParagraph": 0,
-          "trend": "Tensions",
+          "trend": "Steady",
           "sources": [
             {
-              "label": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
+              "label": "Sankei item shared on X",
+              "url": "https://x.com/otonanokensiki/status/2114144631512592783"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Konflikt",
-          "headline": "Rapport: Sudans RSF angrep sjukhus",
-          "paragraphs": [
-            "En World News-sammanfattning säger att en utredning finner att Sudans RSF medvetet angrep sjukhus. Inlägget ger inga fler detaljer om utredningen."
-          ],
-          "highlightParagraph": 0,
-          "trend": "War",
-          "sources": [
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Säkerhet",
-          "headline": "Sajter nere efter oro för AI-program",
-          "paragraphs": [
-            "SAfm säger att myndighetssajter i Europa och delar av Asien tagits offline eller störts mitt i oro för brister i AI-kopplad mjukvara. Det beskrivs som rapporterat, inte bekräftat här."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Cyber",
-          "sources": [
-            {
-              "label": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
+              "text": "Sankei item shared on X",
+              "url": "https://x.com/otonanokensiki/status/2114144631512592783"
             }
           ]
         }
@@ -382,189 +240,118 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-10-24T11:09:30.097Z",
+      "updatedAt": "2026-10-25T11:38:58.973Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Breaking",
-        "Developing",
-        "Geopolitics",
-        "Tensions",
-        "War",
-        "Cyber"
+        "Rising",
+        "Watch",
+        "New",
+        "Steady"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Katastrophe",
-          "headline": "Tibet-Beben: mind. 16 Tote, laut Berichten",
+          "category": "Welt",
+          "headline": "Frankreich: fast 1.000 Festnahmen",
           "paragraphs": [
-            "X-Nachrichtenkonten melden, ein starkes Beben in Tibet habe mindestens 16 getötet. Die Zahlen gelten als Berichte, nicht als hier bestätigt."
+            "Nutzer auf X teilten einen BBC-Bericht: fast 1.000 Festnahmen nach Zusammenstößen bei Massenprotesten in Frankreich.",
+            "Ein separater Meinungsbeitrag nennt Frankreich \"am Rande eines Bürgerkriegs\". Das ist Kommentar, kein belegtes Faktum."
           ],
-          "highlightParagraph": 0,
-          "trend": "Breaking",
+          "highlightParagraph": 1,
+          "trend": "Rising",
           "sources": [
             {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
+              "label": "BBC arrests item on X",
+              "url": "https://x.com/M_ark_And/status/2114144757383344521"
             },
             {
-              "label": "Channels Television",
-              "url": "https://x.com/channelstv/status/2113742398668845458"
-            },
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "label": "WSJ opinion share on X",
+              "url": "https://x.com/JSoliz/status/2114144795665055899"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
+              "text": "BBC arrests item on X",
+              "url": "https://x.com/M_ark_And/status/2114144757383344521"
             },
             {
               "id": "101-1",
-              "text": "Channels Television",
-              "url": "https://x.com/channelstv/status/2113742398668845458"
-            },
-            {
-              "id": "101-2",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "text": "WSJ opinion share on X",
+              "url": "https://x.com/JSoliz/status/2114144795665055899"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Wetter",
-          "headline": "Taifun Champi steuert auf Taiwan zu",
+          "category": "Politik",
+          "headline": "Brasilien: Stichwahl gilt als knapp",
           "paragraphs": [
-            "X-Rundschauen sagen, Taifun Champi nähere sich Taiwan mit Starkregen und Wind und störe Flüge. Das sind umlaufende Meldungen, bis lokale Warnungen es bestätigen."
+            "Yahoo News Japan, auf X geteilt, erwartet ein knappes Ergebnis in der Stichwahl um das Präsidentenamt.",
+            "Dieses Bulletin gibt nur die Behauptung wieder. Es bestätigt das Rennen nicht."
           ],
           "highlightParagraph": 0,
-          "trend": "Developing",
+          "trend": "Watch",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            },
-            {
-              "label": "91.2 Crooze FM",
-              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
+              "label": "Yahoo News Brazil item",
+              "url": "https://x.com/YahooNewsTopics/status/2114144659136294949"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            },
-            {
-              "id": "102-1",
-              "text": "91.2 Crooze FM",
-              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
+              "text": "Yahoo News Brazil item",
+              "url": "https://x.com/YahooNewsTopics/status/2114144659136294949"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Konflikt",
-          "headline": "Trump: Musk stellte Starlink wieder her",
+          "category": "Wirtschaft",
+          "headline": "Beitrag: Google zahlt SpaceX 1,1 Mrd.",
           "paragraphs": [
-            "Nachrichtenposts zitieren Donald Trump: Elon Musk habe Ukraines Starlink wiederhergestellt. Eine unabhängige Prüfung des Netzes fehlt in den Posts."
+            "Ein Nutzer teilte einen Finanzlink, wonach Google SpaceX 1,1 Milliarden Dollar zahlt, und hinterfragte den Zeitpunkt nach den Zahlen.",
+            "Die Summe ist eine unbestätigte Behauptung auf X, keine hier geprüfte Zahl."
           ],
-          "highlightParagraph": 0,
-          "trend": "Geopolitics",
+          "highlightParagraph": 1,
+          "trend": "New",
           "sources": [
             {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
-            },
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "label": "Finance link shared on X",
+              "url": "https://x.com/SteveSmithyrui/status/2114144448217313323"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
-            },
-            {
-              "id": "103-1",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "text": "Finance link shared on X",
+              "url": "https://x.com/SteveSmithyrui/status/2114144448217313323"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Energie",
-          "headline": "Iran meldet Tankerschäden in Hormus",
+          "category": "Politik",
+          "headline": "Japan streitet über Kürzung von 31 Sitzen",
           "paragraphs": [
-            "SAfm Radio sagt, Iran habe gemeldet, sieben Öltanker seien in der Straße von Hormus in Brand geraten oder beschädigt worden. Der Post nennt das als Bericht, nicht als geprüften Fakt."
+            "Ein auf X geteilter Sankei-Bericht: Parteiführer sind sich über einen Plan uneinig, 31 Sitze im Unterhaus zu streichen.",
+            "Komeito wird zitiert, eine Kürzung nur der Verhältniswahl abzulehnen. Inlandsthese, hier nicht geprüft."
           ],
           "highlightParagraph": 0,
-          "trend": "Tensions",
+          "trend": "Steady",
           "sources": [
             {
-              "label": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
+              "label": "Sankei item shared on X",
+              "url": "https://x.com/otonanokensiki/status/2114144631512592783"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Konflikt",
-          "headline": "Bericht: Sudans RSF zielte auf Kliniken",
-          "paragraphs": [
-            "Ein World-News-Rundblick sagt, eine Untersuchung finde, Sudans RSF habe Krankenhäuser gezielt angegriffen. Der Post nennt keine weiteren Details."
-          ],
-          "highlightParagraph": 0,
-          "trend": "War",
-          "sources": [
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Sicherheit",
-          "headline": "Seiten gestört wegen KI-Software-Sorgen",
-          "paragraphs": [
-            "SAfm sagt, Regierungswebsites in Europa und Teilen Asiens seien offline oder gestört wegen Sorgen um KI-Softwarefehler. Der Post nennt das als berichtet, nicht als hier bestätigt."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Cyber",
-          "sources": [
-            {
-              "label": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
+              "text": "Sankei item shared on X",
+              "url": "https://x.com/otonanokensiki/status/2114144631512592783"
             }
           ]
         }
@@ -572,189 +359,118 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-10-24T11:09:30.097Z",
+      "updatedAt": "2026-10-25T11:38:58.973Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Breaking",
-        "Developing",
-        "Geopolitics",
-        "Tensions",
-        "War",
-        "Cyber"
+        "Rising",
+        "Watch",
+        "New",
+        "Steady"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Desastre",
-          "headline": "Sismo en Tíbet: al menos 16 muertos, según informes",
+          "category": "Mundo",
+          "headline": "Francia: casi 1.000 detenciones",
           "paragraphs": [
-            "Cuentas de noticias en X dicen que un fuerte sismo en el Tíbet mató al menos a 16. Las cifras se citan como informes, no como confirmadas aquí."
+            "Usuarios en X compartieron una nota de la BBC: casi 1.000 detenciones tras choques en protestas masivas en Francia.",
+            "Un texto de opinión aparte habla de Francia \"al borde de la guerra civil\". Es comentario, no un hecho confirmado."
           ],
-          "highlightParagraph": 0,
-          "trend": "Breaking",
+          "highlightParagraph": 1,
+          "trend": "Rising",
           "sources": [
             {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
+              "label": "BBC arrests item on X",
+              "url": "https://x.com/M_ark_And/status/2114144757383344521"
             },
             {
-              "label": "Channels Television",
-              "url": "https://x.com/channelstv/status/2113742398668845458"
-            },
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "label": "WSJ opinion share on X",
+              "url": "https://x.com/JSoliz/status/2114144795665055899"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
+              "text": "BBC arrests item on X",
+              "url": "https://x.com/M_ark_And/status/2114144757383344521"
             },
             {
               "id": "101-1",
-              "text": "Channels Television",
-              "url": "https://x.com/channelstv/status/2113742398668845458"
-            },
-            {
-              "id": "101-2",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "text": "WSJ opinion share on X",
+              "url": "https://x.com/JSoliz/status/2114144795665055899"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Clima",
-          "headline": "El tifón Champi se dirige a Taiwán",
+          "category": "Política",
+          "headline": "Brasil: se prevé un balotaje reñido",
           "paragraphs": [
-            "Resúmenes en X dicen que el tifón Champi se acerca a Taiwán con lluvia y viento fuertes y altera vuelos. Son informes en circulación hasta que alertas locales lo confirmen."
+            "Yahoo News Japón, compartido en X, dice que la segunda vuelta presidencial en Brasil se espera reñida.",
+            "Este boletín solo registra el reclamo. No confirma la contienda."
           ],
           "highlightParagraph": 0,
-          "trend": "Developing",
+          "trend": "Watch",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            },
-            {
-              "label": "91.2 Crooze FM",
-              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
+              "label": "Yahoo News Brazil item",
+              "url": "https://x.com/YahooNewsTopics/status/2114144659136294949"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            },
-            {
-              "id": "102-1",
-              "text": "91.2 Crooze FM",
-              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
+              "text": "Yahoo News Brazil item",
+              "url": "https://x.com/YahooNewsTopics/status/2114144659136294949"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Conflicto",
-          "headline": "Trump: Musk restauró Starlink",
+          "category": "Economía",
+          "headline": "Post: Google pagaría 1.100 M a SpaceX",
           "paragraphs": [
-            "Publicaciones citan a Donald Trump diciendo que Elon Musk restauró el Starlink de Ucrania. Los posts no incluyen verificación independiente de la red."
+            "Un usuario compartió un enlace financiero que afirma que Google paga 1.100 millones de dólares a SpaceX y cuestionó el momento tras los resultados.",
+            "La cifra es un reclamo no verificado en X, no un dato confirmado aquí."
           ],
-          "highlightParagraph": 0,
-          "trend": "Geopolitics",
+          "highlightParagraph": 1,
+          "trend": "New",
           "sources": [
             {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
-            },
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "label": "Finance link shared on X",
+              "url": "https://x.com/SteveSmithyrui/status/2114144448217313323"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
-            },
-            {
-              "id": "103-1",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "text": "Finance link shared on X",
+              "url": "https://x.com/SteveSmithyrui/status/2114144448217313323"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Energía",
-          "headline": "Irán informa daños a petroleros en Ormuz",
+          "category": "Política",
+          "headline": "Japón, dividido por recortar 31 escaños",
           "paragraphs": [
-            "SAfm Radio dice que Irán informó que siete petroleros se incendiaron o resultaron dañados en el estrecho de Ormuz. El post lo presenta como informe, no como hecho verificado."
+            "Un informe de Sankei compartido en X dice que los líderes discrepan sobre un plan para recortar 31 escaños de la cámara baja.",
+            "Se cita a Komeito en contra de un recorte solo de escaños proporcionales. Reclamo interno, no verificado aquí."
           ],
           "highlightParagraph": 0,
-          "trend": "Tensions",
+          "trend": "Steady",
           "sources": [
             {
-              "label": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
+              "label": "Sankei item shared on X",
+              "url": "https://x.com/otonanokensiki/status/2114144631512592783"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Conflicto",
-          "headline": "Informe: las RSF de Sudán atacaron hospitales",
-          "paragraphs": [
-            "Un resumen de World News dice que una investigación halla que las RSF de Sudán atacaron hospitales a propósito. El post no da más detalles de la investigación."
-          ],
-          "highlightParagraph": 0,
-          "trend": "War",
-          "sources": [
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Seguridad",
-          "headline": "Sitios caídos por temor a fallos de IA",
-          "paragraphs": [
-            "SAfm dice que sitios de gobierno en Europa y partes de Asia quedaron offline o con fallos ante temores por fallos de software ligado a la IA. Se presenta como informado, no confirmado aquí."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Cyber",
-          "sources": [
-            {
-              "label": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
+              "text": "Sankei item shared on X",
+              "url": "https://x.com/otonanokensiki/status/2114144631512592783"
             }
           ]
         }
@@ -762,189 +478,118 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-10-24T11:09:30.097Z",
+      "updatedAt": "2026-10-25T11:38:58.973Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Breaking",
-        "Developing",
-        "Geopolitics",
-        "Tensions",
-        "War",
-        "Cyber"
+        "Rising",
+        "Watch",
+        "New",
+        "Steady"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Catastrophe",
-          "headline": "Séisme au Tibet: au moins 16 morts, selon des sources",
+          "category": "Monde",
+          "headline": "France: près de 1 000 arrestations",
           "paragraphs": [
-            "Des comptes d'actu sur X disent qu'un fort séisme au Tibet a tué au moins 16 personnes. Les bilans sont des rapports, non confirmés ici."
+            "Des utilisateurs sur X ont partagé un article de la BBC: près de 1 000 arrestations après des heurts lors de manifestations en France.",
+            "Un texte d'opinion distinct parle d'une France \"au bord de la guerre civile\". C'est un commentaire, pas un fait établi."
           ],
-          "highlightParagraph": 0,
-          "trend": "Breaking",
+          "highlightParagraph": 1,
+          "trend": "Rising",
           "sources": [
             {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
+              "label": "BBC arrests item on X",
+              "url": "https://x.com/M_ark_And/status/2114144757383344521"
             },
             {
-              "label": "Channels Television",
-              "url": "https://x.com/channelstv/status/2113742398668845458"
-            },
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "label": "WSJ opinion share on X",
+              "url": "https://x.com/JSoliz/status/2114144795665055899"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
+              "text": "BBC arrests item on X",
+              "url": "https://x.com/M_ark_And/status/2114144757383344521"
             },
             {
               "id": "101-1",
-              "text": "Channels Television",
-              "url": "https://x.com/channelstv/status/2113742398668845458"
-            },
-            {
-              "id": "101-2",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "text": "WSJ opinion share on X",
+              "url": "https://x.com/JSoliz/status/2114144795665055899"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Météo",
-          "headline": "Le typhon Champi se dirige vers Taïwan",
+          "category": "Politique",
+          "headline": "Brésil: second tour annoncé serré",
           "paragraphs": [
-            "Des synthèses sur X disent que le typhon Champi approche Taïwan avec pluie et vent forts, perturbant les vols. Infos en circulation, en attente d'alertes locales."
+            "Yahoo News Japon, partagé sur X, indique que le second tour présidentiel au Brésil s'annonce serré.",
+            "Ce bulletin ne fait que relayer l'affirmation. Il ne confirme pas la course."
           ],
           "highlightParagraph": 0,
-          "trend": "Developing",
+          "trend": "Watch",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            },
-            {
-              "label": "91.2 Crooze FM",
-              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
+              "label": "Yahoo News Brazil item",
+              "url": "https://x.com/YahooNewsTopics/status/2114144659136294949"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            },
-            {
-              "id": "102-1",
-              "text": "91.2 Crooze FM",
-              "url": "https://x.com/912CroozeFM/status/2113475433350213873"
+              "text": "Yahoo News Brazil item",
+              "url": "https://x.com/YahooNewsTopics/status/2114144659136294949"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Conflit",
-          "headline": "Trump: Musk a rétabli Starlink",
+          "category": "Économie",
+          "headline": "Post: Google paierait 1,1 Md à SpaceX",
           "paragraphs": [
-            "Des posts citent Donald Trump disant qu'Elon Musk a rétabli le Starlink de l'Ukraine. Ils n'apportent pas de vérification indépendante du réseau."
+            "Un utilisateur a partagé un lien financier affirmant que Google verse 1,1 milliard de dollars à SpaceX, et a questionné le moment après les résultats.",
+            "La somme est une affirmation non vérifiée sur X, pas un chiffre confirmé ici."
           ],
-          "highlightParagraph": 0,
-          "trend": "Geopolitics",
+          "highlightParagraph": 1,
+          "trend": "New",
           "sources": [
             {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
-            },
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "label": "Finance link shared on X",
+              "url": "https://x.com/SteveSmithyrui/status/2114144448217313323"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2113444772346274198"
-            },
-            {
-              "id": "103-1",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
+              "text": "Finance link shared on X",
+              "url": "https://x.com/SteveSmithyrui/status/2114144448217313323"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Énergie",
-          "headline": "L'Iran signale des pétroliers endommagés à Ormuz",
+          "category": "Politique",
+          "headline": "Japon divisé sur la coupe de 31 sièges",
           "paragraphs": [
-            "SAfm Radio indique que l'Iran a signalé sept pétroliers en feu ou endommagés dans le détroit d'Ormuz. Le post le présente comme un rapport, non comme un fait vérifié."
+            "Un article du Sankei partagé sur X indique que des chefs de parti divergent sur un plan de suppression de 31 sièges à la chambre basse.",
+            "Le Komeito est cité contre une coupe limitée aux sièges proportionnels. Affirmation interne, non vérifiée ici."
           ],
           "highlightParagraph": 0,
-          "trend": "Tensions",
+          "trend": "Steady",
           "sources": [
             {
-              "label": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
+              "label": "Sankei item shared on X",
+              "url": "https://x.com/otonanokensiki/status/2114144631512592783"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Conflit",
-          "headline": "Rapport: les RSF du Soudan ont visé des hôpitaux",
-          "paragraphs": [
-            "Une synthèse World News dit qu'une enquête conclut que les RSF du Soudan ont délibérément visé des hôpitaux. Le post ne donne pas d'autres détails."
-          ],
-          "highlightParagraph": 0,
-          "trend": "War",
-          "sources": [
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2113447103531721030"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Sécurité",
-          "headline": "Sites perturbés par des craintes sur l'IA",
-          "paragraphs": [
-            "SAfm indique que des sites publics en Europe et dans une partie de l'Asie ont été coupés ou perturbés face à de possibles failles de logiciels liés à l'IA. Signalé, non confirmé ici."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Cyber",
-          "sources": [
-            {
-              "label": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "SAfm Radio",
-              "url": "https://x.com/SAfmRadio/status/2113487307168710930"
+              "text": "Sankei item shared on X",
+              "url": "https://x.com/otonanokensiki/status/2114144631512592783"
             }
           ]
         }
