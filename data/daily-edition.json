@@ -1,119 +1,128 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "editions": {
     "en": {
-      "updatedAt": "2026-10-26T13:12:01.103Z",
+      "updatedAt": "2026-10-27T12:20:14.698Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Major election",
-        "Power shift",
-        "Unverified claim",
-        "Election debate"
+        "Contested result",
+        "Conflict claims",
+        "Disputed allegation",
+        "Unconfirmed claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "World",
-          "headline": "Lula wins Brazil runoff for fourth term",
+          "category": "Politics",
+          "headline": "Lula wins Brazil runoff; rival contests",
           "paragraphs": [
-            "Bloomberg reports Lula da Silva came from behind to win Brazil's runoff and a record fourth term.",
-            "The result is said to halt a right-wing wave in Latin America. X posts relay those news accounts."
+            "ABC News reports Lula da Silva defeated Flavio Bolsonaro in Brazil's presidential runoff.",
+            "Bolsonaro refuses to concede and plans to request an annulment of the election."
           ],
-          "highlightParagraph": 0,
-          "trend": "Major election",
+          "highlightParagraph": 1,
+          "trend": "Contested result",
           "sources": [
             {
-              "label": "@business",
-              "url": "https://x.com/business/status/2114507262563598827"
+              "label": "ABC News",
+              "url": "https://x.com/ABC/status/2114868874524889593"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@business",
-              "url": "https://x.com/business/status/2114507262563598827"
+              "text": "ABC News",
+              "url": "https://x.com/ABC/status/2114868874524889593"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Europe",
-          "headline": "Vucic concedes Serbia poll defeat",
+          "category": "Geopolitics",
+          "headline": "Trump says Iran started the war",
           "paragraphs": [
-            "Sky News and the New York Times report Vucic conceded after student protests weakened his long hold on power.",
-            "Belgrade was said to celebrate as a student-backed movement claimed the parliamentary election."
+            "President Trump said the US did not start a war with Iran.",
+            "He claimed Iran started the conflict, according to posts circulating on X."
           ],
           "highlightParagraph": 0,
-          "trend": "Power shift",
+          "trend": "Conflict claims",
           "sources": [
             {
-              "label": "@SkyNews",
-              "url": "https://x.com/SkyNews/status/2114495715313426796"
+              "label": "NewsWire",
+              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
             },
             {
-              "label": "@nytimes",
-              "url": "https://x.com/nytimes/status/2114494574416519320"
+              "label": "Sulaiman Ahmed",
+              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@SkyNews",
-              "url": "https://x.com/SkyNews/status/2114495715313426796"
+              "text": "NewsWire",
+              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
             },
             {
               "id": "102-1",
-              "text": "@nytimes",
-              "url": "https://x.com/nytimes/status/2114494574416519320"
+              "text": "Sulaiman Ahmed",
+              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Mideast",
-          "headline": "Reports: IDF balks at Iran strike",
+          "category": "Politics",
+          "headline": "Trump rape claim reported and disputed",
           "paragraphs": [
-            "A post cites Israeli media claiming IDF chiefs refused a Netanyahu order to strike Iran.",
-            "They allegedly see no urgent need and fear full-scale war. Treat this as an unverified claim, not fact."
+            "The Telegraph cites a Democratic report alleging Trump raped a former model in 1993.",
+            "Critics on X call the claims recycled fake news ahead of an election."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "trend": "Disputed allegation",
           "sources": [
             {
-              "label": "@anthonyzenkus",
-              "url": "https://x.com/anthonyzenkus/status/2114505009870053466"
+              "label": "The Telegraph",
+              "url": "https://x.com/Telegraph/status/2114837110603542796"
+            },
+            {
+              "label": "Catturd",
+              "url": "https://x.com/catturd2/status/2114868645549822392"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@anthonyzenkus",
-              "url": "https://x.com/anthonyzenkus/status/2114505009870053466"
+              "text": "The Telegraph",
+              "url": "https://x.com/Telegraph/status/2114837110603542796"
+            },
+            {
+              "id": "103-1",
+              "text": "Catturd",
+              "url": "https://x.com/catturd2/status/2114868645549822392"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Americas",
-          "headline": "60 Minutes probes Colorado vote case",
+          "category": "Politics",
+          "headline": "Ally claims Trump backs fraud-tip rewards",
           "paragraphs": [
-            "60 Minutes says former clerk Tina Peters ordered cameras off and gave an outsider fake credentials.",
-            "A Republican clerks leader told the program the president can spread election claims faster than officials reply."
+            "A Trump ally says the president backed $1 million rewards for election-fraud whistleblowers.",
+            "The claim links to Gateway Pundit; X posts do not independently confirm the policy."
           ],
-          "highlightParagraph": 0,
-          "trend": "Election debate",
+          "highlightParagraph": 1,
+          "trend": "Unconfirmed claim",
           "sources": [
             {
-              "label": "@60Minutes",
-              "url": "https://x.com/60Minutes/status/2114501039932002570"
+              "label": "Wayne Allyn Root",
+              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@60Minutes",
-              "url": "https://x.com/60Minutes/status/2114501039932002570"
+              "text": "Wayne Allyn Root",
+              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
             }
           ]
         }
@@ -121,118 +130,127 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-10-26T13:12:01.103Z",
+      "updatedAt": "2026-10-27T12:20:14.698Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Major election",
-        "Power shift",
-        "Unverified claim",
-        "Election debate"
+        "Contested result",
+        "Conflict claims",
+        "Disputed allegation",
+        "Unconfirmed claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Världen",
-          "headline": "Lula vinner fjärde mandat i Brasilien",
+          "category": "Politik",
+          "headline": "Lula vinner i Brasilien; rival bestrider",
           "paragraphs": [
-            "Bloomberg uppger att Lula da Silva kom ikapp och vann omvalet och ett rekordfjärde mandat.",
-            "Resultatet sägs hejda en högervåg i Latinamerika. Nyhetsinlägg på X återger uppgifterna."
+            "ABC News uppger att Lula da Silva besegrade Flavio Bolsonaro i Brasiliens presidentval.",
+            "Bolsonaro vägrar erkänna sig besegrad och vill få valet ogiltigförklarat."
           ],
-          "highlightParagraph": 0,
-          "trend": "Major election",
+          "highlightParagraph": 1,
+          "trend": "Contested result",
           "sources": [
             {
-              "label": "@business",
-              "url": "https://x.com/business/status/2114507262563598827"
+              "label": "ABC News",
+              "url": "https://x.com/ABC/status/2114868874524889593"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@business",
-              "url": "https://x.com/business/status/2114507262563598827"
+              "text": "ABC News",
+              "url": "https://x.com/ABC/status/2114868874524889593"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Europa",
-          "headline": "Vucic erkänner valförlust i Serbien",
+          "category": "Geopolitik",
+          "headline": "Trump: Iran startade kriget",
           "paragraphs": [
-            "Sky News och New York Times rapporterar att Vucic erkände sig besegrad efter studentprotester.",
-            "Belgrad ska ha firat när en studentstödd rörelse tog hem parlamentsvalet."
+            "President Trump sade att USA inte startade ett krig med Iran.",
+            "Han hävdade att Iran startade det, enligt inlägg på X."
           ],
           "highlightParagraph": 0,
-          "trend": "Power shift",
+          "trend": "Conflict claims",
           "sources": [
             {
-              "label": "@SkyNews",
-              "url": "https://x.com/SkyNews/status/2114495715313426796"
+              "label": "NewsWire",
+              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
             },
             {
-              "label": "@nytimes",
-              "url": "https://x.com/nytimes/status/2114494574416519320"
+              "label": "Sulaiman Ahmed",
+              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@SkyNews",
-              "url": "https://x.com/SkyNews/status/2114495715313426796"
+              "text": "NewsWire",
+              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
             },
             {
               "id": "102-1",
-              "text": "@nytimes",
-              "url": "https://x.com/nytimes/status/2114494574416519320"
+              "text": "Sulaiman Ahmed",
+              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Mellanöstern",
-          "headline": "Rapporter: IDF vägrar Iranorder",
+          "category": "Politik",
+          "headline": "Våldtäktsanklagelse mot Trump bestrids",
           "paragraphs": [
-            "Ett inlägg citerar israelisk media som påstår att IDF-chefer vägrat Netanyahus order om angrepp på Iran.",
-            "De ska se ingen akut nödvändighet och frukta storkrig. Se det som ett overifierat påstående, inte fakta."
+            "Telegraph rapporterar att ett demokratiskt dokument anklagar Trump för våldtäkt 1993.",
+            "Kritiker på X avfärdar anklagelsen som återvunna falska nyheter inför ett val."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "trend": "Disputed allegation",
           "sources": [
             {
-              "label": "@anthonyzenkus",
-              "url": "https://x.com/anthonyzenkus/status/2114505009870053466"
+              "label": "The Telegraph",
+              "url": "https://x.com/Telegraph/status/2114837110603542796"
+            },
+            {
+              "label": "Catturd",
+              "url": "https://x.com/catturd2/status/2114868645549822392"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@anthonyzenkus",
-              "url": "https://x.com/anthonyzenkus/status/2114505009870053466"
+              "text": "The Telegraph",
+              "url": "https://x.com/Telegraph/status/2114837110603542796"
+            },
+            {
+              "id": "103-1",
+              "text": "Catturd",
+              "url": "https://x.com/catturd2/status/2114868645549822392"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Amerika",
-          "headline": "60 Minutes granskar Colorado-val",
+          "category": "Politik",
+          "headline": "Allierad: Trump stöder belöningar för tips",
           "paragraphs": [
-            "60 Minutes säger att tidigare tjänstemannen Tina Peters stängde kameror och gav falska behörigheter.",
-            "En republikansk valchef sa att presidenten sprider valpåståenden snabbare än tjänstemän kan svara."
+            "En allierad hävdar att president Trump stöder belöningar på 1 miljon dollar för tips om valfusk.",
+            "Påståendet länkar till Gateway Pundit; inlägg på X bekräftar inte policyn."
           ],
-          "highlightParagraph": 0,
-          "trend": "Election debate",
+          "highlightParagraph": 1,
+          "trend": "Unconfirmed claim",
           "sources": [
             {
-              "label": "@60Minutes",
-              "url": "https://x.com/60Minutes/status/2114501039932002570"
+              "label": "Wayne Allyn Root",
+              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@60Minutes",
-              "url": "https://x.com/60Minutes/status/2114501039932002570"
+              "text": "Wayne Allyn Root",
+              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
             }
           ]
         }
@@ -240,118 +258,127 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-10-26T13:12:01.103Z",
+      "updatedAt": "2026-10-27T12:20:14.698Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Major election",
-        "Power shift",
-        "Unverified claim",
-        "Election debate"
+        "Contested result",
+        "Conflict claims",
+        "Disputed allegation",
+        "Unconfirmed claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Welt",
-          "headline": "Lula gewinnt Stichwahl in Brasilien",
+          "category": "Politik",
+          "headline": "Lula gewinnt in Brasilien; Rivale bestreitet",
           "paragraphs": [
-            "Bloomberg berichtet, Lula da Silva habe die Stichwahl und eine vierte Amtszeit überraschend gewonnen.",
-            "Das Ergebnis soll eine rechte Welle in Lateinamerika stoppen. Meldungen dazu laufen auf X."
+            "ABC News berichtet, Lula da Silva habe Flavio Bolsonaro in der Stichwahl besiegt.",
+            "Bolsonaro erkennt das Ergebnis nicht an und will die Wahl annullieren lassen."
           ],
-          "highlightParagraph": 0,
-          "trend": "Major election",
+          "highlightParagraph": 1,
+          "trend": "Contested result",
           "sources": [
             {
-              "label": "@business",
-              "url": "https://x.com/business/status/2114507262563598827"
+              "label": "ABC News",
+              "url": "https://x.com/ABC/status/2114868874524889593"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@business",
-              "url": "https://x.com/business/status/2114507262563598827"
+              "text": "ABC News",
+              "url": "https://x.com/ABC/status/2114868874524889593"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Europa",
-          "headline": "Vucic räumt Wahlniederlage ein",
+          "category": "Geopolitik",
+          "headline": "Trump: Iran begann den Krieg",
           "paragraphs": [
-            "Sky News und die New York Times melden, Vucic habe nach Studentenprotesten die Niederlage eingeräumt.",
-            "In Belgrad soll gefeiert worden sein, als ein studentengetragenes Bündnis die Wahl gewann."
+            "Präsident Trump sagte, die USA hätten keinen Krieg mit Iran begonnen.",
+            "Er behauptete, Iran habe ihn begonnen, laut Beiträgen auf X."
           ],
           "highlightParagraph": 0,
-          "trend": "Power shift",
+          "trend": "Conflict claims",
           "sources": [
             {
-              "label": "@SkyNews",
-              "url": "https://x.com/SkyNews/status/2114495715313426796"
+              "label": "NewsWire",
+              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
             },
             {
-              "label": "@nytimes",
-              "url": "https://x.com/nytimes/status/2114494574416519320"
+              "label": "Sulaiman Ahmed",
+              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@SkyNews",
-              "url": "https://x.com/SkyNews/status/2114495715313426796"
+              "text": "NewsWire",
+              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
             },
             {
               "id": "102-1",
-              "text": "@nytimes",
-              "url": "https://x.com/nytimes/status/2114494574416519320"
+              "text": "Sulaiman Ahmed",
+              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Naher Osten",
-          "headline": "Berichte: IDF lehnt Iran-Schlag ab",
+          "category": "Politik",
+          "headline": "Vergewaltigungsvorwurf gegen Trump umstritten",
           "paragraphs": [
-            "Ein Beitrag zitiert israelische Medien: Die IDF-Spitze soll Netanyahus Iran-Befehl abgelehnt haben.",
-            "Angeblich fehle dringende Notwendigkeit; ein großer Krieg werde gefürchtet. Unbestätigte Behauptung."
+            "Der Telegraph berichtet über ein Dokument der Demokraten, das Trump 1993 Vergewaltigung vorwirft.",
+            "Kritiker auf X nennen die Behauptung recycelte Falschnachrichten vor einer Wahl."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "trend": "Disputed allegation",
           "sources": [
             {
-              "label": "@anthonyzenkus",
-              "url": "https://x.com/anthonyzenkus/status/2114505009870053466"
+              "label": "The Telegraph",
+              "url": "https://x.com/Telegraph/status/2114837110603542796"
+            },
+            {
+              "label": "Catturd",
+              "url": "https://x.com/catturd2/status/2114868645549822392"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@anthonyzenkus",
-              "url": "https://x.com/anthonyzenkus/status/2114505009870053466"
+              "text": "The Telegraph",
+              "url": "https://x.com/Telegraph/status/2114837110603542796"
+            },
+            {
+              "id": "103-1",
+              "text": "Catturd",
+              "url": "https://x.com/catturd2/status/2114868645549822392"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Amerika",
-          "headline": "60 Minutes zum Colorado-Wahlfall",
+          "category": "Politik",
+          "headline": "Verbündeter: Trump für Betrugs-Belohnungen",
           "paragraphs": [
-            "60 Minutes berichtet, Ex-Beamtin Tina Peters habe Kameras abgeschaltet und falsche Zugänge vergeben.",
-            "Ein republikanischer Wahlleiter sagte, der Präsident verbreite Wahlbehauptungen schneller als Gegenreden."
+            "Ein Verbündeter behauptet, Präsident Trump unterstütze 1-Mio.-Dollar-Belohnungen für Hinweise auf Wahlbetrug.",
+            "Die Behauptung verlinkt Gateway Pundit; X-Beiträge bestätigen die Politik nicht."
           ],
-          "highlightParagraph": 0,
-          "trend": "Election debate",
+          "highlightParagraph": 1,
+          "trend": "Unconfirmed claim",
           "sources": [
             {
-              "label": "@60Minutes",
-              "url": "https://x.com/60Minutes/status/2114501039932002570"
+              "label": "Wayne Allyn Root",
+              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@60Minutes",
-              "url": "https://x.com/60Minutes/status/2114501039932002570"
+              "text": "Wayne Allyn Root",
+              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
             }
           ]
         }
@@ -359,118 +386,127 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-10-26T13:12:01.103Z",
+      "updatedAt": "2026-10-27T12:20:14.698Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Major election",
-        "Power shift",
-        "Unverified claim",
-        "Election debate"
+        "Contested result",
+        "Conflict claims",
+        "Disputed allegation",
+        "Unconfirmed claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Mundo",
-          "headline": "Lula gana la segunda vuelta en Brasil",
+          "category": "Política",
+          "headline": "Lula gana en Brasil; rival impugna",
           "paragraphs": [
-            "Bloomberg informa que Lula da Silva remontó y ganó la segunda vuelta y un cuarto mandato.",
-            "El resultado frenaría una ola de derecha en América Latina. Las notas circulan en X."
+            "ABC News informa que Lula da Silva derrotó a Flavio Bolsonaro en la segunda vuelta.",
+            "Bolsonaro no reconoce la derrota y planea pedir la anulación de la elección."
           ],
-          "highlightParagraph": 0,
-          "trend": "Major election",
+          "highlightParagraph": 1,
+          "trend": "Contested result",
           "sources": [
             {
-              "label": "@business",
-              "url": "https://x.com/business/status/2114507262563598827"
+              "label": "ABC News",
+              "url": "https://x.com/ABC/status/2114868874524889593"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@business",
-              "url": "https://x.com/business/status/2114507262563598827"
+              "text": "ABC News",
+              "url": "https://x.com/ABC/status/2114868874524889593"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Europa",
-          "headline": "Vucic admite derrota electoral",
+          "category": "Geopolítica",
+          "headline": "Trump: Irán inició la guerra",
           "paragraphs": [
-            "Sky News y el New York Times informan que Vucic reconoció la derrota tras protestas estudiantiles.",
-            "En Belgrado se habría celebrado el triunfo de un movimiento respaldado por estudiantes."
+            "El presidente Trump dijo que EE.UU. no inició una guerra con Irán.",
+            "Afirmó que Irán la comenzó, según publicaciones en X."
           ],
           "highlightParagraph": 0,
-          "trend": "Power shift",
+          "trend": "Conflict claims",
           "sources": [
             {
-              "label": "@SkyNews",
-              "url": "https://x.com/SkyNews/status/2114495715313426796"
+              "label": "NewsWire",
+              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
             },
             {
-              "label": "@nytimes",
-              "url": "https://x.com/nytimes/status/2114494574416519320"
+              "label": "Sulaiman Ahmed",
+              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@SkyNews",
-              "url": "https://x.com/SkyNews/status/2114495715313426796"
+              "text": "NewsWire",
+              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
             },
             {
               "id": "102-1",
-              "text": "@nytimes",
-              "url": "https://x.com/nytimes/status/2114494574416519320"
+              "text": "Sulaiman Ahmed",
+              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Oriente Medio",
-          "headline": "Informes: el IDF resiste orden sobre Irán",
+          "category": "Política",
+          "headline": "Acusación de violación a Trump, disputada",
           "paragraphs": [
-            "Una publicación cita a medios israelíes: jefes del IDF habrían rechazado una orden de Netanyahu de atacar Irán.",
-            "Alegan que no hay urgencia y temen una guerra total. Es una afirmación no verificada, no un hecho."
+            "The Telegraph informa de un informe demócrata que acusa a Trump de violación en 1993.",
+            "Críticos en X descartan la acusación como noticias falsas recicladas antes de unas elecciones."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "trend": "Disputed allegation",
           "sources": [
             {
-              "label": "@anthonyzenkus",
-              "url": "https://x.com/anthonyzenkus/status/2114505009870053466"
+              "label": "The Telegraph",
+              "url": "https://x.com/Telegraph/status/2114837110603542796"
+            },
+            {
+              "label": "Catturd",
+              "url": "https://x.com/catturd2/status/2114868645549822392"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@anthonyzenkus",
-              "url": "https://x.com/anthonyzenkus/status/2114505009870053466"
+              "text": "The Telegraph",
+              "url": "https://x.com/Telegraph/status/2114837110603542796"
+            },
+            {
+              "id": "103-1",
+              "text": "Catturd",
+              "url": "https://x.com/catturd2/status/2114868645549822392"
             }
           ]
         },
         {
           "page": 104,
-          "category": "América",
-          "headline": "60 Minutes examina caso electoral",
+          "category": "Política",
+          "headline": "Aliado: Trump apoya recompensas por fraude",
           "paragraphs": [
-            "60 Minutes dice que la exfuncionaria Tina Peters apagó cámaras y dio credenciales falsas a un externo.",
-            "Un líder republicano dijo que el presidente difunde versiones electorales más rápido que las réplicas."
+            "Un aliado afirma que el presidente Trump apoya recompensas de 1 millón por denuncias de fraude electoral.",
+            "La afirmación enlaza a Gateway Pundit; los posts en X no confirman la política."
           ],
-          "highlightParagraph": 0,
-          "trend": "Election debate",
+          "highlightParagraph": 1,
+          "trend": "Unconfirmed claim",
           "sources": [
             {
-              "label": "@60Minutes",
-              "url": "https://x.com/60Minutes/status/2114501039932002570"
+              "label": "Wayne Allyn Root",
+              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@60Minutes",
-              "url": "https://x.com/60Minutes/status/2114501039932002570"
+              "text": "Wayne Allyn Root",
+              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
             }
           ]
         }
@@ -478,118 +514,127 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-10-26T13:12:01.103Z",
+      "updatedAt": "2026-10-27T12:20:14.698Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Major election",
-        "Power shift",
-        "Unverified claim",
-        "Election debate"
+        "Contested result",
+        "Conflict claims",
+        "Disputed allegation",
+        "Unconfirmed claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Monde",
-          "headline": "Lula remporte le second tour au Brésil",
+          "category": "Politique",
+          "headline": "Lula gagne au Brésil; rival conteste",
           "paragraphs": [
-            "Bloomberg indique que Lula da Silva a remonté pour gagner le second tour et un quatrième mandat.",
-            "Le résultat stopperait une vague de droite en Amérique latine. Les dépêches circulent sur X."
+            "ABC News indique que Lula da Silva a battu Flavio Bolsonaro au second tour.",
+            "Bolsonaro refuse de concéder et veut faire annuler l'élection."
           ],
-          "highlightParagraph": 0,
-          "trend": "Major election",
+          "highlightParagraph": 1,
+          "trend": "Contested result",
           "sources": [
             {
-              "label": "@business",
-              "url": "https://x.com/business/status/2114507262563598827"
+              "label": "ABC News",
+              "url": "https://x.com/ABC/status/2114868874524889593"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@business",
-              "url": "https://x.com/business/status/2114507262563598827"
+              "text": "ABC News",
+              "url": "https://x.com/ABC/status/2114868874524889593"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Europe",
-          "headline": "Vucic concède sa défaite en Serbie",
+          "category": "Géopolitique",
+          "headline": "Trump: l'Iran a commencé la guerre",
           "paragraphs": [
-            "Sky News et le New York Times rapportent que Vucic a concédé après des protestations étudiantes.",
-            "Belgrade aurait fêté la victoire d'un mouvement soutenu par les étudiants."
+            "Le président Trump a dit que les États-Unis n'ont pas commencé une guerre avec l'Iran.",
+            "Il a affirmé que l'Iran l'a commencée, selon des posts sur X."
           ],
           "highlightParagraph": 0,
-          "trend": "Power shift",
+          "trend": "Conflict claims",
           "sources": [
             {
-              "label": "@SkyNews",
-              "url": "https://x.com/SkyNews/status/2114495715313426796"
+              "label": "NewsWire",
+              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
             },
             {
-              "label": "@nytimes",
-              "url": "https://x.com/nytimes/status/2114494574416519320"
+              "label": "Sulaiman Ahmed",
+              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@SkyNews",
-              "url": "https://x.com/SkyNews/status/2114495715313426796"
+              "text": "NewsWire",
+              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
             },
             {
               "id": "102-1",
-              "text": "@nytimes",
-              "url": "https://x.com/nytimes/status/2114494574416519320"
+              "text": "Sulaiman Ahmed",
+              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Moyen-Orient",
-          "headline": "Infos: l'armée refuse une frappe en Iran",
+          "category": "Politique",
+          "headline": "Accusation de viol contre Trump contestée",
           "paragraphs": [
-            "Un message cite des médias israéliens: l'état-major aurait refusé l'ordre de Netanyahu de frapper l'Iran.",
-            "Ils invoqueraient l'absence d'urgence et le risque de guerre totale. Affirmation non vérifiée."
+            "Le Telegraph rapporte un document démocrate accusant Trump de viol en 1993.",
+            "Des critiques sur X qualifient l'allégation de fausses nouvelles recyclées avant une élection."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "trend": "Disputed allegation",
           "sources": [
             {
-              "label": "@anthonyzenkus",
-              "url": "https://x.com/anthonyzenkus/status/2114505009870053466"
+              "label": "The Telegraph",
+              "url": "https://x.com/Telegraph/status/2114837110603542796"
+            },
+            {
+              "label": "Catturd",
+              "url": "https://x.com/catturd2/status/2114868645549822392"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@anthonyzenkus",
-              "url": "https://x.com/anthonyzenkus/status/2114505009870053466"
+              "text": "The Telegraph",
+              "url": "https://x.com/Telegraph/status/2114837110603542796"
+            },
+            {
+              "id": "103-1",
+              "text": "Catturd",
+              "url": "https://x.com/catturd2/status/2114868645549822392"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Amériques",
-          "headline": "60 Minutes sur le scrutin au Colorado",
+          "category": "Politique",
+          "headline": "Allié: Trump pour des primes anti-fraude",
           "paragraphs": [
-            "60 Minutes affirme que l'ex-responsable Tina Peters a coupé les caméras et donné de faux accès.",
-            "Un chef républicain dit que le président propage des versions plus vite que les démentis officiels."
+            "Un allié affirme que le président Trump soutient des primes d'un million pour signaler la fraude électorale.",
+            "L'allégation renvoie à Gateway Pundit; les posts sur X ne confirment pas la mesure."
           ],
-          "highlightParagraph": 0,
-          "trend": "Election debate",
+          "highlightParagraph": 1,
+          "trend": "Unconfirmed claim",
           "sources": [
             {
-              "label": "@60Minutes",
-              "url": "https://x.com/60Minutes/status/2114501039932002570"
+              "label": "Wayne Allyn Root",
+              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@60Minutes",
-              "url": "https://x.com/60Minutes/status/2114501039932002570"
+              "text": "Wayne Allyn Root",
+              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
             }
           ]
         }
