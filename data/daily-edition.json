@@ -1,128 +1,119 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "editions": {
     "en": {
-      "updatedAt": "2026-10-27T12:20:14.698Z",
+      "updatedAt": "2026-10-28T13:03:59.717Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Contested result",
-        "Conflict claims",
-        "Disputed allegation",
-        "Unconfirmed claim"
+        "Official update",
+        "Unverified claim",
+        "Historical recall",
+        "Source check"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Politics",
-          "headline": "Lula wins Brazil runoff; rival contests",
+          "category": "Americas",
+          "headline": "Chile logs wind aid needs in Requínoa",
           "paragraphs": [
-            "ABC News reports Lula da Silva defeated Flavio Bolsonaro in Brazil's presidential runoff.",
-            "Bolsonaro refuses to concede and plans to request an annulment of the election."
+            "Chile's social development minister says teams finished an emergency census in Requínoa within 24 hours of strong winds.",
+            "She lists 94 families and 245 people; 3 in 10 are older. She says 98% need building materials and half need food."
           ],
-          "highlightParagraph": 1,
-          "trend": "Contested result",
+          "highlightParagraph": 0,
+          "trend": "Official update",
           "sources": [
             {
-              "label": "ABC News",
-              "url": "https://x.com/ABC/status/2114868874524889593"
+              "label": "Ministra Wulf on X",
+              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "ABC News",
-              "url": "https://x.com/ABC/status/2114868874524889593"
+              "text": "Ministra Wulf on X",
+              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Geopolitics",
-          "headline": "Trump says Iran started the war",
+          "category": "Middle East",
+          "headline": "User claims Yemen hill route is open",
           "paragraphs": [
-            "President Trump said the US did not start a war with Iran.",
-            "He claimed Iran started the conflict, according to posts circulating on X."
+            "A user says that after what he calls the liberation of Kahlan and Al-Shaqab, the road to the summit of Jabal al-Arus is open to Ansar forces.",
+            "This is an unverified social-media claim. The post gives no official source or independent confirmation."
           ],
-          "highlightParagraph": 0,
-          "trend": "Conflict claims",
+          "highlightParagraph": 1,
+          "trend": "Unverified claim",
           "sources": [
             {
-              "label": "NewsWire",
-              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
-            },
-            {
-              "label": "Sulaiman Ahmed",
-              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
+              "label": "hamam_lnahmi on X",
+              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "NewsWire",
-              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
-            },
-            {
-              "id": "102-1",
-              "text": "Sulaiman Ahmed",
-              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
+              "text": "hamam_lnahmi on X",
+              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politics",
-          "headline": "Trump rape claim reported and disputed",
+          "category": "Society",
+          "headline": "Post recalls 1995 Oklahoma bombing",
           "paragraphs": [
-            "The Telegraph cites a Democratic report alleging Trump raped a former model in 1993.",
-            "Critics on X call the claims recycled fake news ahead of an election."
+            "A post with hundreds of replies names Timothy McVeigh and the 1995 attack on the Murrah Building in Oklahoma City, which killed 168, and asks if people remember.",
+            "It restates a known historical event. It does not report a new incident."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed allegation",
+          "trend": "Historical recall",
           "sources": [
             {
-              "label": "The Telegraph",
-              "url": "https://x.com/Telegraph/status/2114837110603542796"
-            },
-            {
-              "label": "Catturd",
-              "url": "https://x.com/catturd2/status/2114868645549822392"
+              "label": "Miles Commodore on X",
+              "url": "https://x.com/miles_commodore/status/2115232064987701337"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "The Telegraph",
-              "url": "https://x.com/Telegraph/status/2114837110603542796"
-            },
-            {
-              "id": "103-1",
-              "text": "Catturd",
-              "url": "https://x.com/catturd2/status/2114868645549822392"
+              "text": "Miles Commodore on X",
+              "url": "https://x.com/miles_commodore/status/2115232064987701337"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politics",
-          "headline": "Ally claims Trump backs fraud-tip rewards",
+          "category": "Media",
+          "headline": "Late likes lean away from hard news",
           "paragraphs": [
-            "A Trump ally says the president backed $1 million rewards for election-fraud whistleblowers.",
-            "The claim links to Gateway Pundit; X posts do not independently confirm the policy."
+            "Other posts above 200 likes in this late window were faith notes, tourism promotion, memes and pop-culture replies.",
+            "Those items are not treated here as evidence of world events."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unconfirmed claim",
+          "highlightParagraph": 0,
+          "trend": "Source check",
           "sources": [
             {
-              "label": "Wayne Allyn Root",
-              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
+              "label": "Lysa TerKeurst on X",
+              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
+            },
+            {
+              "label": "Explore France JP on X",
+              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Wayne Allyn Root",
-              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
+              "text": "Lysa TerKeurst on X",
+              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
+            },
+            {
+              "id": "104-1",
+              "text": "Explore France JP on X",
+              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
             }
           ]
         }
@@ -130,127 +121,118 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-10-27T12:20:14.698Z",
+      "updatedAt": "2026-10-28T13:03:59.717Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Contested result",
-        "Conflict claims",
-        "Disputed allegation",
-        "Unconfirmed claim"
+        "Official update",
+        "Unverified claim",
+        "Historical recall",
+        "Source check"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Politik",
-          "headline": "Lula vinner i Brasilien; rival bestrider",
+          "category": "Amerika",
+          "headline": "Chile listar vindhjälp i Requínoa",
           "paragraphs": [
-            "ABC News uppger att Lula da Silva besegrade Flavio Bolsonaro i Brasiliens presidentval.",
-            "Bolsonaro vägrar erkänna sig besegrad och vill få valet ogiltigförklarat."
+            "Chiles socialminister säger att teamen på under 24 timmar gjorde en nödräkning i Requínoa efter hårda vindar.",
+            "Hon listar 94 familjer och 245 personer; 3 av 10 är äldre. Hon säger att 98% behöver byggmaterial och hälften mat."
           ],
-          "highlightParagraph": 1,
-          "trend": "Contested result",
+          "highlightParagraph": 0,
+          "trend": "Official update",
           "sources": [
             {
-              "label": "ABC News",
-              "url": "https://x.com/ABC/status/2114868874524889593"
+              "label": "Ministra Wulf on X",
+              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "ABC News",
-              "url": "https://x.com/ABC/status/2114868874524889593"
+              "text": "Ministra Wulf on X",
+              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Geopolitik",
-          "headline": "Trump: Iran startade kriget",
+          "category": "Mellanöstern",
+          "headline": "Användare påstår öppen väg i Jemen",
           "paragraphs": [
-            "President Trump sade att USA inte startade ett krig med Iran.",
-            "Han hävdade att Iran startade det, enligt inlägg på X."
+            "En användare säger att vägen till toppen av Jabal al-Arus är öppen för Ansar efter det han kallar befrielsen av Kahlan och Al-Shaqab.",
+            "Det är ett overifierat påstående i sociala medier. Inlägget ger ingen officiell källa eller oberoende bekräftelse."
           ],
-          "highlightParagraph": 0,
-          "trend": "Conflict claims",
+          "highlightParagraph": 1,
+          "trend": "Unverified claim",
           "sources": [
             {
-              "label": "NewsWire",
-              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
-            },
-            {
-              "label": "Sulaiman Ahmed",
-              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
+              "label": "hamam_lnahmi on X",
+              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "NewsWire",
-              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
-            },
-            {
-              "id": "102-1",
-              "text": "Sulaiman Ahmed",
-              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
+              "text": "hamam_lnahmi on X",
+              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politik",
-          "headline": "Våldtäktsanklagelse mot Trump bestrids",
+          "category": "Samhälle",
+          "headline": "Inlägg minns bombdådet i Oklahoma 1995",
           "paragraphs": [
-            "Telegraph rapporterar att ett demokratiskt dokument anklagar Trump för våldtäkt 1993.",
-            "Kritiker på X avfärdar anklagelsen som återvunna falska nyheter inför ett val."
+            "Ett inlägg med hundratals svar nämner Timothy McVeigh och attacken 1995 mot Murrah-byggnaden i Oklahoma City, som dödade 168, och frågar om folk minns.",
+            "Det upprepar en känd historisk händelse. Det rapporterar ingen ny incident."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed allegation",
+          "trend": "Historical recall",
           "sources": [
             {
-              "label": "The Telegraph",
-              "url": "https://x.com/Telegraph/status/2114837110603542796"
-            },
-            {
-              "label": "Catturd",
-              "url": "https://x.com/catturd2/status/2114868645549822392"
+              "label": "Miles Commodore on X",
+              "url": "https://x.com/miles_commodore/status/2115232064987701337"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "The Telegraph",
-              "url": "https://x.com/Telegraph/status/2114837110603542796"
-            },
-            {
-              "id": "103-1",
-              "text": "Catturd",
-              "url": "https://x.com/catturd2/status/2114868645549822392"
+              "text": "Miles Commodore on X",
+              "url": "https://x.com/miles_commodore/status/2115232064987701337"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politik",
-          "headline": "Allierad: Trump stöder belöningar för tips",
+          "category": "Medier",
+          "headline": "Sena gillanden lutar bort från nyheter",
           "paragraphs": [
-            "En allierad hävdar att president Trump stöder belöningar på 1 miljon dollar för tips om valfusk.",
-            "Påståendet länkar till Gateway Pundit; inlägg på X bekräftar inte policyn."
+            "Andra inlägg med över 200 gillanden i detta sena fönster var trosord, turismreklam, memes och popsvar.",
+            "De används inte här som belägg för världshändelser."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unconfirmed claim",
+          "highlightParagraph": 0,
+          "trend": "Source check",
           "sources": [
             {
-              "label": "Wayne Allyn Root",
-              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
+              "label": "Lysa TerKeurst on X",
+              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
+            },
+            {
+              "label": "Explore France JP on X",
+              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Wayne Allyn Root",
-              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
+              "text": "Lysa TerKeurst on X",
+              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
+            },
+            {
+              "id": "104-1",
+              "text": "Explore France JP on X",
+              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
             }
           ]
         }
@@ -258,127 +240,118 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-10-27T12:20:14.698Z",
+      "updatedAt": "2026-10-28T13:03:59.717Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Contested result",
-        "Conflict claims",
-        "Disputed allegation",
-        "Unconfirmed claim"
+        "Official update",
+        "Unverified claim",
+        "Historical recall",
+        "Source check"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Politik",
-          "headline": "Lula gewinnt in Brasilien; Rivale bestreitet",
+          "category": "Amerika",
+          "headline": "Chile erfasst Windhilfe in Requínoa",
           "paragraphs": [
-            "ABC News berichtet, Lula da Silva habe Flavio Bolsonaro in der Stichwahl besiegt.",
-            "Bolsonaro erkennt das Ergebnis nicht an und will die Wahl annullieren lassen."
+            "Chiles Sozialministerin sagt, Teams hätten binnen 24 Stunden eine Noterfassung in Requínoa nach starken Winden abgeschlossen.",
+            "Sie nennt 94 Familien und 245 Personen; 3 von 10 sind älter. 98% brauchten Baumaterial, die Hälfte Lebensmittel."
           ],
-          "highlightParagraph": 1,
-          "trend": "Contested result",
+          "highlightParagraph": 0,
+          "trend": "Official update",
           "sources": [
             {
-              "label": "ABC News",
-              "url": "https://x.com/ABC/status/2114868874524889593"
+              "label": "Ministra Wulf on X",
+              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "ABC News",
-              "url": "https://x.com/ABC/status/2114868874524889593"
+              "text": "Ministra Wulf on X",
+              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Geopolitik",
-          "headline": "Trump: Iran begann den Krieg",
+          "category": "Naher Osten",
+          "headline": "Nutzer behauptet offene Route im Jemen",
           "paragraphs": [
-            "Präsident Trump sagte, die USA hätten keinen Krieg mit Iran begonnen.",
-            "Er behauptete, Iran habe ihn begonnen, laut Beiträgen auf X."
+            "Ein Nutzer sagt, nach dem, was er die Befreiung von Kahlan und Al-Shaqab nennt, sei der Weg zum Gipfel des Dschabal al-Arus für Ansar offen.",
+            "Das ist eine unbestätigte Behauptung in sozialen Medien. Der Beitrag nennt keine offizielle Quelle oder unabhängige Bestätigung."
           ],
-          "highlightParagraph": 0,
-          "trend": "Conflict claims",
+          "highlightParagraph": 1,
+          "trend": "Unverified claim",
           "sources": [
             {
-              "label": "NewsWire",
-              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
-            },
-            {
-              "label": "Sulaiman Ahmed",
-              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
+              "label": "hamam_lnahmi on X",
+              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "NewsWire",
-              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
-            },
-            {
-              "id": "102-1",
-              "text": "Sulaiman Ahmed",
-              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
+              "text": "hamam_lnahmi on X",
+              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politik",
-          "headline": "Vergewaltigungsvorwurf gegen Trump umstritten",
+          "category": "Gesellschaft",
+          "headline": "Beitrag erinnert an Anschlag 1995",
           "paragraphs": [
-            "Der Telegraph berichtet über ein Dokument der Demokraten, das Trump 1993 Vergewaltigung vorwirft.",
-            "Kritiker auf X nennen die Behauptung recycelte Falschnachrichten vor einer Wahl."
+            "Ein Beitrag mit Hunderten Antworten nennt Timothy McVeigh und den Angriff 1995 auf das Murrah-Gebäude in Oklahoma City, bei dem 168 Menschen starben, und fragt, ob man sich erinnert.",
+            "Er wiederholt ein bekanntes historisches Ereignis. Er meldet keinen neuen Vorfall."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed allegation",
+          "trend": "Historical recall",
           "sources": [
             {
-              "label": "The Telegraph",
-              "url": "https://x.com/Telegraph/status/2114837110603542796"
-            },
-            {
-              "label": "Catturd",
-              "url": "https://x.com/catturd2/status/2114868645549822392"
+              "label": "Miles Commodore on X",
+              "url": "https://x.com/miles_commodore/status/2115232064987701337"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "The Telegraph",
-              "url": "https://x.com/Telegraph/status/2114837110603542796"
-            },
-            {
-              "id": "103-1",
-              "text": "Catturd",
-              "url": "https://x.com/catturd2/status/2114868645549822392"
+              "text": "Miles Commodore on X",
+              "url": "https://x.com/miles_commodore/status/2115232064987701337"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politik",
-          "headline": "Verbündeter: Trump für Betrugs-Belohnungen",
+          "category": "Medien",
+          "headline": "Späte Likes liegen fern von Nachrichten",
           "paragraphs": [
-            "Ein Verbündeter behauptet, Präsident Trump unterstütze 1-Mio.-Dollar-Belohnungen für Hinweise auf Wahlbetrug.",
-            "Die Behauptung verlinkt Gateway Pundit; X-Beiträge bestätigen die Politik nicht."
+            "Andere Beiträge mit über 200 Likes in diesem späten Fenster waren Glaubensworte, Tourismuswerbung, Memes und Pop-Antworten.",
+            "Sie gelten hier nicht als Beleg für Weltereignisse."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unconfirmed claim",
+          "highlightParagraph": 0,
+          "trend": "Source check",
           "sources": [
             {
-              "label": "Wayne Allyn Root",
-              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
+              "label": "Lysa TerKeurst on X",
+              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
+            },
+            {
+              "label": "Explore France JP on X",
+              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Wayne Allyn Root",
-              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
+              "text": "Lysa TerKeurst on X",
+              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
+            },
+            {
+              "id": "104-1",
+              "text": "Explore France JP on X",
+              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
             }
           ]
         }
@@ -386,127 +359,118 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-10-27T12:20:14.698Z",
+      "updatedAt": "2026-10-28T13:03:59.717Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Contested result",
-        "Conflict claims",
-        "Disputed allegation",
-        "Unconfirmed claim"
+        "Official update",
+        "Unverified claim",
+        "Historical recall",
+        "Source check"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Política",
-          "headline": "Lula gana en Brasil; rival impugna",
+          "category": "América",
+          "headline": "Chile censó ayuda por viento en Requínoa",
           "paragraphs": [
-            "ABC News informa que Lula da Silva derrotó a Flavio Bolsonaro en la segunda vuelta.",
-            "Bolsonaro no reconoce la derrota y planea pedir la anulación de la elección."
+            "La ministra de Desarrollo Social dice que los equipos terminaron en menos de 24 horas el censo de emergencia en Requínoa tras fuertes vientos.",
+            "Lista 94 familias y 245 personas; 3 de cada 10 son mayores. Dice que el 98% necesita materiales y la mitad, alimentos."
           ],
-          "highlightParagraph": 1,
-          "trend": "Contested result",
+          "highlightParagraph": 0,
+          "trend": "Official update",
           "sources": [
             {
-              "label": "ABC News",
-              "url": "https://x.com/ABC/status/2114868874524889593"
+              "label": "Ministra Wulf on X",
+              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "ABC News",
-              "url": "https://x.com/ABC/status/2114868874524889593"
+              "text": "Ministra Wulf on X",
+              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Geopolítica",
-          "headline": "Trump: Irán inició la guerra",
+          "category": "Oriente Medio",
+          "headline": "Usuario afirma ruta abierta en Yemen",
           "paragraphs": [
-            "El presidente Trump dijo que EE.UU. no inició una guerra con Irán.",
-            "Afirmó que Irán la comenzó, según publicaciones en X."
+            "Un usuario dice que, tras lo que llama la liberación de Kahlan y Al-Shaqab, el camino a la cumbre del Jabal al-Arus quedó abierto para Ansar.",
+            "Es una afirmación no verificada en redes. El mensaje no da fuente oficial ni confirmación independiente."
           ],
-          "highlightParagraph": 0,
-          "trend": "Conflict claims",
+          "highlightParagraph": 1,
+          "trend": "Unverified claim",
           "sources": [
             {
-              "label": "NewsWire",
-              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
-            },
-            {
-              "label": "Sulaiman Ahmed",
-              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
+              "label": "hamam_lnahmi on X",
+              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "NewsWire",
-              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
-            },
-            {
-              "id": "102-1",
-              "text": "Sulaiman Ahmed",
-              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
+              "text": "hamam_lnahmi on X",
+              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Política",
-          "headline": "Acusación de violación a Trump, disputada",
+          "category": "Sociedad",
+          "headline": "Un post recuerda el atentado de 1995",
           "paragraphs": [
-            "The Telegraph informa de un informe demócrata que acusa a Trump de violación en 1993.",
-            "Críticos en X descartan la acusación como noticias falsas recicladas antes de unas elecciones."
+            "Un mensaje con cientos de respuestas nombra a Timothy McVeigh y el ataque de 1995 al edificio Murrah en Oklahoma City, que mató a 168, y pregunta si la gente lo recuerda.",
+            "Reitera un hecho histórico conocido. No informa de un incidente nuevo."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed allegation",
+          "trend": "Historical recall",
           "sources": [
             {
-              "label": "The Telegraph",
-              "url": "https://x.com/Telegraph/status/2114837110603542796"
-            },
-            {
-              "label": "Catturd",
-              "url": "https://x.com/catturd2/status/2114868645549822392"
+              "label": "Miles Commodore on X",
+              "url": "https://x.com/miles_commodore/status/2115232064987701337"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "The Telegraph",
-              "url": "https://x.com/Telegraph/status/2114837110603542796"
-            },
-            {
-              "id": "103-1",
-              "text": "Catturd",
-              "url": "https://x.com/catturd2/status/2114868645549822392"
+              "text": "Miles Commodore on X",
+              "url": "https://x.com/miles_commodore/status/2115232064987701337"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Política",
-          "headline": "Aliado: Trump apoya recompensas por fraude",
+          "category": "Medios",
+          "headline": "Los likes tardíos se alejan de la noticia",
           "paragraphs": [
-            "Un aliado afirma que el presidente Trump apoya recompensas de 1 millón por denuncias de fraude electoral.",
-            "La afirmación enlaza a Gateway Pundit; los posts en X no confirman la política."
+            "Otros mensajes con más de 200 me gusta en esta franja tardía eran notas de fe, promoción turística, memes y respuestas de pop.",
+            "Aquí no se tratan como prueba de hechos mundiales."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unconfirmed claim",
+          "highlightParagraph": 0,
+          "trend": "Source check",
           "sources": [
             {
-              "label": "Wayne Allyn Root",
-              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
+              "label": "Lysa TerKeurst on X",
+              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
+            },
+            {
+              "label": "Explore France JP on X",
+              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Wayne Allyn Root",
-              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
+              "text": "Lysa TerKeurst on X",
+              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
+            },
+            {
+              "id": "104-1",
+              "text": "Explore France JP on X",
+              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
             }
           ]
         }
@@ -514,127 +478,118 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-10-27T12:20:14.698Z",
+      "updatedAt": "2026-10-28T13:03:59.717Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Contested result",
-        "Conflict claims",
-        "Disputed allegation",
-        "Unconfirmed claim"
+        "Official update",
+        "Unverified claim",
+        "Historical recall",
+        "Source check"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Politique",
-          "headline": "Lula gagne au Brésil; rival conteste",
+          "category": "Amériques",
+          "headline": "Le Chili recense l'aide après le vent",
           "paragraphs": [
-            "ABC News indique que Lula da Silva a battu Flavio Bolsonaro au second tour.",
-            "Bolsonaro refuse de concéder et veut faire annuler l'élection."
+            "La ministre du Développement social dit que les équipes ont fini en moins de 24 heures le recensement d'urgence à Requínoa après de forts vents.",
+            "Elle compte 94 familles et 245 personnes; 3 sur 10 sont âgées. Elle dit que 98% ont besoin de matériaux et la moitié de nourriture."
           ],
-          "highlightParagraph": 1,
-          "trend": "Contested result",
+          "highlightParagraph": 0,
+          "trend": "Official update",
           "sources": [
             {
-              "label": "ABC News",
-              "url": "https://x.com/ABC/status/2114868874524889593"
+              "label": "Ministra Wulf on X",
+              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "ABC News",
-              "url": "https://x.com/ABC/status/2114868874524889593"
+              "text": "Ministra Wulf on X",
+              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Géopolitique",
-          "headline": "Trump: l'Iran a commencé la guerre",
+          "category": "Moyen-Orient",
+          "headline": "Un post affirme une route ouverte au Yémen",
           "paragraphs": [
-            "Le président Trump a dit que les États-Unis n'ont pas commencé une guerre avec l'Iran.",
-            "Il a affirmé que l'Iran l'a commencée, selon des posts sur X."
+            "Un utilisateur dit qu'après ce qu'il appelle la libération de Kahlan et d'Al-Shaqab, la route vers le sommet du djebel al-Arus est ouverte aux Ansar.",
+            "C'est une affirmation non vérifiée sur les réseaux. Le message ne donne ni source officielle ni confirmation indépendante."
           ],
-          "highlightParagraph": 0,
-          "trend": "Conflict claims",
+          "highlightParagraph": 1,
+          "trend": "Unverified claim",
           "sources": [
             {
-              "label": "NewsWire",
-              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
-            },
-            {
-              "label": "Sulaiman Ahmed",
-              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
+              "label": "hamam_lnahmi on X",
+              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "NewsWire",
-              "url": "https://x.com/NewsWire_US/status/2114865584643223574"
-            },
-            {
-              "id": "102-1",
-              "text": "Sulaiman Ahmed",
-              "url": "https://x.com/ShaykhSulaiman/status/2114865395924697244"
+              "text": "hamam_lnahmi on X",
+              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politique",
-          "headline": "Accusation de viol contre Trump contestée",
+          "category": "Société",
+          "headline": "Un post rappelle l'attentat de 1995",
           "paragraphs": [
-            "Le Telegraph rapporte un document démocrate accusant Trump de viol en 1993.",
-            "Des critiques sur X qualifient l'allégation de fausses nouvelles recyclées avant une élection."
+            "Un message avec des centaines de réponses cite Timothy McVeigh et l'attaque de 1995 contre l'immeuble Murrah à Oklahoma City, qui a tué 168 personnes, et demande si l'on s'en souvient.",
+            "Il rappelle un fait historique connu. Il ne signale pas un incident nouveau."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed allegation",
+          "trend": "Historical recall",
           "sources": [
             {
-              "label": "The Telegraph",
-              "url": "https://x.com/Telegraph/status/2114837110603542796"
-            },
-            {
-              "label": "Catturd",
-              "url": "https://x.com/catturd2/status/2114868645549822392"
+              "label": "Miles Commodore on X",
+              "url": "https://x.com/miles_commodore/status/2115232064987701337"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "The Telegraph",
-              "url": "https://x.com/Telegraph/status/2114837110603542796"
-            },
-            {
-              "id": "103-1",
-              "text": "Catturd",
-              "url": "https://x.com/catturd2/status/2114868645549822392"
+              "text": "Miles Commodore on X",
+              "url": "https://x.com/miles_commodore/status/2115232064987701337"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politique",
-          "headline": "Allié: Trump pour des primes anti-fraude",
+          "category": "Médias",
+          "headline": "Les likes tardifs s'éloignent de l'actu",
           "paragraphs": [
-            "Un allié affirme que le président Trump soutient des primes d'un million pour signaler la fraude électorale.",
-            "L'allégation renvoie à Gateway Pundit; les posts sur X ne confirment pas la mesure."
+            "D'autres messages à plus de 200 likes dans cette tranche tardive étaient des notes de foi, de la promo touristique, des mèmes et des réponses pop.",
+            "Ils ne sont pas traités ici comme preuve d'événements mondiaux."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unconfirmed claim",
+          "highlightParagraph": 0,
+          "trend": "Source check",
           "sources": [
             {
-              "label": "Wayne Allyn Root",
-              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
+              "label": "Lysa TerKeurst on X",
+              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
+            },
+            {
+              "label": "Explore France JP on X",
+              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Wayne Allyn Root",
-              "url": "https://x.com/RealWayneRoot/status/2114868361138233614"
+              "text": "Lysa TerKeurst on X",
+              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
+            },
+            {
+              "id": "104-1",
+              "text": "Explore France JP on X",
+              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
             }
           ]
         }
