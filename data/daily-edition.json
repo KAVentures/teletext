@@ -1,119 +1,110 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "editions": {
     "en": {
-      "updatedAt": "2026-10-28T13:03:59.717Z",
+      "updatedAt": "2026-10-29T13:10:22.316Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Official update",
-        "Unverified claim",
-        "Historical recall",
-        "Source check"
+        "Active on X",
+        "Political claims",
+        "Legal claims",
+        "Viral report"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Americas",
-          "headline": "Chile logs wind aid needs in Requínoa",
+          "category": "UK News",
+          "headline": "Cambridge train attack trial opens",
           "paragraphs": [
-            "Chile's social development minister says teams finished an emergency census in Requínoa within 24 hours of strong winds.",
-            "She lists 94 families and 245 people; 3 in 10 are older. She says 98% need building materials and half need food."
+            "X users note the trial began for the man accused in last year's Cambridge train stabbing.",
+            "Posts share a BBC link and claim the case lacks front-page coverage."
           ],
           "highlightParagraph": 0,
-          "trend": "Official update",
+          "trend": "Active on X",
           "sources": [
             {
-              "label": "Ministra Wulf on X",
-              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
+              "label": "@MatildaMinter",
+              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Ministra Wulf on X",
-              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
+              "text": "@MatildaMinter",
+              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Middle East",
-          "headline": "User claims Yemen hill route is open",
+          "category": "US Politics",
+          "headline": "Clyburn cites $47bn Iran war cost",
           "paragraphs": [
-            "A user says that after what he calls the liberation of Kahlan and Al-Shaqab, the road to the summit of Jabal al-Arus is open to Ansar forces.",
-            "This is an unverified social-media claim. The post gives no official source or independent confirmation."
+            "Rep. James Clyburn claimed on X that Trump's Iran war cost taxpayers $47 billion.",
+            "He also alleged $160bn in higher fuel costs and called the presidency a disaster. These remain his assertions."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "highlightParagraph": 0,
+          "trend": "Political claims",
           "sources": [
             {
-              "label": "hamam_lnahmi on X",
-              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
+              "label": "@RepJamesClyburn",
+              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "hamam_lnahmi on X",
-              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
+              "text": "@RepJamesClyburn",
+              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Society",
-          "headline": "Post recalls 1995 Oklahoma bombing",
+          "category": "US Justice",
+          "headline": "O'Keefe charged over voting film",
           "paragraphs": [
-            "A post with hundreds of replies names Timothy McVeigh and the 1995 attack on the Murrah Building in Oklahoma City, which killed 168, and asks if people remember.",
-            "It restates a known historical event. It does not report a new incident."
+            "Kyle Griffin reported on X that Hennepin County charged James O'Keefe and Cam Higby with felonies.",
+            "Claims involve unlawful voting and identity theft while filming Minnesota's primary. The post cites the NYT."
           ],
-          "highlightParagraph": 1,
-          "trend": "Historical recall",
+          "highlightParagraph": 0,
+          "trend": "Legal claims",
           "sources": [
             {
-              "label": "Miles Commodore on X",
-              "url": "https://x.com/miles_commodore/status/2115232064987701337"
+              "label": "@kylegriffin1",
+              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Miles Commodore on X",
-              "url": "https://x.com/miles_commodore/status/2115232064987701337"
+              "text": "@kylegriffin1",
+              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Media",
-          "headline": "Late likes lean away from hard news",
+          "category": "World",
+          "headline": "Putin calls Musk a real genius",
           "paragraphs": [
-            "Other posts above 200 likes in this late window were faith notes, tourism promotion, memes and pop-culture replies.",
-            "Those items are not treated here as evidence of world events."
+            "Yahoo News Japan posted on X that Putin described Elon Musk as a real genius.",
+            "The claim is circulating from that outlet's report. These posts offer no further verification."
           ],
           "highlightParagraph": 0,
-          "trend": "Source check",
+          "trend": "Viral report",
           "sources": [
             {
-              "label": "Lysa TerKeurst on X",
-              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
-            },
-            {
-              "label": "Explore France JP on X",
-              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
+              "label": "@YahooNewsTopics",
+              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Lysa TerKeurst on X",
-              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
-            },
-            {
-              "id": "104-1",
-              "text": "Explore France JP on X",
-              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
+              "text": "@YahooNewsTopics",
+              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
             }
           ]
         }
@@ -121,118 +112,109 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-10-28T13:03:59.717Z",
+      "updatedAt": "2026-10-29T13:10:22.316Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Official update",
-        "Unverified claim",
-        "Historical recall",
-        "Source check"
+        "Active on X",
+        "Political claims",
+        "Legal claims",
+        "Viral report"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Amerika",
-          "headline": "Chile listar vindhjälp i Requínoa",
+          "category": "Storbritannien",
+          "headline": "Rättegång om Cambridge-attack",
           "paragraphs": [
-            "Chiles socialminister säger att teamen på under 24 timmar gjorde en nödräkning i Requínoa efter hårda vindar.",
-            "Hon listar 94 familjer och 245 personer; 3 av 10 är äldre. Hon säger att 98% behöver byggmaterial och hälften mat."
+            "X-användare noterar att rättegången började mot mannen anklagad för knivdådet på Cambridge-tåget förra året.",
+            "Inlägg delar en BBC-länk och hävdar att fallet saknar förstasidesbevakning."
           ],
           "highlightParagraph": 0,
-          "trend": "Official update",
+          "trend": "Active on X",
           "sources": [
             {
-              "label": "Ministra Wulf on X",
-              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
+              "label": "@MatildaMinter",
+              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Ministra Wulf on X",
-              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
+              "text": "@MatildaMinter",
+              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Mellanöstern",
-          "headline": "Användare påstår öppen väg i Jemen",
+          "category": "USA-politik",
+          "headline": "Clyburn: Irankrig kostade 47 mdr",
           "paragraphs": [
-            "En användare säger att vägen till toppen av Jabal al-Arus är öppen för Ansar efter det han kallar befrielsen av Kahlan och Al-Shaqab.",
-            "Det är ett overifierat påstående i sociala medier. Inlägget ger ingen officiell källa eller oberoende bekräftelse."
+            "Rep. James Clyburn hävdade på X att Trumps krig i Iran kostade skattebetalarna 47 miljarder dollar.",
+            "Han påstod också 160 mdr i högre bränslekostnader och kallade presidentskapet en katastrof. Detta är hans påståenden."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "highlightParagraph": 0,
+          "trend": "Political claims",
           "sources": [
             {
-              "label": "hamam_lnahmi on X",
-              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
+              "label": "@RepJamesClyburn",
+              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "hamam_lnahmi on X",
-              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
+              "text": "@RepJamesClyburn",
+              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Samhälle",
-          "headline": "Inlägg minns bombdådet i Oklahoma 1995",
+          "category": "USA-rättvisa",
+          "headline": "O'Keefe åtalad för röstfilm",
           "paragraphs": [
-            "Ett inlägg med hundratals svar nämner Timothy McVeigh och attacken 1995 mot Murrah-byggnaden i Oklahoma City, som dödade 168, och frågar om folk minns.",
-            "Det upprepar en känd historisk händelse. Det rapporterar ingen ny incident."
+            "Kyle Griffin rapporterade på X att Hennepin County åtalade James O'Keefe och Cam Higby för grova brott.",
+            "Påståenden gäller olaglig röstning och identitetsstöld vid filmning under Minnesotas primärval. Inlägget citerar NYT."
           ],
-          "highlightParagraph": 1,
-          "trend": "Historical recall",
+          "highlightParagraph": 0,
+          "trend": "Legal claims",
           "sources": [
             {
-              "label": "Miles Commodore on X",
-              "url": "https://x.com/miles_commodore/status/2115232064987701337"
+              "label": "@kylegriffin1",
+              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Miles Commodore on X",
-              "url": "https://x.com/miles_commodore/status/2115232064987701337"
+              "text": "@kylegriffin1",
+              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Medier",
-          "headline": "Sena gillanden lutar bort från nyheter",
+          "category": "Världen",
+          "headline": "Putin kallar Musk ett geni",
           "paragraphs": [
-            "Andra inlägg med över 200 gillanden i detta sena fönster var trosord, turismreklam, memes och popsvar.",
-            "De används inte här som belägg för världshändelser."
+            "Yahoo News Japan skrev på X att Putin beskrev Elon Musk som ett verkligt geni.",
+            "Påståendet cirkulerar från utloppets rapport. Dessa inlägg ger ingen ytterligare verifiering."
           ],
           "highlightParagraph": 0,
-          "trend": "Source check",
+          "trend": "Viral report",
           "sources": [
             {
-              "label": "Lysa TerKeurst on X",
-              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
-            },
-            {
-              "label": "Explore France JP on X",
-              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
+              "label": "@YahooNewsTopics",
+              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Lysa TerKeurst on X",
-              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
-            },
-            {
-              "id": "104-1",
-              "text": "Explore France JP on X",
-              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
+              "text": "@YahooNewsTopics",
+              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
             }
           ]
         }
@@ -240,118 +222,109 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-10-28T13:03:59.717Z",
+      "updatedAt": "2026-10-29T13:10:22.316Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Official update",
-        "Unverified claim",
-        "Historical recall",
-        "Source check"
+        "Active on X",
+        "Political claims",
+        "Legal claims",
+        "Viral report"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Amerika",
-          "headline": "Chile erfasst Windhilfe in Requínoa",
+          "category": "Großbritannien",
+          "headline": "Prozess zum Cambridge-Angriff",
           "paragraphs": [
-            "Chiles Sozialministerin sagt, Teams hätten binnen 24 Stunden eine Noterfassung in Requínoa nach starken Winden abgeschlossen.",
-            "Sie nennt 94 Familien und 245 Personen; 3 von 10 sind älter. 98% brauchten Baumaterial, die Hälfte Lebensmittel."
+            "X-Nutzer berichten, dass der Prozess gegen den Mann begann, der im Vorjahr beim Cambridge-Zugangriff angeklagt ist.",
+            "Beiträge teilen einen BBC-Link und beklagen fehlende Titelseiten-Aufmerksamkeit."
           ],
           "highlightParagraph": 0,
-          "trend": "Official update",
+          "trend": "Active on X",
           "sources": [
             {
-              "label": "Ministra Wulf on X",
-              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
+              "label": "@MatildaMinter",
+              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Ministra Wulf on X",
-              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
+              "text": "@MatildaMinter",
+              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Naher Osten",
-          "headline": "Nutzer behauptet offene Route im Jemen",
+          "category": "US-Politik",
+          "headline": "Clyburn: Iran-Krieg 47 Mrd.",
           "paragraphs": [
-            "Ein Nutzer sagt, nach dem, was er die Befreiung von Kahlan und Al-Shaqab nennt, sei der Weg zum Gipfel des Dschabal al-Arus für Ansar offen.",
-            "Das ist eine unbestätigte Behauptung in sozialen Medien. Der Beitrag nennt keine offizielle Quelle oder unabhängige Bestätigung."
+            "Rep. James Clyburn behauptete auf X, Trumps Iran-Krieg habe Steuerzahler 47 Milliarden Dollar gekostet.",
+            "Er behauptete zudem 160 Mrd. höhere Treibstoffkosten und nannte die Präsidentschaft eine Katastrophe. Das sind seine Aussagen."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "highlightParagraph": 0,
+          "trend": "Political claims",
           "sources": [
             {
-              "label": "hamam_lnahmi on X",
-              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
+              "label": "@RepJamesClyburn",
+              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "hamam_lnahmi on X",
-              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
+              "text": "@RepJamesClyburn",
+              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Gesellschaft",
-          "headline": "Beitrag erinnert an Anschlag 1995",
+          "category": "US-Justiz",
+          "headline": "O'Keefe wegen Wahlfilm angeklagt",
           "paragraphs": [
-            "Ein Beitrag mit Hunderten Antworten nennt Timothy McVeigh und den Angriff 1995 auf das Murrah-Gebäude in Oklahoma City, bei dem 168 Menschen starben, und fragt, ob man sich erinnert.",
-            "Er wiederholt ein bekanntes historisches Ereignis. Er meldet keinen neuen Vorfall."
+            "Kyle Griffin berichtete auf X, dass Hennepin County James O'Keefe und Cam Higby wegen Verbrechen angeklagt hat.",
+            "Vorwürfe betreffen illegale Stimmabgabe und Identitätsdiebstahl beim Filmen der Vorwahl in Minnesota. Der Post zitiert die NYT."
           ],
-          "highlightParagraph": 1,
-          "trend": "Historical recall",
+          "highlightParagraph": 0,
+          "trend": "Legal claims",
           "sources": [
             {
-              "label": "Miles Commodore on X",
-              "url": "https://x.com/miles_commodore/status/2115232064987701337"
+              "label": "@kylegriffin1",
+              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Miles Commodore on X",
-              "url": "https://x.com/miles_commodore/status/2115232064987701337"
+              "text": "@kylegriffin1",
+              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Medien",
-          "headline": "Späte Likes liegen fern von Nachrichten",
+          "category": "Welt",
+          "headline": "Putin nennt Musk ein Genie",
           "paragraphs": [
-            "Andere Beiträge mit über 200 Likes in diesem späten Fenster waren Glaubensworte, Tourismuswerbung, Memes und Pop-Antworten.",
-            "Sie gelten hier nicht als Beleg für Weltereignisse."
+            "Yahoo News Japan postete auf X, dass Putin Elon Musk ein echtes Genie nannte.",
+            "Die Behauptung zirkuliert aus dem Bericht des Mediums. Diese Posts bieten keine weitere Überprüfung."
           ],
           "highlightParagraph": 0,
-          "trend": "Source check",
+          "trend": "Viral report",
           "sources": [
             {
-              "label": "Lysa TerKeurst on X",
-              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
-            },
-            {
-              "label": "Explore France JP on X",
-              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
+              "label": "@YahooNewsTopics",
+              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Lysa TerKeurst on X",
-              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
-            },
-            {
-              "id": "104-1",
-              "text": "Explore France JP on X",
-              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
+              "text": "@YahooNewsTopics",
+              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
             }
           ]
         }
@@ -359,118 +332,109 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-10-28T13:03:59.717Z",
+      "updatedAt": "2026-10-29T13:10:22.316Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Official update",
-        "Unverified claim",
-        "Historical recall",
-        "Source check"
+        "Active on X",
+        "Political claims",
+        "Legal claims",
+        "Viral report"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "América",
-          "headline": "Chile censó ayuda por viento en Requínoa",
+          "category": "Reino Unido",
+          "headline": "Juicio por ataque en Cambridge",
           "paragraphs": [
-            "La ministra de Desarrollo Social dice que los equipos terminaron en menos de 24 horas el censo de emergencia en Requínoa tras fuertes vientos.",
-            "Lista 94 familias y 245 personas; 3 de cada 10 son mayores. Dice que el 98% necesita materiales y la mitad, alimentos."
+            "Usuarios de X señalan que comenzó el juicio del hombre acusado del apuñalamiento en el tren de Cambridge el año pasado.",
+            "Publicaciones comparten un enlace de la BBC y afirman que el caso carece de cobertura de portada."
           ],
           "highlightParagraph": 0,
-          "trend": "Official update",
+          "trend": "Active on X",
           "sources": [
             {
-              "label": "Ministra Wulf on X",
-              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
+              "label": "@MatildaMinter",
+              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Ministra Wulf on X",
-              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
+              "text": "@MatildaMinter",
+              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Oriente Medio",
-          "headline": "Usuario afirma ruta abierta en Yemen",
+          "category": "Política EE.UU.",
+          "headline": "Clyburn: guerra Irán costó 47 mil M",
           "paragraphs": [
-            "Un usuario dice que, tras lo que llama la liberación de Kahlan y Al-Shaqab, el camino a la cumbre del Jabal al-Arus quedó abierto para Ansar.",
-            "Es una afirmación no verificada en redes. El mensaje no da fuente oficial ni confirmación independiente."
+            "El rep. James Clyburn afirmó en X que la guerra de Trump en Irán costó 47.000 millones a los contribuyentes.",
+            "También alegó 160.000 millones en costos de combustible más altos y llamó desastre a la presidencia. Son sus aseveraciones."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "highlightParagraph": 0,
+          "trend": "Political claims",
           "sources": [
             {
-              "label": "hamam_lnahmi on X",
-              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
+              "label": "@RepJamesClyburn",
+              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "hamam_lnahmi on X",
-              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
+              "text": "@RepJamesClyburn",
+              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Sociedad",
-          "headline": "Un post recuerda el atentado de 1995",
+          "category": "Justicia EE.UU.",
+          "headline": "O'Keefe acusado por vídeo de voto",
           "paragraphs": [
-            "Un mensaje con cientos de respuestas nombra a Timothy McVeigh y el ataque de 1995 al edificio Murrah en Oklahoma City, que mató a 168, y pregunta si la gente lo recuerda.",
-            "Reitera un hecho histórico conocido. No informa de un incidente nuevo."
+            "Kyle Griffin informó en X que el condado de Hennepin acusó a James O'Keefe y Cam Higby de delitos graves.",
+            "Las alegaciones implican votación ilegal y robo de identidad al filmar las primarias de Minnesota. El post cita al NYT."
           ],
-          "highlightParagraph": 1,
-          "trend": "Historical recall",
+          "highlightParagraph": 0,
+          "trend": "Legal claims",
           "sources": [
             {
-              "label": "Miles Commodore on X",
-              "url": "https://x.com/miles_commodore/status/2115232064987701337"
+              "label": "@kylegriffin1",
+              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Miles Commodore on X",
-              "url": "https://x.com/miles_commodore/status/2115232064987701337"
+              "text": "@kylegriffin1",
+              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Medios",
-          "headline": "Los likes tardíos se alejan de la noticia",
+          "category": "Mundo",
+          "headline": "Putin llama genio a Musk",
           "paragraphs": [
-            "Otros mensajes con más de 200 me gusta en esta franja tardía eran notas de fe, promoción turística, memes y respuestas de pop.",
-            "Aquí no se tratan como prueba de hechos mundiales."
+            "Yahoo News Japón publicó en X que Putin describió a Elon Musk como un verdadero genio.",
+            "La afirmación circula desde el informe del medio. Estas publicaciones no ofrecen más verificación."
           ],
           "highlightParagraph": 0,
-          "trend": "Source check",
+          "trend": "Viral report",
           "sources": [
             {
-              "label": "Lysa TerKeurst on X",
-              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
-            },
-            {
-              "label": "Explore France JP on X",
-              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
+              "label": "@YahooNewsTopics",
+              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Lysa TerKeurst on X",
-              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
-            },
-            {
-              "id": "104-1",
-              "text": "Explore France JP on X",
-              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
+              "text": "@YahooNewsTopics",
+              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
             }
           ]
         }
@@ -478,118 +442,109 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-10-28T13:03:59.717Z",
+      "updatedAt": "2026-10-29T13:10:22.316Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Official update",
-        "Unverified claim",
-        "Historical recall",
-        "Source check"
+        "Active on X",
+        "Political claims",
+        "Legal claims",
+        "Viral report"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Amériques",
-          "headline": "Le Chili recense l'aide après le vent",
+          "category": "Royaume-Uni",
+          "headline": "Procès de l'attaque de Cambridge",
           "paragraphs": [
-            "La ministre du Développement social dit que les équipes ont fini en moins de 24 heures le recensement d'urgence à Requínoa après de forts vents.",
-            "Elle compte 94 familles et 245 personnes; 3 sur 10 sont âgées. Elle dit que 98% ont besoin de matériaux et la moitié de nourriture."
+            "Des utilisateurs de X notent que le procès a commencé pour l'homme accusé de l'attaque au couteau dans le train de Cambridge l'an dernier.",
+            "Des posts partagent un lien BBC et affirment que l'affaire manque d'attention en une."
           ],
           "highlightParagraph": 0,
-          "trend": "Official update",
+          "trend": "Active on X",
           "sources": [
             {
-              "label": "Ministra Wulf on X",
-              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
+              "label": "@MatildaMinter",
+              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Ministra Wulf on X",
-              "url": "https://x.com/MinistraWulf/status/2115232062814769582"
+              "text": "@MatildaMinter",
+              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Moyen-Orient",
-          "headline": "Un post affirme une route ouverte au Yémen",
+          "category": "Politique US",
+          "headline": "Clyburn: guerre Iran à 47 mds",
           "paragraphs": [
-            "Un utilisateur dit qu'après ce qu'il appelle la libération de Kahlan et d'Al-Shaqab, la route vers le sommet du djebel al-Arus est ouverte aux Ansar.",
-            "C'est une affirmation non vérifiée sur les réseaux. Le message ne donne ni source officielle ni confirmation indépendante."
+            "Le rep. James Clyburn a affirmé sur X que la guerre de Trump en Iran a coûté 47 milliards aux contribuables.",
+            "Il a aussi allégué 160 mds de coûts de carburant plus élevés et qualifié la présidence de désastre. Ce sont ses affirmations."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "highlightParagraph": 0,
+          "trend": "Political claims",
           "sources": [
             {
-              "label": "hamam_lnahmi on X",
-              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
+              "label": "@RepJamesClyburn",
+              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "hamam_lnahmi on X",
-              "url": "https://x.com/hamam_lnahmi/status/2115232063993299038"
+              "text": "@RepJamesClyburn",
+              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Société",
-          "headline": "Un post rappelle l'attentat de 1995",
+          "category": "Justice US",
+          "headline": "O'Keefe inculpé pour film de vote",
           "paragraphs": [
-            "Un message avec des centaines de réponses cite Timothy McVeigh et l'attaque de 1995 contre l'immeuble Murrah à Oklahoma City, qui a tué 168 personnes, et demande si l'on s'en souvient.",
-            "Il rappelle un fait historique connu. Il ne signale pas un incident nouveau."
+            "Kyle Griffin a rapporté sur X que le comté de Hennepin a inculpé James O'Keefe et Cam Higby de crimes.",
+            "Les allégations portent sur un vote illégal et un vol d'identité lors d'un tournage aux primaires du Minnesota. Le post cite le NYT."
           ],
-          "highlightParagraph": 1,
-          "trend": "Historical recall",
+          "highlightParagraph": 0,
+          "trend": "Legal claims",
           "sources": [
             {
-              "label": "Miles Commodore on X",
-              "url": "https://x.com/miles_commodore/status/2115232064987701337"
+              "label": "@kylegriffin1",
+              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Miles Commodore on X",
-              "url": "https://x.com/miles_commodore/status/2115232064987701337"
+              "text": "@kylegriffin1",
+              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Médias",
-          "headline": "Les likes tardifs s'éloignent de l'actu",
+          "category": "Monde",
+          "headline": "Poutine qualifie Musk de génie",
           "paragraphs": [
-            "D'autres messages à plus de 200 likes dans cette tranche tardive étaient des notes de foi, de la promo touristique, des mèmes et des réponses pop.",
-            "Ils ne sont pas traités ici comme preuve d'événements mondiaux."
+            "Yahoo News Japon a posté sur X que Poutine a décrit Elon Musk comme un vrai génie.",
+            "L'affirmation circule d'après le rapport du média. Ces posts n'offrent pas de vérification supplémentaire."
           ],
           "highlightParagraph": 0,
-          "trend": "Source check",
+          "trend": "Viral report",
           "sources": [
             {
-              "label": "Lysa TerKeurst on X",
-              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
-            },
-            {
-              "label": "Explore France JP on X",
-              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
+              "label": "@YahooNewsTopics",
+              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Lysa TerKeurst on X",
-              "url": "https://x.com/LysaTerKeurst/status/2115232071488582050"
-            },
-            {
-              "id": "104-1",
-              "text": "Explore France JP on X",
-              "url": "https://x.com/ExploreFranceJP/status/2115232070716793175"
+              "text": "@YahooNewsTopics",
+              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
             }
           ]
         }
