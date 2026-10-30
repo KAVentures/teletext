@@ -1,110 +1,110 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "editions": {
     "en": {
-      "updatedAt": "2026-10-29T13:10:22.316Z",
+      "updatedAt": "2026-10-30T15:46:54.320Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Active on X",
-        "Political claims",
-        "Legal claims",
-        "Viral report"
+        "AI access claims",
+        "Enterprise AI",
+        "Election dispute",
+        "Tax debate"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "UK News",
-          "headline": "Cambridge train attack trial opens",
+          "category": "Technology",
+          "headline": "Japan seeks advanced AI models",
           "paragraphs": [
-            "X users note the trial began for the man accused in last year's Cambridge train stabbing.",
-            "Posts share a BBC link and claim the case lacks front-page coverage."
+            "Watcher.Guru claims Japan asked OpenAI and Anthropic for their most advanced AI models.",
+            "Neither the firms nor Japanese officials confirmed the request in posts here. Treat the report as unverified."
           ],
           "highlightParagraph": 0,
-          "trend": "Active on X",
+          "trend": "AI access claims",
           "sources": [
             {
-              "label": "@MatildaMinter",
-              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
+              "label": "Watcher.Guru",
+              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@MatildaMinter",
-              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
+              "text": "Watcher.Guru",
+              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
             }
           ]
         },
         {
           "page": 102,
-          "category": "US Politics",
-          "headline": "Clyburn cites $47bn Iran war cost",
+          "category": "Technology",
+          "headline": "OpenAI pitches private AI tools",
           "paragraphs": [
-            "Rep. James Clyburn claimed on X that Trump's Iran war cost taxpayers $47 billion.",
-            "He also alleged $160bn in higher fuel costs and called the presidency a disaster. These remain his assertions."
+            "OpenAI says Private Intelligence lets firms use top models with stronger data controls.",
+            "It says protections are built with large customers for sensitive work. This is a company announcement."
           ],
           "highlightParagraph": 0,
-          "trend": "Political claims",
+          "trend": "Enterprise AI",
           "sources": [
             {
-              "label": "@RepJamesClyburn",
-              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
+              "label": "OpenAI",
+              "url": "https://x.com/OpenAI/status/2116186509384815084"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@RepJamesClyburn",
-              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
+              "text": "OpenAI",
+              "url": "https://x.com/OpenAI/status/2116186509384815084"
             }
           ]
         },
         {
           "page": 103,
-          "category": "US Justice",
-          "headline": "O'Keefe charged over voting film",
+          "category": "Politics",
+          "headline": "India creator calls Nov 1 protest",
           "paragraphs": [
-            "Kyle Griffin reported on X that Hennepin County charged James O'Keefe and Cam Higby with felonies.",
-            "Claims involve unlawful voting and identity theft while filming Minnesota's primary. The post cites the NYT."
+            "Dhruv Rathee urged a large protest against election official Gyanesh Kumar on 1 November.",
+            "The post is a political appeal on X. No official reply appears in it."
           ],
           "highlightParagraph": 0,
-          "trend": "Legal claims",
+          "trend": "Election dispute",
           "sources": [
             {
-              "label": "@kylegriffin1",
-              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
+              "label": "Dhruv Rathee",
+              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@kylegriffin1",
-              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
+              "text": "Dhruv Rathee",
+              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
             }
           ]
         },
         {
           "page": 104,
-          "category": "World",
-          "headline": "Putin calls Musk a real genius",
+          "category": "Economy",
+          "headline": "Brazil senator flags import tax",
           "paragraphs": [
-            "Yahoo News Japan posted on X that Putin described Elon Musk as a real genius.",
-            "The claim is circulating from that outlet's report. These posts offer no further verification."
+            "Senator Rogerio Marinho says a federal tax on imports up to $50 starts in 2027, proposed at 11.3%.",
+            "He blames the ruling party after the election. This is his claim, not a confirmed law in the post."
           ],
-          "highlightParagraph": 0,
-          "trend": "Viral report",
+          "highlightParagraph": 1,
+          "trend": "Tax debate",
           "sources": [
             {
-              "label": "@YahooNewsTopics",
-              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
+              "label": "Rogerio Marinho",
+              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@YahooNewsTopics",
-              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
+              "text": "Rogerio Marinho",
+              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
             }
           ]
         }
@@ -112,109 +112,109 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-10-29T13:10:22.316Z",
+      "updatedAt": "2026-10-30T15:46:54.320Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Active on X",
-        "Political claims",
-        "Legal claims",
-        "Viral report"
+        "AI access claims",
+        "Enterprise AI",
+        "Election dispute",
+        "Tax debate"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Storbritannien",
-          "headline": "Rättegång om Cambridge-attack",
+          "category": "Teknik",
+          "headline": "Japan söker avancerade AI-modeller",
           "paragraphs": [
-            "X-användare noterar att rättegången började mot mannen anklagad för knivdådet på Cambridge-tåget förra året.",
-            "Inlägg delar en BBC-länk och hävdar att fallet saknar förstasidesbevakning."
+            "Watcher.Guru hävdar att Japan bett OpenAI och Anthropic om deras mest avancerade AI-modeller.",
+            "Varken bolagen eller japanska myndigheter bekräftade begäran i inläggen. Se det som obekräftat."
           ],
           "highlightParagraph": 0,
-          "trend": "Active on X",
+          "trend": "AI access claims",
           "sources": [
             {
-              "label": "@MatildaMinter",
-              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
+              "label": "Watcher.Guru",
+              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@MatildaMinter",
-              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
+              "text": "Watcher.Guru",
+              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
             }
           ]
         },
         {
           "page": 102,
-          "category": "USA-politik",
-          "headline": "Clyburn: Irankrig kostade 47 mdr",
+          "category": "Teknik",
+          "headline": "OpenAI lanserar privat AI-kontroll",
           "paragraphs": [
-            "Rep. James Clyburn hävdade på X att Trumps krig i Iran kostade skattebetalarna 47 miljarder dollar.",
-            "Han påstod också 160 mdr i högre bränslekostnader och kallade presidentskapet en katastrof. Detta är hans påståenden."
+            "OpenAI säger att Private Intelligence ger företag starkare datakontroll med toppmodeller.",
+            "Skydden byggs med stora kunder för känsligt arbete. Det är ett företagsmeddelande."
           ],
           "highlightParagraph": 0,
-          "trend": "Political claims",
+          "trend": "Enterprise AI",
           "sources": [
             {
-              "label": "@RepJamesClyburn",
-              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
+              "label": "OpenAI",
+              "url": "https://x.com/OpenAI/status/2116186509384815084"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@RepJamesClyburn",
-              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
+              "text": "OpenAI",
+              "url": "https://x.com/OpenAI/status/2116186509384815084"
             }
           ]
         },
         {
           "page": 103,
-          "category": "USA-rättvisa",
-          "headline": "O'Keefe åtalad för röstfilm",
+          "category": "Politik",
+          "headline": "Indisk skapare manar till protest",
           "paragraphs": [
-            "Kyle Griffin rapporterade på X att Hennepin County åtalade James O'Keefe och Cam Higby för grova brott.",
-            "Påståenden gäller olaglig röstning och identitetsstöld vid filmning under Minnesotas primärval. Inlägget citerar NYT."
+            "Dhruv Rathee uppmanade till stor protest mot valtjänstemannen Gyanesh Kumar den 1 november.",
+            "Inlägget är en politisk appell på X. Inget officiellt svar syns."
           ],
           "highlightParagraph": 0,
-          "trend": "Legal claims",
+          "trend": "Election dispute",
           "sources": [
             {
-              "label": "@kylegriffin1",
-              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
+              "label": "Dhruv Rathee",
+              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@kylegriffin1",
-              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
+              "text": "Dhruv Rathee",
+              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Världen",
-          "headline": "Putin kallar Musk ett geni",
+          "category": "Ekonomi",
+          "headline": "Senator varnar för importskatt",
           "paragraphs": [
-            "Yahoo News Japan skrev på X att Putin beskrev Elon Musk som ett verkligt geni.",
-            "Påståendet cirkulerar från utloppets rapport. Dessa inlägg ger ingen ytterligare verifiering."
+            "Senator Rogerio Marinho säger att en federal skatt på import upp till 50 dollar börjar 2027, föreslagen till 11,3 %.",
+            "Han skyller på regeringspartiet efter valet. Det är hans påstående, inte en bekräftad lag."
           ],
-          "highlightParagraph": 0,
-          "trend": "Viral report",
+          "highlightParagraph": 1,
+          "trend": "Tax debate",
           "sources": [
             {
-              "label": "@YahooNewsTopics",
-              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
+              "label": "Rogerio Marinho",
+              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@YahooNewsTopics",
-              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
+              "text": "Rogerio Marinho",
+              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
             }
           ]
         }
@@ -222,109 +222,109 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-10-29T13:10:22.316Z",
+      "updatedAt": "2026-10-30T15:46:54.320Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Active on X",
-        "Political claims",
-        "Legal claims",
-        "Viral report"
+        "AI access claims",
+        "Enterprise AI",
+        "Election dispute",
+        "Tax debate"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Großbritannien",
-          "headline": "Prozess zum Cambridge-Angriff",
+          "category": "Technik",
+          "headline": "Japan will Zugang zu Top-KI",
           "paragraphs": [
-            "X-Nutzer berichten, dass der Prozess gegen den Mann begann, der im Vorjahr beim Cambridge-Zugangriff angeklagt ist.",
-            "Beiträge teilen einen BBC-Link und beklagen fehlende Titelseiten-Aufmerksamkeit."
+            "Watcher.Guru behauptet, Japan habe OpenAI und Anthropic um ihre fortschrittlichsten KI-Modelle gebeten.",
+            "Weder die Firmen noch japanische Stellen bestätigten die Anfrage. Als unbestätigt werten."
           ],
           "highlightParagraph": 0,
-          "trend": "Active on X",
+          "trend": "AI access claims",
           "sources": [
             {
-              "label": "@MatildaMinter",
-              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
+              "label": "Watcher.Guru",
+              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@MatildaMinter",
-              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
+              "text": "Watcher.Guru",
+              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
             }
           ]
         },
         {
           "page": 102,
-          "category": "US-Politik",
-          "headline": "Clyburn: Iran-Krieg 47 Mrd.",
+          "category": "Technik",
+          "headline": "OpenAI wirbt für private KI",
           "paragraphs": [
-            "Rep. James Clyburn behauptete auf X, Trumps Iran-Krieg habe Steuerzahler 47 Milliarden Dollar gekostet.",
-            "Er behauptete zudem 160 Mrd. höhere Treibstoffkosten und nannte die Präsidentschaft eine Katastrophe. Das sind seine Aussagen."
+            "OpenAI sagt, Private Intelligence gebe Firmen stärkere Datenkontrolle bei Top-Modellen.",
+            "Schutz werde mit Großkunden für sensible Arbeit gebaut. Es ist eine Firmenankündigung."
           ],
           "highlightParagraph": 0,
-          "trend": "Political claims",
+          "trend": "Enterprise AI",
           "sources": [
             {
-              "label": "@RepJamesClyburn",
-              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
+              "label": "OpenAI",
+              "url": "https://x.com/OpenAI/status/2116186509384815084"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@RepJamesClyburn",
-              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
+              "text": "OpenAI",
+              "url": "https://x.com/OpenAI/status/2116186509384815084"
             }
           ]
         },
         {
           "page": 103,
-          "category": "US-Justiz",
-          "headline": "O'Keefe wegen Wahlfilm angeklagt",
+          "category": "Politik",
+          "headline": "Creator ruft zu Protest am 1. Nov.",
           "paragraphs": [
-            "Kyle Griffin berichtete auf X, dass Hennepin County James O'Keefe und Cam Higby wegen Verbrechen angeklagt hat.",
-            "Vorwürfe betreffen illegale Stimmabgabe und Identitätsdiebstahl beim Filmen der Vorwahl in Minnesota. Der Post zitiert die NYT."
+            "Dhruv Rathee rief zu einem großen Protest gegen Wahlbeamten Gyanesh Kumar am 1. November auf.",
+            "Der Beitrag ist ein politischer Appell auf X. Keine offizielle Antwort ist zu sehen."
           ],
           "highlightParagraph": 0,
-          "trend": "Legal claims",
+          "trend": "Election dispute",
           "sources": [
             {
-              "label": "@kylegriffin1",
-              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
+              "label": "Dhruv Rathee",
+              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@kylegriffin1",
-              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
+              "text": "Dhruv Rathee",
+              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Welt",
-          "headline": "Putin nennt Musk ein Genie",
+          "category": "Wirtschaft",
+          "headline": "Senator warnt vor Importsteuer",
           "paragraphs": [
-            "Yahoo News Japan postete auf X, dass Putin Elon Musk ein echtes Genie nannte.",
-            "Die Behauptung zirkuliert aus dem Bericht des Mediums. Diese Posts bieten keine weitere Überprüfung."
+            "Senator Rogerio Marinho sagt, eine Bundessteuer auf Importe bis 50 Dollar beginne 2027, vorgeschlagen bei 11,3 %.",
+            "Er gibt der Regierungspartei nach der Wahl die Schuld. Das ist seine Behauptung, kein bestätigtes Gesetz."
           ],
-          "highlightParagraph": 0,
-          "trend": "Viral report",
+          "highlightParagraph": 1,
+          "trend": "Tax debate",
           "sources": [
             {
-              "label": "@YahooNewsTopics",
-              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
+              "label": "Rogerio Marinho",
+              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@YahooNewsTopics",
-              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
+              "text": "Rogerio Marinho",
+              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
             }
           ]
         }
@@ -332,109 +332,109 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-10-29T13:10:22.316Z",
+      "updatedAt": "2026-10-30T15:46:54.320Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Active on X",
-        "Political claims",
-        "Legal claims",
-        "Viral report"
+        "AI access claims",
+        "Enterprise AI",
+        "Election dispute",
+        "Tax debate"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Reino Unido",
-          "headline": "Juicio por ataque en Cambridge",
+          "category": "Tecnología",
+          "headline": "Japón busca modelos de IA avanzados",
           "paragraphs": [
-            "Usuarios de X señalan que comenzó el juicio del hombre acusado del apuñalamiento en el tren de Cambridge el año pasado.",
-            "Publicaciones comparten un enlace de la BBC y afirman que el caso carece de cobertura de portada."
+            "Watcher.Guru afirma que Japón pidió a OpenAI y Anthropic sus modelos de IA más avanzados.",
+            "Ni las empresas ni funcionarios japoneses lo confirmaron. Trátelo como no verificado."
           ],
           "highlightParagraph": 0,
-          "trend": "Active on X",
+          "trend": "AI access claims",
           "sources": [
             {
-              "label": "@MatildaMinter",
-              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
+              "label": "Watcher.Guru",
+              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@MatildaMinter",
-              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
+              "text": "Watcher.Guru",
+              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Política EE.UU.",
-          "headline": "Clyburn: guerra Irán costó 47 mil M",
+          "category": "Tecnología",
+          "headline": "OpenAI presenta controles de IA privada",
           "paragraphs": [
-            "El rep. James Clyburn afirmó en X que la guerra de Trump en Irán costó 47.000 millones a los contribuyentes.",
-            "También alegó 160.000 millones en costos de combustible más altos y llamó desastre a la presidencia. Son sus aseveraciones."
+            "OpenAI dice que Private Intelligence da más control de datos al usar modelos top.",
+            "Dice que las protecciones se crean con grandes clientes. Es un anuncio de la empresa."
           ],
           "highlightParagraph": 0,
-          "trend": "Political claims",
+          "trend": "Enterprise AI",
           "sources": [
             {
-              "label": "@RepJamesClyburn",
-              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
+              "label": "OpenAI",
+              "url": "https://x.com/OpenAI/status/2116186509384815084"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@RepJamesClyburn",
-              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
+              "text": "OpenAI",
+              "url": "https://x.com/OpenAI/status/2116186509384815084"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Justicia EE.UU.",
-          "headline": "O'Keefe acusado por vídeo de voto",
+          "category": "Política",
+          "headline": "Creador indio llama a protesta",
           "paragraphs": [
-            "Kyle Griffin informó en X que el condado de Hennepin acusó a James O'Keefe y Cam Higby de delitos graves.",
-            "Las alegaciones implican votación ilegal y robo de identidad al filmar las primarias de Minnesota. El post cita al NYT."
+            "Dhruv Rathee pidió una gran protesta contra el funcionario electoral Gyanesh Kumar el 1 de noviembre.",
+            "La publicación es un llamamiento político en X. No aparece respuesta oficial."
           ],
           "highlightParagraph": 0,
-          "trend": "Legal claims",
+          "trend": "Election dispute",
           "sources": [
             {
-              "label": "@kylegriffin1",
-              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
+              "label": "Dhruv Rathee",
+              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@kylegriffin1",
-              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
+              "text": "Dhruv Rathee",
+              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Mundo",
-          "headline": "Putin llama genio a Musk",
+          "category": "Economía",
+          "headline": "Senador alerta de impuesto a importaciones",
           "paragraphs": [
-            "Yahoo News Japón publicó en X que Putin describió a Elon Musk como un verdadero genio.",
-            "La afirmación circula desde el informe del medio. Estas publicaciones no ofrecen más verificación."
+            "El senador Rogerio Marinho dice que un impuesto federal a importaciones de hasta 50 dólares empieza en 2027, al 11,3 %.",
+            "Culpa al partido gobernante tras la elección. Es su afirmación, no una ley confirmada."
           ],
-          "highlightParagraph": 0,
-          "trend": "Viral report",
+          "highlightParagraph": 1,
+          "trend": "Tax debate",
           "sources": [
             {
-              "label": "@YahooNewsTopics",
-              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
+              "label": "Rogerio Marinho",
+              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@YahooNewsTopics",
-              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
+              "text": "Rogerio Marinho",
+              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
             }
           ]
         }
@@ -442,109 +442,109 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-10-29T13:10:22.316Z",
+      "updatedAt": "2026-10-30T15:46:54.320Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Active on X",
-        "Political claims",
-        "Legal claims",
-        "Viral report"
+        "AI access claims",
+        "Enterprise AI",
+        "Election dispute",
+        "Tax debate"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Royaume-Uni",
-          "headline": "Procès de l'attaque de Cambridge",
+          "category": "Technologie",
+          "headline": "Japon veut des modèles d'IA avancés",
           "paragraphs": [
-            "Des utilisateurs de X notent que le procès a commencé pour l'homme accusé de l'attaque au couteau dans le train de Cambridge l'an dernier.",
-            "Des posts partagent un lien BBC et affirment que l'affaire manque d'attention en une."
+            "Watcher.Guru affirme que le Japon a demandé à OpenAI et Anthropic leurs modèles d'IA les plus avancés.",
+            "Ni les firmes ni les autorités japonaises n'ont confirmé. À traiter comme non vérifié."
           ],
           "highlightParagraph": 0,
-          "trend": "Active on X",
+          "trend": "AI access claims",
           "sources": [
             {
-              "label": "@MatildaMinter",
-              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
+              "label": "Watcher.Guru",
+              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@MatildaMinter",
-              "url": "https://x.com/MatildaMinter/status/2115591820138696855"
+              "text": "Watcher.Guru",
+              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Politique US",
-          "headline": "Clyburn: guerre Iran à 47 mds",
+          "category": "Technologie",
+          "headline": "OpenAI présente une IA privée",
           "paragraphs": [
-            "Le rep. James Clyburn a affirmé sur X que la guerre de Trump en Iran a coûté 47 milliards aux contribuables.",
-            "Il a aussi allégué 160 mds de coûts de carburant plus élevés et qualifié la présidence de désastre. Ce sont ses affirmations."
+            "OpenAI dit que Private Intelligence renforce le contrôle des données avec ses meilleurs modèles.",
+            "Les protections seraient conçues avec de grands clients. C'est une annonce de l'entreprise."
           ],
           "highlightParagraph": 0,
-          "trend": "Political claims",
+          "trend": "Enterprise AI",
           "sources": [
             {
-              "label": "@RepJamesClyburn",
-              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
+              "label": "OpenAI",
+              "url": "https://x.com/OpenAI/status/2116186509384815084"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@RepJamesClyburn",
-              "url": "https://x.com/RepJamesClyburn/status/2115590264823976341"
+              "text": "OpenAI",
+              "url": "https://x.com/OpenAI/status/2116186509384815084"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Justice US",
-          "headline": "O'Keefe inculpé pour film de vote",
+          "category": "Politique",
+          "headline": "Créateur indien appelle à manifester",
           "paragraphs": [
-            "Kyle Griffin a rapporté sur X que le comté de Hennepin a inculpé James O'Keefe et Cam Higby de crimes.",
-            "Les allégations portent sur un vote illégal et un vol d'identité lors d'un tournage aux primaires du Minnesota. Le post cite le NYT."
+            "Dhruv Rathee a appelé à une large manifestation contre Gyanesh Kumar le 1er novembre.",
+            "Le post est un appel politique sur X. Aucune réponse officielle n'y apparaît."
           ],
           "highlightParagraph": 0,
-          "trend": "Legal claims",
+          "trend": "Election dispute",
           "sources": [
             {
-              "label": "@kylegriffin1",
-              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
+              "label": "Dhruv Rathee",
+              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@kylegriffin1",
-              "url": "https://x.com/kylegriffin1/status/2115587067090452891"
+              "text": "Dhruv Rathee",
+              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Monde",
-          "headline": "Poutine qualifie Musk de génie",
+          "category": "Économie",
+          "headline": "Sénateur évoque une taxe à l'import",
           "paragraphs": [
-            "Yahoo News Japon a posté sur X que Poutine a décrit Elon Musk comme un vrai génie.",
-            "L'affirmation circule d'après le rapport du média. Ces posts n'offrent pas de vérification supplémentaire."
+            "Le sénateur Rogerio Marinho dit qu'une taxe fédérale sur les imports jusqu'à 50 dollars débutera en 2027, à 11,3 %.",
+            "Il blâme le parti au pouvoir après l'élection. C'est son affirmation, pas une loi confirmée."
           ],
-          "highlightParagraph": 0,
-          "trend": "Viral report",
+          "highlightParagraph": 1,
+          "trend": "Tax debate",
           "sources": [
             {
-              "label": "@YahooNewsTopics",
-              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
+              "label": "Rogerio Marinho",
+              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@YahooNewsTopics",
-              "url": "https://x.com/YahooNewsTopics/status/2115591190603305051"
+              "text": "Rogerio Marinho",
+              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
             }
           ]
         }
