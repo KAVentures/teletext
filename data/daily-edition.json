@@ -1,110 +1,110 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "editions": {
     "en": {
-      "updatedAt": "2026-10-30T15:46:54.320Z",
+      "updatedAt": "2026-10-31T21:38:26.914Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "AI access claims",
-        "Enterprise AI",
-        "Election dispute",
-        "Tax debate"
+        "High engagement",
+        "Election focus",
+        "Casualty update",
+        "Political claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Technology",
-          "headline": "Japan seeks advanced AI models",
+          "category": "Finance",
+          "headline": "FBI links N. Korea to $6.3B Binance hack",
           "paragraphs": [
-            "Watcher.Guru claims Japan asked OpenAI and Anthropic for their most advanced AI models.",
-            "Neither the firms nor Japanese officials confirmed the request in posts here. Treat the report as unverified."
+            "Watcher.Guru on X reports the FBI confirms North Korea carried out a $6.3 billion Binance crypto hack.",
+            "The post is a claim only and remains unverified in this bulletin."
           ],
           "highlightParagraph": 0,
-          "trend": "AI access claims",
+          "trend": "High engagement",
           "sources": [
             {
               "label": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
+              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
               "text": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
+              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Technology",
-          "headline": "OpenAI pitches private AI tools",
+          "category": "US Politics",
+          "headline": "Texas AG claims illegal voter arrests",
           "paragraphs": [
-            "OpenAI says Private Intelligence lets firms use top models with stronger data controls.",
-            "It says protections are built with large customers for sensitive work. This is a company announcement."
+            "Polymarket posts that Texas AG Ken Paxton announced arrests of convicted felons accused of illegal voting in the 2026 midterms.",
+            "This is a reported claim; no independent check is included here."
           ],
           "highlightParagraph": 0,
-          "trend": "Enterprise AI",
+          "trend": "Election focus",
           "sources": [
             {
-              "label": "OpenAI",
-              "url": "https://x.com/OpenAI/status/2116186509384815084"
+              "label": "Polymarket",
+              "url": "https://x.com/Polymarket/status/2116642115082227830"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "OpenAI",
-              "url": "https://x.com/OpenAI/status/2116186509384815084"
+              "text": "Polymarket",
+              "url": "https://x.com/Polymarket/status/2116642115082227830"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politics",
-          "headline": "India creator calls Nov 1 protest",
+          "category": "Conflict",
+          "headline": "US death toll in Iran war rises to 23",
           "paragraphs": [
-            "Dhruv Rathee urged a large protest against election official Gyanesh Kumar on 1 November.",
-            "The post is a political appeal on X. No official reply appears in it."
+            "An X post says the Pentagon raised the official US death toll from the Iran war from 21 to 23, with 865 wounded.",
+            "Figures come from one account and are a claim, not confirmed fact."
           ],
           "highlightParagraph": 0,
-          "trend": "Election dispute",
+          "trend": "Casualty update",
           "sources": [
             {
-              "label": "Dhruv Rathee",
-              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
+              "label": "Arya Yadegaar",
+              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Dhruv Rathee",
-              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
+              "text": "Arya Yadegaar",
+              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Economy",
-          "headline": "Brazil senator flags import tax",
+          "category": "US Politics",
+          "headline": "DHS calls Ilhan Omar case large",
           "paragraphs": [
-            "Senator Rogerio Marinho says a federal tax on imports up to $50 starts in 2027, proposed at 11.3%.",
-            "He blames the ruling party after the election. This is his claim, not a confirmed law in the post."
+            "Insider Wire reports DHS Secretary Mullin saying Ilhan Omar’s case is large and targets multiple people.",
+            "The remark is attributed to the post; details stay unconfirmed here."
           ],
-          "highlightParagraph": 1,
-          "trend": "Tax debate",
+          "highlightParagraph": 0,
+          "trend": "Political claim",
           "sources": [
             {
-              "label": "Rogerio Marinho",
-              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
+              "label": "Insider Wire",
+              "url": "https://x.com/InsiderWire/status/2116638839997424104"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Rogerio Marinho",
-              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
+              "text": "Insider Wire",
+              "url": "https://x.com/InsiderWire/status/2116638839997424104"
             }
           ]
         }
@@ -112,109 +112,109 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-10-30T15:46:54.320Z",
+      "updatedAt": "2026-10-31T21:38:26.914Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "AI access claims",
-        "Enterprise AI",
-        "Election dispute",
-        "Tax debate"
+        "High engagement",
+        "Election focus",
+        "Casualty update",
+        "Political claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Teknik",
-          "headline": "Japan söker avancerade AI-modeller",
+          "category": "Finans",
+          "headline": "FBI kopplar N. Korea till Binance-hack",
           "paragraphs": [
-            "Watcher.Guru hävdar att Japan bett OpenAI och Anthropic om deras mest avancerade AI-modeller.",
-            "Varken bolagen eller japanska myndigheter bekräftade begäran i inläggen. Se det som obekräftat."
+            "Watcher.Guru på X rapporterar att FBI bekräftar att Nordkorea utförde en kryptohack mot Binance på 6,3 miljarder dollar.",
+            "Inlägget är endast ett påstående och förblir overifierat i denna bulletin."
           ],
           "highlightParagraph": 0,
-          "trend": "AI access claims",
+          "trend": "High engagement",
           "sources": [
             {
               "label": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
+              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
               "text": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
+              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Teknik",
-          "headline": "OpenAI lanserar privat AI-kontroll",
+          "category": "Politik USA",
+          "headline": "Texas AG hävdar olagliga röstarester",
           "paragraphs": [
-            "OpenAI säger att Private Intelligence ger företag starkare datakontroll med toppmodeller.",
-            "Skydden byggs med stora kunder för känsligt arbete. Det är ett företagsmeddelande."
+            "Polymarket skriver att Texas justitieminister Ken Paxton meddelat gripanden av dömda brottslingar anklagade för olaglig röstning i mellanårsvalet 2026.",
+            "Detta är ett rapporterat påstående; ingen oberoende kontroll ingår här."
           ],
           "highlightParagraph": 0,
-          "trend": "Enterprise AI",
+          "trend": "Election focus",
           "sources": [
             {
-              "label": "OpenAI",
-              "url": "https://x.com/OpenAI/status/2116186509384815084"
+              "label": "Polymarket",
+              "url": "https://x.com/Polymarket/status/2116642115082227830"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "OpenAI",
-              "url": "https://x.com/OpenAI/status/2116186509384815084"
+              "text": "Polymarket",
+              "url": "https://x.com/Polymarket/status/2116642115082227830"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politik",
-          "headline": "Indisk skapare manar till protest",
+          "category": "Konflikt",
+          "headline": "USA:s dödstal i Iran-kriget stiger till 23",
           "paragraphs": [
-            "Dhruv Rathee uppmanade till stor protest mot valtjänstemannen Gyanesh Kumar den 1 november.",
-            "Inlägget är en politisk appell på X. Inget officiellt svar syns."
+            "Ett X-inlägg säger att Pentagon höjt det officiella amerikanska dödstalet i Iran-kriget från 21 till 23, med 865 sårade.",
+            "Siffrorna kommer från ett konto och är ett påstående, inte bekräftat faktum."
           ],
           "highlightParagraph": 0,
-          "trend": "Election dispute",
+          "trend": "Casualty update",
           "sources": [
             {
-              "label": "Dhruv Rathee",
-              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
+              "label": "Arya Yadegaar",
+              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Dhruv Rathee",
-              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
+              "text": "Arya Yadegaar",
+              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Ekonomi",
-          "headline": "Senator varnar för importskatt",
+          "category": "Politik USA",
+          "headline": "DHS kallar Ilhan Omars fall stort",
           "paragraphs": [
-            "Senator Rogerio Marinho säger att en federal skatt på import upp till 50 dollar börjar 2027, föreslagen till 11,3 %.",
-            "Han skyller på regeringspartiet efter valet. Det är hans påstående, inte en bekräftad lag."
+            "Insider Wire rapporterar att DHS-minister Mullin säger att Ilhan Omars fall är stort och riktar sig mot flera personer.",
+            "Uttalandet tillskrivs inlägget; detaljer förblir obekräftade här."
           ],
-          "highlightParagraph": 1,
-          "trend": "Tax debate",
+          "highlightParagraph": 0,
+          "trend": "Political claim",
           "sources": [
             {
-              "label": "Rogerio Marinho",
-              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
+              "label": "Insider Wire",
+              "url": "https://x.com/InsiderWire/status/2116638839997424104"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Rogerio Marinho",
-              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
+              "text": "Insider Wire",
+              "url": "https://x.com/InsiderWire/status/2116638839997424104"
             }
           ]
         }
@@ -222,109 +222,109 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-10-30T15:46:54.320Z",
+      "updatedAt": "2026-10-31T21:38:26.914Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "AI access claims",
-        "Enterprise AI",
-        "Election dispute",
-        "Tax debate"
+        "High engagement",
+        "Election focus",
+        "Casualty update",
+        "Political claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Technik",
-          "headline": "Japan will Zugang zu Top-KI",
+          "category": "Finanzen",
+          "headline": "FBI verknüpft N. Korea mit Binance-Hack",
           "paragraphs": [
-            "Watcher.Guru behauptet, Japan habe OpenAI und Anthropic um ihre fortschrittlichsten KI-Modelle gebeten.",
-            "Weder die Firmen noch japanische Stellen bestätigten die Anfrage. Als unbestätigt werten."
+            "Watcher.Guru auf X berichtet, das FBI bestätige, Nordkorea habe den 6,3-Milliarden-Dollar-Krypto-Hack bei Binance verübt.",
+            "Der Beitrag ist nur eine Behauptung und bleibt in diesem Bulletin unverifiziert."
           ],
           "highlightParagraph": 0,
-          "trend": "AI access claims",
+          "trend": "High engagement",
           "sources": [
             {
               "label": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
+              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
               "text": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
+              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Technik",
-          "headline": "OpenAI wirbt für private KI",
+          "category": "US-Politik",
+          "headline": "Texas-AG meldet illegale Wähler-Festnahmen",
           "paragraphs": [
-            "OpenAI sagt, Private Intelligence gebe Firmen stärkere Datenkontrolle bei Top-Modellen.",
-            "Schutz werde mit Großkunden für sensible Arbeit gebaut. Es ist eine Firmenankündigung."
+            "Polymarket berichtet, der texanische Generalstaatsanwalt Ken Paxton habe Festnahmen verurteilter Straftäter wegen illegaler Stimmabgabe bei den Zwischenwahlen 2026 bekannt gegeben.",
+            "Es handelt sich um eine gemeldete Behauptung; eine unabhängige Prüfung ist hier nicht enthalten."
           ],
           "highlightParagraph": 0,
-          "trend": "Enterprise AI",
+          "trend": "Election focus",
           "sources": [
             {
-              "label": "OpenAI",
-              "url": "https://x.com/OpenAI/status/2116186509384815084"
+              "label": "Polymarket",
+              "url": "https://x.com/Polymarket/status/2116642115082227830"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "OpenAI",
-              "url": "https://x.com/OpenAI/status/2116186509384815084"
+              "text": "Polymarket",
+              "url": "https://x.com/Polymarket/status/2116642115082227830"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politik",
-          "headline": "Creator ruft zu Protest am 1. Nov.",
+          "category": "Konflikt",
+          "headline": "US-Todeszahl im Iran-Krieg steigt auf 23",
           "paragraphs": [
-            "Dhruv Rathee rief zu einem großen Protest gegen Wahlbeamten Gyanesh Kumar am 1. November auf.",
-            "Der Beitrag ist ein politischer Appell auf X. Keine offizielle Antwort ist zu sehen."
+            "Ein X-Beitrag besagt, das Pentagon habe die offizielle US-Todeszahl im Iran-Krieg von 21 auf 23 erhöht, mit 865 Verwundeten.",
+            "Die Zahlen stammen von einem Konto und sind eine Behauptung, keine bestätigte Tatsache."
           ],
           "highlightParagraph": 0,
-          "trend": "Election dispute",
+          "trend": "Casualty update",
           "sources": [
             {
-              "label": "Dhruv Rathee",
-              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
+              "label": "Arya Yadegaar",
+              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Dhruv Rathee",
-              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
+              "text": "Arya Yadegaar",
+              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Wirtschaft",
-          "headline": "Senator warnt vor Importsteuer",
+          "category": "US-Politik",
+          "headline": "DHS nennt Ilhan-Omar-Fall groß",
           "paragraphs": [
-            "Senator Rogerio Marinho sagt, eine Bundessteuer auf Importe bis 50 Dollar beginne 2027, vorgeschlagen bei 11,3 %.",
-            "Er gibt der Regierungspartei nach der Wahl die Schuld. Das ist seine Behauptung, kein bestätigtes Gesetz."
+            "Insider Wire berichtet, DHS-Minister Mullin sage, der Fall Ilhan Omar sei groß und richte sich gegen mehrere Personen.",
+            "Die Aussage wird dem Beitrag zugeschrieben; Details bleiben hier unbestätigt."
           ],
-          "highlightParagraph": 1,
-          "trend": "Tax debate",
+          "highlightParagraph": 0,
+          "trend": "Political claim",
           "sources": [
             {
-              "label": "Rogerio Marinho",
-              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
+              "label": "Insider Wire",
+              "url": "https://x.com/InsiderWire/status/2116638839997424104"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Rogerio Marinho",
-              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
+              "text": "Insider Wire",
+              "url": "https://x.com/InsiderWire/status/2116638839997424104"
             }
           ]
         }
@@ -332,109 +332,109 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-10-30T15:46:54.320Z",
+      "updatedAt": "2026-10-31T21:38:26.914Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "AI access claims",
-        "Enterprise AI",
-        "Election dispute",
-        "Tax debate"
+        "High engagement",
+        "Election focus",
+        "Casualty update",
+        "Political claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Tecnología",
-          "headline": "Japón busca modelos de IA avanzados",
+          "category": "Finanzas",
+          "headline": "FBI vincula a Corea del Norte con hackeo",
           "paragraphs": [
-            "Watcher.Guru afirma que Japón pidió a OpenAI y Anthropic sus modelos de IA más avanzados.",
-            "Ni las empresas ni funcionarios japoneses lo confirmaron. Trátelo como no verificado."
+            "Watcher.Guru en X informa que el FBI confirma que Corea del Norte ejecutó un hackeo cripto de 6.300 millones en Binance.",
+            "La publicación es solo una afirmación y permanece sin verificar en este boletín."
           ],
           "highlightParagraph": 0,
-          "trend": "AI access claims",
+          "trend": "High engagement",
           "sources": [
             {
               "label": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
+              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
               "text": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
+              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Tecnología",
-          "headline": "OpenAI presenta controles de IA privada",
+          "category": "Política EE.UU.",
+          "headline": "Fiscal de Texas denuncia votos ilegales",
           "paragraphs": [
-            "OpenAI dice que Private Intelligence da más control de datos al usar modelos top.",
-            "Dice que las protecciones se crean con grandes clientes. Es un anuncio de la empresa."
+            "Polymarket publica que el fiscal general de Texas, Ken Paxton, anunció arrestos de delincuentes convictos acusados de votar ilegalmente en las elecciones de 2026.",
+            "Se trata de una afirmación reportada; no se incluye verificación independiente aquí."
           ],
           "highlightParagraph": 0,
-          "trend": "Enterprise AI",
+          "trend": "Election focus",
           "sources": [
             {
-              "label": "OpenAI",
-              "url": "https://x.com/OpenAI/status/2116186509384815084"
+              "label": "Polymarket",
+              "url": "https://x.com/Polymarket/status/2116642115082227830"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "OpenAI",
-              "url": "https://x.com/OpenAI/status/2116186509384815084"
+              "text": "Polymarket",
+              "url": "https://x.com/Polymarket/status/2116642115082227830"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Política",
-          "headline": "Creador indio llama a protesta",
+          "category": "Conflicto",
+          "headline": "Muertos de EE.UU. en guerra de Irán suben a 23",
           "paragraphs": [
-            "Dhruv Rathee pidió una gran protesta contra el funcionario electoral Gyanesh Kumar el 1 de noviembre.",
-            "La publicación es un llamamiento político en X. No aparece respuesta oficial."
+            "Una publicación en X dice que el Pentágono elevó el número oficial de muertos estadounidenses en la guerra de Irán de 21 a 23, con 865 heridos.",
+            "Las cifras provienen de una cuenta y son una afirmación, no un hecho confirmado."
           ],
           "highlightParagraph": 0,
-          "trend": "Election dispute",
+          "trend": "Casualty update",
           "sources": [
             {
-              "label": "Dhruv Rathee",
-              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
+              "label": "Arya Yadegaar",
+              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Dhruv Rathee",
-              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
+              "text": "Arya Yadegaar",
+              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Economía",
-          "headline": "Senador alerta de impuesto a importaciones",
+          "category": "Política EE.UU.",
+          "headline": "DHS llama grande el caso de Ilhan Omar",
           "paragraphs": [
-            "El senador Rogerio Marinho dice que un impuesto federal a importaciones de hasta 50 dólares empieza en 2027, al 11,3 %.",
-            "Culpa al partido gobernante tras la elección. Es su afirmación, no una ley confirmada."
+            "Insider Wire informa que el secretario del DHS Mullin dice que el caso de Ilhan Omar es grande y apunta a varias personas.",
+            "La declaración se atribuye a la publicación; los detalles permanecen sin confirmar aquí."
           ],
-          "highlightParagraph": 1,
-          "trend": "Tax debate",
+          "highlightParagraph": 0,
+          "trend": "Political claim",
           "sources": [
             {
-              "label": "Rogerio Marinho",
-              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
+              "label": "Insider Wire",
+              "url": "https://x.com/InsiderWire/status/2116638839997424104"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Rogerio Marinho",
-              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
+              "text": "Insider Wire",
+              "url": "https://x.com/InsiderWire/status/2116638839997424104"
             }
           ]
         }
@@ -442,109 +442,109 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-10-30T15:46:54.320Z",
+      "updatedAt": "2026-10-31T21:38:26.914Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "AI access claims",
-        "Enterprise AI",
-        "Election dispute",
-        "Tax debate"
+        "High engagement",
+        "Election focus",
+        "Casualty update",
+        "Political claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Technologie",
-          "headline": "Japon veut des modèles d'IA avancés",
+          "category": "Finance",
+          "headline": "Le FBI lie la Corée du Nord au piratage",
           "paragraphs": [
-            "Watcher.Guru affirme que le Japon a demandé à OpenAI et Anthropic leurs modèles d'IA les plus avancés.",
-            "Ni les firmes ni les autorités japonaises n'ont confirmé. À traiter comme non vérifié."
+            "Watcher.Guru sur X rapporte que le FBI confirme que la Corée du Nord a mené un piratage crypto de 6,3 milliards chez Binance.",
+            "Le post n'est qu'une affirmation et reste non vérifié dans ce bulletin."
           ],
           "highlightParagraph": 0,
-          "trend": "AI access claims",
+          "trend": "High engagement",
           "sources": [
             {
               "label": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
+              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
               "text": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116187306378084840"
+              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Technologie",
-          "headline": "OpenAI présente une IA privée",
+          "category": "Politique US",
+          "headline": "Le procureur du Texas annonce des arrestations",
           "paragraphs": [
-            "OpenAI dit que Private Intelligence renforce le contrôle des données avec ses meilleurs modèles.",
-            "Les protections seraient conçues avec de grands clients. C'est une annonce de l'entreprise."
+            "Polymarket indique que le procureur général du Texas, Ken Paxton, a annoncé des arrestations de criminels condamnés accusés de vote illégal lors des élections de 2026.",
+            "Il s'agit d'une affirmation rapportée ; aucune vérification indépendante n'est incluse ici."
           ],
           "highlightParagraph": 0,
-          "trend": "Enterprise AI",
+          "trend": "Election focus",
           "sources": [
             {
-              "label": "OpenAI",
-              "url": "https://x.com/OpenAI/status/2116186509384815084"
+              "label": "Polymarket",
+              "url": "https://x.com/Polymarket/status/2116642115082227830"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "OpenAI",
-              "url": "https://x.com/OpenAI/status/2116186509384815084"
+              "text": "Polymarket",
+              "url": "https://x.com/Polymarket/status/2116642115082227830"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politique",
-          "headline": "Créateur indien appelle à manifester",
+          "category": "Conflit",
+          "headline": "Le bilan US dans la guerre d'Iran passe à 23",
           "paragraphs": [
-            "Dhruv Rathee a appelé à une large manifestation contre Gyanesh Kumar le 1er novembre.",
-            "Le post est un appel politique sur X. Aucune réponse officielle n'y apparaît."
+            "Un post X indique que le Pentagone a relevé le bilan officiel des morts américains dans la guerre d'Iran de 21 à 23, avec 865 blessés.",
+            "Les chiffres proviennent d'un compte et sont une affirmation, non un fait confirmé."
           ],
           "highlightParagraph": 0,
-          "trend": "Election dispute",
+          "trend": "Casualty update",
           "sources": [
             {
-              "label": "Dhruv Rathee",
-              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
+              "label": "Arya Yadegaar",
+              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Dhruv Rathee",
-              "url": "https://x.com/dhruv_rathee/status/2116185046151278841"
+              "text": "Arya Yadegaar",
+              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Économie",
-          "headline": "Sénateur évoque une taxe à l'import",
+          "category": "Politique US",
+          "headline": "Le DHS qualifie l'affaire Omar de large",
           "paragraphs": [
-            "Le sénateur Rogerio Marinho dit qu'une taxe fédérale sur les imports jusqu'à 50 dollars débutera en 2027, à 11,3 %.",
-            "Il blâme le parti au pouvoir après l'élection. C'est son affirmation, pas une loi confirmée."
+            "Insider Wire rapporte que le secrétaire du DHS Mullin dit que l'affaire d'Ilhan Omar est large et vise plusieurs personnes.",
+            "La déclaration est attribuée au post ; les détails restent non confirmés ici."
           ],
-          "highlightParagraph": 1,
-          "trend": "Tax debate",
+          "highlightParagraph": 0,
+          "trend": "Political claim",
           "sources": [
             {
-              "label": "Rogerio Marinho",
-              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
+              "label": "Insider Wire",
+              "url": "https://x.com/InsiderWire/status/2116638839997424104"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Rogerio Marinho",
-              "url": "https://x.com/rogeriosmarinho/status/2116183348032802964"
+              "text": "Insider Wire",
+              "url": "https://x.com/InsiderWire/status/2116638839997424104"
             }
           ]
         }
