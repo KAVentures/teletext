@@ -1,110 +1,196 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-03",
   "editions": {
     "en": {
-      "updatedAt": "2026-10-31T21:38:26.914Z",
+      "updatedAt": "2026-11-03T14:24:42.627Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "High engagement",
-        "Election focus",
-        "Casualty update",
-        "Political claim"
+        "Unverified claims",
+        "Unverified claims",
+        "Disputed reports",
+        "Unverified claims",
+        "Unverified claims",
+        "Single-source claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Finance",
-          "headline": "FBI links N. Korea to $6.3B Binance hack",
+          "category": "Europe",
+          "headline": "Ukraine apps face false threat claims",
           "paragraphs": [
-            "Watcher.Guru on X reports the FBI confirms North Korea carried out a $6.3 billion Binance crypto hack.",
-            "The post is a claim only and remains unverified in this bulletin."
+            "X posts claim Ukraine emergency apps were hacked and sent false radiation or nuclear warnings.",
+            "The accounts showed no official confirmation. Treat the reports as unverified claims."
           ],
-          "highlightParagraph": 0,
-          "trend": "High engagement",
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
           "sources": [
             {
-              "label": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
+              "label": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+            },
+            {
+              "label": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
+              "text": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+            },
+            {
+              "id": "101-1",
+              "text": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
             }
           ]
         },
         {
           "page": 102,
-          "category": "US Politics",
-          "headline": "Texas AG claims illegal voter arrests",
+          "category": "Europe",
+          "headline": "Spain train death toll claimed at 69",
           "paragraphs": [
-            "Polymarket posts that Texas AG Ken Paxton announced arrests of convicted felons accused of illegal voting in the 2026 midterms.",
-            "This is a reported claim; no independent check is included here."
+            "Accounts on X say a deadly train disaster in Spain killed 69 people.",
+            "The figure is a social-media claim and was not verified in the posts reviewed."
           ],
-          "highlightParagraph": 0,
-          "trend": "Election focus",
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
           "sources": [
             {
-              "label": "Polymarket",
-              "url": "https://x.com/Polymarket/status/2116642115082227830"
+              "label": "AfriView",
+              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
+            },
+            {
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Polymarket",
-              "url": "https://x.com/Polymarket/status/2116642115082227830"
+              "text": "AfriView",
+              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
+            },
+            {
+              "id": "102-1",
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Conflict",
-          "headline": "US death toll in Iran war rises to 23",
+          "category": "Middle East",
+          "headline": "Iran talks in Doha said to stall",
           "paragraphs": [
-            "An X post says the Pentagon raised the official US death toll from the Iran war from 21 to 23, with 865 wounded.",
-            "Figures come from one account and are a claim, not confirmed fact."
+            "Posts claim Iranian negotiators left Doha as a draft to end fighting with the US circulated.",
+            "No independent confirmation appeared in the X posts. Details remain disputed."
           ],
-          "highlightParagraph": 0,
-          "trend": "Casualty update",
+          "highlightParagraph": 1,
+          "trend": "Disputed reports",
           "sources": [
             {
-              "label": "Arya Yadegaar",
-              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
+              "label": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "label": "TodayCryptoRj",
+              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Arya Yadegaar",
-              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
+              "text": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "id": "103-1",
+              "text": "TodayCryptoRj",
+              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
             }
           ]
         },
         {
           "page": 104,
-          "category": "US Politics",
-          "headline": "DHS calls Ilhan Omar case large",
+          "category": "Middle East",
+          "headline": "Gaza strikes claimed to kill eight",
           "paragraphs": [
-            "Insider Wire reports DHS Secretary Mullin saying Ilhan Omar’s case is large and targets multiple people.",
-            "The remark is attributed to the post; details stay unconfirmed here."
+            "An X news account says Israeli strikes in Gaza killed eight, including a child, citing hospitals.",
+            "The claim is unconfirmed here and should not be treated as established fact."
           ],
-          "highlightParagraph": 0,
-          "trend": "Political claim",
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
           "sources": [
             {
-              "label": "Insider Wire",
-              "url": "https://x.com/InsiderWire/status/2116638839997424104"
+              "label": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Insider Wire",
-              "url": "https://x.com/InsiderWire/status/2116638839997424104"
+              "text": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Americas",
+          "headline": "Florida jet crash said to kill nine",
+          "paragraphs": [
+            "X posts report a Learjet crash in Florida killed nine people.",
+            "Official details were not included. The death toll remains an unverified claim."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
+          "sources": [
+            {
+              "label": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "id": "105-1",
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Business",
+          "headline": "OPEC+ said to hold oil output steady",
+          "paragraphs": [
+            "One X post lists OPEC+ holding December oil output steady among today's developments.",
+            "The item is a single-account claim and was not corroborated in this search."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Single-source claim",
+          "sources": [
+            {
+              "label": "Firas Arodaki",
+              "url": "https://x.com/Firasias/status/2117074215949984225"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "Firas Arodaki",
+              "url": "https://x.com/Firasias/status/2117074215949984225"
             }
           ]
         }
@@ -112,109 +198,195 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-10-31T21:38:26.914Z",
+      "updatedAt": "2026-11-03T14:24:42.627Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "High engagement",
-        "Election focus",
-        "Casualty update",
-        "Political claim"
+        "Unverified claims",
+        "Unverified claims",
+        "Disputed reports",
+        "Unverified claims",
+        "Unverified claims",
+        "Single-source claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Finans",
-          "headline": "FBI kopplar N. Korea till Binance-hack",
+          "category": "Europa",
+          "headline": "Ukraina-appar: falska hot påstås",
           "paragraphs": [
-            "Watcher.Guru på X rapporterar att FBI bekräftar att Nordkorea utförde en kryptohack mot Binance på 6,3 miljarder dollar.",
-            "Inlägget är endast ett påstående och förblir overifierat i denna bulletin."
+            "Inlägg på X hävdar att Ukrainas nödappar hackades och skickade falska strålnings- eller kärnvapenvarningar.",
+            "Kontona visade ingen officiell bekräftelse. Rapporterna är obekräftade påståenden."
           ],
-          "highlightParagraph": 0,
-          "trend": "High engagement",
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
           "sources": [
             {
-              "label": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
+              "label": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+            },
+            {
+              "label": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
+              "text": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+            },
+            {
+              "id": "101-1",
+              "text": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Politik USA",
-          "headline": "Texas AG hävdar olagliga röstarester",
+          "category": "Europa",
+          "headline": "Spanien-tåg: 69 döda påstås",
           "paragraphs": [
-            "Polymarket skriver att Texas justitieminister Ken Paxton meddelat gripanden av dömda brottslingar anklagade för olaglig röstning i mellanårsvalet 2026.",
-            "Detta är ett rapporterat påstående; ingen oberoende kontroll ingår här."
+            "Konton på X säger att en tågolycka i Spanien dödade 69 personer.",
+            "Siffran är ett påstående i sociala medier och verifierades inte i inläggen."
           ],
-          "highlightParagraph": 0,
-          "trend": "Election focus",
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
           "sources": [
             {
-              "label": "Polymarket",
-              "url": "https://x.com/Polymarket/status/2116642115082227830"
+              "label": "AfriView",
+              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
+            },
+            {
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Polymarket",
-              "url": "https://x.com/Polymarket/status/2116642115082227830"
+              "text": "AfriView",
+              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
+            },
+            {
+              "id": "102-1",
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Konflikt",
-          "headline": "USA:s dödstal i Iran-kriget stiger till 23",
+          "category": "Mellanöstern",
+          "headline": "Iransamtal i Doha sägs ha stannat",
           "paragraphs": [
-            "Ett X-inlägg säger att Pentagon höjt det officiella amerikanska dödstalet i Iran-kriget från 21 till 23, med 865 sårade.",
-            "Siffrorna kommer från ett konto och är ett påstående, inte bekräftat faktum."
+            "Inlägg hävdar att iranska förhandlare lämnade Doha när ett utkast om att avsluta strider med USA cirkulerade.",
+            "Ingen oberoende bekräftelse syntes i inläggen. Detaljerna är omstridda."
           ],
-          "highlightParagraph": 0,
-          "trend": "Casualty update",
+          "highlightParagraph": 1,
+          "trend": "Disputed reports",
           "sources": [
             {
-              "label": "Arya Yadegaar",
-              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
+              "label": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "label": "TodayCryptoRj",
+              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Arya Yadegaar",
-              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
+              "text": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "id": "103-1",
+              "text": "TodayCryptoRj",
+              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politik USA",
-          "headline": "DHS kallar Ilhan Omars fall stort",
+          "category": "Mellanöstern",
+          "headline": "Gazaanfall sägs ha dödat åtta",
           "paragraphs": [
-            "Insider Wire rapporterar att DHS-minister Mullin säger att Ilhan Omars fall är stort och riktar sig mot flera personer.",
-            "Uttalandet tillskrivs inlägget; detaljer förblir obekräftade här."
+            "Ett nyhetskonto på X säger att israeliska anfall i Gaza dödade åtta, inklusive ett barn, enligt sjukhus.",
+            "Påståendet är obekräftat här och ska inte ses som fastställt."
           ],
-          "highlightParagraph": 0,
-          "trend": "Political claim",
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
           "sources": [
             {
-              "label": "Insider Wire",
-              "url": "https://x.com/InsiderWire/status/2116638839997424104"
+              "label": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Insider Wire",
-              "url": "https://x.com/InsiderWire/status/2116638839997424104"
+              "text": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Amerika",
+          "headline": "Florida-jet: nio döda påstås",
+          "paragraphs": [
+            "Inlägg på X rapporterar att en Learjet-krasch i Florida dödade nio personer.",
+            "Officiella detaljer saknades. Dödstalet är ett obekräftat påstående."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
+          "sources": [
+            {
+              "label": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "id": "105-1",
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Ekonomi",
+          "headline": "OPEC+ sägs hålla oljeutbud stilla",
+          "paragraphs": [
+            "Ett inlägg på X listar att OPEC+ håller oljeproduktionen i december oförändrad.",
+            "Uppgiften kommer från ett enda konto och styrktes inte i sökningen."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Single-source claim",
+          "sources": [
+            {
+              "label": "Firas Arodaki",
+              "url": "https://x.com/Firasias/status/2117074215949984225"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "Firas Arodaki",
+              "url": "https://x.com/Firasias/status/2117074215949984225"
             }
           ]
         }
@@ -222,109 +394,195 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-10-31T21:38:26.914Z",
+      "updatedAt": "2026-11-03T14:24:42.627Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "High engagement",
-        "Election focus",
-        "Casualty update",
-        "Political claim"
+        "Unverified claims",
+        "Unverified claims",
+        "Disputed reports",
+        "Unverified claims",
+        "Unverified claims",
+        "Single-source claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Finanzen",
-          "headline": "FBI verknüpft N. Korea mit Binance-Hack",
+          "category": "Europa",
+          "headline": "Ukraine-Apps: falsche Drohung behauptet",
           "paragraphs": [
-            "Watcher.Guru auf X berichtet, das FBI bestätige, Nordkorea habe den 6,3-Milliarden-Dollar-Krypto-Hack bei Binance verübt.",
-            "Der Beitrag ist nur eine Behauptung und bleibt in diesem Bulletin unverifiziert."
+            "Beiträge auf X behaupten, Notfall-Apps in der Ukraine seien gehackt worden und hätten falsche Strahlen- oder Atomwarnungen gesendet.",
+            "Die Konten zeigten keine amtliche Bestätigung. Die Meldungen sind ungeprüfte Behauptungen."
           ],
-          "highlightParagraph": 0,
-          "trend": "High engagement",
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
           "sources": [
             {
-              "label": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
+              "label": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+            },
+            {
+              "label": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
+              "text": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+            },
+            {
+              "id": "101-1",
+              "text": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
             }
           ]
         },
         {
           "page": 102,
-          "category": "US-Politik",
-          "headline": "Texas-AG meldet illegale Wähler-Festnahmen",
+          "category": "Europa",
+          "headline": "Zugunglück Spanien: 69 Tote behauptet",
           "paragraphs": [
-            "Polymarket berichtet, der texanische Generalstaatsanwalt Ken Paxton habe Festnahmen verurteilter Straftäter wegen illegaler Stimmabgabe bei den Zwischenwahlen 2026 bekannt gegeben.",
-            "Es handelt sich um eine gemeldete Behauptung; eine unabhängige Prüfung ist hier nicht enthalten."
+            "Konten auf X sagen, ein Zugunglück in Spanien habe 69 Menschen getötet.",
+            "Die Zahl ist eine Social-Media-Behauptung und wurde in den Beiträgen nicht belegt."
           ],
-          "highlightParagraph": 0,
-          "trend": "Election focus",
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
           "sources": [
             {
-              "label": "Polymarket",
-              "url": "https://x.com/Polymarket/status/2116642115082227830"
+              "label": "AfriView",
+              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
+            },
+            {
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Polymarket",
-              "url": "https://x.com/Polymarket/status/2116642115082227830"
+              "text": "AfriView",
+              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
+            },
+            {
+              "id": "102-1",
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Konflikt",
-          "headline": "US-Todeszahl im Iran-Krieg steigt auf 23",
+          "category": "Naher Osten",
+          "headline": "Iran-Gespräche in Doha sollen stocken",
           "paragraphs": [
-            "Ein X-Beitrag besagt, das Pentagon habe die offizielle US-Todeszahl im Iran-Krieg von 21 auf 23 erhöht, mit 865 Verwundeten.",
-            "Die Zahlen stammen von einem Konto und sind eine Behauptung, keine bestätigte Tatsache."
+            "Beiträge behaupten, iranische Unterhändler hätten Doha verlassen, während ein Entwurf zum Ende der Kämpfe mit den USA kursierte.",
+            "In den Beiträgen fehlte eine unabhängige Bestätigung. Details bleiben umstritten."
           ],
-          "highlightParagraph": 0,
-          "trend": "Casualty update",
+          "highlightParagraph": 1,
+          "trend": "Disputed reports",
           "sources": [
             {
-              "label": "Arya Yadegaar",
-              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
+              "label": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "label": "TodayCryptoRj",
+              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Arya Yadegaar",
-              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
+              "text": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "id": "103-1",
+              "text": "TodayCryptoRj",
+              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
             }
           ]
         },
         {
           "page": 104,
-          "category": "US-Politik",
-          "headline": "DHS nennt Ilhan-Omar-Fall groß",
+          "category": "Naher Osten",
+          "headline": "Gaza-Angriffe: acht Tote behauptet",
           "paragraphs": [
-            "Insider Wire berichtet, DHS-Minister Mullin sage, der Fall Ilhan Omar sei groß und richte sich gegen mehrere Personen.",
-            "Die Aussage wird dem Beitrag zugeschrieben; Details bleiben hier unbestätigt."
+            "Ein Nachrichtenkonto auf X sagt, israelische Angriffe in Gaza hätten acht Menschen getötet, darunter ein Kind, laut Krankenhäusern.",
+            "Die Behauptung ist hier unbestätigt und kein gesicherter Fakt."
           ],
-          "highlightParagraph": 0,
-          "trend": "Political claim",
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
           "sources": [
             {
-              "label": "Insider Wire",
-              "url": "https://x.com/InsiderWire/status/2116638839997424104"
+              "label": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Insider Wire",
-              "url": "https://x.com/InsiderWire/status/2116638839997424104"
+              "text": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Amerika",
+          "headline": "Florida-Jet: neun Tote behauptet",
+          "paragraphs": [
+            "Beiträge auf X melden, ein Learjet-Absturz in Florida habe neun Menschen getötet.",
+            "Amtliche Details fehlten. Die Opferzahl bleibt eine ungeprüfte Behauptung."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
+          "sources": [
+            {
+              "label": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "id": "105-1",
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Wirtschaft",
+          "headline": "OPEC+ soll Ölförderung halten",
+          "paragraphs": [
+            "Ein Beitrag auf X nennt eine unveränderte Ölproduktion der OPEC+ im Dezember.",
+            "Die Angabe stammt von einem Konto und wurde in dieser Suche nicht bestätigt."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Single-source claim",
+          "sources": [
+            {
+              "label": "Firas Arodaki",
+              "url": "https://x.com/Firasias/status/2117074215949984225"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "Firas Arodaki",
+              "url": "https://x.com/Firasias/status/2117074215949984225"
             }
           ]
         }
@@ -332,109 +590,195 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-10-31T21:38:26.914Z",
+      "updatedAt": "2026-11-03T14:24:42.627Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "High engagement",
-        "Election focus",
-        "Casualty update",
-        "Political claim"
+        "Unverified claims",
+        "Unverified claims",
+        "Disputed reports",
+        "Unverified claims",
+        "Unverified claims",
+        "Single-source claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Finanzas",
-          "headline": "FBI vincula a Corea del Norte con hackeo",
+          "category": "Europa",
+          "headline": "Apps de Ucrania: alertas falsas, se dice",
           "paragraphs": [
-            "Watcher.Guru en X informa que el FBI confirma que Corea del Norte ejecutó un hackeo cripto de 6.300 millones en Binance.",
-            "La publicación es solo una afirmación y permanece sin verificar en este boletín."
+            "Publicaciones en X afirman que apps de emergencia de Ucrania fueron hackeadas y enviaron avisos falsos de radiación o amenaza nuclear.",
+            "Las cuentas no mostraron confirmación oficial. Son afirmaciones sin verificar."
           ],
-          "highlightParagraph": 0,
-          "trend": "High engagement",
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
           "sources": [
             {
-              "label": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
+              "label": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+            },
+            {
+              "label": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
+              "text": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+            },
+            {
+              "id": "101-1",
+              "text": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Política EE.UU.",
-          "headline": "Fiscal de Texas denuncia votos ilegales",
+          "category": "Europa",
+          "headline": "Tren en España: se dicen 69 muertos",
           "paragraphs": [
-            "Polymarket publica que el fiscal general de Texas, Ken Paxton, anunció arrestos de delincuentes convictos acusados de votar ilegalmente en las elecciones de 2026.",
-            "Se trata de una afirmación reportada; no se incluye verificación independiente aquí."
+            "Cuentas en X dicen que un accidente ferroviario en España mató a 69 personas.",
+            "La cifra es una afirmación en redes y no se verificó en las publicaciones."
           ],
-          "highlightParagraph": 0,
-          "trend": "Election focus",
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
           "sources": [
             {
-              "label": "Polymarket",
-              "url": "https://x.com/Polymarket/status/2116642115082227830"
+              "label": "AfriView",
+              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
+            },
+            {
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Polymarket",
-              "url": "https://x.com/Polymarket/status/2116642115082227830"
+              "text": "AfriView",
+              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
+            },
+            {
+              "id": "102-1",
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Conflicto",
-          "headline": "Muertos de EE.UU. en guerra de Irán suben a 23",
+          "category": "Oriente Medio",
+          "headline": "Negociación de Irán en Doha, en pausa",
           "paragraphs": [
-            "Una publicación en X dice que el Pentágono elevó el número oficial de muertos estadounidenses en la guerra de Irán de 21 a 23, con 865 heridos.",
-            "Las cifras provienen de una cuenta y son una afirmación, no un hecho confirmado."
+            "Publicaciones afirman que negociadores iraníes dejaron Doha mientras circulaba un borrador para acabar la lucha con EE. UU.",
+            "No hubo confirmación independiente en los posts. Los detalles siguen en disputa."
           ],
-          "highlightParagraph": 0,
-          "trend": "Casualty update",
+          "highlightParagraph": 1,
+          "trend": "Disputed reports",
           "sources": [
             {
-              "label": "Arya Yadegaar",
-              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
+              "label": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "label": "TodayCryptoRj",
+              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Arya Yadegaar",
-              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
+              "text": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "id": "103-1",
+              "text": "TodayCryptoRj",
+              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Política EE.UU.",
-          "headline": "DHS llama grande el caso de Ilhan Omar",
+          "category": "Oriente Medio",
+          "headline": "Ataques en Gaza: se dicen ocho muertos",
           "paragraphs": [
-            "Insider Wire informa que el secretario del DHS Mullin dice que el caso de Ilhan Omar es grande y apunta a varias personas.",
-            "La declaración se atribuye a la publicación; los detalles permanecen sin confirmar aquí."
+            "Una cuenta de noticias en X dice que ataques israelíes en Gaza mataron a ocho, incluido un niño, según hospitales.",
+            "La afirmación no está confirmada aquí y no es un hecho establecido."
           ],
-          "highlightParagraph": 0,
-          "trend": "Political claim",
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
           "sources": [
             {
-              "label": "Insider Wire",
-              "url": "https://x.com/InsiderWire/status/2116638839997424104"
+              "label": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Insider Wire",
-              "url": "https://x.com/InsiderWire/status/2116638839997424104"
+              "text": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "América",
+          "headline": "Avión en Florida: se dicen nueve muertos",
+          "paragraphs": [
+            "Publicaciones en X informan que un Learjet se estrelló en Florida y murieron nueve personas.",
+            "No había detalles oficiales. La cifra sigue sin verificar."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
+          "sources": [
+            {
+              "label": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "id": "105-1",
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Economía",
+          "headline": "OPEP+ mantendría el petróleo, se dice",
+          "paragraphs": [
+            "Una publicación en X incluye que la OPEP+ mantiene estable la producción de petróleo en diciembre.",
+            "Es la afirmación de una sola cuenta y no se corroboró en esta búsqueda."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Single-source claim",
+          "sources": [
+            {
+              "label": "Firas Arodaki",
+              "url": "https://x.com/Firasias/status/2117074215949984225"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "Firas Arodaki",
+              "url": "https://x.com/Firasias/status/2117074215949984225"
             }
           ]
         }
@@ -442,109 +786,195 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-10-31T21:38:26.914Z",
+      "updatedAt": "2026-11-03T14:24:42.627Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "High engagement",
-        "Election focus",
-        "Casualty update",
-        "Political claim"
+        "Unverified claims",
+        "Unverified claims",
+        "Disputed reports",
+        "Unverified claims",
+        "Unverified claims",
+        "Single-source claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Finance",
-          "headline": "Le FBI lie la Corée du Nord au piratage",
+          "category": "Europe",
+          "headline": "Apps Ukraine: fausses alertes alléguées",
           "paragraphs": [
-            "Watcher.Guru sur X rapporte que le FBI confirme que la Corée du Nord a mené un piratage crypto de 6,3 milliards chez Binance.",
-            "Le post n'est qu'une affirmation et reste non vérifié dans ce bulletin."
+            "Des posts sur X affirment que des apps d'alerte ukrainiennes ont été piratées et ont envoyé de fausses alertes radiologiques ou nucléaires.",
+            "Les comptes n'ont montré aucune confirmation officielle. Ce sont des allégations non vérifiées."
           ],
-          "highlightParagraph": 0,
-          "trend": "High engagement",
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
           "sources": [
             {
-              "label": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
+              "label": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+            },
+            {
+              "label": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Watcher.Guru",
-              "url": "https://x.com/WatcherGuru/status/2116644116872519909"
+              "text": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+            },
+            {
+              "id": "101-1",
+              "text": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Politique US",
-          "headline": "Le procureur du Texas annonce des arrestations",
+          "category": "Europe",
+          "headline": "Train en Espagne: 69 morts allégués",
           "paragraphs": [
-            "Polymarket indique que le procureur général du Texas, Ken Paxton, a annoncé des arrestations de criminels condamnés accusés de vote illégal lors des élections de 2026.",
-            "Il s'agit d'une affirmation rapportée ; aucune vérification indépendante n'est incluse ici."
+            "Des comptes sur X disent qu'un accident de train en Espagne a tué 69 personnes.",
+            "Le chiffre est une affirmation sur les réseaux, non vérifiée dans les posts."
           ],
-          "highlightParagraph": 0,
-          "trend": "Election focus",
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
           "sources": [
             {
-              "label": "Polymarket",
-              "url": "https://x.com/Polymarket/status/2116642115082227830"
+              "label": "AfriView",
+              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
+            },
+            {
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Polymarket",
-              "url": "https://x.com/Polymarket/status/2116642115082227830"
+              "text": "AfriView",
+              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
+            },
+            {
+              "id": "102-1",
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Conflit",
-          "headline": "Le bilan US dans la guerre d'Iran passe à 23",
+          "category": "Moyen-Orient",
+          "headline": "Pourparlers iraniens à Doha bloqués",
           "paragraphs": [
-            "Un post X indique que le Pentagone a relevé le bilan officiel des morts américains dans la guerre d'Iran de 21 à 23, avec 865 blessés.",
-            "Les chiffres proviennent d'un compte et sont une affirmation, non un fait confirmé."
+            "Des posts affirment que des négociateurs iraniens ont quitté Doha alors qu'un projet pour mettre fin aux combats avec les États-Unis circulait.",
+            "Aucune confirmation indépendante n'apparaissait. Les détails restent contestés."
           ],
-          "highlightParagraph": 0,
-          "trend": "Casualty update",
+          "highlightParagraph": 1,
+          "trend": "Disputed reports",
           "sources": [
             {
-              "label": "Arya Yadegaar",
-              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
+              "label": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "label": "TodayCryptoRj",
+              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Arya Yadegaar",
-              "url": "https://x.com/AryJeayBackup/status/2116641064467509548"
+              "text": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "id": "103-1",
+              "text": "TodayCryptoRj",
+              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politique US",
-          "headline": "Le DHS qualifie l'affaire Omar de large",
+          "category": "Moyen-Orient",
+          "headline": "Frappes à Gaza: huit morts allégués",
           "paragraphs": [
-            "Insider Wire rapporte que le secrétaire du DHS Mullin dit que l'affaire d'Ilhan Omar est large et vise plusieurs personnes.",
-            "La déclaration est attribuée au post ; les détails restent non confirmés ici."
+            "Un compte d'actualité sur X dit que des frappes israéliennes à Gaza ont tué huit personnes, dont un enfant, selon des hôpitaux.",
+            "L'affirmation n'est pas confirmée ici et n'est pas un fait établi."
           ],
-          "highlightParagraph": 0,
-          "trend": "Political claim",
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
           "sources": [
             {
-              "label": "Insider Wire",
-              "url": "https://x.com/InsiderWire/status/2116638839997424104"
+              "label": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Insider Wire",
-              "url": "https://x.com/InsiderWire/status/2116638839997424104"
+              "text": "World News App",
+              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Amériques",
+          "headline": "Jet en Floride: neuf morts allégués",
+          "paragraphs": [
+            "Des posts sur X rapportent qu'un Learjet s'est écrasé en Floride, tuant neuf personnes.",
+            "Les détails officiels manquaient. Le bilan reste une allégation non vérifiée."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Unverified claims",
+          "sources": [
+            {
+              "label": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "label": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "Verum",
+              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+            },
+            {
+              "id": "105-1",
+              "text": "Firstpost",
+              "url": "https://x.com/firstpost/status/2117066289105826166"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Économie",
+          "headline": "OPEP+ garderait le pétrole stable",
+          "paragraphs": [
+            "Un post sur X indique que l'OPEP+ maintient la production pétrolière de décembre.",
+            "Il s'agit d'une affirmation d'un seul compte, non corroborée dans cette recherche."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Single-source claim",
+          "sources": [
+            {
+              "label": "Firas Arodaki",
+              "url": "https://x.com/Firasias/status/2117074215949984225"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "Firas Arodaki",
+              "url": "https://x.com/Firasias/status/2117074215949984225"
             }
           ]
         }
