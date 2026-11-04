@@ -1,196 +1,162 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-03T14:24:42.627Z",
+      "updatedAt": "2026-11-04T14:40:11.188Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Unverified claims",
-        "Unverified claims",
-        "Disputed reports",
-        "Unverified claims",
-        "Unverified claims",
-        "Single-source claim"
+        "Midterm claims",
+        "War debate",
+        "Party split",
+        "War powers",
+        "Media clash"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Europe",
-          "headline": "Ukraine apps face false threat claims",
+          "category": "US Politics",
+          "headline": "X posts claim Democratic midterm win",
           "paragraphs": [
-            "X posts claim Ukraine emergency apps were hacked and sent false radiation or nuclear warnings.",
-            "The accounts showed no official confirmation. Treat the reports as unverified claims."
+            "Commentators on X claim last night's US midterms brought a Democratic surge and that Republicans lost Congress.",
+            "Some tie it to the Iran war; others note Trump remains president. These are claims on X, not an official count."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "trend": "Midterm claims",
           "sources": [
             {
-              "label": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "label": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             },
             {
-              "label": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "label": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+            },
+            {
+              "label": "Brenden Dilley",
+              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "text": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             },
             {
               "id": "101-1",
-              "text": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "text": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+            },
+            {
+              "id": "101-2",
+              "text": "Brenden Dilley",
+              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Europe",
-          "headline": "Spain train death toll claimed at 69",
+          "category": "Conflict",
+          "headline": "Burnham sees chance to end Iran war",
           "paragraphs": [
-            "Accounts on X say a deadly train disaster in Spain killed 69 people.",
-            "The figure is a social-media claim and was not verified in the posts reviewed."
+            "A clip on X quotes Andy Burnham saying a Democratic US midterm landslide gives the world a chance to end the Iran war.",
+            "He says that is what US voters are signalling. The post reports his view; it does not confirm results or a ceasefire."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "trend": "War debate",
           "sources": [
             {
-              "label": "AfriView",
-              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
-            },
-            {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
+              "label": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "AfriView",
-              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
-            },
-            {
-              "id": "102-1",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
+              "text": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Middle East",
-          "headline": "Iran talks in Doha said to stall",
+          "category": "Politics",
+          "headline": "Walsh says Iran war hurt the GOP",
           "paragraphs": [
-            "Posts claim Iranian negotiators left Doha as a draft to end fighting with the US circulated.",
-            "No independent confirmation appeared in the X posts. Details remain disputed."
+            "Matt Walsh writes that Trump launched a pointless, unpopular war with Iran and that critics were proved right.",
+            "He rejects the idea that skeptics caused claimed GOP losses by refusing to sell the war. The row on X is partisan and unresolved."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed reports",
+          "trend": "Party split",
           "sources": [
             {
-              "label": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
-            },
-            {
-              "label": "TodayCryptoRj",
-              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
+              "label": "Matt Walsh",
+              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
-            },
-            {
-              "id": "103-1",
-              "text": "TodayCryptoRj",
-              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
+              "text": "Matt Walsh",
+              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Middle East",
-          "headline": "Gaza strikes claimed to kill eight",
+          "category": "Congress",
+          "headline": "Massie revisits Iran war-powers vote",
           "paragraphs": [
-            "An X news account says Israeli strikes in Gaza killed eight, including a child, citing hospitals.",
-            "The claim is unconfirmed here and should not be treated as established fact."
+            "Rep. Thomas Massie asks how many colleagues would now change their March vote on his Iran War Powers Resolution.",
+            "The post suggests second thoughts after the conflict and the midterms. It reports no new vote and no official figures."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "highlightParagraph": 0,
+          "trend": "War powers",
           "sources": [
             {
-              "label": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "label": "Thomas Massie",
+              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "text": "Thomas Massie",
+              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Americas",
-          "headline": "Florida jet crash said to kill nine",
+          "category": "Media",
+          "headline": "Morgan and Levin spar after US vote",
           "paragraphs": [
-            "X posts report a Learjet crash in Florida killed nine people.",
-            "Official details were not included. The death toll remains an unverified claim."
+            "Piers Morgan tells Mark Levin that America rejected the war-mongering and economy-shredding case Levin has made.",
+            "Levin had insulted Morgan over his criticism of US and Iran policy. The exchange is opinion, not proof of a result."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "trend": "Media clash",
           "sources": [
             {
-              "label": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "label": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
             },
             {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
+              "label": "Mark Levin",
+              "url": "https://x.com/marklevinshow/status/2117972019597721923"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "text": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
             },
             {
               "id": "105-1",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Business",
-          "headline": "OPEC+ said to hold oil output steady",
-          "paragraphs": [
-            "One X post lists OPEC+ holding December oil output steady among today's developments.",
-            "The item is a single-account claim and was not corroborated in this search."
-          ],
-          "highlightParagraph": 1,
-          "trend": "Single-source claim",
-          "sources": [
-            {
-              "label": "Firas Arodaki",
-              "url": "https://x.com/Firasias/status/2117074215949984225"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "Firas Arodaki",
-              "url": "https://x.com/Firasias/status/2117074215949984225"
+              "text": "Mark Levin",
+              "url": "https://x.com/marklevinshow/status/2117972019597721923"
             }
           ]
         }
@@ -198,195 +164,161 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-03T14:24:42.627Z",
+      "updatedAt": "2026-11-04T14:40:11.188Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Unverified claims",
-        "Unverified claims",
-        "Disputed reports",
-        "Unverified claims",
-        "Unverified claims",
-        "Single-source claim"
+        "Midterm claims",
+        "War debate",
+        "Party split",
+        "War powers",
+        "Media clash"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Europa",
-          "headline": "Ukraina-appar: falska hot påstås",
+          "category": "USA-politik",
+          "headline": "X: demokraterna vann mellanvalet",
           "paragraphs": [
-            "Inlägg på X hävdar att Ukrainas nödappar hackades och skickade falska strålnings- eller kärnvapenvarningar.",
-            "Kontona visade ingen officiell bekräftelse. Rapporterna är obekräftade påståenden."
+            "Kommentatorer på X hävdar att gårdagens mellanval i USA gav en demokratisk framgång och att republikanerna förlorade kongressen.",
+            "Vissa kopplar det till Iran-kriget; andra påpekar att Trump är kvar som president. Det är påståenden på X, inte en officiell räkning."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "trend": "Midterm claims",
           "sources": [
             {
-              "label": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "label": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             },
             {
-              "label": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "label": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+            },
+            {
+              "label": "Brenden Dilley",
+              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "text": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             },
             {
               "id": "101-1",
-              "text": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "text": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+            },
+            {
+              "id": "101-2",
+              "text": "Brenden Dilley",
+              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Europa",
-          "headline": "Spanien-tåg: 69 döda påstås",
+          "category": "Konflikt",
+          "headline": "Burnham: chans att avsluta Iran-krig",
           "paragraphs": [
-            "Konton på X säger att en tågolycka i Spanien dödade 69 personer.",
-            "Siffran är ett påstående i sociala medier och verifierades inte i inläggen."
+            "Ett klipp på X citerar Andy Burnham, som säger att en demokratisk seger i USA ger världen en chans att avsluta Iran-kriget.",
+            "Han menar att det är vad de amerikanska väljarna signalerar. Inlägget återger hans syn; det bekräftar varken resultat eller eldupphör."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "trend": "War debate",
           "sources": [
             {
-              "label": "AfriView",
-              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
-            },
-            {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
+              "label": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "AfriView",
-              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
-            },
-            {
-              "id": "102-1",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
+              "text": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Mellanöstern",
-          "headline": "Iransamtal i Doha sägs ha stannat",
+          "category": "Politik",
+          "headline": "Walsh: Iran-kriget skadade GOP",
           "paragraphs": [
-            "Inlägg hävdar att iranska förhandlare lämnade Doha när ett utkast om att avsluta strider med USA cirkulerade.",
-            "Ingen oberoende bekräftelse syntes i inläggen. Detaljerna är omstridda."
+            "Matt Walsh skriver att Trump startade ett meningslöst och impopulärt krig mot Iran och att kritikerna fick rätt.",
+            "Han avvisar idén att skeptiker orsakade påstådda GOP-förluster genom att inte sälja in kriget. Bråket på X är partiskt och oavgjort."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed reports",
+          "trend": "Party split",
           "sources": [
             {
-              "label": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
-            },
-            {
-              "label": "TodayCryptoRj",
-              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
+              "label": "Matt Walsh",
+              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
-            },
-            {
-              "id": "103-1",
-              "text": "TodayCryptoRj",
-              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
+              "text": "Matt Walsh",
+              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Mellanöstern",
-          "headline": "Gazaanfall sägs ha dödat åtta",
+          "category": "Kongressen",
+          "headline": "Massie tar upp Iran-krigsbefogenhet",
           "paragraphs": [
-            "Ett nyhetskonto på X säger att israeliska anfall i Gaza dödade åtta, inklusive ett barn, enligt sjukhus.",
-            "Påståendet är obekräftat här och ska inte ses som fastställt."
+            "Ledamoten Thomas Massie frågar hur många kolleger som nu skulle ändra sin marsröst om hans resolution om krigsbefogenheter mot Iran.",
+            "Inlägget antyder ånger efter konflikten och mellanvalet. Det redovisar ingen ny omröstning och inga officiella siffror."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "highlightParagraph": 0,
+          "trend": "War powers",
           "sources": [
             {
-              "label": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "label": "Thomas Massie",
+              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "text": "Thomas Massie",
+              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Amerika",
-          "headline": "Florida-jet: nio döda påstås",
+          "category": "Media",
+          "headline": "Morgan och Levin bråkar efter valet",
           "paragraphs": [
-            "Inlägg på X rapporterar att en Learjet-krasch i Florida dödade nio personer.",
-            "Officiella detaljer saknades. Dödstalet är ett obekräftat påstående."
+            "Piers Morgan säger till Mark Levin att Amerika avvisade den krigshets och den ekonomiska skada som Levin har förespråkat.",
+            "Levin hade förolämpat Morgan för kritik av USA och Iran-politiken. Ordväxlingen är åsikter, inte bevis för ett resultat."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "trend": "Media clash",
           "sources": [
             {
-              "label": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "label": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
             },
             {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
+              "label": "Mark Levin",
+              "url": "https://x.com/marklevinshow/status/2117972019597721923"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "text": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
             },
             {
               "id": "105-1",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Ekonomi",
-          "headline": "OPEC+ sägs hålla oljeutbud stilla",
-          "paragraphs": [
-            "Ett inlägg på X listar att OPEC+ håller oljeproduktionen i december oförändrad.",
-            "Uppgiften kommer från ett enda konto och styrktes inte i sökningen."
-          ],
-          "highlightParagraph": 1,
-          "trend": "Single-source claim",
-          "sources": [
-            {
-              "label": "Firas Arodaki",
-              "url": "https://x.com/Firasias/status/2117074215949984225"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "Firas Arodaki",
-              "url": "https://x.com/Firasias/status/2117074215949984225"
+              "text": "Mark Levin",
+              "url": "https://x.com/marklevinshow/status/2117972019597721923"
             }
           ]
         }
@@ -394,195 +326,161 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-03T14:24:42.627Z",
+      "updatedAt": "2026-11-04T14:40:11.188Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Unverified claims",
-        "Unverified claims",
-        "Disputed reports",
-        "Unverified claims",
-        "Unverified claims",
-        "Single-source claim"
+        "Midterm claims",
+        "War debate",
+        "Party split",
+        "War powers",
+        "Media clash"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Europa",
-          "headline": "Ukraine-Apps: falsche Drohung behauptet",
+          "category": "US-Politik",
+          "headline": "X: Demokraten gewinnen Midterms",
           "paragraphs": [
-            "Beiträge auf X behaupten, Notfall-Apps in der Ukraine seien gehackt worden und hätten falsche Strahlen- oder Atomwarnungen gesendet.",
-            "Die Konten zeigten keine amtliche Bestätigung. Die Meldungen sind ungeprüfte Behauptungen."
+            "Kommentatoren auf X behaupten, die US-Zwischenwahlen hätten den Demokraten einen Erfolg gebracht und die Republikaner den Kongress verloren.",
+            "Manche verknüpfen das mit dem Iran-Krieg; andere erinnern daran, dass Trump Präsident bleibt. Das sind Behauptungen auf X, keine amtliche Auszählung."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "trend": "Midterm claims",
           "sources": [
             {
-              "label": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "label": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             },
             {
-              "label": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "label": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+            },
+            {
+              "label": "Brenden Dilley",
+              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "text": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             },
             {
               "id": "101-1",
-              "text": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "text": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+            },
+            {
+              "id": "101-2",
+              "text": "Brenden Dilley",
+              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Europa",
-          "headline": "Zugunglück Spanien: 69 Tote behauptet",
+          "category": "Konflikt",
+          "headline": "Burnham: Chance, Iran-Krieg zu beenden",
           "paragraphs": [
-            "Konten auf X sagen, ein Zugunglück in Spanien habe 69 Menschen getötet.",
-            "Die Zahl ist eine Social-Media-Behauptung und wurde in den Beiträgen nicht belegt."
+            "Ein Clip auf X zitiert Andy Burnham: ein demokratischer Erfolg bei den US-Zwischenwahlen gebe der Welt die Chance, den Iran-Krieg zu beenden.",
+            "Er sagt, das signalisierten die US-Wähler. Der Post gibt seine Sicht wieder; er bestätigt weder Ergebnisse noch einen Waffenstillstand."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "trend": "War debate",
           "sources": [
             {
-              "label": "AfriView",
-              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
-            },
-            {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
+              "label": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "AfriView",
-              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
-            },
-            {
-              "id": "102-1",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
+              "text": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Naher Osten",
-          "headline": "Iran-Gespräche in Doha sollen stocken",
+          "category": "Politik",
+          "headline": "Walsh: Iran-Krieg schadete der GOP",
           "paragraphs": [
-            "Beiträge behaupten, iranische Unterhändler hätten Doha verlassen, während ein Entwurf zum Ende der Kämpfe mit den USA kursierte.",
-            "In den Beiträgen fehlte eine unabhängige Bestätigung. Details bleiben umstritten."
+            "Matt Walsh schreibt, Trump habe einen sinnlosen, unpopulären Krieg gegen Iran begonnen und die Kritiker seien bestätigt worden.",
+            "Er weist zurück, Skeptiker hätten behauptete GOP-Verluste verursacht, weil sie den Krieg nicht verkauften. Der Streit auf X ist offen."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed reports",
+          "trend": "Party split",
           "sources": [
             {
-              "label": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
-            },
-            {
-              "label": "TodayCryptoRj",
-              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
+              "label": "Matt Walsh",
+              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
-            },
-            {
-              "id": "103-1",
-              "text": "TodayCryptoRj",
-              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
+              "text": "Matt Walsh",
+              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Naher Osten",
-          "headline": "Gaza-Angriffe: acht Tote behauptet",
+          "category": "Kongress",
+          "headline": "Massie hinterfragt Iran-Kriegsvotum",
           "paragraphs": [
-            "Ein Nachrichtenkonto auf X sagt, israelische Angriffe in Gaza hätten acht Menschen getötet, darunter ein Kind, laut Krankenhäusern.",
-            "Die Behauptung ist hier unbestätigt und kein gesicherter Fakt."
+            "Abgeordneter Thomas Massie fragt, wie viele Kollegen ihre März-Stimme zu seiner Iran-War-Powers-Resolution jetzt ändern würden.",
+            "Der Post deutet Zweifel nach dem Konflikt und den Zwischenwahlen an. Er nennt keine neue Abstimmung und keine amtlichen Zahlen."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "highlightParagraph": 0,
+          "trend": "War powers",
           "sources": [
             {
-              "label": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "label": "Thomas Massie",
+              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "text": "Thomas Massie",
+              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Amerika",
-          "headline": "Florida-Jet: neun Tote behauptet",
+          "category": "Medien",
+          "headline": "Morgan und Levin streiten nach Wahl",
           "paragraphs": [
-            "Beiträge auf X melden, ein Learjet-Absturz in Florida habe neun Menschen getötet.",
-            "Amtliche Details fehlten. Die Opferzahl bleibt eine ungeprüfte Behauptung."
+            "Piers Morgan sagt Mark Levin, Amerika habe die Kriegstreiberei und die wirtschaftsschädliche Linie abgelehnt, die Levin vertreten habe.",
+            "Levin hatte Morgan wegen Kritik an US- und Iran-Politik beleidigt. Der Schlagabtausch ist Meinung, kein Beleg für ein Ergebnis."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "trend": "Media clash",
           "sources": [
             {
-              "label": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "label": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
             },
             {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
+              "label": "Mark Levin",
+              "url": "https://x.com/marklevinshow/status/2117972019597721923"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "text": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
             },
             {
               "id": "105-1",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Wirtschaft",
-          "headline": "OPEC+ soll Ölförderung halten",
-          "paragraphs": [
-            "Ein Beitrag auf X nennt eine unveränderte Ölproduktion der OPEC+ im Dezember.",
-            "Die Angabe stammt von einem Konto und wurde in dieser Suche nicht bestätigt."
-          ],
-          "highlightParagraph": 1,
-          "trend": "Single-source claim",
-          "sources": [
-            {
-              "label": "Firas Arodaki",
-              "url": "https://x.com/Firasias/status/2117074215949984225"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "Firas Arodaki",
-              "url": "https://x.com/Firasias/status/2117074215949984225"
+              "text": "Mark Levin",
+              "url": "https://x.com/marklevinshow/status/2117972019597721923"
             }
           ]
         }
@@ -590,195 +488,161 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-03T14:24:42.627Z",
+      "updatedAt": "2026-11-04T14:40:11.188Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Unverified claims",
-        "Unverified claims",
-        "Disputed reports",
-        "Unverified claims",
-        "Unverified claims",
-        "Single-source claim"
+        "Midterm claims",
+        "War debate",
+        "Party split",
+        "War powers",
+        "Media clash"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Europa",
-          "headline": "Apps de Ucrania: alertas falsas, se dice",
+          "category": "Política de EE.UU.",
+          "headline": "En X: demócratas ganan midterms",
           "paragraphs": [
-            "Publicaciones en X afirman que apps de emergencia de Ucrania fueron hackeadas y enviaron avisos falsos de radiación o amenaza nuclear.",
-            "Las cuentas no mostraron confirmación oficial. Son afirmaciones sin verificar."
+            "Comentaristas en X afirman que las midterms de EE.UU. dieron un avance demócrata y que los republicanos perdieron el Congreso.",
+            "Unos lo ligan a la guerra con Irán; otros recuerdan que Trump sigue de presidente. Son afirmaciones en X, no un recuento oficial."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "trend": "Midterm claims",
           "sources": [
             {
-              "label": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "label": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             },
             {
-              "label": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "label": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+            },
+            {
+              "label": "Brenden Dilley",
+              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "text": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             },
             {
               "id": "101-1",
-              "text": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "text": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+            },
+            {
+              "id": "101-2",
+              "text": "Brenden Dilley",
+              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Europa",
-          "headline": "Tren en España: se dicen 69 muertos",
+          "category": "Conflicto",
+          "headline": "Burnham ve opción de acabar la guerra",
           "paragraphs": [
-            "Cuentas en X dicen que un accidente ferroviario en España mató a 69 personas.",
-            "La cifra es una afirmación en redes y no se verificó en las publicaciones."
+            "Un clip en X cita a Andy Burnham: un triunfo demócrata en las midterms daría al mundo la oportunidad de acabar la guerra con Irán.",
+            "Dice que eso es lo que señalan los votantes de EE.UU. El post recoge su opinión; no confirma resultados ni un alto el fuego."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "trend": "War debate",
           "sources": [
             {
-              "label": "AfriView",
-              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
-            },
-            {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
+              "label": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "AfriView",
-              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
-            },
-            {
-              "id": "102-1",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
+              "text": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Oriente Medio",
-          "headline": "Negociación de Irán en Doha, en pausa",
+          "category": "Política",
+          "headline": "Walsh: la guerra con Irán dañó al GOP",
           "paragraphs": [
-            "Publicaciones afirman que negociadores iraníes dejaron Doha mientras circulaba un borrador para acabar la lucha con EE. UU.",
-            "No hubo confirmación independiente en los posts. Los detalles siguen en disputa."
+            "Matt Walsh escribe que Trump lanzó una guerra inútil e impopular contra Irán y que los críticos tenían razón.",
+            "Rechaza que los escépticos causaran las supuestas pérdidas del GOP por no vender la guerra. La disputa en X no está resuelta."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed reports",
+          "trend": "Party split",
           "sources": [
             {
-              "label": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
-            },
-            {
-              "label": "TodayCryptoRj",
-              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
+              "label": "Matt Walsh",
+              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
-            },
-            {
-              "id": "103-1",
-              "text": "TodayCryptoRj",
-              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
+              "text": "Matt Walsh",
+              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Oriente Medio",
-          "headline": "Ataques en Gaza: se dicen ocho muertos",
+          "category": "Congreso",
+          "headline": "Massie retoma el voto sobre Irán",
           "paragraphs": [
-            "Una cuenta de noticias en X dice que ataques israelíes en Gaza mataron a ocho, incluido un niño, según hospitales.",
-            "La afirmación no está confirmada aquí y no es un hecho establecido."
+            "El representante Thomas Massie pregunta cuántos colegas cambiarían ahora su voto de marzo sobre su resolución de poderes de guerra contra Irán.",
+            "El post sugiere dudas tras el conflicto y las midterms. No informa de una nueva votación ni de cifras oficiales."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "highlightParagraph": 0,
+          "trend": "War powers",
           "sources": [
             {
-              "label": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "label": "Thomas Massie",
+              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "text": "Thomas Massie",
+              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
             }
           ]
         },
         {
           "page": 105,
-          "category": "América",
-          "headline": "Avión en Florida: se dicen nueve muertos",
+          "category": "Medios",
+          "headline": "Morgan y Levin chocan tras el voto",
           "paragraphs": [
-            "Publicaciones en X informan que un Learjet se estrelló en Florida y murieron nueve personas.",
-            "No había detalles oficiales. La cifra sigue sin verificar."
+            "Piers Morgan dice a Mark Levin que Estados Unidos rechazó el belicismo y el daño económico que Levin ha defendido.",
+            "Levin había insultado a Morgan por criticar la política de EE.UU. e Irán. El cruce es opinión, no prueba de un resultado."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "trend": "Media clash",
           "sources": [
             {
-              "label": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "label": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
             },
             {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
+              "label": "Mark Levin",
+              "url": "https://x.com/marklevinshow/status/2117972019597721923"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "text": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
             },
             {
               "id": "105-1",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Economía",
-          "headline": "OPEP+ mantendría el petróleo, se dice",
-          "paragraphs": [
-            "Una publicación en X incluye que la OPEP+ mantiene estable la producción de petróleo en diciembre.",
-            "Es la afirmación de una sola cuenta y no se corroboró en esta búsqueda."
-          ],
-          "highlightParagraph": 1,
-          "trend": "Single-source claim",
-          "sources": [
-            {
-              "label": "Firas Arodaki",
-              "url": "https://x.com/Firasias/status/2117074215949984225"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "Firas Arodaki",
-              "url": "https://x.com/Firasias/status/2117074215949984225"
+              "text": "Mark Levin",
+              "url": "https://x.com/marklevinshow/status/2117972019597721923"
             }
           ]
         }
@@ -786,195 +650,161 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-03T14:24:42.627Z",
+      "updatedAt": "2026-11-04T14:40:11.188Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Unverified claims",
-        "Unverified claims",
-        "Disputed reports",
-        "Unverified claims",
-        "Unverified claims",
-        "Single-source claim"
+        "Midterm claims",
+        "War debate",
+        "Party split",
+        "War powers",
+        "Media clash"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Europe",
-          "headline": "Apps Ukraine: fausses alertes alléguées",
+          "category": "Politique US",
+          "headline": "Sur X: vague démocrate aux midterms",
           "paragraphs": [
-            "Des posts sur X affirment que des apps d'alerte ukrainiennes ont été piratées et ont envoyé de fausses alertes radiologiques ou nucléaires.",
-            "Les comptes n'ont montré aucune confirmation officielle. Ce sont des allégations non vérifiées."
+            "Des commentateurs sur X affirment que les midterms américaines ont profité aux démocrates et que les républicains ont perdu le Congrès.",
+            "Certains lient cela à la guerre en Iran; d'autres notent que Trump reste président. Ce sont des propos sur X, pas un décompte officiel."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "trend": "Midterm claims",
           "sources": [
             {
-              "label": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "label": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             },
             {
-              "label": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "label": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+            },
+            {
+              "label": "Brenden Dilley",
+              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "text": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             },
             {
               "id": "101-1",
-              "text": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "text": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+            },
+            {
+              "id": "101-2",
+              "text": "Brenden Dilley",
+              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Europe",
-          "headline": "Train en Espagne: 69 morts allégués",
+          "category": "Conflit",
+          "headline": "Burnham: chance de finir la guerre",
           "paragraphs": [
-            "Des comptes sur X disent qu'un accident de train en Espagne a tué 69 personnes.",
-            "Le chiffre est une affirmation sur les réseaux, non vérifiée dans les posts."
+            "Une vidéo sur X cite Andy Burnham: une vague démocrate aux midterms donnerait au monde une chance de mettre fin à la guerre en Iran.",
+            "Il dit que c'est ce que signalent les électeurs américains. Le post rapporte son avis; il ne confirme ni les résultats ni un cessez-le-feu."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "trend": "War debate",
           "sources": [
             {
-              "label": "AfriView",
-              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
-            },
-            {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
+              "label": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "AfriView",
-              "url": "https://x.com/AfriViewmedia/status/2117234424785830205"
-            },
-            {
-              "id": "102-1",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
+              "text": "Politics UK",
+              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Moyen-Orient",
-          "headline": "Pourparlers iraniens à Doha bloqués",
+          "category": "Politique",
+          "headline": "Walsh: la guerre en Iran a nui au GOP",
           "paragraphs": [
-            "Des posts affirment que des négociateurs iraniens ont quitté Doha alors qu'un projet pour mettre fin aux combats avec les États-Unis circulait.",
-            "Aucune confirmation indépendante n'apparaissait. Les détails restent contestés."
+            "Matt Walsh écrit que Trump a lancé une guerre inutile et impopulaire contre l'Iran et que les critiques ont eu raison.",
+            "Il rejette l'idée que les sceptiques ont causé les pertes attribuées au GOP en refusant de vendre la guerre. Le débat sur X reste partisan."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed reports",
+          "trend": "Party split",
           "sources": [
             {
-              "label": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
-            },
-            {
-              "label": "TodayCryptoRj",
-              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
+              "label": "Matt Walsh",
+              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
-            },
-            {
-              "id": "103-1",
-              "text": "TodayCryptoRj",
-              "url": "https://x.com/TodayCryptoRj/status/2117118305224016212"
+              "text": "Matt Walsh",
+              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Moyen-Orient",
-          "headline": "Frappes à Gaza: huit morts allégués",
+          "category": "Congrès",
+          "headline": "Massie revient sur le vote Iran",
           "paragraphs": [
-            "Un compte d'actualité sur X dit que des frappes israéliennes à Gaza ont tué huit personnes, dont un enfant, selon des hôpitaux.",
-            "L'affirmation n'est pas confirmée ici et n'est pas un fait établi."
+            "Le représentant Thomas Massie demande combien de collègues changeraient leur vote de mars sur sa résolution de pouvoirs de guerre contre l'Iran.",
+            "Le post suggère des regrets après le conflit et les midterms. Il ne signale aucun nouveau vote ni chiffre officiel."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "highlightParagraph": 0,
+          "trend": "War powers",
           "sources": [
             {
-              "label": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "label": "Thomas Massie",
+              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "World News App",
-              "url": "https://x.com/worldnewsappx/status/2117095402839101886"
+              "text": "Thomas Massie",
+              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Amériques",
-          "headline": "Jet en Floride: neuf morts allégués",
+          "category": "Médias",
+          "headline": "Morgan et Levin s'affrontent",
           "paragraphs": [
-            "Des posts sur X rapportent qu'un Learjet s'est écrasé en Floride, tuant neuf personnes.",
-            "Les détails officiels manquaient. Le bilan reste une allégation non vérifiée."
+            "Piers Morgan dit à Mark Levin que l'Amérique a rejeté le bellicisme et la ligne nuisible à l'économie que Levin a défendue.",
+            "Levin avait insulté Morgan pour ses critiques de la politique américaine et iranienne. L'échange est un avis, pas une preuve."
           ],
           "highlightParagraph": 1,
-          "trend": "Unverified claims",
+          "trend": "Media clash",
           "sources": [
             {
-              "label": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "label": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
             },
             {
-              "label": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
+              "label": "Mark Levin",
+              "url": "https://x.com/marklevinshow/status/2117972019597721923"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Verum",
-              "url": "https://x.com/verumnetwork/status/2117398854383583700"
+              "text": "Piers Morgan",
+              "url": "https://x.com/piersmorgan/status/2117980021830910445"
             },
             {
               "id": "105-1",
-              "text": "Firstpost",
-              "url": "https://x.com/firstpost/status/2117066289105826166"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Économie",
-          "headline": "OPEP+ garderait le pétrole stable",
-          "paragraphs": [
-            "Un post sur X indique que l'OPEP+ maintient la production pétrolière de décembre.",
-            "Il s'agit d'une affirmation d'un seul compte, non corroborée dans cette recherche."
-          ],
-          "highlightParagraph": 1,
-          "trend": "Single-source claim",
-          "sources": [
-            {
-              "label": "Firas Arodaki",
-              "url": "https://x.com/Firasias/status/2117074215949984225"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "Firas Arodaki",
-              "url": "https://x.com/Firasias/status/2117074215949984225"
+              "text": "Mark Levin",
+              "url": "https://x.com/marklevinshow/status/2117972019597721923"
             }
           ]
         }
