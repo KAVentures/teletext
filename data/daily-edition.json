@@ -1,162 +1,189 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-06",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-04T14:40:11.188Z",
+      "updatedAt": "2026-11-06T14:23:30.923Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Midterm claims",
-        "War debate",
-        "Party split",
-        "War powers",
-        "Media clash"
+        "Trending",
+        "Trending",
+        "Trending",
+        "Trending",
+        "Trending"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "US Politics",
-          "headline": "X posts claim Democratic midterm win",
+          "category": "Politics",
+          "headline": "Democrats claim Congress control",
           "paragraphs": [
-            "Commentators on X claim last night's US midterms brought a Democratic surge and that Republicans lost Congress.",
-            "Some tie it to the Iran war; others note Trump remains president. These are claims on X, not an official count."
+            "X users report Democrats won both House and Senate in midterms. Trump remains president.",
+            "Claims circulate widely but lack independent confirmation here."
           ],
-          "highlightParagraph": 1,
-          "trend": "Midterm claims",
+          "highlightParagraph": 0,
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
             },
             {
-              "label": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "label": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
-              "label": "Brenden Dilley",
-              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
+              "label": "Firasias",
+              "url": "https://x.com/Firasias/status/2118161367882514675"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
             },
             {
               "id": "101-1",
-              "text": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "text": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
               "id": "101-2",
-              "text": "Brenden Dilley",
-              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
+              "text": "Firasias",
+              "url": "https://x.com/Firasias/status/2118161367882514675"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Conflict",
-          "headline": "Burnham sees chance to end Iran war",
+          "category": "Security",
+          "headline": "Hormuz tensions worry energy markets",
           "paragraphs": [
-            "A clip on X quotes Andy Burnham saying a Democratic US midterm landslide gives the world a chance to end the Iran war.",
-            "He says that is what US voters are signalling. The post reports his view; it does not confirm results or a ceasefire."
+            "Posts describe ship incidents and limited strikes near the Strait of Hormuz. Some details remain unverified.",
+            "Users flag risks to global oil routes. De-escalation talks are mentioned."
           ],
-          "highlightParagraph": 1,
-          "trend": "War debate",
+          "highlightParagraph": 0,
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2118358201208848781"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "id": "102-1",
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2118358201208848781"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politics",
-          "headline": "Walsh says Iran war hurt the GOP",
+          "category": "Conflict",
+          "headline": "Drone strikes continue in Ukraine",
           "paragraphs": [
-            "Matt Walsh writes that Trump launched a pointless, unpopular war with Iran and that critics were proved right.",
-            "He rejects the idea that skeptics caused claimed GOP losses by refusing to sell the war. The row on X is partisan and unresolved."
+            "Russia and Ukraine keep exchanging drone attacks, according to X posts. Diplomacy on security guarantees continues.",
+            "Some users describe the war as stalemated with no territorial deals noted."
           ],
-          "highlightParagraph": 1,
-          "trend": "Party split",
+          "highlightParagraph": 0,
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Matt Walsh",
-              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "label": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Matt Walsh",
-              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "id": "103-1",
+              "text": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Congress",
-          "headline": "Massie revisits Iran war-powers vote",
+          "category": "Security",
+          "headline": "Threats disrupt Europe air travel",
           "paragraphs": [
-            "Rep. Thomas Massie asks how many colleagues would now change their March vote on his Iran War Powers Resolution.",
-            "The post suggests second thoughts after the conflict and the midterms. It reports no new vote and no official figures."
+            "Reports of bomb threats have caused flight diversions and delays across Europe, users say.",
+            "Discussions call for stronger aviation security and intelligence cooperation. Details stay unconfirmed."
           ],
           "highlightParagraph": 0,
-          "trend": "War powers",
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Thomas Massie",
-              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "label": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Thomas Massie",
-              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "id": "104-1",
+              "text": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Media",
-          "headline": "Morgan and Levin spar after US vote",
+          "category": "Politics",
+          "headline": "Israel results point to hung house",
           "paragraphs": [
-            "Piers Morgan tells Mark Levin that America rejected the war-mongering and economy-shredding case Levin has made.",
-            "Levin had insulted Morgan over his criticism of US and Iran policy. The exchange is opinion, not proof of a result."
+            "X posts discuss a hung parliament after Israeli elections. One account says Netanyahu's path is blocked.",
+            "Accounts differ and the outcome remains contested in online claims."
           ],
           "highlightParagraph": 1,
-          "trend": "Media clash",
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "label": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
-              "label": "Mark Levin",
-              "url": "https://x.com/marklevinshow/status/2117972019597721923"
+              "label": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "text": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
               "id": "105-1",
-              "text": "Mark Levin",
-              "url": "https://x.com/marklevinshow/status/2117972019597721923"
+              "text": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ]
         }
@@ -164,161 +191,188 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-04T14:40:11.188Z",
+      "updatedAt": "2026-11-06T14:23:30.923Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Midterm claims",
-        "War debate",
-        "Party split",
-        "War powers",
-        "Media clash"
+        "Trending",
+        "Trending",
+        "Trending",
+        "Trending",
+        "Trending"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "USA-politik",
-          "headline": "X: demokraterna vann mellanvalet",
+          "category": "Politik",
+          "headline": "Demokrater hävdar kongressmakt",
           "paragraphs": [
-            "Kommentatorer på X hävdar att gårdagens mellanval i USA gav en demokratisk framgång och att republikanerna förlorade kongressen.",
-            "Vissa kopplar det till Iran-kriget; andra påpekar att Trump är kvar som president. Det är påståenden på X, inte en officiell räkning."
+            "X-användare rapporterar att demokrater vann både huset och senaten. Trump kvarstår som president.",
+            "Påståenden cirkulerar brett men saknar oberoende bekräftelse här."
           ],
-          "highlightParagraph": 1,
-          "trend": "Midterm claims",
+          "highlightParagraph": 0,
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
             },
             {
-              "label": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "label": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
-              "label": "Brenden Dilley",
-              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
+              "label": "Firasias",
+              "url": "https://x.com/Firasias/status/2118161367882514675"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
             },
             {
               "id": "101-1",
-              "text": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "text": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
               "id": "101-2",
-              "text": "Brenden Dilley",
-              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
+              "text": "Firasias",
+              "url": "https://x.com/Firasias/status/2118161367882514675"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Konflikt",
-          "headline": "Burnham: chans att avsluta Iran-krig",
+          "category": "Säkerhet",
+          "headline": "Hormuzspänningar oroar energin",
           "paragraphs": [
-            "Ett klipp på X citerar Andy Burnham, som säger att en demokratisk seger i USA ger världen en chans att avsluta Iran-kriget.",
-            "Han menar att det är vad de amerikanska väljarna signalerar. Inlägget återger hans syn; det bekräftar varken resultat eller eldupphör."
+            "Inlägg beskriver fartygsincidenter och begränsade attacker nära Hormuzsundet. Vissa detaljer är overifierade.",
+            "Användare varnar för risker för oljerutter. Samtal om nedtrappning nämns."
           ],
-          "highlightParagraph": 1,
-          "trend": "War debate",
+          "highlightParagraph": 0,
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2118358201208848781"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "id": "102-1",
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2118358201208848781"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politik",
-          "headline": "Walsh: Iran-kriget skadade GOP",
+          "category": "Konflikt",
+          "headline": "Drönarattacker fortsätter i Ukraina",
           "paragraphs": [
-            "Matt Walsh skriver att Trump startade ett meningslöst och impopulärt krig mot Iran och att kritikerna fick rätt.",
-            "Han avvisar idén att skeptiker orsakade påstådda GOP-förluster genom att inte sälja in kriget. Bråket på X är partiskt och oavgjort."
+            "Ryssland och Ukraina fortsätter byta drönarattacker enligt X-inlägg. Diplomati om säkerhetsgarantier pågår.",
+            "Vissa användare beskriver kriget som stillastående utan territoriella uppgörelser."
           ],
-          "highlightParagraph": 1,
-          "trend": "Party split",
+          "highlightParagraph": 0,
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Matt Walsh",
-              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "label": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Matt Walsh",
-              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "id": "103-1",
+              "text": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Kongressen",
-          "headline": "Massie tar upp Iran-krigsbefogenhet",
+          "category": "Säkerhet",
+          "headline": "Hot stör flygtrafiken i Europa",
           "paragraphs": [
-            "Ledamoten Thomas Massie frågar hur många kolleger som nu skulle ändra sin marsröst om hans resolution om krigsbefogenheter mot Iran.",
-            "Inlägget antyder ånger efter konflikten och mellanvalet. Det redovisar ingen ny omröstning och inga officiella siffror."
+            "Rapporter om bombhot har orsakat omdirigeringar och förseningar i Europa, säger användare.",
+            "Diskussioner kräver starkare flygsäkerhet och underrättelsesamarbete. Detaljer är obekräftade."
           ],
           "highlightParagraph": 0,
-          "trend": "War powers",
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Thomas Massie",
-              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "label": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Thomas Massie",
-              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "id": "104-1",
+              "text": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Media",
-          "headline": "Morgan och Levin bråkar efter valet",
+          "category": "Politik",
+          "headline": "Israelval pekar på jämnt läge",
           "paragraphs": [
-            "Piers Morgan säger till Mark Levin att Amerika avvisade den krigshets och den ekonomiska skada som Levin har förespråkat.",
-            "Levin hade förolämpat Morgan för kritik av USA och Iran-politiken. Ordväxlingen är åsikter, inte bevis för ett resultat."
+            "X-inlägg diskuterar ett jämnt parlament efter israeliska val. Ett konto säger att Netanyahus väg är blockerad.",
+            "Kontona skiljer sig och utfallet förblir omtvistat i onlinepåståenden."
           ],
           "highlightParagraph": 1,
-          "trend": "Media clash",
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "label": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
-              "label": "Mark Levin",
-              "url": "https://x.com/marklevinshow/status/2117972019597721923"
+              "label": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "text": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
               "id": "105-1",
-              "text": "Mark Levin",
-              "url": "https://x.com/marklevinshow/status/2117972019597721923"
+              "text": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ]
         }
@@ -326,161 +380,188 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-04T14:40:11.188Z",
+      "updatedAt": "2026-11-06T14:23:30.923Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Midterm claims",
-        "War debate",
-        "Party split",
-        "War powers",
-        "Media clash"
+        "Trending",
+        "Trending",
+        "Trending",
+        "Trending",
+        "Trending"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "US-Politik",
-          "headline": "X: Demokraten gewinnen Midterms",
+          "category": "Politik",
+          "headline": "Demokraten beanspruchen Kongress",
           "paragraphs": [
-            "Kommentatoren auf X behaupten, die US-Zwischenwahlen hätten den Demokraten einen Erfolg gebracht und die Republikaner den Kongress verloren.",
-            "Manche verknüpfen das mit dem Iran-Krieg; andere erinnern daran, dass Trump Präsident bleibt. Das sind Behauptungen auf X, keine amtliche Auszählung."
+            "X-Nutzer berichten, Demokraten gewannen beide Kammern. Trump bleibt Präsident.",
+            "Behauptungen kursieren weit, sind hier aber unbestätigt."
           ],
-          "highlightParagraph": 1,
-          "trend": "Midterm claims",
+          "highlightParagraph": 0,
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
             },
             {
-              "label": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "label": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
-              "label": "Brenden Dilley",
-              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
+              "label": "Firasias",
+              "url": "https://x.com/Firasias/status/2118161367882514675"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
             },
             {
               "id": "101-1",
-              "text": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "text": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
               "id": "101-2",
-              "text": "Brenden Dilley",
-              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
+              "text": "Firasias",
+              "url": "https://x.com/Firasias/status/2118161367882514675"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Konflikt",
-          "headline": "Burnham: Chance, Iran-Krieg zu beenden",
+          "category": "Sicherheit",
+          "headline": "Hormus-Spannungen beunruhigen",
           "paragraphs": [
-            "Ein Clip auf X zitiert Andy Burnham: ein demokratischer Erfolg bei den US-Zwischenwahlen gebe der Welt die Chance, den Iran-Krieg zu beenden.",
-            "Er sagt, das signalisierten die US-Wähler. Der Post gibt seine Sicht wieder; er bestätigt weder Ergebnisse noch einen Waffenstillstand."
+            "Beiträge beschreiben Schiffsvorfälle und begrenzte Angriffe nahe der Straße von Hormus. Einige Details unbestätigt.",
+            "Nutzer warnen vor Risiken für Ölrouten. Gespräche über Deeskalation werden erwähnt."
           ],
-          "highlightParagraph": 1,
-          "trend": "War debate",
+          "highlightParagraph": 0,
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2118358201208848781"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "id": "102-1",
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2118358201208848781"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politik",
-          "headline": "Walsh: Iran-Krieg schadete der GOP",
+          "category": "Konflikt",
+          "headline": "Drohnenangriffe in Ukraine gehen weiter",
           "paragraphs": [
-            "Matt Walsh schreibt, Trump habe einen sinnlosen, unpopulären Krieg gegen Iran begonnen und die Kritiker seien bestätigt worden.",
-            "Er weist zurück, Skeptiker hätten behauptete GOP-Verluste verursacht, weil sie den Krieg nicht verkauften. Der Streit auf X ist offen."
+            "Russland und Ukraine tauschen weiter Drohnenangriffe aus, laut X-Posts. Diplomatie zu Sicherheitsgarantien läuft.",
+            "Einige Nutzer beschreiben den Krieg als Patt ohne territoriale Abkommen."
           ],
-          "highlightParagraph": 1,
-          "trend": "Party split",
+          "highlightParagraph": 0,
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Matt Walsh",
-              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "label": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Matt Walsh",
-              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "id": "103-1",
+              "text": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Kongress",
-          "headline": "Massie hinterfragt Iran-Kriegsvotum",
+          "category": "Sicherheit",
+          "headline": "Drohungen stören Europas Flüge",
           "paragraphs": [
-            "Abgeordneter Thomas Massie fragt, wie viele Kollegen ihre März-Stimme zu seiner Iran-War-Powers-Resolution jetzt ändern würden.",
-            "Der Post deutet Zweifel nach dem Konflikt und den Zwischenwahlen an. Er nennt keine neue Abstimmung und keine amtlichen Zahlen."
+            "Berichte über Bombendrohungen haben Umleitungen und Verspätungen in Europa verursacht, sagen Nutzer.",
+            "Diskussionen fordern stärkere Luftsicherheit und Geheimdienstkooperation. Details bleiben unbestätigt."
           ],
           "highlightParagraph": 0,
-          "trend": "War powers",
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Thomas Massie",
-              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "label": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Thomas Massie",
-              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "id": "104-1",
+              "text": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Medien",
-          "headline": "Morgan und Levin streiten nach Wahl",
+          "category": "Politik",
+          "headline": "Israel-Wahl deutet auf Patt hin",
           "paragraphs": [
-            "Piers Morgan sagt Mark Levin, Amerika habe die Kriegstreiberei und die wirtschaftsschädliche Linie abgelehnt, die Levin vertreten habe.",
-            "Levin hatte Morgan wegen Kritik an US- und Iran-Politik beleidigt. Der Schlagabtausch ist Meinung, kein Beleg für ein Ergebnis."
+            "X-Posts diskutieren ein Patt-Parlament nach israelischen Wahlen. Ein Konto sagt, Netanyahus Weg sei blockiert.",
+            "Die Berichte unterscheiden sich und das Ergebnis bleibt in Online-Behauptungen umstritten."
           ],
           "highlightParagraph": 1,
-          "trend": "Media clash",
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "label": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
-              "label": "Mark Levin",
-              "url": "https://x.com/marklevinshow/status/2117972019597721923"
+              "label": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "text": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
               "id": "105-1",
-              "text": "Mark Levin",
-              "url": "https://x.com/marklevinshow/status/2117972019597721923"
+              "text": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ]
         }
@@ -488,161 +569,188 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-04T14:40:11.188Z",
+      "updatedAt": "2026-11-06T14:23:30.923Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Midterm claims",
-        "War debate",
-        "Party split",
-        "War powers",
-        "Media clash"
+        "Trending",
+        "Trending",
+        "Trending",
+        "Trending",
+        "Trending"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Política de EE.UU.",
-          "headline": "En X: demócratas ganan midterms",
+          "category": "Política",
+          "headline": "Demócratas reclaman el Congreso",
           "paragraphs": [
-            "Comentaristas en X afirman que las midterms de EE.UU. dieron un avance demócrata y que los republicanos perdieron el Congreso.",
-            "Unos lo ligan a la guerra con Irán; otros recuerdan que Trump sigue de presidente. Son afirmaciones en X, no un recuento oficial."
+            "Usuarios de X informan que demócratas ganaron ambas cámaras. Trump sigue de presidente.",
+            "Las afirmaciones circulan mucho pero no se confirman aquí."
           ],
-          "highlightParagraph": 1,
-          "trend": "Midterm claims",
+          "highlightParagraph": 0,
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
             },
             {
-              "label": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "label": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
-              "label": "Brenden Dilley",
-              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
+              "label": "Firasias",
+              "url": "https://x.com/Firasias/status/2118161367882514675"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
             },
             {
               "id": "101-1",
-              "text": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "text": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
               "id": "101-2",
-              "text": "Brenden Dilley",
-              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
+              "text": "Firasias",
+              "url": "https://x.com/Firasias/status/2118161367882514675"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Conflicto",
-          "headline": "Burnham ve opción de acabar la guerra",
+          "category": "Seguridad",
+          "headline": "Tensiones en Ormuz preocupan",
           "paragraphs": [
-            "Un clip en X cita a Andy Burnham: un triunfo demócrata en las midterms daría al mundo la oportunidad de acabar la guerra con Irán.",
-            "Dice que eso es lo que señalan los votantes de EE.UU. El post recoge su opinión; no confirma resultados ni un alto el fuego."
+            "Publicaciones describen incidentes de barcos y ataques limitados cerca del estrecho de Ormuz. Algunos detalles sin verificar.",
+            "Usuarios alertan riesgos para rutas petroleras. Se mencionan conversaciones de desescalada."
           ],
-          "highlightParagraph": 1,
-          "trend": "War debate",
+          "highlightParagraph": 0,
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2118358201208848781"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "id": "102-1",
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2118358201208848781"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Política",
-          "headline": "Walsh: la guerra con Irán dañó al GOP",
+          "category": "Conflicto",
+          "headline": "Continúan ataques de drones en Ucrania",
           "paragraphs": [
-            "Matt Walsh escribe que Trump lanzó una guerra inútil e impopular contra Irán y que los críticos tenían razón.",
-            "Rechaza que los escépticos causaran las supuestas pérdidas del GOP por no vender la guerra. La disputa en X no está resuelta."
+            "Rusia y Ucrania siguen intercambiando ataques de drones, según posts en X. La diplomacia sobre garantías continúa.",
+            "Algunos usuarios describen la guerra como un estancamiento sin acuerdos territoriales."
           ],
-          "highlightParagraph": 1,
-          "trend": "Party split",
+          "highlightParagraph": 0,
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Matt Walsh",
-              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "label": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Matt Walsh",
-              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "id": "103-1",
+              "text": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Congreso",
-          "headline": "Massie retoma el voto sobre Irán",
+          "category": "Seguridad",
+          "headline": "Amenazas alteran vuelos en Europa",
           "paragraphs": [
-            "El representante Thomas Massie pregunta cuántos colegas cambiarían ahora su voto de marzo sobre su resolución de poderes de guerra contra Irán.",
-            "El post sugiere dudas tras el conflicto y las midterms. No informa de una nueva votación ni de cifras oficiales."
+            "Informes de amenazas de bomba han causado desvíos y retrasos en Europa, dicen usuarios.",
+            "Las discusiones piden mayor seguridad aérea y cooperación de inteligencia. Los detalles no están confirmados."
           ],
           "highlightParagraph": 0,
-          "trend": "War powers",
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Thomas Massie",
-              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "label": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Thomas Massie",
-              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "id": "104-1",
+              "text": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Medios",
-          "headline": "Morgan y Levin chocan tras el voto",
+          "category": "Política",
+          "headline": "Resultados de Israel sugieren empate",
           "paragraphs": [
-            "Piers Morgan dice a Mark Levin que Estados Unidos rechazó el belicismo y el daño económico que Levin ha defendido.",
-            "Levin había insultado a Morgan por criticar la política de EE.UU. e Irán. El cruce es opinión, no prueba de un resultado."
+            "Posts en X discuten un parlamento empatado tras las elecciones israelíes. Una cuenta dice que el camino de Netanyahu está bloqueado.",
+            "Las cuentas difieren y el resultado sigue disputado en las afirmaciones en línea."
           ],
           "highlightParagraph": 1,
-          "trend": "Media clash",
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "label": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
-              "label": "Mark Levin",
-              "url": "https://x.com/marklevinshow/status/2117972019597721923"
+              "label": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "text": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
               "id": "105-1",
-              "text": "Mark Levin",
-              "url": "https://x.com/marklevinshow/status/2117972019597721923"
+              "text": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ]
         }
@@ -650,161 +758,188 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-04T14:40:11.188Z",
+      "updatedAt": "2026-11-06T14:23:30.923Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Midterm claims",
-        "War debate",
-        "Party split",
-        "War powers",
-        "Media clash"
+        "Trending",
+        "Trending",
+        "Trending",
+        "Trending",
+        "Trending"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Politique US",
-          "headline": "Sur X: vague démocrate aux midterms",
+          "category": "Politique",
+          "headline": "Démocrates revendiquent le Congrès",
           "paragraphs": [
-            "Des commentateurs sur X affirment que les midterms américaines ont profité aux démocrates et que les républicains ont perdu le Congrès.",
-            "Certains lient cela à la guerre en Iran; d'autres notent que Trump reste président. Ce sont des propos sur X, pas un décompte officiel."
+            "Des utilisateurs X rapportent que les démocrates ont gagné les deux chambres. Trump reste président.",
+            "Les allégations circulent largement mais ne sont pas confirmées ici."
           ],
-          "highlightParagraph": 1,
-          "trend": "Midterm claims",
+          "highlightParagraph": 0,
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
             },
             {
-              "label": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "label": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
-              "label": "Brenden Dilley",
-              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
+              "label": "Firasias",
+              "url": "https://x.com/Firasias/status/2118161367882514675"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
             },
             {
               "id": "101-1",
-              "text": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "text": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
               "id": "101-2",
-              "text": "Brenden Dilley",
-              "url": "https://x.com/WarlordDilley/status/2117972962594754582"
+              "text": "Firasias",
+              "url": "https://x.com/Firasias/status/2118161367882514675"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Conflit",
-          "headline": "Burnham: chance de finir la guerre",
+          "category": "Sécurité",
+          "headline": "Tensions à Ormuz inquiètent",
           "paragraphs": [
-            "Une vidéo sur X cite Andy Burnham: une vague démocrate aux midterms donnerait au monde une chance de mettre fin à la guerre en Iran.",
-            "Il dit que c'est ce que signalent les électeurs américains. Le post rapporte son avis; il ne confirme ni les résultats ni un cessez-le-feu."
+            "Des posts décrivent des incidents de navires et des frappes limitées près du détroit d'Ormuz. Certains détails non vérifiés.",
+            "Les utilisateurs signalent des risques pour les routes pétrolières. Des pourparlers sont mentionnés."
           ],
-          "highlightParagraph": 1,
-          "trend": "War debate",
+          "highlightParagraph": 0,
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2118358201208848781"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Politics UK",
-              "url": "https://x.com/PolitlcsUK/status/2117971748264038730"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "id": "102-1",
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2118358201208848781"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politique",
-          "headline": "Walsh: la guerre en Iran a nui au GOP",
+          "category": "Conflit",
+          "headline": "Frappes de drones continuent en Ukraine",
           "paragraphs": [
-            "Matt Walsh écrit que Trump a lancé une guerre inutile et impopulaire contre l'Iran et que les critiques ont eu raison.",
-            "Il rejette l'idée que les sceptiques ont causé les pertes attribuées au GOP en refusant de vendre la guerre. Le débat sur X reste partisan."
+            "La Russie et l'Ukraine échangent toujours des attaques de drones, selon des posts X. La diplomatie sur les garanties se poursuit.",
+            "Certains utilisateurs décrivent la guerre comme une impasse sans accords territoriaux."
           ],
-          "highlightParagraph": 1,
-          "trend": "Party split",
+          "highlightParagraph": 0,
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Matt Walsh",
-              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "label": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Matt Walsh",
-              "url": "https://x.com/MattWalshBlog/status/2117969658770821578"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "id": "103-1",
+              "text": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Congrès",
-          "headline": "Massie revient sur le vote Iran",
+          "category": "Sécurité",
+          "headline": "Menaces perturbent vols en Europe",
           "paragraphs": [
-            "Le représentant Thomas Massie demande combien de collègues changeraient leur vote de mars sur sa résolution de pouvoirs de guerre contre l'Iran.",
-            "Le post suggère des regrets après le conflit et les midterms. Il ne signale aucun nouveau vote ni chiffre officiel."
+            "Des rapports de menaces à la bombe ont causé des déroutements et des retards en Europe, disent les utilisateurs.",
+            "Les discussions appellent à une sécurité aérienne renforcée et à une coopération du renseignement. Les détails restent non confirmés."
           ],
           "highlightParagraph": 0,
-          "trend": "War powers",
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Thomas Massie",
-              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
+              "label": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "label": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Thomas Massie",
-              "url": "https://x.com/RepThomasMassie/status/2117979843161977225"
+              "text": "AntonisLetros",
+              "url": "https://x.com/AntonisLetros/status/2118351770162168052"
+            },
+            {
+              "id": "104-1",
+              "text": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Médias",
-          "headline": "Morgan et Levin s'affrontent",
+          "category": "Politique",
+          "headline": "Résultats israéliens indiquent un blocage",
           "paragraphs": [
-            "Piers Morgan dit à Mark Levin que l'Amérique a rejeté le bellicisme et la ligne nuisible à l'économie que Levin a défendue.",
-            "Levin avait insulté Morgan pour ses critiques de la politique américaine et iranienne. L'échange est un avis, pas une preuve."
+            "Des posts X discutent d'un parlement sans majorité après les élections israéliennes. Un compte dit que la voie de Netanyahu est bloquée.",
+            "Les comptes divergent et le résultat reste contesté dans les affirmations en ligne."
           ],
           "highlightParagraph": 1,
-          "trend": "Media clash",
+          "trend": "Trending",
           "sources": [
             {
-              "label": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "label": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
-              "label": "Mark Levin",
-              "url": "https://x.com/marklevinshow/status/2117972019597721923"
+              "label": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Piers Morgan",
-              "url": "https://x.com/piersmorgan/status/2117980021830910445"
+              "text": "ManishTewari",
+              "url": "https://x.com/ManishTewari/status/2118163283282989453"
             },
             {
               "id": "105-1",
-              "text": "Mark Levin",
-              "url": "https://x.com/marklevinshow/status/2117972019597721923"
+              "text": "Plicy6",
+              "url": "https://x.com/Plicy6/status/2118479354548113766"
             }
           ]
         }
