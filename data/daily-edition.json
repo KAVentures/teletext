@@ -1,119 +1,135 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-07T13:12:37.572Z",
+      "updatedAt": "2026-11-08T13:33:19.059Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "question raised",
-        "online dispute",
-        "industry forecast",
-        "ceremonial report"
+        "Tense",
+        "Uncertain",
+        "Restricted",
+        "Fragile",
+        "Shifting"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Africa",
-          "headline": "DRC post questions delay of political fix",
+          "category": "Conflict",
+          "headline": "Ukraine energy strikes, talks set",
           "paragraphs": [
-            "A Congolese account asks how long the DRC can keep postponing a political solution to its crisis.",
-            "The message urges inclusive dialogue and peace. It states no new verified facts."
+            "X posts claim mutual energy strikes continue. Zelensky says every Ukrainian power plant is damaged.",
+            "Trilateral talks planned 10-11 Nov in Abu Dhabi amid deal push. Damage scale disputed."
           ],
           "highlightParagraph": 0,
-          "trend": "question raised",
+          "trend": "Tense",
           "sources": [
             {
-              "label": "RDC Breaking News",
-              "url": "https://x.com/BreakingN_RDC/status/2119054830203273561"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "RDC Breaking News",
-              "url": "https://x.com/BreakingN_RDC/status/2119054830203273561"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Diplomacy",
-          "headline": "X users trade blame on China-Japan ties",
+          "category": "Politics",
+          "headline": "Allies cautious on US midterm shift",
           "paragraphs": [
-            "One post claims China blocks friendship through harassment near Japan and hate propaganda.",
-            "A reply lists alleged Japanese acts—shrine visits, wastewater, textbooks—as the real barrier. These remain unverified online claims."
+            "X analyst notes US allies cautious if midterm rout of Trumpism endures.",
+            "Russia seen unrelenting in Ukraine destruction per shared briefings. Claims unverified."
           ],
-          "highlightParagraph": 1,
-          "trend": "online dispute",
+          "highlightParagraph": 0,
+          "trend": "Uncertain",
           "sources": [
             {
-              "label": "Reply by jokieliu",
-              "url": "https://x.com/jokieliu/status/2119054819482808806"
-            },
-            {
-              "label": "Quoted post",
-              "url": "https://x.com/JohnSmithrfpru/status/2118131343381184988"
+              "label": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Reply by jokieliu",
-              "url": "https://x.com/jokieliu/status/2119054819482808806"
-            },
-            {
-              "id": "102-1",
-              "text": "Quoted post",
-              "url": "https://x.com/JohnSmithrfpru/status/2118131343381184988"
+              "text": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Economy",
-          "headline": "India auto sales forecast to stay firm",
+          "category": "Conflict",
+          "headline": "Hormuz traffic low in Iran clash",
           "paragraphs": [
-            "Economic Times says sales should keep momentum, citing GST relief and EVs per SIAM.",
-            "The item is an industry outlook only, not proof of a wider economic change."
+            "Posts describe US-Iran conflict since Feb restricting Hormuz to about 10% traffic.",
+            "Recent strikes and tanker mine incidents cited on X. Details remain contested."
           ],
           "highlightParagraph": 0,
-          "trend": "industry forecast",
+          "trend": "Restricted",
           "sources": [
             {
-              "label": "Economic Times",
-              "url": "https://x.com/EconomicTimes/status/2119054814478762232"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Economic Times",
-              "url": "https://x.com/EconomicTimes/status/2119054814478762232"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Culture",
-          "headline": "Thai queen conducts temple offerings",
+          "category": "Middle East",
+          "headline": "Gaza truce fragile, Yemen clashes",
           "paragraphs": [
-            "Thairath reports the queen offered royal kathin cloth at two temples in the king’s place.",
-            "The post describes a traditional rite and mentions no dispute."
+            "X claims 2025 Gaza ceasefire remains fragile with next phases stalled.",
+            "Yemen sees renewed Houthi-Saudi fighting and humanitarian crisis per posts."
           ],
-          "highlightParagraph": null,
-          "trend": "ceremonial report",
+          "highlightParagraph": 0,
+          "trend": "Fragile",
           "sources": [
             {
-              "label": "Thairath News",
-              "url": "https://x.com/Thairath_News/status/2119054814042591712"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Thairath News",
-              "url": "https://x.com/Thairath_News/status/2119054814042591712"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Politics",
+          "headline": "Israel eyes coalition without PM",
+          "paragraphs": [
+            "Analyst post says Israeli politicians seek coalition excluding Netanyahu.",
+            "No confirmation of talks success; claim from X briefing only."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Shifting",
+          "sources": [
+            {
+              "label": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
             }
           ]
         }
@@ -121,118 +137,134 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-07T13:12:37.572Z",
+      "updatedAt": "2026-11-08T13:33:19.059Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "question raised",
-        "online dispute",
-        "industry forecast",
-        "ceremonial report"
+        "Tense",
+        "Uncertain",
+        "Restricted",
+        "Fragile",
+        "Shifting"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Afrika",
-          "headline": "DRC-inlägg frågar om uppskjuten lösning",
+          "category": "Konflikt",
+          "headline": "Ukraina energislag, samtal satta",
           "paragraphs": [
-            "Ett kongolesiskt konto frågar hur länge DRC kan skjuta upp en politisk lösning på krisen.",
-            "Meddelandet efterlyser dialog och fred. Det anger inga nya verifierade fakta."
+            "X-inlägg hävdar fortsatta ömsesidiga energislag. Zelenskyj säger alla kraftverk skadade.",
+            "Trepartssamtal 10-11 nov i Abu Dhabi enligt poster. Skadeomfattning omtvistad."
           ],
           "highlightParagraph": 0,
-          "trend": "question raised",
+          "trend": "Tense",
           "sources": [
             {
-              "label": "RDC Breaking News",
-              "url": "https://x.com/BreakingN_RDC/status/2119054830203273561"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "RDC Breaking News",
-              "url": "https://x.com/BreakingN_RDC/status/2119054830203273561"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Diplomati",
-          "headline": "X-användare skyller på Kina-Japan",
+          "category": "Politik",
+          "headline": "Allierade försiktiga om USA-val",
           "paragraphs": [
-            "Ett inlägg hävdar att Kina blockerar vänskap genom trakasserier och hatpropaganda.",
-            "Ett svar listar påstådda japanska handlingar—helgedom, avloppsvatten, läroböcker—som hindret. Endast overifierade påståenden."
+            "X-analytiker noterar att allierade är försiktiga om mellanvalssegern över trumpism håller.",
+            "Ryssland ses som obevekligt i Ukraina enligt delade rapporter. Påståenden overifierade."
           ],
-          "highlightParagraph": 1,
-          "trend": "online dispute",
+          "highlightParagraph": 0,
+          "trend": "Uncertain",
           "sources": [
             {
-              "label": "Reply by jokieliu",
-              "url": "https://x.com/jokieliu/status/2119054819482808806"
-            },
-            {
-              "label": "Quoted post",
-              "url": "https://x.com/JohnSmithrfpru/status/2118131343381184988"
+              "label": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Reply by jokieliu",
-              "url": "https://x.com/jokieliu/status/2119054819482808806"
-            },
-            {
-              "id": "102-1",
-              "text": "Quoted post",
-              "url": "https://x.com/JohnSmithrfpru/status/2118131343381184988"
+              "text": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Ekonomi",
-          "headline": "Indiens bilförsäljning väntas hålla",
+          "category": "Konflikt",
+          "headline": "Hormuztrafik låg i Iran-konflikt",
           "paragraphs": [
-            "Economic Times säger att försäljningen bör hålla farten tack vare GST och elbilar enligt SIAM.",
-            "Det är endast en branschprognos, inte bevis på en bredare ekonomisk förändring."
+            "Inlägg beskriver USA-Iran-konflikt sedan feb som begränsar Hormuz till ca 10% trafik.",
+            "Nyliga slag och minkincidenter med tankfartyg citeras. Detaljer omstridda."
           ],
           "highlightParagraph": 0,
-          "trend": "industry forecast",
+          "trend": "Restricted",
           "sources": [
             {
-              "label": "Economic Times",
-              "url": "https://x.com/EconomicTimes/status/2119054814478762232"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Economic Times",
-              "url": "https://x.com/EconomicTimes/status/2119054814478762232"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Kultur",
-          "headline": "Thailändsk drottning utför tempeloffer",
+          "category": "Mellanöstern",
+          "headline": "Gaza-vapenvila skör, Jemen-strider",
           "paragraphs": [
-            "Thairath rapporterar att drottningen överlämnade kungligt kathin-tyg vid två tempel.",
-            "Inlägget beskriver en traditionell rit och nämner ingen tvist."
+            "X-påståenden: 2025 års Gaza-eldupphör förblir skört med nästa faser stillastående.",
+            "Jemen ser förnyade Houthi-Saudi-strider och humanitär kris enligt inlägg."
           ],
-          "highlightParagraph": null,
-          "trend": "ceremonial report",
+          "highlightParagraph": 0,
+          "trend": "Fragile",
           "sources": [
             {
-              "label": "Thairath News",
-              "url": "https://x.com/Thairath_News/status/2119054814042591712"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Thairath News",
-              "url": "https://x.com/Thairath_News/status/2119054814042591712"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Politik",
+          "headline": "Israel söker koalition utan PM",
+          "paragraphs": [
+            "Analytikerinlägg säger israeliska politiker söker koalition utan Netanyahu.",
+            "Ingen bekräftelse på framgång; påstående endast från X-briefing."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Shifting",
+          "sources": [
+            {
+              "label": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
             }
           ]
         }
@@ -240,118 +272,134 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-07T13:12:37.572Z",
+      "updatedAt": "2026-11-08T13:33:19.059Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "question raised",
-        "online dispute",
-        "industry forecast",
-        "ceremonial report"
+        "Tense",
+        "Uncertain",
+        "Restricted",
+        "Fragile",
+        "Shifting"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Afrika",
-          "headline": "DRC-Post fragt nach verzögerter Lösung",
+          "category": "Konflikt",
+          "headline": "Ukraine-Energieschläge, Gespräche",
           "paragraphs": [
-            "Ein kongolesisches Konto fragt, wie lange die DRC eine politische Lösung aufschieben kann.",
-            "Der Beitrag fordert Dialog und Frieden. Er nennt keine neuen bestätigten Fakten."
+            "X-Posts melden fortgesetzte gegenseitige Energieschläge. Selenskyj: alle Kraftwerke beschädigt.",
+            "Dreiergespräche 10.-11. Nov. in Abu Dhabi geplant. Schadensumfang umstritten."
           ],
           "highlightParagraph": 0,
-          "trend": "question raised",
+          "trend": "Tense",
           "sources": [
             {
-              "label": "RDC Breaking News",
-              "url": "https://x.com/BreakingN_RDC/status/2119054830203273561"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "RDC Breaking News",
-              "url": "https://x.com/BreakingN_RDC/status/2119054830203273561"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Diplomatie",
-          "headline": "X-Nutzer streiten um China-Japan-Schuld",
+          "category": "Politik",
+          "headline": "Verbündete vorsichtig bei US-Wahl",
           "paragraphs": [
-            "Ein Post wirft China vor, Freundschaft durch Störungen und Hasspropaganda zu blockieren.",
-            "Eine Antwort nennt angebliche japanische Taten—Schrein, Abwasser, Schulbücher—als Barriere. Nur unbestätigte Online-Behauptungen."
+            "X-Analyst: Verbündete prüfen, ob Midterm-Niederlage des Trumpismus anhält.",
+            "Russland gilt als unerbittlich in der Ukraine laut geteilten Briefings. Behauptungen ungeprüft."
           ],
-          "highlightParagraph": 1,
-          "trend": "online dispute",
+          "highlightParagraph": 0,
+          "trend": "Uncertain",
           "sources": [
             {
-              "label": "Reply by jokieliu",
-              "url": "https://x.com/jokieliu/status/2119054819482808806"
-            },
-            {
-              "label": "Quoted post",
-              "url": "https://x.com/JohnSmithrfpru/status/2118131343381184988"
+              "label": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Reply by jokieliu",
-              "url": "https://x.com/jokieliu/status/2119054819482808806"
-            },
-            {
-              "id": "102-1",
-              "text": "Quoted post",
-              "url": "https://x.com/JohnSmithrfpru/status/2118131343381184988"
+              "text": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Wirtschaft",
-          "headline": "Indiens Autoverkäufe sollen stabil bleiben",
+          "category": "Konflikt",
+          "headline": "Hormus-Verkehr niedrig im Iran-Streit",
           "paragraphs": [
-            "Economic Times erwartet anhaltende Verkäufe durch GST-Erleichterung und E-Autos laut SIAM.",
-            "Es ist nur eine Branchenprognose, kein Beleg für einen größeren Wirtschaftswandel."
+            "Posts beschreiben US-Iran-Konflikt seit Feb., Hormus auf ca. 10% Verkehr beschränkt.",
+            "Jüngste Schläge und Minenvorfälle an Tankern zitiert. Details umstritten."
           ],
           "highlightParagraph": 0,
-          "trend": "industry forecast",
+          "trend": "Restricted",
           "sources": [
             {
-              "label": "Economic Times",
-              "url": "https://x.com/EconomicTimes/status/2119054814478762232"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Economic Times",
-              "url": "https://x.com/EconomicTimes/status/2119054814478762232"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Kultur",
-          "headline": "Thailändische Königin bringt Tempelopfer",
+          "category": "Naher Osten",
+          "headline": "Gaza-Waffenruhe fragil, Jemen-Kämpfe",
           "paragraphs": [
-            "Thairath berichtet, die Königin habe königliches Kathin-Tuch in zwei Tempeln dargebracht.",
-            "Der Post beschreibt einen traditionellen Ritus und erwähnt keinen Streit."
+            "X-Behauptungen: Waffenruhe 2025 in Gaza bleibt fragil, nächste Phasen stocken.",
+            "Jemen sieht erneute Houthi-Saudi-Kämpfe und humanitäre Krise laut Posts."
           ],
-          "highlightParagraph": null,
-          "trend": "ceremonial report",
+          "highlightParagraph": 0,
+          "trend": "Fragile",
           "sources": [
             {
-              "label": "Thairath News",
-              "url": "https://x.com/Thairath_News/status/2119054814042591712"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Thairath News",
-              "url": "https://x.com/Thairath_News/status/2119054814042591712"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Politik",
+          "headline": "Israel sucht Koalition ohne PM",
+          "paragraphs": [
+            "Analysten-Post: Israelische Politiker suchen Koalition ohne Netanyahu.",
+            "Kein Erfolg bestätigt; Behauptung nur aus X-Briefing."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Shifting",
+          "sources": [
+            {
+              "label": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
             }
           ]
         }
@@ -359,118 +407,134 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-07T13:12:37.572Z",
+      "updatedAt": "2026-11-08T13:33:19.059Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "question raised",
-        "online dispute",
-        "industry forecast",
-        "ceremonial report"
+        "Tense",
+        "Uncertain",
+        "Restricted",
+        "Fragile",
+        "Shifting"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "África",
-          "headline": "Post de RDC cuestiona retraso político",
+          "category": "Conflicto",
+          "headline": "Ataques energía Ucrania, charlas",
           "paragraphs": [
-            "Una cuenta congoleña pregunta cuánto puede la RDC posponer una solución política a la crisis.",
-            "El mensaje urge diálogo y paz. No aporta hechos nuevos verificados."
+            "Posts en X afirman ataques mutuos de energía. Zelenski dice todas las plantas dañadas.",
+            "Charlas trilaterales 10-11 nov en Abu Dabi. Escala de daños en disputa."
           ],
           "highlightParagraph": 0,
-          "trend": "question raised",
+          "trend": "Tense",
           "sources": [
             {
-              "label": "RDC Breaking News",
-              "url": "https://x.com/BreakingN_RDC/status/2119054830203273561"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "RDC Breaking News",
-              "url": "https://x.com/BreakingN_RDC/status/2119054830203273561"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Diplomacia",
-          "headline": "Usuarios de X disputan culpa China-Japón",
+          "category": "Política",
+          "headline": "Aliados cautos ante cambio en EE.UU.",
           "paragraphs": [
-            "Un post afirma que China bloquea la amistad con hostigamiento y propaganda de odio.",
-            "Una respuesta cita actos japoneses alegados—santuario, aguas, libros—como barrera. Solo afirmaciones en línea sin verificar."
+            "Analista en X dice que aliados dudan si el revés a trumpismo en midterms perdura.",
+            "Rusia vista implacable en Ucrania según informes. Afirmaciones no verificadas."
           ],
-          "highlightParagraph": 1,
-          "trend": "online dispute",
+          "highlightParagraph": 0,
+          "trend": "Uncertain",
           "sources": [
             {
-              "label": "Reply by jokieliu",
-              "url": "https://x.com/jokieliu/status/2119054819482808806"
-            },
-            {
-              "label": "Quoted post",
-              "url": "https://x.com/JohnSmithrfpru/status/2118131343381184988"
+              "label": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Reply by jokieliu",
-              "url": "https://x.com/jokieliu/status/2119054819482808806"
-            },
-            {
-              "id": "102-1",
-              "text": "Quoted post",
-              "url": "https://x.com/JohnSmithrfpru/status/2118131343381184988"
+              "text": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Economía",
-          "headline": "Ventas de autos en India se mantendrían",
+          "category": "Conflicto",
+          "headline": "Tráfico Hormuz bajo en choque Irán",
           "paragraphs": [
-            "Economic Times dice que las ventas seguirían por alivio del GST y VE según SIAM.",
-            "Es solo un pronóstico sectorial, no prueba de un cambio económico más amplio."
+            "Posts describen conflicto EE.UU.-Irán desde feb. que restringe Hormuz a ~10% de tráfico.",
+            "Se citan ataques recientes e incidentes de minas. Detalles en disputa."
           ],
           "highlightParagraph": 0,
-          "trend": "industry forecast",
+          "trend": "Restricted",
           "sources": [
             {
-              "label": "Economic Times",
-              "url": "https://x.com/EconomicTimes/status/2119054814478762232"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Economic Times",
-              "url": "https://x.com/EconomicTimes/status/2119054814478762232"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Cultura",
-          "headline": "Reina tailandesa realiza ofrendas",
+          "category": "Oriente Medio",
+          "headline": "Tregua Gaza frágil, choques Yemen",
           "paragraphs": [
-            "Thairath informa que la reina ofreció tela kathin real en dos templos.",
-            "El post describe un rito tradicional y no menciona disputa."
+            "Afirmaciones en X: alto el fuego de Gaza 2025 sigue frágil con fases estancadas.",
+            "Yemen ve combates renovados hutíes-saudíes y crisis humanitaria según posts."
           ],
-          "highlightParagraph": null,
-          "trend": "ceremonial report",
+          "highlightParagraph": 0,
+          "trend": "Fragile",
           "sources": [
             {
-              "label": "Thairath News",
-              "url": "https://x.com/Thairath_News/status/2119054814042591712"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Thairath News",
-              "url": "https://x.com/Thairath_News/status/2119054814042591712"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Política",
+          "headline": "Israel busca coalición sin PM",
+          "paragraphs": [
+            "Post de analista dice que políticos israelíes buscan coalición sin Netanyahu.",
+            "Sin confirmación de éxito; afirmación solo de briefing en X."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Shifting",
+          "sources": [
+            {
+              "label": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
             }
           ]
         }
@@ -478,118 +542,134 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-07T13:12:37.572Z",
+      "updatedAt": "2026-11-08T13:33:19.059Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "question raised",
-        "online dispute",
-        "industry forecast",
-        "ceremonial report"
+        "Tense",
+        "Uncertain",
+        "Restricted",
+        "Fragile",
+        "Shifting"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Afrique",
-          "headline": "Post RDC questionne le report politique",
+          "category": "Conflit",
+          "headline": "Frappes énergie Ukraine, pourparlers",
           "paragraphs": [
-            "Un compte congolais demande combien de temps la RDC peut encore reporter une solution politique.",
-            "Le message appelle au dialogue et à la paix. Il n’énonce aucun fait nouveau vérifié."
+            "Des posts X affirment des frappes énergétiques mutuelles. Zelensky: toutes centrales endommagées.",
+            "Pourparlers trilatéraux 10-11 nov à Abu Dhabi. Ampleur des dégâts contestée."
           ],
           "highlightParagraph": 0,
-          "trend": "question raised",
+          "trend": "Tense",
           "sources": [
             {
-              "label": "RDC Breaking News",
-              "url": "https://x.com/BreakingN_RDC/status/2119054830203273561"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "RDC Breaking News",
-              "url": "https://x.com/BreakingN_RDC/status/2119054830203273561"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Diplomatie",
-          "headline": "Usagers X s’accusent sur Chine-Japon",
+          "category": "Politique",
+          "headline": "Alliés prudents sur midterms US",
           "paragraphs": [
-            "Un post affirme que la Chine bloque l’amitié par harcèlement et propagande haineuse.",
-            "Une réponse cite des actes japonais allégués—sanctuaire, eaux, manuels—comme obstacle. Affirmations en ligne non vérifiées."
+            "Un analyste X note que les alliés doutent si la déroute du trumpisme aux midterms dure.",
+            "La Russie vue implacable en Ukraine selon briefings. Affirmations non vérifiées."
           ],
-          "highlightParagraph": 1,
-          "trend": "online dispute",
+          "highlightParagraph": 0,
+          "trend": "Uncertain",
           "sources": [
             {
-              "label": "Reply by jokieliu",
-              "url": "https://x.com/jokieliu/status/2119054819482808806"
-            },
-            {
-              "label": "Quoted post",
-              "url": "https://x.com/JohnSmithrfpru/status/2118131343381184988"
+              "label": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Reply by jokieliu",
-              "url": "https://x.com/jokieliu/status/2119054819482808806"
-            },
-            {
-              "id": "102-1",
-              "text": "Quoted post",
-              "url": "https://x.com/JohnSmithrfpru/status/2118131343381184988"
+              "text": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Économie",
-          "headline": "Ventes auto indiennes prévues stables",
+          "category": "Conflit",
+          "headline": "Trafic Hormuz bas dans clash Iran",
           "paragraphs": [
-            "Economic Times indique que les ventes devraient tenir grâce au GST et aux VE selon SIAM.",
-            "Il s’agit seulement d’une prévision sectorielle, pas d’une preuve de changement plus large."
+            "Des posts décrivent le conflit USA-Iran depuis fév. limitant Hormuz à ~10% du trafic.",
+            "Frappes récentes et incidents de mines cités. Détails contestés."
           ],
           "highlightParagraph": 0,
-          "trend": "industry forecast",
+          "trend": "Restricted",
           "sources": [
             {
-              "label": "Economic Times",
-              "url": "https://x.com/EconomicTimes/status/2119054814478762232"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Economic Times",
-              "url": "https://x.com/EconomicTimes/status/2119054814478762232"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Culture",
-          "headline": "Reine thaïlandaise fait des offrandes",
+          "category": "Moyen-Orient",
+          "headline": "Trêve Gaza fragile, clashes Yémen",
           "paragraphs": [
-            "Thairath rapporte que la reine a offert du tissu kathin royal dans deux temples.",
-            "Le post décrit un rite traditionnel et ne mentionne aucun litige."
+            "Affirmations X: cessez-le-feu Gaza 2025 reste fragile, phases suivantes bloquées.",
+            "Le Yémen voit des combats houthis-saoudiens renouvelés et une crise selon posts."
           ],
-          "highlightParagraph": null,
-          "trend": "ceremonial report",
+          "highlightParagraph": 0,
+          "trend": "Fragile",
           "sources": [
             {
-              "label": "Thairath News",
-              "url": "https://x.com/Thairath_News/status/2119054814042591712"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Thairath News",
-              "url": "https://x.com/Thairath_News/status/2119054814042591712"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2119043352314216842"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Politique",
+          "headline": "Israël vise coalition sans PM",
+          "paragraphs": [
+            "Un post d'analyste dit que des politiciens israéliens cherchent une coalition sans Netanyahu.",
+            "Aucun succès confirmé; affirmation issue seulement d'un briefing X."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Shifting",
+          "sources": [
+            {
+              "label": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@cjwilliamslat",
+              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
             }
           ]
         }
