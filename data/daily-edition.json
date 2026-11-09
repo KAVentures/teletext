@@ -1,135 +1,135 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-08T13:33:19.059Z",
+      "updatedAt": "2026-11-09T16:30:28.793Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Tense",
-        "Uncertain",
-        "Restricted",
-        "Fragile",
-        "Shifting"
+        "Unverified claim",
+        "Policing debate",
+        "History resurfaces",
+        "Market chatter",
+        "Local complaint"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Conflict",
-          "headline": "Ukraine energy strikes, talks set",
+          "category": "Courts",
+          "headline": "Brand jail term claim spreads on X",
           "paragraphs": [
-            "X posts claim mutual energy strikes continue. Zelensky says every Ukrainian power plant is damaged.",
-            "Trilateral talks planned 10-11 Nov in Abu Dhabi amid deal push. Damage scale disputed."
+            "Users share a claim that Russell Brand was sentenced to 10.5 years.",
+            "The post calls it breaking news and links a video. The claim is not confirmed in the post itself."
           ],
-          "highlightParagraph": 0,
-          "trend": "Tense",
+          "highlightParagraph": 1,
+          "trend": "Unverified claim",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "label": "Invazer on X",
+              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "text": "Invazer on X",
+              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Politics",
-          "headline": "Allies cautious on US midterm shift",
+          "category": "UK",
+          "headline": "Claim: UK forces skipped covert work",
           "paragraphs": [
-            "X analyst notes US allies cautious if midterm rout of Trumpism endures.",
-            "Russia seen unrelenting in Ukraine destruction per shared briefings. Claims unverified."
+            "A post says Met chief Sir Mark Rowley reported eight forces did no critical undercover work on child abuse and drugs in 12 months.",
+            "It rests on a linked article, not a statement posted by police."
           ],
-          "highlightParagraph": 0,
-          "trend": "Uncertain",
+          "highlightParagraph": 1,
+          "trend": "Policing debate",
           "sources": [
             {
-              "label": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "label": "Marvin Wiseman on X",
+              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "text": "Marvin Wiseman on X",
+              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Conflict",
-          "headline": "Hormuz traffic low in Iran clash",
+          "category": "Archive",
+          "headline": "2008 AIG resort bill recirculated",
           "paragraphs": [
-            "Posts describe US-Iran conflict since Feb restricting Hormuz to about 10% traffic.",
-            "Recent strikes and tanker mine incidents cited on X. Details remain contested."
+            "Posts revive 2008 figures on an AIG resort week after the Fed loan.",
+            "One account says records put spending near $442,000, including spa and banquets. It is old history, not a new charge."
           ],
-          "highlightParagraph": 0,
-          "trend": "Restricted",
+          "highlightParagraph": 1,
+          "trend": "History resurfaces",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "label": "World Correspondent on X",
+              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "text": "World Correspondent on X",
+              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Middle East",
-          "headline": "Gaza truce fragile, Yemen clashes",
+          "category": "Markets",
+          "headline": "Traders eye gold after US midterms",
           "paragraphs": [
-            "X claims 2025 Gaza ceasefire remains fragile with next phases stalled.",
-            "Yemen sees renewed Houthi-Saudi fighting and humanitarian crisis per posts."
+            "Market posts say gold is testing resistance after early post-midterm moves.",
+            "One trader cites a 50-day average near $4,152 before a Fibonacci level. These are opinions, not official prices."
           ],
-          "highlightParagraph": 0,
-          "trend": "Fragile",
+          "highlightParagraph": 1,
+          "trend": "Market chatter",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "label": "TraderStef on X",
+              "url": "https://x.com/TraderStef/status/2119829618324808133"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "text": "TraderStef on X",
+              "url": "https://x.com/TraderStef/status/2119829618324808133"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Politics",
-          "headline": "Israel eyes coalition without PM",
+          "category": "Americas",
+          "headline": "Cali quake recovery draws criticism",
           "paragraphs": [
-            "Analyst post says Israeli politicians seek coalition excluding Netanyahu.",
-            "No confirmation of talks success; claim from X briefing only."
+            "A Spanish post says Cali still faces an economic crisis left by an earthquake.",
+            "The writer also criticizes the mayor. It is a local opinion, not a verified damage report."
           ],
-          "highlightParagraph": 0,
-          "trend": "Shifting",
+          "highlightParagraph": 1,
+          "trend": "Local complaint",
           "sources": [
             {
-              "label": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "label": "Blanca David on X",
+              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "text": "Blanca David on X",
+              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
             }
           ]
         }
@@ -137,134 +137,134 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-08T13:33:19.059Z",
+      "updatedAt": "2026-11-09T16:30:28.793Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Tense",
-        "Uncertain",
-        "Restricted",
-        "Fragile",
-        "Shifting"
+        "Unverified claim",
+        "Policing debate",
+        "History resurfaces",
+        "Market chatter",
+        "Local complaint"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Konflikt",
-          "headline": "Ukraina energislag, samtal satta",
+          "category": "Domstol",
+          "headline": "Påstående om Brand-dom sprids",
           "paragraphs": [
-            "X-inlägg hävdar fortsatta ömsesidiga energislag. Zelenskyj säger alla kraftverk skadade.",
-            "Trepartssamtal 10-11 nov i Abu Dhabi enligt poster. Skadeomfattning omtvistad."
+            "Användare delar ett påstående att Russell Brand dömts till 10,5 år.",
+            "Inlägget kallar det breaking news och länkar en video. Påståendet bekräftas inte i inlägget."
           ],
-          "highlightParagraph": 0,
-          "trend": "Tense",
+          "highlightParagraph": 1,
+          "trend": "Unverified claim",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "label": "Invazer on X",
+              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "text": "Invazer on X",
+              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Politik",
-          "headline": "Allierade försiktiga om USA-val",
+          "category": "Storbritannien",
+          "headline": "Påstående: åtta styrkor utan spaning",
           "paragraphs": [
-            "X-analytiker noterar att allierade är försiktiga om mellanvalssegern över trumpism håller.",
-            "Ryssland ses som obevekligt i Ukraina enligt delade rapporter. Påståenden overifierade."
+            "Ett inlägg säger att Met-chefen Sir Mark Rowley uppgett att åtta styrkor inte gjort kritisk underrättelseinsats mot övergrepp och droger på 12 månader.",
+            "Det bygger på en länkad artikel, inte ett polisuttalande i inlägget."
           ],
-          "highlightParagraph": 0,
-          "trend": "Uncertain",
+          "highlightParagraph": 1,
+          "trend": "Policing debate",
           "sources": [
             {
-              "label": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "label": "Marvin Wiseman on X",
+              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "text": "Marvin Wiseman on X",
+              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Konflikt",
-          "headline": "Hormuztrafik låg i Iran-konflikt",
+          "category": "Arkiv",
+          "headline": "AIG-nota från 2008 cirkulerar igen",
           "paragraphs": [
-            "Inlägg beskriver USA-Iran-konflikt sedan feb som begränsar Hormuz till ca 10% trafik.",
-            "Nyliga slag och minkincidenter med tankfartyg citeras. Detaljer omstridda."
+            "Inlägg tar upp 2008 års siffror om en AIG-vecka på resort efter Fed-lånet.",
+            "Ett konto säger att handlingar visar cirka 442 000 dollar, inklusive spa och banketter. Det är gammal historia, inte ett nytt åtal."
           ],
-          "highlightParagraph": 0,
-          "trend": "Restricted",
+          "highlightParagraph": 1,
+          "trend": "History resurfaces",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "label": "World Correspondent on X",
+              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "text": "World Correspondent on X",
+              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Mellanöstern",
-          "headline": "Gaza-vapenvila skör, Jemen-strider",
+          "category": "Marknad",
+          "headline": "Handlare följer guld efter mellanval",
           "paragraphs": [
-            "X-påståenden: 2025 års Gaza-eldupphör förblir skört med nästa faser stillastående.",
-            "Jemen ser förnyade Houthi-Saudi-strider och humanitär kris enligt inlägg."
+            "Marknadsinlägg säger att guld testar motstånd efter tidiga rörelser efter mellanvalet.",
+            "En handlare nämner ett 50-dagars snitt nära 4 152 dollar före en Fibonacci-nivå. Det är åsikter, inte officiella priser."
           ],
-          "highlightParagraph": 0,
-          "trend": "Fragile",
+          "highlightParagraph": 1,
+          "trend": "Market chatter",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "label": "TraderStef on X",
+              "url": "https://x.com/TraderStef/status/2119829618324808133"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "text": "TraderStef on X",
+              "url": "https://x.com/TraderStef/status/2119829618324808133"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Politik",
-          "headline": "Israel söker koalition utan PM",
+          "category": "Amerika",
+          "headline": "Kritik mot aterhamtning i Cali",
           "paragraphs": [
-            "Analytikerinlägg säger israeliska politiker söker koalition utan Netanyahu.",
-            "Ingen bekräftelse på framgång; påstående endast från X-briefing."
+            "Ett spanskt inlägg säger att Cali fortfarande har en ekonomisk kris efter en jordbävning.",
+            "Skribenten kritiserar också borgmästaren. Det är en lokal åsikt, inte en verifierad skaderapport."
           ],
-          "highlightParagraph": 0,
-          "trend": "Shifting",
+          "highlightParagraph": 1,
+          "trend": "Local complaint",
           "sources": [
             {
-              "label": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "label": "Blanca David on X",
+              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "text": "Blanca David on X",
+              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
             }
           ]
         }
@@ -272,134 +272,134 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-08T13:33:19.059Z",
+      "updatedAt": "2026-11-09T16:30:28.793Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Tense",
-        "Uncertain",
-        "Restricted",
-        "Fragile",
-        "Shifting"
+        "Unverified claim",
+        "Policing debate",
+        "History resurfaces",
+        "Market chatter",
+        "Local complaint"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Konflikt",
-          "headline": "Ukraine-Energieschläge, Gespräche",
+          "category": "Justiz",
+          "headline": "Behauptung zu Brand-Urteil kursiert",
           "paragraphs": [
-            "X-Posts melden fortgesetzte gegenseitige Energieschläge. Selenskyj: alle Kraftwerke beschädigt.",
-            "Dreiergespräche 10.-11. Nov. in Abu Dhabi geplant. Schadensumfang umstritten."
+            "Nutzer teilen die Behauptung, Russell Brand sei zu 10,5 Jahren verurteilt worden.",
+            "Der Post nennt es Eilmeldung und verlinkt ein Video. Im Post selbst ist die Angabe nicht bestätigt."
           ],
-          "highlightParagraph": 0,
-          "trend": "Tense",
+          "highlightParagraph": 1,
+          "trend": "Unverified claim",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "label": "Invazer on X",
+              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "text": "Invazer on X",
+              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Politik",
-          "headline": "Verbündete vorsichtig bei US-Wahl",
+          "category": "Grossbritannien",
+          "headline": "Behauptung: keine verdeckte Arbeit",
           "paragraphs": [
-            "X-Analyst: Verbündete prüfen, ob Midterm-Niederlage des Trumpismus anhält.",
-            "Russland gilt als unerbittlich in der Ukraine laut geteilten Briefings. Behauptungen ungeprüft."
+            "Ein Post behauptet, Met-Chef Sir Mark Rowley habe gesagt, acht Kräfte hätten in 12 Monaten keine kritische verdeckte Arbeit gegen Missbrauch und Drogen geleistet.",
+            "Er stützt sich auf einen verlinkten Artikel, nicht auf eine Polizeierklärung im Post."
           ],
-          "highlightParagraph": 0,
-          "trend": "Uncertain",
+          "highlightParagraph": 1,
+          "trend": "Policing debate",
           "sources": [
             {
-              "label": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "label": "Marvin Wiseman on X",
+              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "text": "Marvin Wiseman on X",
+              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Konflikt",
-          "headline": "Hormus-Verkehr niedrig im Iran-Streit",
+          "category": "Archiv",
+          "headline": "AIG-Resortrechnung von 2008 kehrt",
           "paragraphs": [
-            "Posts beschreiben US-Iran-Konflikt seit Feb., Hormus auf ca. 10% Verkehr beschränkt.",
-            "Jüngste Schläge und Minenvorfälle an Tankern zitiert. Details umstritten."
+            "Posts holen Zahlen von 2008 zur AIG-Resortwoche nach dem Fed-Kredit hervor.",
+            "Ein Konto nennt Akten mit rund 442.000 Dollar, inklusive Spa und Bankette. Es ist alte Geschichte, keine neue Anklage."
           ],
-          "highlightParagraph": 0,
-          "trend": "Restricted",
+          "highlightParagraph": 1,
+          "trend": "History resurfaces",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "label": "World Correspondent on X",
+              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "text": "World Correspondent on X",
+              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Naher Osten",
-          "headline": "Gaza-Waffenruhe fragil, Jemen-Kämpfe",
+          "category": "Maerkte",
+          "headline": "Haendler sehen Gold nach US-Wahl",
           "paragraphs": [
-            "X-Behauptungen: Waffenruhe 2025 in Gaza bleibt fragil, nächste Phasen stocken.",
-            "Jemen sieht erneute Houthi-Saudi-Kämpfe und humanitäre Krise laut Posts."
+            "Marktposts sagen, Gold teste Widerstand nach fruehen Bewegungen nach der Midterm-Wahl.",
+            "Ein Haendler nennt einen 50-Tage-Schnitt nahe 4.152 Dollar vor einem Fibonacci-Niveau. Das sind Meinungen, keine Amtkurse."
           ],
-          "highlightParagraph": 0,
-          "trend": "Fragile",
+          "highlightParagraph": 1,
+          "trend": "Market chatter",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "label": "TraderStef on X",
+              "url": "https://x.com/TraderStef/status/2119829618324808133"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "text": "TraderStef on X",
+              "url": "https://x.com/TraderStef/status/2119829618324808133"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Politik",
-          "headline": "Israel sucht Koalition ohne PM",
+          "category": "Amerika",
+          "headline": "Kritik an Calis Beben-Erholung",
           "paragraphs": [
-            "Analysten-Post: Israelische Politiker suchen Koalition ohne Netanyahu.",
-            "Kein Erfolg bestätigt; Behauptung nur aus X-Briefing."
+            "Ein spanischer Post sagt, Cali stecke noch in einer Wirtschaftskrise nach einem Erdbeben.",
+            "Die Autorin kritisiert auch den Buergermeister. Es ist eine lokale Meinung, kein gepruefter Schadensbericht."
           ],
-          "highlightParagraph": 0,
-          "trend": "Shifting",
+          "highlightParagraph": 1,
+          "trend": "Local complaint",
           "sources": [
             {
-              "label": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "label": "Blanca David on X",
+              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "text": "Blanca David on X",
+              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
             }
           ]
         }
@@ -407,134 +407,134 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-08T13:33:19.059Z",
+      "updatedAt": "2026-11-09T16:30:28.793Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Tense",
-        "Uncertain",
-        "Restricted",
-        "Fragile",
-        "Shifting"
+        "Unverified claim",
+        "Policing debate",
+        "History resurfaces",
+        "Market chatter",
+        "Local complaint"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Conflicto",
-          "headline": "Ataques energía Ucrania, charlas",
+          "category": "Tribunales",
+          "headline": "Circula un supuesto fallo contra Brand",
           "paragraphs": [
-            "Posts en X afirman ataques mutuos de energía. Zelenski dice todas las plantas dañadas.",
-            "Charlas trilaterales 10-11 nov en Abu Dabi. Escala de daños en disputa."
+            "Usuarios difunden que Russell Brand fue condenado a 10,5 años.",
+            "El post lo llama última hora y enlaza un video. El dato no se confirma en el propio post."
           ],
-          "highlightParagraph": 0,
-          "trend": "Tense",
+          "highlightParagraph": 1,
+          "trend": "Unverified claim",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "label": "Invazer on X",
+              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "text": "Invazer on X",
+              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Política",
-          "headline": "Aliados cautos ante cambio en EE.UU.",
+          "category": "Reino Unido",
+          "headline": "Dicen que fuerzas omitieron encubiertos",
           "paragraphs": [
-            "Analista en X dice que aliados dudan si el revés a trumpismo en midterms perdura.",
-            "Rusia vista implacable en Ucrania según informes. Afirmaciones no verificadas."
+            "Un post afirma que el jefe del Met, Sir Mark Rowley, dijo que ocho fuerzas no hicieron trabajo encubierto crítico contra abusos y drogas en 12 meses.",
+            "Se apoya en un artículo enlazado, no en un comunicado policial en el post."
           ],
-          "highlightParagraph": 0,
-          "trend": "Uncertain",
+          "highlightParagraph": 1,
+          "trend": "Policing debate",
           "sources": [
             {
-              "label": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "label": "Marvin Wiseman on X",
+              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "text": "Marvin Wiseman on X",
+              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Conflicto",
-          "headline": "Tráfico Hormuz bajo en choque Irán",
+          "category": "Archivo",
+          "headline": "Reaparece la factura de AIG de 2008",
           "paragraphs": [
-            "Posts describen conflicto EE.UU.-Irán desde feb. que restringe Hormuz a ~10% de tráfico.",
-            "Se citan ataques recientes e incidentes de minas. Detalles en disputa."
+            "Posts retoman cifras de 2008 sobre una semana de AIG en un resort tras el préstamo de la Fed.",
+            "Una cuenta dice que los registros sitúan el gasto cerca de 442.000 dólares, con spa y banquetes. Es historia antigua, no un cargo nuevo."
           ],
-          "highlightParagraph": 0,
-          "trend": "Restricted",
+          "highlightParagraph": 1,
+          "trend": "History resurfaces",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "label": "World Correspondent on X",
+              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "text": "World Correspondent on X",
+              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Oriente Medio",
-          "headline": "Tregua Gaza frágil, choques Yemen",
+          "category": "Mercados",
+          "headline": "Operadores miran el oro tras midterms",
           "paragraphs": [
-            "Afirmaciones en X: alto el fuego de Gaza 2025 sigue frágil con fases estancadas.",
-            "Yemen ve combates renovados hutíes-saudíes y crisis humanitaria según posts."
+            "Posts de mercado dicen que el oro prueba resistencia tras movimientos iniciales posteriores a las midterms.",
+            "Un operador cita una media de 50 días cerca de 4.152 dólares antes de un nivel de Fibonacci. Son opiniones, no precios oficiales."
           ],
-          "highlightParagraph": 0,
-          "trend": "Fragile",
+          "highlightParagraph": 1,
+          "trend": "Market chatter",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "label": "TraderStef on X",
+              "url": "https://x.com/TraderStef/status/2119829618324808133"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "text": "TraderStef on X",
+              "url": "https://x.com/TraderStef/status/2119829618324808133"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Política",
-          "headline": "Israel busca coalición sin PM",
+          "category": "Americas",
+          "headline": "Criticas a la recuperacion en Cali",
           "paragraphs": [
-            "Post de analista dice que políticos israelíes buscan coalición sin Netanyahu.",
-            "Sin confirmación de éxito; afirmación solo de briefing en X."
+            "Un post en español dice que Cali sigue en una crisis económica dejada por un terremoto.",
+            "La autora también critica al alcalde. Es una opinión local, no un informe de daños verificado."
           ],
-          "highlightParagraph": 0,
-          "trend": "Shifting",
+          "highlightParagraph": 1,
+          "trend": "Local complaint",
           "sources": [
             {
-              "label": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "label": "Blanca David on X",
+              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "text": "Blanca David on X",
+              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
             }
           ]
         }
@@ -542,134 +542,134 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-08T13:33:19.059Z",
+      "updatedAt": "2026-11-09T16:30:28.793Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Tense",
-        "Uncertain",
-        "Restricted",
-        "Fragile",
-        "Shifting"
+        "Unverified claim",
+        "Policing debate",
+        "History resurfaces",
+        "Market chatter",
+        "Local complaint"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Conflit",
-          "headline": "Frappes énergie Ukraine, pourparlers",
+          "category": "Justice",
+          "headline": "Peine de Brand relayée sans preuve",
           "paragraphs": [
-            "Des posts X affirment des frappes énergétiques mutuelles. Zelensky: toutes centrales endommagées.",
-            "Pourparlers trilatéraux 10-11 nov à Abu Dhabi. Ampleur des dégâts contestée."
+            "Des utilisateurs relaient que Russell Brand aurait été condamné à 10,5 ans.",
+            "Le post parle d'alerte et lie une vidéo. L'affirmation n'est pas confirmée dans le post."
           ],
-          "highlightParagraph": 0,
-          "trend": "Tense",
+          "highlightParagraph": 1,
+          "trend": "Unverified claim",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "label": "Invazer on X",
+              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "text": "Invazer on X",
+              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Politique",
-          "headline": "Alliés prudents sur midterms US",
+          "category": "Royaume-Uni",
+          "headline": "Huit forces sans travail discret?",
           "paragraphs": [
-            "Un analyste X note que les alliés doutent si la déroute du trumpisme aux midterms dure.",
-            "La Russie vue implacable en Ukraine selon briefings. Affirmations non vérifiées."
+            "Un post affirme que le chef du Met, Sir Mark Rowley, a dit que huit forces n'ont fait aucun travail sous couverture critique contre les abus et la drogue en 12 mois.",
+            "Cela repose sur un article lié, pas sur une déclaration policière dans le post."
           ],
-          "highlightParagraph": 0,
-          "trend": "Uncertain",
+          "highlightParagraph": 1,
+          "trend": "Policing debate",
           "sources": [
             {
-              "label": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "label": "Marvin Wiseman on X",
+              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "text": "Marvin Wiseman on X",
+              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Conflit",
-          "headline": "Trafic Hormuz bas dans clash Iran",
+          "category": "Archives",
+          "headline": "La note AIG de 2008 refait surface",
           "paragraphs": [
-            "Des posts décrivent le conflit USA-Iran depuis fév. limitant Hormuz à ~10% du trafic.",
-            "Frappes récentes et incidents de mines cités. Détails contestés."
+            "Des posts reprennent les chiffres de 2008 sur une semaine d'AIG dans un resort après le prêt de la Fed.",
+            "Un compte cite des dossiers autour de 442 000 dollars, spa et banquets inclus. C'est de l'histoire ancienne, pas une nouvelle accusation."
           ],
-          "highlightParagraph": 0,
-          "trend": "Restricted",
+          "highlightParagraph": 1,
+          "trend": "History resurfaces",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "label": "World Correspondent on X",
+              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "text": "World Correspondent on X",
+              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Moyen-Orient",
-          "headline": "Trêve Gaza fragile, clashes Yémen",
+          "category": "Marches",
+          "headline": "L'or suivi apres les midterms US",
           "paragraphs": [
-            "Affirmations X: cessez-le-feu Gaza 2025 reste fragile, phases suivantes bloquées.",
-            "Le Yémen voit des combats houthis-saoudiens renouvelés et une crise selon posts."
+            "Des posts de marche disent que l'or teste une resistance apres les premiers mouvements post-midterms.",
+            "Un trader cite une moyenne a 50 jours pres de 4 152 dollars avant un niveau de Fibonacci. Ce sont des avis, pas des cours officiels."
           ],
-          "highlightParagraph": 0,
-          "trend": "Fragile",
+          "highlightParagraph": 1,
+          "trend": "Market chatter",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "label": "TraderStef on X",
+              "url": "https://x.com/TraderStef/status/2119829618324808133"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2119043352314216842"
+              "text": "TraderStef on X",
+              "url": "https://x.com/TraderStef/status/2119829618324808133"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Politique",
-          "headline": "Israël vise coalition sans PM",
+          "category": "Ameriques",
+          "headline": "Critiques sur la reprise a Cali",
           "paragraphs": [
-            "Un post d'analyste dit que des politiciens israéliens cherchent une coalition sans Netanyahu.",
-            "Aucun succès confirmé; affirmation issue seulement d'un briefing X."
+            "Un post en espagnol dit que Cali reste dans une crise economique laissee par un seisme.",
+            "L'auteure critique aussi le maire. C'est un avis local, pas un bilan de degats verifie."
           ],
-          "highlightParagraph": 0,
-          "trend": "Shifting",
+          "highlightParagraph": 1,
+          "trend": "Local complaint",
           "sources": [
             {
-              "label": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "label": "Blanca David on X",
+              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@cjwilliamslat",
-              "url": "https://x.com/cjwilliamslat/status/2119117768670990485"
+              "text": "Blanca David on X",
+              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
             }
           ]
         }
