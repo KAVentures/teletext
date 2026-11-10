@@ -1,135 +1,153 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-09T16:30:28.793Z",
+      "updatedAt": "2026-11-10T14:59:59.400Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Unverified claim",
-        "Policing debate",
-        "History resurfaces",
-        "Market chatter",
-        "Local complaint"
+        "COP31",
+        "Official",
+        "Disputed",
+        "Ongoing",
+        "Reactive"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Courts",
-          "headline": "Brand jail term claim spreads on X",
+          "category": "Climate",
+          "headline": "IEA flags Iran energy risks at COP31",
           "paragraphs": [
-            "Users share a claim that Russell Brand was sentenced to 10.5 years.",
-            "The post calls it breaking news and links a video. The claim is not confirmed in the post itself."
+            "China News says IEA head Fatih Birol told a COP31 side event in Antalya that conflict in Iran triggered an energy crisis with three major trends.",
+            "The account frames the remarks as given at the China Pavilion. The post does not include independent confirmation."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "highlightParagraph": 0,
+          "trend": "COP31",
           "sources": [
             {
-              "label": "Invazer on X",
-              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
+              "label": "China News",
+              "url": "https://x.com/Echinanews/status/2120169207346380813"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Invazer on X",
-              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
+              "text": "China News",
+              "url": "https://x.com/Echinanews/status/2120169207346380813"
             }
           ]
         },
         {
           "page": 102,
-          "category": "UK",
-          "headline": "Claim: UK forces skipped covert work",
+          "category": "Diplomacy",
+          "headline": "Rubio says Iran sanctions pain grows",
           "paragraphs": [
-            "A post says Met chief Sir Mark Rowley reported eight forces did no critical undercover work on child abuse and drugs in 12 months.",
-            "It rests on a linked article, not a statement posted by police."
+            "The State Department posted video of Secretary Rubio saying sanctions inflict extraordinary, compounding economic pain on Iran's regime.",
+            "Replies link the comments to US midterm results. The post is an official account statement."
           ],
-          "highlightParagraph": 1,
-          "trend": "Policing debate",
+          "highlightParagraph": 0,
+          "trend": "Official",
           "sources": [
             {
-              "label": "Marvin Wiseman on X",
-              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
+              "label": "StateDept",
+              "url": "https://x.com/StateDept/status/2120150137393602669"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Marvin Wiseman on X",
-              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
+              "text": "StateDept",
+              "url": "https://x.com/StateDept/status/2120150137393602669"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Archive",
-          "headline": "2008 AIG resort bill recirculated",
+          "category": "Politics",
+          "headline": "Posts spar over Eisenkot in Israel",
           "paragraphs": [
-            "Posts revive 2008 figures on an AIG resort week after the Fed loan.",
-            "One account says records put spending near $442,000, including spa and banquets. It is old history, not a new charge."
+            "Israeli users posted about designated Knesset figures and criticized Gadi Eisenkot and his backers as influencing decisions.",
+            "Claims appear in Hebrew posts with modest engagement. Positions are disputed among users."
           ],
           "highlightParagraph": 1,
-          "trend": "History resurfaces",
+          "trend": "Disputed",
           "sources": [
             {
-              "label": "World Correspondent on X",
-              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
+              "label": "Igal Malka",
+              "url": "https://x.com/igal_malka/status/2120161407987491250"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "World Correspondent on X",
-              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
+              "text": "Igal Malka",
+              "url": "https://x.com/igal_malka/status/2120161407987491250"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Markets",
-          "headline": "Traders eye gold after US midterms",
+          "category": "Politics",
+          "headline": "Paraguay bank crisis claims persist",
           "paragraphs": [
-            "Market posts say gold is testing resistance after early post-midterm moves.",
-            "One trader cites a 50-day average near $4,152 before a Fibonacci level. These are opinions, not official prices."
+            "Accounts have claimed President Santiago Peña was impeached and held after Ueno Bank collapsed. A reply questions timing of a related corralito.",
+            "These remain user and outlet claims without further verification in the posts."
           ],
-          "highlightParagraph": 1,
-          "trend": "Market chatter",
+          "highlightParagraph": 0,
+          "trend": "Ongoing",
           "sources": [
             {
-              "label": "TraderStef on X",
-              "url": "https://x.com/TraderStef/status/2119829618324808133"
+              "label": "SAfmRadio",
+              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
+            },
+            {
+              "label": "Alejo",
+              "url": "https://x.com/pepu183/status/2120169227717849279"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "TraderStef on X",
-              "url": "https://x.com/TraderStef/status/2119829618324808133"
+              "text": "SAfmRadio",
+              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
+            },
+            {
+              "id": "104-1",
+              "text": "Alejo",
+              "url": "https://x.com/pepu183/status/2120169227717849279"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Americas",
-          "headline": "Cali quake recovery draws criticism",
+          "category": "Politics",
+          "headline": "Users cite midterms pushback on policy",
           "paragraphs": [
-            "A Spanish post says Cali still faces an economic crisis left by an earthquake.",
-            "The writer also criticizes the mayor. It is a local opinion, not a verified damage report."
+            "Replying to Rubio, one user said voters showed discontent in the midterms. Earlier posts claimed Democratic House gains and staff changes.",
+            "Midterm details vary by account and are not settled in these posts."
           ],
-          "highlightParagraph": 1,
-          "trend": "Local complaint",
+          "highlightParagraph": 0,
+          "trend": "Reactive",
           "sources": [
             {
-              "label": "Blanca David on X",
-              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
+              "label": "Mbongeni",
+              "url": "https://x.com/Themba0381/status/2120169218343682170"
+            },
+            {
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2119904350558421252"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Blanca David on X",
-              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
+              "text": "Mbongeni",
+              "url": "https://x.com/Themba0381/status/2120169218343682170"
+            },
+            {
+              "id": "105-1",
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2119904350558421252"
             }
           ]
         }
@@ -137,134 +155,152 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-09T16:30:28.793Z",
+      "updatedAt": "2026-11-10T14:59:59.400Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Unverified claim",
-        "Policing debate",
-        "History resurfaces",
-        "Market chatter",
-        "Local complaint"
+        "COP31",
+        "Official",
+        "Disputed",
+        "Ongoing",
+        "Reactive"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Domstol",
-          "headline": "Påstående om Brand-dom sprids",
+          "category": "Klimat",
+          "headline": "IEA varnar för Iranenergi vid COP31",
           "paragraphs": [
-            "Användare delar ett påstående att Russell Brand dömts till 10,5 år.",
-            "Inlägget kallar det breaking news och länkar en video. Påståendet bekräftas inte i inlägget."
+            "China News säger att IEA-chefen Fatih Birol vid ett COP31-sidoevent i Antalya sa att konflikten i Iran utlöst en energikris med tre trender.",
+            "Kontot beskriver det som anförande i Kina-paviljongen. Oberoende bekräftelse saknas i inlägget."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "highlightParagraph": 0,
+          "trend": "COP31",
           "sources": [
             {
-              "label": "Invazer on X",
-              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
+              "label": "China News",
+              "url": "https://x.com/Echinanews/status/2120169207346380813"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Invazer on X",
-              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
+              "text": "China News",
+              "url": "https://x.com/Echinanews/status/2120169207346380813"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Storbritannien",
-          "headline": "Påstående: åtta styrkor utan spaning",
+          "category": "Diplomati",
+          "headline": "Rubio: Irans sanktionssmärta växer",
           "paragraphs": [
-            "Ett inlägg säger att Met-chefen Sir Mark Rowley uppgett att åtta styrkor inte gjort kritisk underrättelseinsats mot övergrepp och droger på 12 månader.",
-            "Det bygger på en länkad artikel, inte ett polisuttalande i inlägget."
+            "Utrikesdepartementet publicerade video där minister Rubio säger att sanktioner orsakar extraordinär, växande ekonomisk smärta för Irans regim.",
+            "Svar kopplar kommentarerna till USA:s mellanvalsresultat. Inlägget är ett officiellt kontoutdtalande."
           ],
-          "highlightParagraph": 1,
-          "trend": "Policing debate",
+          "highlightParagraph": 0,
+          "trend": "Official",
           "sources": [
             {
-              "label": "Marvin Wiseman on X",
-              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
+              "label": "StateDept",
+              "url": "https://x.com/StateDept/status/2120150137393602669"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Marvin Wiseman on X",
-              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
+              "text": "StateDept",
+              "url": "https://x.com/StateDept/status/2120150137393602669"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Arkiv",
-          "headline": "AIG-nota från 2008 cirkulerar igen",
+          "category": "Politik",
+          "headline": "Inlägg bråkar om Eisenkot i Israel",
           "paragraphs": [
-            "Inlägg tar upp 2008 års siffror om en AIG-vecka på resort efter Fed-lånet.",
-            "Ett konto säger att handlingar visar cirka 442 000 dollar, inklusive spa och banketter. Det är gammal historia, inte ett nytt åtal."
+            "Israeliska användare skrev om tilltänkta Knesset-figurer och kritiserade Gadi Eisenkot och hans stödjare för att påverka beslut.",
+            "Påståenden finns i hebreiska inlägg med måttligt engagemang. Ståndpunkter är omstridda."
           ],
           "highlightParagraph": 1,
-          "trend": "History resurfaces",
+          "trend": "Disputed",
           "sources": [
             {
-              "label": "World Correspondent on X",
-              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
+              "label": "Igal Malka",
+              "url": "https://x.com/igal_malka/status/2120161407987491250"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "World Correspondent on X",
-              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
+              "text": "Igal Malka",
+              "url": "https://x.com/igal_malka/status/2120161407987491250"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Marknad",
-          "headline": "Handlare följer guld efter mellanval",
+          "category": "Politik",
+          "headline": "Påståenden om Paraguaykris består",
           "paragraphs": [
-            "Marknadsinlägg säger att guld testar motstånd efter tidiga rörelser efter mellanvalet.",
-            "En handlare nämner ett 50-dagars snitt nära 4 152 dollar före en Fibonacci-nivå. Det är åsikter, inte officiella priser."
+            "Konton har hävdat att president Santiago Peña avsattes och hölls efter att Ueno Bank kollapsade. Ett svar frågar om tidpunkten för ett relaterat corralito.",
+            "Detta förblir användar- och mediepåståenden utan ytterligare verifiering i inläggen."
           ],
-          "highlightParagraph": 1,
-          "trend": "Market chatter",
+          "highlightParagraph": 0,
+          "trend": "Ongoing",
           "sources": [
             {
-              "label": "TraderStef on X",
-              "url": "https://x.com/TraderStef/status/2119829618324808133"
+              "label": "SAfmRadio",
+              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
+            },
+            {
+              "label": "Alejo",
+              "url": "https://x.com/pepu183/status/2120169227717849279"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "TraderStef on X",
-              "url": "https://x.com/TraderStef/status/2119829618324808133"
+              "text": "SAfmRadio",
+              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
+            },
+            {
+              "id": "104-1",
+              "text": "Alejo",
+              "url": "https://x.com/pepu183/status/2120169227717849279"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Amerika",
-          "headline": "Kritik mot aterhamtning i Cali",
+          "category": "Politik",
+          "headline": "Användare citerar mellanvalsmotstånd",
           "paragraphs": [
-            "Ett spanskt inlägg säger att Cali fortfarande har en ekonomisk kris efter en jordbävning.",
-            "Skribenten kritiserar också borgmästaren. Det är en lokal åsikt, inte en verifierad skaderapport."
+            "Som svar till Rubio skrev en användare att väljare visade missnöje i mellanvalen. Tidigare inlägg hävdade demokratiska vinster i representanthuset och personalbyten.",
+            "Detaljer om mellanvalsresultat varierar mellan konton och är inte avgjorda i dessa inlägg."
           ],
-          "highlightParagraph": 1,
-          "trend": "Local complaint",
+          "highlightParagraph": 0,
+          "trend": "Reactive",
           "sources": [
             {
-              "label": "Blanca David on X",
-              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
+              "label": "Mbongeni",
+              "url": "https://x.com/Themba0381/status/2120169218343682170"
+            },
+            {
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2119904350558421252"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Blanca David on X",
-              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
+              "text": "Mbongeni",
+              "url": "https://x.com/Themba0381/status/2120169218343682170"
+            },
+            {
+              "id": "105-1",
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2119904350558421252"
             }
           ]
         }
@@ -272,134 +308,152 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-09T16:30:28.793Z",
+      "updatedAt": "2026-11-10T14:59:59.400Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Unverified claim",
-        "Policing debate",
-        "History resurfaces",
-        "Market chatter",
-        "Local complaint"
+        "COP31",
+        "Official",
+        "Disputed",
+        "Ongoing",
+        "Reactive"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Justiz",
-          "headline": "Behauptung zu Brand-Urteil kursiert",
+          "category": "Klima",
+          "headline": "IEA nennt Iran-Energierisiken bei COP31",
           "paragraphs": [
-            "Nutzer teilen die Behauptung, Russell Brand sei zu 10,5 Jahren verurteilt worden.",
-            "Der Post nennt es Eilmeldung und verlinkt ein Video. Im Post selbst ist die Angabe nicht bestätigt."
+            "China News berichtet, IEA-Chef Fatih Birol habe bei einem COP31-Nebenevent in Antalya gesagt, der Iran-Konflikt habe eine Energiekrise mit drei Trends ausgelöst.",
+            "Das Konto stellt dies als Rede im China-Pavillon dar. Eine unabhängige Bestätigung fehlt im Post."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "highlightParagraph": 0,
+          "trend": "COP31",
           "sources": [
             {
-              "label": "Invazer on X",
-              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
+              "label": "China News",
+              "url": "https://x.com/Echinanews/status/2120169207346380813"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Invazer on X",
-              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
+              "text": "China News",
+              "url": "https://x.com/Echinanews/status/2120169207346380813"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Grossbritannien",
-          "headline": "Behauptung: keine verdeckte Arbeit",
+          "category": "Diplomatie",
+          "headline": "Rubio: Irans Sanktionsschmerz wächst",
           "paragraphs": [
-            "Ein Post behauptet, Met-Chef Sir Mark Rowley habe gesagt, acht Kräfte hätten in 12 Monaten keine kritische verdeckte Arbeit gegen Missbrauch und Drogen geleistet.",
-            "Er stützt sich auf einen verlinkten Artikel, nicht auf eine Polizeierklärung im Post."
+            "Das Außenministerium postete ein Video, in dem Minister Rubio sagt, Sanktionen fügten Irans Regime außerordentlichen, zunehmenden wirtschaftlichen Schmerz zu.",
+            "Antworten verknüpfen die Äußerungen mit US-Zwischenwahlergebnissen. Der Post ist eine offizielle Kontoaussage."
           ],
-          "highlightParagraph": 1,
-          "trend": "Policing debate",
+          "highlightParagraph": 0,
+          "trend": "Official",
           "sources": [
             {
-              "label": "Marvin Wiseman on X",
-              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
+              "label": "StateDept",
+              "url": "https://x.com/StateDept/status/2120150137393602669"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Marvin Wiseman on X",
-              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
+              "text": "StateDept",
+              "url": "https://x.com/StateDept/status/2120150137393602669"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Archiv",
-          "headline": "AIG-Resortrechnung von 2008 kehrt",
+          "category": "Politik",
+          "headline": "Posts streiten über Eisenkot in Israel",
           "paragraphs": [
-            "Posts holen Zahlen von 2008 zur AIG-Resortwoche nach dem Fed-Kredit hervor.",
-            "Ein Konto nennt Akten mit rund 442.000 Dollar, inklusive Spa und Bankette. Es ist alte Geschichte, keine neue Anklage."
+            "Israelische Nutzer schrieben über designierte Knesset-Figuren und kritisierten Gadi Eisenkot und seine Unterstützer als Einfluss auf Entscheidungen.",
+            "Behauptungen stehen in hebräischen Posts mit mäßigem Engagement. Positionen sind umstritten."
           ],
           "highlightParagraph": 1,
-          "trend": "History resurfaces",
+          "trend": "Disputed",
           "sources": [
             {
-              "label": "World Correspondent on X",
-              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
+              "label": "Igal Malka",
+              "url": "https://x.com/igal_malka/status/2120161407987491250"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "World Correspondent on X",
-              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
+              "text": "Igal Malka",
+              "url": "https://x.com/igal_malka/status/2120161407987491250"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Maerkte",
-          "headline": "Haendler sehen Gold nach US-Wahl",
+          "category": "Politik",
+          "headline": "Paraguay-Kris-Behauptungen halten an",
           "paragraphs": [
-            "Marktposts sagen, Gold teste Widerstand nach fruehen Bewegungen nach der Midterm-Wahl.",
-            "Ein Haendler nennt einen 50-Tage-Schnitt nahe 4.152 Dollar vor einem Fibonacci-Niveau. Das sind Meinungen, keine Amtkurse."
+            "Konten behaupteten, Präsident Santiago Peña sei nach dem Kollaps der Ueno Bank angeklagt und festgehalten worden. Eine Antwort fragt nach dem Zeitpunkt eines Corralito.",
+            "Das bleiben Nutzer- und Medienbehauptungen ohne weitere Prüfung in den Posts."
           ],
-          "highlightParagraph": 1,
-          "trend": "Market chatter",
+          "highlightParagraph": 0,
+          "trend": "Ongoing",
           "sources": [
             {
-              "label": "TraderStef on X",
-              "url": "https://x.com/TraderStef/status/2119829618324808133"
+              "label": "SAfmRadio",
+              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
+            },
+            {
+              "label": "Alejo",
+              "url": "https://x.com/pepu183/status/2120169227717849279"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "TraderStef on X",
-              "url": "https://x.com/TraderStef/status/2119829618324808133"
+              "text": "SAfmRadio",
+              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
+            },
+            {
+              "id": "104-1",
+              "text": "Alejo",
+              "url": "https://x.com/pepu183/status/2120169227717849279"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Amerika",
-          "headline": "Kritik an Calis Beben-Erholung",
+          "category": "Politik",
+          "headline": "Nutzer nennen Midterm-Gegenwind",
           "paragraphs": [
-            "Ein spanischer Post sagt, Cali stecke noch in einer Wirtschaftskrise nach einem Erdbeben.",
-            "Die Autorin kritisiert auch den Buergermeister. Es ist eine lokale Meinung, kein gepruefter Schadensbericht."
+            "Als Antwort auf Rubio schrieb ein Nutzer, Wähler hätten bei den Zwischenwahlen Unmut gezeigt. Frühere Posts behaupteten demokratische Gewinne im Repräsentantenhaus und Personalwechsel.",
+            "Details zum Wahlergebnis unterscheiden sich je nach Konto und sind in diesen Posts nicht geklärt."
           ],
-          "highlightParagraph": 1,
-          "trend": "Local complaint",
+          "highlightParagraph": 0,
+          "trend": "Reactive",
           "sources": [
             {
-              "label": "Blanca David on X",
-              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
+              "label": "Mbongeni",
+              "url": "https://x.com/Themba0381/status/2120169218343682170"
+            },
+            {
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2119904350558421252"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Blanca David on X",
-              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
+              "text": "Mbongeni",
+              "url": "https://x.com/Themba0381/status/2120169218343682170"
+            },
+            {
+              "id": "105-1",
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2119904350558421252"
             }
           ]
         }
@@ -407,134 +461,152 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-09T16:30:28.793Z",
+      "updatedAt": "2026-11-10T14:59:59.400Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Unverified claim",
-        "Policing debate",
-        "History resurfaces",
-        "Market chatter",
-        "Local complaint"
+        "COP31",
+        "Official",
+        "Disputed",
+        "Ongoing",
+        "Reactive"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Tribunales",
-          "headline": "Circula un supuesto fallo contra Brand",
+          "category": "Clima",
+          "headline": "IEA alerta riesgos de energía de Irán en COP31",
           "paragraphs": [
-            "Usuarios difunden que Russell Brand fue condenado a 10,5 años.",
-            "El post lo llama última hora y enlaza un video. El dato no se confirma en el propio post."
+            "China News dice que el jefe de la IEA, Fatih Birol, señaló en un evento paralelo de la COP31 en Antalya que el conflicto en Irán desató una crisis energética con tres tendencias.",
+            "La cuenta lo presenta como palabras en el Pabellón de China. El post no incluye confirmación independiente."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "highlightParagraph": 0,
+          "trend": "COP31",
           "sources": [
             {
-              "label": "Invazer on X",
-              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
+              "label": "China News",
+              "url": "https://x.com/Echinanews/status/2120169207346380813"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Invazer on X",
-              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
+              "text": "China News",
+              "url": "https://x.com/Echinanews/status/2120169207346380813"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Reino Unido",
-          "headline": "Dicen que fuerzas omitieron encubiertos",
+          "category": "Diplomacia",
+          "headline": "Rubio: crece el dolor de sanciones a Irán",
           "paragraphs": [
-            "Un post afirma que el jefe del Met, Sir Mark Rowley, dijo que ocho fuerzas no hicieron trabajo encubierto crítico contra abusos y drogas en 12 meses.",
-            "Se apoya en un artículo enlazado, no en un comunicado policial en el post."
+            "El Departamento de Estado publicó un video del secretario Rubio diciendo que las sanciones infligen un dolor económico extraordinario y creciente al régimen de Irán.",
+            "Las respuestas vinculan los comentarios a los resultados de las elecciones intermedias de EE.UU. El post es una declaración oficial."
           ],
-          "highlightParagraph": 1,
-          "trend": "Policing debate",
+          "highlightParagraph": 0,
+          "trend": "Official",
           "sources": [
             {
-              "label": "Marvin Wiseman on X",
-              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
+              "label": "StateDept",
+              "url": "https://x.com/StateDept/status/2120150137393602669"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Marvin Wiseman on X",
-              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
+              "text": "StateDept",
+              "url": "https://x.com/StateDept/status/2120150137393602669"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Archivo",
-          "headline": "Reaparece la factura de AIG de 2008",
+          "category": "Política",
+          "headline": "Posts discuten el papel de Eisenkot",
           "paragraphs": [
-            "Posts retoman cifras de 2008 sobre una semana de AIG en un resort tras el préstamo de la Fed.",
-            "Una cuenta dice que los registros sitúan el gasto cerca de 442.000 dólares, con spa y banquetes. Es historia antigua, no un cargo nuevo."
+            "Usuarios israelíes publicaron sobre figuras designadas de la Knéset y criticaron a Gadi Eisenkot y sus respaldos por influir en decisiones.",
+            "Las afirmaciones aparecen en posts en hebreo con engagement modesto. Las posturas están disputadas."
           ],
           "highlightParagraph": 1,
-          "trend": "History resurfaces",
+          "trend": "Disputed",
           "sources": [
             {
-              "label": "World Correspondent on X",
-              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
+              "label": "Igal Malka",
+              "url": "https://x.com/igal_malka/status/2120161407987491250"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "World Correspondent on X",
-              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
+              "text": "Igal Malka",
+              "url": "https://x.com/igal_malka/status/2120161407987491250"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Mercados",
-          "headline": "Operadores miran el oro tras midterms",
+          "category": "Política",
+          "headline": "Persisten afirmaciones de crisis en Paraguay",
           "paragraphs": [
-            "Posts de mercado dicen que el oro prueba resistencia tras movimientos iniciales posteriores a las midterms.",
-            "Un operador cita una media de 50 días cerca de 4.152 dólares antes de un nivel de Fibonacci. Son opiniones, no precios oficiales."
+            "Cuentas afirmaron que el presidente Santiago Peña fue destituido y detenido tras el colapso del Banco Ueno. Una respuesta pregunta por el momento de un corralito.",
+            "Siguen siendo afirmaciones de usuarios y medios sin más verificación en los posts."
           ],
-          "highlightParagraph": 1,
-          "trend": "Market chatter",
+          "highlightParagraph": 0,
+          "trend": "Ongoing",
           "sources": [
             {
-              "label": "TraderStef on X",
-              "url": "https://x.com/TraderStef/status/2119829618324808133"
+              "label": "SAfmRadio",
+              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
+            },
+            {
+              "label": "Alejo",
+              "url": "https://x.com/pepu183/status/2120169227717849279"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "TraderStef on X",
-              "url": "https://x.com/TraderStef/status/2119829618324808133"
+              "text": "SAfmRadio",
+              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
+            },
+            {
+              "id": "104-1",
+              "text": "Alejo",
+              "url": "https://x.com/pepu183/status/2120169227717849279"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Americas",
-          "headline": "Criticas a la recuperacion en Cali",
+          "category": "Política",
+          "headline": "Usuarios citan rechazo en las midterms",
           "paragraphs": [
-            "Un post en español dice que Cali sigue en una crisis económica dejada por un terremoto.",
-            "La autora también critica al alcalde. Es una opinión local, no un informe de daños verificado."
+            "Respondiendo a Rubio, un usuario dijo que los votantes mostraron descontento en las elecciones intermedias. Posts anteriores afirmaron ganancias demócratas en la Cámara y cambios de personal.",
+            "Los detalles del resultado varían según la cuenta y no están zanjados en estos posts."
           ],
-          "highlightParagraph": 1,
-          "trend": "Local complaint",
+          "highlightParagraph": 0,
+          "trend": "Reactive",
           "sources": [
             {
-              "label": "Blanca David on X",
-              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
+              "label": "Mbongeni",
+              "url": "https://x.com/Themba0381/status/2120169218343682170"
+            },
+            {
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2119904350558421252"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Blanca David on X",
-              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
+              "text": "Mbongeni",
+              "url": "https://x.com/Themba0381/status/2120169218343682170"
+            },
+            {
+              "id": "105-1",
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2119904350558421252"
             }
           ]
         }
@@ -542,134 +614,152 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-09T16:30:28.793Z",
+      "updatedAt": "2026-11-10T14:59:59.400Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Unverified claim",
-        "Policing debate",
-        "History resurfaces",
-        "Market chatter",
-        "Local complaint"
+        "COP31",
+        "Official",
+        "Disputed",
+        "Ongoing",
+        "Reactive"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Justice",
-          "headline": "Peine de Brand relayée sans preuve",
+          "category": "Climat",
+          "headline": "L'AIE signale des risques Iran à la COP31",
           "paragraphs": [
-            "Des utilisateurs relaient que Russell Brand aurait été condamné à 10,5 ans.",
-            "Le post parle d'alerte et lie une vidéo. L'affirmation n'est pas confirmée dans le post."
+            "China News indique que le chef de l'AIE, Fatih Birol, a dit lors d'un événement parallèle de la COP31 à Antalya que le conflit en Iran a déclenché une crise énergétique avec trois tendances.",
+            "Le compte présente cela comme des propos au Pavillon Chine. Aucune confirmation indépendante dans le post."
           ],
-          "highlightParagraph": 1,
-          "trend": "Unverified claim",
+          "highlightParagraph": 0,
+          "trend": "COP31",
           "sources": [
             {
-              "label": "Invazer on X",
-              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
+              "label": "China News",
+              "url": "https://x.com/Echinanews/status/2120169207346380813"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Invazer on X",
-              "url": "https://x.com/InvazerAVZrly/status/2119829611534287073"
+              "text": "China News",
+              "url": "https://x.com/Echinanews/status/2120169207346380813"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Royaume-Uni",
-          "headline": "Huit forces sans travail discret?",
+          "category": "Diplomatie",
+          "headline": "Rubio: la douleur des sanctions iraniennes croît",
           "paragraphs": [
-            "Un post affirme que le chef du Met, Sir Mark Rowley, a dit que huit forces n'ont fait aucun travail sous couverture critique contre les abus et la drogue en 12 mois.",
-            "Cela repose sur un article lié, pas sur une déclaration policière dans le post."
+            "Le département d'État a publié une vidéo du secrétaire Rubio disant que les sanctions infligent une douleur économique extraordinaire et croissante au régime iranien.",
+            "Des réponses lient ces propos aux résultats des midterms américaines. Le post est une déclaration officielle."
           ],
-          "highlightParagraph": 1,
-          "trend": "Policing debate",
+          "highlightParagraph": 0,
+          "trend": "Official",
           "sources": [
             {
-              "label": "Marvin Wiseman on X",
-              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
+              "label": "StateDept",
+              "url": "https://x.com/StateDept/status/2120150137393602669"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Marvin Wiseman on X",
-              "url": "https://x.com/MarvinWise83638/status/2119829605892890662"
+              "text": "StateDept",
+              "url": "https://x.com/StateDept/status/2120150137393602669"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Archives",
-          "headline": "La note AIG de 2008 refait surface",
+          "category": "Politique",
+          "headline": "Des posts débattent d'Eisenkot en Israël",
           "paragraphs": [
-            "Des posts reprennent les chiffres de 2008 sur une semaine d'AIG dans un resort après le prêt de la Fed.",
-            "Un compte cite des dossiers autour de 442 000 dollars, spa et banquets inclus. C'est de l'histoire ancienne, pas une nouvelle accusation."
+            "Des utilisateurs israéliens ont posté sur des figures désignées de la Knesset et critiqué Gadi Eisenkot et ses soutiens comme influençant les décisions.",
+            "Les affirmations figurent dans des posts en hébreu à engagement modeste. Les positions sont disputées."
           ],
           "highlightParagraph": 1,
-          "trend": "History resurfaces",
+          "trend": "Disputed",
           "sources": [
             {
-              "label": "World Correspondent on X",
-              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
+              "label": "Igal Malka",
+              "url": "https://x.com/igal_malka/status/2120161407987491250"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "World Correspondent on X",
-              "url": "https://x.com/TheWorldCorresp/status/2119829618614304884"
+              "text": "Igal Malka",
+              "url": "https://x.com/igal_malka/status/2120161407987491250"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Marches",
-          "headline": "L'or suivi apres les midterms US",
+          "category": "Politique",
+          "headline": "Allégations de crise au Paraguay persistent",
           "paragraphs": [
-            "Des posts de marche disent que l'or teste une resistance apres les premiers mouvements post-midterms.",
-            "Un trader cite une moyenne a 50 jours pres de 4 152 dollars avant un niveau de Fibonacci. Ce sont des avis, pas des cours officiels."
+            "Des comptes ont affirmé que le président Santiago Peña a été destitué et retenu après l'effondrement de la banque Ueno. Une réponse interroge le moment d'un corralito.",
+            "Ce restent des allégations d'utilisateurs et de médias sans vérification supplémentaire."
           ],
-          "highlightParagraph": 1,
-          "trend": "Market chatter",
+          "highlightParagraph": 0,
+          "trend": "Ongoing",
           "sources": [
             {
-              "label": "TraderStef on X",
-              "url": "https://x.com/TraderStef/status/2119829618324808133"
+              "label": "SAfmRadio",
+              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
+            },
+            {
+              "label": "Alejo",
+              "url": "https://x.com/pepu183/status/2120169227717849279"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "TraderStef on X",
-              "url": "https://x.com/TraderStef/status/2119829618324808133"
+              "text": "SAfmRadio",
+              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
+            },
+            {
+              "id": "104-1",
+              "text": "Alejo",
+              "url": "https://x.com/pepu183/status/2120169227717849279"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Ameriques",
-          "headline": "Critiques sur la reprise a Cali",
+          "category": "Politique",
+          "headline": "Des utilisateurs citent le revers des midterms",
           "paragraphs": [
-            "Un post en espagnol dit que Cali reste dans une crise economique laissee par un seisme.",
-            "L'auteure critique aussi le maire. C'est un avis local, pas un bilan de degats verifie."
+            "En réponse à Rubio, un utilisateur a dit que les électeurs ont montré leur mécontentement aux midterms. Des posts antérieurs affirmaient des gains démocrates à la Chambre et des changements de personnel.",
+            "Les détails du résultat varient selon les comptes et ne sont pas tranchés dans ces posts."
           ],
-          "highlightParagraph": 1,
-          "trend": "Local complaint",
+          "highlightParagraph": 0,
+          "trend": "Reactive",
           "sources": [
             {
-              "label": "Blanca David on X",
-              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
+              "label": "Mbongeni",
+              "url": "https://x.com/Themba0381/status/2120169218343682170"
+            },
+            {
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2119904350558421252"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Blanca David on X",
-              "url": "https://x.com/BlancaD24056009/status/2119829616353243153"
+              "text": "Mbongeni",
+              "url": "https://x.com/Themba0381/status/2120169218343682170"
+            },
+            {
+              "id": "105-1",
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2119904350558421252"
             }
           ]
         }
