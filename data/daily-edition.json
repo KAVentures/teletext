@@ -1,153 +1,176 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-10T14:59:59.400Z",
+      "updatedAt": "2026-11-11T14:30:20.914Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "COP31",
-        "Official",
-        "Disputed",
-        "Ongoing",
-        "Reactive"
+        "Diplomatic talks",
+        "Record surplus",
+        "Vote blocked",
+        "Humanitarian alert",
+        "Road tragedy"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Climate",
-          "headline": "IEA flags Iran energy risks at COP31",
+          "category": "World",
+          "headline": "US, Russia, Ukraine open Abu Dhabi talks",
           "paragraphs": [
-            "China News says IEA head Fatih Birol told a COP31 side event in Antalya that conflict in Iran triggered an energy crisis with three major trends.",
-            "The account frames the remarks as given at the China Pavilion. The post does not include independent confirmation."
+            "X posts report the US, Russia and Ukraine began two-day peace talks in Abu Dhabi.",
+            "Security guarantees are cited as key. Some note attacks on Ukraine power sites continue."
           ],
           "highlightParagraph": 0,
-          "trend": "COP31",
+          "trend": "Diplomatic talks",
           "sources": [
             {
-              "label": "China News",
-              "url": "https://x.com/Echinanews/status/2120169207346380813"
+              "label": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "label": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
+            },
+            {
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "China News",
-              "url": "https://x.com/Echinanews/status/2120169207346380813"
+              "text": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "id": "101-1",
+              "text": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
+            },
+            {
+              "id": "101-2",
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Diplomacy",
-          "headline": "Rubio says Iran sanctions pain grows",
+          "category": "Economy",
+          "headline": "China trade surplus exceeds $1 trillion",
           "paragraphs": [
-            "The State Department posted video of Secretary Rubio saying sanctions inflict extraordinary, compounding economic pain on Iran's regime.",
-            "Replies link the comments to US midterm results. The post is an official account statement."
+            "X posts cite reports that China's foreign trade surplus topped $1 trillion in the first ten months."
           ],
           "highlightParagraph": 0,
-          "trend": "Official",
+          "trend": "Record surplus",
           "sources": [
             {
-              "label": "StateDept",
-              "url": "https://x.com/StateDept/status/2120150137393602669"
+              "label": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "StateDept",
-              "url": "https://x.com/StateDept/status/2120150137393602669"
+              "text": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "id": "102-1",
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politics",
-          "headline": "Posts spar over Eisenkot in Israel",
+          "category": "US Politics",
+          "headline": "House blocks Hegseth impeachment vote",
           "paragraphs": [
-            "Israeli users posted about designated Knesset figures and criticized Gadi Eisenkot and his backers as influencing decisions.",
-            "Claims appear in Hebrew posts with modest engagement. Positions are disputed among users."
+            "X news summaries say House Republicans blocked a floor vote on impeachment articles against Defense Secretary Pete Hegseth."
           ],
-          "highlightParagraph": 1,
-          "trend": "Disputed",
+          "highlightParagraph": 0,
+          "trend": "Vote blocked",
           "sources": [
             {
-              "label": "Igal Malka",
-              "url": "https://x.com/igal_malka/status/2120161407987491250"
+              "label": "ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
+            },
+            {
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Igal Malka",
-              "url": "https://x.com/igal_malka/status/2120161407987491250"
+              "text": "ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
+            },
+            {
+              "id": "103-1",
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politics",
-          "headline": "Paraguay bank crisis claims persist",
+          "category": "Middle East",
+          "headline": "Board of Peace warns of Gaza emergency",
           "paragraphs": [
-            "Accounts have claimed President Santiago Peña was impeached and held after Ueno Bank collapsed. A reply questions timing of a related corralito.",
-            "These remain user and outlet claims without further verification in the posts."
+            "An X post cites Trump's Board of Peace warning of an immediate humanitarian emergency in Gaza."
           ],
           "highlightParagraph": 0,
-          "trend": "Ongoing",
+          "trend": "Humanitarian alert",
           "sources": [
             {
-              "label": "SAfmRadio",
-              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
-            },
-            {
-              "label": "Alejo",
-              "url": "https://x.com/pepu183/status/2120169227717849279"
+              "label": "FP4America",
+              "url": "https://x.com/FP4America/status/2120152700448854349"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "SAfmRadio",
-              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
-            },
-            {
-              "id": "104-1",
-              "text": "Alejo",
-              "url": "https://x.com/pepu183/status/2120169227717849279"
+              "text": "FP4America",
+              "url": "https://x.com/FP4America/status/2120152700448854349"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Politics",
-          "headline": "Users cite midterms pushback on policy",
+          "category": "Europe",
+          "headline": "Fog pile-up kills over 11 in Bulgaria",
           "paragraphs": [
-            "Replying to Rubio, one user said voters showed discontent in the midterms. Earlier posts claimed Democratic House gains and staff changes.",
-            "Midterm details vary by account and are not settled in these posts."
+            "X roundups report a major motorway pile-up in dense fog in Bulgaria killed more than 11 people. One account cited 12 deaths."
           ],
           "highlightParagraph": 0,
-          "trend": "Reactive",
+          "trend": "Road tragedy",
           "sources": [
             {
-              "label": "Mbongeni",
-              "url": "https://x.com/Themba0381/status/2120169218343682170"
+              "label": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
             },
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2119904350558421252"
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Mbongeni",
-              "url": "https://x.com/Themba0381/status/2120169218343682170"
+              "text": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
             },
             {
               "id": "105-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2119904350558421252"
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         }
@@ -155,152 +178,175 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-10T14:59:59.400Z",
+      "updatedAt": "2026-11-11T14:30:20.914Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "COP31",
-        "Official",
-        "Disputed",
-        "Ongoing",
-        "Reactive"
+        "Diplomatic talks",
+        "Record surplus",
+        "Vote blocked",
+        "Humanitarian alert",
+        "Road tragedy"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Klimat",
-          "headline": "IEA varnar för Iranenergi vid COP31",
+          "category": "Världen",
+          "headline": "USA, Ryssland, Ukraina inleder Abu Dhabi-samtal",
           "paragraphs": [
-            "China News säger att IEA-chefen Fatih Birol vid ett COP31-sidoevent i Antalya sa att konflikten i Iran utlöst en energikris med tre trender.",
-            "Kontot beskriver det som anförande i Kina-paviljongen. Oberoende bekräftelse saknas i inlägget."
+            "Inlägg på X rapporterar att USA, Ryssland och Ukraina inlett tvådagars fredssamtal i Abu Dhabi.",
+            "Säkerhetsgarantier anges som centrala. Vissa noterar att attacker mot Ukrainas kraftanläggningar fortsätter."
           ],
           "highlightParagraph": 0,
-          "trend": "COP31",
+          "trend": "Diplomatic talks",
           "sources": [
             {
-              "label": "China News",
-              "url": "https://x.com/Echinanews/status/2120169207346380813"
+              "label": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "label": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
+            },
+            {
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "China News",
-              "url": "https://x.com/Echinanews/status/2120169207346380813"
+              "text": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "id": "101-1",
+              "text": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
+            },
+            {
+              "id": "101-2",
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Diplomati",
-          "headline": "Rubio: Irans sanktionssmärta växer",
+          "category": "Ekonomi",
+          "headline": "Kinas handelsöverskott överstiger 1 biljon dollar",
           "paragraphs": [
-            "Utrikesdepartementet publicerade video där minister Rubio säger att sanktioner orsakar extraordinär, växande ekonomisk smärta för Irans regim.",
-            "Svar kopplar kommentarerna till USA:s mellanvalsresultat. Inlägget är ett officiellt kontoutdtalande."
+            "Inlägg på X citerar rapporter om att Kinas utrikeshandelsöverskott översteg 1 biljon dollar under årets första tio månader."
           ],
           "highlightParagraph": 0,
-          "trend": "Official",
+          "trend": "Record surplus",
           "sources": [
             {
-              "label": "StateDept",
-              "url": "https://x.com/StateDept/status/2120150137393602669"
+              "label": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "StateDept",
-              "url": "https://x.com/StateDept/status/2120150137393602669"
+              "text": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "id": "102-1",
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politik",
-          "headline": "Inlägg bråkar om Eisenkot i Israel",
+          "category": "USA-politik",
+          "headline": "Representanthuset blockerar Hegseth-omröstning",
           "paragraphs": [
-            "Israeliska användare skrev om tilltänkta Knesset-figurer och kritiserade Gadi Eisenkot och hans stödjare för att påverka beslut.",
-            "Påståenden finns i hebreiska inlägg med måttligt engagemang. Ståndpunkter är omstridda."
+            "Nyhetssammanfattningar på X säger att republikanska ledamöter blockerade en omröstning om riksrättsartiklar mot försvarsminister Pete Hegseth."
           ],
-          "highlightParagraph": 1,
-          "trend": "Disputed",
+          "highlightParagraph": 0,
+          "trend": "Vote blocked",
           "sources": [
             {
-              "label": "Igal Malka",
-              "url": "https://x.com/igal_malka/status/2120161407987491250"
+              "label": "ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
+            },
+            {
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Igal Malka",
-              "url": "https://x.com/igal_malka/status/2120161407987491250"
+              "text": "ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
+            },
+            {
+              "id": "103-1",
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politik",
-          "headline": "Påståenden om Paraguaykris består",
+          "category": "Mellanöstern",
+          "headline": "Fredsstyrelsen varnar för nödläge i Gaza",
           "paragraphs": [
-            "Konton har hävdat att president Santiago Peña avsattes och hölls efter att Ueno Bank kollapsade. Ett svar frågar om tidpunkten för ett relaterat corralito.",
-            "Detta förblir användar- och mediepåståenden utan ytterligare verifiering i inläggen."
+            "Ett inlägg på X citerar Trumps Board of Peace som varnar för en omedelbar humanitär nödsituation i Gaza."
           ],
           "highlightParagraph": 0,
-          "trend": "Ongoing",
+          "trend": "Humanitarian alert",
           "sources": [
             {
-              "label": "SAfmRadio",
-              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
-            },
-            {
-              "label": "Alejo",
-              "url": "https://x.com/pepu183/status/2120169227717849279"
+              "label": "FP4America",
+              "url": "https://x.com/FP4America/status/2120152700448854349"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "SAfmRadio",
-              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
-            },
-            {
-              "id": "104-1",
-              "text": "Alejo",
-              "url": "https://x.com/pepu183/status/2120169227717849279"
+              "text": "FP4America",
+              "url": "https://x.com/FP4America/status/2120152700448854349"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Politik",
-          "headline": "Användare citerar mellanvalsmotstånd",
+          "category": "Europa",
+          "headline": "Dimma orsakar dödlig seriekrock i Bulgarien",
           "paragraphs": [
-            "Som svar till Rubio skrev en användare att väljare visade missnöje i mellanvalen. Tidigare inlägg hävdade demokratiska vinster i representanthuset och personalbyten.",
-            "Detaljer om mellanvalsresultat varierar mellan konton och är inte avgjorda i dessa inlägg."
+            "Sammanfattningar på X rapporterar att en stor seriekrock i tät dimma på en bulgarisk motorväg dödade fler än 11 personer. Ett konto angav 12 döda."
           ],
           "highlightParagraph": 0,
-          "trend": "Reactive",
+          "trend": "Road tragedy",
           "sources": [
             {
-              "label": "Mbongeni",
-              "url": "https://x.com/Themba0381/status/2120169218343682170"
+              "label": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
             },
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2119904350558421252"
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Mbongeni",
-              "url": "https://x.com/Themba0381/status/2120169218343682170"
+              "text": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
             },
             {
               "id": "105-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2119904350558421252"
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         }
@@ -308,152 +354,175 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-10T14:59:59.400Z",
+      "updatedAt": "2026-11-11T14:30:20.914Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "COP31",
-        "Official",
-        "Disputed",
-        "Ongoing",
-        "Reactive"
+        "Diplomatic talks",
+        "Record surplus",
+        "Vote blocked",
+        "Humanitarian alert",
+        "Road tragedy"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Klima",
-          "headline": "IEA nennt Iran-Energierisiken bei COP31",
+          "category": "Welt",
+          "headline": "USA, Russland, Ukraine eröffnen Abu-Dhabi-Gespräche",
           "paragraphs": [
-            "China News berichtet, IEA-Chef Fatih Birol habe bei einem COP31-Nebenevent in Antalya gesagt, der Iran-Konflikt habe eine Energiekrise mit drei Trends ausgelöst.",
-            "Das Konto stellt dies als Rede im China-Pavillon dar. Eine unabhängige Bestätigung fehlt im Post."
+            "Beiträge auf X berichten, dass die USA, Russland und die Ukraine zweitägige Friedensgespräche in Abu Dhabi begonnen haben.",
+            "Sicherheitsgarantien gelten als zentral. Einige vermerken, dass Angriffe auf ukrainische Kraftwerke andauern."
           ],
           "highlightParagraph": 0,
-          "trend": "COP31",
+          "trend": "Diplomatic talks",
           "sources": [
             {
-              "label": "China News",
-              "url": "https://x.com/Echinanews/status/2120169207346380813"
+              "label": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "label": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
+            },
+            {
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "China News",
-              "url": "https://x.com/Echinanews/status/2120169207346380813"
+              "text": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "id": "101-1",
+              "text": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
+            },
+            {
+              "id": "101-2",
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Diplomatie",
-          "headline": "Rubio: Irans Sanktionsschmerz wächst",
+          "category": "Wirtschaft",
+          "headline": "Chinas Handelsüberschuss übersteigt 1 Bio. $",
           "paragraphs": [
-            "Das Außenministerium postete ein Video, in dem Minister Rubio sagt, Sanktionen fügten Irans Regime außerordentlichen, zunehmenden wirtschaftlichen Schmerz zu.",
-            "Antworten verknüpfen die Äußerungen mit US-Zwischenwahlergebnissen. Der Post ist eine offizielle Kontoaussage."
+            "Beiträge auf X zitieren Berichte, wonach Chinas Außenhandelsüberschuss in den ersten zehn Monaten 1 Billion Dollar überschritten hat."
           ],
           "highlightParagraph": 0,
-          "trend": "Official",
+          "trend": "Record surplus",
           "sources": [
             {
-              "label": "StateDept",
-              "url": "https://x.com/StateDept/status/2120150137393602669"
+              "label": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "StateDept",
-              "url": "https://x.com/StateDept/status/2120150137393602669"
+              "text": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "id": "102-1",
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politik",
-          "headline": "Posts streiten über Eisenkot in Israel",
+          "category": "US-Politik",
+          "headline": "Repräsentantenhaus blockiert Hegseth-Abstimmung",
           "paragraphs": [
-            "Israelische Nutzer schrieben über designierte Knesset-Figuren und kritisierten Gadi Eisenkot und seine Unterstützer als Einfluss auf Entscheidungen.",
-            "Behauptungen stehen in hebräischen Posts mit mäßigem Engagement. Positionen sind umstritten."
+            "Nachrichtenzusammenfassungen auf X besagen, dass republikanische Abgeordnete eine Abstimmung über Amtsenthebungsartikel gegen Verteidigungsminister Pete Hegseth blockierten."
           ],
-          "highlightParagraph": 1,
-          "trend": "Disputed",
+          "highlightParagraph": 0,
+          "trend": "Vote blocked",
           "sources": [
             {
-              "label": "Igal Malka",
-              "url": "https://x.com/igal_malka/status/2120161407987491250"
+              "label": "ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
+            },
+            {
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Igal Malka",
-              "url": "https://x.com/igal_malka/status/2120161407987491250"
+              "text": "ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
+            },
+            {
+              "id": "103-1",
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politik",
-          "headline": "Paraguay-Kris-Behauptungen halten an",
+          "category": "Naher Osten",
+          "headline": "Friedensrat warnt vor Gaza-Notfall",
           "paragraphs": [
-            "Konten behaupteten, Präsident Santiago Peña sei nach dem Kollaps der Ueno Bank angeklagt und festgehalten worden. Eine Antwort fragt nach dem Zeitpunkt eines Corralito.",
-            "Das bleiben Nutzer- und Medienbehauptungen ohne weitere Prüfung in den Posts."
+            "Ein Beitrag auf X zitiert Trumps Board of Peace, das vor einem unmittelbaren humanitären Notstand in Gaza warnt."
           ],
           "highlightParagraph": 0,
-          "trend": "Ongoing",
+          "trend": "Humanitarian alert",
           "sources": [
             {
-              "label": "SAfmRadio",
-              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
-            },
-            {
-              "label": "Alejo",
-              "url": "https://x.com/pepu183/status/2120169227717849279"
+              "label": "FP4America",
+              "url": "https://x.com/FP4America/status/2120152700448854349"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "SAfmRadio",
-              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
-            },
-            {
-              "id": "104-1",
-              "text": "Alejo",
-              "url": "https://x.com/pepu183/status/2120169227717849279"
+              "text": "FP4America",
+              "url": "https://x.com/FP4America/status/2120152700448854349"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Politik",
-          "headline": "Nutzer nennen Midterm-Gegenwind",
+          "category": "Europa",
+          "headline": "Nebel-Massenkarambolage tötet über 11 in Bulgarien",
           "paragraphs": [
-            "Als Antwort auf Rubio schrieb ein Nutzer, Wähler hätten bei den Zwischenwahlen Unmut gezeigt. Frühere Posts behaupteten demokratische Gewinne im Repräsentantenhaus und Personalwechsel.",
-            "Details zum Wahlergebnis unterscheiden sich je nach Konto und sind in diesen Posts nicht geklärt."
+            "Zusammenfassungen auf X berichten, dass eine schwere Massenkarambolage bei dichtem Nebel auf einer bulgarischen Autobahn mehr als 11 Menschen tötete. Ein Konto nannte 12 Tote."
           ],
           "highlightParagraph": 0,
-          "trend": "Reactive",
+          "trend": "Road tragedy",
           "sources": [
             {
-              "label": "Mbongeni",
-              "url": "https://x.com/Themba0381/status/2120169218343682170"
+              "label": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
             },
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2119904350558421252"
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Mbongeni",
-              "url": "https://x.com/Themba0381/status/2120169218343682170"
+              "text": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
             },
             {
               "id": "105-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2119904350558421252"
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         }
@@ -461,152 +530,175 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-10T14:59:59.400Z",
+      "updatedAt": "2026-11-11T14:30:20.914Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "COP31",
-        "Official",
-        "Disputed",
-        "Ongoing",
-        "Reactive"
+        "Diplomatic talks",
+        "Record surplus",
+        "Vote blocked",
+        "Humanitarian alert",
+        "Road tragedy"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Clima",
-          "headline": "IEA alerta riesgos de energía de Irán en COP31",
+          "category": "Mundo",
+          "headline": "EE.UU., Rusia y Ucrania abren charlas en Abu Dabi",
           "paragraphs": [
-            "China News dice que el jefe de la IEA, Fatih Birol, señaló en un evento paralelo de la COP31 en Antalya que el conflicto en Irán desató una crisis energética con tres tendencias.",
-            "La cuenta lo presenta como palabras en el Pabellón de China. El post no incluye confirmación independiente."
+            "Publicaciones en X informan que EE.UU., Rusia y Ucrania iniciaron dos días de conversaciones de paz en Abu Dabi.",
+            "Las garantías de seguridad se citan como clave. Algunos señalan que continúan los ataques a instalaciones eléctricas de Ucrania."
           ],
           "highlightParagraph": 0,
-          "trend": "COP31",
+          "trend": "Diplomatic talks",
           "sources": [
             {
-              "label": "China News",
-              "url": "https://x.com/Echinanews/status/2120169207346380813"
+              "label": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "label": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
+            },
+            {
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "China News",
-              "url": "https://x.com/Echinanews/status/2120169207346380813"
+              "text": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "id": "101-1",
+              "text": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
+            },
+            {
+              "id": "101-2",
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Diplomacia",
-          "headline": "Rubio: crece el dolor de sanciones a Irán",
+          "category": "Economía",
+          "headline": "Superávit comercial de China supera 1 billón $",
           "paragraphs": [
-            "El Departamento de Estado publicó un video del secretario Rubio diciendo que las sanciones infligen un dolor económico extraordinario y creciente al régimen de Irán.",
-            "Las respuestas vinculan los comentarios a los resultados de las elecciones intermedias de EE.UU. El post es una declaración oficial."
+            "Publicaciones en X citan informes de que el superávit comercial exterior de China superó 1 billón de dólares en los primeros diez meses."
           ],
           "highlightParagraph": 0,
-          "trend": "Official",
+          "trend": "Record surplus",
           "sources": [
             {
-              "label": "StateDept",
-              "url": "https://x.com/StateDept/status/2120150137393602669"
+              "label": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "StateDept",
-              "url": "https://x.com/StateDept/status/2120150137393602669"
+              "text": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "id": "102-1",
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Política",
-          "headline": "Posts discuten el papel de Eisenkot",
+          "category": "Política EE.UU.",
+          "headline": "Cámara bloquea voto de juicio a Hegseth",
           "paragraphs": [
-            "Usuarios israelíes publicaron sobre figuras designadas de la Knéset y criticaron a Gadi Eisenkot y sus respaldos por influir en decisiones.",
-            "Las afirmaciones aparecen en posts en hebreo con engagement modesto. Las posturas están disputadas."
+            "Resúmenes de noticias en X dicen que los republicanos de la Cámara bloquearon una votación sobre artículos de juicio político contra el secretario de Defensa Pete Hegseth."
           ],
-          "highlightParagraph": 1,
-          "trend": "Disputed",
+          "highlightParagraph": 0,
+          "trend": "Vote blocked",
           "sources": [
             {
-              "label": "Igal Malka",
-              "url": "https://x.com/igal_malka/status/2120161407987491250"
+              "label": "ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
+            },
+            {
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Igal Malka",
-              "url": "https://x.com/igal_malka/status/2120161407987491250"
+              "text": "ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
+            },
+            {
+              "id": "103-1",
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Política",
-          "headline": "Persisten afirmaciones de crisis en Paraguay",
+          "category": "Oriente Medio",
+          "headline": "Junta de Paz alerta de emergencia en Gaza",
           "paragraphs": [
-            "Cuentas afirmaron que el presidente Santiago Peña fue destituido y detenido tras el colapso del Banco Ueno. Una respuesta pregunta por el momento de un corralito.",
-            "Siguen siendo afirmaciones de usuarios y medios sin más verificación en los posts."
+            "Una publicación en X cita a la Junta de Paz de Trump advirtiendo de una emergencia humanitaria inmediata en Gaza."
           ],
           "highlightParagraph": 0,
-          "trend": "Ongoing",
+          "trend": "Humanitarian alert",
           "sources": [
             {
-              "label": "SAfmRadio",
-              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
-            },
-            {
-              "label": "Alejo",
-              "url": "https://x.com/pepu183/status/2120169227717849279"
+              "label": "FP4America",
+              "url": "https://x.com/FP4America/status/2120152700448854349"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "SAfmRadio",
-              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
-            },
-            {
-              "id": "104-1",
-              "text": "Alejo",
-              "url": "https://x.com/pepu183/status/2120169227717849279"
+              "text": "FP4America",
+              "url": "https://x.com/FP4America/status/2120152700448854349"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Política",
-          "headline": "Usuarios citan rechazo en las midterms",
+          "category": "Europa",
+          "headline": "Choque múltiple por niebla mata a más de 11",
           "paragraphs": [
-            "Respondiendo a Rubio, un usuario dijo que los votantes mostraron descontento en las elecciones intermedias. Posts anteriores afirmaron ganancias demócratas en la Cámara y cambios de personal.",
-            "Los detalles del resultado varían según la cuenta y no están zanjados en estos posts."
+            "Resúmenes en X informan que un gran choque múltiple por niebla densa en una autopista búlgara mató a más de 11 personas. Una cuenta citó 12 muertes."
           ],
           "highlightParagraph": 0,
-          "trend": "Reactive",
+          "trend": "Road tragedy",
           "sources": [
             {
-              "label": "Mbongeni",
-              "url": "https://x.com/Themba0381/status/2120169218343682170"
+              "label": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
             },
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2119904350558421252"
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Mbongeni",
-              "url": "https://x.com/Themba0381/status/2120169218343682170"
+              "text": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
             },
             {
               "id": "105-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2119904350558421252"
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         }
@@ -614,152 +706,175 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-10T14:59:59.400Z",
+      "updatedAt": "2026-11-11T14:30:20.914Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "COP31",
-        "Official",
-        "Disputed",
-        "Ongoing",
-        "Reactive"
+        "Diplomatic talks",
+        "Record surplus",
+        "Vote blocked",
+        "Humanitarian alert",
+        "Road tragedy"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Climat",
-          "headline": "L'AIE signale des risques Iran à la COP31",
+          "category": "Monde",
+          "headline": "États-Unis, Russie, Ukraine ouvrent des pourparlers",
           "paragraphs": [
-            "China News indique que le chef de l'AIE, Fatih Birol, a dit lors d'un événement parallèle de la COP31 à Antalya que le conflit en Iran a déclenché une crise énergétique avec trois tendances.",
-            "Le compte présente cela comme des propos au Pavillon Chine. Aucune confirmation indépendante dans le post."
+            "Des posts sur X rapportent que les États-Unis, la Russie et l'Ukraine ont entamé deux jours de pourparlers de paix à Abou Dhabi.",
+            "Les garanties de sécurité sont citées comme essentielles. Certains notent que les attaques contre les sites électriques ukrainiens se poursuivent."
           ],
           "highlightParagraph": 0,
-          "trend": "COP31",
+          "trend": "Diplomatic talks",
           "sources": [
             {
-              "label": "China News",
-              "url": "https://x.com/Echinanews/status/2120169207346380813"
+              "label": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "label": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
+            },
+            {
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "China News",
-              "url": "https://x.com/Echinanews/status/2120169207346380813"
+              "text": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "id": "101-1",
+              "text": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
+            },
+            {
+              "id": "101-2",
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Diplomatie",
-          "headline": "Rubio: la douleur des sanctions iraniennes croît",
+          "category": "Économie",
+          "headline": "Excédent commercial chinois dépasse 1 000 Md $",
           "paragraphs": [
-            "Le département d'État a publié une vidéo du secrétaire Rubio disant que les sanctions infligent une douleur économique extraordinaire et croissante au régime iranien.",
-            "Des réponses lient ces propos aux résultats des midterms américaines. Le post est une déclaration officielle."
+            "Des posts sur X citent des rapports selon lesquels l'excédent commercial extérieur de la Chine a dépassé 1 000 milliards de dollars sur les dix premiers mois."
           ],
           "highlightParagraph": 0,
-          "trend": "Official",
+          "trend": "Record surplus",
           "sources": [
             {
-              "label": "StateDept",
-              "url": "https://x.com/StateDept/status/2120150137393602669"
+              "label": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "StateDept",
-              "url": "https://x.com/StateDept/status/2120150137393602669"
+              "text": "Axiosint",
+              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+            },
+            {
+              "id": "102-1",
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politique",
-          "headline": "Des posts débattent d'Eisenkot en Israël",
+          "category": "Politique US",
+          "headline": "Chambre bloque le vote de destitution d'Hegseth",
           "paragraphs": [
-            "Des utilisateurs israéliens ont posté sur des figures désignées de la Knesset et critiqué Gadi Eisenkot et ses soutiens comme influençant les décisions.",
-            "Les affirmations figurent dans des posts en hébreu à engagement modeste. Les positions sont disputées."
+            "Des résumés d'actualité sur X indiquent que les républicains de la Chambre ont bloqué un vote sur des articles de destitution contre le secrétaire à la Défense Pete Hegseth."
           ],
-          "highlightParagraph": 1,
-          "trend": "Disputed",
+          "highlightParagraph": 0,
+          "trend": "Vote blocked",
           "sources": [
             {
-              "label": "Igal Malka",
-              "url": "https://x.com/igal_malka/status/2120161407987491250"
+              "label": "ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
+            },
+            {
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Igal Malka",
-              "url": "https://x.com/igal_malka/status/2120161407987491250"
+              "text": "ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
+            },
+            {
+              "id": "103-1",
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politique",
-          "headline": "Allégations de crise au Paraguay persistent",
+          "category": "Moyen-Orient",
+          "headline": "Conseil de la paix alerte sur l'urgence à Gaza",
           "paragraphs": [
-            "Des comptes ont affirmé que le président Santiago Peña a été destitué et retenu après l'effondrement de la banque Ueno. Une réponse interroge le moment d'un corralito.",
-            "Ce restent des allégations d'utilisateurs et de médias sans vérification supplémentaire."
+            "Un post sur X cite le Board of Peace de Trump mettant en garde contre une urgence humanitaire immédiate à Gaza."
           ],
           "highlightParagraph": 0,
-          "trend": "Ongoing",
+          "trend": "Humanitarian alert",
           "sources": [
             {
-              "label": "SAfmRadio",
-              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
-            },
-            {
-              "label": "Alejo",
-              "url": "https://x.com/pepu183/status/2120169227717849279"
+              "label": "FP4America",
+              "url": "https://x.com/FP4America/status/2120152700448854349"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "SAfmRadio",
-              "url": "https://x.com/SAfmRadio/status/2119647827659813339"
-            },
-            {
-              "id": "104-1",
-              "text": "Alejo",
-              "url": "https://x.com/pepu183/status/2120169227717849279"
+              "text": "FP4America",
+              "url": "https://x.com/FP4America/status/2120152700448854349"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Politique",
-          "headline": "Des utilisateurs citent le revers des midterms",
+          "category": "Europe",
+          "headline": "Carambolage dans le brouillard tue plus de 11",
           "paragraphs": [
-            "En réponse à Rubio, un utilisateur a dit que les électeurs ont montré leur mécontentement aux midterms. Des posts antérieurs affirmaient des gains démocrates à la Chambre et des changements de personnel.",
-            "Les détails du résultat varient selon les comptes et ne sont pas tranchés dans ces posts."
+            "Des résumés sur X rapportent qu'un carambolage majeur dans un brouillard dense sur une autoroute bulgare a tué plus de 11 personnes. Un compte a cité 12 morts."
           ],
           "highlightParagraph": 0,
-          "trend": "Reactive",
+          "trend": "Road tragedy",
           "sources": [
             {
-              "label": "Mbongeni",
-              "url": "https://x.com/Themba0381/status/2120169218343682170"
+              "label": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
             },
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2119904350558421252"
+              "label": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Mbongeni",
-              "url": "https://x.com/Themba0381/status/2120169218343682170"
+              "text": "nkechi_first",
+              "url": "https://x.com/nkechi_first/status/2120132896979570941"
             },
             {
               "id": "105-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2119904350558421252"
+              "text": "TarcisiusDgreat",
+              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
             }
           ]
         }
