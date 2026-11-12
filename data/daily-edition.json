@@ -1,176 +1,137 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-11T14:30:20.914Z",
+      "updatedAt": "2026-11-12T15:22:36.525Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Diplomatic talks",
-        "Record surplus",
-        "Vote blocked",
-        "Humanitarian alert",
-        "Road tragedy"
+        "viral claim",
+        "speculation",
+        "political",
+        "disputed"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "World",
-          "headline": "US, Russia, Ukraine open Abu Dhabi talks",
+          "category": "Business",
+          "headline": "Claim: Nvidia CFO named interim CEO",
           "paragraphs": [
-            "X posts report the US, Russia and Ukraine began two-day peace talks in Abu Dhabi.",
-            "Security guarantees are cited as key. Some note attacks on Ukraine power sites continue."
+            "X posts claim Nvidia named CFO Colette Kress interim CEO and that Jensen Huang's 33-year career has ended.",
+            "Unverified here. Other users add unproven theories on China chip sales. Treat as social claims only."
           ],
           "highlightParagraph": 0,
-          "trend": "Diplomatic talks",
+          "trend": "viral claim",
           "sources": [
             {
-              "label": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "label": "Kobeissi Letter",
+              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
             },
             {
-              "label": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
-            },
-            {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "label": "Aravind",
+              "url": "https://x.com/aravind/status/2120893974273798492"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "text": "Kobeissi Letter",
+              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
             },
             {
               "id": "101-1",
-              "text": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
-            },
-            {
-              "id": "101-2",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "text": "Aravind",
+              "url": "https://x.com/aravind/status/2120893974273798492"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Economy",
-          "headline": "China trade surplus exceeds $1 trillion",
+          "category": "Markets",
+          "headline": "SpaceX rises on Huang-Musk talk",
           "paragraphs": [
-            "X posts cite reports that China's foreign trade surplus topped $1 trillion in the first ten months."
+            "Posts say SpaceX rallies amid speculation that Jensen Huang could join forces with Elon Musk.",
+            "Zerohedge and others amplify the chatter. It is X speculation, not confirmed company news."
           ],
           "highlightParagraph": 0,
-          "trend": "Record surplus",
+          "trend": "speculation",
           "sources": [
             {
-              "label": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "label": "Polymarket Perps",
+              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
             },
             {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "label": "zerohedge",
+              "url": "https://x.com/zerohedge/status/2120892728535900321"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "text": "Polymarket Perps",
+              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
             },
             {
               "id": "102-1",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "text": "zerohedge",
+              "url": "https://x.com/zerohedge/status/2120892728535900321"
             }
           ]
         },
         {
           "page": 103,
-          "category": "US Politics",
-          "headline": "House blocks Hegseth impeachment vote",
+          "category": "Politics",
+          "headline": "Lowe: Braverman backs ethnicity motion",
           "paragraphs": [
-            "X news summaries say House Republicans blocked a floor vote on impeachment articles against Defense Secretary Pete Hegseth."
+            "UK MP Rupert Lowe says a third MP, Suella Braverman, supports his ethnicity motion.",
+            "He calls it progress. The post gives no further details on the motion text."
           ],
           "highlightParagraph": 0,
-          "trend": "Vote blocked",
+          "trend": "political",
           "sources": [
             {
-              "label": "ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
-            },
-            {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "label": "Rupert Lowe",
+              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
-            },
-            {
-              "id": "103-1",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "text": "Rupert Lowe",
+              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Middle East",
-          "headline": "Board of Peace warns of Gaza emergency",
+          "category": "Politics",
+          "headline": "Vox journalist claims disputed on X",
           "paragraphs": [
-            "An X post cites Trump's Board of Peace warning of an immediate humanitarian emergency in Gaza."
+            "Posts claim two journalists for a Vox-Abascal interview later met Sanchez and have PSOE ties.",
+            "A user calls the claim false, saying one journalist is from their team. Contested on X."
           ],
-          "highlightParagraph": 0,
-          "trend": "Humanitarian alert",
+          "highlightParagraph": 1,
+          "trend": "disputed",
           "sources": [
             {
-              "label": "FP4America",
-              "url": "https://x.com/FP4America/status/2120152700448854349"
+              "label": "Diosa Khali",
+              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
+            },
+            {
+              "label": "Fonseca",
+              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "FP4America",
-              "url": "https://x.com/FP4America/status/2120152700448854349"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Europe",
-          "headline": "Fog pile-up kills over 11 in Bulgaria",
-          "paragraphs": [
-            "X roundups report a major motorway pile-up in dense fog in Bulgaria killed more than 11 people. One account cited 12 deaths."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Road tragedy",
-          "sources": [
-            {
-              "label": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
+              "text": "Diosa Khali",
+              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
             },
             {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
-            },
-            {
-              "id": "105-1",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "id": "104-1",
+              "text": "Fonseca",
+              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
             }
           ]
         }
@@ -178,175 +139,136 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-11T14:30:20.914Z",
+      "updatedAt": "2026-11-12T15:22:36.525Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Diplomatic talks",
-        "Record surplus",
-        "Vote blocked",
-        "Humanitarian alert",
-        "Road tragedy"
+        "viral claim",
+        "speculation",
+        "political",
+        "disputed"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Världen",
-          "headline": "USA, Ryssland, Ukraina inleder Abu Dhabi-samtal",
+          "category": "Ekonomi",
+          "headline": "Påstående: Nvidia-CFO interim-vd",
           "paragraphs": [
-            "Inlägg på X rapporterar att USA, Ryssland och Ukraina inlett tvådagars fredssamtal i Abu Dhabi.",
-            "Säkerhetsgarantier anges som centrala. Vissa noterar att attacker mot Ukrainas kraftanläggningar fortsätter."
+            "X-inlägg påstår att Nvidia utsett CFO Colette Kress till interim-vd och att Jensen Huangs 33-åriga karriär tagit slut.",
+            "Overifierat här. Andra lägger till obevisade teorier om chipförsäljning till Kina. Endast sociala påståenden."
           ],
           "highlightParagraph": 0,
-          "trend": "Diplomatic talks",
+          "trend": "viral claim",
           "sources": [
             {
-              "label": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "label": "Kobeissi Letter",
+              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
             },
             {
-              "label": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
-            },
-            {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "label": "Aravind",
+              "url": "https://x.com/aravind/status/2120893974273798492"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "text": "Kobeissi Letter",
+              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
             },
             {
               "id": "101-1",
-              "text": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
-            },
-            {
-              "id": "101-2",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "text": "Aravind",
+              "url": "https://x.com/aravind/status/2120893974273798492"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Ekonomi",
-          "headline": "Kinas handelsöverskott överstiger 1 biljon dollar",
+          "category": "Marknader",
+          "headline": "SpaceX upp på Huang-Musk-snack",
           "paragraphs": [
-            "Inlägg på X citerar rapporter om att Kinas utrikeshandelsöverskott översteg 1 biljon dollar under årets första tio månader."
+            "Inlägg säger att SpaceX stiger mitt i spekulationer om att Jensen Huang kan gå samman med Elon Musk.",
+            "Zerohedge och andra förstärker pratet. Det är X-spekulation, inte bekräftade företagsnyheter."
           ],
           "highlightParagraph": 0,
-          "trend": "Record surplus",
+          "trend": "speculation",
           "sources": [
             {
-              "label": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "label": "Polymarket Perps",
+              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
             },
             {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "label": "zerohedge",
+              "url": "https://x.com/zerohedge/status/2120892728535900321"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "text": "Polymarket Perps",
+              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
             },
             {
               "id": "102-1",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "text": "zerohedge",
+              "url": "https://x.com/zerohedge/status/2120892728535900321"
             }
           ]
         },
         {
           "page": 103,
-          "category": "USA-politik",
-          "headline": "Representanthuset blockerar Hegseth-omröstning",
+          "category": "Politik",
+          "headline": "Lowe: Braverman stöder etnicitetsmotion",
           "paragraphs": [
-            "Nyhetssammanfattningar på X säger att republikanska ledamöter blockerade en omröstning om riksrättsartiklar mot försvarsminister Pete Hegseth."
+            "Brittiske parlamentsledamoten Rupert Lowe säger att en tredje ledamot, Suella Braverman, stöder hans etnicitetsmotion.",
+            "Han kallar det framsteg. Inlägget ger inga fler detaljer om motionstexten."
           ],
           "highlightParagraph": 0,
-          "trend": "Vote blocked",
+          "trend": "political",
           "sources": [
             {
-              "label": "ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
-            },
-            {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "label": "Rupert Lowe",
+              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
-            },
-            {
-              "id": "103-1",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "text": "Rupert Lowe",
+              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Mellanöstern",
-          "headline": "Fredsstyrelsen varnar för nödläge i Gaza",
+          "category": "Politik",
+          "headline": "Vox-journalistpåståenden bestrids på X",
           "paragraphs": [
-            "Ett inlägg på X citerar Trumps Board of Peace som varnar för en omedelbar humanitär nödsituation i Gaza."
+            "Inlägg påstår att två journalister för en Vox-Abascal-intervju senare träffade Sanchez och har PSOE-kopplingar.",
+            "En användare kallar påståendet falskt och säger att en journalist är från deras team. Omstritt på X."
           ],
-          "highlightParagraph": 0,
-          "trend": "Humanitarian alert",
+          "highlightParagraph": 1,
+          "trend": "disputed",
           "sources": [
             {
-              "label": "FP4America",
-              "url": "https://x.com/FP4America/status/2120152700448854349"
+              "label": "Diosa Khali",
+              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
+            },
+            {
+              "label": "Fonseca",
+              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "FP4America",
-              "url": "https://x.com/FP4America/status/2120152700448854349"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Europa",
-          "headline": "Dimma orsakar dödlig seriekrock i Bulgarien",
-          "paragraphs": [
-            "Sammanfattningar på X rapporterar att en stor seriekrock i tät dimma på en bulgarisk motorväg dödade fler än 11 personer. Ett konto angav 12 döda."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Road tragedy",
-          "sources": [
-            {
-              "label": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
+              "text": "Diosa Khali",
+              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
             },
             {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
-            },
-            {
-              "id": "105-1",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "id": "104-1",
+              "text": "Fonseca",
+              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
             }
           ]
         }
@@ -354,175 +276,136 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-11T14:30:20.914Z",
+      "updatedAt": "2026-11-12T15:22:36.525Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Diplomatic talks",
-        "Record surplus",
-        "Vote blocked",
-        "Humanitarian alert",
-        "Road tragedy"
+        "viral claim",
+        "speculation",
+        "political",
+        "disputed"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Welt",
-          "headline": "USA, Russland, Ukraine eröffnen Abu-Dhabi-Gespräche",
+          "category": "Wirtschaft",
+          "headline": "Behauptung: Nvidia-CFO Interim-CEO",
           "paragraphs": [
-            "Beiträge auf X berichten, dass die USA, Russland und die Ukraine zweitägige Friedensgespräche in Abu Dhabi begonnen haben.",
-            "Sicherheitsgarantien gelten als zentral. Einige vermerken, dass Angriffe auf ukrainische Kraftwerke andauern."
+            "X-Posts behaupten, Nvidia habe CFO Colette Kress zur Interim-CEO ernannt und Jensen Huangs 33-jährige Karriere sei beendet.",
+            "Hier unverifiziert. Andere fügen unbewiesene Theorien zu China-Chipverkäufen hinzu. Nur soziale Behauptungen."
           ],
           "highlightParagraph": 0,
-          "trend": "Diplomatic talks",
+          "trend": "viral claim",
           "sources": [
             {
-              "label": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "label": "Kobeissi Letter",
+              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
             },
             {
-              "label": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
-            },
-            {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "label": "Aravind",
+              "url": "https://x.com/aravind/status/2120893974273798492"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "text": "Kobeissi Letter",
+              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
             },
             {
               "id": "101-1",
-              "text": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
-            },
-            {
-              "id": "101-2",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "text": "Aravind",
+              "url": "https://x.com/aravind/status/2120893974273798492"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Wirtschaft",
-          "headline": "Chinas Handelsüberschuss übersteigt 1 Bio. $",
+          "category": "Märkte",
+          "headline": "SpaceX steigt bei Huang-Musk-Gerücht",
           "paragraphs": [
-            "Beiträge auf X zitieren Berichte, wonach Chinas Außenhandelsüberschuss in den ersten zehn Monaten 1 Billion Dollar überschritten hat."
+            "Posts sagen, SpaceX steige amid Spekulationen, Jensen Huang könne sich mit Elon Musk verbünden.",
+            "Zerohedge und andere verstärken das Gerede. Es ist X-Spekulation, keine bestätigte Firmenmeldung."
           ],
           "highlightParagraph": 0,
-          "trend": "Record surplus",
+          "trend": "speculation",
           "sources": [
             {
-              "label": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "label": "Polymarket Perps",
+              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
             },
             {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "label": "zerohedge",
+              "url": "https://x.com/zerohedge/status/2120892728535900321"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "text": "Polymarket Perps",
+              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
             },
             {
               "id": "102-1",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "text": "zerohedge",
+              "url": "https://x.com/zerohedge/status/2120892728535900321"
             }
           ]
         },
         {
           "page": 103,
-          "category": "US-Politik",
-          "headline": "Repräsentantenhaus blockiert Hegseth-Abstimmung",
+          "category": "Politik",
+          "headline": "Lowe: Braverman stützt Ethnie-Antrag",
           "paragraphs": [
-            "Nachrichtenzusammenfassungen auf X besagen, dass republikanische Abgeordnete eine Abstimmung über Amtsenthebungsartikel gegen Verteidigungsminister Pete Hegseth blockierten."
+            "Der britische Abgeordnete Rupert Lowe sagt, eine dritte Abgeordnete, Suella Braverman, unterstütze seinen Ethnie-Antrag.",
+            "Er nennt es Fortschritt. Der Post gibt keine weiteren Details zum Antragstext."
           ],
           "highlightParagraph": 0,
-          "trend": "Vote blocked",
+          "trend": "political",
           "sources": [
             {
-              "label": "ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
-            },
-            {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "label": "Rupert Lowe",
+              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
-            },
-            {
-              "id": "103-1",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "text": "Rupert Lowe",
+              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Naher Osten",
-          "headline": "Friedensrat warnt vor Gaza-Notfall",
+          "category": "Politik",
+          "headline": "Vox-Journalisten-Behauptungen umstritten",
           "paragraphs": [
-            "Ein Beitrag auf X zitiert Trumps Board of Peace, das vor einem unmittelbaren humanitären Notstand in Gaza warnt."
+            "Posts behaupten, zwei Journalisten für ein Vox-Abascal-Interview hätten später Sanchez getroffen und PSOE-Bindungen.",
+            "Ein Nutzer nennt die Behauptung falsch und sagt, ein Journalist sei aus seinem Team. Auf X umstritten."
           ],
-          "highlightParagraph": 0,
-          "trend": "Humanitarian alert",
+          "highlightParagraph": 1,
+          "trend": "disputed",
           "sources": [
             {
-              "label": "FP4America",
-              "url": "https://x.com/FP4America/status/2120152700448854349"
+              "label": "Diosa Khali",
+              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
+            },
+            {
+              "label": "Fonseca",
+              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "FP4America",
-              "url": "https://x.com/FP4America/status/2120152700448854349"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Europa",
-          "headline": "Nebel-Massenkarambolage tötet über 11 in Bulgarien",
-          "paragraphs": [
-            "Zusammenfassungen auf X berichten, dass eine schwere Massenkarambolage bei dichtem Nebel auf einer bulgarischen Autobahn mehr als 11 Menschen tötete. Ein Konto nannte 12 Tote."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Road tragedy",
-          "sources": [
-            {
-              "label": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
+              "text": "Diosa Khali",
+              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
             },
             {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
-            },
-            {
-              "id": "105-1",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "id": "104-1",
+              "text": "Fonseca",
+              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
             }
           ]
         }
@@ -530,175 +413,136 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-11T14:30:20.914Z",
+      "updatedAt": "2026-11-12T15:22:36.525Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Diplomatic talks",
-        "Record surplus",
-        "Vote blocked",
-        "Humanitarian alert",
-        "Road tragedy"
+        "viral claim",
+        "speculation",
+        "political",
+        "disputed"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Mundo",
-          "headline": "EE.UU., Rusia y Ucrania abren charlas en Abu Dabi",
+          "category": "Negocios",
+          "headline": "Afirmación: CFO de Nvidia CEO interino",
           "paragraphs": [
-            "Publicaciones en X informan que EE.UU., Rusia y Ucrania iniciaron dos días de conversaciones de paz en Abu Dabi.",
-            "Las garantías de seguridad se citan como clave. Algunos señalan que continúan los ataques a instalaciones eléctricas de Ucrania."
+            "Posts en X afirman que Nvidia nombró a la CFO Colette Kress CEO interina y que terminó la carrera de 33 años de Jensen Huang.",
+            "No verificado aquí. Otros añaden teorías no probadas sobre ventas de chips a China. Solo afirmaciones sociales."
           ],
           "highlightParagraph": 0,
-          "trend": "Diplomatic talks",
+          "trend": "viral claim",
           "sources": [
             {
-              "label": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "label": "Kobeissi Letter",
+              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
             },
             {
-              "label": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
-            },
-            {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "label": "Aravind",
+              "url": "https://x.com/aravind/status/2120893974273798492"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "text": "Kobeissi Letter",
+              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
             },
             {
               "id": "101-1",
-              "text": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
-            },
-            {
-              "id": "101-2",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "text": "Aravind",
+              "url": "https://x.com/aravind/status/2120893974273798492"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Economía",
-          "headline": "Superávit comercial de China supera 1 billón $",
+          "category": "Mercados",
+          "headline": "SpaceX sube por rumor Huang-Musk",
           "paragraphs": [
-            "Publicaciones en X citan informes de que el superávit comercial exterior de China superó 1 billón de dólares en los primeros diez meses."
+            "Posts dicen que SpaceX sube ante especulación de que Jensen Huang podría unirse a Elon Musk.",
+            "Zerohedge y otros amplifican el rumor. Es especulación en X, no noticia confirmada de la empresa."
           ],
           "highlightParagraph": 0,
-          "trend": "Record surplus",
+          "trend": "speculation",
           "sources": [
             {
-              "label": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "label": "Polymarket Perps",
+              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
             },
             {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "label": "zerohedge",
+              "url": "https://x.com/zerohedge/status/2120892728535900321"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "text": "Polymarket Perps",
+              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
             },
             {
               "id": "102-1",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "text": "zerohedge",
+              "url": "https://x.com/zerohedge/status/2120892728535900321"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Política EE.UU.",
-          "headline": "Cámara bloquea voto de juicio a Hegseth",
+          "category": "Política",
+          "headline": "Lowe: Braverman apoya moción étnica",
           "paragraphs": [
-            "Resúmenes de noticias en X dicen que los republicanos de la Cámara bloquearon una votación sobre artículos de juicio político contra el secretario de Defensa Pete Hegseth."
+            "El diputado británico Rupert Lowe dice que una tercera diputada, Suella Braverman, apoya su moción sobre etnicidad.",
+            "Lo llama progreso. El post no da más detalles del texto de la moción."
           ],
           "highlightParagraph": 0,
-          "trend": "Vote blocked",
+          "trend": "political",
           "sources": [
             {
-              "label": "ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
-            },
-            {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "label": "Rupert Lowe",
+              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
-            },
-            {
-              "id": "103-1",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "text": "Rupert Lowe",
+              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Oriente Medio",
-          "headline": "Junta de Paz alerta de emergencia en Gaza",
+          "category": "Política",
+          "headline": "Afirmaciones sobre periodistas de Vox en disputa",
           "paragraphs": [
-            "Una publicación en X cita a la Junta de Paz de Trump advirtiendo de una emergencia humanitaria inmediata en Gaza."
+            "Posts afirman que dos periodistas de una entrevista Vox-Abascal luego se reunieron con Sánchez y tienen lazos con el PSOE.",
+            "Un usuario llama falsa la afirmación y dice que un periodista es de su equipo. Disputado en X."
           ],
-          "highlightParagraph": 0,
-          "trend": "Humanitarian alert",
+          "highlightParagraph": 1,
+          "trend": "disputed",
           "sources": [
             {
-              "label": "FP4America",
-              "url": "https://x.com/FP4America/status/2120152700448854349"
+              "label": "Diosa Khali",
+              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
+            },
+            {
+              "label": "Fonseca",
+              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "FP4America",
-              "url": "https://x.com/FP4America/status/2120152700448854349"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Europa",
-          "headline": "Choque múltiple por niebla mata a más de 11",
-          "paragraphs": [
-            "Resúmenes en X informan que un gran choque múltiple por niebla densa en una autopista búlgara mató a más de 11 personas. Una cuenta citó 12 muertes."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Road tragedy",
-          "sources": [
-            {
-              "label": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
+              "text": "Diosa Khali",
+              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
             },
             {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
-            },
-            {
-              "id": "105-1",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "id": "104-1",
+              "text": "Fonseca",
+              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
             }
           ]
         }
@@ -706,175 +550,136 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-11T14:30:20.914Z",
+      "updatedAt": "2026-11-12T15:22:36.525Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Diplomatic talks",
-        "Record surplus",
-        "Vote blocked",
-        "Humanitarian alert",
-        "Road tragedy"
+        "viral claim",
+        "speculation",
+        "political",
+        "disputed"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Monde",
-          "headline": "États-Unis, Russie, Ukraine ouvrent des pourparlers",
+          "category": "Affaires",
+          "headline": "Affirmation: CFO Nvidia PDG intérimaire",
           "paragraphs": [
-            "Des posts sur X rapportent que les États-Unis, la Russie et l'Ukraine ont entamé deux jours de pourparlers de paix à Abou Dhabi.",
-            "Les garanties de sécurité sont citées comme essentielles. Certains notent que les attaques contre les sites électriques ukrainiens se poursuivent."
+            "Des posts X affirment que Nvidia a nommé la CFO Colette Kress PDG intérimaire et que la carrière de 33 ans de Jensen Huang est finie.",
+            "Non vérifié ici. D'autres ajoutent des théories non prouvées sur les ventes de puces à la Chine. Affirmations sociales seulement."
           ],
           "highlightParagraph": 0,
-          "trend": "Diplomatic talks",
+          "trend": "viral claim",
           "sources": [
             {
-              "label": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "label": "Kobeissi Letter",
+              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
             },
             {
-              "label": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
-            },
-            {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "label": "Aravind",
+              "url": "https://x.com/aravind/status/2120893974273798492"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "text": "Kobeissi Letter",
+              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
             },
             {
               "id": "101-1",
-              "text": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
-            },
-            {
-              "id": "101-2",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "text": "Aravind",
+              "url": "https://x.com/aravind/status/2120893974273798492"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Économie",
-          "headline": "Excédent commercial chinois dépasse 1 000 Md $",
+          "category": "Marchés",
+          "headline": "SpaceX monte sur rumeur Huang-Musk",
           "paragraphs": [
-            "Des posts sur X citent des rapports selon lesquels l'excédent commercial extérieur de la Chine a dépassé 1 000 milliards de dollars sur les dix premiers mois."
+            "Des posts disent que SpaceX monte amid des spéculations que Jensen Huang pourrait s'allier à Elon Musk.",
+            "Zerohedge et d'autres amplifient le bruit. C'est de la spéculation sur X, pas une nouvelle confirmée."
           ],
           "highlightParagraph": 0,
-          "trend": "Record surplus",
+          "trend": "speculation",
           "sources": [
             {
-              "label": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "label": "Polymarket Perps",
+              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
             },
             {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "label": "zerohedge",
+              "url": "https://x.com/zerohedge/status/2120892728535900321"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Axiosint",
-              "url": "https://x.com/Axiosintl/status/2120094147059273819"
+              "text": "Polymarket Perps",
+              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
             },
             {
               "id": "102-1",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "text": "zerohedge",
+              "url": "https://x.com/zerohedge/status/2120892728535900321"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politique US",
-          "headline": "Chambre bloque le vote de destitution d'Hegseth",
+          "category": "Politique",
+          "headline": "Lowe: Braverman soutient motion ethnique",
           "paragraphs": [
-            "Des résumés d'actualité sur X indiquent que les républicains de la Chambre ont bloqué un vote sur des articles de destitution contre le secrétaire à la Défense Pete Hegseth."
+            "Le député britannique Rupert Lowe dit qu'une troisième députée, Suella Braverman, soutient sa motion sur l'ethnicité.",
+            "Il appelle cela un progrès. Le post ne donne pas plus de détails sur le texte."
           ],
           "highlightParagraph": 0,
-          "trend": "Vote blocked",
+          "trend": "political",
           "sources": [
             {
-              "label": "ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
-            },
-            {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "label": "Rupert Lowe",
+              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2120262657978630236"
-            },
-            {
-              "id": "103-1",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "text": "Rupert Lowe",
+              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Moyen-Orient",
-          "headline": "Conseil de la paix alerte sur l'urgence à Gaza",
+          "category": "Politique",
+          "headline": "Affirmations journalistes Vox contestées",
           "paragraphs": [
-            "Un post sur X cite le Board of Peace de Trump mettant en garde contre une urgence humanitaire immédiate à Gaza."
+            "Des posts affirment que deux journalistes d'une interview Vox-Abascal ont ensuite rencontré Sanchez et ont des liens PSOE.",
+            "Un utilisateur dit l'affirmation fausse et qu'un journaliste est de son équipe. Contesté sur X."
           ],
-          "highlightParagraph": 0,
-          "trend": "Humanitarian alert",
+          "highlightParagraph": 1,
+          "trend": "disputed",
           "sources": [
             {
-              "label": "FP4America",
-              "url": "https://x.com/FP4America/status/2120152700448854349"
+              "label": "Diosa Khali",
+              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
+            },
+            {
+              "label": "Fonseca",
+              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "FP4America",
-              "url": "https://x.com/FP4America/status/2120152700448854349"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Europe",
-          "headline": "Carambolage dans le brouillard tue plus de 11",
-          "paragraphs": [
-            "Des résumés sur X rapportent qu'un carambolage majeur dans un brouillard dense sur une autoroute bulgare a tué plus de 11 personnes. Un compte a cité 12 morts."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Road tragedy",
-          "sources": [
-            {
-              "label": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
+              "text": "Diosa Khali",
+              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
             },
             {
-              "label": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "nkechi_first",
-              "url": "https://x.com/nkechi_first/status/2120132896979570941"
-            },
-            {
-              "id": "105-1",
-              "text": "TarcisiusDgreat",
-              "url": "https://x.com/TarcisiusDgreat/status/2120300740186943808"
+              "id": "104-1",
+              "text": "Fonseca",
+              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
             }
           ]
         }
