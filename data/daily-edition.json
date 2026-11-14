@@ -1,137 +1,225 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-14",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-12T15:22:36.525Z",
+      "updatedAt": "2026-11-14T13:38:19.475Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "viral claim",
-        "speculation",
-        "political",
-        "disputed"
+        "Breaking",
+        "Developing",
+        "Contested",
+        "Reported",
+        "Disputed"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Business",
-          "headline": "Claim: Nvidia CFO named interim CEO",
+          "category": "Aviation",
+          "headline": "FAA ground stop after telecom outage",
           "paragraphs": [
-            "X posts claim Nvidia named CFO Colette Kress interim CEO and that Jensen Huang's 33-year career has ended.",
-            "Unverified here. Other users add unproven theories on China chip sales. Treat as social claims only."
+            "X posts say the FAA ordered a rare nationwide ground stop after a telecom outage at air traffic centers. Planes already airborne could land; new takeoffs were halted.",
+            "Accounts citing DHS say no cyberattack has been indicated. Disruption is described as widespread, but these posts are claims, not proof."
           ],
           "highlightParagraph": 0,
-          "trend": "viral claim",
+          "trend": "Breaking",
           "sources": [
             {
-              "label": "Kobeissi Letter",
-              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
-              "label": "Aravind",
-              "url": "https://x.com/aravind/status/2120893974273798492"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Kobeissi Letter",
-              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
               "id": "101-1",
-              "text": "Aravind",
-              "url": "https://x.com/aravind/status/2120893974273798492"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "id": "101-2",
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Markets",
-          "headline": "SpaceX rises on Huang-Musk talk",
+          "category": "Maritime",
+          "headline": "Tanker hits docked New Orleans cruise ship",
           "paragraphs": [
-            "Posts say SpaceX rallies amid speculation that Jensen Huang could join forces with Elon Musk.",
-            "Zerohedge and others amplify the chatter. It is X speculation, not confirmed company news."
+            "Posts report a tanker struck the docked American Heritage river cruise ship in New Orleans. Some accounts say the vessel flipped or capsized.",
+            "Claims put about 130 people aboard, all accounted for, with about 32 hospitalized and no critical injuries reported. The river was said to be closed. Unverified on X."
           ],
-          "highlightParagraph": 0,
-          "trend": "speculation",
+          "highlightParagraph": 1,
+          "trend": "Developing",
           "sources": [
             {
-              "label": "Polymarket Perps",
-              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
             },
             {
-              "label": "zerohedge",
-              "url": "https://x.com/zerohedge/status/2120892728535900321"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "label": "@wikky_gee",
+              "url": "https://x.com/wikky_gee/status/2121381612432842843"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Polymarket Perps",
-              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
             },
             {
               "id": "102-1",
-              "text": "zerohedge",
-              "url": "https://x.com/zerohedge/status/2120892728535900321"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "id": "102-2",
+              "text": "@wikky_gee",
+              "url": "https://x.com/wikky_gee/status/2121381612432842843"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politics",
-          "headline": "Lowe: Braverman backs ethnicity motion",
+          "category": "Technology",
+          "headline": "Claim: Nvidia CEO quit amid scandal",
           "paragraphs": [
-            "UK MP Rupert Lowe says a third MP, Suella Braverman, supports his ethnicity motion.",
-            "He calls it progress. The post gives no further details on the motion text."
+            "Users on X claim Jensen Huang resigned as Nvidia CEO amid a spy or affair scandal. Some posts link the allegation to restricted AI chips.",
+            "This is an unverified claim. One post names Colette Kress as interim CEO. Do not treat the resignation or scandal as established fact."
           ],
-          "highlightParagraph": 0,
-          "trend": "political",
+          "highlightParagraph": 1,
+          "trend": "Contested",
           "sources": [
             {
-              "label": "Rupert Lowe",
-              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
+            },
+            {
+              "label": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
+            },
+            {
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Rupert Lowe",
-              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
+            },
+            {
+              "id": "103-1",
+              "text": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
+            },
+            {
+              "id": "103-2",
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politics",
-          "headline": "Vox journalist claims disputed on X",
+          "category": "Technology",
+          "headline": "Microsoft 365 outage claimed worldwide",
           "paragraphs": [
-            "Posts claim two journalists for a Vox-Abascal interview later met Sanchez and have PSOE ties.",
-            "A user calls the claim false, saying one journalist is from their team. Contested on X."
+            "X posts describe a major Microsoft 365 outage affecting Outlook and Teams since Thursday across more than 70 countries.",
+            "Business and agency disruption is claimed. The posts do not independently confirm the outage or its scale."
           ],
-          "highlightParagraph": 1,
-          "trend": "disputed",
+          "highlightParagraph": 0,
+          "trend": "Reported",
           "sources": [
             {
-              "label": "Diosa Khali",
-              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
-              "label": "Fonseca",
-              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "label": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Diosa Khali",
-              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
               "id": "104-1",
-              "text": "Fonseca",
-              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "id": "104-2",
+              "text": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Security",
+          "headline": "Iran strike claim on Bahrain; denial cited",
+          "paragraphs": [
+            "Some posts say Iran claimed it hit a US radar site in Bahrain. Other accounts say the US denies the strike and that drones were intercepted.",
+            "The versions conflict. Both the claim and the denial are social-media reports, not verified facts."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Disputed",
+          "sources": [
+            {
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
+            },
+            {
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
+            },
+            {
+              "id": "105-1",
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "id": "105-2",
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             }
           ]
         }
@@ -139,136 +227,224 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-12T15:22:36.525Z",
+      "updatedAt": "2026-11-14T13:38:19.475Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "viral claim",
-        "speculation",
-        "political",
-        "disputed"
+        "Breaking",
+        "Developing",
+        "Contested",
+        "Reported",
+        "Disputed"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Ekonomi",
-          "headline": "Påstående: Nvidia-CFO interim-vd",
+          "category": "Flyg",
+          "headline": "FAA-stopp efter teleavbrott",
           "paragraphs": [
-            "X-inlägg påstår att Nvidia utsett CFO Colette Kress till interim-vd och att Jensen Huangs 33-åriga karriär tagit slut.",
-            "Overifierat här. Andra lägger till obevisade teorier om chipförsäljning till Kina. Endast sociala påståenden."
+            "Inlägg på X säger att FAA beordrade ett sällsynt nationellt startstopp efter ett teleavbrott vid flygledningscentraler. Plan i luften fick landa; nya starter stoppades.",
+            "Konton som hänvisar till DHS säger att inget cyberangrepp har indikerats. Störningen beskrivs som omfattande, men inläggen är påståenden, inte bevis."
           ],
           "highlightParagraph": 0,
-          "trend": "viral claim",
+          "trend": "Breaking",
           "sources": [
             {
-              "label": "Kobeissi Letter",
-              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
-              "label": "Aravind",
-              "url": "https://x.com/aravind/status/2120893974273798492"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Kobeissi Letter",
-              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
               "id": "101-1",
-              "text": "Aravind",
-              "url": "https://x.com/aravind/status/2120893974273798492"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "id": "101-2",
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Marknader",
-          "headline": "SpaceX upp på Huang-Musk-snack",
+          "category": "Sjöfart",
+          "headline": "Tanker träffar dockat fartyg i New Orleans",
           "paragraphs": [
-            "Inlägg säger att SpaceX stiger mitt i spekulationer om att Jensen Huang kan gå samman med Elon Musk.",
-            "Zerohedge och andra förstärker pratet. Det är X-spekulation, inte bekräftade företagsnyheter."
+            "Inlägg uppger att en tanker träffade det dockade flodkryssningsfartyget American Heritage i New Orleans. Vissa konton säger att fartyget välte eller kapsejsade.",
+            "Påståenden anger cirka 130 ombord, alla redovisade, med cirka 32 på sjukhus och inga kritiska skador rapporterade. Floden sades vara stängd. Overifierat på X."
           ],
-          "highlightParagraph": 0,
-          "trend": "speculation",
+          "highlightParagraph": 1,
+          "trend": "Developing",
           "sources": [
             {
-              "label": "Polymarket Perps",
-              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
             },
             {
-              "label": "zerohedge",
-              "url": "https://x.com/zerohedge/status/2120892728535900321"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "label": "@wikky_gee",
+              "url": "https://x.com/wikky_gee/status/2121381612432842843"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Polymarket Perps",
-              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
             },
             {
               "id": "102-1",
-              "text": "zerohedge",
-              "url": "https://x.com/zerohedge/status/2120892728535900321"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "id": "102-2",
+              "text": "@wikky_gee",
+              "url": "https://x.com/wikky_gee/status/2121381612432842843"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politik",
-          "headline": "Lowe: Braverman stöder etnicitetsmotion",
+          "category": "Teknik",
+          "headline": "Påstående: Nvidia-vd slutade efter skandal",
           "paragraphs": [
-            "Brittiske parlamentsledamoten Rupert Lowe säger att en tredje ledamot, Suella Braverman, stöder hans etnicitetsmotion.",
-            "Han kallar det framsteg. Inlägget ger inga fler detaljer om motionstexten."
+            "Användare på X påstår att Jensen Huang avgick som Nvidia-vd mitt i en spion- eller affärsskandal. Vissa kopplar påståendet till begränsade AI-chip.",
+            "Detta är ett overifierat påstående. Ett inlägg nämner Colette Kress som tillförordnad vd. Behandla inte avskedet eller skandalen som fastställt."
           ],
-          "highlightParagraph": 0,
-          "trend": "political",
+          "highlightParagraph": 1,
+          "trend": "Contested",
           "sources": [
             {
-              "label": "Rupert Lowe",
-              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
+            },
+            {
+              "label": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
+            },
+            {
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Rupert Lowe",
-              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
+            },
+            {
+              "id": "103-1",
+              "text": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
+            },
+            {
+              "id": "103-2",
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politik",
-          "headline": "Vox-journalistpåståenden bestrids på X",
+          "category": "Teknik",
+          "headline": "Microsoft 365-avbrott påstås globalt",
           "paragraphs": [
-            "Inlägg påstår att två journalister för en Vox-Abascal-intervju senare träffade Sanchez och har PSOE-kopplingar.",
-            "En användare kallar påståendet falskt och säger att en journalist är från deras team. Omstritt på X."
+            "Inlägg på X beskriver ett stort Microsoft 365-avbrott som drabbat Outlook och Teams sedan torsdag i mer än 70 länder.",
+            "Störningar för företag och myndigheter påstås. Inläggen bekräftar inte själva avbrottet eller dess omfattning."
           ],
-          "highlightParagraph": 1,
-          "trend": "disputed",
+          "highlightParagraph": 0,
+          "trend": "Reported",
           "sources": [
             {
-              "label": "Diosa Khali",
-              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
-              "label": "Fonseca",
-              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "label": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Diosa Khali",
-              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
               "id": "104-1",
-              "text": "Fonseca",
-              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "id": "104-2",
+              "text": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Säkerhet",
+          "headline": "Iran påstår attack i Bahrain; förnekande citeras",
+          "paragraphs": [
+            "Vissa inlägg säger att Iran påstod sig ha träffat en amerikansk radarplats i Bahrain. Andra konton säger att USA förnekar anfallet och att drönare stoppades.",
+            "Versionerna står mot varandra. Både påståendet och förnekandet är rapporter på sociala medier, inte verifierade fakta."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Disputed",
+          "sources": [
+            {
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
+            },
+            {
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
+            },
+            {
+              "id": "105-1",
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "id": "105-2",
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             }
           ]
         }
@@ -276,136 +452,224 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-12T15:22:36.525Z",
+      "updatedAt": "2026-11-14T13:38:19.475Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "viral claim",
-        "speculation",
-        "political",
-        "disputed"
+        "Breaking",
+        "Developing",
+        "Contested",
+        "Reported",
+        "Disputed"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Wirtschaft",
-          "headline": "Behauptung: Nvidia-CFO Interim-CEO",
+          "category": "Luftfahrt",
+          "headline": "FAA-Startstopp nach Telekom-Ausfall",
           "paragraphs": [
-            "X-Posts behaupten, Nvidia habe CFO Colette Kress zur Interim-CEO ernannt und Jensen Huangs 33-jährige Karriere sei beendet.",
-            "Hier unverifiziert. Andere fügen unbewiesene Theorien zu China-Chipverkäufen hinzu. Nur soziale Behauptungen."
+            "Beiträge auf X sagen, die FAA habe nach einem Telekom-Ausfall in Kontrollzentren einen seltenen landesweiten Startstopp verhängt. Flugzeuge in der Luft durften landen; neue Starts stoppten.",
+            "Konten, die das DHS zitieren, sagen, ein Cyberangriff sei nicht angezeigt. Die Störung gilt als weitreichend, doch die Posts sind Behauptungen, kein Beweis."
           ],
           "highlightParagraph": 0,
-          "trend": "viral claim",
+          "trend": "Breaking",
           "sources": [
             {
-              "label": "Kobeissi Letter",
-              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
-              "label": "Aravind",
-              "url": "https://x.com/aravind/status/2120893974273798492"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Kobeissi Letter",
-              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
               "id": "101-1",
-              "text": "Aravind",
-              "url": "https://x.com/aravind/status/2120893974273798492"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "id": "101-2",
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Märkte",
-          "headline": "SpaceX steigt bei Huang-Musk-Gerücht",
+          "category": "Schifffahrt",
+          "headline": "Tanker trifft Kreuzfahrtschiff in New Orleans",
           "paragraphs": [
-            "Posts sagen, SpaceX steige amid Spekulationen, Jensen Huang könne sich mit Elon Musk verbünden.",
-            "Zerohedge und andere verstärken das Gerede. Es ist X-Spekulation, keine bestätigte Firmenmeldung."
+            "Posts berichten, ein Tanker habe das angelegte Flusskreuzfahrtschiff American Heritage in New Orleans getroffen. Einige Konten sagen, es sei gekentert.",
+            "Behauptet werden etwa 130 Personen an Bord, alle erfasst, rund 32 im Krankenhaus, keine kritischen Verletzungen. Der Fluss sei gesperrt gewesen. Auf X unbestätigt."
           ],
-          "highlightParagraph": 0,
-          "trend": "speculation",
+          "highlightParagraph": 1,
+          "trend": "Developing",
           "sources": [
             {
-              "label": "Polymarket Perps",
-              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
             },
             {
-              "label": "zerohedge",
-              "url": "https://x.com/zerohedge/status/2120892728535900321"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "label": "@wikky_gee",
+              "url": "https://x.com/wikky_gee/status/2121381612432842843"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Polymarket Perps",
-              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
             },
             {
               "id": "102-1",
-              "text": "zerohedge",
-              "url": "https://x.com/zerohedge/status/2120892728535900321"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "id": "102-2",
+              "text": "@wikky_gee",
+              "url": "https://x.com/wikky_gee/status/2121381612432842843"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politik",
-          "headline": "Lowe: Braverman stützt Ethnie-Antrag",
+          "category": "Technik",
+          "headline": "Behauptung: Nvidia-Chef trat nach Skandal ab",
           "paragraphs": [
-            "Der britische Abgeordnete Rupert Lowe sagt, eine dritte Abgeordnete, Suella Braverman, unterstütze seinen Ethnie-Antrag.",
-            "Er nennt es Fortschritt. Der Post gibt keine weiteren Details zum Antragstext."
+            "Nutzer auf X behaupten, Jensen Huang sei als Nvidia-CEO nach einem Spionage- oder Affärenskandal zurückgetreten. Einige verknüpfen das mit beschränkten KI-Chips.",
+            "Das ist eine unbestätigte Behauptung. Ein Post nennt Colette Kress als Interims-CEO. Rücktritt und Skandal sind nicht als Fakt zu werten."
           ],
-          "highlightParagraph": 0,
-          "trend": "political",
+          "highlightParagraph": 1,
+          "trend": "Contested",
           "sources": [
             {
-              "label": "Rupert Lowe",
-              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
+            },
+            {
+              "label": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
+            },
+            {
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Rupert Lowe",
-              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
+            },
+            {
+              "id": "103-1",
+              "text": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
+            },
+            {
+              "id": "103-2",
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politik",
-          "headline": "Vox-Journalisten-Behauptungen umstritten",
+          "category": "Technik",
+          "headline": "Microsoft-365-Ausfall weltweit behauptet",
           "paragraphs": [
-            "Posts behaupten, zwei Journalisten für ein Vox-Abascal-Interview hätten später Sanchez getroffen und PSOE-Bindungen.",
-            "Ein Nutzer nennt die Behauptung falsch und sagt, ein Journalist sei aus seinem Team. Auf X umstritten."
+            "Posts auf X beschreiben einen großen Microsoft-365-Ausfall, der Outlook und Teams seit Donnerstag in mehr als 70 Ländern getroffen habe.",
+            "Störungen bei Firmen und Behörden werden behauptet. Die Posts bestätigen Ausfall und Ausmaß nicht unabhängig."
           ],
-          "highlightParagraph": 1,
-          "trend": "disputed",
+          "highlightParagraph": 0,
+          "trend": "Reported",
           "sources": [
             {
-              "label": "Diosa Khali",
-              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
-              "label": "Fonseca",
-              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "label": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Diosa Khali",
-              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
               "id": "104-1",
-              "text": "Fonseca",
-              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "id": "104-2",
+              "text": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Sicherheit",
+          "headline": "Iran meldet Schlag in Bahrain; Dementi zitiert",
+          "paragraphs": [
+            "Einige Posts sagen, Iran habe einen Schlag auf einen US-Radarstandort in Bahrain beansprucht. Andere Konten sagen, die USA dementierten ihn und Drohnen seien abgefangen worden.",
+            "Die Versionen widersprechen sich. Behauptung und Dementi sind Meldungen in sozialen Medien, keine geprüften Fakten."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Disputed",
+          "sources": [
+            {
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
+            },
+            {
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
+            },
+            {
+              "id": "105-1",
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "id": "105-2",
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             }
           ]
         }
@@ -413,136 +677,224 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-12T15:22:36.525Z",
+      "updatedAt": "2026-11-14T13:38:19.475Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "viral claim",
-        "speculation",
-        "political",
-        "disputed"
+        "Breaking",
+        "Developing",
+        "Contested",
+        "Reported",
+        "Disputed"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Negocios",
-          "headline": "Afirmación: CFO de Nvidia CEO interino",
+          "category": "Aviación",
+          "headline": "Parada de la FAA tras fallo telecom",
           "paragraphs": [
-            "Posts en X afirman que Nvidia nombró a la CFO Colette Kress CEO interina y que terminó la carrera de 33 años de Jensen Huang.",
-            "No verificado aquí. Otros añaden teorías no probadas sobre ventas de chips a China. Solo afirmaciones sociales."
+            "Publicaciones en X dicen que la FAA ordenó una rara parada nacional de despegues tras un fallo de telecomunicaciones en centros de control. Los aviones en vuelo podían aterrizar; se frenaron nuevos despegues.",
+            "Cuentas que citan al DHS dicen que no se indica un ciberataque. La alteración se describe como amplia, pero son afirmaciones, no pruebas."
           ],
           "highlightParagraph": 0,
-          "trend": "viral claim",
+          "trend": "Breaking",
           "sources": [
             {
-              "label": "Kobeissi Letter",
-              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
-              "label": "Aravind",
-              "url": "https://x.com/aravind/status/2120893974273798492"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Kobeissi Letter",
-              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
               "id": "101-1",
-              "text": "Aravind",
-              "url": "https://x.com/aravind/status/2120893974273798492"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "id": "101-2",
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Mercados",
-          "headline": "SpaceX sube por rumor Huang-Musk",
+          "category": "Marítimo",
+          "headline": "Un petrolero choca un crucero en Nueva Orleans",
           "paragraphs": [
-            "Posts dicen que SpaceX sube ante especulación de que Jensen Huang podría unirse a Elon Musk.",
-            "Zerohedge y otros amplifican el rumor. Es especulación en X, no noticia confirmada de la empresa."
+            "Publicaciones dicen que un petrolero golpeó el crucero fluvial American Heritage, atracado en Nueva Orleans. Algunas cuentas dicen que volcó o zozobró.",
+            "Se afirma que había unas 130 personas, todas localizadas, unas 32 hospitalizadas y sin heridos críticos. El río habría sido cerrado. Sin verificar en X."
           ],
-          "highlightParagraph": 0,
-          "trend": "speculation",
+          "highlightParagraph": 1,
+          "trend": "Developing",
           "sources": [
             {
-              "label": "Polymarket Perps",
-              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
             },
             {
-              "label": "zerohedge",
-              "url": "https://x.com/zerohedge/status/2120892728535900321"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "label": "@wikky_gee",
+              "url": "https://x.com/wikky_gee/status/2121381612432842843"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Polymarket Perps",
-              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
             },
             {
               "id": "102-1",
-              "text": "zerohedge",
-              "url": "https://x.com/zerohedge/status/2120892728535900321"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "id": "102-2",
+              "text": "@wikky_gee",
+              "url": "https://x.com/wikky_gee/status/2121381612432842843"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Política",
-          "headline": "Lowe: Braverman apoya moción étnica",
+          "category": "Tecnología",
+          "headline": "Afirman que el CEO de Nvidia dimitió por escándalo",
           "paragraphs": [
-            "El diputado británico Rupert Lowe dice que una tercera diputada, Suella Braverman, apoya su moción sobre etnicidad.",
-            "Lo llama progreso. El post no da más detalles del texto de la moción."
+            "Usuarios en X afirman que Jensen Huang renunció como CEO de Nvidia en medio de un escándalo de espionaje o romance. Algunos lo vinculan a chips de IA restringidos.",
+            "Es una afirmación no verificada. Un post nombra a Colette Kress como CEO interina. No se debe dar por hecho la dimisión ni el escándalo."
           ],
-          "highlightParagraph": 0,
-          "trend": "political",
+          "highlightParagraph": 1,
+          "trend": "Contested",
           "sources": [
             {
-              "label": "Rupert Lowe",
-              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
+            },
+            {
+              "label": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
+            },
+            {
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Rupert Lowe",
-              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
+            },
+            {
+              "id": "103-1",
+              "text": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
+            },
+            {
+              "id": "103-2",
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Política",
-          "headline": "Afirmaciones sobre periodistas de Vox en disputa",
+          "category": "Tecnología",
+          "headline": "Se afirma un apagón mundial de Microsoft 365",
           "paragraphs": [
-            "Posts afirman que dos periodistas de una entrevista Vox-Abascal luego se reunieron con Sánchez y tienen lazos con el PSOE.",
-            "Un usuario llama falsa la afirmación y dice que un periodista es de su equipo. Disputado en X."
+            "Publicaciones en X describen un gran apagón de Microsoft 365 que afecta a Outlook y Teams desde el jueves en más de 70 países.",
+            "Se afirma una alteración de empresas y agencias. Los posts no confirman por sí solos el apagón ni su escala."
           ],
-          "highlightParagraph": 1,
-          "trend": "disputed",
+          "highlightParagraph": 0,
+          "trend": "Reported",
           "sources": [
             {
-              "label": "Diosa Khali",
-              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
-              "label": "Fonseca",
-              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "label": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Diosa Khali",
-              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
               "id": "104-1",
-              "text": "Fonseca",
-              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "id": "104-2",
+              "text": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Seguridad",
+          "headline": "Irán afirma un ataque en Baréin; se cita un desmentido",
+          "paragraphs": [
+            "Algunos posts dicen que Irán afirmó haber golpeado un radar de EE. UU. en Baréin. Otras cuentas dicen que EE. UU. lo niega y que se interceptaron drones.",
+            "Las versiones chocan. Tanto la afirmación como el desmentido son informes en redes, no hechos verificados."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Disputed",
+          "sources": [
+            {
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
+            },
+            {
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
+            },
+            {
+              "id": "105-1",
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "id": "105-2",
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             }
           ]
         }
@@ -550,136 +902,224 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-12T15:22:36.525Z",
+      "updatedAt": "2026-11-14T13:38:19.475Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "viral claim",
-        "speculation",
-        "political",
-        "disputed"
+        "Breaking",
+        "Developing",
+        "Contested",
+        "Reported",
+        "Disputed"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Affaires",
-          "headline": "Affirmation: CFO Nvidia PDG intérimaire",
+          "category": "Aviation",
+          "headline": "Stop FAA après une panne télécom",
           "paragraphs": [
-            "Des posts X affirment que Nvidia a nommé la CFO Colette Kress PDG intérimaire et que la carrière de 33 ans de Jensen Huang est finie.",
-            "Non vérifié ici. D'autres ajoutent des théories non prouvées sur les ventes de puces à la Chine. Affirmations sociales seulement."
+            "Des posts sur X disent que la FAA a ordonné un rare arrêt national des décollages après une panne télécom dans les centres de contrôle. Les avions en vol pouvaient atterrir; les nouveaux départs ont été stoppés.",
+            "Des comptes citant le DHS disent qu'aucune cyberattaque n'est indiquée. La perturbation est dite étendue, mais ces posts sont des allégations, pas des preuves."
           ],
           "highlightParagraph": 0,
-          "trend": "viral claim",
+          "trend": "Breaking",
           "sources": [
             {
-              "label": "Kobeissi Letter",
-              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
-              "label": "Aravind",
-              "url": "https://x.com/aravind/status/2120893974273798492"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Kobeissi Letter",
-              "url": "https://x.com/KobeissiLetter/status/2120878535497916576"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
               "id": "101-1",
-              "text": "Aravind",
-              "url": "https://x.com/aravind/status/2120893974273798492"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "id": "101-2",
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Marchés",
-          "headline": "SpaceX monte sur rumeur Huang-Musk",
+          "category": "Maritime",
+          "headline": "Un pétrolier heurte un navire à La Nouvelle-Orléans",
           "paragraphs": [
-            "Des posts disent que SpaceX monte amid des spéculations que Jensen Huang pourrait s'allier à Elon Musk.",
-            "Zerohedge et d'autres amplifient le bruit. C'est de la spéculation sur X, pas une nouvelle confirmée."
+            "Des posts rapportent qu'un pétrolier a heurté le navire de croisière fluviale American Heritage, à quai à La Nouvelle-Orléans. Certains disent qu'il a chaviré.",
+            "Environ 130 personnes seraient à bord, toutes retrouvées, environ 32 hospitalisées, sans blessures critiques signalées. Le fleuve aurait été fermé. Non vérifié sur X."
           ],
-          "highlightParagraph": 0,
-          "trend": "speculation",
+          "highlightParagraph": 1,
+          "trend": "Developing",
           "sources": [
             {
-              "label": "Polymarket Perps",
-              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
             },
             {
-              "label": "zerohedge",
-              "url": "https://x.com/zerohedge/status/2120892728535900321"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "label": "@wikky_gee",
+              "url": "https://x.com/wikky_gee/status/2121381612432842843"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Polymarket Perps",
-              "url": "https://x.com/Poly_Perps/status/2120892054389612854"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
             },
             {
               "id": "102-1",
-              "text": "zerohedge",
-              "url": "https://x.com/zerohedge/status/2120892728535900321"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121391176825647281"
+            },
+            {
+              "id": "102-2",
+              "text": "@wikky_gee",
+              "url": "https://x.com/wikky_gee/status/2121381612432842843"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politique",
-          "headline": "Lowe: Braverman soutient motion ethnique",
+          "category": "Technologie",
+          "headline": "Allégation: le PDG de Nvidia a démissionné",
           "paragraphs": [
-            "Le député britannique Rupert Lowe dit qu'une troisième députée, Suella Braverman, soutient sa motion sur l'ethnicité.",
-            "Il appelle cela un progrès. Le post ne donne pas plus de détails sur le texte."
+            "Des utilisateurs sur X affirment que Jensen Huang a démissionné de Nvidia au milieu d'un scandale d'espionnage ou de liaison. Certains le lient à des puces d'IA restreintes.",
+            "C'est une allégation non vérifiée. Un post cite Colette Kress comme PDG par intérim. Ne pas tenir la démission ou le scandale pour établis."
           ],
-          "highlightParagraph": 0,
-          "trend": "political",
+          "highlightParagraph": 1,
+          "trend": "Contested",
           "sources": [
             {
-              "label": "Rupert Lowe",
-              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
+            },
+            {
+              "label": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
+            },
+            {
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Rupert Lowe",
-              "url": "https://x.com/RupertLowe10/status/2120891698532213200"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
+            },
+            {
+              "id": "103-1",
+              "text": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
+            },
+            {
+              "id": "103-2",
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politique",
-          "headline": "Affirmations journalistes Vox contestées",
+          "category": "Technologie",
+          "headline": "Panne mondiale de Microsoft 365 alléguée",
           "paragraphs": [
-            "Des posts affirment que deux journalistes d'une interview Vox-Abascal ont ensuite rencontré Sanchez et ont des liens PSOE.",
-            "Un utilisateur dit l'affirmation fausse et qu'un journaliste est de son équipe. Contesté sur X."
+            "Des posts sur X décrivent une panne majeure de Microsoft 365 touchant Outlook et Teams depuis jeudi dans plus de 70 pays.",
+            "Une perturbation des entreprises et des agences est alléguée. Ces posts ne confirment pas seuls la panne ni son ampleur."
           ],
-          "highlightParagraph": 1,
-          "trend": "disputed",
+          "highlightParagraph": 0,
+          "trend": "Reported",
           "sources": [
             {
-              "label": "Diosa Khali",
-              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
-              "label": "Fonseca",
-              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "label": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Diosa Khali",
-              "url": "https://x.com/DiosaKhalinda/status/2120784154769908185"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             },
             {
               "id": "104-1",
-              "text": "Fonseca",
-              "url": "https://x.com/Sr_Fonseca/status/2120892795598565794"
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "id": "104-2",
+              "text": "@im_sbv",
+              "url": "https://x.com/im_sbv/status/2121380691095208225"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Sécurité",
+          "headline": "L'Iran revendique une frappe; un démenti est cité",
+          "paragraphs": [
+            "Certains posts disent que l'Iran a revendiqué une frappe sur un radar américain à Bahreïn. D'autres comptes disent que les États-Unis nient et que des drones ont été interceptés.",
+            "Les versions s'opposent. La revendication et le démenti sont des rapports sur les réseaux, pas des faits vérifiés."
+          ],
+          "highlightParagraph": 1,
+          "trend": "Disputed",
+          "sources": [
+            {
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
+            },
+            {
+              "label": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121375306191651183"
+            },
+            {
+              "id": "105-1",
+              "text": "@TruthBomber47",
+              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+            },
+            {
+              "id": "105-2",
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2121370015614013534"
             }
           ]
         }
