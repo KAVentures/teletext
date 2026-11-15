@@ -1,225 +1,198 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-14T13:38:19.475Z",
+      "updatedAt": "2026-11-15T15:18:59.813Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Breaking",
-        "Developing",
-        "Contested",
-        "Reported",
-        "Disputed"
+        "Flight disruption claims",
+        "Outage reports",
+        "Rescue claims",
+        "Summit speculation",
+        "War and diplomacy claims"
       ],
       "stories": [
         {
           "page": 101,
           "category": "Aviation",
-          "headline": "FAA ground stop after telecom outage",
+          "headline": "FAA ground stop hits US flights, X claims",
           "paragraphs": [
-            "X posts say the FAA ordered a rare nationwide ground stop after a telecom outage at air traffic centers. Planes already airborne could land; new takeoffs were halted.",
-            "Accounts citing DHS say no cyberattack has been indicated. Disruption is described as widespread, but these posts are claims, not proof."
+            "X posts claim a rare nationwide FAA ground stop after an air-traffic glitch or old gear overload.",
+            "Some say longest since 9/11. Causes conflict across accounts; restarts reported with delays."
           ],
           "highlightParagraph": 0,
-          "trend": "Breaking",
+          "trend": "Flight disruption claims",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Pop Zonty",
+              "url": "https://x.com/popzonty/status/2121729967083978952"
             },
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "label": "Grok summary",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "label": "Grok earlier",
+              "url": "https://x.com/grok/status/2121485318889123917"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Pop Zonty",
+              "url": "https://x.com/popzonty/status/2121729967083978952"
             },
             {
               "id": "101-1",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "text": "Grok summary",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
               "id": "101-2",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "text": "Grok earlier",
+              "url": "https://x.com/grok/status/2121485318889123917"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Maritime",
-          "headline": "Tanker hits docked New Orleans cruise ship",
+          "category": "Technology",
+          "headline": "Microsoft outage reported then fixed on X",
           "paragraphs": [
-            "Posts report a tanker struck the docked American Heritage river cruise ship in New Orleans. Some accounts say the vessel flipped or capsized.",
-            "Claims put about 130 people aboard, all accounted for, with about 32 hospitalized and no critical injuries reported. The river was said to be closed. Unverified on X."
+            "X accounts report a global outage that hit Microsoft Outlook and Teams.",
+            "Posts say services were later restored. This bulletin cites social claims only."
           ],
           "highlightParagraph": 1,
-          "trend": "Developing",
+          "trend": "Outage reports",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "label": "Grok post",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "label": "TFI post",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             },
             {
-              "label": "@wikky_gee",
-              "url": "https://x.com/wikky_gee/status/2121381612432842843"
+              "label": "Grok update",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "text": "Grok post",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
               "id": "102-1",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "text": "TFI post",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             },
             {
               "id": "102-2",
-              "text": "@wikky_gee",
-              "url": "https://x.com/wikky_gee/status/2121381612432842843"
+              "text": "Grok update",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Technology",
-          "headline": "Claim: Nvidia CEO quit amid scandal",
+          "category": "Maritime",
+          "headline": "Tanker hits cruise ship, X reports",
           "paragraphs": [
-            "Users on X claim Jensen Huang resigned as Nvidia CEO amid a spy or affair scandal. Some posts link the allegation to restricted AI chips.",
-            "This is an unverified claim. One post names Colette Kress as interim CEO. Do not treat the resignation or scandal as established fact."
+            "Two X summaries report a tanker collided with a cruise ship in New Orleans.",
+            "They claim all of roughly 190 people were rescued. Treat as unverified social reports."
           ],
-          "highlightParagraph": 1,
-          "trend": "Contested",
+          "highlightParagraph": 0,
+          "trend": "Rescue claims",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Grok post",
+              "url": "https://x.com/grok/status/2121485318889123917"
             },
             {
-              "label": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
-            },
-            {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "label": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Grok post",
+              "url": "https://x.com/grok/status/2121485318889123917"
             },
             {
               "id": "103-1",
-              "text": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
-            },
-            {
-              "id": "103-2",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "text": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Technology",
-          "headline": "Microsoft 365 outage claimed worldwide",
+          "category": "Diplomacy",
+          "headline": "X claims Trump, Putin, Xi summit planned",
           "paragraphs": [
-            "X posts describe a major Microsoft 365 outage affecting Outlook and Teams since Thursday across more than 70 countries.",
-            "Business and agency disruption is claimed. The posts do not independently confirm the outage or its scale."
+            "Several X posts claim Trump, Putin and Xi will meet jointly in China next week.",
+            "Focus said to be nuclear cuts. Accounts present it as planned; confirmation absent here."
           ],
           "highlightParagraph": 0,
-          "trend": "Reported",
+          "trend": "Summit speculation",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "label": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
+              "label": "TFI",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
               "id": "104-1",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "id": "104-2",
-              "text": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
+              "text": "TFI",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Security",
-          "headline": "Iran strike claim on Bahrain; denial cited",
+          "category": "Conflict",
+          "headline": "Ukraine war and talks noted in X posts",
           "paragraphs": [
-            "Some posts say Iran claimed it hit a US radar site in Bahrain. Other accounts say the US denies the strike and that drones were intercepted.",
-            "The versions conflict. Both the claim and the denial are social-media reports, not verified facts."
+            "X summaries describe ongoing strikes between Ukraine and Russia alongside peace talks.",
+            "One claim: the US floated trading Donbas for NATO membership. All details are unverified posts."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed",
+          "trend": "War and diplomacy claims",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
               "id": "105-1",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "id": "105-2",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ]
         }
@@ -227,224 +200,197 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-14T13:38:19.475Z",
+      "updatedAt": "2026-11-15T15:18:59.813Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Breaking",
-        "Developing",
-        "Contested",
-        "Reported",
-        "Disputed"
+        "Flight disruption claims",
+        "Outage reports",
+        "Rescue claims",
+        "Summit speculation",
+        "War and diplomacy claims"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Flyg",
-          "headline": "FAA-stopp efter teleavbrott",
+          "category": "Flygtrafik",
+          "headline": "FAA-stopp för USA-flyg enligt X",
           "paragraphs": [
-            "Inlägg på X säger att FAA beordrade ett sällsynt nationellt startstopp efter ett teleavbrott vid flygledningscentraler. Plan i luften fick landa; nya starter stoppades.",
-            "Konton som hänvisar till DHS säger att inget cyberangrepp har indikerats. Störningen beskrivs som omfattande, men inläggen är påståenden, inte bevis."
+            "Inlägg på X hävdar ett sällsynt nationellt FAA-stopp efter glitch i flygledning eller överbelastad gammal utrustning.",
+            "Några säger längsta sedan 9/11. Orsaker skiljer sig; omstarter med förseningar rapporteras."
           ],
           "highlightParagraph": 0,
-          "trend": "Breaking",
+          "trend": "Flight disruption claims",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Pop Zonty",
+              "url": "https://x.com/popzonty/status/2121729967083978952"
             },
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "label": "Grok summary",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "label": "Grok earlier",
+              "url": "https://x.com/grok/status/2121485318889123917"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Pop Zonty",
+              "url": "https://x.com/popzonty/status/2121729967083978952"
             },
             {
               "id": "101-1",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "text": "Grok summary",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
               "id": "101-2",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "text": "Grok earlier",
+              "url": "https://x.com/grok/status/2121485318889123917"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Sjöfart",
-          "headline": "Tanker träffar dockat fartyg i New Orleans",
+          "category": "Teknik",
+          "headline": "Microsoft-avbrott rapporterat sedan fixat",
           "paragraphs": [
-            "Inlägg uppger att en tanker träffade det dockade flodkryssningsfartyget American Heritage i New Orleans. Vissa konton säger att fartyget välte eller kapsejsade.",
-            "Påståenden anger cirka 130 ombord, alla redovisade, med cirka 32 på sjukhus och inga kritiska skador rapporterade. Floden sades vara stängd. Overifierat på X."
+            "X-konton rapporterar ett globalt avbrott som drabbade Microsoft Outlook och Teams.",
+            "Inlägg säger att tjänsterna senare återställdes. Denna bulletin citerar endast sociala påståenden."
           ],
           "highlightParagraph": 1,
-          "trend": "Developing",
+          "trend": "Outage reports",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "label": "Grok post",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "label": "TFI post",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             },
             {
-              "label": "@wikky_gee",
-              "url": "https://x.com/wikky_gee/status/2121381612432842843"
+              "label": "Grok update",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "text": "Grok post",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
               "id": "102-1",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "text": "TFI post",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             },
             {
               "id": "102-2",
-              "text": "@wikky_gee",
-              "url": "https://x.com/wikky_gee/status/2121381612432842843"
+              "text": "Grok update",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Teknik",
-          "headline": "Påstående: Nvidia-vd slutade efter skandal",
+          "category": "Sjöfart",
+          "headline": "Tanker krockar med kryssningsfartyg",
           "paragraphs": [
-            "Användare på X påstår att Jensen Huang avgick som Nvidia-vd mitt i en spion- eller affärsskandal. Vissa kopplar påståendet till begränsade AI-chip.",
-            "Detta är ett overifierat påstående. Ett inlägg nämner Colette Kress som tillförordnad vd. Behandla inte avskedet eller skandalen som fastställt."
+            "Två X-sammanfattningar rapporterar att en tanker kolliderade med ett kryssningsfartyg i New Orleans.",
+            "De hävdar att alla cirka 190 personer räddades. Behandla som overifierade sociala rapporter."
           ],
-          "highlightParagraph": 1,
-          "trend": "Contested",
+          "highlightParagraph": 0,
+          "trend": "Rescue claims",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Grok post",
+              "url": "https://x.com/grok/status/2121485318889123917"
             },
             {
-              "label": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
-            },
-            {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "label": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Grok post",
+              "url": "https://x.com/grok/status/2121485318889123917"
             },
             {
               "id": "103-1",
-              "text": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
-            },
-            {
-              "id": "103-2",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "text": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Teknik",
-          "headline": "Microsoft 365-avbrott påstås globalt",
+          "category": "Diplomati",
+          "headline": "X hävdar toppmöte Trump Putin Xi",
           "paragraphs": [
-            "Inlägg på X beskriver ett stort Microsoft 365-avbrott som drabbat Outlook och Teams sedan torsdag i mer än 70 länder.",
-            "Störningar för företag och myndigheter påstås. Inläggen bekräftar inte själva avbrottet eller dess omfattning."
+            "Flera X-inlägg hävdar att Trump, Putin och Xi ska mötas gemensamt i Kina nästa vecka.",
+            "Fokus sägs vara kärnvapenminskningar. Konton presenterar det som planerat; ingen bekräftelse här."
           ],
           "highlightParagraph": 0,
-          "trend": "Reported",
+          "trend": "Summit speculation",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "label": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
+              "label": "TFI",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
               "id": "104-1",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "id": "104-2",
-              "text": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
+              "text": "TFI",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Säkerhet",
-          "headline": "Iran påstår attack i Bahrain; förnekande citeras",
+          "category": "Konflikt",
+          "headline": "Ukrainakrig och samtal i X-inlägg",
           "paragraphs": [
-            "Vissa inlägg säger att Iran påstod sig ha träffat en amerikansk radarplats i Bahrain. Andra konton säger att USA förnekar anfallet och att drönare stoppades.",
-            "Versionerna står mot varandra. Både påståendet och förnekandet är rapporter på sociala medier, inte verifierade fakta."
+            "X-sammanfattningar beskriver pågående angrepp mellan Ukraina och Ryssland jämte fredssamtal.",
+            "Ett påstående: USA föreslog att byta Donbas mot NATO-medlemskap. Alla detaljer är overifierade inlägg."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed",
+          "trend": "War and diplomacy claims",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
               "id": "105-1",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "id": "105-2",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ]
         }
@@ -452,224 +398,197 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-14T13:38:19.475Z",
+      "updatedAt": "2026-11-15T15:18:59.813Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Breaking",
-        "Developing",
-        "Contested",
-        "Reported",
-        "Disputed"
+        "Flight disruption claims",
+        "Outage reports",
+        "Rescue claims",
+        "Summit speculation",
+        "War and diplomacy claims"
       ],
       "stories": [
         {
           "page": 101,
           "category": "Luftfahrt",
-          "headline": "FAA-Startstopp nach Telekom-Ausfall",
+          "headline": "FAA-Stopp trifft US-Flüge, laut X",
           "paragraphs": [
-            "Beiträge auf X sagen, die FAA habe nach einem Telekom-Ausfall in Kontrollzentren einen seltenen landesweiten Startstopp verhängt. Flugzeuge in der Luft durften landen; neue Starts stoppten.",
-            "Konten, die das DHS zitieren, sagen, ein Cyberangriff sei nicht angezeigt. Die Störung gilt als weitreichend, doch die Posts sind Behauptungen, kein Beweis."
+            "X-Beiträge behaupten einen seltenen landesweiten FAA-Stopp nach Flugsicherungsglitch oder Überlastung alter Geräte.",
+            "Manche nennen es die längste Störung seit 9/11. Ursachen widersprechen sich; Neustarts mit Verspätungen gemeldet."
           ],
           "highlightParagraph": 0,
-          "trend": "Breaking",
+          "trend": "Flight disruption claims",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Pop Zonty",
+              "url": "https://x.com/popzonty/status/2121729967083978952"
             },
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "label": "Grok summary",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "label": "Grok earlier",
+              "url": "https://x.com/grok/status/2121485318889123917"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Pop Zonty",
+              "url": "https://x.com/popzonty/status/2121729967083978952"
             },
             {
               "id": "101-1",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "text": "Grok summary",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
               "id": "101-2",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "text": "Grok earlier",
+              "url": "https://x.com/grok/status/2121485318889123917"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Schifffahrt",
-          "headline": "Tanker trifft Kreuzfahrtschiff in New Orleans",
+          "category": "Technologie",
+          "headline": "Microsoft-Ausfall gemeldet, dann behoben",
           "paragraphs": [
-            "Posts berichten, ein Tanker habe das angelegte Flusskreuzfahrtschiff American Heritage in New Orleans getroffen. Einige Konten sagen, es sei gekentert.",
-            "Behauptet werden etwa 130 Personen an Bord, alle erfasst, rund 32 im Krankenhaus, keine kritischen Verletzungen. Der Fluss sei gesperrt gewesen. Auf X unbestätigt."
+            "X-Konten berichten von einem globalen Ausfall, der Microsoft Outlook und Teams traf.",
+            "Beiträge sagen, Dienste seien später wiederhergestellt. Dieses Bulletin zitiert nur soziale Behauptungen."
           ],
           "highlightParagraph": 1,
-          "trend": "Developing",
+          "trend": "Outage reports",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "label": "Grok post",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "label": "TFI post",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             },
             {
-              "label": "@wikky_gee",
-              "url": "https://x.com/wikky_gee/status/2121381612432842843"
+              "label": "Grok update",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "text": "Grok post",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
               "id": "102-1",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "text": "TFI post",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             },
             {
               "id": "102-2",
-              "text": "@wikky_gee",
-              "url": "https://x.com/wikky_gee/status/2121381612432842843"
+              "text": "Grok update",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Technik",
-          "headline": "Behauptung: Nvidia-Chef trat nach Skandal ab",
+          "category": "Schifffahrt",
+          "headline": "Tanker trifft Kreuzfahrtschiff laut X",
           "paragraphs": [
-            "Nutzer auf X behaupten, Jensen Huang sei als Nvidia-CEO nach einem Spionage- oder Affärenskandal zurückgetreten. Einige verknüpfen das mit beschränkten KI-Chips.",
-            "Das ist eine unbestätigte Behauptung. Ein Post nennt Colette Kress als Interims-CEO. Rücktritt und Skandal sind nicht als Fakt zu werten."
+            "Zwei X-Zusammenfassungen berichten, ein Tanker sei in New Orleans mit einem Kreuzfahrtschiff kollidiert.",
+            "Sie behaupten, alle rund 190 Personen seien gerettet worden. Als unbestätigte soziale Meldungen behandeln."
           ],
-          "highlightParagraph": 1,
-          "trend": "Contested",
+          "highlightParagraph": 0,
+          "trend": "Rescue claims",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Grok post",
+              "url": "https://x.com/grok/status/2121485318889123917"
             },
             {
-              "label": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
-            },
-            {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "label": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Grok post",
+              "url": "https://x.com/grok/status/2121485318889123917"
             },
             {
               "id": "103-1",
-              "text": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
-            },
-            {
-              "id": "103-2",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "text": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Technik",
-          "headline": "Microsoft-365-Ausfall weltweit behauptet",
+          "category": "Diplomatie",
+          "headline": "X behauptet Gipfel Trump Putin Xi",
           "paragraphs": [
-            "Posts auf X beschreiben einen großen Microsoft-365-Ausfall, der Outlook und Teams seit Donnerstag in mehr als 70 Ländern getroffen habe.",
-            "Störungen bei Firmen und Behörden werden behauptet. Die Posts bestätigen Ausfall und Ausmaß nicht unabhängig."
+            "Mehrere X-Posts behaupten, Trump, Putin und Xi würden nächste Woche gemeinsam in China treffen.",
+            "Fokus sollen Atomkürzungen sein. Konten stellen es als geplant dar; keine Bestätigung hier."
           ],
           "highlightParagraph": 0,
-          "trend": "Reported",
+          "trend": "Summit speculation",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "label": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
+              "label": "TFI",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
               "id": "104-1",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "id": "104-2",
-              "text": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
+              "text": "TFI",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Sicherheit",
-          "headline": "Iran meldet Schlag in Bahrain; Dementi zitiert",
+          "category": "Konflikt",
+          "headline": "Ukrainekrieg und Gespräche in X-Posts",
           "paragraphs": [
-            "Einige Posts sagen, Iran habe einen Schlag auf einen US-Radarstandort in Bahrain beansprucht. Andere Konten sagen, die USA dementierten ihn und Drohnen seien abgefangen worden.",
-            "Die Versionen widersprechen sich. Behauptung und Dementi sind Meldungen in sozialen Medien, keine geprüften Fakten."
+            "X-Zusammenfassungen beschreiben anhaltende Angriffe zwischen der Ukraine und Russland neben Friedensgesprächen.",
+            "Eine Behauptung: die USA schlugen vor, Donbas gegen NATO-Mitgliedschaft zu tauschen. Alle Details sind unbestätigte Posts."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed",
+          "trend": "War and diplomacy claims",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
               "id": "105-1",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "id": "105-2",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ]
         }
@@ -677,224 +596,197 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-14T13:38:19.475Z",
+      "updatedAt": "2026-11-15T15:18:59.813Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Breaking",
-        "Developing",
-        "Contested",
-        "Reported",
-        "Disputed"
+        "Flight disruption claims",
+        "Outage reports",
+        "Rescue claims",
+        "Summit speculation",
+        "War and diplomacy claims"
       ],
       "stories": [
         {
           "page": 101,
           "category": "Aviación",
-          "headline": "Parada de la FAA tras fallo telecom",
+          "headline": "Parada de la FAA afecta vuelos de EE.UU.",
           "paragraphs": [
-            "Publicaciones en X dicen que la FAA ordenó una rara parada nacional de despegues tras un fallo de telecomunicaciones en centros de control. Los aviones en vuelo podían aterrizar; se frenaron nuevos despegues.",
-            "Cuentas que citan al DHS dicen que no se indica un ciberataque. La alteración se describe como amplia, pero son afirmaciones, no pruebas."
+            "Posts en X afirman una rara parada nacional de la FAA tras un glitch de tráfico aéreo o sobrecarga de equipo viejo.",
+            "Algunos dicen la más larga desde el 11-S. Las causas chocan; se reportan reinicios con retrasos."
           ],
           "highlightParagraph": 0,
-          "trend": "Breaking",
+          "trend": "Flight disruption claims",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Pop Zonty",
+              "url": "https://x.com/popzonty/status/2121729967083978952"
             },
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "label": "Grok summary",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "label": "Grok earlier",
+              "url": "https://x.com/grok/status/2121485318889123917"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Pop Zonty",
+              "url": "https://x.com/popzonty/status/2121729967083978952"
             },
             {
               "id": "101-1",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "text": "Grok summary",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
               "id": "101-2",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "text": "Grok earlier",
+              "url": "https://x.com/grok/status/2121485318889123917"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Marítimo",
-          "headline": "Un petrolero choca un crucero en Nueva Orleans",
+          "category": "Tecnología",
+          "headline": "Caída de Microsoft reportada y luego arreglada",
           "paragraphs": [
-            "Publicaciones dicen que un petrolero golpeó el crucero fluvial American Heritage, atracado en Nueva Orleans. Algunas cuentas dicen que volcó o zozobró.",
-            "Se afirma que había unas 130 personas, todas localizadas, unas 32 hospitalizadas y sin heridos críticos. El río habría sido cerrado. Sin verificar en X."
+            "Cuentas de X reportan una caída global que afectó a Outlook y Teams de Microsoft.",
+            "Los posts dicen que los servicios se restauraron después. Este boletín cita solo afirmaciones sociales."
           ],
           "highlightParagraph": 1,
-          "trend": "Developing",
+          "trend": "Outage reports",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "label": "Grok post",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "label": "TFI post",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             },
             {
-              "label": "@wikky_gee",
-              "url": "https://x.com/wikky_gee/status/2121381612432842843"
+              "label": "Grok update",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "text": "Grok post",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
               "id": "102-1",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "text": "TFI post",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             },
             {
               "id": "102-2",
-              "text": "@wikky_gee",
-              "url": "https://x.com/wikky_gee/status/2121381612432842843"
+              "text": "Grok update",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Tecnología",
-          "headline": "Afirman que el CEO de Nvidia dimitió por escándalo",
+          "category": "Marítimo",
+          "headline": "Petrolero choca con crucero según X",
           "paragraphs": [
-            "Usuarios en X afirman que Jensen Huang renunció como CEO de Nvidia en medio de un escándalo de espionaje o romance. Algunos lo vinculan a chips de IA restringidos.",
-            "Es una afirmación no verificada. Un post nombra a Colette Kress como CEO interina. No se debe dar por hecho la dimisión ni el escándalo."
+            "Dos resúmenes en X reportan que un petrolero chocó con un crucero en Nueva Orleans.",
+            "Afirman que las aproximadamente 190 personas fueron rescatadas. Tratar como informes sociales no verificados."
           ],
-          "highlightParagraph": 1,
-          "trend": "Contested",
+          "highlightParagraph": 0,
+          "trend": "Rescue claims",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Grok post",
+              "url": "https://x.com/grok/status/2121485318889123917"
             },
             {
-              "label": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
-            },
-            {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "label": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Grok post",
+              "url": "https://x.com/grok/status/2121485318889123917"
             },
             {
               "id": "103-1",
-              "text": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
-            },
-            {
-              "id": "103-2",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "text": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Tecnología",
-          "headline": "Se afirma un apagón mundial de Microsoft 365",
+          "category": "Diplomacia",
+          "headline": "X afirma cumbre de Trump, Putin y Xi",
           "paragraphs": [
-            "Publicaciones en X describen un gran apagón de Microsoft 365 que afecta a Outlook y Teams desde el jueves en más de 70 países.",
-            "Se afirma una alteración de empresas y agencias. Los posts no confirman por sí solos el apagón ni su escala."
+            "Varios posts en X afirman que Trump, Putin y Xi se reunirán juntos en China la próxima semana.",
+            "El foco sería recortes nucleares. Las cuentas lo presentan como planeado; sin confirmación aquí."
           ],
           "highlightParagraph": 0,
-          "trend": "Reported",
+          "trend": "Summit speculation",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "label": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
+              "label": "TFI",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
               "id": "104-1",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "id": "104-2",
-              "text": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
+              "text": "TFI",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Seguridad",
-          "headline": "Irán afirma un ataque en Baréin; se cita un desmentido",
+          "category": "Conflicto",
+          "headline": "Guerra de Ucrania y charlas en posts de X",
           "paragraphs": [
-            "Algunos posts dicen que Irán afirmó haber golpeado un radar de EE. UU. en Baréin. Otras cuentas dicen que EE. UU. lo niega y que se interceptaron drones.",
-            "Las versiones chocan. Tanto la afirmación como el desmentido son informes en redes, no hechos verificados."
+            "Resúmenes en X describen ataques continuos entre Ucrania y Rusia junto a conversaciones de paz.",
+            "Una afirmación: EE.UU. propuso ceder Donbás por membresía en la OTAN. Todos los detalles son posts no verificados."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed",
+          "trend": "War and diplomacy claims",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
               "id": "105-1",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "id": "105-2",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ]
         }
@@ -902,224 +794,197 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-14T13:38:19.475Z",
+      "updatedAt": "2026-11-15T15:18:59.813Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Breaking",
-        "Developing",
-        "Contested",
-        "Reported",
-        "Disputed"
+        "Flight disruption claims",
+        "Outage reports",
+        "Rescue claims",
+        "Summit speculation",
+        "War and diplomacy claims"
       ],
       "stories": [
         {
           "page": 101,
           "category": "Aviation",
-          "headline": "Stop FAA après une panne télécom",
+          "headline": "Arrêt FAA cloue les vols US, selon X",
           "paragraphs": [
-            "Des posts sur X disent que la FAA a ordonné un rare arrêt national des décollages après une panne télécom dans les centres de contrôle. Les avions en vol pouvaient atterrir; les nouveaux départs ont été stoppés.",
-            "Des comptes citant le DHS disent qu'aucune cyberattaque n'est indiquée. La perturbation est dite étendue, mais ces posts sont des allégations, pas des preuves."
+            "Des posts X affirment un rare arrêt national de la FAA après un bug du contrôle aérien ou une surcharge d’équipement ancien.",
+            "Certains disent la plus longue depuis le 11/9. Les causes divergent ; des redémarrages avec retards sont signalés."
           ],
           "highlightParagraph": 0,
-          "trend": "Breaking",
+          "trend": "Flight disruption claims",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Pop Zonty",
+              "url": "https://x.com/popzonty/status/2121729967083978952"
             },
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "label": "Grok summary",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "label": "Grok earlier",
+              "url": "https://x.com/grok/status/2121485318889123917"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Pop Zonty",
+              "url": "https://x.com/popzonty/status/2121729967083978952"
             },
             {
               "id": "101-1",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "text": "Grok summary",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
               "id": "101-2",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "text": "Grok earlier",
+              "url": "https://x.com/grok/status/2121485318889123917"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Maritime",
-          "headline": "Un pétrolier heurte un navire à La Nouvelle-Orléans",
+          "category": "Technologie",
+          "headline": "Panne Microsoft signalée puis réparée",
           "paragraphs": [
-            "Des posts rapportent qu'un pétrolier a heurté le navire de croisière fluviale American Heritage, à quai à La Nouvelle-Orléans. Certains disent qu'il a chaviré.",
-            "Environ 130 personnes seraient à bord, toutes retrouvées, environ 32 hospitalisées, sans blessures critiques signalées. Le fleuve aurait été fermé. Non vérifié sur X."
+            "Des comptes X signalent une panne mondiale ayant touché Outlook et Teams de Microsoft.",
+            "Les posts disent que les services ont été rétablis ensuite. Ce bulletin ne cite que des affirmations sociales."
           ],
           "highlightParagraph": 1,
-          "trend": "Developing",
+          "trend": "Outage reports",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "label": "Grok post",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "label": "TFI post",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             },
             {
-              "label": "@wikky_gee",
-              "url": "https://x.com/wikky_gee/status/2121381612432842843"
+              "label": "Grok update",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "text": "Grok post",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
               "id": "102-1",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121391176825647281"
+              "text": "TFI post",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             },
             {
               "id": "102-2",
-              "text": "@wikky_gee",
-              "url": "https://x.com/wikky_gee/status/2121381612432842843"
+              "text": "Grok update",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Technologie",
-          "headline": "Allégation: le PDG de Nvidia a démissionné",
+          "category": "Maritime",
+          "headline": "Collision tanker-paquebot signalée sur X",
           "paragraphs": [
-            "Des utilisateurs sur X affirment que Jensen Huang a démissionné de Nvidia au milieu d'un scandale d'espionnage ou de liaison. Certains le lient à des puces d'IA restreintes.",
-            "C'est une allégation non vérifiée. Un post cite Colette Kress comme PDG par intérim. Ne pas tenir la démission ou le scandale pour établis."
+            "Deux résumés X rapportent qu’un tanker a heurté un paquebot à La Nouvelle-Orléans.",
+            "Ils affirment que les quelque 190 personnes ont été sauvées. À traiter comme des rapports sociaux non vérifiés."
           ],
-          "highlightParagraph": 1,
-          "trend": "Contested",
+          "highlightParagraph": 0,
+          "trend": "Rescue claims",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Grok post",
+              "url": "https://x.com/grok/status/2121485318889123917"
             },
             {
-              "label": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
-            },
-            {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "label": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Grok post",
+              "url": "https://x.com/grok/status/2121485318889123917"
             },
             {
               "id": "103-1",
-              "text": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
-            },
-            {
-              "id": "103-2",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
+              "text": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Technologie",
-          "headline": "Panne mondiale de Microsoft 365 alléguée",
+          "category": "Diplomatie",
+          "headline": "X affirme un sommet Trump Poutine Xi",
           "paragraphs": [
-            "Des posts sur X décrivent une panne majeure de Microsoft 365 touchant Outlook et Teams depuis jeudi dans plus de 70 pays.",
-            "Une perturbation des entreprises et des agences est alléguée. Ces posts ne confirment pas seuls la panne ni son ampleur."
+            "Plusieurs posts X affirment que Trump, Poutine et Xi se rencontreront ensemble en Chine la semaine prochaine.",
+            "L’accent serait mis sur des coupes nucléaires. Présenté comme prévu ; pas de confirmation ici."
           ],
           "highlightParagraph": 0,
-          "trend": "Reported",
+          "trend": "Summit speculation",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "label": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
+              "label": "TFI",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2121648287300063569"
             },
             {
               "id": "104-1",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "id": "104-2",
-              "text": "@im_sbv",
-              "url": "https://x.com/im_sbv/status/2121380691095208225"
+              "text": "TFI",
+              "url": "https://x.com/Night24L/status/2121598796295790719"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Sécurité",
-          "headline": "L'Iran revendique une frappe; un démenti est cité",
+          "category": "Conflit",
+          "headline": "Guerre d’Ukraine et pourparlers sur X",
           "paragraphs": [
-            "Certains posts disent que l'Iran a revendiqué une frappe sur un radar américain à Bahreïn. D'autres comptes disent que les États-Unis nient et que des drones ont été interceptés.",
-            "Les versions s'opposent. La revendication et le démenti sont des rapports sur les réseaux, pas des faits vérifiés."
+            "Des résumés X décrivent des frappes continues entre l’Ukraine et la Russie aux côtés de pourparlers de paix.",
+            "Une affirmation : les États-Unis auraient proposé de céder le Donbass contre l’adhésion à l’OTAN. Détails non vérifiés."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed",
+          "trend": "War and diplomacy claims",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
-              "label": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "label": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121375306191651183"
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2121486202062664123"
             },
             {
               "id": "105-1",
-              "text": "@TruthBomber47",
-              "url": "https://x.com/TruthBomber47/status/2121352433956004288"
-            },
-            {
-              "id": "105-2",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2121370015614013534"
+              "text": "Grok later",
+              "url": "https://x.com/grok/status/2121648287300063569"
             }
           ]
         }
