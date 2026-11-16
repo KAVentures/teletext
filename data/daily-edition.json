@@ -1,198 +1,144 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-15T15:18:59.813Z",
+      "updatedAt": "2026-11-16T15:56:19.655Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Flight disruption claims",
-        "Outage reports",
-        "Rescue claims",
+        "Shipping risk claims",
         "Summit speculation",
-        "War and diplomacy claims"
+        "Flight recovery notes",
+        "Conflict claim updates",
+        "Multi-conflict monitoring"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Aviation",
-          "headline": "FAA ground stop hits US flights, X claims",
+          "category": "Geopolitics",
+          "headline": "X claims tankers mined near Hormuz",
           "paragraphs": [
-            "X posts claim a rare nationwide FAA ground stop after an air-traffic glitch or old gear overload.",
-            "Some say longest since 9/11. Causes conflict across accounts; restarts reported with delays."
+            "Users on X claim two oil tankers hit mines near the Strait of Hormuz.",
+            "Reports remain unverified with no official confirmation in the posts."
           ],
           "highlightParagraph": 0,
-          "trend": "Flight disruption claims",
+          "trend": "Shipping risk claims",
           "sources": [
             {
-              "label": "Pop Zonty",
-              "url": "https://x.com/popzonty/status/2121729967083978952"
-            },
-            {
-              "label": "Grok summary",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            },
-            {
-              "label": "Grok earlier",
-              "url": "https://x.com/grok/status/2121485318889123917"
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Pop Zonty",
-              "url": "https://x.com/popzonty/status/2121729967083978952"
-            },
-            {
-              "id": "101-1",
-              "text": "Grok summary",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            },
-            {
-              "id": "101-2",
-              "text": "Grok earlier",
-              "url": "https://x.com/grok/status/2121485318889123917"
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Technology",
-          "headline": "Microsoft outage reported then fixed on X",
-          "paragraphs": [
-            "X accounts report a global outage that hit Microsoft Outlook and Teams.",
-            "Posts say services were later restored. This bulletin cites social claims only."
-          ],
-          "highlightParagraph": 1,
-          "trend": "Outage reports",
-          "sources": [
-            {
-              "label": "Grok post",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "label": "TFI post",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
-            },
-            {
-              "label": "Grok update",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "102-0",
-              "text": "Grok post",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "id": "102-1",
-              "text": "TFI post",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
-            },
-            {
-              "id": "102-2",
-              "text": "Grok update",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ]
-        },
-        {
-          "page": 103,
-          "category": "Maritime",
-          "headline": "Tanker hits cruise ship, X reports",
-          "paragraphs": [
-            "Two X summaries report a tanker collided with a cruise ship in New Orleans.",
-            "They claim all of roughly 190 people were rescued. Treat as unverified social reports."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Rescue claims",
-          "sources": [
-            {
-              "label": "Grok post",
-              "url": "https://x.com/grok/status/2121485318889123917"
-            },
-            {
-              "label": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "103-0",
-              "text": "Grok post",
-              "url": "https://x.com/grok/status/2121485318889123917"
-            },
-            {
-              "id": "103-1",
-              "text": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ]
-        },
-        {
-          "page": 104,
           "category": "Diplomacy",
-          "headline": "X claims Trump, Putin, Xi summit planned",
+          "headline": "Claimed Trump-Xi-Putin summit Nov 19",
           "paragraphs": [
-            "Several X posts claim Trump, Putin and Xi will meet jointly in China next week.",
-            "Focus said to be nuclear cuts. Accounts present it as planned; confirmation absent here."
+            "X posts claim Trump, Xi Jinping and Putin plan a trilateral meeting on November 19.",
+            "The assertion circulates without noted official confirmation."
           ],
           "highlightParagraph": 0,
           "trend": "Summit speculation",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2121648287300063569"
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "102-0",
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+            }
+          ]
+        },
+        {
+          "page": 103,
+          "category": "Aviation",
+          "headline": "US airlines recovering from disruptions",
+          "paragraphs": [
+            "Discussions note US airlines recovering from a nationwide aviation disruption.",
+            "Causes are not specified in the circulating claims."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Flight recovery notes",
+          "sources": [
+            {
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             },
             {
-              "label": "TFI",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
+              "label": "SeekNaturalLife",
+              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "103-0",
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+            },
+            {
+              "id": "103-1",
+              "text": "SeekNaturalLife",
+              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+            }
+          ]
+        },
+        {
+          "page": 104,
+          "category": "Middle East",
+          "headline": "Israel claim of Hamas commander death",
+          "paragraphs": [
+            "Posts report Israel claiming it killed a senior Hamas commander.",
+            "Middle East tensions are described as high; the claim is unverified in the threads."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Conflict claim updates",
+          "sources": [
+            {
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            },
-            {
-              "id": "104-1",
-              "text": "TFI",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Conflict",
-          "headline": "Ukraine war and talks noted in X posts",
+          "category": "World Affairs",
+          "headline": "X tracks multiple global flashpoints",
           "paragraphs": [
-            "X summaries describe ongoing strikes between Ukraine and Russia alongside peace talks.",
-            "One claim: the US floated trading Donbas for NATO membership. All details are unverified posts."
+            "Accounts highlight Russia-Ukraine fighting, Iran risks and other regional tensions.",
+            "One summary states no world war, with risks described as medium and stable."
           ],
           "highlightParagraph": 1,
-          "trend": "War and diplomacy claims",
+          "trend": "Multi-conflict monitoring",
           "sources": [
             {
               "label": "Grok",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "label": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
+              "url": "https://x.com/grok/status/2121850028385882616"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
               "text": "Grok",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "id": "105-1",
-              "text": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
+              "url": "https://x.com/grok/status/2121850028385882616"
             }
           ]
         }
@@ -200,197 +146,143 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-15T15:18:59.813Z",
+      "updatedAt": "2026-11-16T15:56:19.655Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Flight disruption claims",
-        "Outage reports",
-        "Rescue claims",
+        "Shipping risk claims",
         "Summit speculation",
-        "War and diplomacy claims"
+        "Flight recovery notes",
+        "Conflict claim updates",
+        "Multi-conflict monitoring"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Flygtrafik",
-          "headline": "FAA-stopp för USA-flyg enligt X",
+          "category": "Geopolitik",
+          "headline": "X-påståenden om minor nära Hormuz",
           "paragraphs": [
-            "Inlägg på X hävdar ett sällsynt nationellt FAA-stopp efter glitch i flygledning eller överbelastad gammal utrustning.",
-            "Några säger längsta sedan 9/11. Orsaker skiljer sig; omstarter med förseningar rapporteras."
+            "Användare på X hävdar att två oljetankers träffades av minor nära Hormuzsundet.",
+            "Rapporterna är overifierade utan officiell bekräftelse i inläggen."
           ],
           "highlightParagraph": 0,
-          "trend": "Flight disruption claims",
+          "trend": "Shipping risk claims",
           "sources": [
             {
-              "label": "Pop Zonty",
-              "url": "https://x.com/popzonty/status/2121729967083978952"
-            },
-            {
-              "label": "Grok summary",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            },
-            {
-              "label": "Grok earlier",
-              "url": "https://x.com/grok/status/2121485318889123917"
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Pop Zonty",
-              "url": "https://x.com/popzonty/status/2121729967083978952"
-            },
-            {
-              "id": "101-1",
-              "text": "Grok summary",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            },
-            {
-              "id": "101-2",
-              "text": "Grok earlier",
-              "url": "https://x.com/grok/status/2121485318889123917"
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Teknik",
-          "headline": "Microsoft-avbrott rapporterat sedan fixat",
-          "paragraphs": [
-            "X-konton rapporterar ett globalt avbrott som drabbade Microsoft Outlook och Teams.",
-            "Inlägg säger att tjänsterna senare återställdes. Denna bulletin citerar endast sociala påståenden."
-          ],
-          "highlightParagraph": 1,
-          "trend": "Outage reports",
-          "sources": [
-            {
-              "label": "Grok post",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "label": "TFI post",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
-            },
-            {
-              "label": "Grok update",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "102-0",
-              "text": "Grok post",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "id": "102-1",
-              "text": "TFI post",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
-            },
-            {
-              "id": "102-2",
-              "text": "Grok update",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ]
-        },
-        {
-          "page": 103,
-          "category": "Sjöfart",
-          "headline": "Tanker krockar med kryssningsfartyg",
-          "paragraphs": [
-            "Två X-sammanfattningar rapporterar att en tanker kolliderade med ett kryssningsfartyg i New Orleans.",
-            "De hävdar att alla cirka 190 personer räddades. Behandla som overifierade sociala rapporter."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Rescue claims",
-          "sources": [
-            {
-              "label": "Grok post",
-              "url": "https://x.com/grok/status/2121485318889123917"
-            },
-            {
-              "label": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "103-0",
-              "text": "Grok post",
-              "url": "https://x.com/grok/status/2121485318889123917"
-            },
-            {
-              "id": "103-1",
-              "text": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ]
-        },
-        {
-          "page": 104,
           "category": "Diplomati",
-          "headline": "X hävdar toppmöte Trump Putin Xi",
+          "headline": "Påstått Trump-Xi-Putin-möte 19 nov",
           "paragraphs": [
-            "Flera X-inlägg hävdar att Trump, Putin och Xi ska mötas gemensamt i Kina nästa vecka.",
-            "Fokus sägs vara kärnvapenminskningar. Konton presenterar det som planerat; ingen bekräftelse här."
+            "Inlägg på X hävdar att Trump, Xi Jinping och Putin planerar ett trilateralt möte den 19 november.",
+            "Påståendet cirkulerar utan noterad officiell bekräftelse."
           ],
           "highlightParagraph": 0,
           "trend": "Summit speculation",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2121648287300063569"
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "102-0",
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+            }
+          ]
+        },
+        {
+          "page": 103,
+          "category": "Flyg",
+          "headline": "USA-flygbolag återhämtar sig från störningar",
+          "paragraphs": [
+            "Diskussioner noterar att USA-flygbolag återhämtar sig från en nationell flygstörning.",
+            "Orsaker specificeras inte i de cirkulerande påståendena."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Flight recovery notes",
+          "sources": [
+            {
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             },
             {
-              "label": "TFI",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
+              "label": "SeekNaturalLife",
+              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "103-0",
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+            },
+            {
+              "id": "103-1",
+              "text": "SeekNaturalLife",
+              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+            }
+          ]
+        },
+        {
+          "page": 104,
+          "category": "Mellanöstern",
+          "headline": "Israels påstående om Hamas-befälhavares död",
+          "paragraphs": [
+            "Inlägg rapporterar att Israel hävdar att de dödade en senior Hamas-befälhavare.",
+            "Spänningarna i Mellanöstern beskrivs som höga; påståendet är overifierat i trådarna."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Conflict claim updates",
+          "sources": [
+            {
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            },
-            {
-              "id": "104-1",
-              "text": "TFI",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Konflikt",
-          "headline": "Ukrainakrig och samtal i X-inlägg",
+          "category": "Världsfrågor",
+          "headline": "X följer flera globala brännpunkter",
           "paragraphs": [
-            "X-sammanfattningar beskriver pågående angrepp mellan Ukraina och Ryssland jämte fredssamtal.",
-            "Ett påstående: USA föreslog att byta Donbas mot NATO-medlemskap. Alla detaljer är overifierade inlägg."
+            "Konton lyfter fram Ryssland-Ukraina-strider, Iran-risker och andra regionala spänningar.",
+            "En sammanfattning anger inget världskrig, med risker beskrivna som medelhöga och stabila."
           ],
           "highlightParagraph": 1,
-          "trend": "War and diplomacy claims",
+          "trend": "Multi-conflict monitoring",
           "sources": [
             {
               "label": "Grok",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "label": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
+              "url": "https://x.com/grok/status/2121850028385882616"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
               "text": "Grok",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "id": "105-1",
-              "text": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
+              "url": "https://x.com/grok/status/2121850028385882616"
             }
           ]
         }
@@ -398,197 +290,143 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-15T15:18:59.813Z",
+      "updatedAt": "2026-11-16T15:56:19.655Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Flight disruption claims",
-        "Outage reports",
-        "Rescue claims",
+        "Shipping risk claims",
         "Summit speculation",
-        "War and diplomacy claims"
+        "Flight recovery notes",
+        "Conflict claim updates",
+        "Multi-conflict monitoring"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Luftfahrt",
-          "headline": "FAA-Stopp trifft US-Flüge, laut X",
+          "category": "Geopolitik",
+          "headline": "X-Behauptungen zu Minen bei Hormus",
           "paragraphs": [
-            "X-Beiträge behaupten einen seltenen landesweiten FAA-Stopp nach Flugsicherungsglitch oder Überlastung alter Geräte.",
-            "Manche nennen es die längste Störung seit 9/11. Ursachen widersprechen sich; Neustarts mit Verspätungen gemeldet."
+            "Nutzer auf X behaupten, zwei Öltanker seien nahe der Straße von Hormus von Minen getroffen worden.",
+            "Die Berichte sind unbestätigt ohne offizielle Bestätigung in den Posts."
           ],
           "highlightParagraph": 0,
-          "trend": "Flight disruption claims",
+          "trend": "Shipping risk claims",
           "sources": [
             {
-              "label": "Pop Zonty",
-              "url": "https://x.com/popzonty/status/2121729967083978952"
-            },
-            {
-              "label": "Grok summary",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            },
-            {
-              "label": "Grok earlier",
-              "url": "https://x.com/grok/status/2121485318889123917"
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Pop Zonty",
-              "url": "https://x.com/popzonty/status/2121729967083978952"
-            },
-            {
-              "id": "101-1",
-              "text": "Grok summary",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            },
-            {
-              "id": "101-2",
-              "text": "Grok earlier",
-              "url": "https://x.com/grok/status/2121485318889123917"
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Technologie",
-          "headline": "Microsoft-Ausfall gemeldet, dann behoben",
-          "paragraphs": [
-            "X-Konten berichten von einem globalen Ausfall, der Microsoft Outlook und Teams traf.",
-            "Beiträge sagen, Dienste seien später wiederhergestellt. Dieses Bulletin zitiert nur soziale Behauptungen."
-          ],
-          "highlightParagraph": 1,
-          "trend": "Outage reports",
-          "sources": [
-            {
-              "label": "Grok post",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "label": "TFI post",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
-            },
-            {
-              "label": "Grok update",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "102-0",
-              "text": "Grok post",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "id": "102-1",
-              "text": "TFI post",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
-            },
-            {
-              "id": "102-2",
-              "text": "Grok update",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ]
-        },
-        {
-          "page": 103,
-          "category": "Schifffahrt",
-          "headline": "Tanker trifft Kreuzfahrtschiff laut X",
-          "paragraphs": [
-            "Zwei X-Zusammenfassungen berichten, ein Tanker sei in New Orleans mit einem Kreuzfahrtschiff kollidiert.",
-            "Sie behaupten, alle rund 190 Personen seien gerettet worden. Als unbestätigte soziale Meldungen behandeln."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Rescue claims",
-          "sources": [
-            {
-              "label": "Grok post",
-              "url": "https://x.com/grok/status/2121485318889123917"
-            },
-            {
-              "label": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "103-0",
-              "text": "Grok post",
-              "url": "https://x.com/grok/status/2121485318889123917"
-            },
-            {
-              "id": "103-1",
-              "text": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ]
-        },
-        {
-          "page": 104,
           "category": "Diplomatie",
-          "headline": "X behauptet Gipfel Trump Putin Xi",
+          "headline": "Behauptetes Trump-Xi-Putin-Treffen 19. Nov",
           "paragraphs": [
-            "Mehrere X-Posts behaupten, Trump, Putin und Xi würden nächste Woche gemeinsam in China treffen.",
-            "Fokus sollen Atomkürzungen sein. Konten stellen es als geplant dar; keine Bestätigung hier."
+            "Posts auf X behaupten, Trump, Xi Jinping und Putin planen ein trilaterales Treffen am 19. November.",
+            "Die Behauptung zirkuliert ohne vermerkte offizielle Bestätigung."
           ],
           "highlightParagraph": 0,
           "trend": "Summit speculation",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2121648287300063569"
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "102-0",
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+            }
+          ]
+        },
+        {
+          "page": 103,
+          "category": "Luftfahrt",
+          "headline": "US-Airlines erholen sich von Störungen",
+          "paragraphs": [
+            "Diskussionen vermerken, dass US-Airlines sich von einer landesweiten Luftfahrtstörung erholen.",
+            "Ursachen werden in den zirkulierenden Behauptungen nicht genannt."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Flight recovery notes",
+          "sources": [
+            {
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             },
             {
-              "label": "TFI",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
+              "label": "SeekNaturalLife",
+              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "103-0",
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+            },
+            {
+              "id": "103-1",
+              "text": "SeekNaturalLife",
+              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+            }
+          ]
+        },
+        {
+          "page": 104,
+          "category": "Naher Osten",
+          "headline": "Israels Behauptung zum Tod eines Hamas-Kommandeurs",
+          "paragraphs": [
+            "Posts berichten, Israel behaupte, einen hochrangigen Hamas-Kommandeur getötet zu haben.",
+            "Spannungen im Nahen Osten werden als hoch beschrieben; die Behauptung ist in den Threads unbestätigt."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Conflict claim updates",
+          "sources": [
+            {
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            },
-            {
-              "id": "104-1",
-              "text": "TFI",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Konflikt",
-          "headline": "Ukrainekrieg und Gespräche in X-Posts",
+          "category": "Weltgeschehen",
+          "headline": "X verfolgt mehrere globale Brennpunkte",
           "paragraphs": [
-            "X-Zusammenfassungen beschreiben anhaltende Angriffe zwischen der Ukraine und Russland neben Friedensgesprächen.",
-            "Eine Behauptung: die USA schlugen vor, Donbas gegen NATO-Mitgliedschaft zu tauschen. Alle Details sind unbestätigte Posts."
+            "Konten heben Kämpfe Russland-Ukraine, Iran-Risiken und andere regionale Spannungen hervor.",
+            "Eine Zusammenfassung besagt kein Weltkrieg, mit Risiken als mittel und stabil beschrieben."
           ],
           "highlightParagraph": 1,
-          "trend": "War and diplomacy claims",
+          "trend": "Multi-conflict monitoring",
           "sources": [
             {
               "label": "Grok",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "label": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
+              "url": "https://x.com/grok/status/2121850028385882616"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
               "text": "Grok",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "id": "105-1",
-              "text": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
+              "url": "https://x.com/grok/status/2121850028385882616"
             }
           ]
         }
@@ -596,197 +434,143 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-15T15:18:59.813Z",
+      "updatedAt": "2026-11-16T15:56:19.655Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Flight disruption claims",
-        "Outage reports",
-        "Rescue claims",
+        "Shipping risk claims",
         "Summit speculation",
-        "War and diplomacy claims"
+        "Flight recovery notes",
+        "Conflict claim updates",
+        "Multi-conflict monitoring"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Aviación",
-          "headline": "Parada de la FAA afecta vuelos de EE.UU.",
+          "category": "Geopolítica",
+          "headline": "Afirmaciones en X de minas cerca de Ormuz",
           "paragraphs": [
-            "Posts en X afirman una rara parada nacional de la FAA tras un glitch de tráfico aéreo o sobrecarga de equipo viejo.",
-            "Algunos dicen la más larga desde el 11-S. Las causas chocan; se reportan reinicios con retrasos."
+            "Usuarios en X afirman que dos petroleros fueron alcanzados por minas cerca del Estrecho de Ormuz.",
+            "Los informes no están verificados sin confirmación oficial en las publicaciones."
           ],
           "highlightParagraph": 0,
-          "trend": "Flight disruption claims",
+          "trend": "Shipping risk claims",
           "sources": [
             {
-              "label": "Pop Zonty",
-              "url": "https://x.com/popzonty/status/2121729967083978952"
-            },
-            {
-              "label": "Grok summary",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            },
-            {
-              "label": "Grok earlier",
-              "url": "https://x.com/grok/status/2121485318889123917"
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Pop Zonty",
-              "url": "https://x.com/popzonty/status/2121729967083978952"
-            },
-            {
-              "id": "101-1",
-              "text": "Grok summary",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            },
-            {
-              "id": "101-2",
-              "text": "Grok earlier",
-              "url": "https://x.com/grok/status/2121485318889123917"
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Tecnología",
-          "headline": "Caída de Microsoft reportada y luego arreglada",
-          "paragraphs": [
-            "Cuentas de X reportan una caída global que afectó a Outlook y Teams de Microsoft.",
-            "Los posts dicen que los servicios se restauraron después. Este boletín cita solo afirmaciones sociales."
-          ],
-          "highlightParagraph": 1,
-          "trend": "Outage reports",
-          "sources": [
-            {
-              "label": "Grok post",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "label": "TFI post",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
-            },
-            {
-              "label": "Grok update",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "102-0",
-              "text": "Grok post",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "id": "102-1",
-              "text": "TFI post",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
-            },
-            {
-              "id": "102-2",
-              "text": "Grok update",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ]
-        },
-        {
-          "page": 103,
-          "category": "Marítimo",
-          "headline": "Petrolero choca con crucero según X",
-          "paragraphs": [
-            "Dos resúmenes en X reportan que un petrolero chocó con un crucero en Nueva Orleans.",
-            "Afirman que las aproximadamente 190 personas fueron rescatadas. Tratar como informes sociales no verificados."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Rescue claims",
-          "sources": [
-            {
-              "label": "Grok post",
-              "url": "https://x.com/grok/status/2121485318889123917"
-            },
-            {
-              "label": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "103-0",
-              "text": "Grok post",
-              "url": "https://x.com/grok/status/2121485318889123917"
-            },
-            {
-              "id": "103-1",
-              "text": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ]
-        },
-        {
-          "page": 104,
           "category": "Diplomacia",
-          "headline": "X afirma cumbre de Trump, Putin y Xi",
+          "headline": "Cumbre Trump-Xi-Putin alegada el 19 nov",
           "paragraphs": [
-            "Varios posts en X afirman que Trump, Putin y Xi se reunirán juntos en China la próxima semana.",
-            "El foco sería recortes nucleares. Las cuentas lo presentan como planeado; sin confirmación aquí."
+            "Publicaciones en X afirman que Trump, Xi Jinping y Putin planean una reunión trilateral el 19 de noviembre.",
+            "La afirmación circula sin confirmación oficial señalada."
           ],
           "highlightParagraph": 0,
           "trend": "Summit speculation",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2121648287300063569"
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "102-0",
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+            }
+          ]
+        },
+        {
+          "page": 103,
+          "category": "Aviación",
+          "headline": "Aerolíneas de EE.UU. se recuperan de interrupciones",
+          "paragraphs": [
+            "Las discusiones señalan que las aerolíneas de EE.UU. se recuperan de una interrupción aérea nacional.",
+            "Las causas no se especifican en las afirmaciones circulantes."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Flight recovery notes",
+          "sources": [
+            {
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             },
             {
-              "label": "TFI",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
+              "label": "SeekNaturalLife",
+              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "103-0",
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+            },
+            {
+              "id": "103-1",
+              "text": "SeekNaturalLife",
+              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+            }
+          ]
+        },
+        {
+          "page": 104,
+          "category": "Oriente Medio",
+          "headline": "Afirmación de Israel sobre muerte de comandante de Hamás",
+          "paragraphs": [
+            "Las publicaciones informan que Israel afirma haber matado a un comandante senior de Hamás.",
+            "Las tensiones en Oriente Medio se describen como altas; la afirmación no está verificada en los hilos."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Conflict claim updates",
+          "sources": [
+            {
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            },
-            {
-              "id": "104-1",
-              "text": "TFI",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Conflicto",
-          "headline": "Guerra de Ucrania y charlas en posts de X",
+          "category": "Asuntos mundiales",
+          "headline": "X sigue múltiples puntos críticos globales",
           "paragraphs": [
-            "Resúmenes en X describen ataques continuos entre Ucrania y Rusia junto a conversaciones de paz.",
-            "Una afirmación: EE.UU. propuso ceder Donbás por membresía en la OTAN. Todos los detalles son posts no verificados."
+            "Las cuentas destacan combates Rusia-Ucrania, riesgos de Irán y otras tensiones regionales.",
+            "Un resumen indica que no hay guerra mundial, con riesgos descritos como medios y estables."
           ],
           "highlightParagraph": 1,
-          "trend": "War and diplomacy claims",
+          "trend": "Multi-conflict monitoring",
           "sources": [
             {
               "label": "Grok",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "label": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
+              "url": "https://x.com/grok/status/2121850028385882616"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
               "text": "Grok",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "id": "105-1",
-              "text": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
+              "url": "https://x.com/grok/status/2121850028385882616"
             }
           ]
         }
@@ -794,197 +578,143 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-15T15:18:59.813Z",
+      "updatedAt": "2026-11-16T15:56:19.655Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Flight disruption claims",
-        "Outage reports",
-        "Rescue claims",
+        "Shipping risk claims",
         "Summit speculation",
-        "War and diplomacy claims"
+        "Flight recovery notes",
+        "Conflict claim updates",
+        "Multi-conflict monitoring"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Aviation",
-          "headline": "Arrêt FAA cloue les vols US, selon X",
+          "category": "Géopolitique",
+          "headline": "Allégations sur X de mines près d'Ormuz",
           "paragraphs": [
-            "Des posts X affirment un rare arrêt national de la FAA après un bug du contrôle aérien ou une surcharge d’équipement ancien.",
-            "Certains disent la plus longue depuis le 11/9. Les causes divergent ; des redémarrages avec retards sont signalés."
+            "Des utilisateurs sur X affirment que deux pétroliers ont été touchés par des mines près du détroit d'Ormuz.",
+            "Les rapports ne sont pas vérifiés sans confirmation officielle dans les posts."
           ],
           "highlightParagraph": 0,
-          "trend": "Flight disruption claims",
+          "trend": "Shipping risk claims",
           "sources": [
             {
-              "label": "Pop Zonty",
-              "url": "https://x.com/popzonty/status/2121729967083978952"
-            },
-            {
-              "label": "Grok summary",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            },
-            {
-              "label": "Grok earlier",
-              "url": "https://x.com/grok/status/2121485318889123917"
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Pop Zonty",
-              "url": "https://x.com/popzonty/status/2121729967083978952"
-            },
-            {
-              "id": "101-1",
-              "text": "Grok summary",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            },
-            {
-              "id": "101-2",
-              "text": "Grok earlier",
-              "url": "https://x.com/grok/status/2121485318889123917"
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Technologie",
-          "headline": "Panne Microsoft signalée puis réparée",
-          "paragraphs": [
-            "Des comptes X signalent une panne mondiale ayant touché Outlook et Teams de Microsoft.",
-            "Les posts disent que les services ont été rétablis ensuite. Ce bulletin ne cite que des affirmations sociales."
-          ],
-          "highlightParagraph": 1,
-          "trend": "Outage reports",
-          "sources": [
-            {
-              "label": "Grok post",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "label": "TFI post",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
-            },
-            {
-              "label": "Grok update",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "102-0",
-              "text": "Grok post",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "id": "102-1",
-              "text": "TFI post",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
-            },
-            {
-              "id": "102-2",
-              "text": "Grok update",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ]
-        },
-        {
-          "page": 103,
-          "category": "Maritime",
-          "headline": "Collision tanker-paquebot signalée sur X",
-          "paragraphs": [
-            "Deux résumés X rapportent qu’un tanker a heurté un paquebot à La Nouvelle-Orléans.",
-            "Ils affirment que les quelque 190 personnes ont été sauvées. À traiter comme des rapports sociaux non vérifiés."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Rescue claims",
-          "sources": [
-            {
-              "label": "Grok post",
-              "url": "https://x.com/grok/status/2121485318889123917"
-            },
-            {
-              "label": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "103-0",
-              "text": "Grok post",
-              "url": "https://x.com/grok/status/2121485318889123917"
-            },
-            {
-              "id": "103-1",
-              "text": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            }
-          ]
-        },
-        {
-          "page": 104,
           "category": "Diplomatie",
-          "headline": "X affirme un sommet Trump Poutine Xi",
+          "headline": "Sommet Trump-Xi-Poutine allégué le 19 nov",
           "paragraphs": [
-            "Plusieurs posts X affirment que Trump, Poutine et Xi se rencontreront ensemble en Chine la semaine prochaine.",
-            "L’accent serait mis sur des coupes nucléaires. Présenté comme prévu ; pas de confirmation ici."
+            "Des posts sur X affirment que Trump, Xi Jinping et Poutine prévoient une réunion trilatérale le 19 novembre.",
+            "L'affirmation circule sans confirmation officielle notée."
           ],
           "highlightParagraph": 0,
           "trend": "Summit speculation",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2121648287300063569"
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "102-0",
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+            }
+          ]
+        },
+        {
+          "page": 103,
+          "category": "Aviation",
+          "headline": "Compagnies US se remettent des perturbations",
+          "paragraphs": [
+            "Les discussions notent que les compagnies américaines se remettent d'une perturbation aérienne nationale.",
+            "Les causes ne sont pas précisées dans les allégations circulantes."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Flight recovery notes",
+          "sources": [
+            {
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             },
             {
-              "label": "TFI",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
+              "label": "SeekNaturalLife",
+              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "103-0",
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+            },
+            {
+              "id": "103-1",
+              "text": "SeekNaturalLife",
+              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+            }
+          ]
+        },
+        {
+          "page": 104,
+          "category": "Moyen-Orient",
+          "headline": "Allégation d'Israël sur la mort d'un commandant du Hamas",
+          "paragraphs": [
+            "Des posts rapportent qu'Israël affirme avoir tué un commandant senior du Hamas.",
+            "Les tensions au Moyen-Orient sont décrites comme élevées ; l'allégation n'est pas vérifiée dans les fils."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Conflict claim updates",
+          "sources": [
+            {
+              "label": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2121648287300063569"
-            },
-            {
-              "id": "104-1",
-              "text": "TFI",
-              "url": "https://x.com/Night24L/status/2121598796295790719"
+              "text": "DashuBannaDeora",
+              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Conflit",
-          "headline": "Guerre d’Ukraine et pourparlers sur X",
+          "category": "Affaires mondiales",
+          "headline": "X suit plusieurs points chauds mondiaux",
           "paragraphs": [
-            "Des résumés X décrivent des frappes continues entre l’Ukraine et la Russie aux côtés de pourparlers de paix.",
-            "Une affirmation : les États-Unis auraient proposé de céder le Donbass contre l’adhésion à l’OTAN. Détails non vérifiés."
+            "Des comptes mettent en avant les combats Russie-Ukraine, les risques iraniens et d'autres tensions régionales.",
+            "Un résumé indique pas de guerre mondiale, avec des risques décrits comme moyens et stables."
           ],
           "highlightParagraph": 1,
-          "trend": "War and diplomacy claims",
+          "trend": "Multi-conflict monitoring",
           "sources": [
             {
               "label": "Grok",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "label": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
+              "url": "https://x.com/grok/status/2121850028385882616"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
               "text": "Grok",
-              "url": "https://x.com/grok/status/2121486202062664123"
-            },
-            {
-              "id": "105-1",
-              "text": "Grok later",
-              "url": "https://x.com/grok/status/2121648287300063569"
+              "url": "https://x.com/grok/status/2121850028385882616"
             }
           ]
         }
