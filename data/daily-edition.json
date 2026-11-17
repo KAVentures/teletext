@@ -1,144 +1,162 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-16T15:56:19.655Z",
+      "updatedAt": "2026-11-17T16:08:21.876Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Shipping risk claims",
-        "Summit speculation",
-        "Flight recovery notes",
-        "Conflict claim updates",
-        "Multi-conflict monitoring"
+        "Summit talk",
+        "War claims",
+        "Gulf tension",
+        "Travel delay",
+        "Street unrest"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Geopolitics",
-          "headline": "X claims tankers mined near Hormuz",
+          "category": "Diplomacy",
+          "headline": "Trump set for Xi-Putin summit",
           "paragraphs": [
-            "Users on X claim two oil tankers hit mines near the Strait of Hormuz.",
-            "Reports remain unverified with no official confirmation in the posts."
+            "X posts claim Trump heads to Asia for a first trilateral with Xi and Putin in Shenzhen on Thursday, on APEC sidelines.",
+            "China is said to call it groundbreaking. These are platform claims, not proof."
           ],
-          "highlightParagraph": 0,
-          "trend": "Shipping risk claims",
+          "highlightParagraph": 1,
+          "trend": "Summit talk",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "label": "@ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "id": "101-1",
+              "text": "@ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Diplomacy",
-          "headline": "Claimed Trump-Xi-Putin summit Nov 19",
+          "category": "Conflict",
+          "headline": "Ukraine drone barrage claimed",
           "paragraphs": [
-            "X posts claim Trump, Xi Jinping and Putin plan a trilateral meeting on November 19.",
-            "The assertion circulates without noted official confirmation."
+            "Posts claim Ukraine's biggest drone barrage hit Russia, including the Kerch bridge, with only minor damage asserted.",
+            "One account also claims attacks on merchant ships. Scale and damage are disputed and unverified here."
           ],
-          "highlightParagraph": 0,
-          "trend": "Summit speculation",
+          "highlightParagraph": 1,
+          "trend": "War claims",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "label": "@CasualtyCharts",
+              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "id": "102-1",
+              "text": "@CasualtyCharts",
+              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Aviation",
-          "headline": "US airlines recovering from disruptions",
+          "category": "Middle East",
+          "headline": "Iran claims Bahrain radar hit",
           "paragraphs": [
-            "Discussions note US airlines recovering from a nationwide aviation disruption.",
-            "Causes are not specified in the circulating claims."
+            "X digests say Iran claimed a drone strike on a Bahrain radar site amid tanker tension near Hormuz.",
+            "The strike is reported as an Iranian claim only. No independent confirmation appears in these posts."
           ],
-          "highlightParagraph": 0,
-          "trend": "Flight recovery notes",
+          "highlightParagraph": 1,
+          "trend": "Gulf tension",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             },
             {
-              "label": "SeekNaturalLife",
-              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+              "label": "@mycomagis",
+              "url": "https://x.com/mycomagis/status/2122391829874123240"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             },
             {
               "id": "103-1",
-              "text": "SeekNaturalLife",
-              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+              "text": "@mycomagis",
+              "url": "https://x.com/mycomagis/status/2122391829874123240"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Middle East",
-          "headline": "Israel claim of Hamas commander death",
+          "category": "Transport",
+          "headline": "US flights still recovering",
           "paragraphs": [
-            "Posts report Israel claiming it killed a senior Hamas commander.",
-            "Middle East tensions are described as high; the claim is unverified in the threads."
+            "Summaries on X say US flights remain disrupted after Friday's nationwide ground stop.",
+            "Posts do not state a cause. Recovery is described as incomplete."
           ],
           "highlightParagraph": 0,
-          "trend": "Conflict claim updates",
+          "trend": "Travel delay",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             }
           ]
         },
         {
           "page": 105,
-          "category": "World Affairs",
-          "headline": "X tracks multiple global flashpoints",
+          "category": "Europe",
+          "headline": "Bordeaux protests turn violent",
           "paragraphs": [
-            "Accounts highlight Russia-Ukraine fighting, Iran risks and other regional tensions.",
-            "One summary states no world war, with risks described as medium and stable."
+            "A world-news roundup on X says anti-government protests in Bordeaux turned violent, with police clashes.",
+            "The post gives no casualty figures or official response. Treat it as a reported claim."
           ],
           "highlightParagraph": 1,
-          "trend": "Multi-conflict monitoring",
+          "trend": "Street unrest",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2121850028385882616"
+              "label": "@guguddetvuganda",
+              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2121850028385882616"
+              "text": "@guguddetvuganda",
+              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
             }
           ]
         }
@@ -146,143 +164,161 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-16T15:56:19.655Z",
+      "updatedAt": "2026-11-17T16:08:21.876Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Shipping risk claims",
-        "Summit speculation",
-        "Flight recovery notes",
-        "Conflict claim updates",
-        "Multi-conflict monitoring"
+        "Summit talk",
+        "War claims",
+        "Gulf tension",
+        "Travel delay",
+        "Street unrest"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Geopolitik",
-          "headline": "X-påståenden om minor nära Hormuz",
+          "category": "Diplomati",
+          "headline": "Trump mot toppmöte med Xi och Putin",
           "paragraphs": [
-            "Användare på X hävdar att två oljetankers träffades av minor nära Hormuzsundet.",
-            "Rapporterna är overifierade utan officiell bekräftelse i inläggen."
+            "Inlägg på X hävdar att Trump reser till Asien för ett första trilateralt möte med Xi och Putin i Shenzhen på torsdag, vid APEC.",
+            "Kina ska kalla det banbrytande. Det är plattformspåståenden, inte bevis."
           ],
-          "highlightParagraph": 0,
-          "trend": "Shipping risk claims",
+          "highlightParagraph": 1,
+          "trend": "Summit talk",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "label": "@ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "id": "101-1",
+              "text": "@ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Diplomati",
-          "headline": "Påstått Trump-Xi-Putin-möte 19 nov",
+          "category": "Konflikt",
+          "headline": "Ukraina uppges ha drönaranfall",
           "paragraphs": [
-            "Inlägg på X hävdar att Trump, Xi Jinping och Putin planerar ett trilateralt möte den 19 november.",
-            "Påståendet cirkulerar utan noterad officiell bekräftelse."
+            "Inlägg hävdar att Ukrainas största drönarvåg träffade Ryssland, även Kertjbron, med bara mindre skada.",
+            "Ett konto hävdar också angrepp på handelsfartyg. Omfattning och skada är omstridda och obekräftade här."
           ],
-          "highlightParagraph": 0,
-          "trend": "Summit speculation",
+          "highlightParagraph": 1,
+          "trend": "War claims",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "label": "@CasualtyCharts",
+              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "id": "102-1",
+              "text": "@CasualtyCharts",
+              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Flyg",
-          "headline": "USA-flygbolag återhämtar sig från störningar",
+          "category": "Mellanöstern",
+          "headline": "Iran uppger träff på Bahrainradar",
           "paragraphs": [
-            "Diskussioner noterar att USA-flygbolag återhämtar sig från en nationell flygstörning.",
-            "Orsaker specificeras inte i de cirkulerande påståendena."
+            "Sammanfattningar på X säger att Iran hävdar en drönarattack mot en radar i Bahrain mitt i tankerspänning vid Hormuz.",
+            "Träffen återges bara som ett iranskt påstående. Ingen oberoende bekräftelse finns i inläggen."
           ],
-          "highlightParagraph": 0,
-          "trend": "Flight recovery notes",
+          "highlightParagraph": 1,
+          "trend": "Gulf tension",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             },
             {
-              "label": "SeekNaturalLife",
-              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+              "label": "@mycomagis",
+              "url": "https://x.com/mycomagis/status/2122391829874123240"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             },
             {
               "id": "103-1",
-              "text": "SeekNaturalLife",
-              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+              "text": "@mycomagis",
+              "url": "https://x.com/mycomagis/status/2122391829874123240"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Mellanöstern",
-          "headline": "Israels påstående om Hamas-befälhavares död",
+          "category": "Transport",
+          "headline": "USA-flyg återhämtar sig ännu",
           "paragraphs": [
-            "Inlägg rapporterar att Israel hävdar att de dödade en senior Hamas-befälhavare.",
-            "Spänningarna i Mellanöstern beskrivs som höga; påståendet är overifierat i trådarna."
+            "Sammanfattningar på X säger att USA-flyg fortfarande störs efter fredagens nationella markstopp.",
+            "Inläggen anger ingen orsak. Återhämtningen beskrivs som ofullständig."
           ],
           "highlightParagraph": 0,
-          "trend": "Conflict claim updates",
+          "trend": "Travel delay",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Världsfrågor",
-          "headline": "X följer flera globala brännpunkter",
+          "category": "Europa",
+          "headline": "Protester i Bordeaux blev våldsamma",
           "paragraphs": [
-            "Konton lyfter fram Ryssland-Ukraina-strider, Iran-risker och andra regionala spänningar.",
-            "En sammanfattning anger inget världskrig, med risker beskrivna som medelhöga och stabila."
+            "En nyhetsrunda på X säger att regeringskritiska protester i Bordeaux blev våldsamma, med sammandrabbningar med polis.",
+            "Inlägget ger inga siffror om skadade eller officiellt svar. Se det som ett rapporterat påstående."
           ],
           "highlightParagraph": 1,
-          "trend": "Multi-conflict monitoring",
+          "trend": "Street unrest",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2121850028385882616"
+              "label": "@guguddetvuganda",
+              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2121850028385882616"
+              "text": "@guguddetvuganda",
+              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
             }
           ]
         }
@@ -290,143 +326,161 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-16T15:56:19.655Z",
+      "updatedAt": "2026-11-17T16:08:21.876Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Shipping risk claims",
-        "Summit speculation",
-        "Flight recovery notes",
-        "Conflict claim updates",
-        "Multi-conflict monitoring"
+        "Summit talk",
+        "War claims",
+        "Gulf tension",
+        "Travel delay",
+        "Street unrest"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Geopolitik",
-          "headline": "X-Behauptungen zu Minen bei Hormus",
+          "category": "Diplomatie",
+          "headline": "Trump vor Gipfel mit Xi und Putin",
           "paragraphs": [
-            "Nutzer auf X behaupten, zwei Öltanker seien nahe der Straße von Hormus von Minen getroffen worden.",
-            "Die Berichte sind unbestätigt ohne offizielle Bestätigung in den Posts."
+            "Beiträge auf X behaupten, Trump reise nach Asien zu einem ersten Dreiergipfel mit Xi und Putin in Shenzhen am Donnerstag, am Rande von APEC.",
+            "China soll ihn bahnbrechend nennen. Es sind Plattformbehauptungen, kein Beweis."
           ],
-          "highlightParagraph": 0,
-          "trend": "Shipping risk claims",
+          "highlightParagraph": 1,
+          "trend": "Summit talk",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "label": "@ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "id": "101-1",
+              "text": "@ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Diplomatie",
-          "headline": "Behauptetes Trump-Xi-Putin-Treffen 19. Nov",
+          "category": "Konflikt",
+          "headline": "Ukraine-Drohnenwelle behauptet",
           "paragraphs": [
-            "Posts auf X behaupten, Trump, Xi Jinping und Putin planen ein trilaterales Treffen am 19. November.",
-            "Die Behauptung zirkuliert ohne vermerkte offizielle Bestätigung."
+            "Beiträge behaupten, die größte ukrainische Drohnenwelle habe Russland getroffen, auch die Kertsch-Brücke, mit nur geringen Schäden.",
+            "Ein Konto behauptet auch Angriffe auf Handelsschiffe. Ausmaß und Schaden sind umstritten und hier unbestätigt."
           ],
-          "highlightParagraph": 0,
-          "trend": "Summit speculation",
+          "highlightParagraph": 1,
+          "trend": "War claims",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "label": "@CasualtyCharts",
+              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "id": "102-1",
+              "text": "@CasualtyCharts",
+              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Luftfahrt",
-          "headline": "US-Airlines erholen sich von Störungen",
+          "category": "Nahost",
+          "headline": "Iran meldet Treffer auf Bahrain-Radar",
           "paragraphs": [
-            "Diskussionen vermerken, dass US-Airlines sich von einer landesweiten Luftfahrtstörung erholen.",
-            "Ursachen werden in den zirkulierenden Behauptungen nicht genannt."
+            "Zusammenfassungen auf X sagen, Iran beanspruche einen Drohnenangriff auf ein Radar in Bahrain mitten in Spannungen um Tanker bei Hormus.",
+            "Der Treffer wird nur als iranische Behauptung wiedergegeben. Keine unabhängige Bestätigung steht in den Beiträgen."
           ],
-          "highlightParagraph": 0,
-          "trend": "Flight recovery notes",
+          "highlightParagraph": 1,
+          "trend": "Gulf tension",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             },
             {
-              "label": "SeekNaturalLife",
-              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+              "label": "@mycomagis",
+              "url": "https://x.com/mycomagis/status/2122391829874123240"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             },
             {
               "id": "103-1",
-              "text": "SeekNaturalLife",
-              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+              "text": "@mycomagis",
+              "url": "https://x.com/mycomagis/status/2122391829874123240"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Naher Osten",
-          "headline": "Israels Behauptung zum Tod eines Hamas-Kommandeurs",
+          "category": "Verkehr",
+          "headline": "US-Flüge erholen sich noch",
           "paragraphs": [
-            "Posts berichten, Israel behaupte, einen hochrangigen Hamas-Kommandeur getötet zu haben.",
-            "Spannungen im Nahen Osten werden als hoch beschrieben; die Behauptung ist in den Threads unbestätigt."
+            "Zusammenfassungen auf X sagen, US-Flüge seien nach dem landesweiten Bodenstopp vom Freitag weiter gestört.",
+            "Die Beiträge nennen keine Ursache. Die Erholung gilt als unvollständig."
           ],
           "highlightParagraph": 0,
-          "trend": "Conflict claim updates",
+          "trend": "Travel delay",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Weltgeschehen",
-          "headline": "X verfolgt mehrere globale Brennpunkte",
+          "category": "Europa",
+          "headline": "Proteste in Bordeaux wurden gewaltsam",
           "paragraphs": [
-            "Konten heben Kämpfe Russland-Ukraine, Iran-Risiken und andere regionale Spannungen hervor.",
-            "Eine Zusammenfassung besagt kein Weltkrieg, mit Risiken als mittel und stabil beschrieben."
+            "Eine Nachrichtensammlung auf X sagt, regierungskritische Proteste in Bordeaux seien gewaltsam geworden, mit Zusammenstößen mit der Polizei.",
+            "Der Beitrag nennt keine Opferzahlen oder offizielle Reaktion. Als gemeldete Behauptung behandeln."
           ],
           "highlightParagraph": 1,
-          "trend": "Multi-conflict monitoring",
+          "trend": "Street unrest",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2121850028385882616"
+              "label": "@guguddetvuganda",
+              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2121850028385882616"
+              "text": "@guguddetvuganda",
+              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
             }
           ]
         }
@@ -434,143 +488,161 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-16T15:56:19.655Z",
+      "updatedAt": "2026-11-17T16:08:21.876Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Shipping risk claims",
-        "Summit speculation",
-        "Flight recovery notes",
-        "Conflict claim updates",
-        "Multi-conflict monitoring"
+        "Summit talk",
+        "War claims",
+        "Gulf tension",
+        "Travel delay",
+        "Street unrest"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Geopolítica",
-          "headline": "Afirmaciones en X de minas cerca de Ormuz",
+          "category": "Diplomacia",
+          "headline": "Trump, hacia cumbre con Xi y Putin",
           "paragraphs": [
-            "Usuarios en X afirman que dos petroleros fueron alcanzados por minas cerca del Estrecho de Ormuz.",
-            "Los informes no están verificados sin confirmación oficial en las publicaciones."
+            "Publicaciones en X afirman que Trump viaja a Asia para una primera cumbre trilateral con Xi y Putin en Shenzhen el jueves, al margen de APEC.",
+            "Se dice que China lo llama histórico. Son afirmaciones de la plataforma, no pruebas."
           ],
-          "highlightParagraph": 0,
-          "trend": "Shipping risk claims",
+          "highlightParagraph": 1,
+          "trend": "Summit talk",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "label": "@ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "id": "101-1",
+              "text": "@ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Diplomacia",
-          "headline": "Cumbre Trump-Xi-Putin alegada el 19 nov",
+          "category": "Conflicto",
+          "headline": "Se afirma oleada de drones de Ucrania",
           "paragraphs": [
-            "Publicaciones en X afirman que Trump, Xi Jinping y Putin planean una reunión trilateral el 19 de noviembre.",
-            "La afirmación circula sin confirmación oficial señalada."
+            "Publicaciones afirman que la mayor oleada de drones de Ucrania golpeó Rusia, incluido el puente de Kerch, con solo daños menores.",
+            "Una cuenta también afirma ataques a buques mercantes. La escala y los daños están en disputa y no verificados aquí."
           ],
-          "highlightParagraph": 0,
-          "trend": "Summit speculation",
+          "highlightParagraph": 1,
+          "trend": "War claims",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "label": "@CasualtyCharts",
+              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "id": "102-1",
+              "text": "@CasualtyCharts",
+              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Aviación",
-          "headline": "Aerolíneas de EE.UU. se recuperan de interrupciones",
+          "category": "Oriente Medio",
+          "headline": "Irán afirma ataque a radar en Baréin",
           "paragraphs": [
-            "Las discusiones señalan que las aerolíneas de EE.UU. se recuperan de una interrupción aérea nacional.",
-            "Las causas no se especifican en las afirmaciones circulantes."
+            "Resúmenes en X dicen que Irán afirmó un ataque con dron a un radar en Baréin, en medio de tensión por petroleros en Ormuz.",
+            "El golpe se presenta solo como afirmación iraní. No hay confirmación independiente en estas publicaciones."
           ],
-          "highlightParagraph": 0,
-          "trend": "Flight recovery notes",
+          "highlightParagraph": 1,
+          "trend": "Gulf tension",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             },
             {
-              "label": "SeekNaturalLife",
-              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+              "label": "@mycomagis",
+              "url": "https://x.com/mycomagis/status/2122391829874123240"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             },
             {
               "id": "103-1",
-              "text": "SeekNaturalLife",
-              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+              "text": "@mycomagis",
+              "url": "https://x.com/mycomagis/status/2122391829874123240"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Oriente Medio",
-          "headline": "Afirmación de Israel sobre muerte de comandante de Hamás",
+          "category": "Transporte",
+          "headline": "Vuelos de EE. UU. aún se recuperan",
           "paragraphs": [
-            "Las publicaciones informan que Israel afirma haber matado a un comandante senior de Hamás.",
-            "Las tensiones en Oriente Medio se describen como altas; la afirmación no está verificada en los hilos."
+            "Resúmenes en X dicen que los vuelos de EE. UU. siguen alterados tras la parada en tierra nacional del viernes.",
+            "Las publicaciones no indican la causa. La recuperación se describe como incompleta."
           ],
           "highlightParagraph": 0,
-          "trend": "Conflict claim updates",
+          "trend": "Travel delay",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Asuntos mundiales",
-          "headline": "X sigue múltiples puntos críticos globales",
+          "category": "Europa",
+          "headline": "Protestas violentas en Burdeos",
           "paragraphs": [
-            "Las cuentas destacan combates Rusia-Ucrania, riesgos de Irán y otras tensiones regionales.",
-            "Un resumen indica que no hay guerra mundial, con riesgos descritos como medios y estables."
+            "Un resumen en X dice que protestas antigubernamentales en Burdeos se volvieron violentas, con choques con la policía.",
+            "La publicación no da cifras de heridos ni respuesta oficial. Trátelo como una afirmación reportada."
           ],
           "highlightParagraph": 1,
-          "trend": "Multi-conflict monitoring",
+          "trend": "Street unrest",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2121850028385882616"
+              "label": "@guguddetvuganda",
+              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2121850028385882616"
+              "text": "@guguddetvuganda",
+              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
             }
           ]
         }
@@ -578,143 +650,161 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-16T15:56:19.655Z",
+      "updatedAt": "2026-11-17T16:08:21.876Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Shipping risk claims",
-        "Summit speculation",
-        "Flight recovery notes",
-        "Conflict claim updates",
-        "Multi-conflict monitoring"
+        "Summit talk",
+        "War claims",
+        "Gulf tension",
+        "Travel delay",
+        "Street unrest"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Géopolitique",
-          "headline": "Allégations sur X de mines près d'Ormuz",
+          "category": "Diplomatie",
+          "headline": "Trump vers un sommet Xi-Poutine",
           "paragraphs": [
-            "Des utilisateurs sur X affirment que deux pétroliers ont été touchés par des mines près du détroit d'Ormuz.",
-            "Les rapports ne sont pas vérifiés sans confirmation officielle dans les posts."
+            "Des posts sur X affirment que Trump part en Asie pour un premier sommet trilatéral avec Xi et Poutine à Shenzhen jeudi, en marge de l'APEC.",
+            "La Chine l'appellerait historique. Ce sont des affirmations de la plateforme, pas des preuves."
           ],
-          "highlightParagraph": 0,
-          "trend": "Shipping risk claims",
+          "highlightParagraph": 1,
+          "trend": "Summit talk",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "label": "@ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "id": "101-1",
+              "text": "@ShahriyarGourgi",
+              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Diplomatie",
-          "headline": "Sommet Trump-Xi-Poutine allégué le 19 nov",
+          "category": "Conflit",
+          "headline": "Vague de drones ukrainiens alléguée",
           "paragraphs": [
-            "Des posts sur X affirment que Trump, Xi Jinping et Poutine prévoient une réunion trilatérale le 19 novembre.",
-            "L'affirmation circule sans confirmation officielle notée."
+            "Des posts affirment que la plus grande vague de drones ukrainiens a frappé la Russie, dont le pont de Kertch, avec seulement des dégâts mineurs.",
+            "Un compte affirme aussi des attaques de navires marchands. L'ampleur et les dégâts sont contestés et non vérifiés ici."
           ],
-          "highlightParagraph": 0,
-          "trend": "Summit speculation",
+          "highlightParagraph": 1,
+          "trend": "War claims",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "label": "@CasualtyCharts",
+              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
+            },
+            {
+              "id": "102-1",
+              "text": "@CasualtyCharts",
+              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Aviation",
-          "headline": "Compagnies US se remettent des perturbations",
+          "category": "Moyen-Orient",
+          "headline": "L'Iran affirme une frappe au Bahreïn",
           "paragraphs": [
-            "Les discussions notent que les compagnies américaines se remettent d'une perturbation aérienne nationale.",
-            "Les causes ne sont pas précisées dans les allégations circulantes."
+            "Des synthèses sur X disent que l'Iran a revendiqué une frappe de drone sur un radar au Bahreïn, dans la tension autour des pétroliers d'Ormuz.",
+            "La frappe n'est relayée que comme revendication iranienne. Aucune confirmation indépendante n'apparaît dans ces posts."
           ],
-          "highlightParagraph": 0,
-          "trend": "Flight recovery notes",
+          "highlightParagraph": 1,
+          "trend": "Gulf tension",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             },
             {
-              "label": "SeekNaturalLife",
-              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+              "label": "@mycomagis",
+              "url": "https://x.com/mycomagis/status/2122391829874123240"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             },
             {
               "id": "103-1",
-              "text": "SeekNaturalLife",
-              "url": "https://x.com/SeekNaturalLife/status/2121900691299962910"
+              "text": "@mycomagis",
+              "url": "https://x.com/mycomagis/status/2122391829874123240"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Moyen-Orient",
-          "headline": "Allégation d'Israël sur la mort d'un commandant du Hamas",
+          "category": "Transport",
+          "headline": "Vols US encore en reprise",
           "paragraphs": [
-            "Des posts rapportent qu'Israël affirme avoir tué un commandant senior du Hamas.",
-            "Les tensions au Moyen-Orient sont décrites comme élevées ; l'allégation n'est pas vérifiée dans les fils."
+            "Des synthèses sur X disent que les vols américains restent perturbés après l'arrêt au sol national de vendredi.",
+            "Les posts n'indiquent pas de cause. La reprise est décrite comme incomplète."
           ],
           "highlightParagraph": 0,
-          "trend": "Conflict claim updates",
+          "trend": "Travel delay",
           "sources": [
             {
-              "label": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "DashuBannaDeora",
-              "url": "https://x.com/DashuBannaDeora/status/2121883088586510846"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2122383002026098861"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Affaires mondiales",
-          "headline": "X suit plusieurs points chauds mondiaux",
+          "category": "Europe",
+          "headline": "Protestations violentes à Bordeaux",
           "paragraphs": [
-            "Des comptes mettent en avant les combats Russie-Ukraine, les risques iraniens et d'autres tensions régionales.",
-            "Un résumé indique pas de guerre mondiale, avec des risques décrits comme moyens et stables."
+            "Un tour d'horizon sur X dit que des protestations antigouvernementales à Bordeaux ont tourné à la violence, avec des heurts avec la police.",
+            "Le post ne donne ni bilan des blessés ni réponse officielle. À traiter comme une affirmation rapportée."
           ],
           "highlightParagraph": 1,
-          "trend": "Multi-conflict monitoring",
+          "trend": "Street unrest",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2121850028385882616"
+              "label": "@guguddetvuganda",
+              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2121850028385882616"
+              "text": "@guguddetvuganda",
+              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
             }
           ]
         }
