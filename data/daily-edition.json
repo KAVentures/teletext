@@ -1,162 +1,135 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-17T16:08:21.876Z",
+      "updatedAt": "2026-11-18T15:59:33.804Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Summit talk",
-        "War claims",
-        "Gulf tension",
-        "Travel delay",
-        "Street unrest"
+        "APEC 2026",
+        "US midterms claim",
+        "royal visit",
+        "food labeling",
+        "gun policy debate"
       ],
       "stories": [
         {
           "page": 101,
           "category": "Diplomacy",
-          "headline": "Trump set for Xi-Putin summit",
+          "headline": "APEC summit stresses cooperation, China says",
           "paragraphs": [
-            "X posts claim Trump heads to Asia for a first trilateral with Xi and Putin in Shenzhen on Thursday, on APEC sidelines.",
-            "China is said to call it groundbreaking. These are platform claims, not proof."
+            "Guangming Daily posts that leaders at the 2026 APEC CEO Summit in Shenzhen highlighted global cooperation and China's growth.",
+            "The outlet says dialogue helps tackle shared challenges. This is a state media claim."
           ],
-          "highlightParagraph": 1,
-          "trend": "Summit talk",
+          "highlightParagraph": 0,
+          "trend": "APEC 2026",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "label": "@ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
+              "label": "Guangming Daily",
+              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "id": "101-1",
-              "text": "@ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
+              "text": "Guangming Daily",
+              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Conflict",
-          "headline": "Ukraine drone barrage claimed",
+          "category": "US Politics",
+          "headline": "Jeffries claimed as House speaker nominee",
           "paragraphs": [
-            "Posts claim Ukraine's biggest drone barrage hit Russia, including the Kerch bridge, with only minor damage asserted.",
-            "One account also claims attacks on merchant ships. Scale and damage are disputed and unverified here."
+            "Chatnewstv claims Hakeem Jeffries is the first Black nominee for US House speaker after Democratic midterm victories.",
+            "The account calls it breaking. This X post alone does not confirm the claim."
           ],
           "highlightParagraph": 1,
-          "trend": "War claims",
+          "trend": "US midterms claim",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "label": "@CasualtyCharts",
-              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
+              "label": "Chatnewstv",
+              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "id": "102-1",
-              "text": "@CasualtyCharts",
-              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
+              "text": "Chatnewstv",
+              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Middle East",
-          "headline": "Iran claims Bahrain radar hit",
+          "category": "Royals",
+          "headline": "William, Kate meet Modi, reports say",
           "paragraphs": [
-            "X digests say Iran claimed a drone strike on a Bahrain radar site amid tanker tension near Hormuz.",
-            "The strike is reported as an Iranian claim only. No independent confirmation appears in these posts."
+            "The Indian Witness reports Prince William and Kate Middleton met PM Modi on the final day of their India visit.",
+            "The Hindi-language account shares the claim with a link as news."
           ],
-          "highlightParagraph": 1,
-          "trend": "Gulf tension",
+          "highlightParagraph": 0,
+          "trend": "royal visit",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "label": "@mycomagis",
-              "url": "https://x.com/mycomagis/status/2122391829874123240"
+              "label": "Indian Witness",
+              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "id": "103-1",
-              "text": "@mycomagis",
-              "url": "https://x.com/mycomagis/status/2122391829874123240"
+              "text": "Indian Witness",
+              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Transport",
-          "headline": "US flights still recovering",
+          "category": "Health",
+          "headline": "FDA clarifies low-FODMAP label rules",
           "paragraphs": [
-            "Summaries on X say US flights remain disrupted after Friday's nationwide ground stop.",
-            "Posts do not state a cause. Recovery is described as incomplete."
+            "Nosh.com reports the FDA says truthful low-FODMAP labels fall outside nutrient content claim regulations.",
+            "The post says this may matter for food brands and consumers with IBS or SIBO."
           ],
           "highlightParagraph": 0,
-          "trend": "Travel delay",
+          "trend": "food labeling",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
+              "label": "Nosh.com",
+              "url": "https://x.com/noshdotcom/status/2123083248423079963"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
+              "text": "Nosh.com",
+              "url": "https://x.com/noshdotcom/status/2123083248423079963"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Europe",
-          "headline": "Bordeaux protests turn violent",
+          "category": "Society",
+          "headline": "Post cites Harvard study on gun bans",
           "paragraphs": [
-            "A world-news roundup on X says anti-government protests in Bordeaux turned violent, with police clashes.",
-            "The post gives no casualty figures or official response. Treat it as a reported claim."
+            "An X user posts that a new Harvard study delivers awkward news for supporters of gun bans.",
+            "The claim points to a Bearing Arms article. Details are not independently shown in the post."
           ],
           "highlightParagraph": 1,
-          "trend": "Street unrest",
+          "trend": "gun policy debate",
           "sources": [
             {
-              "label": "@guguddetvuganda",
-              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
+              "label": "Tim Wilson",
+              "url": "https://x.com/TimWilzon/status/2123083237681705134"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@guguddetvuganda",
-              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
+              "text": "Tim Wilson",
+              "url": "https://x.com/TimWilzon/status/2123083237681705134"
             }
           ]
         }
@@ -164,161 +137,134 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-17T16:08:21.876Z",
+      "updatedAt": "2026-11-18T15:59:33.804Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Summit talk",
-        "War claims",
-        "Gulf tension",
-        "Travel delay",
-        "Street unrest"
+        "APEC 2026",
+        "US midterms claim",
+        "royal visit",
+        "food labeling",
+        "gun policy debate"
       ],
       "stories": [
         {
           "page": 101,
           "category": "Diplomati",
-          "headline": "Trump mot toppmöte med Xi och Putin",
+          "headline": "APEC-möte betonar samarbete, Kina säger",
           "paragraphs": [
-            "Inlägg på X hävdar att Trump reser till Asien för ett första trilateralt möte med Xi och Putin i Shenzhen på torsdag, vid APEC.",
-            "Kina ska kalla det banbrytande. Det är plattformspåståenden, inte bevis."
+            "Guangming Daily skriver att ledare vid APEC CEO-toppmötet 2026 i Shenzhen lyfte globalt samarbete och Kinas tillväxt.",
+            "Utgivaren säger att dialog hjälper mot gemensamma utmaningar. Detta är ett påstående från statlig media."
           ],
-          "highlightParagraph": 1,
-          "trend": "Summit talk",
+          "highlightParagraph": 0,
+          "trend": "APEC 2026",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "label": "@ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
+              "label": "Guangming Daily",
+              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "id": "101-1",
-              "text": "@ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
+              "text": "Guangming Daily",
+              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Konflikt",
-          "headline": "Ukraina uppges ha drönaranfall",
+          "category": "USA-politik",
+          "headline": "Jeffries påstås som talmanskandidat",
           "paragraphs": [
-            "Inlägg hävdar att Ukrainas största drönarvåg träffade Ryssland, även Kertjbron, med bara mindre skada.",
-            "Ett konto hävdar också angrepp på handelsfartyg. Omfattning och skada är omstridda och obekräftade här."
+            "Chatnewstv påstår att Hakeem Jeffries är den första svarta nominerade till talman i USA:s representanthus efter demokratiska mellanvalssegrar.",
+            "Kontot kallar det breaking. Detta X-inlägg bekräftar inte påståendet ensamt."
           ],
           "highlightParagraph": 1,
-          "trend": "War claims",
+          "trend": "US midterms claim",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "label": "@CasualtyCharts",
-              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
+              "label": "Chatnewstv",
+              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "id": "102-1",
-              "text": "@CasualtyCharts",
-              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
+              "text": "Chatnewstv",
+              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Mellanöstern",
-          "headline": "Iran uppger träff på Bahrainradar",
+          "category": "Kungligheter",
+          "headline": "William och Kate möter Modi enligt rapport",
           "paragraphs": [
-            "Sammanfattningar på X säger att Iran hävdar en drönarattack mot en radar i Bahrain mitt i tankerspänning vid Hormuz.",
-            "Träffen återges bara som ett iranskt påstående. Ingen oberoende bekräftelse finns i inläggen."
+            "The Indian Witness rapporterar att prins William och Kate Middleton träffade premiärminister Modi på sista dagen av Indienbesöket.",
+            "Det hindi-språkiga kontot delar påståendet med länk som nyhet."
           ],
-          "highlightParagraph": 1,
-          "trend": "Gulf tension",
+          "highlightParagraph": 0,
+          "trend": "royal visit",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "label": "@mycomagis",
-              "url": "https://x.com/mycomagis/status/2122391829874123240"
+              "label": "Indian Witness",
+              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "id": "103-1",
-              "text": "@mycomagis",
-              "url": "https://x.com/mycomagis/status/2122391829874123240"
+              "text": "Indian Witness",
+              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Transport",
-          "headline": "USA-flyg återhämtar sig ännu",
+          "category": "Hälsa",
+          "headline": "FDA klargör low-FODMAP-märkningsregler",
           "paragraphs": [
-            "Sammanfattningar på X säger att USA-flyg fortfarande störs efter fredagens nationella markstopp.",
-            "Inläggen anger ingen orsak. Återhämtningen beskrivs som ofullständig."
+            "Nosh.com rapporterar att FDA säger att sanningsenliga low-FODMAP-etiketter faller utanför regler för näringspåståenden.",
+            "Inlägget säger att det kan spela roll för livsmedelsmärken och konsumenter med IBS eller SIBO."
           ],
           "highlightParagraph": 0,
-          "trend": "Travel delay",
+          "trend": "food labeling",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
+              "label": "Nosh.com",
+              "url": "https://x.com/noshdotcom/status/2123083248423079963"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
+              "text": "Nosh.com",
+              "url": "https://x.com/noshdotcom/status/2123083248423079963"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Europa",
-          "headline": "Protester i Bordeaux blev våldsamma",
+          "category": "Samhälle",
+          "headline": "Inlägg citerar Harvardstudie om vapenförbud",
           "paragraphs": [
-            "En nyhetsrunda på X säger att regeringskritiska protester i Bordeaux blev våldsamma, med sammandrabbningar med polis.",
-            "Inlägget ger inga siffror om skadade eller officiellt svar. Se det som ett rapporterat påstående."
+            "En X-användare skriver att en ny Harvardstudie ger besvärliga nyheter för anhängare av vapenförbud.",
+            "Påståendet pekar på en Bearing Arms-artikel. Detaljer visas inte oberoende i inlägget."
           ],
           "highlightParagraph": 1,
-          "trend": "Street unrest",
+          "trend": "gun policy debate",
           "sources": [
             {
-              "label": "@guguddetvuganda",
-              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
+              "label": "Tim Wilson",
+              "url": "https://x.com/TimWilzon/status/2123083237681705134"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@guguddetvuganda",
-              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
+              "text": "Tim Wilson",
+              "url": "https://x.com/TimWilzon/status/2123083237681705134"
             }
           ]
         }
@@ -326,161 +272,134 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-17T16:08:21.876Z",
+      "updatedAt": "2026-11-18T15:59:33.804Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Summit talk",
-        "War claims",
-        "Gulf tension",
-        "Travel delay",
-        "Street unrest"
+        "APEC 2026",
+        "US midterms claim",
+        "royal visit",
+        "food labeling",
+        "gun policy debate"
       ],
       "stories": [
         {
           "page": 101,
           "category": "Diplomatie",
-          "headline": "Trump vor Gipfel mit Xi und Putin",
+          "headline": "APEC-Gipfel betont Kooperation, China sagt",
           "paragraphs": [
-            "Beiträge auf X behaupten, Trump reise nach Asien zu einem ersten Dreiergipfel mit Xi und Putin in Shenzhen am Donnerstag, am Rande von APEC.",
-            "China soll ihn bahnbrechend nennen. Es sind Plattformbehauptungen, kein Beweis."
+            "Guangming Daily berichtet, dass Führungskräfte beim APEC-CEO-Gipfel 2026 in Shenzhen globale Kooperation und Chinas Wachstum hervorhoben.",
+            "Das Medium sagt, Dialog helfe bei gemeinsamen Herausforderungen. Es handelt sich um eine Behauptung staatlicher Medien."
           ],
-          "highlightParagraph": 1,
-          "trend": "Summit talk",
+          "highlightParagraph": 0,
+          "trend": "APEC 2026",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "label": "@ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
+              "label": "Guangming Daily",
+              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "id": "101-1",
-              "text": "@ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
+              "text": "Guangming Daily",
+              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Konflikt",
-          "headline": "Ukraine-Drohnenwelle behauptet",
+          "category": "US-Politik",
+          "headline": "Jeffries als Sprecher-Kandidat behauptet",
           "paragraphs": [
-            "Beiträge behaupten, die größte ukrainische Drohnenwelle habe Russland getroffen, auch die Kertsch-Brücke, mit nur geringen Schäden.",
-            "Ein Konto behauptet auch Angriffe auf Handelsschiffe. Ausmaß und Schaden sind umstritten und hier unbestätigt."
+            "Chatnewstv behauptet, Hakeem Jeffries sei der erste schwarze Nominierte für den Sprecher des US-Repräsentantenhauses nach demokratischen Zwischenwahlsiegen.",
+            "Das Konto nennt es Eilmeldung. Dieser X-Beitrag allein bestätigt die Behauptung nicht."
           ],
           "highlightParagraph": 1,
-          "trend": "War claims",
+          "trend": "US midterms claim",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "label": "@CasualtyCharts",
-              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
+              "label": "Chatnewstv",
+              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "id": "102-1",
-              "text": "@CasualtyCharts",
-              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
+              "text": "Chatnewstv",
+              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Nahost",
-          "headline": "Iran meldet Treffer auf Bahrain-Radar",
+          "category": "Royals",
+          "headline": "William und Kate treffen Modi, Berichte",
           "paragraphs": [
-            "Zusammenfassungen auf X sagen, Iran beanspruche einen Drohnenangriff auf ein Radar in Bahrain mitten in Spannungen um Tanker bei Hormus.",
-            "Der Treffer wird nur als iranische Behauptung wiedergegeben. Keine unabhängige Bestätigung steht in den Beiträgen."
+            "The Indian Witness berichtet, Prinz William und Kate Middleton hätten Premierminister Modi am letzten Tag ihres Indienbesuchs getroffen.",
+            "Das hindi-sprachige Konto teilt die Behauptung mit Link als Nachricht."
           ],
-          "highlightParagraph": 1,
-          "trend": "Gulf tension",
+          "highlightParagraph": 0,
+          "trend": "royal visit",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "label": "@mycomagis",
-              "url": "https://x.com/mycomagis/status/2122391829874123240"
+              "label": "Indian Witness",
+              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "id": "103-1",
-              "text": "@mycomagis",
-              "url": "https://x.com/mycomagis/status/2122391829874123240"
+              "text": "Indian Witness",
+              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Verkehr",
-          "headline": "US-Flüge erholen sich noch",
+          "category": "Gesundheit",
+          "headline": "FDA klärt Low-FODMAP-Kennzeichnung",
           "paragraphs": [
-            "Zusammenfassungen auf X sagen, US-Flüge seien nach dem landesweiten Bodenstopp vom Freitag weiter gestört.",
-            "Die Beiträge nennen keine Ursache. Die Erholung gilt als unvollständig."
+            "Nosh.com berichtet, die FDA sage, wahrheitsgemäße Low-FODMAP-Etiketten fielen außerhalb der Nährwertangaben-Regeln.",
+            "Der Beitrag sagt, dies könne für Lebensmittelmarken und Verbraucher mit IBS oder SIBO relevant sein."
           ],
           "highlightParagraph": 0,
-          "trend": "Travel delay",
+          "trend": "food labeling",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
+              "label": "Nosh.com",
+              "url": "https://x.com/noshdotcom/status/2123083248423079963"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
+              "text": "Nosh.com",
+              "url": "https://x.com/noshdotcom/status/2123083248423079963"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Europa",
-          "headline": "Proteste in Bordeaux wurden gewaltsam",
+          "category": "Gesellschaft",
+          "headline": "Post zitiert Harvard-Studie zu Waffenverboten",
           "paragraphs": [
-            "Eine Nachrichtensammlung auf X sagt, regierungskritische Proteste in Bordeaux seien gewaltsam geworden, mit Zusammenstößen mit der Polizei.",
-            "Der Beitrag nennt keine Opferzahlen oder offizielle Reaktion. Als gemeldete Behauptung behandeln."
+            "Ein X-Nutzer postet, eine neue Harvard-Studie liefere unbequeme Nachrichten für Befürworter von Waffenverboten.",
+            "Die Behauptung verweist auf einen Bearing-Arms-Artikel. Details werden im Post nicht unabhängig gezeigt."
           ],
           "highlightParagraph": 1,
-          "trend": "Street unrest",
+          "trend": "gun policy debate",
           "sources": [
             {
-              "label": "@guguddetvuganda",
-              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
+              "label": "Tim Wilson",
+              "url": "https://x.com/TimWilzon/status/2123083237681705134"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@guguddetvuganda",
-              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
+              "text": "Tim Wilson",
+              "url": "https://x.com/TimWilzon/status/2123083237681705134"
             }
           ]
         }
@@ -488,161 +407,134 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-17T16:08:21.876Z",
+      "updatedAt": "2026-11-18T15:59:33.804Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Summit talk",
-        "War claims",
-        "Gulf tension",
-        "Travel delay",
-        "Street unrest"
+        "APEC 2026",
+        "US midterms claim",
+        "royal visit",
+        "food labeling",
+        "gun policy debate"
       ],
       "stories": [
         {
           "page": 101,
           "category": "Diplomacia",
-          "headline": "Trump, hacia cumbre con Xi y Putin",
+          "headline": "Cumbre APEC destaca cooperación, dice China",
           "paragraphs": [
-            "Publicaciones en X afirman que Trump viaja a Asia para una primera cumbre trilateral con Xi y Putin en Shenzhen el jueves, al margen de APEC.",
-            "Se dice que China lo llama histórico. Son afirmaciones de la plataforma, no pruebas."
+            "Guangming Daily publica que líderes en la Cumbre de CEO de APEC 2026 en Shenzhen destacaron la cooperación global y el crecimiento de China.",
+            "El medio dice que el diálogo ayuda ante desafíos compartidos. Es una afirmación de medios estatales."
           ],
-          "highlightParagraph": 1,
-          "trend": "Summit talk",
+          "highlightParagraph": 0,
+          "trend": "APEC 2026",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "label": "@ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
+              "label": "Guangming Daily",
+              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "id": "101-1",
-              "text": "@ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
+              "text": "Guangming Daily",
+              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Conflicto",
-          "headline": "Se afirma oleada de drones de Ucrania",
+          "category": "Política EE.UU.",
+          "headline": "Se alega a Jeffries como nominado speaker",
           "paragraphs": [
-            "Publicaciones afirman que la mayor oleada de drones de Ucrania golpeó Rusia, incluido el puente de Kerch, con solo daños menores.",
-            "Una cuenta también afirma ataques a buques mercantes. La escala y los daños están en disputa y no verificados aquí."
+            "Chatnewstv afirma que Hakeem Jeffries es el primer nominado negro a presidente de la Cámara de EE.UU. tras victorias demócratas en elecciones intermedias.",
+            "La cuenta lo llama noticia de última hora. Este post de X no confirma solo la afirmación."
           ],
           "highlightParagraph": 1,
-          "trend": "War claims",
+          "trend": "US midterms claim",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "label": "@CasualtyCharts",
-              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
+              "label": "Chatnewstv",
+              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "id": "102-1",
-              "text": "@CasualtyCharts",
-              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
+              "text": "Chatnewstv",
+              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Oriente Medio",
-          "headline": "Irán afirma ataque a radar en Baréin",
+          "category": "Realeza",
+          "headline": "William y Kate se reúnen con Modi, dicen",
           "paragraphs": [
-            "Resúmenes en X dicen que Irán afirmó un ataque con dron a un radar en Baréin, en medio de tensión por petroleros en Ormuz.",
-            "El golpe se presenta solo como afirmación iraní. No hay confirmación independiente en estas publicaciones."
+            "The Indian Witness informa que el príncipe William y Kate Middleton se reunieron con el PM Modi el último día de su visita a India.",
+            "La cuenta en hindi comparte la afirmación con enlace como noticia."
           ],
-          "highlightParagraph": 1,
-          "trend": "Gulf tension",
+          "highlightParagraph": 0,
+          "trend": "royal visit",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "label": "@mycomagis",
-              "url": "https://x.com/mycomagis/status/2122391829874123240"
+              "label": "Indian Witness",
+              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "id": "103-1",
-              "text": "@mycomagis",
-              "url": "https://x.com/mycomagis/status/2122391829874123240"
+              "text": "Indian Witness",
+              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Transporte",
-          "headline": "Vuelos de EE. UU. aún se recuperan",
+          "category": "Salud",
+          "headline": "FDA aclara etiquetas low-FODMAP",
           "paragraphs": [
-            "Resúmenes en X dicen que los vuelos de EE. UU. siguen alterados tras la parada en tierra nacional del viernes.",
-            "Las publicaciones no indican la causa. La recuperación se describe como incompleta."
+            "Nosh.com informa que la FDA dice que las etiquetas low-FODMAP veraces quedan fuera de las regulaciones de declaraciones de nutrientes.",
+            "El post dice que puede importar a marcas de alimentos y consumidores con IBS o SIBO."
           ],
           "highlightParagraph": 0,
-          "trend": "Travel delay",
+          "trend": "food labeling",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
+              "label": "Nosh.com",
+              "url": "https://x.com/noshdotcom/status/2123083248423079963"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
+              "text": "Nosh.com",
+              "url": "https://x.com/noshdotcom/status/2123083248423079963"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Europa",
-          "headline": "Protestas violentas en Burdeos",
+          "category": "Sociedad",
+          "headline": "Post cita estudio de Harvard sobre armas",
           "paragraphs": [
-            "Un resumen en X dice que protestas antigubernamentales en Burdeos se volvieron violentas, con choques con la policía.",
-            "La publicación no da cifras de heridos ni respuesta oficial. Trátelo como una afirmación reportada."
+            "Un usuario de X publica que un nuevo estudio de Harvard da noticias incómodas para partidarios de prohibiciones de armas.",
+            "La afirmación apunta a un artículo de Bearing Arms. Los detalles no se muestran de forma independiente en el post."
           ],
           "highlightParagraph": 1,
-          "trend": "Street unrest",
+          "trend": "gun policy debate",
           "sources": [
             {
-              "label": "@guguddetvuganda",
-              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
+              "label": "Tim Wilson",
+              "url": "https://x.com/TimWilzon/status/2123083237681705134"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@guguddetvuganda",
-              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
+              "text": "Tim Wilson",
+              "url": "https://x.com/TimWilzon/status/2123083237681705134"
             }
           ]
         }
@@ -650,161 +542,134 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-17T16:08:21.876Z",
+      "updatedAt": "2026-11-18T15:59:33.804Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Summit talk",
-        "War claims",
-        "Gulf tension",
-        "Travel delay",
-        "Street unrest"
+        "APEC 2026",
+        "US midterms claim",
+        "royal visit",
+        "food labeling",
+        "gun policy debate"
       ],
       "stories": [
         {
           "page": 101,
           "category": "Diplomatie",
-          "headline": "Trump vers un sommet Xi-Poutine",
+          "headline": "Sommet APEC insiste sur coopération, Chine dit",
           "paragraphs": [
-            "Des posts sur X affirment que Trump part en Asie pour un premier sommet trilatéral avec Xi et Poutine à Shenzhen jeudi, en marge de l'APEC.",
-            "La Chine l'appellerait historique. Ce sont des affirmations de la plateforme, pas des preuves."
+            "Guangming Daily indique que des dirigeants au sommet des PDG de l'APEC 2026 à Shenzhen ont souligné la coopération mondiale et la croissance de la Chine.",
+            "Le média dit que le dialogue aide face aux défis communs. Il s'agit d'une affirmation de médias d'État."
           ],
-          "highlightParagraph": 1,
-          "trend": "Summit talk",
+          "highlightParagraph": 0,
+          "trend": "APEC 2026",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "label": "@ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
+              "label": "Guangming Daily",
+              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "id": "101-1",
-              "text": "@ShahriyarGourgi",
-              "url": "https://x.com/ShahriyarGourgi/status/2122455578689908865"
+              "text": "Guangming Daily",
+              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Conflit",
-          "headline": "Vague de drones ukrainiens alléguée",
+          "category": "Politique US",
+          "headline": "Jeffries présenté comme candidat speaker",
           "paragraphs": [
-            "Des posts affirment que la plus grande vague de drones ukrainiens a frappé la Russie, dont le pont de Kertch, avec seulement des dégâts mineurs.",
-            "Un compte affirme aussi des attaques de navires marchands. L'ampleur et les dégâts sont contestés et non vérifiés ici."
+            "Chatnewstv affirme que Hakeem Jeffries est le premier nominé noir au poste de président de la Chambre des États-Unis après des victoires démocrates aux midterms.",
+            "Le compte parle de breaking news. Ce post X seul ne confirme pas l'affirmation."
           ],
           "highlightParagraph": 1,
-          "trend": "War claims",
+          "trend": "US midterms claim",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "label": "@CasualtyCharts",
-              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
+              "label": "Chatnewstv",
+              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "id": "102-1",
-              "text": "@CasualtyCharts",
-              "url": "https://x.com/CasualtyCharts/status/2122425559271592110"
+              "text": "Chatnewstv",
+              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Moyen-Orient",
-          "headline": "L'Iran affirme une frappe au Bahreïn",
+          "category": "Royauté",
+          "headline": "William et Kate rencontrent Modi selon rapports",
           "paragraphs": [
-            "Des synthèses sur X disent que l'Iran a revendiqué une frappe de drone sur un radar au Bahreïn, dans la tension autour des pétroliers d'Ormuz.",
-            "La frappe n'est relayée que comme revendication iranienne. Aucune confirmation indépendante n'apparaît dans ces posts."
+            "The Indian Witness rapporte que le prince William et Kate Middleton ont rencontré le PM Modi le dernier jour de leur visite en Inde.",
+            "Le compte en hindi partage l'affirmation avec un lien comme actualité."
           ],
-          "highlightParagraph": 1,
-          "trend": "Gulf tension",
+          "highlightParagraph": 0,
+          "trend": "royal visit",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "label": "@mycomagis",
-              "url": "https://x.com/mycomagis/status/2122391829874123240"
+              "label": "Indian Witness",
+              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
-            },
-            {
-              "id": "103-1",
-              "text": "@mycomagis",
-              "url": "https://x.com/mycomagis/status/2122391829874123240"
+              "text": "Indian Witness",
+              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Transport",
-          "headline": "Vols US encore en reprise",
+          "category": "Santé",
+          "headline": "FDA clarifie les étiquettes low-FODMAP",
           "paragraphs": [
-            "Des synthèses sur X disent que les vols américains restent perturbés après l'arrêt au sol national de vendredi.",
-            "Les posts n'indiquent pas de cause. La reprise est décrite comme incomplète."
+            "Nosh.com rapporte que la FDA dit que les étiquettes low-FODMAP véridiques sortent des règles sur les allégations nutritionnelles.",
+            "Le post indique que cela peut concerner les marques alimentaires et les consommateurs avec IBS ou SIBO."
           ],
           "highlightParagraph": 0,
-          "trend": "Travel delay",
+          "trend": "food labeling",
           "sources": [
             {
-              "label": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
+              "label": "Nosh.com",
+              "url": "https://x.com/noshdotcom/status/2123083248423079963"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@grok",
-              "url": "https://x.com/grok/status/2122383002026098861"
+              "text": "Nosh.com",
+              "url": "https://x.com/noshdotcom/status/2123083248423079963"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Europe",
-          "headline": "Protestations violentes à Bordeaux",
+          "category": "Société",
+          "headline": "Post cite une étude Harvard sur les armes",
           "paragraphs": [
-            "Un tour d'horizon sur X dit que des protestations antigouvernementales à Bordeaux ont tourné à la violence, avec des heurts avec la police.",
-            "Le post ne donne ni bilan des blessés ni réponse officielle. À traiter comme une affirmation rapportée."
+            "Un utilisateur X poste qu'une nouvelle étude de Harvard apporte des nouvelles gênantes pour les partisans d'interdictions d'armes.",
+            "L'affirmation renvoie à un article de Bearing Arms. Les détails ne sont pas montrés indépendamment dans le post."
           ],
           "highlightParagraph": 1,
-          "trend": "Street unrest",
+          "trend": "gun policy debate",
           "sources": [
             {
-              "label": "@guguddetvuganda",
-              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
+              "label": "Tim Wilson",
+              "url": "https://x.com/TimWilzon/status/2123083237681705134"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@guguddetvuganda",
-              "url": "https://x.com/guguddetvuganda/status/2122225394468188337"
+              "text": "Tim Wilson",
+              "url": "https://x.com/TimWilzon/status/2123083237681705134"
             }
           ]
         }
