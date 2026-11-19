@@ -1,135 +1,131 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-18T15:59:33.804Z",
+      "updatedAt": "2026-11-19T15:50:50.932Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "APEC 2026",
-        "US midterms claim",
-        "royal visit",
-        "food labeling",
-        "gun policy debate"
+        "Hot",
+        "Active",
+        "Breaking",
+        "Rising",
+        "Volatile"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Diplomacy",
-          "headline": "APEC summit stresses cooperation, China says",
+          "category": "Politics",
+          "headline": "Nominees silent on Biden 2020 win",
           "paragraphs": [
-            "Guangming Daily posts that leaders at the 2026 APEC CEO Summit in Shenzhen highlighted global cooperation and China's growth.",
-            "The outlet says dialogue helps tackle shared challenges. This is a state media claim."
+            "Trump DC judge nominees stayed silent when asked if Biden won the 2020 popular vote or if the Capitol was attacked on Jan. 6, a hearing clip shared on X shows."
           ],
           "highlightParagraph": 0,
-          "trend": "APEC 2026",
+          "trend": "Hot",
           "sources": [
             {
-              "label": "Guangming Daily",
-              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
+              "label": "@atrupar",
+              "url": "https://x.com/atrupar/status/2123440996612481257"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Guangming Daily",
-              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
+              "text": "@atrupar",
+              "url": "https://x.com/atrupar/status/2123440996612481257"
             }
           ]
         },
         {
           "page": 102,
-          "category": "US Politics",
-          "headline": "Jeffries claimed as House speaker nominee",
+          "category": "World",
+          "headline": "Zelenskyy seeks faster EU support",
           "paragraphs": [
-            "Chatnewstv claims Hakeem Jeffries is the first Black nominee for US House speaker after Democratic midterm victories.",
-            "The account calls it breaking. This X post alone does not confirm the claim."
+            "Zelenskyy thanked partners at today's Coalition of the Willing meeting. He said talks covered €45bn EU budget aid, stronger air defense, and diplomacy for a dignified peace."
           ],
-          "highlightParagraph": 1,
-          "trend": "US midterms claim",
+          "highlightParagraph": 0,
+          "trend": "Active",
           "sources": [
             {
-              "label": "Chatnewstv",
-              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
+              "label": "@ZelenskyyUa",
+              "url": "https://x.com/ZelenskyyUa/status/2123440619372626385"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Chatnewstv",
-              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
+              "text": "@ZelenskyyUa",
+              "url": "https://x.com/ZelenskyyUa/status/2123440619372626385"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Royals",
-          "headline": "William, Kate meet Modi, reports say",
+          "category": "Politics",
+          "headline": "France probes alleged leaks to RN",
           "paragraphs": [
-            "The Indian Witness reports Prince William and Kate Middleton met PM Modi on the final day of their India visit.",
-            "The Hindi-language account shares the claim with a link as news."
+            "A post reports an inquiry into suspected leaks of confidential Interior Ministry information to the National Rally on judicial probes. Searches of RN offices are claimed.",
+            "These remain unverified claims from the account."
           ],
           "highlightParagraph": 0,
-          "trend": "royal visit",
+          "trend": "Breaking",
           "sources": [
             {
-              "label": "Indian Witness",
-              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
+              "label": "@Ilangabet",
+              "url": "https://x.com/Ilangabet/status/2123440447141855350"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Indian Witness",
-              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
+              "text": "@Ilangabet",
+              "url": "https://x.com/Ilangabet/status/2123440447141855350"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Health",
-          "headline": "FDA clarifies low-FODMAP label rules",
+          "category": "Business",
+          "headline": "Anthropic IPO may enrich employees",
           "paragraphs": [
-            "Nosh.com reports the FDA says truthful low-FODMAP labels fall outside nutrient content claim regulations.",
-            "The post says this may matter for food brands and consumers with IBS or SIBO."
+            "Unusual Whales, citing CNBC, said the average Anthropic employee could be worth over $40 million after today's IPO, based on stock options and restricted stock analysis."
           ],
           "highlightParagraph": 0,
-          "trend": "food labeling",
+          "trend": "Rising",
           "sources": [
             {
-              "label": "Nosh.com",
-              "url": "https://x.com/noshdotcom/status/2123083248423079963"
+              "label": "@unusual_whales",
+              "url": "https://x.com/unusual_whales/status/2123440662905245987"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Nosh.com",
-              "url": "https://x.com/noshdotcom/status/2123083248423079963"
+              "text": "@unusual_whales",
+              "url": "https://x.com/unusual_whales/status/2123440662905245987"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Society",
-          "headline": "Post cites Harvard study on gun bans",
+          "category": "Markets",
+          "headline": "US stocks reverse sharply, no clear news",
           "paragraphs": [
-            "An X user posts that a new Harvard study delivers awkward news for supporters of gun bans.",
-            "The claim points to a Bearing Arms article. Details are not independently shown in the post."
+            "A market account said QQQ fell from 675 to 659 and SPY from 739 to 727 in 30 minutes, turning a green session red, and claimed no news explained the move."
           ],
-          "highlightParagraph": 1,
-          "trend": "gun policy debate",
+          "highlightParagraph": 0,
+          "trend": "Volatile",
           "sources": [
             {
-              "label": "Tim Wilson",
-              "url": "https://x.com/TimWilzon/status/2123083237681705134"
+              "label": "@TheProfInvestor",
+              "url": "https://x.com/TheProfInvestor/status/2123440961581973567"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Tim Wilson",
-              "url": "https://x.com/TimWilzon/status/2123083237681705134"
+              "text": "@TheProfInvestor",
+              "url": "https://x.com/TheProfInvestor/status/2123440961581973567"
             }
           ]
         }
@@ -137,134 +133,130 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-18T15:59:33.804Z",
+      "updatedAt": "2026-11-19T15:50:50.932Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "APEC 2026",
-        "US midterms claim",
-        "royal visit",
-        "food labeling",
-        "gun policy debate"
+        "Hot",
+        "Active",
+        "Breaking",
+        "Rising",
+        "Volatile"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Diplomati",
-          "headline": "APEC-möte betonar samarbete, Kina säger",
+          "category": "Politik",
+          "headline": "Nominerade tysta om Bidens seger",
           "paragraphs": [
-            "Guangming Daily skriver att ledare vid APEC CEO-toppmötet 2026 i Shenzhen lyfte globalt samarbete och Kinas tillväxt.",
-            "Utgivaren säger att dialog hjälper mot gemensamma utmaningar. Detta är ett påstående från statlig media."
+            "Trumps nominerade till DC-domare var tysta när de frågades om Biden vann folkvalet 2020 eller om Kapitolium attackerades 6 jan, enligt klipp på X."
           ],
           "highlightParagraph": 0,
-          "trend": "APEC 2026",
+          "trend": "Hot",
           "sources": [
             {
-              "label": "Guangming Daily",
-              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
+              "label": "@atrupar",
+              "url": "https://x.com/atrupar/status/2123440996612481257"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Guangming Daily",
-              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
+              "text": "@atrupar",
+              "url": "https://x.com/atrupar/status/2123440996612481257"
             }
           ]
         },
         {
           "page": 102,
-          "category": "USA-politik",
-          "headline": "Jeffries påstås som talmanskandidat",
+          "category": "Världen",
+          "headline": "Zelenskyj vill ha snabbare EU-stöd",
           "paragraphs": [
-            "Chatnewstv påstår att Hakeem Jeffries är den första svarta nominerade till talman i USA:s representanthus efter demokratiska mellanvalssegrar.",
-            "Kontot kallar det breaking. Detta X-inlägg bekräftar inte påståendet ensamt."
+            "Zelenskyj tackade partner vid dagens möte med Coalition of the Willing. Samtalen gällde 45 mdr euro i EU-budgetstöd, starkare luftförsvar och diplomati för värdig fred."
           ],
-          "highlightParagraph": 1,
-          "trend": "US midterms claim",
+          "highlightParagraph": 0,
+          "trend": "Active",
           "sources": [
             {
-              "label": "Chatnewstv",
-              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
+              "label": "@ZelenskyyUa",
+              "url": "https://x.com/ZelenskyyUa/status/2123440619372626385"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Chatnewstv",
-              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
+              "text": "@ZelenskyyUa",
+              "url": "https://x.com/ZelenskyyUa/status/2123440619372626385"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Kungligheter",
-          "headline": "William och Kate möter Modi enligt rapport",
+          "category": "Politik",
+          "headline": "Frankrike utreder påstådda läckor till RN",
           "paragraphs": [
-            "The Indian Witness rapporterar att prins William och Kate Middleton träffade premiärminister Modi på sista dagen av Indienbesöket.",
-            "Det hindi-språkiga kontot delar påståendet med länk som nyhet."
+            "Ett inlägg rapporterar en utredning om misstänkta läckor av konfidentiell information från inrikesministeriet till Nationell samling om rättsprocesser. Husrannsakningar påstås.",
+            "Detta är obekräftade påståenden från kontot."
           ],
           "highlightParagraph": 0,
-          "trend": "royal visit",
+          "trend": "Breaking",
           "sources": [
             {
-              "label": "Indian Witness",
-              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
+              "label": "@Ilangabet",
+              "url": "https://x.com/Ilangabet/status/2123440447141855350"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Indian Witness",
-              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
+              "text": "@Ilangabet",
+              "url": "https://x.com/Ilangabet/status/2123440447141855350"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Hälsa",
-          "headline": "FDA klargör low-FODMAP-märkningsregler",
+          "category": "Näringsliv",
+          "headline": "Anthropic-börsintro kan berika anställda",
           "paragraphs": [
-            "Nosh.com rapporterar att FDA säger att sanningsenliga low-FODMAP-etiketter faller utanför regler för näringspåståenden.",
-            "Inlägget säger att det kan spela roll för livsmedelsmärken och konsumenter med IBS eller SIBO."
+            "Unusual Whales, som citerar CNBC, sade att genomsnittlig Anthropic-anställd kan vara värd över 40 miljoner dollar efter dagens börsintro, baserat på optioner och aktier."
           ],
           "highlightParagraph": 0,
-          "trend": "food labeling",
+          "trend": "Rising",
           "sources": [
             {
-              "label": "Nosh.com",
-              "url": "https://x.com/noshdotcom/status/2123083248423079963"
+              "label": "@unusual_whales",
+              "url": "https://x.com/unusual_whales/status/2123440662905245987"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Nosh.com",
-              "url": "https://x.com/noshdotcom/status/2123083248423079963"
+              "text": "@unusual_whales",
+              "url": "https://x.com/unusual_whales/status/2123440662905245987"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Samhälle",
-          "headline": "Inlägg citerar Harvardstudie om vapenförbud",
+          "category": "Marknader",
+          "headline": "USA-aktier vänder kraftigt, ingen tydlig nyhet",
           "paragraphs": [
-            "En X-användare skriver att en ny Harvardstudie ger besvärliga nyheter för anhängare av vapenförbud.",
-            "Påståendet pekar på en Bearing Arms-artikel. Detaljer visas inte oberoende i inlägget."
+            "Ett marknadskonto sade att QQQ föll från 675 till 659 och SPY från 739 till 727 på 30 minuter, och vände en grön dag röd, och hävdade att ingen nyhet förklarade rörelsen."
           ],
-          "highlightParagraph": 1,
-          "trend": "gun policy debate",
+          "highlightParagraph": 0,
+          "trend": "Volatile",
           "sources": [
             {
-              "label": "Tim Wilson",
-              "url": "https://x.com/TimWilzon/status/2123083237681705134"
+              "label": "@TheProfInvestor",
+              "url": "https://x.com/TheProfInvestor/status/2123440961581973567"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Tim Wilson",
-              "url": "https://x.com/TimWilzon/status/2123083237681705134"
+              "text": "@TheProfInvestor",
+              "url": "https://x.com/TheProfInvestor/status/2123440961581973567"
             }
           ]
         }
@@ -272,134 +264,130 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-18T15:59:33.804Z",
+      "updatedAt": "2026-11-19T15:50:50.932Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "APEC 2026",
-        "US midterms claim",
-        "royal visit",
-        "food labeling",
-        "gun policy debate"
+        "Hot",
+        "Active",
+        "Breaking",
+        "Rising",
+        "Volatile"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Diplomatie",
-          "headline": "APEC-Gipfel betont Kooperation, China sagt",
+          "category": "Politik",
+          "headline": "Nominierte schweigen zu 2020",
           "paragraphs": [
-            "Guangming Daily berichtet, dass Führungskräfte beim APEC-CEO-Gipfel 2026 in Shenzhen globale Kooperation und Chinas Wachstum hervorhoben.",
-            "Das Medium sagt, Dialog helfe bei gemeinsamen Herausforderungen. Es handelt sich um eine Behauptung staatlicher Medien."
+            "Trumps DC-Richternominierte schwiegen auf die Frage, ob Biden die Volkswahl 2020 gewann oder das Kapitol am 6. Jan. angegriffen wurde, laut X-Clip."
           ],
           "highlightParagraph": 0,
-          "trend": "APEC 2026",
+          "trend": "Hot",
           "sources": [
             {
-              "label": "Guangming Daily",
-              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
+              "label": "@atrupar",
+              "url": "https://x.com/atrupar/status/2123440996612481257"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Guangming Daily",
-              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
+              "text": "@atrupar",
+              "url": "https://x.com/atrupar/status/2123440996612481257"
             }
           ]
         },
         {
           "page": 102,
-          "category": "US-Politik",
-          "headline": "Jeffries als Sprecher-Kandidat behauptet",
+          "category": "Welt",
+          "headline": "Selenskyj drängt auf EU-Hilfe",
           "paragraphs": [
-            "Chatnewstv behauptet, Hakeem Jeffries sei der erste schwarze Nominierte für den Sprecher des US-Repräsentantenhauses nach demokratischen Zwischenwahlsiegen.",
-            "Das Konto nennt es Eilmeldung. Dieser X-Beitrag allein bestätigt die Behauptung nicht."
+            "Selenskyj dankte Partnern beim heutigen Treffen der Willigen. Themen waren 45 Mrd. Euro EU-Budgethilfe, stärkere Luftabwehr und Diplomatie für einen würdigen Frieden."
           ],
-          "highlightParagraph": 1,
-          "trend": "US midterms claim",
+          "highlightParagraph": 0,
+          "trend": "Active",
           "sources": [
             {
-              "label": "Chatnewstv",
-              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
+              "label": "@ZelenskyyUa",
+              "url": "https://x.com/ZelenskyyUa/status/2123440619372626385"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Chatnewstv",
-              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
+              "text": "@ZelenskyyUa",
+              "url": "https://x.com/ZelenskyyUa/status/2123440619372626385"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Royals",
-          "headline": "William und Kate treffen Modi, Berichte",
+          "category": "Politik",
+          "headline": "Frankreich prüft angebliche Lecks an RN",
           "paragraphs": [
-            "The Indian Witness berichtet, Prinz William und Kate Middleton hätten Premierminister Modi am letzten Tag ihres Indienbesuchs getroffen.",
-            "Das hindi-sprachige Konto teilt die Behauptung mit Link als Nachricht."
+            "Ein Beitrag meldet Ermittlungen zu vermuteten Lecks vertraulicher Innenministeriumsdaten an den Rassemblement National zu Gerichtsverfahren. Durchsuchungen werden behauptet.",
+            "Dies sind unbestätigte Angaben des Kontos."
           ],
           "highlightParagraph": 0,
-          "trend": "royal visit",
+          "trend": "Breaking",
           "sources": [
             {
-              "label": "Indian Witness",
-              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
+              "label": "@Ilangabet",
+              "url": "https://x.com/Ilangabet/status/2123440447141855350"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Indian Witness",
-              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
+              "text": "@Ilangabet",
+              "url": "https://x.com/Ilangabet/status/2123440447141855350"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Gesundheit",
-          "headline": "FDA klärt Low-FODMAP-Kennzeichnung",
+          "category": "Wirtschaft",
+          "headline": "Anthropic-IPO könnte Mitarbeiter bereichern",
           "paragraphs": [
-            "Nosh.com berichtet, die FDA sage, wahrheitsgemäße Low-FODMAP-Etiketten fielen außerhalb der Nährwertangaben-Regeln.",
-            "Der Beitrag sagt, dies könne für Lebensmittelmarken und Verbraucher mit IBS oder SIBO relevant sein."
+            "Unusual Whales, unter Berufung auf CNBC, sagte, der durchschnittliche Anthropic-Mitarbeiter könne nach dem heutigen IPO über 40 Mio. Dollar wert sein, laut Optionsanalyse."
           ],
           "highlightParagraph": 0,
-          "trend": "food labeling",
+          "trend": "Rising",
           "sources": [
             {
-              "label": "Nosh.com",
-              "url": "https://x.com/noshdotcom/status/2123083248423079963"
+              "label": "@unusual_whales",
+              "url": "https://x.com/unusual_whales/status/2123440662905245987"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Nosh.com",
-              "url": "https://x.com/noshdotcom/status/2123083248423079963"
+              "text": "@unusual_whales",
+              "url": "https://x.com/unusual_whales/status/2123440662905245987"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Gesellschaft",
-          "headline": "Post zitiert Harvard-Studie zu Waffenverboten",
+          "category": "Märkte",
+          "headline": "US-Aktien drehen scharf, keine klare News",
           "paragraphs": [
-            "Ein X-Nutzer postet, eine neue Harvard-Studie liefere unbequeme Nachrichten für Befürworter von Waffenverboten.",
-            "Die Behauptung verweist auf einen Bearing-Arms-Artikel. Details werden im Post nicht unabhängig gezeigt."
+            "Ein Marktkonto sagte, QQQ fiel von 675 auf 659 und SPY von 739 auf 727 in 30 Minuten und drehte einen grünen Tag rot, und behauptete, keine Nachricht erkläre die Bewegung."
           ],
-          "highlightParagraph": 1,
-          "trend": "gun policy debate",
+          "highlightParagraph": 0,
+          "trend": "Volatile",
           "sources": [
             {
-              "label": "Tim Wilson",
-              "url": "https://x.com/TimWilzon/status/2123083237681705134"
+              "label": "@TheProfInvestor",
+              "url": "https://x.com/TheProfInvestor/status/2123440961581973567"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Tim Wilson",
-              "url": "https://x.com/TimWilzon/status/2123083237681705134"
+              "text": "@TheProfInvestor",
+              "url": "https://x.com/TheProfInvestor/status/2123440961581973567"
             }
           ]
         }
@@ -407,134 +395,130 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-18T15:59:33.804Z",
+      "updatedAt": "2026-11-19T15:50:50.932Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "APEC 2026",
-        "US midterms claim",
-        "royal visit",
-        "food labeling",
-        "gun policy debate"
+        "Hot",
+        "Active",
+        "Breaking",
+        "Rising",
+        "Volatile"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Diplomacia",
-          "headline": "Cumbre APEC destaca cooperación, dice China",
+          "category": "Política",
+          "headline": "Nominados callan sobre victoria 2020",
           "paragraphs": [
-            "Guangming Daily publica que líderes en la Cumbre de CEO de APEC 2026 en Shenzhen destacaron la cooperación global y el crecimiento de China.",
-            "El medio dice que el diálogo ayuda ante desafíos compartidos. Es una afirmación de medios estatales."
+            "Nominados de Trump a jueces de DC guardaron silencio al preguntárseles si Biden ganó el voto popular de 2020 o si el Capitolio fue atacado el 6 de enero, según clip en X."
           ],
           "highlightParagraph": 0,
-          "trend": "APEC 2026",
+          "trend": "Hot",
           "sources": [
             {
-              "label": "Guangming Daily",
-              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
+              "label": "@atrupar",
+              "url": "https://x.com/atrupar/status/2123440996612481257"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Guangming Daily",
-              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
+              "text": "@atrupar",
+              "url": "https://x.com/atrupar/status/2123440996612481257"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Política EE.UU.",
-          "headline": "Se alega a Jeffries como nominado speaker",
+          "category": "Mundo",
+          "headline": "Zelenski pide apoyo más rápido de la UE",
           "paragraphs": [
-            "Chatnewstv afirma que Hakeem Jeffries es el primer nominado negro a presidente de la Cámara de EE.UU. tras victorias demócratas en elecciones intermedias.",
-            "La cuenta lo llama noticia de última hora. Este post de X no confirma solo la afirmación."
+            "Zelenski agradeció a los socios en la reunión de hoy de la Coalición de los Dispuestos. Dijo que se habló de 45.000 millones de euros de ayuda presupuestaria de la UE, defensa aérea y diplomacia."
           ],
-          "highlightParagraph": 1,
-          "trend": "US midterms claim",
+          "highlightParagraph": 0,
+          "trend": "Active",
           "sources": [
             {
-              "label": "Chatnewstv",
-              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
+              "label": "@ZelenskyyUa",
+              "url": "https://x.com/ZelenskyyUa/status/2123440619372626385"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Chatnewstv",
-              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
+              "text": "@ZelenskyyUa",
+              "url": "https://x.com/ZelenskyyUa/status/2123440619372626385"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Realeza",
-          "headline": "William y Kate se reúnen con Modi, dicen",
+          "category": "Política",
+          "headline": "Francia investiga filtraciones al RN",
           "paragraphs": [
-            "The Indian Witness informa que el príncipe William y Kate Middleton se reunieron con el PM Modi el último día de su visita a India.",
-            "La cuenta en hindi comparte la afirmación con enlace como noticia."
+            "Un post informa de una investigación sobre posibles filtraciones de datos confidenciales del Ministerio del Interior al Reagrupamiento Nacional sobre pesquisas judiciales. Se alegan registros.",
+            "Siguen siendo afirmaciones no verificadas de la cuenta."
           ],
           "highlightParagraph": 0,
-          "trend": "royal visit",
+          "trend": "Breaking",
           "sources": [
             {
-              "label": "Indian Witness",
-              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
+              "label": "@Ilangabet",
+              "url": "https://x.com/Ilangabet/status/2123440447141855350"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Indian Witness",
-              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
+              "text": "@Ilangabet",
+              "url": "https://x.com/Ilangabet/status/2123440447141855350"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Salud",
-          "headline": "FDA aclara etiquetas low-FODMAP",
+          "category": "Negocios",
+          "headline": "La OPV de Anthropic puede enriquecer al personal",
           "paragraphs": [
-            "Nosh.com informa que la FDA dice que las etiquetas low-FODMAP veraces quedan fuera de las regulaciones de declaraciones de nutrientes.",
-            "El post dice que puede importar a marcas de alimentos y consumidores con IBS o SIBO."
+            "Unusual Whales, citando a CNBC, dijo que el empleado medio de Anthropic podría valer más de 40 millones de dólares tras la OPV de hoy, según análisis de opciones."
           ],
           "highlightParagraph": 0,
-          "trend": "food labeling",
+          "trend": "Rising",
           "sources": [
             {
-              "label": "Nosh.com",
-              "url": "https://x.com/noshdotcom/status/2123083248423079963"
+              "label": "@unusual_whales",
+              "url": "https://x.com/unusual_whales/status/2123440662905245987"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Nosh.com",
-              "url": "https://x.com/noshdotcom/status/2123083248423079963"
+              "text": "@unusual_whales",
+              "url": "https://x.com/unusual_whales/status/2123440662905245987"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Sociedad",
-          "headline": "Post cita estudio de Harvard sobre armas",
+          "category": "Mercados",
+          "headline": "Acciones de EE.UU. revierten fuerte, sin noticia clara",
           "paragraphs": [
-            "Un usuario de X publica que un nuevo estudio de Harvard da noticias incómodas para partidarios de prohibiciones de armas.",
-            "La afirmación apunta a un artículo de Bearing Arms. Los detalles no se muestran de forma independiente en el post."
+            "Una cuenta de mercados dijo que QQQ cayó de 675 a 659 y SPY de 739 a 727 en 30 minutos, volviendo rojo un día verde, y afirmó que ninguna noticia explicó el movimiento."
           ],
-          "highlightParagraph": 1,
-          "trend": "gun policy debate",
+          "highlightParagraph": 0,
+          "trend": "Volatile",
           "sources": [
             {
-              "label": "Tim Wilson",
-              "url": "https://x.com/TimWilzon/status/2123083237681705134"
+              "label": "@TheProfInvestor",
+              "url": "https://x.com/TheProfInvestor/status/2123440961581973567"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Tim Wilson",
-              "url": "https://x.com/TimWilzon/status/2123083237681705134"
+              "text": "@TheProfInvestor",
+              "url": "https://x.com/TheProfInvestor/status/2123440961581973567"
             }
           ]
         }
@@ -542,134 +526,130 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-18T15:59:33.804Z",
+      "updatedAt": "2026-11-19T15:50:50.932Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "APEC 2026",
-        "US midterms claim",
-        "royal visit",
-        "food labeling",
-        "gun policy debate"
+        "Hot",
+        "Active",
+        "Breaking",
+        "Rising",
+        "Volatile"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Diplomatie",
-          "headline": "Sommet APEC insiste sur coopération, Chine dit",
+          "category": "Politique",
+          "headline": "Nominés muets sur la victoire 2020",
           "paragraphs": [
-            "Guangming Daily indique que des dirigeants au sommet des PDG de l'APEC 2026 à Shenzhen ont souligné la coopération mondiale et la croissance de la Chine.",
-            "Le média dit que le dialogue aide face aux défis communs. Il s'agit d'une affirmation de médias d'État."
+            "Les nominés de Trump pour juges à DC sont restés silencieux quand on leur a demandé si Biden a gagné le vote populaire 2020 ou si le Capitole a été attaqué le 6 janv., selon un clip sur X."
           ],
           "highlightParagraph": 0,
-          "trend": "APEC 2026",
+          "trend": "Hot",
           "sources": [
             {
-              "label": "Guangming Daily",
-              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
+              "label": "@atrupar",
+              "url": "https://x.com/atrupar/status/2123440996612481257"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Guangming Daily",
-              "url": "https://x.com/Guangming_Daily/status/2123083247114719425"
+              "text": "@atrupar",
+              "url": "https://x.com/atrupar/status/2123440996612481257"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Politique US",
-          "headline": "Jeffries présenté comme candidat speaker",
+          "category": "Monde",
+          "headline": "Zelensky veut un soutien UE plus rapide",
           "paragraphs": [
-            "Chatnewstv affirme que Hakeem Jeffries est le premier nominé noir au poste de président de la Chambre des États-Unis après des victoires démocrates aux midterms.",
-            "Le compte parle de breaking news. Ce post X seul ne confirme pas l'affirmation."
+            "Zelensky a remercié les partenaires lors de la réunion d'aujourd'hui de la Coalition des volontaires. Les discussions portaient sur 45 mds € d'aide budgétaire UE, une défense aérienne renforcée et la diplomatie."
           ],
-          "highlightParagraph": 1,
-          "trend": "US midterms claim",
+          "highlightParagraph": 0,
+          "trend": "Active",
           "sources": [
             {
-              "label": "Chatnewstv",
-              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
+              "label": "@ZelenskyyUa",
+              "url": "https://x.com/ZelenskyyUa/status/2123440619372626385"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Chatnewstv",
-              "url": "https://x.com/Chatnewstv/status/2123083237912416663"
+              "text": "@ZelenskyyUa",
+              "url": "https://x.com/ZelenskyyUa/status/2123440619372626385"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Royauté",
-          "headline": "William et Kate rencontrent Modi selon rapports",
+          "category": "Politique",
+          "headline": "La France enquête sur des fuites au RN",
           "paragraphs": [
-            "The Indian Witness rapporte que le prince William et Kate Middleton ont rencontré le PM Modi le dernier jour de leur visite en Inde.",
-            "Le compte en hindi partage l'affirmation avec un lien comme actualité."
+            "Un post signale une enquête sur des fuites présumées d'informations confidentielles du ministère de l'Intérieur vers le Rassemblement national concernant des enquêtes judiciaires. Des perquisitions sont alléguées.",
+            "Il s'agit d'allégations non vérifiées du compte."
           ],
           "highlightParagraph": 0,
-          "trend": "royal visit",
+          "trend": "Breaking",
           "sources": [
             {
-              "label": "Indian Witness",
-              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
+              "label": "@Ilangabet",
+              "url": "https://x.com/Ilangabet/status/2123440447141855350"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Indian Witness",
-              "url": "https://x.com/WitnessHindi/status/2123083238415687694"
+              "text": "@Ilangabet",
+              "url": "https://x.com/Ilangabet/status/2123440447141855350"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Santé",
-          "headline": "FDA clarifie les étiquettes low-FODMAP",
+          "category": "Économie",
+          "headline": "L'IPO d'Anthropic pourrait enrichir le personnel",
           "paragraphs": [
-            "Nosh.com rapporte que la FDA dit que les étiquettes low-FODMAP véridiques sortent des règles sur les allégations nutritionnelles.",
-            "Le post indique que cela peut concerner les marques alimentaires et les consommateurs avec IBS ou SIBO."
+            "Unusual Whales, citant CNBC, a indiqué que l'employé moyen d'Anthropic pourrait valoir plus de 40 millions de dollars après l'IPO d'aujourd'hui, selon l'analyse des options."
           ],
           "highlightParagraph": 0,
-          "trend": "food labeling",
+          "trend": "Rising",
           "sources": [
             {
-              "label": "Nosh.com",
-              "url": "https://x.com/noshdotcom/status/2123083248423079963"
+              "label": "@unusual_whales",
+              "url": "https://x.com/unusual_whales/status/2123440662905245987"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Nosh.com",
-              "url": "https://x.com/noshdotcom/status/2123083248423079963"
+              "text": "@unusual_whales",
+              "url": "https://x.com/unusual_whales/status/2123440662905245987"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Société",
-          "headline": "Post cite une étude Harvard sur les armes",
+          "category": "Marchés",
+          "headline": "Actions US se retournent fort, sans news claire",
           "paragraphs": [
-            "Un utilisateur X poste qu'une nouvelle étude de Harvard apporte des nouvelles gênantes pour les partisans d'interdictions d'armes.",
-            "L'affirmation renvoie à un article de Bearing Arms. Les détails ne sont pas montrés indépendamment dans le post."
+            "Un compte de marché a dit que le QQQ est passé de 675 à 659 et le SPY de 739 à 727 en 30 minutes, rendant rouge une séance verte, et a affirmé qu'aucune nouvelle n'expliquait le mouvement."
           ],
-          "highlightParagraph": 1,
-          "trend": "gun policy debate",
+          "highlightParagraph": 0,
+          "trend": "Volatile",
           "sources": [
             {
-              "label": "Tim Wilson",
-              "url": "https://x.com/TimWilzon/status/2123083237681705134"
+              "label": "@TheProfInvestor",
+              "url": "https://x.com/TheProfInvestor/status/2123440961581973567"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Tim Wilson",
-              "url": "https://x.com/TimWilzon/status/2123083237681705134"
+              "text": "@TheProfInvestor",
+              "url": "https://x.com/TheProfInvestor/status/2123440961581973567"
             }
           ]
         }
