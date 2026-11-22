@@ -1,171 +1,170 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-21T06:30:24.191Z",
+      "updatedAt": "2026-11-22T06:32:34.417Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Summit focus",
-        "Repeated claim",
-        "Storm watch",
-        "Market buzz",
-        "Single claim"
+        "Rising tension",
+        "Landmark",
+        "Agreement",
+        "Monitoring",
+        "Concern"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Diplomacy",
-          "headline": "Shenzhen summit yields claimed peace pact",
+          "category": "Conflict",
+          "headline": "Poland reports Russian missile strikes",
           "paragraphs": [
-            "Posts say Trump, Xi and Putin issued a declaration on nuclear risks, energy and UN reform after talks in Shenzhen.",
-            "Users call it symbolic. Some note it skips Ukraine and Iran. X claims are not proof."
+            "X posts claim Poland says Russian missiles hit its soil during heavy strikes on Ukraine.",
+            "Reports link the incident to nearby allied drills. Confirmation remains unclear."
           ],
-          "highlightParagraph": 1,
-          "trend": "Summit focus",
+          "highlightParagraph": 0,
+          "trend": "Rising tension",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "label": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             },
             {
-              "label": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+            },
+            {
+              "label": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "text": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             },
             {
               "id": "101-1",
-              "text": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+            },
+            {
+              "id": "101-2",
+              "text": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ]
         },
         {
           "page": 102,
           "category": "Justice",
-          "headline": "ICJ said to find Myanmar genocide",
+          "headline": "Court rules Myanmar committed genocide",
           "paragraphs": [
-            "Several X posts say the ICJ ruled that Myanmar committed genocide against the Rohingya.",
-            "The claim is repeated as fact in summaries. No judgment text is attached in these posts."
+            "According to X, the ICJ found Myanmar responsible for genocide against the Rohingya people.",
+            "Users call the Hague ruling a key moment for international justice."
           ],
           "highlightParagraph": 0,
-          "trend": "Repeated claim",
+          "trend": "Landmark",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123662133640516062"
+              "label": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             },
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123662133640516062"
+              "text": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             },
             {
               "id": "102-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Weather",
-          "headline": "Cyclone Akvan nears India's east coast",
+          "category": "Diplomacy",
+          "headline": "UK, EU agree trade and youth mobility pact",
           "paragraphs": [
-            "X posts say Cyclone Akvan is making landfall near Odisha and is weakening after evacuations.",
-            "Intensity details differ by post. Confirm with official weather alerts before acting."
+            "X news posts report a Brussels deal on trade and youth movement between the UK and EU.",
+            "Some British figures say the pact could lead to still closer cooperation."
           ],
           "highlightParagraph": 0,
-          "trend": "Storm watch",
+          "trend": "Agreement",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123593419457012170"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             },
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
+              "label": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123593419457012170"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             },
             {
               "id": "103-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
+              "text": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Markets",
-          "headline": "Anthropic IPO called largest on record",
+          "category": "Disaster",
+          "headline": "Strong quake hits Peru; damage limited",
           "paragraphs": [
-            "Posts claim Anthropic completed the largest IPO ever, with shares rising on debut.",
-            "Valuation figures vary by post. Treat the market chatter as unverified."
+            "X summaries say a 6.7 quake shook central Peru with no major damage or casualties reported yet."
           ],
-          "highlightParagraph": 1,
-          "trend": "Market buzz",
+          "highlightParagraph": null,
+          "trend": "Monitoring",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
-            },
-            {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123594006349201598"
+              "label": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
-            },
-            {
-              "id": "104-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123594006349201598"
+              "text": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Conflict",
-          "headline": "Kyiv bridge strikes claimed after Crimea",
+          "category": "Health",
+          "headline": "WHO flags rising illness in Gaza",
           "paragraphs": [
-            "One post claims Russia hit three Kyiv bridges, with three dead, after a Ukraine strike on the Crimea Bridge.",
-            "This is a single account's claim and is not independently confirmed in these results."
+            "Posts on X cite the WHO warning that respiratory illness is climbing in Gaza.",
+            "The note adds pressure on already strained health services, users say."
           ],
-          "highlightParagraph": 1,
-          "trend": "Single claim",
+          "highlightParagraph": 0,
+          "trend": "Concern",
           "sources": [
             {
-              "label": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             }
           ]
         }
@@ -173,170 +172,169 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-21T06:30:24.191Z",
+      "updatedAt": "2026-11-22T06:32:34.417Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Summit focus",
-        "Repeated claim",
-        "Storm watch",
-        "Market buzz",
-        "Single claim"
+        "Rising tension",
+        "Landmark",
+        "Agreement",
+        "Monitoring",
+        "Concern"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Diplomati",
-          "headline": "Shenzhen-topp ger påstått fredsavtal",
+          "category": "Konflikt",
+          "headline": "Polen: ryska robotar träffade landet",
           "paragraphs": [
-            "Inlägg säger att Trump, Xi och Putin utfärdade en deklaration om kärnvapenrisker, energi och FN-reform efter samtal i Shenzhen.",
-            "Användare kallar den symbolisk. Vissa noterar att Ukraina och Iran saknas. X-påståenden är inte bevis."
+            "X-inlägg hävdar att Polen säger att ryska robotar träffade dess mark under tunga anfall mot Ukraina.",
+            "Rapporterna kopplas till närliggande allierade övningar. Bekräftelse är oklar."
           ],
-          "highlightParagraph": 1,
-          "trend": "Summit focus",
+          "highlightParagraph": 0,
+          "trend": "Rising tension",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "label": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             },
             {
-              "label": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+            },
+            {
+              "label": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "text": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             },
             {
               "id": "101-1",
-              "text": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+            },
+            {
+              "id": "101-2",
+              "text": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ]
         },
         {
           "page": 102,
           "category": "Rättvisa",
-          "headline": "ICJ sägs finna folkmord i Myanmar",
+          "headline": "Domstol: Myanmar begick folkmord",
           "paragraphs": [
-            "Flera inlägg på X säger att ICJ slog fast att Myanmar begick folkmord mot rohingya.",
-            "Påståendet återges som fakta i sammanfattningar. Ingen domstext bifogas i dessa inlägg."
+            "Enligt X fann ICJ att Myanmar bär ansvar för folkmord mot rohingya.",
+            "Användare kallar Haag-domen ett viktigt steg för internationell rättvisa."
           ],
           "highlightParagraph": 0,
-          "trend": "Repeated claim",
+          "trend": "Landmark",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123662133640516062"
+              "label": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             },
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123662133640516062"
+              "text": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             },
             {
               "id": "102-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Väder",
-          "headline": "Cyklonen Akvan nära Indiens östkust",
+          "category": "Diplomati",
+          "headline": "Storbritannien och EU enas om avtal",
           "paragraphs": [
-            "Inlägg på X säger att cyklonen Akvan går i land nära Odisha och försvagas efter evakueringar.",
-            "Uppgifter om styrka skiljer sig. Bekräfta med officiella vädervarningar innan åtgärder."
+            "X-nyhetsposter rapporterar ett Brysselavtal om handel och ungdomsrörlighet mellan UK och EU.",
+            "Vissa brittiska röster säger att pakten kan leda till ännu närmare samarbete."
           ],
           "highlightParagraph": 0,
-          "trend": "Storm watch",
+          "trend": "Agreement",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123593419457012170"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             },
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
+              "label": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123593419457012170"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             },
             {
               "id": "103-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
+              "text": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Marknad",
-          "headline": "Anthropics börsnotering kallad rekord",
+          "category": "Katastrof",
+          "headline": "Kraftigt skalv i Peru, begränsad skada",
           "paragraphs": [
-            "Inlägg hävdar att Anthropic gjorde den största börsnoteringen någonsin, med stigande aktie vid debuten.",
-            "Värderingssiffror varierar. Behandla marknadssnacket som obekräftat."
+            "X-sammanfattningar säger att ett skalv på 6,7 skakade centrala Peru utan större skador eller dödsfall hittills."
           ],
-          "highlightParagraph": 1,
-          "trend": "Market buzz",
+          "highlightParagraph": null,
+          "trend": "Monitoring",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
-            },
-            {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123594006349201598"
+              "label": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
-            },
-            {
-              "id": "104-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123594006349201598"
+              "text": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Konflikt",
-          "headline": "Broattacker i Kyiv påstås efter Krim",
+          "category": "Hälsa",
+          "headline": "WHO: stigande sjukdom i Gaza",
           "paragraphs": [
-            "Ett inlägg hävdar att Ryssland träffade tre broar i Kyiv, med tre döda, efter ett ukrainskt anfall mot Krimbron.",
-            "Det är ett enda kontos påstående och bekräftas inte oberoende i dessa resultat."
+            "Inlägg på X citerar WHO som varnar för att luftvägssjukdom ökar i Gaza.",
+            "Noteringen ökar trycket på redan ansträngda vårdtjänster, säger användare."
           ],
-          "highlightParagraph": 1,
-          "trend": "Single claim",
+          "highlightParagraph": 0,
+          "trend": "Concern",
           "sources": [
             {
-              "label": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             }
           ]
         }
@@ -344,170 +342,169 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-21T06:30:24.191Z",
+      "updatedAt": "2026-11-22T06:32:34.417Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Summit focus",
-        "Repeated claim",
-        "Storm watch",
-        "Market buzz",
-        "Single claim"
+        "Rising tension",
+        "Landmark",
+        "Agreement",
+        "Monitoring",
+        "Concern"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Diplomatie",
-          "headline": "Shenzhen-Gipfel: behaupteter Friedenspakt",
+          "category": "Konflikt",
+          "headline": "Polen meldet russische Raketentreffer",
           "paragraphs": [
-            "Beiträge sagen, Trump, Xi und Putin hätten nach Gesprächen in Shenzhen eine Erklärung zu Atomrisiken, Energie und UN-Reform abgegeben.",
-            "Nutzer nennen sie symbolisch. Manche vermissen Ukraine und Iran. X-Behauptungen sind kein Beweis."
+            "X-Beiträge behaupten, Polen melde russische Raketen auf seinem Boden während schwerer Angriffe auf die Ukraine.",
+            "Die Berichte werden mit Übungen der Verbündeten verknüpft. Eine Bestätigung fehlt."
           ],
-          "highlightParagraph": 1,
-          "trend": "Summit focus",
+          "highlightParagraph": 0,
+          "trend": "Rising tension",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "label": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             },
             {
-              "label": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+            },
+            {
+              "label": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "text": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             },
             {
               "id": "101-1",
-              "text": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+            },
+            {
+              "id": "101-2",
+              "text": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ]
         },
         {
           "page": 102,
           "category": "Justiz",
-          "headline": "IGH soll Völkermord in Myanmar sehen",
+          "headline": "Gericht: Myanmar beging Völkermord",
           "paragraphs": [
-            "Mehrere X-Beiträge sagen, der IGH habe entschieden, dass Myanmar Völkermord an den Rohingya beging.",
-            "Die Behauptung wird in Zusammenfassungen als Fakt wiederholt. Kein Urteilstext hängt an diesen Posts."
+            "Laut X stellte der IGH fest, dass Myanmar für Völkermord an den Rohingya verantwortlich ist.",
+            "Nutzer nennen das Haager Urteil einen Schlüsselmoment der Rechenschaft."
           ],
           "highlightParagraph": 0,
-          "trend": "Repeated claim",
+          "trend": "Landmark",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123662133640516062"
+              "label": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             },
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123662133640516062"
+              "text": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             },
             {
               "id": "102-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Wetter",
-          "headline": "Zyklon Akvan nahe Indiens Ostküste",
+          "category": "Diplomatie",
+          "headline": "UK und EU einigen sich auf Abkommen",
           "paragraphs": [
-            "X-Beiträge sagen, Zyklon Akvan erreiche bei Odisha Land und schwäche sich nach Evakuierungen ab.",
-            "Angaben zur Stärke weichen ab. Vor dem Handeln offizielle Wetterwarnungen prüfen."
+            "X-Nachrichtenposts berichten von einem Brüsseler Deal zu Handel und Jugendmobilität zwischen UK und EU.",
+            "Einige britische Stimmen sagen, der Pakt könne zu noch engerer Zusammenarbeit führen."
           ],
           "highlightParagraph": 0,
-          "trend": "Storm watch",
+          "trend": "Agreement",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123593419457012170"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             },
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
+              "label": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123593419457012170"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             },
             {
               "id": "103-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
+              "text": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Märkte",
-          "headline": "Anthropic-IPO als Rekord bezeichnet",
+          "category": "Katastrophe",
+          "headline": "Starkes Beben in Peru, wenig Schaden",
           "paragraphs": [
-            "Beiträge behaupten, Anthropic habe den größten Börsengang aller Zeiten abgeschlossen, mit steigendem Kurs.",
-            "Bewertungszahlen weichen ab. Das Marktgerede gilt als unbestätigt."
+            "X-Zusammenfassungen sagen, ein Beben der Stärke 6,7 habe Zentralperu erschüttert, ohne größere Schäden oder Todesopfer bisher."
           ],
-          "highlightParagraph": 1,
-          "trend": "Market buzz",
+          "highlightParagraph": null,
+          "trend": "Monitoring",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
-            },
-            {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123594006349201598"
+              "label": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
-            },
-            {
-              "id": "104-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123594006349201598"
+              "text": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Konflikt",
-          "headline": "Kiewer Brückenangriffe nach Krim behauptet",
+          "category": "Gesundheit",
+          "headline": "WHO: steigende Krankheit in Gaza",
           "paragraphs": [
-            "Ein Beitrag behauptet, Russland habe drei Brücken in Kiew getroffen, mit drei Toten, nach einem ukrainischen Schlag auf die Krimbrücke.",
-            "Das ist die Behauptung eines Kontos und hier nicht unabhängig bestätigt."
+            "Posts auf X zitieren die WHO, die vor steigenden Atemwegserkrankungen in Gaza warnt.",
+            "Der Hinweis erhöht den Druck auf bereits belastete Gesundheitsdienste, sagen Nutzer."
           ],
-          "highlightParagraph": 1,
-          "trend": "Single claim",
+          "highlightParagraph": 0,
+          "trend": "Concern",
           "sources": [
             {
-              "label": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             }
           ]
         }
@@ -515,170 +512,169 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-21T06:30:24.191Z",
+      "updatedAt": "2026-11-22T06:32:34.417Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Summit focus",
-        "Repeated claim",
-        "Storm watch",
-        "Market buzz",
-        "Single claim"
+        "Rising tension",
+        "Landmark",
+        "Agreement",
+        "Monitoring",
+        "Concern"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Diplomacia",
-          "headline": "Cumbre en Shenzhen: pacto de paz alegado",
+          "category": "Conflicto",
+          "headline": "Polonia reporta impactos de misiles rusos",
           "paragraphs": [
-            "Publicaciones dicen que Trump, Xi y Putin emitieron una declaración sobre riesgos nucleares, energía y reforma de la ONU tras las conversaciones en Shenzhen.",
-            "Usuarios la llaman simbólica. Algunos notan que omite Ucrania e Irán. Las afirmaciones en X no son prueba."
+            "Publicaciones en X afirman que Polonia dice que misiles rusos golpearon su suelo durante ataques a Ucrania.",
+            "Los informes se vinculan a ejercicios aliados cercanos. La confirmación no está clara."
           ],
-          "highlightParagraph": 1,
-          "trend": "Summit focus",
+          "highlightParagraph": 0,
+          "trend": "Rising tension",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "label": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             },
             {
-              "label": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+            },
+            {
+              "label": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "text": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             },
             {
               "id": "101-1",
-              "text": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+            },
+            {
+              "id": "101-2",
+              "text": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ]
         },
         {
           "page": 102,
           "category": "Justicia",
-          "headline": "CIJ habría hallado genocidio en Myanmar",
+          "headline": "Corte: Myanmar cometió genocidio",
           "paragraphs": [
-            "Varios posts en X dicen que la CIJ dictaminó que Myanmar cometió genocidio contra los rohinyá.",
-            "La afirmación se repite como hecho en resúmenes. Estos posts no adjuntan el texto del fallo."
+            "Según X, la CIJ determinó que Myanmar es responsable de genocidio contra los rohingya.",
+            "Usuarios llaman al fallo de La Haya un momento clave de justicia internacional."
           ],
           "highlightParagraph": 0,
-          "trend": "Repeated claim",
+          "trend": "Landmark",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123662133640516062"
+              "label": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             },
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123662133640516062"
+              "text": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             },
             {
               "id": "102-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Tiempo",
-          "headline": "El ciclón Akvan cerca la costa de India",
+          "category": "Diplomacia",
+          "headline": "Reino Unido y UE acuerdan pacto comercial",
           "paragraphs": [
-            "Posts en X dicen que el ciclón Akvan toca tierra cerca de Odisha y se debilita tras evacuaciones.",
-            "Los detalles de intensidad varían. Confirme con alertas meteorológicas oficiales."
+            "Posts de noticias en X informan de un acuerdo en Bruselas sobre comercio y movilidad juvenil entre UK y UE.",
+            "Algunas voces británicas dicen que el pacto podría llevar a una cooperación aún más estrecha."
           ],
           "highlightParagraph": 0,
-          "trend": "Storm watch",
+          "trend": "Agreement",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123593419457012170"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             },
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
+              "label": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123593419457012170"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             },
             {
               "id": "103-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
+              "text": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Mercados",
-          "headline": "OPI de Anthropic llamada la mayor",
+          "category": "Desastre",
+          "headline": "Fuerte sismo en Perú; daños limitados",
           "paragraphs": [
-            "Posts afirman que Anthropic completó la mayor OPI de la historia, con alza de acciones en el debut.",
-            "Las cifras de valoración varían. Trate el rumor de mercado como no verificado."
+            "Resúmenes en X dicen que un sismo de 6,7 sacudió el centro de Perú sin daños mayores ni víctimas hasta ahora."
           ],
-          "highlightParagraph": 1,
-          "trend": "Market buzz",
+          "highlightParagraph": null,
+          "trend": "Monitoring",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
-            },
-            {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123594006349201598"
+              "label": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
-            },
-            {
-              "id": "104-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123594006349201598"
+              "text": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Conflicto",
-          "headline": "Ataques a puentes de Kiev alegados",
+          "category": "Salud",
+          "headline": "OMS: enfermedad respiratoria sube en Gaza",
           "paragraphs": [
-            "Un post afirma que Rusia golpeó tres puentes de Kiev, con tres muertos, tras un ataque ucraniano al puente de Crimea.",
-            "Es la afirmación de una sola cuenta y no está confirmada de forma independiente aquí."
+            "Publicaciones en X citan a la OMS advirtiendo que la enfermedad respiratoria aumenta en Gaza.",
+            "La nota añade presión a servicios de salud ya tensos, dicen los usuarios."
           ],
-          "highlightParagraph": 1,
-          "trend": "Single claim",
+          "highlightParagraph": 0,
+          "trend": "Concern",
           "sources": [
             {
-              "label": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             }
           ]
         }
@@ -686,170 +682,169 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-21T06:30:24.191Z",
+      "updatedAt": "2026-11-22T06:32:34.417Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Summit focus",
-        "Repeated claim",
-        "Storm watch",
-        "Market buzz",
-        "Single claim"
+        "Rising tension",
+        "Landmark",
+        "Agreement",
+        "Monitoring",
+        "Concern"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Diplomatie",
-          "headline": "Sommet de Shenzhen: pacte de paix allégué",
+          "category": "Conflit",
+          "headline": "Pologne: frappes de missiles russes signalées",
           "paragraphs": [
-            "Des posts disent que Trump, Xi et Poutine ont publié une déclaration sur les risques nucléaires, l'énergie et la réforme de l'ONU après Shenzhen.",
-            "Des utilisateurs la jugent symbolique. Certains notent l'absence de l'Ukraine et de l'Iran. Les affirmations sur X ne sont pas des preuves."
+            "Des posts X affirment que la Pologne dit que des missiles russes ont frappé son sol lors d'attaques sur l'Ukraine.",
+            "Les rapports sont liés à des exercices alliés proches. La confirmation reste floue."
           ],
-          "highlightParagraph": 1,
-          "trend": "Summit focus",
+          "highlightParagraph": 0,
+          "trend": "Rising tension",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "label": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             },
             {
-              "label": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+            },
+            {
+              "label": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "text": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             },
             {
               "id": "101-1",
-              "text": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+            },
+            {
+              "id": "101-2",
+              "text": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ]
         },
         {
           "page": 102,
           "category": "Justice",
-          "headline": "CIJ dite avoir jugé un génocide",
+          "headline": "Cour: le Myanmar jugé coupable de génocide",
           "paragraphs": [
-            "Plusieurs posts sur X disent que la CIJ a jugé que le Myanmar a commis un génocide contre les Rohingya.",
-            "L'affirmation est reprise comme un fait dans des résumés. Ces posts n'incluent pas le texte du jugement."
+            "Selon X, la CIJ a estimé que le Myanmar est responsable de génocide contre les Rohingya.",
+            "Des utilisateurs qualifient l'arrêt de La Haye d'étape majeure pour la justice."
           ],
           "highlightParagraph": 0,
-          "trend": "Repeated claim",
+          "trend": "Landmark",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123662133640516062"
+              "label": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             },
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123662133640516062"
+              "text": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             },
             {
               "id": "102-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123639988424208611"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Météo",
-          "headline": "Le cyclone Akvan près de l'est indien",
+          "category": "Diplomatie",
+          "headline": "Royaume-Uni et UE concluent un accord",
           "paragraphs": [
-            "Des posts sur X disent que le cyclone Akvan touche terre près de l'Odisha et faiblit après des évacuations.",
-            "Les détails d'intensité divergent. Confirmez avec les alertes météo officielles."
+            "Des posts d'actualité sur X rapportent un accord à Bruxelles sur le commerce et la mobilité des jeunes entre le UK et l'UE.",
+            "Certaines voix britanniques disent que le pacte pourrait mener à une coopération plus étroite."
           ],
           "highlightParagraph": 0,
-          "trend": "Storm watch",
+          "trend": "Agreement",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123593419457012170"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             },
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
+              "label": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123593419457012170"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             },
             {
               "id": "103-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
+              "text": "@worldnewsappx",
+              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Marchés",
-          "headline": "IPO d'Anthropic dite la plus grande",
+          "category": "Catastrophe",
+          "headline": "Fort séisme au Pérou, dégâts limités",
           "paragraphs": [
-            "Des posts affirment qu'Anthropic a réalisé la plus grande introduction en Bourse, avec une hausse à l'ouverture.",
-            "Les valorisations divergent. Traitez ces propos de marché comme non vérifiés."
+            "Des résumés X indiquent qu'un séisme de 6,7 a secoué le centre du Pérou sans dégâts majeurs ni victimes pour l'instant."
           ],
-          "highlightParagraph": 1,
-          "trend": "Market buzz",
+          "highlightParagraph": null,
+          "trend": "Monitoring",
           "sources": [
             {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
-            },
-            {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2123594006349201598"
+              "label": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123662216419303719"
-            },
-            {
-              "id": "104-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2123594006349201598"
+              "text": "@Redbabe001",
+              "url": "https://x.com/Redbabe001/status/2124116707857858984"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Conflit",
-          "headline": "Frappes sur des ponts de Kiev alléguées",
+          "category": "Santé",
+          "headline": "OMS: maladie respiratoire en hausse à Gaza",
           "paragraphs": [
-            "Un post affirme que la Russie a frappé trois ponts de Kiev, avec trois morts, après une frappe ukrainienne sur le pont de Crimée.",
-            "C'est l'affirmation d'un seul compte, non confirmée de façon indépendante ici."
+            "Des posts sur X citent l'OMS avertissant que les maladies respiratoires augmentent à Gaza.",
+            "La note accroît la pression sur des services de santé déjà tendus, disent les utilisateurs."
           ],
-          "highlightParagraph": 1,
-          "trend": "Single claim",
+          "highlightParagraph": 0,
+          "trend": "Concern",
           "sources": [
             {
-              "label": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "label": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Mayur Jhala",
-              "url": "https://x.com/mayurjhala/status/2123679785478213998"
+              "text": "@NBSHARMA3",
+              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
             }
           ]
         }
