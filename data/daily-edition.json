@@ -1,170 +1,259 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-22T06:32:34.417Z",
+      "updatedAt": "2026-11-23T06:43:18.163Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Rising tension",
-        "Landmark",
-        "Agreement",
-        "Monitoring",
-        "Concern"
+        "Talk rising",
+        "Repeated claim",
+        "Arrest claim",
+        "War talk",
+        "Disputed",
+        "Naval claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Conflict",
-          "headline": "Poland reports Russian missile strikes",
+          "category": "Climate",
+          "headline": "COP31 deadlocks over fossil-fuel text",
           "paragraphs": [
-            "X posts claim Poland says Russian missiles hit its soil during heavy strikes on Ukraine.",
-            "Reports link the incident to nearby allied drills. Confirmation remains unclear."
+            "X roundups say COP31 is stuck after the EU rejected a fossil-fuel text.",
+            "Accounts claim a walkout left talks deadlocked. These posts do not show the draft."
           ],
           "highlightParagraph": 0,
-          "trend": "Rising tension",
+          "trend": "Talk rising",
           "sources": [
             {
-              "label": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
             },
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
-              "label": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
             },
             {
               "id": "101-1",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
               "id": "101-2",
-              "text": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "101-3",
+              "text": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Justice",
-          "headline": "Court rules Myanmar committed genocide",
+          "category": "Security",
+          "headline": "Cargo ship ablaze off Finland, posts say",
           "paragraphs": [
-            "According to X, the ICJ found Myanmar responsible for genocide against the Rohingya people.",
-            "Users call the Hague ruling a key moment for international justice."
+            "Several X posts report a Russia-bound cargo ship on fire in the Gulf of Finland.",
+            "Some link the blaze to a drone strike. The claim is repeated, not verified here."
           ],
           "highlightParagraph": 0,
-          "trend": "Landmark",
+          "trend": "Repeated claim",
           "sources": [
             {
-              "label": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
               "id": "102-1",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "id": "102-2",
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "102-3",
+              "text": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Diplomacy",
-          "headline": "UK, EU agree trade and youth mobility pact",
+          "category": "Crime",
+          "headline": "Mexico arrest of cartel boss claimed",
           "paragraphs": [
-            "X news posts report a Brussels deal on trade and youth movement between the UK and EU.",
-            "Some British figures say the pact could lead to still closer cooperation."
+            "Posts claim Mexico seized an FBI most-wanted cartel boss after a shoot-out.",
+            "One account names him El Chapo Isidro. Casualty figures differ and are unconfirmed here."
           ],
           "highlightParagraph": 0,
-          "trend": "Agreement",
+          "trend": "Arrest claim",
           "sources": [
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
-              "label": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
               "id": "103-1",
-              "text": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "103-2",
+              "text": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Disaster",
-          "headline": "Strong quake hits Peru; damage limited",
+          "category": "Ukraine",
+          "headline": "Zelensky: Crimea bridge hits fair",
           "paragraphs": [
-            "X summaries say a 6.7 quake shook central Peru with no major damage or casualties reported yet."
+            "A news roundup on X says Zelensky called Crimean Bridge strikes a fair response.",
+            "It says he met UK minister Streeting. No official transcript is shown in the post."
           ],
-          "highlightParagraph": null,
-          "trend": "Monitoring",
+          "highlightParagraph": 0,
+          "trend": "War talk",
           "sources": [
             {
-              "label": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+            },
+            {
+              "label": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+            },
+            {
+              "id": "104-1",
+              "text": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Health",
-          "headline": "WHO flags rising illness in Gaza",
+          "category": "Middle East",
+          "headline": "Iran-linked Gulf strikes claimed on X",
           "paragraphs": [
-            "Posts on X cite the WHO warning that respiratory illness is climbing in Gaza.",
-            "The note adds pressure on already strained health services, users say."
+            "X posts claim Iran-linked attacks hit Bahrain and tankers in the Strait of Hormuz.",
+            "One briefing says Iran claims it struck US radars in Bahrain. Treat these as claims, not proof."
           ],
-          "highlightParagraph": 0,
-          "trend": "Concern",
+          "highlightParagraph": 1,
+          "trend": "Disputed",
           "sources": [
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Daily World Brief",
+              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "105-1",
+              "text": "Daily World Brief",
+              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Conflict",
+          "headline": "Russian warship hit off Libya, posts say",
+          "paragraphs": [
+            "Roundups claim a Russian corvette capsized off Libya after a suspected sea-drone strike.",
+            "One post names the ship Merkury. It does not provide independent confirmation."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Naval claim",
+          "sources": [
+            {
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "label": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "id": "106-1",
+              "text": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ]
         }
@@ -172,169 +261,258 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-22T06:32:34.417Z",
+      "updatedAt": "2026-11-23T06:43:18.163Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Rising tension",
-        "Landmark",
-        "Agreement",
-        "Monitoring",
-        "Concern"
+        "Talk rising",
+        "Repeated claim",
+        "Arrest claim",
+        "War talk",
+        "Disputed",
+        "Naval claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Konflikt",
-          "headline": "Polen: ryska robotar träffade landet",
+          "category": "Klimat",
+          "headline": "COP31 låst om fossiltext",
           "paragraphs": [
-            "X-inlägg hävdar att Polen säger att ryska robotar träffade dess mark under tunga anfall mot Ukraina.",
-            "Rapporterna kopplas till närliggande allierade övningar. Bekräftelse är oklar."
+            "Sammanfattningar på X säger att COP31 kört fast sedan EU avvisat en text om fossila bränslen.",
+            "Konton hävdar att en utmarsch lämnat samtalen låsta. Inläggen visar inte utkastet."
           ],
           "highlightParagraph": 0,
-          "trend": "Rising tension",
+          "trend": "Talk rising",
           "sources": [
             {
-              "label": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
             },
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
-              "label": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
             },
             {
               "id": "101-1",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
               "id": "101-2",
-              "text": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "101-3",
+              "text": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Rättvisa",
-          "headline": "Domstol: Myanmar begick folkmord",
+          "category": "Säkerhet",
+          "headline": "Lastfartyg i brand, enligt inlägg",
           "paragraphs": [
-            "Enligt X fann ICJ att Myanmar bär ansvar för folkmord mot rohingya.",
-            "Användare kallar Haag-domen ett viktigt steg för internationell rättvisa."
+            "Flera inlägg på X rapporterar att ett Rysslandsgående lastfartyg brinner i Finska viken.",
+            "Vissa kopplar branden till en drönarattack. Påståendet upprepas men verifieras inte här."
           ],
           "highlightParagraph": 0,
-          "trend": "Landmark",
+          "trend": "Repeated claim",
           "sources": [
             {
-              "label": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
               "id": "102-1",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "id": "102-2",
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "102-3",
+              "text": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Diplomati",
-          "headline": "Storbritannien och EU enas om avtal",
+          "category": "Brott",
+          "headline": "Mexiko uppges ha gripit kartellboss",
           "paragraphs": [
-            "X-nyhetsposter rapporterar ett Brysselavtal om handel och ungdomsrörlighet mellan UK och EU.",
-            "Vissa brittiska röster säger att pakten kan leda till ännu närmare samarbete."
+            "Inlägg hävdar att Mexiko gripit en kartellboss på FBI:s mest efterlysta efter en eldstrid.",
+            "Ett konto kallar honom El Chapo Isidro. Dödssiffror skiljer sig och är obekräftade här."
           ],
           "highlightParagraph": 0,
-          "trend": "Agreement",
+          "trend": "Arrest claim",
           "sources": [
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
-              "label": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
               "id": "103-1",
-              "text": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "103-2",
+              "text": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Katastrof",
-          "headline": "Kraftigt skalv i Peru, begränsad skada",
+          "category": "Ukraina",
+          "headline": "Zelenskyj: broslag var rättvist",
           "paragraphs": [
-            "X-sammanfattningar säger att ett skalv på 6,7 skakade centrala Peru utan större skador eller dödsfall hittills."
+            "En nyhetsrunda på X säger att Zelenskyj kallade slag mot Krimbron ett rättvist svar.",
+            "Den säger att han mötte brittiske ministern Streeting. Ingen officiell utskrift visas."
           ],
-          "highlightParagraph": null,
-          "trend": "Monitoring",
+          "highlightParagraph": 0,
+          "trend": "War talk",
           "sources": [
             {
-              "label": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+            },
+            {
+              "label": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+            },
+            {
+              "id": "104-1",
+              "text": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Hälsa",
-          "headline": "WHO: stigande sjukdom i Gaza",
+          "category": "Mellanöstern",
+          "headline": "Iran-kopplade anfall hävdas",
           "paragraphs": [
-            "Inlägg på X citerar WHO som varnar för att luftvägssjukdom ökar i Gaza.",
-            "Noteringen ökar trycket på redan ansträngda vårdtjänster, säger användare."
+            "Inlägg på X hävdar att Iran-kopplade attacker träffat Bahrain och tankfartyg i Hormuzsundet.",
+            "En briefing säger att Iran hävdar slag mot amerikanska radar. Se det som påståenden, inte bevis."
           ],
-          "highlightParagraph": 0,
-          "trend": "Concern",
+          "highlightParagraph": 1,
+          "trend": "Disputed",
           "sources": [
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Daily World Brief",
+              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "105-1",
+              "text": "Daily World Brief",
+              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Konflikt",
+          "headline": "Rysk korvett träffad, enligt inlägg",
+          "paragraphs": [
+            "Sammanfattningar hävdar att en rysk korvett kantrat utanför Libyen efter en misstänkt sjödrönare.",
+            "Ett inlägg nämner fartyget Merkury. Det ger ingen oberoende bekräftelse."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Naval claim",
+          "sources": [
+            {
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "label": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "id": "106-1",
+              "text": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ]
         }
@@ -342,169 +520,258 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-22T06:32:34.417Z",
+      "updatedAt": "2026-11-23T06:43:18.163Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Rising tension",
-        "Landmark",
-        "Agreement",
-        "Monitoring",
-        "Concern"
+        "Talk rising",
+        "Repeated claim",
+        "Arrest claim",
+        "War talk",
+        "Disputed",
+        "Naval claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Konflikt",
-          "headline": "Polen meldet russische Raketentreffer",
+          "category": "Klima",
+          "headline": "COP31 stockt bei Fossiltext",
           "paragraphs": [
-            "X-Beiträge behaupten, Polen melde russische Raketen auf seinem Boden während schwerer Angriffe auf die Ukraine.",
-            "Die Berichte werden mit Übungen der Verbündeten verknüpft. Eine Bestätigung fehlt."
+            "X-Runden sagen, die COP31 stecke fest, nachdem die EU einen Fossiltext abgelehnt habe.",
+            "Konten sprechen von einem Auszug und einer Blockade. Die Posts zeigen den Entwurf nicht."
           ],
           "highlightParagraph": 0,
-          "trend": "Rising tension",
+          "trend": "Talk rising",
           "sources": [
             {
-              "label": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
             },
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
-              "label": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
             },
             {
               "id": "101-1",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
               "id": "101-2",
-              "text": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "101-3",
+              "text": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Justiz",
-          "headline": "Gericht: Myanmar beging Völkermord",
+          "category": "Sicherheit",
+          "headline": "Frachter vor Finnland in Flammen",
           "paragraphs": [
-            "Laut X stellte der IGH fest, dass Myanmar für Völkermord an den Rohingya verantwortlich ist.",
-            "Nutzer nennen das Haager Urteil einen Schlüsselmoment der Rechenschaft."
+            "Mehrere Posts auf X melden ein brennendes, russlandgebundenes Frachtschiff im Finnischen Meerbusen.",
+            "Einige verknüpfen das Feuer mit einem Drohnenangriff. Die Behauptung ist hier nicht belegt."
           ],
           "highlightParagraph": 0,
-          "trend": "Landmark",
+          "trend": "Repeated claim",
           "sources": [
             {
-              "label": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
               "id": "102-1",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "id": "102-2",
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "102-3",
+              "text": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Diplomatie",
-          "headline": "UK und EU einigen sich auf Abkommen",
+          "category": "Kriminalität",
+          "headline": "Mexiko soll Kartellboss festnehmen",
           "paragraphs": [
-            "X-Nachrichtenposts berichten von einem Brüsseler Deal zu Handel und Jugendmobilität zwischen UK und EU.",
-            "Einige britische Stimmen sagen, der Pakt könne zu noch engerer Zusammenarbeit führen."
+            "Posts behaupten, Mexiko habe nach einem Schusswechsel einen FBI-Top-Kartellboss festgenommen.",
+            "Ein Konto nennt ihn El Chapo Isidro. Opferzahlen weichen ab und sind hier unbestätigt."
           ],
           "highlightParagraph": 0,
-          "trend": "Agreement",
+          "trend": "Arrest claim",
           "sources": [
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
-              "label": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
               "id": "103-1",
-              "text": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "103-2",
+              "text": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Katastrophe",
-          "headline": "Starkes Beben in Peru, wenig Schaden",
+          "category": "Ukraine",
+          "headline": "Selenskyj: Krimbrücken-Schläge fair",
           "paragraphs": [
-            "X-Zusammenfassungen sagen, ein Beben der Stärke 6,7 habe Zentralperu erschüttert, ohne größere Schäden oder Todesopfer bisher."
+            "Eine X-Runde sagt, Selenskyj habe Schläge auf die Krimbrücke als faire Antwort bezeichnet.",
+            "Er soll Minister Streeting getroffen haben. Kein offizielles Transkript wird gezeigt."
           ],
-          "highlightParagraph": null,
-          "trend": "Monitoring",
+          "highlightParagraph": 0,
+          "trend": "War talk",
           "sources": [
             {
-              "label": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+            },
+            {
+              "label": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+            },
+            {
+              "id": "104-1",
+              "text": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Gesundheit",
-          "headline": "WHO: steigende Krankheit in Gaza",
+          "category": "Nahost",
+          "headline": "Iran-nahe Golfschläge behauptet",
           "paragraphs": [
-            "Posts auf X zitieren die WHO, die vor steigenden Atemwegserkrankungen in Gaza warnt.",
-            "Der Hinweis erhöht den Druck auf bereits belastete Gesundheitsdienste, sagen Nutzer."
+            "Posts auf X behaupten iran-nahe Angriffe auf Bahrain und Tanker in der Straße von Hormus.",
+            "Ein Briefing sagt, Iran beanspruche Treffer auf US-Radar. Das sind Behauptungen, kein Beweis."
           ],
-          "highlightParagraph": 0,
-          "trend": "Concern",
+          "highlightParagraph": 1,
+          "trend": "Disputed",
           "sources": [
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Daily World Brief",
+              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "105-1",
+              "text": "Daily World Brief",
+              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Konflikt",
+          "headline": "Russische Korvette getroffen, Posts",
+          "paragraphs": [
+            "Runden behaupten, eine russische Korvette sei vor Libyen nach einem See-Drohnenangriff gekentert.",
+            "Ein Post nennt das Schiff Merkury. Eine unabhängige Bestätigung fehlt."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Naval claim",
+          "sources": [
+            {
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "label": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "id": "106-1",
+              "text": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ]
         }
@@ -512,169 +779,258 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-22T06:32:34.417Z",
+      "updatedAt": "2026-11-23T06:43:18.163Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Rising tension",
-        "Landmark",
-        "Agreement",
-        "Monitoring",
-        "Concern"
+        "Talk rising",
+        "Repeated claim",
+        "Arrest claim",
+        "War talk",
+        "Disputed",
+        "Naval claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Conflicto",
-          "headline": "Polonia reporta impactos de misiles rusos",
+          "category": "Clima",
+          "headline": "La COP31, atascada por los fósiles",
           "paragraphs": [
-            "Publicaciones en X afirman que Polonia dice que misiles rusos golpearon su suelo durante ataques a Ucrania.",
-            "Los informes se vinculan a ejercicios aliados cercanos. La confirmación no está clara."
+            "Resúmenes en X dicen que la COP31 está bloqueada tras el rechazo de la UE a un texto fósil.",
+            "Cuentas hablan de una retirada y un punto muerto. Los posts no muestran el borrador."
           ],
           "highlightParagraph": 0,
-          "trend": "Rising tension",
+          "trend": "Talk rising",
           "sources": [
             {
-              "label": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
             },
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
-              "label": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
             },
             {
               "id": "101-1",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
               "id": "101-2",
-              "text": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "101-3",
+              "text": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Justicia",
-          "headline": "Corte: Myanmar cometió genocidio",
+          "category": "Seguridad",
+          "headline": "Carguero en llamas, dicen posts",
           "paragraphs": [
-            "Según X, la CIJ determinó que Myanmar es responsable de genocidio contra los rohingya.",
-            "Usuarios llaman al fallo de La Haya un momento clave de justicia internacional."
+            "Varios posts en X informan de un carguero rumbo a Rusia en llamas en el golfo de Finlandia.",
+            "Algunos lo vinculan a un ataque con drones. La afirmación se repite y no se verifica aquí."
           ],
           "highlightParagraph": 0,
-          "trend": "Landmark",
+          "trend": "Repeated claim",
           "sources": [
             {
-              "label": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
               "id": "102-1",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "id": "102-2",
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "102-3",
+              "text": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Diplomacia",
-          "headline": "Reino Unido y UE acuerdan pacto comercial",
+          "category": "Crimen",
+          "headline": "México habría capturado a un capo",
           "paragraphs": [
-            "Posts de noticias en X informan de un acuerdo en Bruselas sobre comercio y movilidad juvenil entre UK y UE.",
-            "Algunas voces británicas dicen que el pacto podría llevar a una cooperación aún más estrecha."
+            "Posts afirman que México detuvo a un capo del FBI más buscado tras un tiroteo.",
+            "Una cuenta lo llama El Chapo Isidro. Las cifras de víctimas difieren y no están confirmadas."
           ],
           "highlightParagraph": 0,
-          "trend": "Agreement",
+          "trend": "Arrest claim",
           "sources": [
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
-              "label": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
               "id": "103-1",
-              "text": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "103-2",
+              "text": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Desastre",
-          "headline": "Fuerte sismo en Perú; daños limitados",
+          "category": "Ucrania",
+          "headline": "Zelenski: golpes al puente, justos",
           "paragraphs": [
-            "Resúmenes en X dicen que un sismo de 6,7 sacudió el centro de Perú sin daños mayores ni víctimas hasta ahora."
+            "Un resumen en X dice que Zelenski llamó justa respuesta a los golpes al puente de Crimea.",
+            "Dice que se reunió con el ministro Streeting. No se muestra transcripción oficial."
           ],
-          "highlightParagraph": null,
-          "trend": "Monitoring",
+          "highlightParagraph": 0,
+          "trend": "War talk",
           "sources": [
             {
-              "label": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+            },
+            {
+              "label": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+            },
+            {
+              "id": "104-1",
+              "text": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Salud",
-          "headline": "OMS: enfermedad respiratoria sube en Gaza",
+          "category": "Oriente Medio",
+          "headline": "Ataques ligados a Irán, según X",
           "paragraphs": [
-            "Publicaciones en X citan a la OMS advirtiendo que la enfermedad respiratoria aumenta en Gaza.",
-            "La nota añade presión a servicios de salud ya tensos, dicen los usuarios."
+            "Posts en X afirman ataques ligados a Irán en Baréin y petroleros en el estrecho de Ormuz.",
+            "Un boletín dice que Irán afirma haber golpeado radares de EE. UU. Son afirmaciones, no pruebas."
           ],
-          "highlightParagraph": 0,
-          "trend": "Concern",
+          "highlightParagraph": 1,
+          "trend": "Disputed",
           "sources": [
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Daily World Brief",
+              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "105-1",
+              "text": "Daily World Brief",
+              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Conflicto",
+          "headline": "Corbeta rusa alcanzada, dicen posts",
+          "paragraphs": [
+            "Resúmenes afirman que una corbeta rusa zozobró frente a Libia tras un presunto dron naval.",
+            "Un post nombra al buque Merkury. No aporta confirmación independiente."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Naval claim",
+          "sources": [
+            {
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "label": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "id": "106-1",
+              "text": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ]
         }
@@ -682,169 +1038,258 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-22T06:32:34.417Z",
+      "updatedAt": "2026-11-23T06:43:18.163Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Rising tension",
-        "Landmark",
-        "Agreement",
-        "Monitoring",
-        "Concern"
+        "Talk rising",
+        "Repeated claim",
+        "Arrest claim",
+        "War talk",
+        "Disputed",
+        "Naval claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Conflit",
-          "headline": "Pologne: frappes de missiles russes signalées",
+          "category": "Climat",
+          "headline": "COP31 bloquée sur les fossiles",
           "paragraphs": [
-            "Des posts X affirment que la Pologne dit que des missiles russes ont frappé son sol lors d'attaques sur l'Ukraine.",
-            "Les rapports sont liés à des exercices alliés proches. La confirmation reste floue."
+            "Des synthèses sur X disent que la COP31 est dans l'impasse après le rejet par l'UE d'un texte fossile.",
+            "Des comptes évoquent un départ et un blocage. Ces posts ne montrent pas le projet."
           ],
           "highlightParagraph": 0,
-          "trend": "Rising tension",
+          "trend": "Talk rising",
           "sources": [
             {
-              "label": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
             },
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
-              "label": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
             },
             {
               "id": "101-1",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
               "id": "101-2",
-              "text": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "101-3",
+              "text": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Justice",
-          "headline": "Cour: le Myanmar jugé coupable de génocide",
+          "category": "Sécurité",
+          "headline": "Cargo en feu, selon des posts",
           "paragraphs": [
-            "Selon X, la CIJ a estimé que le Myanmar est responsable de génocide contre les Rohingya.",
-            "Des utilisateurs qualifient l'arrêt de La Haye d'étape majeure pour la justice."
+            "Plusieurs posts sur X signalent un cargo vers la Russie en feu dans le golfe de Finlande.",
+            "Certains lient l'incendie à une frappe de drone. L'affirmation n'est pas vérifiée ici."
           ],
           "highlightParagraph": 0,
-          "trend": "Landmark",
+          "trend": "Repeated claim",
           "sources": [
             {
-              "label": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
               "id": "102-1",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123998507145068661"
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "id": "102-2",
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "102-3",
+              "text": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Diplomatie",
-          "headline": "Royaume-Uni et UE concluent un accord",
+          "category": "Criminalité",
+          "headline": "Mexique: arrestation d'un baron",
           "paragraphs": [
-            "Des posts d'actualité sur X rapportent un accord à Bruxelles sur le commerce et la mobilité des jeunes entre le UK et l'UE.",
-            "Certaines voix britanniques disent que le pacte pourrait mener à une coopération plus étroite."
+            "Des posts affirment que le Mexique a arrêté un baron du top FBI après une fusillade.",
+            "Un compte le nomme El Chapo Isidro. Les bilans divergent et restent non confirmés ici."
           ],
           "highlightParagraph": 0,
-          "trend": "Agreement",
+          "trend": "Arrest claim",
           "sources": [
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
-              "label": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
             },
             {
               "id": "103-1",
-              "text": "@worldnewsappx",
-              "url": "https://x.com/worldnewsappx/status/2123962494389502148"
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "103-2",
+              "text": "Seedha Samvaad",
+              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Catastrophe",
-          "headline": "Fort séisme au Pérou, dégâts limités",
+          "category": "Ukraine",
+          "headline": "Zelensky: frappes sur le pont justes",
           "paragraphs": [
-            "Des résumés X indiquent qu'un séisme de 6,7 a secoué le centre du Pérou sans dégâts majeurs ni victimes pour l'instant."
+            "Une revue sur X dit que Zelensky a qualifié de réponse juste les frappes sur le pont de Crimée.",
+            "Il aurait rencontré le ministre Streeting. Aucune transcription officielle n'est montrée."
           ],
-          "highlightParagraph": null,
-          "trend": "Monitoring",
+          "highlightParagraph": 0,
+          "trend": "War talk",
           "sources": [
             {
-              "label": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "label": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+            },
+            {
+              "label": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@Redbabe001",
-              "url": "https://x.com/Redbabe001/status/2124116707857858984"
+              "text": "World News",
+              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+            },
+            {
+              "id": "104-1",
+              "text": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Santé",
-          "headline": "OMS: maladie respiratoire en hausse à Gaza",
+          "category": "Moyen-Orient",
+          "headline": "Frappes liées à l'Iran, selon X",
           "paragraphs": [
-            "Des posts sur X citent l'OMS avertissant que les maladies respiratoires augmentent à Gaza.",
-            "La note accroît la pression sur des services de santé déjà tendus, disent les utilisateurs."
+            "Des posts sur X affirment des attaques liées à l'Iran à Bahreïn et sur des pétroliers à Ormuz.",
+            "Un briefing dit que l'Iran revendique des frappes sur des radars US. Ce sont des allégations."
           ],
-          "highlightParagraph": 0,
-          "trend": "Concern",
+          "highlightParagraph": 1,
+          "trend": "Disputed",
           "sources": [
             {
-              "label": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "label": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "label": "Daily World Brief",
+              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "@NBSHARMA3",
-              "url": "https://x.com/NBSHARMA3/status/2123969289749160271"
+              "text": "Scott wolf",
+              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
+            },
+            {
+              "id": "105-1",
+              "text": "Daily World Brief",
+              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Conflit",
+          "headline": "Corvette russe touchée, selon posts",
+          "paragraphs": [
+            "Des revues affirment qu'une corvette russe a chaviré au large de la Libye après un drone naval.",
+            "Un post nomme le navire Merkury. Aucune confirmation indépendante n'est fournie."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Naval claim",
+          "sources": [
+            {
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "label": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2124634352118096158"
+            },
+            {
+              "id": "106-1",
+              "text": "Carol J Williams",
+              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
             }
           ]
         }
