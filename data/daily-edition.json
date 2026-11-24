@@ -1,259 +1,144 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-23T06:43:18.163Z",
+      "updatedAt": "2026-11-24T08:24:31.254Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Talk rising",
-        "Repeated claim",
-        "Arrest claim",
-        "War talk",
-        "Disputed",
-        "Naval claim"
+        "Australia speech laws",
+        "Israel-Iran claims",
+        "Canada land rights",
+        "US health debate",
+        "US election rules"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Climate",
-          "headline": "COP31 deadlocks over fossil-fuel text",
+          "category": "Politics",
+          "headline": "Hanson vows repeal of Australia speech law",
           "paragraphs": [
-            "X roundups say COP31 is stuck after the EU rejected a fossil-fuel text.",
-            "Accounts claim a walkout left talks deadlocked. These posts do not show the draft."
+            "One Nation leader Pauline Hanson says she would scrap Labor's Digital Duty of Care Bill.",
+            "She calls it an Orwellian crackdown and wants a free-speech referendum. This is her posted release."
           ],
-          "highlightParagraph": 0,
-          "trend": "Talk rising",
+          "highlightParagraph": 1,
+          "trend": "Australia speech laws",
           "sources": [
             {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "label": "Pauline Hanson",
+              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "id": "101-1",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "id": "101-2",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "101-3",
-              "text": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "text": "Pauline Hanson",
+              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Security",
-          "headline": "Cargo ship ablaze off Finland, posts say",
+          "category": "World",
+          "headline": "Post claims Eisenkot sees no Iran war",
           "paragraphs": [
-            "Several X posts report a Russia-bound cargo ship on fire in the Gulf of Finland.",
-            "Some link the blaze to a drone strike. The claim is repeated, not verified here."
+            "An account says Gadi Eisenkot sees no immediate Iran threat needing war, only uranium stocks.",
+            "It calls this bad for Netanyahu. The claim is unverified in this search and may be disputed."
           ],
-          "highlightParagraph": 0,
-          "trend": "Repeated claim",
+          "highlightParagraph": 1,
+          "trend": "Israel-Iran claims",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "label": "Iran Observer",
+              "url": "https://x.com/IranObserver0/status/2125106373046243621"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "id": "102-1",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "id": "102-2",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "102-3",
-              "text": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "text": "Iran Observer",
+              "url": "https://x.com/IranObserver0/status/2125106373046243621"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Crime",
-          "headline": "Mexico arrest of cartel boss claimed",
+          "category": "Politics",
+          "headline": "Poster says BC will scrap land-claim law",
           "paragraphs": [
-            "Posts claim Mexico seized an FBI most-wanted cartel boss after a shoot-out.",
-            "One account names him El Chapo Isidro. Casualty figures differ and are unconfirmed here."
+            "A user says Canada's Conservatives will repeal DRIPA, which he calls a project-stalling disaster.",
+            "He reports First Nations leaders warned of a war zone. These are his claims, not official quotes."
           ],
-          "highlightParagraph": 0,
-          "trend": "Arrest claim",
+          "highlightParagraph": 1,
+          "trend": "Canada land rights",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "label": "Mario Zelaya",
+              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "id": "103-1",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "103-2",
-              "text": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "text": "Mario Zelaya",
+              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Ukraine",
-          "headline": "Zelensky: Crimea bridge hits fair",
+          "category": "Politics",
+          "headline": "Paul and critic clash on US health costs",
           "paragraphs": [
-            "A news roundup on X says Zelensky called Crimean Bridge strikes a fair response.",
-            "It says he met UK minister Streeting. No official transcript is shown in the post."
+            "Rand Paul says Medicare for All is not free and would cost about $47 trillion.",
+            "A reply says Washington funds wars easily but not cheaper care. Both are political claims."
           ],
-          "highlightParagraph": 0,
-          "trend": "War talk",
+          "highlightParagraph": 1,
+          "trend": "US health debate",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+              "label": "Rand Paul",
+              "url": "https://x.com/RandPaul/status/2124518268811846005"
             },
             {
-              "label": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "label": "Richard Ojeda",
+              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+              "text": "Rand Paul",
+              "url": "https://x.com/RandPaul/status/2124518268811846005"
             },
             {
               "id": "104-1",
-              "text": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "text": "Richard Ojeda",
+              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Middle East",
-          "headline": "Iran-linked Gulf strikes claimed on X",
+          "category": "Politics",
+          "headline": "Flynn says GOP failed on voting rules",
           "paragraphs": [
-            "X posts claim Iran-linked attacks hit Bahrain and tankers in the Strait of Hormuz.",
-            "One briefing says Iran claims it struck US radars in Bahrain. Treat these as claims, not proof."
+            "Mike Flynn says Republicans did not fix voting systems when they held Congress and the presidency.",
+            "He says yelling about stolen elections is not enough. This is his posted commentary."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed",
+          "trend": "US election rules",
           "sources": [
             {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Daily World Brief",
-              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
+              "label": "Mike Flynn",
+              "url": "https://x.com/GenFlynn/status/2125054825477894167"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "105-1",
-              "text": "Daily World Brief",
-              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Conflict",
-          "headline": "Russian warship hit off Libya, posts say",
-          "paragraphs": [
-            "Roundups claim a Russian corvette capsized off Libya after a suspected sea-drone strike.",
-            "One post names the ship Merkury. It does not provide independent confirmation."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Naval claim",
-          "sources": [
-            {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "label": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "id": "106-1",
-              "text": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "text": "Mike Flynn",
+              "url": "https://x.com/GenFlynn/status/2125054825477894167"
             }
           ]
         }
@@ -261,258 +146,143 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-23T06:43:18.163Z",
+      "updatedAt": "2026-11-24T08:24:31.254Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Talk rising",
-        "Repeated claim",
-        "Arrest claim",
-        "War talk",
-        "Disputed",
-        "Naval claim"
+        "Australia speech laws",
+        "Israel-Iran claims",
+        "Canada land rights",
+        "US health debate",
+        "US election rules"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Klimat",
-          "headline": "COP31 låst om fossiltext",
+          "category": "Politik",
+          "headline": "Hanson vill upphäva Australiens tallag",
           "paragraphs": [
-            "Sammanfattningar på X säger att COP31 kört fast sedan EU avvisat en text om fossila bränslen.",
-            "Konton hävdar att en utmarsch lämnat samtalen låsta. Inläggen visar inte utkastet."
+            "One Nations Pauline Hanson säger att hon skulle skrota Labors Digital Duty of Care-lag.",
+            "Hon kallar den orwellsk och vill ha folkomröstning om yttrandefrihet. Detta är hennes pressmeddelande."
           ],
-          "highlightParagraph": 0,
-          "trend": "Talk rising",
+          "highlightParagraph": 1,
+          "trend": "Australia speech laws",
           "sources": [
             {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "label": "Pauline Hanson",
+              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "id": "101-1",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "id": "101-2",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "101-3",
-              "text": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "text": "Pauline Hanson",
+              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Säkerhet",
-          "headline": "Lastfartyg i brand, enligt inlägg",
+          "category": "Världen",
+          "headline": "Inlägg: Eisenkot ser inget Iran-krig",
           "paragraphs": [
-            "Flera inlägg på X rapporterar att ett Rysslandsgående lastfartyg brinner i Finska viken.",
-            "Vissa kopplar branden till en drönarattack. Påståendet upprepas men verifieras inte här."
+            "Ett konto säger att Gadi Eisenkot inte ser något omedelbart Iran-hot som kräver krig, bara uran.",
+            "Det kallas dåligt för Netanyahu. Påståendet är overifierat här och kan vara omstritt."
           ],
-          "highlightParagraph": 0,
-          "trend": "Repeated claim",
+          "highlightParagraph": 1,
+          "trend": "Israel-Iran claims",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "label": "Iran Observer",
+              "url": "https://x.com/IranObserver0/status/2125106373046243621"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "id": "102-1",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "id": "102-2",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "102-3",
-              "text": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "text": "Iran Observer",
+              "url": "https://x.com/IranObserver0/status/2125106373046243621"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Brott",
-          "headline": "Mexiko uppges ha gripit kartellboss",
+          "category": "Politik",
+          "headline": "Inlägg: BC ska skrota marklag",
           "paragraphs": [
-            "Inlägg hävdar att Mexiko gripit en kartellboss på FBI:s mest efterlysta efter en eldstrid.",
-            "Ett konto kallar honom El Chapo Isidro. Dödssiffror skiljer sig och är obekräftade här."
+            "En användare säger att Kanadas konservativa ska upphäva DRIPA, som han kallar en katastrof.",
+            "Han rapporterar att First Nations-ledare varnade för en krigszon. Det är hans påståenden."
           ],
-          "highlightParagraph": 0,
-          "trend": "Arrest claim",
+          "highlightParagraph": 1,
+          "trend": "Canada land rights",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "label": "Mario Zelaya",
+              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "id": "103-1",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "103-2",
-              "text": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "text": "Mario Zelaya",
+              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Ukraina",
-          "headline": "Zelenskyj: broslag var rättvist",
+          "category": "Politik",
+          "headline": "Paul och kritiker om USAs vårdkostnad",
           "paragraphs": [
-            "En nyhetsrunda på X säger att Zelenskyj kallade slag mot Krimbron ett rättvist svar.",
-            "Den säger att han mötte brittiske ministern Streeting. Ingen officiell utskrift visas."
+            "Rand Paul säger att Medicare for All inte är gratis och skulle kosta cirka 47 biljoner dollar.",
+            "Ett svar säger att Washington finansierar krig lätt men inte billigare vård. Båda är politiska påståenden."
           ],
-          "highlightParagraph": 0,
-          "trend": "War talk",
+          "highlightParagraph": 1,
+          "trend": "US health debate",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+              "label": "Rand Paul",
+              "url": "https://x.com/RandPaul/status/2124518268811846005"
             },
             {
-              "label": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "label": "Richard Ojeda",
+              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+              "text": "Rand Paul",
+              "url": "https://x.com/RandPaul/status/2124518268811846005"
             },
             {
               "id": "104-1",
-              "text": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "text": "Richard Ojeda",
+              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Mellanöstern",
-          "headline": "Iran-kopplade anfall hävdas",
+          "category": "Politik",
+          "headline": "Flynn: GOP misslyckades med röstregler",
           "paragraphs": [
-            "Inlägg på X hävdar att Iran-kopplade attacker träffat Bahrain och tankfartyg i Hormuzsundet.",
-            "En briefing säger att Iran hävdar slag mot amerikanska radar. Se det som påståenden, inte bevis."
+            "Mike Flynn säger att republikanerna inte fixade röstsystemen när de hade makten.",
+            "Han säger att det inte räcker att skrika om stulna val. Detta är hans kommentar."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed",
+          "trend": "US election rules",
           "sources": [
             {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Daily World Brief",
-              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
+              "label": "Mike Flynn",
+              "url": "https://x.com/GenFlynn/status/2125054825477894167"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "105-1",
-              "text": "Daily World Brief",
-              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Konflikt",
-          "headline": "Rysk korvett träffad, enligt inlägg",
-          "paragraphs": [
-            "Sammanfattningar hävdar att en rysk korvett kantrat utanför Libyen efter en misstänkt sjödrönare.",
-            "Ett inlägg nämner fartyget Merkury. Det ger ingen oberoende bekräftelse."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Naval claim",
-          "sources": [
-            {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "label": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "id": "106-1",
-              "text": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "text": "Mike Flynn",
+              "url": "https://x.com/GenFlynn/status/2125054825477894167"
             }
           ]
         }
@@ -520,258 +290,143 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-23T06:43:18.163Z",
+      "updatedAt": "2026-11-24T08:24:31.254Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Talk rising",
-        "Repeated claim",
-        "Arrest claim",
-        "War talk",
-        "Disputed",
-        "Naval claim"
+        "Australia speech laws",
+        "Israel-Iran claims",
+        "Canada land rights",
+        "US health debate",
+        "US election rules"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Klima",
-          "headline": "COP31 stockt bei Fossiltext",
+          "category": "Politik",
+          "headline": "Hanson will Australiens Sprachgesetz kippen",
           "paragraphs": [
-            "X-Runden sagen, die COP31 stecke fest, nachdem die EU einen Fossiltext abgelehnt habe.",
-            "Konten sprechen von einem Auszug und einer Blockade. Die Posts zeigen den Entwurf nicht."
+            "One-Nation-Chefin Pauline Hanson sagt, sie würde das Digital-Duty-of-Care-Gesetz aufheben.",
+            "Sie nennt es orwellianisch und will ein Referendum zur Meinungsfreiheit. Das ist ihre Mitteilung."
           ],
-          "highlightParagraph": 0,
-          "trend": "Talk rising",
+          "highlightParagraph": 1,
+          "trend": "Australia speech laws",
           "sources": [
             {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "label": "Pauline Hanson",
+              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "id": "101-1",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "id": "101-2",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "101-3",
-              "text": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "text": "Pauline Hanson",
+              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Sicherheit",
-          "headline": "Frachter vor Finnland in Flammen",
+          "category": "Welt",
+          "headline": "Post: Eisenkot sieht keinen Iran-Krieg",
           "paragraphs": [
-            "Mehrere Posts auf X melden ein brennendes, russlandgebundenes Frachtschiff im Finnischen Meerbusen.",
-            "Einige verknüpfen das Feuer mit einem Drohnenangriff. Die Behauptung ist hier nicht belegt."
+            "Ein Konto sagt, Gadi Eisenkot sehe keine unmittelbare Iran-Kriegsgefahr, nur Uran.",
+            "Es nennt das schlecht für Netanyahu. Die Behauptung ist hier unbestätigt und kann umstritten sein."
           ],
-          "highlightParagraph": 0,
-          "trend": "Repeated claim",
+          "highlightParagraph": 1,
+          "trend": "Israel-Iran claims",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "label": "Iran Observer",
+              "url": "https://x.com/IranObserver0/status/2125106373046243621"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "id": "102-1",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "id": "102-2",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "102-3",
-              "text": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "text": "Iran Observer",
+              "url": "https://x.com/IranObserver0/status/2125106373046243621"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Kriminalität",
-          "headline": "Mexiko soll Kartellboss festnehmen",
+          "category": "Politik",
+          "headline": "Post: BC will Landrechtsgesetz kippen",
           "paragraphs": [
-            "Posts behaupten, Mexiko habe nach einem Schusswechsel einen FBI-Top-Kartellboss festgenommen.",
-            "Ein Konto nennt ihn El Chapo Isidro. Opferzahlen weichen ab und sind hier unbestätigt."
+            "Ein Nutzer sagt, Kanadas Konservative würden DRIPA aufheben, das er als Desaster bezeichnet.",
+            "Er berichtet, First-Nations-Führer hätten vor einer Kriegszone gewarnt. Das sind seine Behauptungen."
           ],
-          "highlightParagraph": 0,
-          "trend": "Arrest claim",
+          "highlightParagraph": 1,
+          "trend": "Canada land rights",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "label": "Mario Zelaya",
+              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "id": "103-1",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "103-2",
-              "text": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "text": "Mario Zelaya",
+              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Ukraine",
-          "headline": "Selenskyj: Krimbrücken-Schläge fair",
+          "category": "Politik",
+          "headline": "Paul und Kritiker streiten über US-Kosten",
           "paragraphs": [
-            "Eine X-Runde sagt, Selenskyj habe Schläge auf die Krimbrücke als faire Antwort bezeichnet.",
-            "Er soll Minister Streeting getroffen haben. Kein offizielles Transkript wird gezeigt."
+            "Rand Paul sagt, Medicare for All sei nicht kostenlos und koste etwa 47 Billionen Dollar.",
+            "Eine Antwort sagt, Washington finanziere Kriege leicht, aber nicht günstigere Pflege. Beides sind politische Behauptungen."
           ],
-          "highlightParagraph": 0,
-          "trend": "War talk",
+          "highlightParagraph": 1,
+          "trend": "US health debate",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+              "label": "Rand Paul",
+              "url": "https://x.com/RandPaul/status/2124518268811846005"
             },
             {
-              "label": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "label": "Richard Ojeda",
+              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+              "text": "Rand Paul",
+              "url": "https://x.com/RandPaul/status/2124518268811846005"
             },
             {
               "id": "104-1",
-              "text": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "text": "Richard Ojeda",
+              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Nahost",
-          "headline": "Iran-nahe Golfschläge behauptet",
+          "category": "Politik",
+          "headline": "Flynn: GOP scheiterte bei Wahlregeln",
           "paragraphs": [
-            "Posts auf X behaupten iran-nahe Angriffe auf Bahrain und Tanker in der Straße von Hormus.",
-            "Ein Briefing sagt, Iran beanspruche Treffer auf US-Radar. Das sind Behauptungen, kein Beweis."
+            "Mike Flynn sagt, die Republikaner hätten die Wahlsysteme nicht repariert, als sie die Macht hatten.",
+            "Er sagt, Schreien über gestohlene Wahlen reiche nicht. Das ist sein Kommentar."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed",
+          "trend": "US election rules",
           "sources": [
             {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Daily World Brief",
-              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
+              "label": "Mike Flynn",
+              "url": "https://x.com/GenFlynn/status/2125054825477894167"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "105-1",
-              "text": "Daily World Brief",
-              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Konflikt",
-          "headline": "Russische Korvette getroffen, Posts",
-          "paragraphs": [
-            "Runden behaupten, eine russische Korvette sei vor Libyen nach einem See-Drohnenangriff gekentert.",
-            "Ein Post nennt das Schiff Merkury. Eine unabhängige Bestätigung fehlt."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Naval claim",
-          "sources": [
-            {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "label": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "id": "106-1",
-              "text": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "text": "Mike Flynn",
+              "url": "https://x.com/GenFlynn/status/2125054825477894167"
             }
           ]
         }
@@ -779,258 +434,143 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-23T06:43:18.163Z",
+      "updatedAt": "2026-11-24T08:24:31.254Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Talk rising",
-        "Repeated claim",
-        "Arrest claim",
-        "War talk",
-        "Disputed",
-        "Naval claim"
+        "Australia speech laws",
+        "Israel-Iran claims",
+        "Canada land rights",
+        "US health debate",
+        "US election rules"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Clima",
-          "headline": "La COP31, atascada por los fósiles",
+          "category": "Política",
+          "headline": "Hanson promete derogar ley de discurso",
           "paragraphs": [
-            "Resúmenes en X dicen que la COP31 está bloqueada tras el rechazo de la UE a un texto fósil.",
-            "Cuentas hablan de una retirada y un punto muerto. Los posts no muestran el borrador."
+            "La líder de One Nation, Pauline Hanson, dice que derogaría la ley Digital Duty of Care.",
+            "La llama un control orwelliano y quiere un referéndum. Es su comunicado publicado."
           ],
-          "highlightParagraph": 0,
-          "trend": "Talk rising",
+          "highlightParagraph": 1,
+          "trend": "Australia speech laws",
           "sources": [
             {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "label": "Pauline Hanson",
+              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "id": "101-1",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "id": "101-2",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "101-3",
-              "text": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "text": "Pauline Hanson",
+              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Seguridad",
-          "headline": "Carguero en llamas, dicen posts",
+          "category": "Mundo",
+          "headline": "Post: Eisenkot no ve guerra con Irán",
           "paragraphs": [
-            "Varios posts en X informan de un carguero rumbo a Rusia en llamas en el golfo de Finlandia.",
-            "Algunos lo vinculan a un ataque con drones. La afirmación se repite y no se verifica aquí."
+            "Una cuenta dice que Gadi Eisenkot no ve amenaza inmediata de Irán que exija guerra, solo uranio.",
+            "Lo llama mala noticia para Netanyahu. La afirmación no está verificada y puede disputarse."
           ],
-          "highlightParagraph": 0,
-          "trend": "Repeated claim",
+          "highlightParagraph": 1,
+          "trend": "Israel-Iran claims",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "label": "Iran Observer",
+              "url": "https://x.com/IranObserver0/status/2125106373046243621"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "id": "102-1",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "id": "102-2",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "102-3",
-              "text": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "text": "Iran Observer",
+              "url": "https://x.com/IranObserver0/status/2125106373046243621"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Crimen",
-          "headline": "México habría capturado a un capo",
+          "category": "Política",
+          "headline": "Post: BC derogará ley de tierras",
           "paragraphs": [
-            "Posts afirman que México detuvo a un capo del FBI más buscado tras un tiroteo.",
-            "Una cuenta lo llama El Chapo Isidro. Las cifras de víctimas difieren y no están confirmadas."
+            "Un usuario dice que los conservadores de Canadá derogarán DRIPA, que llama un desastre.",
+            "Informa que líderes de First Nations advirtieron de una zona de guerra. Son sus afirmaciones."
           ],
-          "highlightParagraph": 0,
-          "trend": "Arrest claim",
+          "highlightParagraph": 1,
+          "trend": "Canada land rights",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "label": "Mario Zelaya",
+              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "id": "103-1",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "103-2",
-              "text": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "text": "Mario Zelaya",
+              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Ucrania",
-          "headline": "Zelenski: golpes al puente, justos",
+          "category": "Política",
+          "headline": "Paul y crítico chocan por costos de salud",
           "paragraphs": [
-            "Un resumen en X dice que Zelenski llamó justa respuesta a los golpes al puente de Crimea.",
-            "Dice que se reunió con el ministro Streeting. No se muestra transcripción oficial."
+            "Rand Paul dice que Medicare for All no es gratis y costaría unos 47 billones de dólares.",
+            "Una respuesta dice que Washington financia guerras fácil pero no atención más barata. Son afirmaciones políticas."
           ],
-          "highlightParagraph": 0,
-          "trend": "War talk",
+          "highlightParagraph": 1,
+          "trend": "US health debate",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+              "label": "Rand Paul",
+              "url": "https://x.com/RandPaul/status/2124518268811846005"
             },
             {
-              "label": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "label": "Richard Ojeda",
+              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+              "text": "Rand Paul",
+              "url": "https://x.com/RandPaul/status/2124518268811846005"
             },
             {
               "id": "104-1",
-              "text": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "text": "Richard Ojeda",
+              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Oriente Medio",
-          "headline": "Ataques ligados a Irán, según X",
+          "category": "Política",
+          "headline": "Flynn: el GOP falló en reglas de voto",
           "paragraphs": [
-            "Posts en X afirman ataques ligados a Irán en Baréin y petroleros en el estrecho de Ormuz.",
-            "Un boletín dice que Irán afirma haber golpeado radares de EE. UU. Son afirmaciones, no pruebas."
+            "Mike Flynn dice que los republicanos no arreglaron los sistemas de voto cuando tenían el poder.",
+            "Dice que gritar sobre elecciones robadas no basta. Es su comentario."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed",
+          "trend": "US election rules",
           "sources": [
             {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Daily World Brief",
-              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
+              "label": "Mike Flynn",
+              "url": "https://x.com/GenFlynn/status/2125054825477894167"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "105-1",
-              "text": "Daily World Brief",
-              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Conflicto",
-          "headline": "Corbeta rusa alcanzada, dicen posts",
-          "paragraphs": [
-            "Resúmenes afirman que una corbeta rusa zozobró frente a Libia tras un presunto dron naval.",
-            "Un post nombra al buque Merkury. No aporta confirmación independiente."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Naval claim",
-          "sources": [
-            {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "label": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "id": "106-1",
-              "text": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "text": "Mike Flynn",
+              "url": "https://x.com/GenFlynn/status/2125054825477894167"
             }
           ]
         }
@@ -1038,258 +578,143 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-23T06:43:18.163Z",
+      "updatedAt": "2026-11-24T08:24:31.254Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Talk rising",
-        "Repeated claim",
-        "Arrest claim",
-        "War talk",
-        "Disputed",
-        "Naval claim"
+        "Australia speech laws",
+        "Israel-Iran claims",
+        "Canada land rights",
+        "US health debate",
+        "US election rules"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Climat",
-          "headline": "COP31 bloquée sur les fossiles",
+          "category": "Politique",
+          "headline": "Hanson veut abroger la loi australienne",
           "paragraphs": [
-            "Des synthèses sur X disent que la COP31 est dans l'impasse après le rejet par l'UE d'un texte fossile.",
-            "Des comptes évoquent un départ et un blocage. Ces posts ne montrent pas le projet."
+            "La cheffe de One Nation, Pauline Hanson, dit qu'elle abrogerait la loi Digital Duty of Care.",
+            "Elle la qualifie d'orwellienne et veut un référendum. Il s'agit de son communiqué."
           ],
-          "highlightParagraph": 0,
-          "trend": "Talk rising",
+          "highlightParagraph": 1,
+          "trend": "Australia speech laws",
           "sources": [
             {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "label": "Pauline Hanson",
+              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "id": "101-1",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "id": "101-2",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "101-3",
-              "text": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "text": "Pauline Hanson",
+              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Sécurité",
-          "headline": "Cargo en feu, selon des posts",
+          "category": "Monde",
+          "headline": "Post: Eisenkot ne voit pas de guerre Iran",
           "paragraphs": [
-            "Plusieurs posts sur X signalent un cargo vers la Russie en feu dans le golfe de Finlande.",
-            "Certains lient l'incendie à une frappe de drone. L'affirmation n'est pas vérifiée ici."
+            "Un compte dit que Gadi Eisenkot ne voit pas de menace iranienne immédiate exigeant la guerre, seulement l'uranium.",
+            "Il appelle cela une mauvaise nouvelle pour Netanyahu. L'affirmation n'est pas vérifiée ici."
           ],
-          "highlightParagraph": 0,
-          "trend": "Repeated claim",
+          "highlightParagraph": 1,
+          "trend": "Israel-Iran claims",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "label": "Iran Observer",
+              "url": "https://x.com/IranObserver0/status/2125106373046243621"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "id": "102-1",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "id": "102-2",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "102-3",
-              "text": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "text": "Iran Observer",
+              "url": "https://x.com/IranObserver0/status/2125106373046243621"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Criminalité",
-          "headline": "Mexique: arrestation d'un baron",
+          "category": "Politique",
+          "headline": "Post: la CB va abroger la loi foncière",
           "paragraphs": [
-            "Des posts affirment que le Mexique a arrêté un baron du top FBI après une fusillade.",
-            "Un compte le nomme El Chapo Isidro. Les bilans divergent et restent non confirmés ici."
+            "Un utilisateur dit que les conservateurs du Canada abrogeront DRIPA, qu'il appelle un désastre.",
+            "Il rapporte que des chefs des Premières Nations ont averti d'une zone de guerre. Ce sont ses dires."
           ],
-          "highlightParagraph": 0,
-          "trend": "Arrest claim",
+          "highlightParagraph": 1,
+          "trend": "Canada land rights",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "label": "Mario Zelaya",
+              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
-            },
-            {
-              "id": "103-1",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "103-2",
-              "text": "Seedha Samvaad",
-              "url": "https://x.com/Seedha_sanvad/status/2124512427677303127"
+              "text": "Mario Zelaya",
+              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Ukraine",
-          "headline": "Zelensky: frappes sur le pont justes",
+          "category": "Politique",
+          "headline": "Paul et un critique sur coûts de santé",
           "paragraphs": [
-            "Une revue sur X dit que Zelensky a qualifié de réponse juste les frappes sur le pont de Crimée.",
-            "Il aurait rencontré le ministre Streeting. Aucune transcription officielle n'est montrée."
+            "Rand Paul dit que Medicare for All n'est pas gratuit et coûterait environ 47 000 milliards de dollars.",
+            "Une réponse dit que Washington finance les guerres facilement, pas des soins moins chers. Ce sont des affirmations politiques."
           ],
-          "highlightParagraph": 0,
-          "trend": "War talk",
+          "highlightParagraph": 1,
+          "trend": "US health debate",
           "sources": [
             {
-              "label": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+              "label": "Rand Paul",
+              "url": "https://x.com/RandPaul/status/2124518268811846005"
             },
             {
-              "label": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "label": "Richard Ojeda",
+              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "World News",
-              "url": "https://x.com/worldnewsappx/status/2124327224463507840"
+              "text": "Rand Paul",
+              "url": "https://x.com/RandPaul/status/2124518268811846005"
             },
             {
               "id": "104-1",
-              "text": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "text": "Richard Ojeda",
+              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Moyen-Orient",
-          "headline": "Frappes liées à l'Iran, selon X",
+          "category": "Politique",
+          "headline": "Flynn: le GOP a échoué sur le vote",
           "paragraphs": [
-            "Des posts sur X affirment des attaques liées à l'Iran à Bahreïn et sur des pétroliers à Ormuz.",
-            "Un briefing dit que l'Iran revendique des frappes sur des radars US. Ce sont des allégations."
+            "Mike Flynn dit que les républicains n'ont pas réparé les systèmes de vote quand ils avaient le pouvoir.",
+            "Il dit que crier aux élections volées ne suffit pas. C'est son commentaire."
           ],
           "highlightParagraph": 1,
-          "trend": "Disputed",
+          "trend": "US election rules",
           "sources": [
             {
-              "label": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "label": "Daily World Brief",
-              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
+              "label": "Mike Flynn",
+              "url": "https://x.com/GenFlynn/status/2125054825477894167"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "Scott wolf",
-              "url": "https://x.com/Lonewolfscot/status/2124585151099543812"
-            },
-            {
-              "id": "105-1",
-              "text": "Daily World Brief",
-              "url": "https://x.com/dailygeobrief/status/2124572187990311010"
-            }
-          ]
-        },
-        {
-          "page": 106,
-          "category": "Conflit",
-          "headline": "Corvette russe touchée, selon posts",
-          "paragraphs": [
-            "Des revues affirment qu'une corvette russe a chaviré au large de la Libye après un drone naval.",
-            "Un post nomme le navire Merkury. Aucune confirmation indépendante n'est fournie."
-          ],
-          "highlightParagraph": 0,
-          "trend": "Naval claim",
-          "sources": [
-            {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "label": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "106-0",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2124634352118096158"
-            },
-            {
-              "id": "106-1",
-              "text": "Carol J Williams",
-              "url": "https://x.com/cjwilliamslat/status/2124593095333577136"
+              "text": "Mike Flynn",
+              "url": "https://x.com/GenFlynn/status/2125054825477894167"
             }
           ]
         }
