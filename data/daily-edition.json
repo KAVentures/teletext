@@ -1,144 +1,110 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-24T08:24:31.254Z",
+      "updatedAt": "2026-11-25T09:50:29.012Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Australia speech laws",
-        "Israel-Iran claims",
-        "Canada land rights",
-        "US health debate",
-        "US election rules"
+        "Selloff",
+        "Awards",
+        "Unverified",
+        "Campaign"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Politics",
-          "headline": "Hanson vows repeal of Australia speech law",
+          "category": "Markets",
+          "headline": "Nvidia falls over 5% in premarket",
           "paragraphs": [
-            "One Nation leader Pauline Hanson says she would scrap Labor's Digital Duty of Care Bill.",
-            "She calls it an Orwellian crackdown and wants a free-speech referendum. This is her posted release."
+            "Kobeissi Letter reports NVDA down over 5% premarket after Asian tech selloff.",
+            "Single account claim. No further proof in results."
           ],
-          "highlightParagraph": 1,
-          "trend": "Australia speech laws",
+          "highlightParagraph": 0,
+          "trend": "Selloff",
           "sources": [
             {
-              "label": "Pauline Hanson",
-              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
+              "label": "@KobeissiLetter",
+              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Pauline Hanson",
-              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
+              "text": "@KobeissiLetter",
+              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
             }
           ]
         },
         {
           "page": 102,
-          "category": "World",
-          "headline": "Post claims Eisenkot sees no Iran war",
+          "category": "Sports",
+          "headline": "Baystars pair named to Best Nine",
           "paragraphs": [
-            "An account says Gadi Eisenkot sees no immediate Iran threat needing war, only uranium stocks.",
-            "It calls this bad for Netanyahu. The claim is unverified in this search and may be disputed."
+            "Yokohama DeNA Baystars say two players won 2026 Central League Best Nine.",
+            "Official team posts with comments. Sports announcement."
           ],
-          "highlightParagraph": 1,
-          "trend": "Israel-Iran claims",
+          "highlightParagraph": 0,
+          "trend": "Awards",
           "sources": [
             {
-              "label": "Iran Observer",
-              "url": "https://x.com/IranObserver0/status/2125106373046243621"
+              "label": "@ydb_yokohama",
+              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Iran Observer",
-              "url": "https://x.com/IranObserver0/status/2125106373046243621"
+              "text": "@ydb_yokohama",
+              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politics",
-          "headline": "Poster says BC will scrap land-claim law",
+          "category": "Claims",
+          "headline": "X post alleges Serbia panic arrest",
           "paragraphs": [
-            "A user says Canada's Conservatives will repeal DRIPA, which he calls a project-stalling disaster.",
-            "He reports First Nations leaders warned of a war zone. These are his claims, not official quotes."
+            "Belgrade student account claims a person was arrested for causing panic.",
+            "Adds that millions will be accounted for. No names or proof given."
           ],
-          "highlightParagraph": 1,
-          "trend": "Canada land rights",
+          "highlightParagraph": 0,
+          "trend": "Unverified",
           "sources": [
             {
-              "label": "Mario Zelaya",
-              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
+              "label": "@etfblokada",
+              "url": "https://x.com/etfblokada/status/2125521412341260383"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Mario Zelaya",
-              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
+              "text": "@etfblokada",
+              "url": "https://x.com/etfblokada/status/2125521412341260383"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politics",
-          "headline": "Paul and critic clash on US health costs",
+          "category": "Social",
+          "headline": "Fans push PBB boycott, livestream",
           "paragraphs": [
-            "Rand Paul says Medicare for All is not free and would cost about $47 trillion.",
-            "A reply says Washington funds wars easily but not cheaper care. Both are political claims."
+            "Posts call to stand for transparency and want PBB livestream under boycott tags.",
+            "Fan-driven campaign on X. Not confirmed as wider news."
           ],
-          "highlightParagraph": 1,
-          "trend": "US health debate",
+          "highlightParagraph": 0,
+          "trend": "Campaign",
           "sources": [
             {
-              "label": "Rand Paul",
-              "url": "https://x.com/RandPaul/status/2124518268811846005"
-            },
-            {
-              "label": "Richard Ojeda",
-              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
+              "label": "@_itsforkb",
+              "url": "https://x.com/_itsforkb/status/2125523992773902560"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Rand Paul",
-              "url": "https://x.com/RandPaul/status/2124518268811846005"
-            },
-            {
-              "id": "104-1",
-              "text": "Richard Ojeda",
-              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Politics",
-          "headline": "Flynn says GOP failed on voting rules",
-          "paragraphs": [
-            "Mike Flynn says Republicans did not fix voting systems when they held Congress and the presidency.",
-            "He says yelling about stolen elections is not enough. This is his posted commentary."
-          ],
-          "highlightParagraph": 1,
-          "trend": "US election rules",
-          "sources": [
-            {
-              "label": "Mike Flynn",
-              "url": "https://x.com/GenFlynn/status/2125054825477894167"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "Mike Flynn",
-              "url": "https://x.com/GenFlynn/status/2125054825477894167"
+              "text": "@_itsforkb",
+              "url": "https://x.com/_itsforkb/status/2125523992773902560"
             }
           ]
         }
@@ -146,143 +112,109 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-24T08:24:31.254Z",
+      "updatedAt": "2026-11-25T09:50:29.012Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Australia speech laws",
-        "Israel-Iran claims",
-        "Canada land rights",
-        "US health debate",
-        "US election rules"
+        "Selloff",
+        "Awards",
+        "Unverified",
+        "Campaign"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Politik",
-          "headline": "Hanson vill upphäva Australiens tallag",
+          "category": "Marknader",
+          "headline": "Nvidia faller över 5% före börs",
           "paragraphs": [
-            "One Nations Pauline Hanson säger att hon skulle skrota Labors Digital Duty of Care-lag.",
-            "Hon kallar den orwellsk och vill ha folkomröstning om yttrandefrihet. Detta är hennes pressmeddelande."
+            "Kobeissi Letter rapporterar att NVDA sjönk över 5% i förhandeln efter teknikfall i Asien.",
+            "Påstående från ett konto. Ingen ytterligare bevisning i resultaten."
           ],
-          "highlightParagraph": 1,
-          "trend": "Australia speech laws",
+          "highlightParagraph": 0,
+          "trend": "Selloff",
           "sources": [
             {
-              "label": "Pauline Hanson",
-              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
+              "label": "@KobeissiLetter",
+              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Pauline Hanson",
-              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
+              "text": "@KobeissiLetter",
+              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Världen",
-          "headline": "Inlägg: Eisenkot ser inget Iran-krig",
+          "category": "Sport",
+          "headline": "Baystars-duo utsedda till Best Nine",
           "paragraphs": [
-            "Ett konto säger att Gadi Eisenkot inte ser något omedelbart Iran-hot som kräver krig, bara uran.",
-            "Det kallas dåligt för Netanyahu. Påståendet är overifierat här och kan vara omstritt."
+            "Yokohama DeNA Baystars säger att två spelare vann 2026 Central League Best Nine.",
+            "Officiella laginlägg med kommentarer. Sportmeddelande."
           ],
-          "highlightParagraph": 1,
-          "trend": "Israel-Iran claims",
+          "highlightParagraph": 0,
+          "trend": "Awards",
           "sources": [
             {
-              "label": "Iran Observer",
-              "url": "https://x.com/IranObserver0/status/2125106373046243621"
+              "label": "@ydb_yokohama",
+              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Iran Observer",
-              "url": "https://x.com/IranObserver0/status/2125106373046243621"
+              "text": "@ydb_yokohama",
+              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politik",
-          "headline": "Inlägg: BC ska skrota marklag",
+          "category": "Påståenden",
+          "headline": "X-inlägg påstår gripande i Serbien",
           "paragraphs": [
-            "En användare säger att Kanadas konservativa ska upphäva DRIPA, som han kallar en katastrof.",
-            "Han rapporterar att First Nations-ledare varnade för en krigszon. Det är hans påståenden."
+            "Studentkonto i Belgrad hävdar att en person greps för att ha orsakat panik.",
+            "Tilläger att miljoner ska redovisas. Inga namn eller bevis."
           ],
-          "highlightParagraph": 1,
-          "trend": "Canada land rights",
+          "highlightParagraph": 0,
+          "trend": "Unverified",
           "sources": [
             {
-              "label": "Mario Zelaya",
-              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
+              "label": "@etfblokada",
+              "url": "https://x.com/etfblokada/status/2125521412341260383"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Mario Zelaya",
-              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
+              "text": "@etfblokada",
+              "url": "https://x.com/etfblokada/status/2125521412341260383"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politik",
-          "headline": "Paul och kritiker om USAs vårdkostnad",
+          "category": "Socialt",
+          "headline": "Fans driver PBB-bojkott, livestream",
           "paragraphs": [
-            "Rand Paul säger att Medicare for All inte är gratis och skulle kosta cirka 47 biljoner dollar.",
-            "Ett svar säger att Washington finansierar krig lätt men inte billigare vård. Båda är politiska påståenden."
+            "Inlägg uppmanar till transparens och vill ha PBB-livestream under bojkottaggar.",
+            "Fan-driven kampanj på X. Inte bekräftat som bredare nyhet."
           ],
-          "highlightParagraph": 1,
-          "trend": "US health debate",
+          "highlightParagraph": 0,
+          "trend": "Campaign",
           "sources": [
             {
-              "label": "Rand Paul",
-              "url": "https://x.com/RandPaul/status/2124518268811846005"
-            },
-            {
-              "label": "Richard Ojeda",
-              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
+              "label": "@_itsforkb",
+              "url": "https://x.com/_itsforkb/status/2125523992773902560"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Rand Paul",
-              "url": "https://x.com/RandPaul/status/2124518268811846005"
-            },
-            {
-              "id": "104-1",
-              "text": "Richard Ojeda",
-              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Politik",
-          "headline": "Flynn: GOP misslyckades med röstregler",
-          "paragraphs": [
-            "Mike Flynn säger att republikanerna inte fixade röstsystemen när de hade makten.",
-            "Han säger att det inte räcker att skrika om stulna val. Detta är hans kommentar."
-          ],
-          "highlightParagraph": 1,
-          "trend": "US election rules",
-          "sources": [
-            {
-              "label": "Mike Flynn",
-              "url": "https://x.com/GenFlynn/status/2125054825477894167"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "Mike Flynn",
-              "url": "https://x.com/GenFlynn/status/2125054825477894167"
+              "text": "@_itsforkb",
+              "url": "https://x.com/_itsforkb/status/2125523992773902560"
             }
           ]
         }
@@ -290,143 +222,109 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-24T08:24:31.254Z",
+      "updatedAt": "2026-11-25T09:50:29.012Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Australia speech laws",
-        "Israel-Iran claims",
-        "Canada land rights",
-        "US health debate",
-        "US election rules"
+        "Selloff",
+        "Awards",
+        "Unverified",
+        "Campaign"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Politik",
-          "headline": "Hanson will Australiens Sprachgesetz kippen",
+          "category": "Märkte",
+          "headline": "Nvidia fällt über 5% im Vorbörse",
           "paragraphs": [
-            "One-Nation-Chefin Pauline Hanson sagt, sie würde das Digital-Duty-of-Care-Gesetz aufheben.",
-            "Sie nennt es orwellianisch und will ein Referendum zur Meinungsfreiheit. Das ist ihre Mitteilung."
+            "Kobeissi Letter meldet NVDA über 5% im Minus im Vorbörsenhandel nach Tech-Verkauf in Asien.",
+            "Behauptung eines Kontos. Kein weiterer Beweis in den Ergebnissen."
           ],
-          "highlightParagraph": 1,
-          "trend": "Australia speech laws",
+          "highlightParagraph": 0,
+          "trend": "Selloff",
           "sources": [
             {
-              "label": "Pauline Hanson",
-              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
+              "label": "@KobeissiLetter",
+              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Pauline Hanson",
-              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
+              "text": "@KobeissiLetter",
+              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Welt",
-          "headline": "Post: Eisenkot sieht keinen Iran-Krieg",
+          "category": "Sport",
+          "headline": "Baystars-Duo für Best Nine gewählt",
           "paragraphs": [
-            "Ein Konto sagt, Gadi Eisenkot sehe keine unmittelbare Iran-Kriegsgefahr, nur Uran.",
-            "Es nennt das schlecht für Netanyahu. Die Behauptung ist hier unbestätigt und kann umstritten sein."
+            "Yokohama DeNA Baystars sagen, zwei Spieler gewannen 2026 Central League Best Nine.",
+            "Offizielle Teamposts mit Kommentaren. Sportankündigung."
           ],
-          "highlightParagraph": 1,
-          "trend": "Israel-Iran claims",
+          "highlightParagraph": 0,
+          "trend": "Awards",
           "sources": [
             {
-              "label": "Iran Observer",
-              "url": "https://x.com/IranObserver0/status/2125106373046243621"
+              "label": "@ydb_yokohama",
+              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Iran Observer",
-              "url": "https://x.com/IranObserver0/status/2125106373046243621"
+              "text": "@ydb_yokohama",
+              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politik",
-          "headline": "Post: BC will Landrechtsgesetz kippen",
+          "category": "Behauptungen",
+          "headline": "X-Post behauptet Panik-Verhaftung",
           "paragraphs": [
-            "Ein Nutzer sagt, Kanadas Konservative würden DRIPA aufheben, das er als Desaster bezeichnet.",
-            "Er berichtet, First-Nations-Führer hätten vor einer Kriegszone gewarnt. Das sind seine Behauptungen."
+            "Belgrader Studentenkonto behauptet, eine Person wurde wegen Panikmache verhaftet.",
+            "Fügt hinzu, dass Millionen abgerechnet werden. Keine Namen oder Beweise."
           ],
-          "highlightParagraph": 1,
-          "trend": "Canada land rights",
+          "highlightParagraph": 0,
+          "trend": "Unverified",
           "sources": [
             {
-              "label": "Mario Zelaya",
-              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
+              "label": "@etfblokada",
+              "url": "https://x.com/etfblokada/status/2125521412341260383"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Mario Zelaya",
-              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
+              "text": "@etfblokada",
+              "url": "https://x.com/etfblokada/status/2125521412341260383"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politik",
-          "headline": "Paul und Kritiker streiten über US-Kosten",
+          "category": "Soziales",
+          "headline": "Fans fordern PBB-Boykott, Livestream",
           "paragraphs": [
-            "Rand Paul sagt, Medicare for All sei nicht kostenlos und koste etwa 47 Billionen Dollar.",
-            "Eine Antwort sagt, Washington finanziere Kriege leicht, aber nicht günstigere Pflege. Beides sind politische Behauptungen."
+            "Posts fordern Transparenz und wollen PBB-Livestream unter Boykott-Tags.",
+            "Fan-getriebene Kampagne auf X. Nicht als breitere Nachricht bestätigt."
           ],
-          "highlightParagraph": 1,
-          "trend": "US health debate",
+          "highlightParagraph": 0,
+          "trend": "Campaign",
           "sources": [
             {
-              "label": "Rand Paul",
-              "url": "https://x.com/RandPaul/status/2124518268811846005"
-            },
-            {
-              "label": "Richard Ojeda",
-              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
+              "label": "@_itsforkb",
+              "url": "https://x.com/_itsforkb/status/2125523992773902560"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Rand Paul",
-              "url": "https://x.com/RandPaul/status/2124518268811846005"
-            },
-            {
-              "id": "104-1",
-              "text": "Richard Ojeda",
-              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Politik",
-          "headline": "Flynn: GOP scheiterte bei Wahlregeln",
-          "paragraphs": [
-            "Mike Flynn sagt, die Republikaner hätten die Wahlsysteme nicht repariert, als sie die Macht hatten.",
-            "Er sagt, Schreien über gestohlene Wahlen reiche nicht. Das ist sein Kommentar."
-          ],
-          "highlightParagraph": 1,
-          "trend": "US election rules",
-          "sources": [
-            {
-              "label": "Mike Flynn",
-              "url": "https://x.com/GenFlynn/status/2125054825477894167"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "Mike Flynn",
-              "url": "https://x.com/GenFlynn/status/2125054825477894167"
+              "text": "@_itsforkb",
+              "url": "https://x.com/_itsforkb/status/2125523992773902560"
             }
           ]
         }
@@ -434,143 +332,109 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-24T08:24:31.254Z",
+      "updatedAt": "2026-11-25T09:50:29.012Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Australia speech laws",
-        "Israel-Iran claims",
-        "Canada land rights",
-        "US health debate",
-        "US election rules"
+        "Selloff",
+        "Awards",
+        "Unverified",
+        "Campaign"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Política",
-          "headline": "Hanson promete derogar ley de discurso",
+          "category": "Mercados",
+          "headline": "Nvidia cae más del 5% en preapertura",
           "paragraphs": [
-            "La líder de One Nation, Pauline Hanson, dice que derogaría la ley Digital Duty of Care.",
-            "La llama un control orwelliano y quiere un referéndum. Es su comunicado publicado."
+            "Kobeissi Letter informa que NVDA bajó más del 5% en premercado tras venta tech en Asia.",
+            "Afirmación de una cuenta. Sin más pruebas en los resultados."
           ],
-          "highlightParagraph": 1,
-          "trend": "Australia speech laws",
+          "highlightParagraph": 0,
+          "trend": "Selloff",
           "sources": [
             {
-              "label": "Pauline Hanson",
-              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
+              "label": "@KobeissiLetter",
+              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Pauline Hanson",
-              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
+              "text": "@KobeissiLetter",
+              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Mundo",
-          "headline": "Post: Eisenkot no ve guerra con Irán",
+          "category": "Deportes",
+          "headline": "Dúo de Baystars en el Best Nine",
           "paragraphs": [
-            "Una cuenta dice que Gadi Eisenkot no ve amenaza inmediata de Irán que exija guerra, solo uranio.",
-            "Lo llama mala noticia para Netanyahu. La afirmación no está verificada y puede disputarse."
+            "Yokohama DeNA Baystars dice que dos jugadores ganaron el Best Nine 2026 de la Liga Central.",
+            "Publicaciones oficiales del equipo con comentarios. Anuncio deportivo."
           ],
-          "highlightParagraph": 1,
-          "trend": "Israel-Iran claims",
+          "highlightParagraph": 0,
+          "trend": "Awards",
           "sources": [
             {
-              "label": "Iran Observer",
-              "url": "https://x.com/IranObserver0/status/2125106373046243621"
+              "label": "@ydb_yokohama",
+              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Iran Observer",
-              "url": "https://x.com/IranObserver0/status/2125106373046243621"
+              "text": "@ydb_yokohama",
+              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Política",
-          "headline": "Post: BC derogará ley de tierras",
+          "category": "Afirmaciones",
+          "headline": "Post en X alega arresto por pánico",
           "paragraphs": [
-            "Un usuario dice que los conservadores de Canadá derogarán DRIPA, que llama un desastre.",
-            "Informa que líderes de First Nations advirtieron de una zona de guerra. Son sus afirmaciones."
+            "Cuenta de estudiantes de Belgrado afirma que una persona fue arrestada por causar pánico.",
+            "Añade que millones serán rendidos. Sin nombres ni pruebas."
           ],
-          "highlightParagraph": 1,
-          "trend": "Canada land rights",
+          "highlightParagraph": 0,
+          "trend": "Unverified",
           "sources": [
             {
-              "label": "Mario Zelaya",
-              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
+              "label": "@etfblokada",
+              "url": "https://x.com/etfblokada/status/2125521412341260383"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Mario Zelaya",
-              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
+              "text": "@etfblokada",
+              "url": "https://x.com/etfblokada/status/2125521412341260383"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Política",
-          "headline": "Paul y crítico chocan por costos de salud",
+          "category": "Social",
+          "headline": "Fans impulsan boicot PBB, livestream",
           "paragraphs": [
-            "Rand Paul dice que Medicare for All no es gratis y costaría unos 47 billones de dólares.",
-            "Una respuesta dice que Washington financia guerras fácil pero no atención más barata. Son afirmaciones políticas."
+            "Publicaciones piden transparencia y quieren livestream de PBB bajo etiquetas de boicot.",
+            "Campaña impulsada por fans en X. No confirmada como noticia más amplia."
           ],
-          "highlightParagraph": 1,
-          "trend": "US health debate",
+          "highlightParagraph": 0,
+          "trend": "Campaign",
           "sources": [
             {
-              "label": "Rand Paul",
-              "url": "https://x.com/RandPaul/status/2124518268811846005"
-            },
-            {
-              "label": "Richard Ojeda",
-              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
+              "label": "@_itsforkb",
+              "url": "https://x.com/_itsforkb/status/2125523992773902560"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Rand Paul",
-              "url": "https://x.com/RandPaul/status/2124518268811846005"
-            },
-            {
-              "id": "104-1",
-              "text": "Richard Ojeda",
-              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Política",
-          "headline": "Flynn: el GOP falló en reglas de voto",
-          "paragraphs": [
-            "Mike Flynn dice que los republicanos no arreglaron los sistemas de voto cuando tenían el poder.",
-            "Dice que gritar sobre elecciones robadas no basta. Es su comentario."
-          ],
-          "highlightParagraph": 1,
-          "trend": "US election rules",
-          "sources": [
-            {
-              "label": "Mike Flynn",
-              "url": "https://x.com/GenFlynn/status/2125054825477894167"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "Mike Flynn",
-              "url": "https://x.com/GenFlynn/status/2125054825477894167"
+              "text": "@_itsforkb",
+              "url": "https://x.com/_itsforkb/status/2125523992773902560"
             }
           ]
         }
@@ -578,143 +442,109 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-24T08:24:31.254Z",
+      "updatedAt": "2026-11-25T09:50:29.012Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Australia speech laws",
-        "Israel-Iran claims",
-        "Canada land rights",
-        "US health debate",
-        "US election rules"
+        "Selloff",
+        "Awards",
+        "Unverified",
+        "Campaign"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Politique",
-          "headline": "Hanson veut abroger la loi australienne",
+          "category": "Marchés",
+          "headline": "Nvidia chute de plus de 5% en préouverture",
           "paragraphs": [
-            "La cheffe de One Nation, Pauline Hanson, dit qu'elle abrogerait la loi Digital Duty of Care.",
-            "Elle la qualifie d'orwellienne et veut un référendum. Il s'agit de son communiqué."
+            "Kobeissi Letter rapporte que NVDA a chuté de plus de 5% en pré-marché après vente tech en Asie.",
+            "Allégation d'un compte. Pas d'autre preuve dans les résultats."
           ],
-          "highlightParagraph": 1,
-          "trend": "Australia speech laws",
+          "highlightParagraph": 0,
+          "trend": "Selloff",
           "sources": [
             {
-              "label": "Pauline Hanson",
-              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
+              "label": "@KobeissiLetter",
+              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "Pauline Hanson",
-              "url": "https://x.com/PaulineHansonOz/status/2125109667974238514"
+              "text": "@KobeissiLetter",
+              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Monde",
-          "headline": "Post: Eisenkot ne voit pas de guerre Iran",
+          "category": "Sport",
+          "headline": "Duo des Baystars au Best Nine",
           "paragraphs": [
-            "Un compte dit que Gadi Eisenkot ne voit pas de menace iranienne immédiate exigeant la guerre, seulement l'uranium.",
-            "Il appelle cela une mauvaise nouvelle pour Netanyahu. L'affirmation n'est pas vérifiée ici."
+            "Yokohama DeNA Baystars dit que deux joueurs ont remporté le Best Nine 2026 de la Ligue centrale.",
+            "Posts officiels de l'équipe avec commentaires. Annonce sportive."
           ],
-          "highlightParagraph": 1,
-          "trend": "Israel-Iran claims",
+          "highlightParagraph": 0,
+          "trend": "Awards",
           "sources": [
             {
-              "label": "Iran Observer",
-              "url": "https://x.com/IranObserver0/status/2125106373046243621"
+              "label": "@ydb_yokohama",
+              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "Iran Observer",
-              "url": "https://x.com/IranObserver0/status/2125106373046243621"
+              "text": "@ydb_yokohama",
+              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Politique",
-          "headline": "Post: la CB va abroger la loi foncière",
+          "category": "Allégations",
+          "headline": "Post X allègue une arrestation panique",
           "paragraphs": [
-            "Un utilisateur dit que les conservateurs du Canada abrogeront DRIPA, qu'il appelle un désastre.",
-            "Il rapporte que des chefs des Premières Nations ont averti d'une zone de guerre. Ce sont ses dires."
+            "Compte étudiant de Belgrade affirme qu'une personne a été arrêtée pour avoir causé la panique.",
+            "Ajoute que des millions seront comptabilisés. Pas de noms ni de preuves."
           ],
-          "highlightParagraph": 1,
-          "trend": "Canada land rights",
+          "highlightParagraph": 0,
+          "trend": "Unverified",
           "sources": [
             {
-              "label": "Mario Zelaya",
-              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
+              "label": "@etfblokada",
+              "url": "https://x.com/etfblokada/status/2125521412341260383"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "Mario Zelaya",
-              "url": "https://x.com/mario4thenorth/status/2125060836255207482"
+              "text": "@etfblokada",
+              "url": "https://x.com/etfblokada/status/2125521412341260383"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Politique",
-          "headline": "Paul et un critique sur coûts de santé",
+          "category": "Social",
+          "headline": "Fans poussent boycott PBB, livestream",
           "paragraphs": [
-            "Rand Paul dit que Medicare for All n'est pas gratuit et coûterait environ 47 000 milliards de dollars.",
-            "Une réponse dit que Washington finance les guerres facilement, pas des soins moins chers. Ce sont des affirmations politiques."
+            "Des posts appellent à la transparence et veulent un livestream PBB sous tags de boycott.",
+            "Campagne menée par des fans sur X. Non confirmée comme actualité plus large."
           ],
-          "highlightParagraph": 1,
-          "trend": "US health debate",
+          "highlightParagraph": 0,
+          "trend": "Campaign",
           "sources": [
             {
-              "label": "Rand Paul",
-              "url": "https://x.com/RandPaul/status/2124518268811846005"
-            },
-            {
-              "label": "Richard Ojeda",
-              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
+              "label": "@_itsforkb",
+              "url": "https://x.com/_itsforkb/status/2125523992773902560"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "Rand Paul",
-              "url": "https://x.com/RandPaul/status/2124518268811846005"
-            },
-            {
-              "id": "104-1",
-              "text": "Richard Ojeda",
-              "url": "https://x.com/Ojeda4America/status/2125059177768730664"
-            }
-          ]
-        },
-        {
-          "page": 105,
-          "category": "Politique",
-          "headline": "Flynn: le GOP a échoué sur le vote",
-          "paragraphs": [
-            "Mike Flynn dit que les républicains n'ont pas réparé les systèmes de vote quand ils avaient le pouvoir.",
-            "Il dit que crier aux élections volées ne suffit pas. C'est son commentaire."
-          ],
-          "highlightParagraph": 1,
-          "trend": "US election rules",
-          "sources": [
-            {
-              "label": "Mike Flynn",
-              "url": "https://x.com/GenFlynn/status/2125054825477894167"
-            }
-          ],
-          "sourcePosts": [
-            {
-              "id": "105-0",
-              "text": "Mike Flynn",
-              "url": "https://x.com/GenFlynn/status/2125054825477894167"
+              "text": "@_itsforkb",
+              "url": "https://x.com/_itsforkb/status/2125523992773902560"
             }
           ]
         }
