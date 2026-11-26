@@ -1,110 +1,110 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-25T09:50:29.012Z",
+      "updatedAt": "2026-11-26T06:35:02.828Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Selloff",
-        "Awards",
-        "Unverified",
-        "Campaign"
+        "Security alert",
+        "Chip rivalry",
+        "AI rollout",
+        "FX claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Markets",
-          "headline": "Nvidia falls over 5% in premarket",
+          "category": "Cybersecurity",
+          "headline": "1Password breach claimed; vaults said safe",
           "paragraphs": [
-            "Kobeissi Letter reports NVDA down over 5% premarket after Asian tech selloff.",
-            "Single account claim. No further proof in results."
+            "The Hacker News says a staff GitHub account was hijacked, code injected, and customer data plus source code taken.",
+            "1Password says password vaults were not touched. Treat this as a reported claim, not confirmed here."
           ],
-          "highlightParagraph": 0,
-          "trend": "Selloff",
+          "highlightParagraph": 1,
+          "trend": "Security alert",
           "sources": [
             {
-              "label": "@KobeissiLetter",
-              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
+              "label": "@TheHackersNews",
+              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@KobeissiLetter",
-              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
+              "text": "@TheHackersNews",
+              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Sports",
-          "headline": "Baystars pair named to Best Nine",
+          "category": "Technology",
+          "headline": "China AI chips tipped for 88% by 2028",
           "paragraphs": [
-            "Yokohama DeNA Baystars say two players won 2026 Central League Best Nine.",
-            "Official team posts with comments. Sports announcement."
+            "BRICS News says Chinese-made AI chips are projected to hold 88% of China's market by 2028.",
+            "The account links the forecast to US export curbs and a push to cut foreign reliance. It is a projection, not an official figure."
           ],
           "highlightParagraph": 0,
-          "trend": "Awards",
+          "trend": "Chip rivalry",
           "sources": [
             {
-              "label": "@ydb_yokohama",
-              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
+              "label": "@BRICSinfo",
+              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@ydb_yokohama",
-              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
+              "text": "@BRICSinfo",
+              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Claims",
-          "headline": "X post alleges Serbia panic arrest",
+          "category": "Technology",
+          "headline": "Claude Duet AI agent opens in Japan",
           "paragraphs": [
-            "Belgrade student account claims a person was arrested for causing panic.",
-            "Adds that millions will be accounted for. No names or proof given."
+            "PC Watch says the autonomous AI agent Claude Duet is now available in Japan.",
+            "The post includes images and a link to its report. Access limits are not spelled out in the X post."
           ],
           "highlightParagraph": 0,
-          "trend": "Unverified",
+          "trend": "AI rollout",
           "sources": [
             {
-              "label": "@etfblokada",
-              "url": "https://x.com/etfblokada/status/2125521412341260383"
+              "label": "@pc_watch",
+              "url": "https://x.com/pc_watch/status/2125817355611857237"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@etfblokada",
-              "url": "https://x.com/etfblokada/status/2125521412341260383"
+              "text": "@pc_watch",
+              "url": "https://x.com/pc_watch/status/2125817355611857237"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Social",
-          "headline": "Fans push PBB boycott, livestream",
+          "category": "Economy",
+          "headline": "Rupiah record-low claim spreads online",
           "paragraphs": [
-            "Posts call to stand for transparency and want PBB livestream under boycott tags.",
-            "Fan-driven campaign on X. Not confirmed as wider news."
+            "A market account claims the rupiah hit 18,400 per US dollar, a record low, under President Prabowo.",
+            "The post calls it breaking news but cites no official source. The figure is an unverified claim."
           ],
-          "highlightParagraph": 0,
-          "trend": "Campaign",
+          "highlightParagraph": 1,
+          "trend": "FX claim",
           "sources": [
             {
-              "label": "@_itsforkb",
-              "url": "https://x.com/_itsforkb/status/2125523992773902560"
+              "label": "@LambeSahamjja",
+              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@_itsforkb",
-              "url": "https://x.com/_itsforkb/status/2125523992773902560"
+              "text": "@LambeSahamjja",
+              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
             }
           ]
         }
@@ -112,109 +112,109 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-25T09:50:29.012Z",
+      "updatedAt": "2026-11-26T06:35:02.828Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Selloff",
-        "Awards",
-        "Unverified",
-        "Campaign"
+        "Security alert",
+        "Chip rivalry",
+        "AI rollout",
+        "FX claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Marknader",
-          "headline": "Nvidia faller över 5% före börs",
+          "category": "Cybersäkerhet",
+          "headline": "1Password-hack påstås; valv orörda",
           "paragraphs": [
-            "Kobeissi Letter rapporterar att NVDA sjönk över 5% i förhandeln efter teknikfall i Asien.",
-            "Påstående från ett konto. Ingen ytterligare bevisning i resultaten."
+            "The Hacker News uppger att ett GitHub-konto hos personal kapades, kod injicerades och kunddata samt källkod togs.",
+            "1Password säger att lösenordsvalv inte rördes. Se det som ett påstående, inte bekräftat här."
           ],
-          "highlightParagraph": 0,
-          "trend": "Selloff",
+          "highlightParagraph": 1,
+          "trend": "Security alert",
           "sources": [
             {
-              "label": "@KobeissiLetter",
-              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
+              "label": "@TheHackersNews",
+              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@KobeissiLetter",
-              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
+              "text": "@TheHackersNews",
+              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Sport",
-          "headline": "Baystars-duo utsedda till Best Nine",
+          "category": "Teknik",
+          "headline": "Kinas AI-chip tippas till 88 % 2028",
           "paragraphs": [
-            "Yokohama DeNA Baystars säger att två spelare vann 2026 Central League Best Nine.",
-            "Officiella laginlägg med kommentarer. Sportmeddelande."
+            "BRICS News uppger att kinesiska AI-chip väntas ta 88 % av Kinas marknad till 2028.",
+            "Kontot kopplar prognosen till USA:s exportgränser och viljan att minska utlandsberoendet. Det är en prognos, inte en officiell siffra."
           ],
           "highlightParagraph": 0,
-          "trend": "Awards",
+          "trend": "Chip rivalry",
           "sources": [
             {
-              "label": "@ydb_yokohama",
-              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
+              "label": "@BRICSinfo",
+              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@ydb_yokohama",
-              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
+              "text": "@BRICSinfo",
+              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Påståenden",
-          "headline": "X-inlägg påstår gripande i Serbien",
+          "category": "Teknik",
+          "headline": "Claude Duet AI-agent ute i Japan",
           "paragraphs": [
-            "Studentkonto i Belgrad hävdar att en person greps för att ha orsakat panik.",
-            "Tilläger att miljoner ska redovisas. Inga namn eller bevis."
+            "PC Watch uppger att den autonoma AI-agenten Claude Duet nu finns i Japan.",
+            "Inlägget har bilder och en länk till rapporten. Begränsningar anges inte i själva X-inlägget."
           ],
           "highlightParagraph": 0,
-          "trend": "Unverified",
+          "trend": "AI rollout",
           "sources": [
             {
-              "label": "@etfblokada",
-              "url": "https://x.com/etfblokada/status/2125521412341260383"
+              "label": "@pc_watch",
+              "url": "https://x.com/pc_watch/status/2125817355611857237"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@etfblokada",
-              "url": "https://x.com/etfblokada/status/2125521412341260383"
+              "text": "@pc_watch",
+              "url": "https://x.com/pc_watch/status/2125817355611857237"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Socialt",
-          "headline": "Fans driver PBB-bojkott, livestream",
+          "category": "Ekonomi",
+          "headline": "Påstående: rupiah på rekordlåg nivå",
           "paragraphs": [
-            "Inlägg uppmanar till transparens och vill ha PBB-livestream under bojkottaggar.",
-            "Fan-driven kampanj på X. Inte bekräftat som bredare nyhet."
+            "Ett marknadskonto hävdar att rupiah nådde 18 400 per dollar, ett rekordlåg, under president Prabowo.",
+            "Inlägget kallar det breaking news men anger ingen officiell källa. Siffran är obekräftad."
           ],
-          "highlightParagraph": 0,
-          "trend": "Campaign",
+          "highlightParagraph": 1,
+          "trend": "FX claim",
           "sources": [
             {
-              "label": "@_itsforkb",
-              "url": "https://x.com/_itsforkb/status/2125523992773902560"
+              "label": "@LambeSahamjja",
+              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@_itsforkb",
-              "url": "https://x.com/_itsforkb/status/2125523992773902560"
+              "text": "@LambeSahamjja",
+              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
             }
           ]
         }
@@ -222,109 +222,109 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-25T09:50:29.012Z",
+      "updatedAt": "2026-11-26T06:35:02.828Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Selloff",
-        "Awards",
-        "Unverified",
-        "Campaign"
+        "Security alert",
+        "Chip rivalry",
+        "AI rollout",
+        "FX claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Märkte",
-          "headline": "Nvidia fällt über 5% im Vorbörse",
+          "category": "Cybersicherheit",
+          "headline": "1Password-Hack behauptet; Tresore sicher",
           "paragraphs": [
-            "Kobeissi Letter meldet NVDA über 5% im Minus im Vorbörsenhandel nach Tech-Verkauf in Asien.",
-            "Behauptung eines Kontos. Kein weiterer Beweis in den Ergebnissen."
+            "The Hacker News berichtet, ein GitHub-Konto eines Mitarbeiters sei gekapert, Code eingeschleust und Daten sowie Quellcode entwendet worden.",
+            "1Password sagt, Passwort-Tresore seien unberührt. Es ist eine Meldung, hier nicht bestätigt."
           ],
-          "highlightParagraph": 0,
-          "trend": "Selloff",
+          "highlightParagraph": 1,
+          "trend": "Security alert",
           "sources": [
             {
-              "label": "@KobeissiLetter",
-              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
+              "label": "@TheHackersNews",
+              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@KobeissiLetter",
-              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
+              "text": "@TheHackersNews",
+              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Sport",
-          "headline": "Baystars-Duo für Best Nine gewählt",
+          "category": "Technologie",
+          "headline": "Chinas KI-Chips: 88 % bis 2028 erwartet",
           "paragraphs": [
-            "Yokohama DeNA Baystars sagen, zwei Spieler gewannen 2026 Central League Best Nine.",
-            "Offizielle Teamposts mit Kommentaren. Sportankündigung."
+            "BRICS News berichtet, chinesische KI-Chips sollen bis 2028 88 % des Marktes in China halten.",
+            "Das Konto führt die Prognose auf US-Exportlimits und weniger Auslandabhängigkeit zurück. Es ist eine Projektion, keine amtliche Zahl."
           ],
           "highlightParagraph": 0,
-          "trend": "Awards",
+          "trend": "Chip rivalry",
           "sources": [
             {
-              "label": "@ydb_yokohama",
-              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
+              "label": "@BRICSinfo",
+              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@ydb_yokohama",
-              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
+              "text": "@BRICSinfo",
+              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Behauptungen",
-          "headline": "X-Post behauptet Panik-Verhaftung",
+          "category": "Technologie",
+          "headline": "Claude Duet KI-Agent startet in Japan",
           "paragraphs": [
-            "Belgrader Studentenkonto behauptet, eine Person wurde wegen Panikmache verhaftet.",
-            "Fügt hinzu, dass Millionen abgerechnet werden. Keine Namen oder Beweise."
+            "PC Watch meldet, der autonome KI-Agent Claude Duet sei nun in Japan verfügbar.",
+            "Der Beitrag zeigt Bilder und einen Link. Zugangslimits stehen nicht im X-Post."
           ],
           "highlightParagraph": 0,
-          "trend": "Unverified",
+          "trend": "AI rollout",
           "sources": [
             {
-              "label": "@etfblokada",
-              "url": "https://x.com/etfblokada/status/2125521412341260383"
+              "label": "@pc_watch",
+              "url": "https://x.com/pc_watch/status/2125817355611857237"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@etfblokada",
-              "url": "https://x.com/etfblokada/status/2125521412341260383"
+              "text": "@pc_watch",
+              "url": "https://x.com/pc_watch/status/2125817355611857237"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Soziales",
-          "headline": "Fans fordern PBB-Boykott, Livestream",
+          "category": "Wirtschaft",
+          "headline": "Behauptung: Rupiah auf Rekordtief",
           "paragraphs": [
-            "Posts fordern Transparenz und wollen PBB-Livestream unter Boykott-Tags.",
-            "Fan-getriebene Kampagne auf X. Nicht als breitere Nachricht bestätigt."
+            "Ein Marktkonto behauptet, die Rupiah sei auf 18.400 pro Dollar gefallen, ein Rekordtief unter Präsident Prabowo.",
+            "Der Post nennt es Eilmeldung, ohne amtliche Quelle. Die Zahl ist unbestätigt."
           ],
-          "highlightParagraph": 0,
-          "trend": "Campaign",
+          "highlightParagraph": 1,
+          "trend": "FX claim",
           "sources": [
             {
-              "label": "@_itsforkb",
-              "url": "https://x.com/_itsforkb/status/2125523992773902560"
+              "label": "@LambeSahamjja",
+              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@_itsforkb",
-              "url": "https://x.com/_itsforkb/status/2125523992773902560"
+              "text": "@LambeSahamjja",
+              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
             }
           ]
         }
@@ -332,109 +332,109 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-25T09:50:29.012Z",
+      "updatedAt": "2026-11-26T06:35:02.828Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Selloff",
-        "Awards",
-        "Unverified",
-        "Campaign"
+        "Security alert",
+        "Chip rivalry",
+        "AI rollout",
+        "FX claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Mercados",
-          "headline": "Nvidia cae más del 5% en preapertura",
+          "category": "Ciberseguridad",
+          "headline": "Hackeo a 1Password; bóvedas intactas",
           "paragraphs": [
-            "Kobeissi Letter informa que NVDA bajó más del 5% en premercado tras venta tech en Asia.",
-            "Afirmación de una cuenta. Sin más pruebas en los resultados."
+            "The Hacker News dice que se secuestró la cuenta de GitHub de un empleado, se inyectó código y se robaron datos y código fuente.",
+            "1Password afirma que las bóvedas no se tocaron. Es un reporte, no confirmado aquí."
           ],
-          "highlightParagraph": 0,
-          "trend": "Selloff",
+          "highlightParagraph": 1,
+          "trend": "Security alert",
           "sources": [
             {
-              "label": "@KobeissiLetter",
-              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
+              "label": "@TheHackersNews",
+              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@KobeissiLetter",
-              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
+              "text": "@TheHackersNews",
+              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Deportes",
-          "headline": "Dúo de Baystars en el Best Nine",
+          "category": "Tecnología",
+          "headline": "Chips de IA chinos: 88 % para 2028",
           "paragraphs": [
-            "Yokohama DeNA Baystars dice que dos jugadores ganaron el Best Nine 2026 de la Liga Central.",
-            "Publicaciones oficiales del equipo con comentarios. Anuncio deportivo."
+            "BRICS News informa que los chips de IA chinos dominarían el 88 % del mercado de China en 2028.",
+            "La cuenta vincula el pronóstico a los límites de exportación de EE. UU. y a reducir la dependencia externa. Es una proyección, no una cifra oficial."
           ],
           "highlightParagraph": 0,
-          "trend": "Awards",
+          "trend": "Chip rivalry",
           "sources": [
             {
-              "label": "@ydb_yokohama",
-              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
+              "label": "@BRICSinfo",
+              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@ydb_yokohama",
-              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
+              "text": "@BRICSinfo",
+              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Afirmaciones",
-          "headline": "Post en X alega arresto por pánico",
+          "category": "Tecnología",
+          "headline": "Agente de IA Claude Duet llega a Japón",
           "paragraphs": [
-            "Cuenta de estudiantes de Belgrado afirma que una persona fue arrestada por causar pánico.",
-            "Añade que millones serán rendidos. Sin nombres ni pruebas."
+            "PC Watch informa que el agente autónomo de IA Claude Duet ya está disponible en Japón.",
+            "El post incluye imágenes y un enlace. Los límites de acceso no se detallan en X."
           ],
           "highlightParagraph": 0,
-          "trend": "Unverified",
+          "trend": "AI rollout",
           "sources": [
             {
-              "label": "@etfblokada",
-              "url": "https://x.com/etfblokada/status/2125521412341260383"
+              "label": "@pc_watch",
+              "url": "https://x.com/pc_watch/status/2125817355611857237"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@etfblokada",
-              "url": "https://x.com/etfblokada/status/2125521412341260383"
+              "text": "@pc_watch",
+              "url": "https://x.com/pc_watch/status/2125817355611857237"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Social",
-          "headline": "Fans impulsan boicot PBB, livestream",
+          "category": "Economía",
+          "headline": "Circula cifra récord baja del rupiah",
           "paragraphs": [
-            "Publicaciones piden transparencia y quieren livestream de PBB bajo etiquetas de boicot.",
-            "Campaña impulsada por fans en X. No confirmada como noticia más amplia."
+            "Una cuenta de mercados afirma que el rupiah llegó a 18.400 por dólar, un mínimo récord, bajo el presidente Prabowo.",
+            "El post lo llama última hora y no cita fuente oficial. La cifra no está verificada."
           ],
-          "highlightParagraph": 0,
-          "trend": "Campaign",
+          "highlightParagraph": 1,
+          "trend": "FX claim",
           "sources": [
             {
-              "label": "@_itsforkb",
-              "url": "https://x.com/_itsforkb/status/2125523992773902560"
+              "label": "@LambeSahamjja",
+              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@_itsforkb",
-              "url": "https://x.com/_itsforkb/status/2125523992773902560"
+              "text": "@LambeSahamjja",
+              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
             }
           ]
         }
@@ -442,109 +442,109 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-25T09:50:29.012Z",
+      "updatedAt": "2026-11-26T06:35:02.828Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Selloff",
-        "Awards",
-        "Unverified",
-        "Campaign"
+        "Security alert",
+        "Chip rivalry",
+        "AI rollout",
+        "FX claim"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Marchés",
-          "headline": "Nvidia chute de plus de 5% en préouverture",
+          "category": "Cybersécurité",
+          "headline": "Piratage 1Password allégué; coffres sûrs",
           "paragraphs": [
-            "Kobeissi Letter rapporte que NVDA a chuté de plus de 5% en pré-marché après vente tech en Asie.",
-            "Allégation d'un compte. Pas d'autre preuve dans les résultats."
+            "The Hacker News indique qu'un compte GitHub d'employé a été piraté, du code injecté, et des données plus le code source volés.",
+            "1Password dit que les coffres n'ont pas été touchés. Allégation non confirmée ici."
           ],
-          "highlightParagraph": 0,
-          "trend": "Selloff",
+          "highlightParagraph": 1,
+          "trend": "Security alert",
           "sources": [
             {
-              "label": "@KobeissiLetter",
-              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
+              "label": "@TheHackersNews",
+              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@KobeissiLetter",
-              "url": "https://x.com/KobeissiLetter/status/2125519423142322382"
+              "text": "@TheHackersNews",
+              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Sport",
-          "headline": "Duo des Baystars au Best Nine",
+          "category": "Technologie",
+          "headline": "Puces IA chinoises: 88 % d'ici 2028",
           "paragraphs": [
-            "Yokohama DeNA Baystars dit que deux joueurs ont remporté le Best Nine 2026 de la Ligue centrale.",
-            "Posts officiels de l'équipe avec commentaires. Annonce sportive."
+            "BRICS News indique que les puces d'IA chinoises devraient tenir 88 % du marché chinois d'ici 2028.",
+            "Le compte lie la prévision aux restrictions d'export US et à moins de dépendance étrangère. C'est une projection, pas un chiffre officiel."
           ],
           "highlightParagraph": 0,
-          "trend": "Awards",
+          "trend": "Chip rivalry",
           "sources": [
             {
-              "label": "@ydb_yokohama",
-              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
+              "label": "@BRICSinfo",
+              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@ydb_yokohama",
-              "url": "https://x.com/ydb_yokohama/status/2125521455270293775"
+              "text": "@BRICSinfo",
+              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Allégations",
-          "headline": "Post X allègue une arrestation panique",
+          "category": "Technologie",
+          "headline": "Agent IA Claude Duet lancé au Japon",
           "paragraphs": [
-            "Compte étudiant de Belgrade affirme qu'une personne a été arrêtée pour avoir causé la panique.",
-            "Ajoute que des millions seront comptabilisés. Pas de noms ni de preuves."
+            "PC Watch indique que l'agent d'IA autonome Claude Duet est désormais disponible au Japon.",
+            "Le post montre des images et un lien. Les limites d'accès ne sont pas précisées sur X."
           ],
           "highlightParagraph": 0,
-          "trend": "Unverified",
+          "trend": "AI rollout",
           "sources": [
             {
-              "label": "@etfblokada",
-              "url": "https://x.com/etfblokada/status/2125521412341260383"
+              "label": "@pc_watch",
+              "url": "https://x.com/pc_watch/status/2125817355611857237"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@etfblokada",
-              "url": "https://x.com/etfblokada/status/2125521412341260383"
+              "text": "@pc_watch",
+              "url": "https://x.com/pc_watch/status/2125817355611857237"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Social",
-          "headline": "Fans poussent boycott PBB, livestream",
+          "category": "Économie",
+          "headline": "Allégation: rupiah au plus bas record",
           "paragraphs": [
-            "Des posts appellent à la transparence et veulent un livestream PBB sous tags de boycott.",
-            "Campagne menée par des fans sur X. Non confirmée comme actualité plus large."
+            "Un compte de marché affirme que le rupiah a atteint 18 400 pour un dollar, un plus bas record, sous le président Prabowo.",
+            "Le post parle d'alerte sans source officielle. Le chiffre reste non vérifié."
           ],
-          "highlightParagraph": 0,
-          "trend": "Campaign",
+          "highlightParagraph": 1,
+          "trend": "FX claim",
           "sources": [
             {
-              "label": "@_itsforkb",
-              "url": "https://x.com/_itsforkb/status/2125523992773902560"
+              "label": "@LambeSahamjja",
+              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@_itsforkb",
-              "url": "https://x.com/_itsforkb/status/2125523992773902560"
+              "text": "@LambeSahamjja",
+              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
             }
           ]
         }
