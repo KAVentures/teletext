@@ -1,110 +1,171 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-26T06:35:02.828Z",
+      "updatedAt": "2026-11-27T08:28:19.620Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Security alert",
-        "Chip rivalry",
-        "AI rollout",
-        "FX claim"
+        "Rising",
+        "Escalating",
+        "Tense",
+        "Watch",
+        "Reported"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Cybersecurity",
-          "headline": "1Password breach claimed; vaults said safe",
+          "category": "Economy",
+          "headline": "US tariff proposals spark trade warnings",
           "paragraphs": [
-            "The Hacker News says a staff GitHub account was hijacked, code injected, and customer data plus source code taken.",
-            "1Password says password vaults were not touched. Treat this as a reported claim, not confirmed here."
+            "X posts say Washington floated new tariffs on China, the EU and others.",
+            "Beijing and Brazil are said to have called the plans political. These claims are unverified."
           ],
-          "highlightParagraph": 1,
-          "trend": "Security alert",
+          "highlightParagraph": 0,
+          "trend": "Rising",
           "sources": [
             {
-              "label": "@TheHackersNews",
-              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "label": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@TheHackersNews",
-              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "id": "101-1",
+              "text": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Technology",
-          "headline": "China AI chips tipped for 88% by 2028",
+          "category": "Conflict",
+          "headline": "Houthi-Saudi clash claims circulate",
           "paragraphs": [
-            "BRICS News says Chinese-made AI chips are projected to hold 88% of China's market by 2028.",
-            "The account links the forecast to US export curbs and a push to cut foreign reliance. It is a projection, not an official figure."
+            "Posts say Saudi defenses intercepted Houthi missiles. Some allege hits on oil sites.",
+            "US alerts in the Gulf are also cited. Treat the details as unconfirmed claims."
           ],
-          "highlightParagraph": 0,
-          "trend": "Chip rivalry",
+          "highlightParagraph": 1,
+          "trend": "Escalating",
           "sources": [
             {
-              "label": "@BRICSinfo",
-              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2125944239901102179"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@BRICSinfo",
-              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "id": "102-1",
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2125944239901102179"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Technology",
-          "headline": "Claude Duet AI agent opens in Japan",
+          "category": "Europe",
+          "headline": "Merz warns Russia seeks wider aims",
           "paragraphs": [
-            "PC Watch says the autonomous AI agent Claude Duet is now available in Japan.",
-            "The post includes images and a link to its report. Access limits are not spelled out in the X post."
+            "Chancellor Merz is quoted warning Russia wants more than Ukraine and is escalating.",
+            "EU leaders are said to be divided over a large Ukraine funding package in Brussels."
           ],
           "highlightParagraph": 0,
-          "trend": "AI rollout",
+          "trend": "Tense",
           "sources": [
             {
-              "label": "@pc_watch",
-              "url": "https://x.com/pc_watch/status/2125817355611857237"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "label": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@pc_watch",
-              "url": "https://x.com/pc_watch/status/2125817355611857237"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "id": "103-1",
+              "text": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Economy",
-          "headline": "Rupiah record-low claim spreads online",
+          "category": "Climate",
+          "headline": "Heat-record and flood claims spread",
           "paragraphs": [
-            "A market account claims the rupiah hit 18,400 per US dollar, a record low, under President Prabowo.",
-            "The post calls it breaking news but cites no official source. The figure is an unverified claim."
+            "A shared post says Earth logged six straight days above 2C for the first time.",
+            "It also cites record tides flooding California roads. No confirmation is shown."
           ],
-          "highlightParagraph": 1,
-          "trend": "FX claim",
+          "highlightParagraph": 0,
+          "trend": "Watch",
           "sources": [
             {
-              "label": "@LambeSahamjja",
-              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@LambeSahamjja",
-              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Disaster",
+          "headline": "Cairo tanker blaze reported deadly",
+          "paragraphs": [
+            "Posts report a fuel tanker crash and fire on a highway near Cairo.",
+            "A death toll of about 31 is circulating. These posts do not show official confirmation."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Reported",
+          "sources": [
+            {
+              "label": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+            },
+            {
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2126025456952422531"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+            },
+            {
+              "id": "105-1",
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2126025456952422531"
             }
           ]
         }
@@ -112,109 +173,170 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-26T06:35:02.828Z",
+      "updatedAt": "2026-11-27T08:28:19.620Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Security alert",
-        "Chip rivalry",
-        "AI rollout",
-        "FX claim"
+        "Rising",
+        "Escalating",
+        "Tense",
+        "Watch",
+        "Reported"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Cybersäkerhet",
-          "headline": "1Password-hack påstås; valv orörda",
+          "category": "Ekonomi",
+          "headline": "USA-tullar väcker handelsvarningar",
           "paragraphs": [
-            "The Hacker News uppger att ett GitHub-konto hos personal kapades, kod injicerades och kunddata samt källkod togs.",
-            "1Password säger att lösenordsvalv inte rördes. Se det som ett påstående, inte bekräftat här."
+            "På X sägs Washington ha lagt fram nya tullar mot Kina, EU och andra.",
+            "Peking och Brasilien ska ha kallat planerna politiska. Uppgifterna är obekräftade."
           ],
-          "highlightParagraph": 1,
-          "trend": "Security alert",
+          "highlightParagraph": 0,
+          "trend": "Rising",
           "sources": [
             {
-              "label": "@TheHackersNews",
-              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "label": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@TheHackersNews",
-              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "id": "101-1",
+              "text": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Teknik",
-          "headline": "Kinas AI-chip tippas till 88 % 2028",
+          "category": "Konflikt",
+          "headline": "Uppgifter om Houthi-Saudi-strider",
           "paragraphs": [
-            "BRICS News uppger att kinesiska AI-chip väntas ta 88 % av Kinas marknad till 2028.",
-            "Kontot kopplar prognosen till USA:s exportgränser och viljan att minska utlandsberoendet. Det är en prognos, inte en officiell siffra."
+            "Inlägg säger att saudiskt luftvärn stoppade houthi-robotar. Vissa nämner träffar.",
+            "USA-varningar i Gulfen citeras också. Detaljerna är obekräftade påståenden."
           ],
-          "highlightParagraph": 0,
-          "trend": "Chip rivalry",
+          "highlightParagraph": 1,
+          "trend": "Escalating",
           "sources": [
             {
-              "label": "@BRICSinfo",
-              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2125944239901102179"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@BRICSinfo",
-              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "id": "102-1",
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2125944239901102179"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Teknik",
-          "headline": "Claude Duet AI-agent ute i Japan",
+          "category": "Europa",
+          "headline": "Merz varnar: Ryssland vill mer",
           "paragraphs": [
-            "PC Watch uppger att den autonoma AI-agenten Claude Duet nu finns i Japan.",
-            "Inlägget har bilder och en länk till rapporten. Begränsningar anges inte i själva X-inlägget."
+            "Förbundskansler Merz citeras varna för att Ryssland vill mer än Ukraina och eskalerar.",
+            "EU-ledare sägs vara splittrade om ett stort Ukraina-paket i Bryssel."
           ],
           "highlightParagraph": 0,
-          "trend": "AI rollout",
+          "trend": "Tense",
           "sources": [
             {
-              "label": "@pc_watch",
-              "url": "https://x.com/pc_watch/status/2125817355611857237"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "label": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@pc_watch",
-              "url": "https://x.com/pc_watch/status/2125817355611857237"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "id": "103-1",
+              "text": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Ekonomi",
-          "headline": "Påstående: rupiah på rekordlåg nivå",
+          "category": "Klimat",
+          "headline": "Värme- och översvämningspåståenden",
           "paragraphs": [
-            "Ett marknadskonto hävdar att rupiah nådde 18 400 per dollar, ett rekordlåg, under president Prabowo.",
-            "Inlägget kallar det breaking news men anger ingen officiell källa. Siffran är obekräftad."
+            "Ett delat inlägg säger att jorden hade sex dagar över 2 grader för första gången.",
+            "Det nämner också rekordtidvatten i Kalifornien. Ingen bekräftelse visas."
           ],
-          "highlightParagraph": 1,
-          "trend": "FX claim",
+          "highlightParagraph": 0,
+          "trend": "Watch",
           "sources": [
             {
-              "label": "@LambeSahamjja",
-              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@LambeSahamjja",
-              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Katastrof",
+          "headline": "Tankbrand i Kairo rapporteras dödlig",
+          "paragraphs": [
+            "Inlägg rapporterar en tankbilskrasch och brand på en motorväg nära Kairo.",
+            "En dödssiffra på cirka 31 cirkulerar. Officiell bekräftelse saknas i inläggen."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Reported",
+          "sources": [
+            {
+              "label": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+            },
+            {
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2126025456952422531"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+            },
+            {
+              "id": "105-1",
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2126025456952422531"
             }
           ]
         }
@@ -222,109 +344,170 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-26T06:35:02.828Z",
+      "updatedAt": "2026-11-27T08:28:19.620Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Security alert",
-        "Chip rivalry",
-        "AI rollout",
-        "FX claim"
+        "Rising",
+        "Escalating",
+        "Tense",
+        "Watch",
+        "Reported"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Cybersicherheit",
-          "headline": "1Password-Hack behauptet; Tresore sicher",
+          "category": "Wirtschaft",
+          "headline": "US-Zollpläne lösen Warnungen aus",
           "paragraphs": [
-            "The Hacker News berichtet, ein GitHub-Konto eines Mitarbeiters sei gekapert, Code eingeschleust und Daten sowie Quellcode entwendet worden.",
-            "1Password sagt, Passwort-Tresore seien unberührt. Es ist eine Meldung, hier nicht bestätigt."
+            "Auf X heißt es, Washington habe neue Zölle gegen China, die EU und andere erwogen.",
+            "Peking und Brasilia sollen die Pläne politisch genannt haben. Unbestätigt."
           ],
-          "highlightParagraph": 1,
-          "trend": "Security alert",
+          "highlightParagraph": 0,
+          "trend": "Rising",
           "sources": [
             {
-              "label": "@TheHackersNews",
-              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "label": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@TheHackersNews",
-              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "id": "101-1",
+              "text": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Technologie",
-          "headline": "Chinas KI-Chips: 88 % bis 2028 erwartet",
+          "category": "Konflikt",
+          "headline": "Houthi-Saudi: Abwehr-Meldungen",
           "paragraphs": [
-            "BRICS News berichtet, chinesische KI-Chips sollen bis 2028 88 % des Marktes in China halten.",
-            "Das Konto führt die Prognose auf US-Exportlimits und weniger Auslandabhängigkeit zurück. Es ist eine Projektion, keine amtliche Zahl."
+            "Posts sagen, saudische Abwehr habe Houthi-Raketen abgefangen. Einige nennen Treffer.",
+            "US-Warnungen am Golf werden ebenfalls zitiert. Details gelten als unbestätigt."
           ],
-          "highlightParagraph": 0,
-          "trend": "Chip rivalry",
+          "highlightParagraph": 1,
+          "trend": "Escalating",
           "sources": [
             {
-              "label": "@BRICSinfo",
-              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2125944239901102179"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@BRICSinfo",
-              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "id": "102-1",
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2125944239901102179"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Technologie",
-          "headline": "Claude Duet KI-Agent startet in Japan",
+          "category": "Europa",
+          "headline": "Merz warnt: Russland will mehr",
           "paragraphs": [
-            "PC Watch meldet, der autonome KI-Agent Claude Duet sei nun in Japan verfügbar.",
-            "Der Beitrag zeigt Bilder und einen Link. Zugangslimits stehen nicht im X-Post."
+            "Kanzler Merz wird zitiert: Russland wolle mehr als die Ukraine und eskaliere stark.",
+            "EU-Chefs sollen über ein großes Ukraine-Paket in Brüssel gespalten sein."
           ],
           "highlightParagraph": 0,
-          "trend": "AI rollout",
+          "trend": "Tense",
           "sources": [
             {
-              "label": "@pc_watch",
-              "url": "https://x.com/pc_watch/status/2125817355611857237"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "label": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@pc_watch",
-              "url": "https://x.com/pc_watch/status/2125817355611857237"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "id": "103-1",
+              "text": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Wirtschaft",
-          "headline": "Behauptung: Rupiah auf Rekordtief",
+          "category": "Klima",
+          "headline": "Hitze- und Flutbehauptungen kursieren",
           "paragraphs": [
-            "Ein Marktkonto behauptet, die Rupiah sei auf 18.400 pro Dollar gefallen, ein Rekordtief unter Präsident Prabowo.",
-            "Der Post nennt es Eilmeldung, ohne amtliche Quelle. Die Zahl ist unbestätigt."
+            "Ein geteilter Post sagt, die Erde habe erstmals sechs Tage über 2 Grad gelegen.",
+            "Er nennt auch Rekordfluten in Kalifornien. Eine Bestätigung fehlt."
           ],
-          "highlightParagraph": 1,
-          "trend": "FX claim",
+          "highlightParagraph": 0,
+          "trend": "Watch",
           "sources": [
             {
-              "label": "@LambeSahamjja",
-              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@LambeSahamjja",
-              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Katastrophe",
+          "headline": "Kairo: Tankerbrand soll tödlich sein",
+          "paragraphs": [
+            "Posts berichten von einem Tanklaster-Unfall und Brand nahe Kairo.",
+            "Eine Zahl von etwa 31 Toten kursiert. Amtliche Bestätigung fehlt in den Posts."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Reported",
+          "sources": [
+            {
+              "label": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+            },
+            {
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2126025456952422531"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+            },
+            {
+              "id": "105-1",
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2126025456952422531"
             }
           ]
         }
@@ -332,109 +515,170 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-26T06:35:02.828Z",
+      "updatedAt": "2026-11-27T08:28:19.620Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Security alert",
-        "Chip rivalry",
-        "AI rollout",
-        "FX claim"
+        "Rising",
+        "Escalating",
+        "Tense",
+        "Watch",
+        "Reported"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Ciberseguridad",
-          "headline": "Hackeo a 1Password; bóvedas intactas",
+          "category": "Economía",
+          "headline": "Aranceles de EE.UU. generan alertas",
           "paragraphs": [
-            "The Hacker News dice que se secuestró la cuenta de GitHub de un empleado, se inyectó código y se robaron datos y código fuente.",
-            "1Password afirma que las bóvedas no se tocaron. Es un reporte, no confirmado aquí."
+            "En X se dice que Washington planteó nuevos aranceles a China, la UE y otros.",
+            "Pekín y Brasilia habrían tildado los planes de políticos. Sin confirmar."
           ],
-          "highlightParagraph": 1,
-          "trend": "Security alert",
+          "highlightParagraph": 0,
+          "trend": "Rising",
           "sources": [
             {
-              "label": "@TheHackersNews",
-              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "label": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@TheHackersNews",
-              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "id": "101-1",
+              "text": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Tecnología",
-          "headline": "Chips de IA chinos: 88 % para 2028",
+          "category": "Conflicto",
+          "headline": "Circulan choques hutíes-saudíes",
           "paragraphs": [
-            "BRICS News informa que los chips de IA chinos dominarían el 88 % del mercado de China en 2028.",
-            "La cuenta vincula el pronóstico a los límites de exportación de EE. UU. y a reducir la dependencia externa. Es una proyección, no una cifra oficial."
+            "Posts dicen que defensas saudíes interceptaron misiles hutíes. Algunos alegan impactos.",
+            "También se citan alertas de EE.UU. en el Golfo. Datos sin confirmar."
           ],
-          "highlightParagraph": 0,
-          "trend": "Chip rivalry",
+          "highlightParagraph": 1,
+          "trend": "Escalating",
           "sources": [
             {
-              "label": "@BRICSinfo",
-              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2125944239901102179"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@BRICSinfo",
-              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "id": "102-1",
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2125944239901102179"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Tecnología",
-          "headline": "Agente de IA Claude Duet llega a Japón",
+          "category": "Europa",
+          "headline": "Merz advierte metas rusas más amplias",
           "paragraphs": [
-            "PC Watch informa que el agente autónomo de IA Claude Duet ya está disponible en Japón.",
-            "El post incluye imágenes y un enlace. Los límites de acceso no se detallan en X."
+            "Se cita al canciller Merz: Rusia quiere más que Ucrania y escala a gran escala.",
+            "Líderes de la UE estarían divididos sobre un gran paquete para Ucrania."
           ],
           "highlightParagraph": 0,
-          "trend": "AI rollout",
+          "trend": "Tense",
           "sources": [
             {
-              "label": "@pc_watch",
-              "url": "https://x.com/pc_watch/status/2125817355611857237"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "label": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@pc_watch",
-              "url": "https://x.com/pc_watch/status/2125817355611857237"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "id": "103-1",
+              "text": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Economía",
-          "headline": "Circula cifra récord baja del rupiah",
+          "category": "Clima",
+          "headline": "Circulan récord de calor e inundaciones",
           "paragraphs": [
-            "Una cuenta de mercados afirma que el rupiah llegó a 18.400 por dólar, un mínimo récord, bajo el presidente Prabowo.",
-            "El post lo llama última hora y no cita fuente oficial. La cifra no está verificada."
+            "Un post dice que la Tierra tuvo seis días seguidos por encima de 2 °C por primera vez.",
+            "También cita mareas récord en California. No se muestra confirmación."
           ],
-          "highlightParagraph": 1,
-          "trend": "FX claim",
+          "highlightParagraph": 0,
+          "trend": "Watch",
           "sources": [
             {
-              "label": "@LambeSahamjja",
-              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@LambeSahamjja",
-              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Desastre",
+          "headline": "Incendio de cisterna en El Cairo",
+          "paragraphs": [
+            "Posts informan de un choque e incendio de cisterna cerca de El Cairo.",
+            "Circula una cifra de unos 31 muertos. Estos posts no muestran confirmación oficial."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Reported",
+          "sources": [
+            {
+              "label": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+            },
+            {
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2126025456952422531"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+            },
+            {
+              "id": "105-1",
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2126025456952422531"
             }
           ]
         }
@@ -442,109 +686,170 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-26T06:35:02.828Z",
+      "updatedAt": "2026-11-27T08:28:19.620Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Security alert",
-        "Chip rivalry",
-        "AI rollout",
-        "FX claim"
+        "Rising",
+        "Escalating",
+        "Tense",
+        "Watch",
+        "Reported"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Cybersécurité",
-          "headline": "Piratage 1Password allégué; coffres sûrs",
+          "category": "Économie",
+          "headline": "Droits US: alertes commerciales",
           "paragraphs": [
-            "The Hacker News indique qu'un compte GitHub d'employé a été piraté, du code injecté, et des données plus le code source volés.",
-            "1Password dit que les coffres n'ont pas été touchés. Allégation non confirmée ici."
+            "Sur X, on dit que Washington a proposé de nouveaux droits sur la Chine, l'UE et d'autres.",
+            "Pékin et Brasilia auraient jugé ces plans politiques. Non confirmé."
           ],
-          "highlightParagraph": 1,
-          "trend": "Security alert",
+          "highlightParagraph": 0,
+          "trend": "Rising",
           "sources": [
             {
-              "label": "@TheHackersNews",
-              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "label": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "@TheHackersNews",
-              "url": "https://x.com/TheHackersNews/status/2125807208684458289"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "id": "101-1",
+              "text": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Technologie",
-          "headline": "Puces IA chinoises: 88 % d'ici 2028",
+          "category": "Conflit",
+          "headline": "Affrontements houthi-saoudiens cités",
           "paragraphs": [
-            "BRICS News indique que les puces d'IA chinoises devraient tenir 88 % du marché chinois d'ici 2028.",
-            "Le compte lie la prévision aux restrictions d'export US et à moins de dépendance étrangère. C'est une projection, pas un chiffre officiel."
+            "Des posts disent que la défense saoudienne a intercepté des missiles houthi. Certains parlent de frappes.",
+            "Des alertes US dans le Golfe sont aussi citées. Détails non confirmés."
           ],
-          "highlightParagraph": 0,
-          "trend": "Chip rivalry",
+          "highlightParagraph": 1,
+          "trend": "Escalating",
           "sources": [
             {
-              "label": "@BRICSinfo",
-              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "label": "News v2",
+              "url": "https://x.com/News_v2_App/status/2125944239901102179"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "@BRICSinfo",
-              "url": "https://x.com/BRICSinfo/status/2125802952896163921"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "id": "102-1",
+              "text": "News v2",
+              "url": "https://x.com/News_v2_App/status/2125944239901102179"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Technologie",
-          "headline": "Agent IA Claude Duet lancé au Japon",
+          "category": "Europe",
+          "headline": "Merz: la Russie viserait plus loin",
           "paragraphs": [
-            "PC Watch indique que l'agent d'IA autonome Claude Duet est désormais disponible au Japon.",
-            "Le post montre des images et un lien. Les limites d'accès ne sont pas précisées sur X."
+            "Le chancelier Merz est cité: la Russie voudrait plus que l'Ukraine et escalade.",
+            "Les dirigeants de l'UE seraient divisés sur un vaste financement pour Kiev."
           ],
           "highlightParagraph": 0,
-          "trend": "AI rollout",
+          "trend": "Tense",
           "sources": [
             {
-              "label": "@pc_watch",
-              "url": "https://x.com/pc_watch/status/2125817355611857237"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "label": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "@pc_watch",
-              "url": "https://x.com/pc_watch/status/2125817355611857237"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            },
+            {
+              "id": "103-1",
+              "text": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Économie",
-          "headline": "Allégation: rupiah au plus bas record",
+          "category": "Climat",
+          "headline": "Records de chaleur et inondations cités",
           "paragraphs": [
-            "Un compte de marché affirme que le rupiah a atteint 18 400 pour un dollar, un plus bas record, sous le président Prabowo.",
-            "Le post parle d'alerte sans source officielle. Le chiffre reste non vérifié."
+            "Un post partagé dit que la Terre a eu six jours au-dessus de 2 °C pour la première fois.",
+            "Il cite aussi des marées record en Californie. Aucune confirmation n'est montrée."
           ],
-          "highlightParagraph": 1,
-          "trend": "FX claim",
+          "highlightParagraph": 0,
+          "trend": "Watch",
           "sources": [
             {
-              "label": "@LambeSahamjja",
-              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
+              "label": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "@LambeSahamjja",
-              "url": "https://x.com/LambeSahamjja/status/2125805598281474108"
+              "text": "The Fault Line",
+              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+            }
+          ]
+        },
+        {
+          "page": 105,
+          "category": "Catastrophe",
+          "headline": "Incendie de citerne au Caire signalé",
+          "paragraphs": [
+            "Des posts rapportent un accident et un incendie de citerne près du Caire.",
+            "Un bilan d'environ 31 morts circule. Pas de confirmation officielle dans ces posts."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Reported",
+          "sources": [
+            {
+              "label": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+            },
+            {
+              "label": "Grok",
+              "url": "https://x.com/grok/status/2126025456952422531"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "105-0",
+              "text": "mhiz claire Ngozi",
+              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+            },
+            {
+              "id": "105-1",
+              "text": "Grok",
+              "url": "https://x.com/grok/status/2126025456952422531"
             }
           ]
         }
