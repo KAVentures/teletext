@@ -1,171 +1,187 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "editions": {
     "en": {
-      "updatedAt": "2026-11-27T08:28:19.620Z",
+      "updatedAt": "2026-11-28T09:06:59.585Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Rising",
-        "Escalating",
-        "Tense",
-        "Watch",
-        "Reported"
+        "Rising concern",
+        "Talks stalled",
+        "Weather impact",
+        "Election watch",
+        "Rescue claims",
+        "Trade watch"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Economy",
-          "headline": "US tariff proposals spark trade warnings",
+          "category": "Conflict",
+          "headline": "Kyiv warns of new Russian strike wave",
           "paragraphs": [
-            "X posts say Washington floated new tariffs on China, the EU and others.",
-            "Beijing and Brazil are said to have called the plans political. These claims are unverified."
+            "X posts say Zelenskyy warned that Russia is preparing a new mass strike on Ukraine. An analyst says Kyiv may face a hard stretch by mid-December.",
+            "These are claims on X, not proof. They have not been independently checked here."
           ],
           "highlightParagraph": 0,
-          "trend": "Rising",
+          "trend": "Rising concern",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
-              "label": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "label": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
               "id": "101-1",
-              "text": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "text": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Conflict",
-          "headline": "Houthi-Saudi clash claims circulate",
+          "category": "Europe",
+          "headline": "Posts say EU budget summit collapsed",
           "paragraphs": [
-            "Posts say Saudi defenses intercepted Houthi missiles. Some allege hits on oil sites.",
-            "US alerts in the Gulf are also cited. Treat the details as unconfirmed claims."
+            "Accounts on X report that an EU budget summit collapsed and Ukraine aid was set aside. One post cites a large multi-year package.",
+            "Treat the sums and the collapse as unconfirmed social claims."
           ],
-          "highlightParagraph": 1,
-          "trend": "Escalating",
+          "highlightParagraph": 0,
+          "trend": "Talks stalled",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2125944239901102179"
+              "label": "@News_v2_App",
+              "url": "https://x.com/News_v2_App/status/2126446293585203601"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
               "id": "102-1",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2125944239901102179"
+              "text": "@News_v2_App",
+              "url": "https://x.com/News_v2_App/status/2126446293585203601"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Europe",
-          "headline": "Merz warns Russia seeks wider aims",
+          "category": "Americas",
+          "headline": "Storm disrupts US Thanksgiving travel",
           "paragraphs": [
-            "Chancellor Merz is quoted warning Russia wants more than Ukraine and is escalating.",
-            "EU leaders are said to be divided over a large Ukraine funding package in Brussels."
+            "Posts on X, citing news outlets, say a severe East Coast storm cut power for many and snarled flights over Thanksgiving.",
+            "One account says the Macy's parade was postponed to Saturday. Confirm with official updates."
           ],
           "highlightParagraph": 0,
-          "trend": "Tense",
+          "trend": "Weather impact",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
             },
             {
-              "label": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
             },
             {
               "id": "103-1",
-              "text": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Climate",
-          "headline": "Heat-record and flood claims spread",
+          "category": "Politics",
+          "headline": "NZ count leaves coalition short of majority",
           "paragraphs": [
-            "A shared post says Earth logged six straight days above 2C for the first time.",
-            "It also cites record tides flooding California roads. No confirmation is shown."
+            "A post on X says New Zealand's special votes left the National-ACT-NZ First coalition at 65 seats, one short of a majority.",
+            "The Opportunity Party is called a kingmaker. This is a circulating claim, not an official result here."
           ],
           "highlightParagraph": 0,
-          "trend": "Watch",
+          "trend": "Election watch",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Disaster",
-          "headline": "Cairo tanker blaze reported deadly",
+          "category": "Asia",
+          "headline": "Indonesia mine flood: deaths claimed",
           "paragraphs": [
-            "Posts report a fuel tanker crash and fire on a highway near Cairo.",
-            "A death toll of about 31 is circulating. These posts do not show official confirmation."
+            "A world roundup on X says 13 miners were found dead in a flooded pit in West Java, with 13 still missing.",
+            "The toll is a social-media claim and is not verified in this bulletin."
           ],
           "highlightParagraph": 0,
-          "trend": "Reported",
+          "trend": "Rescue claims",
           "sources": [
             {
-              "label": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
-            },
-            {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2126025456952422531"
+              "label": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
-            },
+              "text": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Trade",
+          "headline": "X posts claim new US tariffs",
+          "paragraphs": [
+            "An X account, citing BBC, says the US announced new tariffs on countries including China, the EU and India.",
+            "This bulletin has not checked the report. Treat it as a claim shared on X."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Trade watch",
+          "sources": [
             {
-              "id": "105-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2126025456952422531"
+              "label": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
             }
           ]
         }
@@ -173,170 +189,186 @@
       "language": "en"
     },
     "sv": {
-      "updatedAt": "2026-11-27T08:28:19.620Z",
+      "updatedAt": "2026-11-28T09:06:59.585Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Rising",
-        "Escalating",
-        "Tense",
-        "Watch",
-        "Reported"
+        "Rising concern",
+        "Talks stalled",
+        "Weather impact",
+        "Election watch",
+        "Rescue claims",
+        "Trade watch"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Ekonomi",
-          "headline": "USA-tullar väcker handelsvarningar",
+          "category": "Konflikt",
+          "headline": "Kyiv varnar för ny rysk attackvåg",
           "paragraphs": [
-            "På X sägs Washington ha lagt fram nya tullar mot Kina, EU och andra.",
-            "Peking och Brasilien ska ha kallat planerna politiska. Uppgifterna är obekräftade."
+            "Inlägg på X säger att Zelenskyj varnat för att Ryssland förbereder en ny massiv attack mot Ukraina. En analytiker säger att Kyiv kan få ett hårt läge i mitten av december.",
+            "Detta är påståenden på X, inte bevis. De har inte kontrollerats oberoende här."
           ],
           "highlightParagraph": 0,
-          "trend": "Rising",
+          "trend": "Rising concern",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
-              "label": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "label": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
               "id": "101-1",
-              "text": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "text": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Konflikt",
-          "headline": "Uppgifter om Houthi-Saudi-strider",
+          "category": "Europa",
+          "headline": "Inlägg: EU:s budgettoppmöte föll",
           "paragraphs": [
-            "Inlägg säger att saudiskt luftvärn stoppade houthi-robotar. Vissa nämner träffar.",
-            "USA-varningar i Gulfen citeras också. Detaljerna är obekräftade påståenden."
+            "Konton på X uppger att ett EU-budgettoppmöte kollapsade och att Ukrainastödet sköts åt sidan. Ett inlägg nämner ett stort flerårigt paket.",
+            "Summorna och kollapsen ska ses som obekräftade påståenden i sociala medier."
           ],
-          "highlightParagraph": 1,
-          "trend": "Escalating",
+          "highlightParagraph": 0,
+          "trend": "Talks stalled",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2125944239901102179"
+              "label": "@News_v2_App",
+              "url": "https://x.com/News_v2_App/status/2126446293585203601"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
               "id": "102-1",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2125944239901102179"
+              "text": "@News_v2_App",
+              "url": "https://x.com/News_v2_App/status/2126446293585203601"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Europa",
-          "headline": "Merz varnar: Ryssland vill mer",
+          "category": "Amerika",
+          "headline": "Storm stör USA:s thanksgivingresor",
           "paragraphs": [
-            "Förbundskansler Merz citeras varna för att Ryssland vill mer än Ukraina och eskalerar.",
-            "EU-ledare sägs vara splittrade om ett stort Ukraina-paket i Bryssel."
+            "Inlägg på X, som hänvisar till nyhetsmedier, säger att en svår storm på östkusten slog ut el och störde flyg under thanksgiving.",
+            "Ett konto säger att Macy's-paraden sköts upp till lördag. Bekräfta med officiella uppgifter."
           ],
           "highlightParagraph": 0,
-          "trend": "Tense",
+          "trend": "Weather impact",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
             },
             {
-              "label": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
             },
             {
               "id": "103-1",
-              "text": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Klimat",
-          "headline": "Värme- och översvämningspåståenden",
+          "category": "Politik",
+          "headline": "NZ-räkning: koalition utan majoritet",
           "paragraphs": [
-            "Ett delat inlägg säger att jorden hade sex dagar över 2 grader för första gången.",
-            "Det nämner också rekordtidvatten i Kalifornien. Ingen bekräftelse visas."
+            "Ett inlägg på X säger att Nya Zeelands slutröster lämnade koalitionen National-ACT-NZ First på 65 mandat, ett under majoritet.",
+            "Opportunity Party kallas vågmästare. Det är ett cirkulerande påstående, inte ett officiellt resultat här."
           ],
           "highlightParagraph": 0,
-          "trend": "Watch",
+          "trend": "Election watch",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Katastrof",
-          "headline": "Tankbrand i Kairo rapporteras dödlig",
+          "category": "Asien",
+          "headline": "Gruvflod i Indonesien: dödsfall uppges",
           "paragraphs": [
-            "Inlägg rapporterar en tankbilskrasch och brand på en motorväg nära Kairo.",
-            "En dödssiffra på cirka 31 cirkulerar. Officiell bekräftelse saknas i inläggen."
+            "En världssammanfattning på X säger att 13 gruvarbetare hittats döda i en översvämmad gruva i Västra Java och att 13 saknas.",
+            "Dödstalet är ett påstående i sociala medier och är inte verifierat i denna bulletin."
           ],
           "highlightParagraph": 0,
-          "trend": "Reported",
+          "trend": "Rescue claims",
           "sources": [
             {
-              "label": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
-            },
-            {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2126025456952422531"
+              "label": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
-            },
+              "text": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Handel",
+          "headline": "Inlägg på X: nya USA-tullar uppges",
+          "paragraphs": [
+            "Ett konto på X, som hänvisar till BBC, säger att USA aviserat nya tullar mot länder som Kina, EU och Indien.",
+            "Denna bulletin har inte kontrollerat rapporten. Se det som ett påstående delat på X."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Trade watch",
+          "sources": [
             {
-              "id": "105-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2126025456952422531"
+              "label": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
             }
           ]
         }
@@ -344,170 +376,186 @@
       "language": "sv"
     },
     "de": {
-      "updatedAt": "2026-11-27T08:28:19.620Z",
+      "updatedAt": "2026-11-28T09:06:59.585Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Rising",
-        "Escalating",
-        "Tense",
-        "Watch",
-        "Reported"
+        "Rising concern",
+        "Talks stalled",
+        "Weather impact",
+        "Election watch",
+        "Rescue claims",
+        "Trade watch"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Wirtschaft",
-          "headline": "US-Zollpläne lösen Warnungen aus",
+          "category": "Konflikt",
+          "headline": "Kyjiw warnt vor neuer Angriffswelle",
           "paragraphs": [
-            "Auf X heißt es, Washington habe neue Zölle gegen China, die EU und andere erwogen.",
-            "Peking und Brasilia sollen die Pläne politisch genannt haben. Unbestätigt."
+            "Beiträge auf X sagen, Selenskyj habe vor einem neuen russischen Massenangriff auf die Ukraine gewarnt. Ein Analyst sieht für Kyjiw bis Mitte Dezember eine harte Lage.",
+            "Das sind Behauptungen auf X, kein Beweis. Hier nicht unabhängig geprüft."
           ],
           "highlightParagraph": 0,
-          "trend": "Rising",
+          "trend": "Rising concern",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
-              "label": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "label": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
               "id": "101-1",
-              "text": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "text": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Konflikt",
-          "headline": "Houthi-Saudi: Abwehr-Meldungen",
+          "category": "Europa",
+          "headline": "Posts: EU-Haushaltsgipfel gescheitert",
           "paragraphs": [
-            "Posts sagen, saudische Abwehr habe Houthi-Raketen abgefangen. Einige nennen Treffer.",
-            "US-Warnungen am Golf werden ebenfalls zitiert. Details gelten als unbestätigt."
+            "Konten auf X berichten, ein EU-Haushaltsgipfel sei gescheitert und Ukraine-Hilfe zurückgestellt worden. Ein Post nennt ein großes Mehrjahrespaket.",
+            "Summen und Scheitern gelten hier als unbestätigte Behauptungen in sozialen Medien."
           ],
-          "highlightParagraph": 1,
-          "trend": "Escalating",
+          "highlightParagraph": 0,
+          "trend": "Talks stalled",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2125944239901102179"
+              "label": "@News_v2_App",
+              "url": "https://x.com/News_v2_App/status/2126446293585203601"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
               "id": "102-1",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2125944239901102179"
+              "text": "@News_v2_App",
+              "url": "https://x.com/News_v2_App/status/2126446293585203601"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Europa",
-          "headline": "Merz warnt: Russland will mehr",
+          "category": "Amerika",
+          "headline": "Sturm stört US-Reisen zu Thanksgiving",
           "paragraphs": [
-            "Kanzler Merz wird zitiert: Russland wolle mehr als die Ukraine und eskaliere stark.",
-            "EU-Chefs sollen über ein großes Ukraine-Paket in Brüssel gespalten sein."
+            "Posts auf X, die Medien zitieren, sprechen von einem schweren Ostküstensturm mit Stromausfällen und Flugchaos an Thanksgiving.",
+            "Ein Konto sagt, die Macy's-Parade sei auf Samstag verschoben worden. Offizielle Meldungen prüfen."
           ],
           "highlightParagraph": 0,
-          "trend": "Tense",
+          "trend": "Weather impact",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
             },
             {
-              "label": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
             },
             {
               "id": "103-1",
-              "text": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Klima",
-          "headline": "Hitze- und Flutbehauptungen kursieren",
+          "category": "Politik",
+          "headline": "NZ-Auszählung: Koalition ohne Mehrheit",
           "paragraphs": [
-            "Ein geteilter Post sagt, die Erde habe erstmals sechs Tage über 2 Grad gelegen.",
-            "Er nennt auch Rekordfluten in Kalifornien. Eine Bestätigung fehlt."
+            "Ein Post auf X sagt, Neuseelands Sonderstimmen ließen die Koalition National-ACT-NZ First bei 65 Sitzen, einen unter der Mehrheit.",
+            "Die Opportunity Party gilt als Zünglein an der Waage. Umlaufende Behauptung, hier kein amtliches Ergebnis."
           ],
           "highlightParagraph": 0,
-          "trend": "Watch",
+          "trend": "Election watch",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Katastrophe",
-          "headline": "Kairo: Tankerbrand soll tödlich sein",
+          "category": "Asien",
+          "headline": "Grubenflut Indonesien: Tote gemeldet",
           "paragraphs": [
-            "Posts berichten von einem Tanklaster-Unfall und Brand nahe Kairo.",
-            "Eine Zahl von etwa 31 Toten kursiert. Amtliche Bestätigung fehlt in den Posts."
+            "Eine Weltrundschau auf X sagt, 13 Bergleute seien in einer überfluteten Grube in Westjava tot gefunden worden, 13 würden noch vermisst.",
+            "Die Zahl ist eine Social-Media-Behauptung und hier nicht geprüft."
           ],
           "highlightParagraph": 0,
-          "trend": "Reported",
+          "trend": "Rescue claims",
           "sources": [
             {
-              "label": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
-            },
-            {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2126025456952422531"
+              "label": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
-            },
+              "text": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Handel",
+          "headline": "Posts auf X: neue US-Zölle behauptet",
+          "paragraphs": [
+            "Ein X-Konto, das die BBC zitiert, sagt, die USA hätten neue Zölle gegen Länder wie China, die EU und Indien angekündigt.",
+            "Dieser Bericht wurde hier nicht geprüft. Als auf X geteilte Behauptung behandeln."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Trade watch",
+          "sources": [
             {
-              "id": "105-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2126025456952422531"
+              "label": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
             }
           ]
         }
@@ -515,170 +563,186 @@
       "language": "de"
     },
     "es": {
-      "updatedAt": "2026-11-27T08:28:19.620Z",
+      "updatedAt": "2026-11-28T09:06:59.585Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Rising",
-        "Escalating",
-        "Tense",
-        "Watch",
-        "Reported"
+        "Rising concern",
+        "Talks stalled",
+        "Weather impact",
+        "Election watch",
+        "Rescue claims",
+        "Trade watch"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Economía",
-          "headline": "Aranceles de EE.UU. generan alertas",
+          "category": "Conflicto",
+          "headline": "Kiev alerta de nueva oleada rusa",
           "paragraphs": [
-            "En X se dice que Washington planteó nuevos aranceles a China, la UE y otros.",
-            "Pekín y Brasilia habrían tildado los planes de políticos. Sin confirmar."
+            "Publicaciones en X dicen que Zelenski advirtió que Rusia prepara un nuevo ataque masivo contra Ucrania. Un analista sitúa a Kiev en una fase dura hacia mediados de diciembre.",
+            "Son afirmaciones en X, no pruebas. No se han verificado de forma independiente aquí."
           ],
           "highlightParagraph": 0,
-          "trend": "Rising",
+          "trend": "Rising concern",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
-              "label": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "label": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
               "id": "101-1",
-              "text": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "text": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Conflicto",
-          "headline": "Circulan choques hutíes-saudíes",
+          "category": "Europa",
+          "headline": "Posts: fracasa cumbre presupuestaria UE",
           "paragraphs": [
-            "Posts dicen que defensas saudíes interceptaron misiles hutíes. Algunos alegan impactos.",
-            "También se citan alertas de EE.UU. en el Golfo. Datos sin confirmar."
+            "Cuentas en X informan de que una cumbre del presupuesto de la UE fracasó y la ayuda a Ucrania quedó apartada. Un post cita un gran paquete plurianual.",
+            "Las cifras y el fracaso son afirmaciones sociales no confirmadas."
           ],
-          "highlightParagraph": 1,
-          "trend": "Escalating",
+          "highlightParagraph": 0,
+          "trend": "Talks stalled",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2125944239901102179"
+              "label": "@News_v2_App",
+              "url": "https://x.com/News_v2_App/status/2126446293585203601"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
               "id": "102-1",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2125944239901102179"
+              "text": "@News_v2_App",
+              "url": "https://x.com/News_v2_App/status/2126446293585203601"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Europa",
-          "headline": "Merz advierte metas rusas más amplias",
+          "category": "América",
+          "headline": "Tormenta altera viajes de Acción de Gracias",
           "paragraphs": [
-            "Se cita al canciller Merz: Rusia quiere más que Ucrania y escala a gran escala.",
-            "Líderes de la UE estarían divididos sobre un gran paquete para Ucrania."
+            "Posts en X, que citan medios, dicen que una fuerte tormenta en la costa este dejó sin luz a muchos y alteró vuelos en Acción de Gracias.",
+            "Una cuenta dice que el desfile de Macy's se aplazó al sábado. Confirme con avisos oficiales."
           ],
           "highlightParagraph": 0,
-          "trend": "Tense",
+          "trend": "Weather impact",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
             },
             {
-              "label": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
             },
             {
               "id": "103-1",
-              "text": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Clima",
-          "headline": "Circulan récord de calor e inundaciones",
+          "category": "Política",
+          "headline": "Recuento NZ: coalición sin mayoría",
           "paragraphs": [
-            "Un post dice que la Tierra tuvo seis días seguidos por encima de 2 °C por primera vez.",
-            "También cita mareas récord en California. No se muestra confirmación."
+            "Un post en X dice que el recuento especial de Nueva Zelanda dejó a la coalición National-ACT-NZ First en 65 escaños, uno bajo la mayoría.",
+            "Se llama al Opportunity Party árbitro. Es un reclamo en circulación, no un resultado oficial aquí."
           ],
           "highlightParagraph": 0,
-          "trend": "Watch",
+          "trend": "Election watch",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Desastre",
-          "headline": "Incendio de cisterna en El Cairo",
+          "category": "Asia",
+          "headline": "Inundación minera en Indonesia: muertes",
           "paragraphs": [
-            "Posts informan de un choque e incendio de cisterna cerca de El Cairo.",
-            "Circula una cifra de unos 31 muertos. Estos posts no muestran confirmación oficial."
+            "Un resumen mundial en X dice que 13 mineros fueron hallados muertos en un pozo inundado en Java Occidental y que 13 siguen desaparecidos.",
+            "La cifra es una afirmación en redes y no está verificada en este boletín."
           ],
           "highlightParagraph": 0,
-          "trend": "Reported",
+          "trend": "Rescue claims",
           "sources": [
             {
-              "label": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
-            },
-            {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2126025456952422531"
+              "label": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
-            },
+              "text": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Comercio",
+          "headline": "Posts en X afirman nuevos aranceles de EE.UU.",
+          "paragraphs": [
+            "Una cuenta en X, que cita a la BBC, dice que EE.UU. anunció nuevos aranceles a países como China, la UE e India.",
+            "Este boletín no ha comprobado el informe. Trátelo como una afirmación compartida en X."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Trade watch",
+          "sources": [
             {
-              "id": "105-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2126025456952422531"
+              "label": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
             }
           ]
         }
@@ -686,170 +750,186 @@
       "language": "es"
     },
     "fr": {
-      "updatedAt": "2026-11-27T08:28:19.620Z",
+      "updatedAt": "2026-11-28T09:06:59.585Z",
       "mode": "live",
       "basis": "Worldwide X-derived bulletin. One scheduled update per UTC day.",
       "trends": [
-        "Rising",
-        "Escalating",
-        "Tense",
-        "Watch",
-        "Reported"
+        "Rising concern",
+        "Talks stalled",
+        "Weather impact",
+        "Election watch",
+        "Rescue claims",
+        "Trade watch"
       ],
       "stories": [
         {
           "page": 101,
-          "category": "Économie",
-          "headline": "Droits US: alertes commerciales",
+          "category": "Conflit",
+          "headline": "Kyiv alerte sur une nouvelle vague russe",
           "paragraphs": [
-            "Sur X, on dit que Washington a proposé de nouveaux droits sur la Chine, l'UE et d'autres.",
-            "Pékin et Brasilia auraient jugé ces plans politiques. Non confirmé."
+            "Des posts sur X disent que Zelensky a averti que la Russie prépare une nouvelle frappe massive sur l'Ukraine. Un analyste évoque une situation dure à Kyiv d'ici mi-décembre.",
+            "Ce sont des affirmations sur X, pas des preuves. Non vérifiées ici de façon indépendante."
           ],
           "highlightParagraph": 0,
-          "trend": "Rising",
+          "trend": "Rising concern",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
-              "label": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "label": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
             }
           ],
           "sourcePosts": [
             {
               "id": "101-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
               "id": "101-1",
-              "text": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "text": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
             }
           ]
         },
         {
           "page": 102,
-          "category": "Conflit",
-          "headline": "Affrontements houthi-saoudiens cités",
+          "category": "Europe",
+          "headline": "Posts: sommet budgétaire UE échoue",
           "paragraphs": [
-            "Des posts disent que la défense saoudienne a intercepté des missiles houthi. Certains parlent de frappes.",
-            "Des alertes US dans le Golfe sont aussi citées. Détails non confirmés."
+            "Des comptes sur X rapportent qu'un sommet budgétaire de l'UE a échoué et que l'aide à l'Ukraine a été mise de côté. Un post cite un vaste paquet pluriannuel.",
+            "Montants et échec restent des affirmations sociales non confirmées."
           ],
-          "highlightParagraph": 1,
-          "trend": "Escalating",
+          "highlightParagraph": 0,
+          "trend": "Talks stalled",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
-              "label": "News v2",
-              "url": "https://x.com/News_v2_App/status/2125944239901102179"
+              "label": "@News_v2_App",
+              "url": "https://x.com/News_v2_App/status/2126446293585203601"
             }
           ],
           "sourcePosts": [
             {
               "id": "102-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@WorldAffairsPro",
+              "url": "https://x.com/WorldAffairsPro/status/2126316266436612423"
             },
             {
               "id": "102-1",
-              "text": "News v2",
-              "url": "https://x.com/News_v2_App/status/2125944239901102179"
+              "text": "@News_v2_App",
+              "url": "https://x.com/News_v2_App/status/2126446293585203601"
             }
           ]
         },
         {
           "page": 103,
-          "category": "Europe",
-          "headline": "Merz: la Russie viserait plus loin",
+          "category": "Amériques",
+          "headline": "Tempête perturbe les voyages US",
           "paragraphs": [
-            "Le chancelier Merz est cité: la Russie voudrait plus que l'Ukraine et escalade.",
-            "Les dirigeants de l'UE seraient divisés sur un vaste financement pour Kiev."
+            "Des posts sur X, citant des médias, disent qu'une forte tempête sur la côte est a coupé le courant et perturbé les vols à Thanksgiving.",
+            "Un compte dit que la parade de Macy's a été reportée à samedi. À confirmer officiellement."
           ],
           "highlightParagraph": 0,
-          "trend": "Tense",
+          "trend": "Weather impact",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
             },
             {
-              "label": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ],
           "sourcePosts": [
             {
               "id": "103-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
             },
             {
               "id": "103-1",
-              "text": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ]
         },
         {
           "page": 104,
-          "category": "Climat",
-          "headline": "Records de chaleur et inondations cités",
+          "category": "Politique",
+          "headline": "NZ: coalition sans majorité selon un post",
           "paragraphs": [
-            "Un post partagé dit que la Terre a eu six jours au-dessus de 2 °C pour la première fois.",
-            "Il cite aussi des marées record en Californie. Aucune confirmation n'est montrée."
+            "Un post sur X dit que le décompte spécial en Nouvelle-Zélande laisse la coalition National-ACT-NZ First à 65 sièges, un sous la majorité.",
+            "L'Opportunity Party est présenté comme faiseur de roi. Affirmation en circulation, pas un résultat officiel ici."
           ],
           "highlightParagraph": 0,
-          "trend": "Watch",
+          "trend": "Election watch",
           "sources": [
             {
-              "label": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "label": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ],
           "sourcePosts": [
             {
               "id": "104-0",
-              "text": "The Fault Line",
-              "url": "https://x.com/faultlineworld/status/2125895106821816632"
+              "text": "@grok",
+              "url": "https://x.com/grok/status/2126173519755059412"
             }
           ]
         },
         {
           "page": 105,
-          "category": "Catastrophe",
-          "headline": "Incendie de citerne au Caire signalé",
+          "category": "Asie",
+          "headline": "Mine inondée en Indonésie: morts cités",
           "paragraphs": [
-            "Des posts rapportent un accident et un incendie de citerne près du Caire.",
-            "Un bilan d'environ 31 morts circule. Pas de confirmation officielle dans ces posts."
+            "Un tour du monde sur X dit que 13 mineurs ont été retrouvés morts dans un puits inondé à Java occidental, 13 étant encore portés disparus.",
+            "Le bilan est une affirmation sur les réseaux, non vérifiée dans ce bulletin."
           ],
           "highlightParagraph": 0,
-          "trend": "Reported",
+          "trend": "Rescue claims",
           "sources": [
             {
-              "label": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
-            },
-            {
-              "label": "Grok",
-              "url": "https://x.com/grok/status/2126025456952422531"
+              "label": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
             }
           ],
           "sourcePosts": [
             {
               "id": "105-0",
-              "text": "mhiz claire Ngozi",
-              "url": "https://x.com/mhiz_ngozi/status/2126010476941254977"
-            },
+              "text": "@snakeyesV1",
+              "url": "https://x.com/snakeyesV1/status/2126146576771146050"
+            }
+          ]
+        },
+        {
+          "page": 106,
+          "category": "Commerce",
+          "headline": "Des posts X évoquent de nouveaux tarifs US",
+          "paragraphs": [
+            "Un compte X, citant la BBC, dit que les États-Unis ont annoncé de nouveaux tarifs visant notamment la Chine, l'UE et l'Inde.",
+            "Ce bulletin n'a pas vérifié le reportage. À traiter comme une affirmation partagée sur X."
+          ],
+          "highlightParagraph": 0,
+          "trend": "Trade watch",
+          "sources": [
             {
-              "id": "105-1",
-              "text": "Grok",
-              "url": "https://x.com/grok/status/2126025456952422531"
+              "label": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
+            }
+          ],
+          "sourcePosts": [
+            {
+              "id": "106-0",
+              "text": "@92security",
+              "url": "https://x.com/92security/status/2126301987151270354"
             }
           ]
         }
